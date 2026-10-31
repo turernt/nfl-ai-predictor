@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T22:18:08+00:00",
+  "generated_at": "2026-10-31T22:51:44+00:00",
   "season": 2026,
   "week": 8,
   "model": {
@@ -25,7 +25,8 @@
         "nick": "Bills",
         "color": "#00338D",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-        "elo": 1652.8
+        "elo": 1652.8,
+        "record": "5-1"
       },
       "away": {
         "abbr": "BAL",
@@ -33,14 +34,76 @@
         "nick": "Ravens",
         "color": "#241773",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
-        "elo": 1517.4
+        "elo": 1517.4,
+        "record": "4-3"
       },
       "prob_home_win": 74.2,
       "prob_away_win": 25.8,
       "predicted_spread": -7.3,
       "vegas_spread": -3.0,
+      "vegas_total": 54.5,
+      "projected_score": {
+        "home": 31,
+        "away": 24
+      },
+      "scorers": [
+        {
+          "name": "James Cook",
+          "team": "BUF",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/anjbznqb9i21wzcgrtbs",
+          "prob": 64.3,
+          "season_tds": 6,
+          "status": null
+        },
+        {
+          "name": "Derrick Henry",
+          "team": "BAL",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tm79x0iknqg6hms3ypyt",
+          "prob": 59.4,
+          "season_tds": 8,
+          "status": null
+        },
+        {
+          "name": "Josh Allen",
+          "team": "BUF",
+          "position": "QB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ynrhq9iv30ysjpwmrfdv",
+          "prob": 50.9,
+          "season_tds": 8,
+          "status": null
+        },
+        {
+          "name": "Zay Flowers",
+          "team": "BAL",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xzhto2dejy2pflkfx40c",
+          "prob": 33.6,
+          "season_tds": 3,
+          "status": null
+        },
+        {
+          "name": "Keon Coleman",
+          "team": "BUF",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/garesglkqop2fvgc5bgh",
+          "prob": 32.0,
+          "season_tds": 3,
+          "status": null
+        },
+        {
+          "name": "Mark Andrews",
+          "team": "BAL",
+          "position": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/u4xzz7tclch0tpzm9hhz",
+          "prob": 15.7,
+          "season_tds": 1,
+          "status": null
+        }
+      ],
       "confidence_score": "Élevée",
-      "commentary": "Avantage Bills (74 %), à domicile. Le modèle annonce un écart plus large que les bookmakers (−3,0)."
+      "commentary": "Avantage Bills (74 %), à domicile. Le modèle annonce un écart plus large que les bookmakers (−3,0)."
     },
     {
       "game_id": "2026_08_TEN_CIN",
@@ -55,7 +118,8 @@
         "nick": "Bengals",
         "color": "#FB4F14",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
-        "elo": 1565.5
+        "elo": 1565.5,
+        "record": "4-2"
       },
       "away": {
         "abbr": "TEN",
@@ -63,14 +127,76 @@
         "nick": "Titans",
         "color": "#4495D2",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
-        "elo": 1314.7
+        "elo": 1314.7,
+        "record": "1-6"
       },
       "prob_home_win": 84.8,
       "prob_away_win": 15.2,
       "predicted_spread": -12.0,
       "vegas_spread": -12.5,
+      "vegas_total": 46.5,
+      "projected_score": {
+        "home": 29,
+        "away": 17
+      },
+      "scorers": [
+        {
+          "name": "Tony Pollard",
+          "team": "TEN",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/u4poetcrbxffcuyglmj8",
+          "prob": 50.0,
+          "season_tds": 4,
+          "status": null
+        },
+        {
+          "name": "Ja'Marr Chase",
+          "team": "CIN",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qya3dtjb5kgofcuj2tuw",
+          "prob": 44.3,
+          "season_tds": 5,
+          "status": null
+        },
+        {
+          "name": "Mike Gesicki",
+          "team": "CIN",
+          "position": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dykckg6we3cnw9yhpggi",
+          "prob": 38.4,
+          "season_tds": 5,
+          "status": null
+        },
+        {
+          "name": "Chase Brown",
+          "team": "CIN",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tch3y6jlj7khvyi9jg0c",
+          "prob": 37.9,
+          "season_tds": 1,
+          "status": null
+        },
+        {
+          "name": "Wan'Dale Robinson",
+          "team": "TEN",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/e4fazi7xfvo5c7aquenn",
+          "prob": 19.9,
+          "season_tds": 2,
+          "status": null
+        },
+        {
+          "name": "Cam Ward",
+          "team": "TEN",
+          "position": "QB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/l7iuimdeqgmmhdzdhl67",
+          "prob": 12.1,
+          "season_tds": 2,
+          "status": null
+        }
+      ],
       "confidence_score": "Élevée",
-      "commentary": "Avantage Bengals (85 %), à domicile."
+      "commentary": "Avantage Bengals (85 %), à domicile."
     },
     {
       "game_id": "2026_08_ARI_DAL",
@@ -85,7 +211,8 @@
         "nick": "Cowboys",
         "color": "#002244",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
-        "elo": 1471.6
+        "elo": 1471.6,
+        "record": "3-4"
       },
       "away": {
         "abbr": "ARI",
@@ -93,14 +220,76 @@
         "nick": "Cardinals",
         "color": "#97233F",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-        "elo": 1379.2
+        "elo": 1379.2,
+        "record": "2-5"
       },
       "prob_home_win": 69.2,
       "prob_away_win": 30.8,
       "predicted_spread": -5.6,
       "vegas_spread": -7.0,
+      "vegas_total": 54.5,
+      "projected_score": {
+        "home": 30,
+        "away": 24
+      },
+      "scorers": [
+        {
+          "name": "Javonte Williams",
+          "team": "DAL",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xvwroirev2kie6oiphtz",
+          "prob": 66.0,
+          "season_tds": 9,
+          "status": null
+        },
+        {
+          "name": "CeeDee Lamb",
+          "team": "DAL",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mbblzwtynxr15ovzkevi",
+          "prob": 51.4,
+          "season_tds": 6,
+          "status": null
+        },
+        {
+          "name": "Trey McBride",
+          "team": "ARI",
+          "position": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/psasp10nn5pcvkli9kil",
+          "prob": 41.9,
+          "season_tds": 4,
+          "status": null
+        },
+        {
+          "name": "George Pickens",
+          "team": "DAL",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cbpyykoguf7rsxezqzvk",
+          "prob": 31.5,
+          "season_tds": 2,
+          "status": "Questionable"
+        },
+        {
+          "name": "Jeremiyah Love",
+          "team": "ARI",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/b12gtjsylmql5v7iyyla",
+          "prob": 26.2,
+          "season_tds": 2,
+          "status": null
+        },
+        {
+          "name": "Tyler Allgeier",
+          "team": "ARI",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/sp9lhhmpv4qy3xy2msxd",
+          "prob": 26.1,
+          "season_tds": 1,
+          "status": null
+        }
+      ],
       "confidence_score": "Modérée",
-      "commentary": "Avantage Cowboys (69 %), à domicile."
+      "commentary": "Avantage Cowboys (69 %), à domicile."
     },
     {
       "game_id": "2026_08_MIN_DET",
@@ -115,7 +304,8 @@
         "nick": "Lions",
         "color": "#0076B6",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
-        "elo": 1564.8
+        "elo": 1564.8,
+        "record": "4-2"
       },
       "away": {
         "abbr": "MIN",
@@ -123,14 +313,76 @@
         "nick": "Vikings",
         "color": "#4F2683",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
-        "elo": 1636.4
+        "elo": 1636.4,
+        "record": "6-0"
       },
       "prob_home_win": 46.6,
       "prob_away_win": 53.4,
       "predicted_spread": 0.9,
       "vegas_spread": -3.0,
+      "vegas_total": 46.5,
+      "projected_score": {
+        "home": 23,
+        "away": 24
+      },
+      "scorers": [
+        {
+          "name": "Jahmyr Gibbs",
+          "team": "DET",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cursejnmmp1i9hnxihkj",
+          "prob": 60.9,
+          "season_tds": 9,
+          "status": null
+        },
+        {
+          "name": "Aaron Jones",
+          "team": "MIN",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bktkfvgfwujkdbzkcfim",
+          "prob": 46.8,
+          "season_tds": 2,
+          "status": null
+        },
+        {
+          "name": "Jameson Williams",
+          "team": "DET",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/byiptqggtglvy5qrw5wp",
+          "prob": 35.7,
+          "season_tds": 4,
+          "status": null
+        },
+        {
+          "name": "Amon-Ra St. Brown",
+          "team": "DET",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fd8nwhm6pvxfyzphzl6i",
+          "prob": 32.4,
+          "season_tds": 5,
+          "status": null
+        },
+        {
+          "name": "Justin Jefferson",
+          "team": "MIN",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tzx1iqbxxa1807m6olwj",
+          "prob": 27.9,
+          "season_tds": 3,
+          "status": null
+        },
+        {
+          "name": "T.J. Hockenson",
+          "team": "MIN",
+          "position": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/rs8o65x0u0n9xzde0fd6",
+          "prob": 26.7,
+          "season_tds": 2,
+          "status": null
+        }
+      ],
       "confidence_score": "Faible",
-      "commentary": "Avantage Vikings (53 %), à l’extérieur. Les bookmakers voient plutôt Lions gagner : lecture opposée à surveiller."
+      "commentary": "Avantage Vikings (53 %), à l’extérieur. Les bookmakers voient plutôt Lions gagner : lecture opposée à surveiller."
     },
     {
       "game_id": "2026_08_IND_JAX",
@@ -145,7 +397,8 @@
         "nick": "Jaguars",
         "color": "#006778",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
-        "elo": 1607.6
+        "elo": 1607.6,
+        "record": "4-2"
       },
       "away": {
         "abbr": "IND",
@@ -153,14 +406,76 @@
         "nick": "Colts",
         "color": "#002C5F",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-        "elo": 1418.6
+        "elo": 1418.6,
+        "record": "2-5"
       },
       "prob_home_win": 79.6,
       "prob_away_win": 20.4,
       "predicted_spread": -9.5,
       "vegas_spread": -10.0,
+      "vegas_total": 46.5,
+      "projected_score": {
+        "home": 28,
+        "away": 18
+      },
+      "scorers": [
+        {
+          "name": "Bhayshul Tuten",
+          "team": "JAX",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ryjnphuyjbedmgpx5qqj",
+          "prob": 56.1,
+          "season_tds": 4,
+          "status": null
+        },
+        {
+          "name": "Jonathan Taylor",
+          "team": "IND",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/d7pmatz5wylijbsplnkg",
+          "prob": 54.0,
+          "season_tds": 8,
+          "status": null
+        },
+        {
+          "name": "Parker Washington",
+          "team": "JAX",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yn0hc5xrz5nqeccg8two",
+          "prob": 40.9,
+          "season_tds": 4,
+          "status": null
+        },
+        {
+          "name": "Chris Rodriguez Jr.",
+          "team": "JAX",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pknd5uajvpvfd8c744im",
+          "prob": 28.3,
+          "season_tds": 2,
+          "status": null
+        },
+        {
+          "name": "Tyler Warren",
+          "team": "IND",
+          "position": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ggbgv9okpladwqzth5l5",
+          "prob": 19.0,
+          "season_tds": 3,
+          "status": null
+        },
+        {
+          "name": "Keenan Allen",
+          "team": "IND",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ri267r6lzfwarh89hsn6",
+          "prob": 13.1,
+          "season_tds": 1,
+          "status": null
+        }
+      ],
       "confidence_score": "Élevée",
-      "commentary": "Avantage Jaguars (80 %), à domicile."
+      "commentary": "Avantage Jaguars (80 %), à domicile."
     },
     {
       "game_id": "2026_08_LV_NYJ",
@@ -175,7 +490,8 @@
         "nick": "Jets",
         "color": "#003F2D",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
-        "elo": 1364.7
+        "elo": 1364.7,
+        "record": "2-5"
       },
       "away": {
         "abbr": "LV",
@@ -183,14 +499,76 @@
         "nick": "Raiders",
         "color": "#000000",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
-        "elo": 1401.4
+        "elo": 1401.4,
+        "record": "3-4"
       },
       "prob_home_win": 51.6,
       "prob_away_win": 48.4,
       "predicted_spread": -0.5,
       "vegas_spread": -1.5,
+      "vegas_total": 45.5,
+      "projected_score": {
+        "home": 23,
+        "away": 22
+      },
+      "scorers": [
+        {
+          "name": "Ashton Jeanty",
+          "team": "LV",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/syspis1mntov9kgspb7r",
+          "prob": 44.1,
+          "season_tds": 4,
+          "status": null
+        },
+        {
+          "name": "Braelon Allen",
+          "team": "NYJ",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/x78ebxfvyyuemrxyank1",
+          "prob": 43.6,
+          "season_tds": 2,
+          "status": null
+        },
+        {
+          "name": "Tre Tucker",
+          "team": "LV",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hazzk3hrcequzosdgzgv",
+          "prob": 35.2,
+          "season_tds": 4,
+          "status": null
+        },
+        {
+          "name": "Garrett Wilson",
+          "team": "NYJ",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bo2gf1ohffbzo0rd71kp",
+          "prob": 30.4,
+          "season_tds": 3,
+          "status": null
+        },
+        {
+          "name": "Brock Bowers",
+          "team": "LV",
+          "position": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/waorceny0ggpaeckaol8",
+          "prob": 26.9,
+          "season_tds": 3,
+          "status": null
+        },
+        {
+          "name": "Mason Taylor",
+          "team": "NYJ",
+          "position": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lejmnygqgkeu7ujr7x36",
+          "prob": 26.5,
+          "season_tds": 2,
+          "status": null
+        }
+      ],
       "confidence_score": "Faible",
-      "commentary": "Avantage Jets (52 %), à domicile. Match très ouvert face à Raiders."
+      "commentary": "Avantage Jets (52 %), à domicile. Match très ouvert face à Raiders."
     },
     {
       "game_id": "2026_08_CLE_PIT",
@@ -205,7 +583,8 @@
         "nick": "Steelers",
         "color": "#000000",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
-        "elo": 1557.5
+        "elo": 1557.5,
+        "record": "5-2"
       },
       "away": {
         "abbr": "CLE",
@@ -213,14 +592,76 @@
         "nick": "Browns",
         "color": "#FF3C00",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
-        "elo": 1468.7
+        "elo": 1468.7,
+        "record": "5-2"
       },
       "prob_home_win": 68.7,
       "prob_away_win": 31.3,
       "predicted_spread": -5.5,
       "vegas_spread": -3.5,
+      "vegas_total": 38.5,
+      "projected_score": {
+        "home": 22,
+        "away": 16
+      },
+      "scorers": [
+        {
+          "name": "Jaylen Warren",
+          "team": "PIT",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dkiteytgnxar1mpaxcxv",
+          "prob": 40.8,
+          "season_tds": 2,
+          "status": null
+        },
+        {
+          "name": "Quinshon Judkins",
+          "team": "CLE",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ojtce2im0wp2ltyel0vc",
+          "prob": 35.1,
+          "season_tds": 3,
+          "status": null
+        },
+        {
+          "name": "Pat Freiermuth",
+          "team": "PIT",
+          "position": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pyrdsypgggjshiaygkr7",
+          "prob": 29.5,
+          "season_tds": 4,
+          "status": null
+        },
+        {
+          "name": "Darnell Washington",
+          "team": "PIT",
+          "position": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/inwx7uipfktapaump5pj",
+          "prob": 27.5,
+          "season_tds": 3,
+          "status": null
+        },
+        {
+          "name": "Harold Fannin Jr.",
+          "team": "CLE",
+          "position": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fxublmpnxx9uggsddwik",
+          "prob": 19.6,
+          "season_tds": 3,
+          "status": null
+        },
+        {
+          "name": "Denzel Boston",
+          "team": "CLE",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ybkny6eh5eegq3bqmony",
+          "prob": 19.4,
+          "season_tds": 3,
+          "status": null
+        }
+      ],
       "confidence_score": "Modérée",
-      "commentary": "Avantage Steelers (69 %), à domicile."
+      "commentary": "Avantage Steelers (69 %), à domicile."
     },
     {
       "game_id": "2026_08_ATL_TB",
@@ -235,7 +676,8 @@
         "nick": "Buccaneers",
         "color": "#A71930",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-        "elo": 1475.6
+        "elo": 1475.6,
+        "record": "2-5"
       },
       "away": {
         "abbr": "ATL",
@@ -243,14 +685,76 @@
         "nick": "Falcons",
         "color": "#A71930",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
-        "elo": 1489.2
+        "elo": 1489.2,
+        "record": "3-4"
       },
       "prob_home_win": 54.9,
       "prob_away_win": 45.1,
       "predicted_spread": -1.4,
       "vegas_spread": -2.5,
+      "vegas_total": 43.5,
+      "projected_score": {
+        "home": 22,
+        "away": 21
+      },
+      "scorers": [
+        {
+          "name": "Bucky Irving",
+          "team": "TB",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vkc00rvnix3f2b96vkwo",
+          "prob": 52.4,
+          "season_tds": 5,
+          "status": null
+        },
+        {
+          "name": "Bijan Robinson",
+          "team": "ATL",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zaxetgy0p0ul6evlsf63",
+          "prob": 44.6,
+          "season_tds": 5,
+          "status": null
+        },
+        {
+          "name": "Kyle Pitts",
+          "team": "ATL",
+          "position": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xczipzxvytnmvgznhhb4",
+          "prob": 31.2,
+          "season_tds": 4,
+          "status": null
+        },
+        {
+          "name": "Drake London",
+          "team": "ATL",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/y5mkxrljhsglpwl3ky94",
+          "prob": 20.5,
+          "season_tds": 1,
+          "status": null
+        },
+        {
+          "name": "Sean Tucker",
+          "team": "TB",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wiarwjvy8p6bojlratp4",
+          "prob": 18.8,
+          "season_tds": 2,
+          "status": null
+        },
+        {
+          "name": "Kenny Gainwell",
+          "team": "TB",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/eo62l8ec8e3lzt86ihth",
+          "prob": 17.3,
+          "season_tds": 1,
+          "status": "Questionable"
+        }
+      ],
       "confidence_score": "Faible",
-      "commentary": "Avantage Buccaneers (55 %), à domicile. Match très ouvert face à Falcons."
+      "commentary": "Avantage Buccaneers (55 %), à domicile. Match très ouvert face à Falcons."
     },
     {
       "game_id": "2026_08_LAC_LA",
@@ -265,7 +769,8 @@
         "nick": "Rams",
         "color": "#003594",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
-        "elo": 1578.7
+        "elo": 1578.7,
+        "record": "3-4"
       },
       "away": {
         "abbr": "LAC",
@@ -273,14 +778,76 @@
         "nick": "Chargers",
         "color": "#007BC7",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-        "elo": 1409.5
+        "elo": 1409.5,
+        "record": "0-6"
       },
       "prob_home_win": 77.7,
       "prob_away_win": 22.3,
       "predicted_spread": -8.7,
       "vegas_spread": -6.5,
+      "vegas_total": 45.5,
+      "projected_score": {
+        "home": 27,
+        "away": 18
+      },
+      "scorers": [
+        {
+          "name": "Kyren Williams",
+          "team": "LA",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xti3pek6rmojqchakxpy",
+          "prob": 54.1,
+          "season_tds": 6,
+          "status": null
+        },
+        {
+          "name": "Blake Corum",
+          "team": "LA",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/axzqbqjkrbwfzodwwakq",
+          "prob": 39.2,
+          "season_tds": 3,
+          "status": null
+        },
+        {
+          "name": "Omarion Hampton",
+          "team": "LAC",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lf2jxvxnbexlinoydbej",
+          "prob": 36.8,
+          "season_tds": 3,
+          "status": null
+        },
+        {
+          "name": "Puka Nacua",
+          "team": "LA",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ipy6qw7hdygdfc8k86ba",
+          "prob": 36.4,
+          "season_tds": 3,
+          "status": null
+        },
+        {
+          "name": "Kimani Vidal",
+          "team": "LAC",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tqdctdun0bv60d5ziwtl",
+          "prob": 25.1,
+          "season_tds": 2,
+          "status": null
+        },
+        {
+          "name": "Keaton Mitchell",
+          "team": "LAC",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ztciwwpbyaffmckwrzdk",
+          "prob": 20.6,
+          "season_tds": 1,
+          "status": null
+        }
+      ],
       "confidence_score": "Élevée",
-      "commentary": "Avantage Rams (78 %), à domicile."
+      "commentary": "Avantage Rams (78 %), à domicile."
     },
     {
       "game_id": "2026_08_KC_DEN",
@@ -295,7 +862,8 @@
         "nick": "Broncos",
         "color": "#002244",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
-        "elo": 1626.8
+        "elo": 1626.8,
+        "record": "5-2"
       },
       "away": {
         "abbr": "KC",
@@ -303,14 +871,76 @@
         "nick": "Chiefs",
         "color": "#E31837",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-        "elo": 1564.9
+        "elo": 1564.9,
+        "record": "5-1"
       },
       "prob_home_win": 65.3,
       "prob_away_win": 34.7,
       "predicted_spread": -4.4,
       "vegas_spread": 1.5,
+      "vegas_total": 40.5,
+      "projected_score": {
+        "home": 22,
+        "away": 18
+      },
+      "scorers": [
+        {
+          "name": "Kenneth Walker III",
+          "team": "KC",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vk6nruaqdewdglofcwwg",
+          "prob": 58.1,
+          "season_tds": 8,
+          "status": null
+        },
+        {
+          "name": "J.K. Dobbins",
+          "team": "DEN",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cevotvl3ho5h1mioruyg",
+          "prob": 43.6,
+          "season_tds": 3,
+          "status": null
+        },
+        {
+          "name": "Bo Nix",
+          "team": "DEN",
+          "position": "QB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zvo9xatffmqn9lnukpgk",
+          "prob": 22.8,
+          "season_tds": 2,
+          "status": null
+        },
+        {
+          "name": "Jaylen Waddle",
+          "team": "DEN",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gkh7m1jedon9mwn5jlf1",
+          "prob": 18.9,
+          "season_tds": 1,
+          "status": "Questionable"
+        },
+        {
+          "name": "Travis Kelce",
+          "team": "KC",
+          "position": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dpxovcfku6ud2aohgf6a",
+          "prob": 18.1,
+          "season_tds": 2,
+          "status": null
+        },
+        {
+          "name": "Tyquan Thornton",
+          "team": "KC",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bjqzuempyiwxe0hl7e5a",
+          "prob": 14.4,
+          "season_tds": 2,
+          "status": null
+        }
+      ],
       "confidence_score": "Modérée",
-      "commentary": "Avantage Broncos (65 %), à domicile. Les bookmakers voient plutôt Chiefs gagner : lecture opposée à surveiller."
+      "commentary": "Avantage Broncos (65 %), à domicile. Les bookmakers voient plutôt Chiefs gagner : lecture opposée à surveiller."
     },
     {
       "game_id": "2026_08_NE_MIA",
@@ -325,7 +955,8 @@
         "nick": "Dolphins",
         "color": "#008E97",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
-        "elo": 1389.7
+        "elo": 1389.7,
+        "record": "1-5"
       },
       "away": {
         "abbr": "NE",
@@ -333,14 +964,76 @@
         "nick": "Patriots",
         "color": "#002244",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
-        "elo": 1597.8
+        "elo": 1597.8,
+        "record": "4-3"
       },
       "prob_home_win": 28.5,
       "prob_away_win": 71.5,
       "predicted_spread": 6.4,
       "vegas_spread": 7.0,
+      "vegas_total": 43.5,
+      "projected_score": {
+        "home": 19,
+        "away": 25
+      },
+      "scorers": [
+        {
+          "name": "Ollie Gordon II",
+          "team": "MIA",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bv33rgypaauv7sealwkr",
+          "prob": 46.4,
+          "season_tds": 4,
+          "status": null
+        },
+        {
+          "name": "Rhamondre Stevenson",
+          "team": "NE",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/x9dlpy3i5fciajd4w9ij",
+          "prob": 40.2,
+          "season_tds": 3,
+          "status": null
+        },
+        {
+          "name": "Malik Willis",
+          "team": "MIA",
+          "position": "QB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/earybrx24kkhnk4innsw",
+          "prob": 28.9,
+          "season_tds": 3,
+          "status": null
+        },
+        {
+          "name": "DeMario Douglas",
+          "team": "NE",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/m3fpxawsccoqsajtqlec",
+          "prob": 28.7,
+          "season_tds": 3,
+          "status": null
+        },
+        {
+          "name": "Drake Maye",
+          "team": "NE",
+          "position": "QB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mkauzrg7vo8lfziigsbg",
+          "prob": 24.7,
+          "season_tds": 2,
+          "status": null
+        },
+        {
+          "name": "Caleb Douglas",
+          "team": "MIA",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/h0ds6lir4svszjcpc3hr",
+          "prob": 21.5,
+          "season_tds": 2,
+          "status": null
+        }
+      ],
       "confidence_score": "Élevée",
-      "commentary": "Avantage Patriots (72 %), à l’extérieur."
+      "commentary": "Avantage Patriots (72 %), à l’extérieur."
     },
     {
       "game_id": "2026_08_PHI_WAS",
@@ -355,7 +1048,8 @@
         "nick": "Commanders",
         "color": "#5A1414",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-        "elo": 1415.4
+        "elo": 1415.4,
+        "record": "1-4-1"
       },
       "away": {
         "abbr": "PHI",
@@ -363,14 +1057,76 @@
         "nick": "Eagles",
         "color": "#004C54",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-        "elo": 1447.0
+        "elo": 1447.0,
+        "record": "2-5"
       },
       "prob_home_win": 52.4,
       "prob_away_win": 47.6,
       "predicted_spread": -0.7,
       "vegas_spread": -6.0,
+      "vegas_total": 40.5,
+      "projected_score": {
+        "home": 21,
+        "away": 20
+      },
+      "scorers": [
+        {
+          "name": "Dameon Pierce",
+          "team": "PHI",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/oai3defivyfyofxxh4ux",
+          "prob": 30.6,
+          "season_tds": 2,
+          "status": null
+        },
+        {
+          "name": "Stefon Diggs",
+          "team": "WAS",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dpmpctgbwlvgyzg3opli",
+          "prob": 28.9,
+          "season_tds": 4,
+          "status": null
+        },
+        {
+          "name": "Jacory Croskey-Merritt",
+          "team": "WAS",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qew4qhlj4yuf50voko61",
+          "prob": 27.7,
+          "season_tds": 2,
+          "status": null
+        },
+        {
+          "name": "Rachaad White",
+          "team": "WAS",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wtdhs50gcl2p6vngsnre",
+          "prob": 26.5,
+          "season_tds": 2,
+          "status": null
+        },
+        {
+          "name": "Darius Cooper",
+          "team": "PHI",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pe71oe4eoyyfnq80fkxc",
+          "prob": 25.6,
+          "season_tds": 4,
+          "status": null
+        },
+        {
+          "name": "Saquon Barkley",
+          "team": "PHI",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qcayrzjpura2zydszonh",
+          "prob": 20.3,
+          "season_tds": 1,
+          "status": null
+        }
+      ],
       "confidence_score": "Faible",
-      "commentary": "Avantage Commanders (52 %), à domicile. Le modèle annonce un écart plus serré que les bookmakers (−6,0)."
+      "commentary": "Avantage Commanders (52 %), à domicile. Le modèle annonce un écart plus serré que les bookmakers (−6,0)."
     },
     {
       "game_id": "2026_08_CHI_SEA",
@@ -385,7 +1141,8 @@
         "nick": "Seahawks",
         "color": "#002244",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-        "elo": 1670.9
+        "elo": 1670.9,
+        "record": "4-3"
       },
       "away": {
         "abbr": "CHI",
@@ -393,14 +1150,210 @@
         "nick": "Bears",
         "color": "#0B162A",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
-        "elo": 1579.9
+        "elo": 1579.9,
+        "record": "5-2"
       },
       "prob_home_win": 69.0,
       "prob_away_win": 31.0,
       "predicted_spread": -5.6,
       "vegas_spread": -3.0,
+      "vegas_total": 46.5,
+      "projected_score": {
+        "home": 26,
+        "away": 20
+      },
+      "scorers": [
+        {
+          "name": "Jaxon Smith-Njigba",
+          "team": "SEA",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yx1xjrupbqdknnjaq4a6",
+          "prob": 53.3,
+          "season_tds": 8,
+          "status": null
+        },
+        {
+          "name": "D'Andre Swift",
+          "team": "CHI",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/owpmwzoilitcodc6cmxo",
+          "prob": 52.8,
+          "season_tds": 7,
+          "status": null
+        },
+        {
+          "name": "Emanuel Wilson",
+          "team": "SEA",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/uorruvczsxzvffpbxu8z",
+          "prob": 51.2,
+          "season_tds": 4,
+          "status": null
+        },
+        {
+          "name": "Colston Loveland",
+          "team": "CHI",
+          "position": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tdeidev1typrqjijtb3a",
+          "prob": 24.6,
+          "season_tds": 2,
+          "status": null
+        },
+        {
+          "name": "Luther Burden III",
+          "team": "CHI",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/iyuwdz7pbowdkwzq2tg5",
+          "prob": 23.3,
+          "season_tds": 2,
+          "status": null
+        },
+        {
+          "name": "George Holani",
+          "team": "SEA",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pgwvv5qhcmnwf3tomy1a",
+          "prob": 21.3,
+          "season_tds": 1,
+          "status": null
+        }
+      ],
       "confidence_score": "Modérée",
-      "commentary": "Avantage Seahawks (69 %), à domicile."
+      "commentary": "Avantage Seahawks (69 %), à domicile."
+    }
+  ],
+  "top_scorers": [
+    {
+      "name": "Javonte Williams",
+      "team": "DAL",
+      "position": "RB",
+      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xvwroirev2kie6oiphtz",
+      "prob": 66.0,
+      "season_tds": 9,
+      "status": null,
+      "game_id": "2026_08_ARI_DAL",
+      "opponent": "ARI"
+    },
+    {
+      "name": "James Cook",
+      "team": "BUF",
+      "position": "RB",
+      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/anjbznqb9i21wzcgrtbs",
+      "prob": 64.3,
+      "season_tds": 6,
+      "status": null,
+      "game_id": "2026_08_BAL_BUF",
+      "opponent": "BAL"
+    },
+    {
+      "name": "Jahmyr Gibbs",
+      "team": "DET",
+      "position": "RB",
+      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cursejnmmp1i9hnxihkj",
+      "prob": 60.9,
+      "season_tds": 9,
+      "status": null,
+      "game_id": "2026_08_MIN_DET",
+      "opponent": "MIN"
+    },
+    {
+      "name": "Derrick Henry",
+      "team": "BAL",
+      "position": "RB",
+      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tm79x0iknqg6hms3ypyt",
+      "prob": 59.4,
+      "season_tds": 8,
+      "status": null,
+      "game_id": "2026_08_BAL_BUF",
+      "opponent": "BUF"
+    },
+    {
+      "name": "Kenneth Walker III",
+      "team": "KC",
+      "position": "RB",
+      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vk6nruaqdewdglofcwwg",
+      "prob": 58.1,
+      "season_tds": 8,
+      "status": null,
+      "game_id": "2026_08_KC_DEN",
+      "opponent": "DEN"
+    },
+    {
+      "name": "Bhayshul Tuten",
+      "team": "JAX",
+      "position": "RB",
+      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ryjnphuyjbedmgpx5qqj",
+      "prob": 56.1,
+      "season_tds": 4,
+      "status": null,
+      "game_id": "2026_08_IND_JAX",
+      "opponent": "IND"
+    },
+    {
+      "name": "Kyren Williams",
+      "team": "LA",
+      "position": "RB",
+      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xti3pek6rmojqchakxpy",
+      "prob": 54.1,
+      "season_tds": 6,
+      "status": null,
+      "game_id": "2026_08_LAC_LA",
+      "opponent": "LAC"
+    },
+    {
+      "name": "Jonathan Taylor",
+      "team": "IND",
+      "position": "RB",
+      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/d7pmatz5wylijbsplnkg",
+      "prob": 54.0,
+      "season_tds": 8,
+      "status": null,
+      "game_id": "2026_08_IND_JAX",
+      "opponent": "JAX"
+    },
+    {
+      "name": "Jaxon Smith-Njigba",
+      "team": "SEA",
+      "position": "WR",
+      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yx1xjrupbqdknnjaq4a6",
+      "prob": 53.3,
+      "season_tds": 8,
+      "status": null,
+      "game_id": "2026_08_CHI_SEA",
+      "opponent": "CHI"
+    },
+    {
+      "name": "D'Andre Swift",
+      "team": "CHI",
+      "position": "RB",
+      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/owpmwzoilitcodc6cmxo",
+      "prob": 52.8,
+      "season_tds": 7,
+      "status": null,
+      "game_id": "2026_08_CHI_SEA",
+      "opponent": "SEA"
+    },
+    {
+      "name": "Bucky Irving",
+      "team": "TB",
+      "position": "RB",
+      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vkc00rvnix3f2b96vkwo",
+      "prob": 52.4,
+      "season_tds": 5,
+      "status": null,
+      "game_id": "2026_08_ATL_TB",
+      "opponent": "ATL"
+    },
+    {
+      "name": "CeeDee Lamb",
+      "team": "DAL",
+      "position": "WR",
+      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mbblzwtynxr15ovzkevi",
+      "prob": 51.4,
+      "season_tds": 6,
+      "status": null,
+      "game_id": "2026_08_ARI_DAL",
+      "opponent": "ARI"
     }
   ],
   "ranking": [
@@ -410,7 +1363,8 @@
       "nick": "Seahawks",
       "color": "#002244",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-      "elo": 1670.9
+      "elo": 1670.9,
+      "record": "4-3"
     },
     {
       "abbr": "BUF",
@@ -418,7 +1372,8 @@
       "nick": "Bills",
       "color": "#00338D",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-      "elo": 1652.8
+      "elo": 1652.8,
+      "record": "5-1"
     },
     {
       "abbr": "MIN",
@@ -426,7 +1381,8 @@
       "nick": "Vikings",
       "color": "#4F2683",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
-      "elo": 1636.4
+      "elo": 1636.4,
+      "record": "6-0"
     },
     {
       "abbr": "DEN",
@@ -434,7 +1390,8 @@
       "nick": "Broncos",
       "color": "#002244",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
-      "elo": 1626.8
+      "elo": 1626.8,
+      "record": "5-2"
     },
     {
       "abbr": "SF",
@@ -442,7 +1399,8 @@
       "nick": "49ers",
       "color": "#AA0000",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
-      "elo": 1624.2
+      "elo": 1624.2,
+      "record": "6-1"
     },
     {
       "abbr": "JAX",
@@ -450,7 +1408,8 @@
       "nick": "Jaguars",
       "color": "#006778",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
-      "elo": 1607.6
+      "elo": 1607.6,
+      "record": "4-2"
     },
     {
       "abbr": "NE",
@@ -458,7 +1417,8 @@
       "nick": "Patriots",
       "color": "#002244",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
-      "elo": 1597.8
+      "elo": 1597.8,
+      "record": "4-3"
     },
     {
       "abbr": "CHI",
@@ -466,7 +1426,8 @@
       "nick": "Bears",
       "color": "#0B162A",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
-      "elo": 1579.9
+      "elo": 1579.9,
+      "record": "5-2"
     },
     {
       "abbr": "LA",
@@ -474,7 +1435,8 @@
       "nick": "Rams",
       "color": "#003594",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
-      "elo": 1578.7
+      "elo": 1578.7,
+      "record": "3-4"
     },
     {
       "abbr": "CIN",
@@ -482,7 +1444,8 @@
       "nick": "Bengals",
       "color": "#FB4F14",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
-      "elo": 1565.5
+      "elo": 1565.5,
+      "record": "4-2"
     },
     {
       "abbr": "KC",
@@ -490,7 +1453,8 @@
       "nick": "Chiefs",
       "color": "#E31837",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-      "elo": 1564.9
+      "elo": 1564.9,
+      "record": "5-1"
     },
     {
       "abbr": "DET",
@@ -498,7 +1462,8 @@
       "nick": "Lions",
       "color": "#0076B6",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
-      "elo": 1564.8
+      "elo": 1564.8,
+      "record": "4-2"
     },
     {
       "abbr": "PIT",
@@ -506,7 +1471,8 @@
       "nick": "Steelers",
       "color": "#000000",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
-      "elo": 1557.5
+      "elo": 1557.5,
+      "record": "5-2"
     },
     {
       "abbr": "GB",
@@ -514,7 +1480,8 @@
       "nick": "Packers",
       "color": "#203731",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
-      "elo": 1539.5
+      "elo": 1539.5,
+      "record": "5-3"
     },
     {
       "abbr": "BAL",
@@ -522,7 +1489,8 @@
       "nick": "Ravens",
       "color": "#241773",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
-      "elo": 1517.4
+      "elo": 1517.4,
+      "record": "4-3"
     },
     {
       "abbr": "HOU",
@@ -530,7 +1498,8 @@
       "nick": "Texans",
       "color": "#03202F",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
-      "elo": 1516.7
+      "elo": 1516.7,
+      "record": "2-5"
     },
     {
       "abbr": "ATL",
@@ -538,7 +1507,8 @@
       "nick": "Falcons",
       "color": "#A71930",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
-      "elo": 1489.2
+      "elo": 1489.2,
+      "record": "3-4"
     },
     {
       "abbr": "TB",
@@ -546,7 +1516,8 @@
       "nick": "Buccaneers",
       "color": "#A71930",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-      "elo": 1475.6
+      "elo": 1475.6,
+      "record": "2-5"
     },
     {
       "abbr": "DAL",
@@ -554,7 +1525,8 @@
       "nick": "Cowboys",
       "color": "#002244",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
-      "elo": 1471.6
+      "elo": 1471.6,
+      "record": "3-4"
     },
     {
       "abbr": "CLE",
@@ -562,7 +1534,8 @@
       "nick": "Browns",
       "color": "#FF3C00",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
-      "elo": 1468.7
+      "elo": 1468.7,
+      "record": "5-2"
     },
     {
       "abbr": "NYG",
@@ -570,7 +1543,8 @@
       "nick": "Giants",
       "color": "#0B2265",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-      "elo": 1463.8
+      "elo": 1463.8,
+      "record": "4-2-1"
     },
     {
       "abbr": "PHI",
@@ -578,7 +1552,8 @@
       "nick": "Eagles",
       "color": "#004C54",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-      "elo": 1447.0
+      "elo": 1447.0,
+      "record": "2-5"
     },
     {
       "abbr": "CAR",
@@ -586,7 +1561,8 @@
       "nick": "Panthers",
       "color": "#0085CA",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png",
-      "elo": 1436.9
+      "elo": 1436.9,
+      "record": "3-4"
     },
     {
       "abbr": "IND",
@@ -594,7 +1570,8 @@
       "nick": "Colts",
       "color": "#002C5F",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-      "elo": 1418.6
+      "elo": 1418.6,
+      "record": "2-5"
     },
     {
       "abbr": "WAS",
@@ -602,7 +1579,8 @@
       "nick": "Commanders",
       "color": "#5A1414",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-      "elo": 1415.4
+      "elo": 1415.4,
+      "record": "1-4-1"
     },
     {
       "abbr": "NO",
@@ -610,7 +1588,8 @@
       "nick": "Saints",
       "color": "#D3BC8D",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
-      "elo": 1412.6
+      "elo": 1412.6,
+      "record": "2-5"
     },
     {
       "abbr": "LAC",
@@ -618,7 +1597,8 @@
       "nick": "Chargers",
       "color": "#007BC7",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-      "elo": 1409.5
+      "elo": 1409.5,
+      "record": "0-6"
     },
     {
       "abbr": "LV",
@@ -626,7 +1606,8 @@
       "nick": "Raiders",
       "color": "#000000",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
-      "elo": 1401.4
+      "elo": 1401.4,
+      "record": "3-4"
     },
     {
       "abbr": "MIA",
@@ -634,7 +1615,8 @@
       "nick": "Dolphins",
       "color": "#008E97",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
-      "elo": 1389.7
+      "elo": 1389.7,
+      "record": "1-5"
     },
     {
       "abbr": "ARI",
@@ -642,7 +1624,8 @@
       "nick": "Cardinals",
       "color": "#97233F",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-      "elo": 1379.2
+      "elo": 1379.2,
+      "record": "2-5"
     },
     {
       "abbr": "NYJ",
@@ -650,7 +1633,8 @@
       "nick": "Jets",
       "color": "#003F2D",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
-      "elo": 1364.7
+      "elo": 1364.7,
+      "record": "2-5"
     },
     {
       "abbr": "TEN",
@@ -658,7 +1642,8 @@
       "nick": "Titans",
       "color": "#4495D2",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
-      "elo": 1314.7
+      "elo": 1314.7,
+      "record": "1-6"
     }
   ]
 }
