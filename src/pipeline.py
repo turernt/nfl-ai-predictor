@@ -6,8 +6,11 @@ from datetime import datetime, timezone
 import pandas as pd
 
 from src.config import DATA_DIR, WEB_DATA_DIR, FIRST_SEASON, HFA
-from src.ingestion.loader import load_schedules, load_teams
+from src.ingestion.loader import load_schedules, load_teams, load_player_stats, load_injury_report
 from src.models.elo_engine import NFLEloModel, confidence_label
+from src.models.scorers import build_player_table, team_td_rates, likely_scorers
+
+DEFAULT_TOTAL = 44.0  # total de points moyen en NFL, utilisé sans ligne des bookmakers
 
 logger = logging.getLogger(__name__)
 
@@ -24,7 +27,7 @@ def _fr(x: float) -> str:
 def _commentary(fav: str, dog: str, prob: float, model_spread: float, vegas_spread: float | None,
                 vegas_fav: str | None, home_is_fav: bool, neutral: bool) -> str:
     venue = "" if neutral else (", à domicile" if home_is_fav else ", à l’extérieur")
-    text = f"Avantage {fav} ({prob:.0f} %){venue}."
+    text = f"Avantage {fav} ({prob:.0f}\u00a0%){venue}."
     if vegas_spread is not None and vegas_spread != 0 and (vegas_spread < 0) != (model_spread < 0):
         text += f" Les bookmakers voient plutôt {vegas_fav} gagner : lecture opposée à surveiller."
     elif vegas_spread is not None and abs(model_spread - vegas_spread) >= 3:
@@ -62,6 +65,13 @@ def run_pipeline() -> dict:
     if last_season is not None and last_season < season:
         model.new_season()  # intersaison : on applique la régression avant la semaine 1
 
+    cur = played[played.season == season]
+    record = {}
+    for g in cur.itertuples():
+        for t, us, them in ((g.home_team, g.home_score, g.away_score), (g.away_team, g.away_score, g.home_score)):
+            w, l, d = record.get(t, (0, 0, 0))
+            record[t] = (w + (us > them), l + (us < them), d + (us == them))
+
     def team_info(abbr: str) -> dict:
         row = teams.loc[abbr] if abbr in teams.index else None
         return {
@@ -71,12 +81,22 @@ def run_pipeline() -> dict:
             "color": row["team_color"] if row is not None else "#444444",
             "logo": row["team_logo_espn"] if row is not None else None,
             "elo": round(model.get(abbr), 1),
+            "record": "-".join(str(x) for x in record.get(abbr, (0, 0, 0))[:2])
+                      + (f"-{record[abbr][2]}" if record.get(abbr, (0, 0, 0))[2] else ""),
         }
 
     upcoming = sched[(sched.season == season) & sched.home_score.isna()]
     week = int(upcoming.week.min()) if not upcoming.empty else None
     predictions = []
     if week is not None:
+        try:
+            stats = load_player_stats(season)
+            players = build_player_table(stats, week)
+            rates = team_td_rates(stats, sched, season, week)
+            injuries = load_injury_report(season, week)
+        except Exception as e:
+            logger.warning("Buteurs probables indisponibles : %s", e)
+            players, rates, injuries = pd.DataFrame(), pd.DataFrame(), {}
         for g in upcoming[upcoming.week == week].itertuples():
             neutral = g.location == "Neutral"
             pred = model.predict(g.home_team, g.away_team, neutral)
@@ -84,6 +104,11 @@ def run_pipeline() -> dict:
             home, away = team_info(g.home_team), team_info(g.away_team)
             home_fav = pred["prob_home_win"] >= 50
             fav, dog = (home, away) if home_fav else (away, home)
+            total = DEFAULT_TOTAL if pd.isna(g.total_line) else float(g.total_line)
+            home_pts = total / 2 - pred["predicted_spread"] / 2
+            away_pts = total - home_pts
+            scorers = (likely_scorers(players, rates, g.away_team, away_pts, injuries)
+                       + likely_scorers(players, rates, g.home_team, home_pts, injuries))
             predictions.append({
                 "game_id": g.game_id,
                 "week": week,
@@ -95,6 +120,9 @@ def run_pipeline() -> dict:
                 "away": away,
                 **pred,
                 "vegas_spread": vegas,
+                "vegas_total": None if pd.isna(g.total_line) else float(g.total_line),
+                "projected_score": {"home": round(home_pts), "away": round(away_pts)},
+                "scorers": sorted(scorers, key=lambda x: x["prob"], reverse=True),
                 "confidence_score": confidence_label(pred["prob_home_win"]),
                 "commentary": _commentary(fav["nick"], dog["nick"], max(pred["prob_home_win"], pred["prob_away_win"]),
                                           pred["predicted_spread"], vegas,
@@ -105,6 +133,11 @@ def run_pipeline() -> dict:
     ranking = sorted((team_info(t) for t in teams.index if t in model.ratings),
                      key=lambda t: t["elo"], reverse=True)
 
+    top_scorers = sorted((dict(sc, game_id=pr["game_id"],
+                               opponent=pr["home"]["abbr"] if sc["team"] == pr["away"]["abbr"] else pr["away"]["abbr"])
+                          for pr in predictions for sc in pr["scorers"]),
+                         key=lambda x: x["prob"], reverse=True)[:12]
+
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "season": season,
@@ -113,6 +146,7 @@ def run_pipeline() -> dict:
         "season_record": {"games": games_scored, "correct": hits,
                           "accuracy": round(hits / games_scored * 100, 1) if games_scored else None},
         "predictions": predictions,
+        "top_scorers": top_scorers,
         "ranking": ranking,
     }
 
