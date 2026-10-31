@@ -24,3 +24,20 @@ def load_teams() -> pd.DataFrame:
     df = nfl.load_teams().to_pandas()
     df = df[~df["team_abbr"].isin(TEAM_ALIASES.keys())]
     return df[["team_abbr", "team_name", "team_nick", "team_conf", "team_division", "team_color", "team_logo_espn"]]
+
+
+def load_player_stats(season: int) -> pd.DataFrame:
+    df = nfl.load_player_stats([season]).to_pandas()
+    df["team"] = df["team"].replace(TEAM_ALIASES)
+    return df
+
+
+def load_injury_report(season: int, week: int) -> dict:
+    """{player_id: statut} pour la semaine à venir (vide si indisponible)."""
+    try:
+        df = nfl.load_injuries([season]).to_pandas()
+    except Exception as e:  # le rapport n'existe pas toujours (intersaison, début de saison)
+        logger.warning("Rapport de blessures indisponible : %s", e)
+        return {}
+    df = df[(df["week"] == week) & df["report_status"].notna()]
+    return dict(zip(df["gsis_id"], df["report_status"]))
