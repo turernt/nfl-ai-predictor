@@ -2,7 +2,8 @@
 
 Méthode :
 1. Part de chaque joueur dans les touchdowns « offensifs » de son équipe (course + réception),
-   lissée vers sa part d'opportunités (courses + cibles), avec plus de poids aux matchs récents.
+   lissée vers sa part d'opportunités, surtout en zone rouge (ballons à 20 yards ou moins
+   de l'en-but), avec plus de poids aux matchs récents.
 2. Touchdowns attendus de l'équipe pour le match = son rythme habituel, ajusté par le score projeté.
 3. Loi de Poisson : P(au moins 1 TD) = 1 - exp(-λ).
 """
@@ -15,10 +16,21 @@ PRIOR_TDS = 10.0      # lissage fort : les TD régressent beaucoup d’une semai
 ACTIVE_WINDOW = 3     # joueur retenu s'il a joué l'un des 3 derniers matchs de son équipe
 SKILL_POS = {"RB", "WR", "TE", "QB", "FB"}
 OUT_STATUSES = {"Out", "Doubtful"}
-CALIBRATION = 0.9     # prudence : les modèles de TD surestiment souvent les favoris
+RZ_WEIGHT = 0.7      # part de la zone rouge dans les opportunités (calé sur le bilan)
+CALIBRATION = 0.7     # calé sur le bilan de la saison (sinon surestimation des favoris)
 
 
-def build_player_table(stats: pd.DataFrame, week: int) -> pd.DataFrame:
+def red_zone_opps(pbp: pd.DataFrame, season: int, week: int) -> pd.Series:
+    """Courses + cibles à 20 yards ou moins de l'en-but, pondérées par la récence."""
+    p = pbp[(pbp["season"] == season) & (pbp["week"] < week) & (pbp["yardline_100"] <= 20)
+            & pbp["play_type"].isin(["pass", "run"])]
+    w = RECENCY ** (week - 1 - p["week"])
+    rush = w.groupby(p["rusher_player_id"]).sum()
+    rec = w.groupby(p["receiver_player_id"]).sum()
+    return rush.add(rec, fill_value=0)
+
+
+def build_player_table(stats: pd.DataFrame, week: int, rz: pd.Series | None = None) -> pd.DataFrame:
     s = stats[(stats["week"] < week) & stats["position"].isin(SKILL_POS)].copy()
     if s.empty:
         return s
@@ -40,9 +52,12 @@ def build_player_table(stats: pd.DataFrame, week: int) -> pd.DataFrame:
         tds=("tds", "sum"), games=("week", "nunique"),
     ).reset_index()
 
-    team = agg.groupby("team")[["w_tds", "w_opp"]].sum().rename(columns=lambda c: "team_" + c)
+    agg["w_rz"] = agg["player_id"].map(rz).fillna(0) if rz is not None else 0.0
+    team = agg.groupby("team")[["w_tds", "w_opp", "w_rz"]].sum().rename(columns=lambda c: "team_" + c)
     agg = agg.join(team, on="team")
-    opp_share = agg["w_opp"] / agg["team_w_opp"].where(agg["team_w_opp"] > 0)
+    tot_share = (agg["w_opp"] / agg["team_w_opp"].where(agg["team_w_opp"] > 0)).fillna(0)
+    rz_share = (agg["w_rz"] / agg["team_w_rz"].where(agg["team_w_rz"] > 0)).fillna(tot_share)
+    opp_share = RZ_WEIGHT * rz_share + (1 - RZ_WEIGHT) * tot_share
     agg["share"] = ((agg["w_tds"] + PRIOR_TDS * opp_share.fillna(0)) / (agg["team_w_tds"] + PRIOR_TDS)).fillna(0)
     return agg
 
@@ -58,6 +73,8 @@ def team_td_rates(stats: pd.DataFrame, sched: pd.DataFrame, season: int, week: i
         played[["away_team", "week", "away_score"]].set_axis(["team", "week", "pts"], axis=1),
     ])
     df = pts.merge(tds, on=["team", "week"], how="left").fillna({"t": 0})
+    if df.empty:
+        return pd.DataFrame(columns=["tds_pg", "pts_pg"])
     df["w"] = RECENCY ** (week - 1 - df["week"])
     g = df.groupby("team")
     return pd.DataFrame({
@@ -67,7 +84,7 @@ def team_td_rates(stats: pd.DataFrame, sched: pd.DataFrame, season: int, week: i
 
 
 def likely_scorers(players: pd.DataFrame, rates: pd.DataFrame, team: str, exp_points: float,
-                   injuries: dict, top: int = 3) -> list[dict]:
+                   injuries: dict, top: int = 6) -> list[dict]:
     if players.empty or team not in rates.index:
         return []
     r = rates.loc[team]
@@ -80,7 +97,7 @@ def likely_scorers(players: pd.DataFrame, rates: pd.DataFrame, team: str, exp_po
     p["prob"] = 1 - (-(CALIBRATION * team_tds * p["share"])).apply(math.exp)
     p = p.sort_values("prob", ascending=False).head(top)
     return [{
-        "name": row.name_, "team": team, "position": row.position,
+        "player_id": row.player_id, "name": row.name_, "team": team, "position": row.position,
         "headshot": row.headshot if isinstance(row.headshot, str) else None,
         "prob": round(row.prob * 100, 1), "season_tds": int(row.tds),
         "status": row.status if isinstance(row.status, str) else None,
