@@ -1,0 +1,15 @@
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+DATA_DIR = ROOT / "data"
+WEB_DATA_DIR = ROOT / "web" / "data"
+
+FIRST_SEASON = 2010        # saisons de "chauffe" pour stabiliser les Elo
+BASE_ELO = 1505.0          # moyenne de long terme
+K_FACTOR = 20.0
+HFA = 48.0                 # avantage du terrain en points Elo (~1,9 pt de spread)
+REGRESSION = 1 / 3         # retour vers la moyenne entre deux saisons
+ELO_PER_POINT = 25.0       # 25 points Elo ≈ 1 point de spread
+
+# Franchises relocalisées : on fusionne l'historique sous l'abréviation actuelle
+TEAM_ALIASES = {"OAK": "LV", "SD": "LAC", "STL": "LA", "LAR": "LA"}
