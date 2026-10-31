@@ -1,0 +1,664 @@
+{
+  "generated_at": "2026-10-31T22:18:08+00:00",
+  "season": 2026,
+  "week": 8,
+  "model": {
+    "name": "Elo (marge de victoire, régression inter-saisons)",
+    "hfa_elo": 48.0
+  },
+  "season_record": {
+    "games": 107,
+    "correct": 64,
+    "accuracy": 59.8
+  },
+  "predictions": [
+    {
+      "game_id": "2026_08_BAL_BUF",
+      "week": 8,
+      "game_type": "REG",
+      "gameday": "2026-11-01",
+      "gametime": "13:00",
+      "neutral_site": false,
+      "home": {
+        "abbr": "BUF",
+        "name": "Buffalo Bills",
+        "nick": "Bills",
+        "color": "#00338D",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+        "elo": 1652.8
+      },
+      "away": {
+        "abbr": "BAL",
+        "name": "Baltimore Ravens",
+        "nick": "Ravens",
+        "color": "#241773",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+        "elo": 1517.4
+      },
+      "prob_home_win": 74.2,
+      "prob_away_win": 25.8,
+      "predicted_spread": -7.3,
+      "vegas_spread": -3.0,
+      "confidence_score": "Élevée",
+      "commentary": "Avantage Bills (74 %), à domicile. Le modèle annonce un écart plus large que les bookmakers (−3,0)."
+    },
+    {
+      "game_id": "2026_08_TEN_CIN",
+      "week": 8,
+      "game_type": "REG",
+      "gameday": "2026-11-01",
+      "gametime": "13:00",
+      "neutral_site": false,
+      "home": {
+        "abbr": "CIN",
+        "name": "Cincinnati Bengals",
+        "nick": "Bengals",
+        "color": "#FB4F14",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+        "elo": 1565.5
+      },
+      "away": {
+        "abbr": "TEN",
+        "name": "Tennessee Titans",
+        "nick": "Titans",
+        "color": "#4495D2",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+        "elo": 1314.7
+      },
+      "prob_home_win": 84.8,
+      "prob_away_win": 15.2,
+      "predicted_spread": -12.0,
+      "vegas_spread": -12.5,
+      "confidence_score": "Élevée",
+      "commentary": "Avantage Bengals (85 %), à domicile."
+    },
+    {
+      "game_id": "2026_08_ARI_DAL",
+      "week": 8,
+      "game_type": "REG",
+      "gameday": "2026-11-01",
+      "gametime": "13:00",
+      "neutral_site": false,
+      "home": {
+        "abbr": "DAL",
+        "name": "Dallas Cowboys",
+        "nick": "Cowboys",
+        "color": "#002244",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+        "elo": 1471.6
+      },
+      "away": {
+        "abbr": "ARI",
+        "name": "Arizona Cardinals",
+        "nick": "Cardinals",
+        "color": "#97233F",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+        "elo": 1379.2
+      },
+      "prob_home_win": 69.2,
+      "prob_away_win": 30.8,
+      "predicted_spread": -5.6,
+      "vegas_spread": -7.0,
+      "confidence_score": "Modérée",
+      "commentary": "Avantage Cowboys (69 %), à domicile."
+    },
+    {
+      "game_id": "2026_08_MIN_DET",
+      "week": 8,
+      "game_type": "REG",
+      "gameday": "2026-11-01",
+      "gametime": "13:00",
+      "neutral_site": false,
+      "home": {
+        "abbr": "DET",
+        "name": "Detroit Lions",
+        "nick": "Lions",
+        "color": "#0076B6",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+        "elo": 1564.8
+      },
+      "away": {
+        "abbr": "MIN",
+        "name": "Minnesota Vikings",
+        "nick": "Vikings",
+        "color": "#4F2683",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+        "elo": 1636.4
+      },
+      "prob_home_win": 46.6,
+      "prob_away_win": 53.4,
+      "predicted_spread": 0.9,
+      "vegas_spread": -3.0,
+      "confidence_score": "Faible",
+      "commentary": "Avantage Vikings (53 %), à l’extérieur. Les bookmakers voient plutôt Lions gagner : lecture opposée à surveiller."
+    },
+    {
+      "game_id": "2026_08_IND_JAX",
+      "week": 8,
+      "game_type": "REG",
+      "gameday": "2026-11-01",
+      "gametime": "13:00",
+      "neutral_site": false,
+      "home": {
+        "abbr": "JAX",
+        "name": "Jacksonville Jaguars",
+        "nick": "Jaguars",
+        "color": "#006778",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+        "elo": 1607.6
+      },
+      "away": {
+        "abbr": "IND",
+        "name": "Indianapolis Colts",
+        "nick": "Colts",
+        "color": "#002C5F",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+        "elo": 1418.6
+      },
+      "prob_home_win": 79.6,
+      "prob_away_win": 20.4,
+      "predicted_spread": -9.5,
+      "vegas_spread": -10.0,
+      "confidence_score": "Élevée",
+      "commentary": "Avantage Jaguars (80 %), à domicile."
+    },
+    {
+      "game_id": "2026_08_LV_NYJ",
+      "week": 8,
+      "game_type": "REG",
+      "gameday": "2026-11-01",
+      "gametime": "13:00",
+      "neutral_site": false,
+      "home": {
+        "abbr": "NYJ",
+        "name": "New York Jets",
+        "nick": "Jets",
+        "color": "#003F2D",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+        "elo": 1364.7
+      },
+      "away": {
+        "abbr": "LV",
+        "name": "Las Vegas Raiders",
+        "nick": "Raiders",
+        "color": "#000000",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+        "elo": 1401.4
+      },
+      "prob_home_win": 51.6,
+      "prob_away_win": 48.4,
+      "predicted_spread": -0.5,
+      "vegas_spread": -1.5,
+      "confidence_score": "Faible",
+      "commentary": "Avantage Jets (52 %), à domicile. Match très ouvert face à Raiders."
+    },
+    {
+      "game_id": "2026_08_CLE_PIT",
+      "week": 8,
+      "game_type": "REG",
+      "gameday": "2026-11-01",
+      "gametime": "13:00",
+      "neutral_site": false,
+      "home": {
+        "abbr": "PIT",
+        "name": "Pittsburgh Steelers",
+        "nick": "Steelers",
+        "color": "#000000",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+        "elo": 1557.5
+      },
+      "away": {
+        "abbr": "CLE",
+        "name": "Cleveland Browns",
+        "nick": "Browns",
+        "color": "#FF3C00",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+        "elo": 1468.7
+      },
+      "prob_home_win": 68.7,
+      "prob_away_win": 31.3,
+      "predicted_spread": -5.5,
+      "vegas_spread": -3.5,
+      "confidence_score": "Modérée",
+      "commentary": "Avantage Steelers (69 %), à domicile."
+    },
+    {
+      "game_id": "2026_08_ATL_TB",
+      "week": 8,
+      "game_type": "REG",
+      "gameday": "2026-11-01",
+      "gametime": "13:00",
+      "neutral_site": false,
+      "home": {
+        "abbr": "TB",
+        "name": "Tampa Bay Buccaneers",
+        "nick": "Buccaneers",
+        "color": "#A71930",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+        "elo": 1475.6
+      },
+      "away": {
+        "abbr": "ATL",
+        "name": "Atlanta Falcons",
+        "nick": "Falcons",
+        "color": "#A71930",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+        "elo": 1489.2
+      },
+      "prob_home_win": 54.9,
+      "prob_away_win": 45.1,
+      "predicted_spread": -1.4,
+      "vegas_spread": -2.5,
+      "confidence_score": "Faible",
+      "commentary": "Avantage Buccaneers (55 %), à domicile. Match très ouvert face à Falcons."
+    },
+    {
+      "game_id": "2026_08_LAC_LA",
+      "week": 8,
+      "game_type": "REG",
+      "gameday": "2026-11-01",
+      "gametime": "16:05",
+      "neutral_site": false,
+      "home": {
+        "abbr": "LA",
+        "name": "Los Angeles Rams",
+        "nick": "Rams",
+        "color": "#003594",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+        "elo": 1578.7
+      },
+      "away": {
+        "abbr": "LAC",
+        "name": "Los Angeles Chargers",
+        "nick": "Chargers",
+        "color": "#007BC7",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+        "elo": 1409.5
+      },
+      "prob_home_win": 77.7,
+      "prob_away_win": 22.3,
+      "predicted_spread": -8.7,
+      "vegas_spread": -6.5,
+      "confidence_score": "Élevée",
+      "commentary": "Avantage Rams (78 %), à domicile."
+    },
+    {
+      "game_id": "2026_08_KC_DEN",
+      "week": 8,
+      "game_type": "REG",
+      "gameday": "2026-11-01",
+      "gametime": "16:25",
+      "neutral_site": false,
+      "home": {
+        "abbr": "DEN",
+        "name": "Denver Broncos",
+        "nick": "Broncos",
+        "color": "#002244",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+        "elo": 1626.8
+      },
+      "away": {
+        "abbr": "KC",
+        "name": "Kansas City Chiefs",
+        "nick": "Chiefs",
+        "color": "#E31837",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+        "elo": 1564.9
+      },
+      "prob_home_win": 65.3,
+      "prob_away_win": 34.7,
+      "predicted_spread": -4.4,
+      "vegas_spread": 1.5,
+      "confidence_score": "Modérée",
+      "commentary": "Avantage Broncos (65 %), à domicile. Les bookmakers voient plutôt Chiefs gagner : lecture opposée à surveiller."
+    },
+    {
+      "game_id": "2026_08_NE_MIA",
+      "week": 8,
+      "game_type": "REG",
+      "gameday": "2026-11-01",
+      "gametime": "16:25",
+      "neutral_site": false,
+      "home": {
+        "abbr": "MIA",
+        "name": "Miami Dolphins",
+        "nick": "Dolphins",
+        "color": "#008E97",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+        "elo": 1389.7
+      },
+      "away": {
+        "abbr": "NE",
+        "name": "New England Patriots",
+        "nick": "Patriots",
+        "color": "#002244",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+        "elo": 1597.8
+      },
+      "prob_home_win": 28.5,
+      "prob_away_win": 71.5,
+      "predicted_spread": 6.4,
+      "vegas_spread": 7.0,
+      "confidence_score": "Élevée",
+      "commentary": "Avantage Patriots (72 %), à l’extérieur."
+    },
+    {
+      "game_id": "2026_08_PHI_WAS",
+      "week": 8,
+      "game_type": "REG",
+      "gameday": "2026-11-01",
+      "gametime": "20:20",
+      "neutral_site": false,
+      "home": {
+        "abbr": "WAS",
+        "name": "Washington Commanders",
+        "nick": "Commanders",
+        "color": "#5A1414",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+        "elo": 1415.4
+      },
+      "away": {
+        "abbr": "PHI",
+        "name": "Philadelphia Eagles",
+        "nick": "Eagles",
+        "color": "#004C54",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+        "elo": 1447.0
+      },
+      "prob_home_win": 52.4,
+      "prob_away_win": 47.6,
+      "predicted_spread": -0.7,
+      "vegas_spread": -6.0,
+      "confidence_score": "Faible",
+      "commentary": "Avantage Commanders (52 %), à domicile. Le modèle annonce un écart plus serré que les bookmakers (−6,0)."
+    },
+    {
+      "game_id": "2026_08_CHI_SEA",
+      "week": 8,
+      "game_type": "REG",
+      "gameday": "2026-11-02",
+      "gametime": "20:15",
+      "neutral_site": false,
+      "home": {
+        "abbr": "SEA",
+        "name": "Seattle Seahawks",
+        "nick": "Seahawks",
+        "color": "#002244",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+        "elo": 1670.9
+      },
+      "away": {
+        "abbr": "CHI",
+        "name": "Chicago Bears",
+        "nick": "Bears",
+        "color": "#0B162A",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+        "elo": 1579.9
+      },
+      "prob_home_win": 69.0,
+      "prob_away_win": 31.0,
+      "predicted_spread": -5.6,
+      "vegas_spread": -3.0,
+      "confidence_score": "Modérée",
+      "commentary": "Avantage Seahawks (69 %), à domicile."
+    }
+  ],
+  "ranking": [
+    {
+      "abbr": "SEA",
+      "name": "Seattle Seahawks",
+      "nick": "Seahawks",
+      "color": "#002244",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+      "elo": 1670.9
+    },
+    {
+      "abbr": "BUF",
+      "name": "Buffalo Bills",
+      "nick": "Bills",
+      "color": "#00338D",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+      "elo": 1652.8
+    },
+    {
+      "abbr": "MIN",
+      "name": "Minnesota Vikings",
+      "nick": "Vikings",
+      "color": "#4F2683",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+      "elo": 1636.4
+    },
+    {
+      "abbr": "DEN",
+      "name": "Denver Broncos",
+      "nick": "Broncos",
+      "color": "#002244",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+      "elo": 1626.8
+    },
+    {
+      "abbr": "SF",
+      "name": "San Francisco 49ers",
+      "nick": "49ers",
+      "color": "#AA0000",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+      "elo": 1624.2
+    },
+    {
+      "abbr": "JAX",
+      "name": "Jacksonville Jaguars",
+      "nick": "Jaguars",
+      "color": "#006778",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+      "elo": 1607.6
+    },
+    {
+      "abbr": "NE",
+      "name": "New England Patriots",
+      "nick": "Patriots",
+      "color": "#002244",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+      "elo": 1597.8
+    },
+    {
+      "abbr": "CHI",
+      "name": "Chicago Bears",
+      "nick": "Bears",
+      "color": "#0B162A",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+      "elo": 1579.9
+    },
+    {
+      "abbr": "LA",
+      "name": "Los Angeles Rams",
+      "nick": "Rams",
+      "color": "#003594",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+      "elo": 1578.7
+    },
+    {
+      "abbr": "CIN",
+      "name": "Cincinnati Bengals",
+      "nick": "Bengals",
+      "color": "#FB4F14",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+      "elo": 1565.5
+    },
+    {
+      "abbr": "KC",
+      "name": "Kansas City Chiefs",
+      "nick": "Chiefs",
+      "color": "#E31837",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+      "elo": 1564.9
+    },
+    {
+      "abbr": "DET",
+      "name": "Detroit Lions",
+      "nick": "Lions",
+      "color": "#0076B6",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+      "elo": 1564.8
+    },
+    {
+      "abbr": "PIT",
+      "name": "Pittsburgh Steelers",
+      "nick": "Steelers",
+      "color": "#000000",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+      "elo": 1557.5
+    },
+    {
+      "abbr": "GB",
+      "name": "Green Bay Packers",
+      "nick": "Packers",
+      "color": "#203731",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+      "elo": 1539.5
+    },
+    {
+      "abbr": "BAL",
+      "name": "Baltimore Ravens",
+      "nick": "Ravens",
+      "color": "#241773",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+      "elo": 1517.4
+    },
+    {
+      "abbr": "HOU",
+      "name": "Houston Texans",
+      "nick": "Texans",
+      "color": "#03202F",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+      "elo": 1516.7
+    },
+    {
+      "abbr": "ATL",
+      "name": "Atlanta Falcons",
+      "nick": "Falcons",
+      "color": "#A71930",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+      "elo": 1489.2
+    },
+    {
+      "abbr": "TB",
+      "name": "Tampa Bay Buccaneers",
+      "nick": "Buccaneers",
+      "color": "#A71930",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+      "elo": 1475.6
+    },
+    {
+      "abbr": "DAL",
+      "name": "Dallas Cowboys",
+      "nick": "Cowboys",
+      "color": "#002244",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+      "elo": 1471.6
+    },
+    {
+      "abbr": "CLE",
+      "name": "Cleveland Browns",
+      "nick": "Browns",
+      "color": "#FF3C00",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+      "elo": 1468.7
+    },
+    {
+      "abbr": "NYG",
+      "name": "New York Giants",
+      "nick": "Giants",
+      "color": "#0B2265",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+      "elo": 1463.8
+    },
+    {
+      "abbr": "PHI",
+      "name": "Philadelphia Eagles",
+      "nick": "Eagles",
+      "color": "#004C54",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+      "elo": 1447.0
+    },
+    {
+      "abbr": "CAR",
+      "name": "Carolina Panthers",
+      "nick": "Panthers",
+      "color": "#0085CA",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png",
+      "elo": 1436.9
+    },
+    {
+      "abbr": "IND",
+      "name": "Indianapolis Colts",
+      "nick": "Colts",
+      "color": "#002C5F",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+      "elo": 1418.6
+    },
+    {
+      "abbr": "WAS",
+      "name": "Washington Commanders",
+      "nick": "Commanders",
+      "color": "#5A1414",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+      "elo": 1415.4
+    },
+    {
+      "abbr": "NO",
+      "name": "New Orleans Saints",
+      "nick": "Saints",
+      "color": "#D3BC8D",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+      "elo": 1412.6
+    },
+    {
+      "abbr": "LAC",
+      "name": "Los Angeles Chargers",
+      "nick": "Chargers",
+      "color": "#007BC7",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+      "elo": 1409.5
+    },
+    {
+      "abbr": "LV",
+      "name": "Las Vegas Raiders",
+      "nick": "Raiders",
+      "color": "#000000",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+      "elo": 1401.4
+    },
+    {
+      "abbr": "MIA",
+      "name": "Miami Dolphins",
+      "nick": "Dolphins",
+      "color": "#008E97",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+      "elo": 1389.7
+    },
+    {
+      "abbr": "ARI",
+      "name": "Arizona Cardinals",
+      "nick": "Cardinals",
+      "color": "#97233F",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+      "elo": 1379.2
+    },
+    {
+      "abbr": "NYJ",
+      "name": "New York Jets",
+      "nick": "Jets",
+      "color": "#003F2D",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+      "elo": 1364.7
+    },
+    {
+      "abbr": "TEN",
+      "name": "Tennessee Titans",
+      "nick": "Titans",
+      "color": "#4495D2",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+      "elo": 1314.7
+    }
+  ]
+}
