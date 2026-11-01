@@ -19,7 +19,7 @@ export default function Home() {
       <main className="wrap">
         <header className="hero">
           <div>
-            <h1>Prédictions NFL, semaine {week ?? '—'}</h1>
+            <h1>Prédictions NFL, {(data.week_label || `semaine ${week}`).toLowerCase().replace(/^super bowl$/, 'Super Bowl')}</h1>
             <p>
               Saison {season}. Probabilités de victoire tirées des cotes (les plus fiables sur 3 900 matchs),
               second avis de notre modèle (Elo, efficacité par jeu, quarterback, repos), scores projetés et buteurs probables.
@@ -74,7 +74,7 @@ export default function Home() {
               <li key={t.abbr}>
                 <span className="rk">{i + 1}</span>
                 {t.logo ? <img className="mini-logo" src={t.logo} alt="" width="22" height="22" loading="lazy" /> : <span className="mini-logo" />}
-                <span className="elo-name">{t.nick}<span className="team-sub"> {t.record}</span></span>
+                <span className="elo-name"><Link href={`/equipe/${t.abbr}`}>{t.nick}</Link><span className="team-sub"> {t.record}</span></span>
                 <Sparkline values={t.history} color={t.history?.at(-1) >= t.history?.[0] ? 'var(--accent)' : 'var(--down)'} />
                 <b>{Math.round(t.elo)}</b>
               </li>
