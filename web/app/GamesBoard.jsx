@@ -36,8 +36,8 @@ function GameCard({ g }) {
       </div>
       <ProbBar g={g} />
       <dl className="lines">
-        <div><dt>Notre spread</dt><dd>{spreadLabel(g.predicted_spread, g.home, g.away)}</dd></div>
         <div><dt>Bookmakers</dt><dd>{spreadLabel(g.vegas_spread, g.home, g.away)}</dd></div>
+        <div><dt>Modèle maison</dt><dd>{spreadLabel(g.model_spread, g.home, g.away)}</dd></div>
         <div><dt>Total</dt><dd>{g.vegas_total != null ? num(g.vegas_total) : '—'}</dd></div>
       </dl>
       {scorers.length > 0 && (
