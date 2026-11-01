@@ -12,7 +12,7 @@ export function Mark({ size = 28 }) {
 }
 
 export function Topbar({ current }) {
-  const links = [['/', 'Matchs'], ['/pronostics', 'Pronostics'], ['/bilan', 'Bilan'], ['/#classement', 'Classement']];
+  const links = [['/', 'Matchs'], ['/pronostics', 'Pronostics'], ['/saison', 'Playoffs'], ['/bilan', 'Bilan']];
   return (
     <nav className="topbar">
       <div className="topbar-in">
@@ -31,7 +31,10 @@ export function Footer({ updated }) {
   return (
     <footer className="footer">
       <span>Arthur Analytics. Données nflverse{updated ? `, mises à jour le ${updated}` : ''}.</span>
-      <span>Prédictions statistiques à titre informatif, pas des conseils de pari.</span>
+      <span>
+        Prédictions statistiques à titre informatif, pas des conseils de pari. Jouer comporte des risques : 09 74 75 13 13.
+        {' '}<Link href="/mentions-legales">Mentions légales</Link>
+      </span>
     </footer>
   );
 }
@@ -74,11 +77,14 @@ export function Sparkline({ values, color = 'currentColor', width = 72, height =
   );
 }
 
+// Couleurs d’équipe : la variante claire est utilisée en mode sombre (voir .tc dans globals.css)
+export const tc = (t) => ({ '--team': t.color, '--team-dark': t.color_dark || t.color });
+
 export function ProbBar({ g }) {
   return (
     <div className="field" role="img" aria-label={`${g.away.nick} ${Math.round(g.prob_away_win)} %, ${g.home.nick} ${Math.round(g.prob_home_win)} %`}>
-      <span style={{ width: `${g.prob_away_win}%`, background: g.away.color }} />
-      <span style={{ width: `${g.prob_home_win}%`, background: g.home.color }} />
+      <span className="tc" style={{ width: `${g.prob_away_win}%`, ...tc(g.away) }} />
+      <span className="tc" style={{ width: `${g.prob_home_win}%`, ...tc(g.home) }} />
     </div>
   );
 }
