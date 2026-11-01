@@ -53,6 +53,16 @@ def predictions():
     return {k: d[k] for k in ("season", "week", "generated_at", "season_record", "predictions")}
 
 
+@app.get("/api/v1/picks")
+def picks():
+    return get_data().get("picks", {})
+
+
+@app.get("/api/v1/season")
+def season_sim():
+    return [{k: t.get(k) for k in ("abbr", "name", "record", "elo", "sim")} for t in get_data()["ranking"]]
+
+
 @app.get("/api/v1/elos")
 def elos():
     return get_data()["ranking"]
