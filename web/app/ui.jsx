@@ -12,7 +12,7 @@ export function Mark({ size = 28 }) {
 }
 
 export function Topbar({ current }) {
-  const links = [['/', 'Matchs'], ['/#buteurs', 'Buteurs'], ['/bilan', 'Bilan'], ['/#classement', 'Classement']];
+  const links = [['/', 'Matchs'], ['/pronostics', 'Pronostics'], ['/bilan', 'Bilan'], ['/#classement', 'Classement']];
   return (
     <nav className="topbar">
       <div className="topbar-in">
