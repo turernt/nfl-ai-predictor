@@ -1,0 +1,42 @@
+{
+ "2026_08_LAC_LA": [
+  {
+   "date": "2026-11-01",
+   "prob_home": 71.9,
+   "spread": -6.5,
+   "books": null
+  }
+ ],
+ "2026_08_KC_DEN": [
+  {
+   "date": "2026-11-01",
+   "prob_home": 50.5,
+   "spread": -1.5,
+   "books": null
+  }
+ ],
+ "2026_08_NE_MIA": [
+  {
+   "date": "2026-11-01",
+   "prob_home": 24.6,
+   "spread": 7.0,
+   "books": null
+  }
+ ],
+ "2026_08_PHI_WAS": [
+  {
+   "date": "2026-11-01",
+   "prob_home": 70.9,
+   "spread": -6.0,
+   "books": null
+  }
+ ],
+ "2026_08_CHI_SEA": [
+  {
+   "date": "2026-11-01",
+   "prob_home": 60.4,
+   "spread": -3.0,
+   "books": null
+  }
+ ]
+}

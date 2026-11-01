@@ -1,0 +1,70 @@
+{
+ "since": "2026-11-01",
+ "games": {
+  "2026_08_LAC_LA": {
+   "season": 2026,
+   "week": 8,
+   "home": "LA",
+   "away": "LAC",
+   "published_at": "2026-11-01T22:28+00:00",
+   "pick": "LA",
+   "pick_home": true,
+   "open_prob": 71.9,
+   "open_fr": null,
+   "close_prob": 71.9,
+   "closed_at": "2026-11-01T22:28+00:00"
+  },
+  "2026_08_KC_DEN": {
+   "season": 2026,
+   "week": 8,
+   "home": "DEN",
+   "away": "KC",
+   "published_at": "2026-11-01T22:28+00:00",
+   "pick": "DEN",
+   "pick_home": true,
+   "open_prob": 50.5,
+   "open_fr": null,
+   "close_prob": 50.5,
+   "closed_at": "2026-11-01T22:28+00:00"
+  },
+  "2026_08_NE_MIA": {
+   "season": 2026,
+   "week": 8,
+   "home": "MIA",
+   "away": "NE",
+   "published_at": "2026-11-01T22:28+00:00",
+   "pick": "NE",
+   "pick_home": false,
+   "open_prob": 75.4,
+   "open_fr": null,
+   "close_prob": 75.4,
+   "closed_at": "2026-11-01T22:28+00:00"
+  },
+  "2026_08_PHI_WAS": {
+   "season": 2026,
+   "week": 8,
+   "home": "WAS",
+   "away": "PHI",
+   "published_at": "2026-11-01T22:28+00:00",
+   "pick": "WAS",
+   "pick_home": true,
+   "open_prob": 70.9,
+   "open_fr": null,
+   "close_prob": 70.9,
+   "closed_at": "2026-11-01T22:28+00:00"
+  },
+  "2026_08_CHI_SEA": {
+   "season": 2026,
+   "week": 8,
+   "home": "SEA",
+   "away": "CHI",
+   "published_at": "2026-11-01T22:28+00:00",
+   "pick": "SEA",
+   "pick_home": true,
+   "open_prob": 60.4,
+   "open_fr": null,
+   "close_prob": 60.4,
+   "closed_at": "2026-11-01T22:28+00:00"
+  }
+ }
+}
