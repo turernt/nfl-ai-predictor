@@ -21,9 +21,9 @@ export default function Home() {
           <div>
             <h1>Prédictions NFL, semaine {week ?? '—'}</h1>
             <p>
-              Saison {season}. Probabilités de victoire, scores projetés et buteurs probables,
-              recalculés chaque mardi à partir de l’Elo, de l’efficacité par jeu, du quarterback titulaire,
-              du repos et des lignes des bookmakers.
+              Saison {season}. Probabilités de victoire tirées des cotes (les plus fiables sur 3 900 matchs),
+              second avis de notre modèle (Elo, efficacité par jeu, quarterback, repos), scores projetés et buteurs probables.
+              {' '}<Link href="/pronostics">Voir les pronostics les plus sûrs</Link>.
             </p>
           </div>
           {last && (
