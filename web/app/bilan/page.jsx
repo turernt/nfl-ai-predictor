@@ -38,9 +38,9 @@ export default function Bilan() {
             <span className="stat-sub">{s.model_correct} sur {s.games}</span>
           </div>
           <div className="stat">
-            <span className="stat-label">Favori des bookmakers</span>
-            <span className="stat-big">{rate(s.market_correct, s.market_games)}</span>
-            <span className="stat-sub">{s.market_correct} sur {s.market_games}</span>
+            <span className="stat-label">Modèle contre l’écart</span>
+            <span className="stat-big">{rate(s.ats_correct, s.ats_games)}</span>
+            <span className="stat-sub">{s.ats_correct} sur {s.ats_games} (52,4 % requis)</span>
           </div>
           <div className="stat">
             <span className="stat-label">Buteurs mis en avant</span>
@@ -49,7 +49,7 @@ export default function Bilan() {
           </div>
         </section>
         <p className="fine">
-          Score de Brier (plus bas = probabilités plus justes) : {s.brier != null ? num(s.brier, 3) : '—'} pour le pronostic final,
+          Le pronostic retenu suit les cotes des bookmakers. Score de Brier (plus bas = probabilités plus justes) : {s.brier != null ? num(s.brier, 3) : '—'} pour le pronostic,
           {' '}{s.model_brier != null ? num(s.model_brier, 3) : '—'} pour le modèle seul. Un pronostic à pile ou face donnerait 0,250.
         </p>
 
