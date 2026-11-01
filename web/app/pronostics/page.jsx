@@ -37,6 +37,11 @@ function WinPick({ p, rank }) {
               Les favoris de ce niveau ont gagné <b>{num(p.hist.actual)}&nbsp;%</b> du temps ({p.hist.games} matchs depuis 2012)
             </span>
           )}
+          {p.best_fr && (
+            <span className={p.ev > 0 ? 'ok' : ''}>
+              Meilleure cote française : <b>{odds(p.best_fr.price)}</b> ({p.best_fr.book}), espérance {p.ev > 0 ? '+' : '−'}{num(Math.abs(p.ev))}&nbsp;%
+            </span>
+          )}
           <span className={p.model_agrees ? 'ok' : 'warn'}>
             {p.model_agrees ? `Notre modèle confirme (${pct(p.model_prob)})` : `Notre modèle doute (${pct(p.model_prob)})`}
           </span>
@@ -46,6 +51,33 @@ function WinPick({ p, rank }) {
         <span className="pk-prob">{pct(p.prob)}</span>
         <span className="pk-odds">Cote juste {odds(p.fair_odds)}</span>
         <Link href={`/match/${p.game_id}`} className="pk-link">Analyse</Link>
+      </div>
+    </li>
+  );
+}
+
+function ValuePick({ v }) {
+  return (
+    <li className="pk">
+      <span className="pk-rank">+</span>
+      <div className="pk-main">
+        <div className="pk-teams">
+          <Logo team={v.team} size={40} />
+          <div>
+            <span className="pk-title">Victoire des {v.team.nick} à {odds(v.price)} chez {v.book}</span>
+            <span className="pk-sub">contre les {v.opponent.nick}, <When g={v} /></span>
+          </div>
+        </div>
+        <div className="pk-facts">
+          <span>Probabilité réelle {pct(v.prob)}, cote juste <b>{odds(v.fair_odds)}</b></span>
+          {v.stake_pct > 0 && <span>Mise prudente : <b>{num(v.stake_pct, 1)}&nbsp;%</b> de votre budget de jeu (quart de Kelly)</span>}
+          {v.prob < 40 && <span className="warn">Outsider : gagne rarement, rentable seulement sur la durée</span>}
+        </div>
+      </div>
+      <div className="pk-side">
+        <span className="pk-prob">+{num(v.ev)}&nbsp;%</span>
+        <span className="pk-odds">espérance de gain</span>
+        <Link href={`/match/${v.game_id}`} className="pk-link">Analyse</Link>
       </div>
     </li>
   );
@@ -81,7 +113,8 @@ function ScorerPick({ s, rank }) {
 }
 
 export default function Pronostics() {
-  const { week, picks, bilan } = data;
+  const { week, picks, bilan, odds_source: src } = data;
+  const consensus = src?.type === 'consensus';
   if (!picks) return null;
   const s = bilan.summary;
   const rel = picks.reliability;
@@ -92,10 +125,15 @@ export default function Pronostics() {
       <main className="wrap narrow">
         <header className="hero">
           <div>
-            <h1>Pronostics de la semaine {week}</h1>
+            <h1>Pronostics, {(data.week_label || `semaine ${week}`).replace(/^Semaine/, 'semaine')}</h1>
             <p>
               Les issues les plus probables de la semaine, classées par fiabilité. Ce ne sont pas les paris les plus
               rentables : ce sont ceux qui ont le plus de chances de se réaliser, avec leur taux de réussite vérifié.
+            </p>
+            <p className="src">
+              {consensus
+                ? `Probabilités calculées sur la moyenne de ${src.books} bookmakers (marge retirée par la méthode de Shin, Pinnacle et Betfair comptent double).`
+                : 'Probabilités calculées sur les cotes de référence nflverse, marge retirée par la méthode de Shin.'}
             </p>
           </div>
         </header>
@@ -106,9 +144,25 @@ export default function Pronostics() {
           <b> supérieure</b> à la cote juste. Si elle est inférieure, le pari perd de l’argent sur la durée, même s’il gagne souvent.
         </aside>
 
+        {consensus && (
+          <section className="panel">
+            <h2>Cotes françaises au-dessus du juste prix</h2>
+            <p className="lede">
+              Une cote proposée par un site français dépasse d’au moins 2&nbsp;% la cote juste calculée sur l’ensemble du marché.
+              C’est la seule situation où un pari est rentable sur la durée.
+            </p>
+            {picks.value?.length
+              ? <ol className="picks">{picks.value.map((v) => <ValuePick key={v.game_id + v.team.abbr} v={v} />)}</ol>
+              : <p className="lede">Aucune pour l’instant : les sites français proposent tous des cotes inférieures au juste prix. Mieux vaut ne pas jouer que jouer à perte.</p>}
+          </section>
+        )}
+
         <section className="panel">
           <h2>Victoires les plus sûres</h2>
-          <p className="lede">Favoris à 70&nbsp;% ou plus.</p>
+          <p className="lede">
+            Favoris à 70&nbsp;% ou plus.
+            {s.safe_picks?.n ? ` Cette saison, ${s.safe_picks.correct} sur ${s.safe_picks.n} ont gagné (${num((s.safe_picks.correct / s.safe_picks.n) * 100)}\u00a0%).` : ''}
+          </p>
           {picks.safest.length
             ? <ol className="picks">{picks.safest.map((p, i) => <WinPick key={p.game_id} p={p} rank={i + 1} />)}</ol>
             : <p className="lede">Aucun favori à 70&nbsp;% ou plus cette semaine : semaine très ouverte.</p>}
@@ -173,6 +227,8 @@ export default function Pronostics() {
           <ul className="findings">
             <li><b>Les cotes du marché sont le meilleur prédicteur.</b> Elles intègrent déjà la forme, les blessures, l’avantage du terrain et la météo. C’est pourquoi nos probabilités en sont tirées.</li>
             <li><b>La forme récente et l’historique des confrontations n’apportent rien de plus.</b> Utiles seuls, ils ne prédisent presque rien une fois les cotes connues (corrélation inférieure à 0,04 avec l’écart restant).</li>
+            <li><b>La marge des bookmakers pèse surtout sur les outsiders.</b> Nous la retirons par la méthode de Shin plutôt qu’à parts égales : sur 3 930 matchs, les outsiders sous 25&nbsp;% sont annoncés à 18,9&nbsp;% et gagnent 18,9&nbsp;% du temps, contre 19,2&nbsp;% annoncés avec la méthode simple.</li>
+            <li><b>Ne misez jamais beaucoup, même sur une bonne occasion.</b> La mise prudente indiquée correspond à un quart du critère de Kelly, plafonnée à 2&nbsp;% du budget : assez pour profiter d’un avantage, sans risquer de tout perdre sur une série défavorable.</li>
             <li><b>L’avantage du terrain ne vaut plus qu’environ 1,5 point</b>, contre 3 il y a quinze ans. Il est déjà pris en compte par les bookmakers.</li>
             <li><b>Le quarterback titulaire est le facteur individuel le plus important.</b> Un changement de dernière minute peut faire basculer un match : vérifiez toujours les annonces avant de jouer.</li>
             <li>
