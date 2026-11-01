@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-01T08:41:17+00:00",
+  "generated_at": "2026-11-01T08:58:37+00:00",
   "season": 2026,
   "week": 8,
   "model": {
     "elo_weight": 0.5,
-    "market_weight": 0.67,
+    "market_weight": 1.0,
     "hfa_elo": 48.0
   },
   "season_record": {
@@ -16,18 +16,18 @@
     "summary": {
       "games": 106,
       "correct": 67,
-      "brier": 0.232,
+      "brier": 0.233,
       "model_correct": 60,
       "model_brier": 0.237,
       "market_games": 106,
       "market_correct": 68,
       "scorer_picks": 273,
-      "scorer_hits": 94,
-      "scorer_expected": 106.3,
+      "scorer_hits": 95,
+      "scorer_expected": 106.4,
       "scorer_all_n": 1092,
       "scorer_all_hits": 246,
       "scorer_all_expected": 227.7,
-      "scorer_brier": 0.1657,
+      "scorer_brier": 0.1656,
       "weeks": [
         {
           "week": 1,
@@ -37,7 +37,7 @@
         {
           "week": 2,
           "games": 16,
-          "correct": 10
+          "correct": 11
         },
         {
           "week": 3,
@@ -57,12 +57,44 @@
         {
           "week": 6,
           "games": 14,
-          "correct": 8
+          "correct": 7
         },
         {
           "week": 7,
           "games": 14,
           "correct": 10
+        }
+      ],
+      "ats_games": 28,
+      "ats_correct": 11,
+      "scorer_tiers": [
+        {
+          "label": "50 % et plus",
+          "min": 50,
+          "n": 53,
+          "predicted": 57.9,
+          "actual": 58.5
+        },
+        {
+          "label": "40 à 50 %",
+          "min": 40,
+          "n": 59,
+          "predicted": 43.9,
+          "actual": 44.1
+        },
+        {
+          "label": "30 à 40 %",
+          "min": 30,
+          "n": 109,
+          "predicted": 34.5,
+          "actual": 22.9
+        },
+        {
+          "label": "moins de 30 %",
+          "min": 0,
+          "n": 871,
+          "predicted": 15.3,
+          "actual": 18.8
         }
       ]
     },
@@ -81,11 +113,13 @@
           "away": 10
         },
         "pick": "SEA",
-        "pick_prob": 58.8,
+        "pick_prob": 60.0,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.1697,
+        "brier": 0.16,
+        "ats_edge": 0.0,
+        "ats_cover": null,
         "model_brier": 0.1689,
         "scorers": []
       },
@@ -103,11 +137,13 @@
           "away": 27
         },
         "pick": "LA",
-        "pick_prob": 60.7,
+        "pick_prob": 65.7,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.3684,
+        "brier": 0.4316,
+        "ats_edge": -0.5,
+        "ats_cover": false,
         "model_brier": 0.3807,
         "scorers": []
       },
@@ -125,11 +161,13 @@
           "away": 59
         },
         "pick": "CHI",
-        "pick_prob": 58.4,
+        "pick_prob": 60.0,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.1731,
+        "brier": 0.16,
+        "ats_edge": -0.4,
+        "ats_cover": false,
         "model_brier": 0.1798,
         "scorers": []
       },
@@ -147,11 +185,13 @@
           "away": 27
         },
         "pick": "CIN",
-        "pick_prob": 56.9,
+        "pick_prob": 64.5,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.1858,
+        "brier": 0.126,
+        "ats_edge": 3.5,
+        "ats_cover": true,
         "model_brier": 0.25,
         "scorers": []
       },
@@ -169,11 +209,13 @@
           "away": 30
         },
         "pick": "DET",
-        "pick_prob": 68.8,
+        "pick_prob": 73.4,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.0973,
+        "brier": 0.0708,
+        "ats_edge": 1.2,
+        "ats_cover": false,
         "model_brier": 0.1109,
         "scorers": []
       },
@@ -191,11 +233,13 @@
           "away": 36
         },
         "pick": "BUF",
-        "pick_prob": 51.5,
+        "pick_prob": 50.4,
         "correct": true,
         "model_correct": false,
         "market_correct": true,
-        "brier": 0.2352,
+        "brier": 0.246,
+        "ats_edge": -3.0,
+        "ats_cover": false,
         "model_brier": 0.2948,
         "scorers": []
       },
@@ -213,11 +257,13 @@
           "away": 41
         },
         "pick": "BAL",
-        "pick_prob": 54.8,
+        "pick_prob": 59.3,
         "correct": true,
         "model_correct": false,
         "market_correct": true,
-        "brier": 0.2043,
+        "brier": 0.1656,
+        "ats_edge": -4.1,
+        "ats_cover": false,
         "model_brier": 0.283,
         "scorers": []
       },
@@ -235,11 +281,13 @@
           "away": 10
         },
         "pick": "JAX",
-        "pick_prob": 73.0,
+        "pick_prob": 79.1,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.0729,
+        "brier": 0.0437,
+        "ats_edge": 0.7,
+        "ats_cover": true,
         "model_brier": 0.079,
         "scorers": []
       },
@@ -257,11 +305,13 @@
           "away": 13
         },
         "pick": "PIT",
-        "pick_prob": 64.8,
+        "pick_prob": 71.8,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.1239,
+        "brier": 0.0795,
+        "ats_edge": 4.2,
+        "ats_cover": true,
         "model_brier": 0.1858,
         "scorers": []
       },
@@ -279,11 +329,13 @@
           "away": 23
         },
         "pick": "TEN",
-        "pick_prob": 54.7,
+        "pick_prob": 51.7,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.2992,
+        "brier": 0.2673,
+        "ats_edge": -0.3,
+        "ats_cover": false,
         "model_brier": 0.3069,
         "scorers": []
       },
@@ -301,11 +353,13 @@
           "away": 26
         },
         "pick": "LAC",
-        "pick_prob": 72.0,
+        "pick_prob": 78.7,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.5184,
+        "brier": 0.6194,
+        "ats_edge": 1.9,
+        "ats_cover": false,
         "model_brier": 0.4747,
         "scorers": []
       },
@@ -323,11 +377,13 @@
           "away": 13
         },
         "pick": "LV",
-        "pick_prob": 53.5,
+        "pick_prob": 60.4,
         "correct": true,
         "model_correct": false,
         "market_correct": true,
-        "brier": 0.2162,
+        "brier": 0.1568,
+        "ats_edge": 5.5,
+        "ats_cover": true,
         "model_brier": 0.3272,
         "scorers": []
       },
@@ -345,11 +401,13 @@
           "away": 22
         },
         "pick": "MIN",
-        "pick_prob": 53.7,
+        "pick_prob": 53.2,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.2144,
+        "brier": 0.219,
+        "ats_edge": 0.8,
+        "ats_cover": true,
         "model_brier": 0.2285,
         "scorers": []
       },
@@ -372,6 +430,8 @@
         "model_correct": true,
         "market_correct": true,
         "brier": 0.1018,
+        "ats_edge": -1.0,
+        "ats_cover": false,
         "model_brier": 0.0906,
         "scorers": []
       },
@@ -389,11 +449,13 @@
           "away": 20
         },
         "pick": "DAL",
-        "pick_prob": 54.9,
+        "pick_prob": 60.0,
         "correct": false,
         "model_correct": true,
         "market_correct": false,
-        "brier": 0.3014,
+        "brier": 0.36,
+        "ats_edge": -4.0,
+        "ats_cover": true,
         "model_brier": 0.2218,
         "scorers": []
       },
@@ -411,11 +473,13 @@
           "away": 10
         },
         "pick": "KC",
-        "pick_prob": 53.4,
+        "pick_prob": 54.3,
         "correct": true,
         "model_correct": false,
         "market_correct": true,
-        "brier": 0.2172,
+        "brier": 0.2088,
+        "ats_edge": 4.0,
+        "ats_cover": true,
         "model_brier": 0.2959,
         "scorers": []
       },
@@ -433,29 +497,31 @@
           "away": 31
         },
         "pick": "BUF",
-        "pick_prob": 64.5,
+        "pick_prob": 67.5,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.126,
+        "brier": 0.1056,
+        "ats_edge": 1.4,
+        "ats_cover": true,
         "model_brier": 0.1459,
         "scorers": [
           {
             "name": "Jahmyr Gibbs",
             "team": "DET",
-            "prob": 62.8,
+            "prob": 62.4,
             "scored": true
           },
           {
             "name": "Amon-Ra St. Brown",
             "team": "DET",
-            "prob": 46.2,
+            "prob": 45.8,
             "scored": true
           },
           {
             "name": "James Cook",
             "team": "BUF",
-            "prob": 44.5,
+            "prob": 44.7,
             "scored": true
           }
         ]
@@ -473,30 +539,32 @@
           "home": 3,
           "away": 34
         },
-        "pick": "ATL",
-        "pick_prob": 53.0,
-        "correct": false,
+        "pick": "CAR",
+        "pick_prob": 58.3,
+        "correct": true,
         "model_correct": false,
         "market_correct": true,
-        "brier": 0.2809,
+        "brier": 0.1739,
+        "ats_edge": -10.6,
+        "ats_cover": false,
         "model_brier": 0.5256,
         "scorers": [
           {
             "name": "Bijan Robinson",
             "team": "ATL",
-            "prob": 63.2,
+            "prob": 60.2,
             "scored": false
           },
           {
             "name": "Chuba Hubbard",
             "team": "CAR",
-            "prob": 47.8,
+            "prob": 50.6,
             "scored": true
           },
           {
             "name": "Jalen Coker",
             "team": "CAR",
-            "prob": 31.4,
+            "prob": 33.5,
             "scored": false
           }
         ]
@@ -515,29 +583,31 @@
           "away": 24
         },
         "pick": "BAL",
-        "pick_prob": 72.2,
+        "pick_prob": 75.7,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.5213,
+        "brier": 0.573,
+        "ats_edge": 1.6,
+        "ats_cover": false,
         "model_brier": 0.483,
         "scorers": [
           {
             "name": "Derrick Henry",
             "team": "BAL",
-            "prob": 68.0,
+            "prob": 68.4,
             "scored": true
           },
           {
             "name": "Juwan Johnson",
             "team": "NO",
-            "prob": 27.2,
+            "prob": 26.9,
             "scored": false
           },
           {
             "name": "Lamar Jackson",
             "team": "BAL",
-            "prob": 24.5,
+            "prob": 24.7,
             "scored": false
           }
         ]
@@ -556,29 +626,31 @@
           "away": 9
         },
         "pick": "CHI",
-        "pick_prob": 60.7,
+        "pick_prob": 65.7,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.3684,
+        "brier": 0.4316,
+        "ats_edge": 2.5,
+        "ats_cover": false,
         "model_brier": 0.3125,
         "scorers": [
           {
             "name": "D'Andre Swift",
             "team": "CHI",
-            "prob": 57.4,
+            "prob": 58.0,
             "scored": false
           },
           {
             "name": "Caleb Williams",
             "team": "CHI",
-            "prob": 38.7,
+            "prob": 39.2,
             "scored": false
           },
           {
             "name": "Justin Jefferson",
             "team": "MIN",
-            "prob": 37.0,
+            "prob": 36.5,
             "scored": false
           }
         ]
@@ -597,29 +669,31 @@
           "away": 20
         },
         "pick": "HOU",
-        "pick_prob": 61.3,
+        "pick_prob": 57.2,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.3758,
+        "brier": 0.3272,
+        "ats_edge": -2.7,
+        "ats_cover": false,
         "model_brier": 0.4382,
         "scorers": [
           {
             "name": "David Montgomery",
             "team": "HOU",
-            "prob": 70.9,
+            "prob": 70.3,
             "scored": false
           },
           {
             "name": "Chase Brown",
             "team": "CIN",
-            "prob": 39.5,
+            "prob": 40.2,
             "scored": false
           },
           {
             "name": "Nico Collins",
             "team": "HOU",
-            "prob": 35.1,
+            "prob": 34.6,
             "scored": false
           }
         ]
@@ -638,29 +712,31 @@
           "away": 3
         },
         "pick": "NE",
-        "pick_prob": 64.1,
+        "pick_prob": 66.4,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.1289,
+        "brier": 0.1129,
+        "ats_edge": -1.1,
+        "ats_cover": true,
         "model_brier": 0.1142,
         "scorers": [
           {
             "name": "Eli Raridon",
             "team": "NE",
-            "prob": 50.2,
+            "prob": 50.0,
             "scored": false
           },
           {
             "name": "Mack Hollins",
             "team": "NE",
-            "prob": 43.7,
+            "prob": 43.4,
             "scored": false
           },
           {
             "name": "Pat Freiermuth",
             "team": "PIT",
-            "prob": 33.6,
+            "prob": 33.9,
             "scored": false
           }
         ]
@@ -679,17 +755,19 @@
           "away": 20
         },
         "pick": "GB",
-        "pick_prob": 59.8,
+        "pick_prob": 62.2,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.1616,
+        "brier": 0.1429,
+        "ats_edge": -0.5,
+        "ats_cover": true,
         "model_brier": 0.1689,
         "scorers": [
           {
             "name": "Breece Hall",
             "team": "NYJ",
-            "prob": 51.7,
+            "prob": 51.6,
             "scored": false
           },
           {
@@ -701,7 +779,7 @@
           {
             "name": "Matthew Golden",
             "team": "GB",
-            "prob": 31.3,
+            "prob": 31.4,
             "scored": false
           }
         ]
@@ -720,29 +798,31 @@
           "away": 23
         },
         "pick": "TB",
-        "pick_prob": 70.5,
+        "pick_prob": 77.7,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.497,
+        "brier": 0.6037,
+        "ats_edge": 3.7,
+        "ats_cover": false,
         "model_brier": 0.4083,
         "scorers": [
           {
             "name": "Baker Mayfield",
             "team": "TB",
-            "prob": 40.5,
+            "prob": 41.3,
             "scored": false
           },
           {
             "name": "Bucky Irving",
             "team": "TB",
-            "prob": 38.6,
+            "prob": 39.4,
             "scored": false
           },
           {
             "name": "Quinshon Judkins",
             "team": "CLE",
-            "prob": 34.6,
+            "prob": 33.6,
             "scored": false
           }
         ]
@@ -761,29 +841,31 @@
           "away": 24
         },
         "pick": "PHI",
-        "pick_prob": 70.7,
+        "pick_prob": 73.4,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.0858,
+        "brier": 0.0708,
+        "ats_edge": 1.1,
+        "ats_cover": true,
         "model_brier": 0.0756,
         "scorers": [
           {
             "name": "Dallas Goedert",
             "team": "PHI",
-            "prob": 48.3,
+            "prob": 48.1,
             "scored": false
           },
           {
             "name": "Elic Ayomanor",
             "team": "TEN",
-            "prob": 46.5,
+            "prob": 46.9,
             "scored": false
           },
           {
             "name": "Saquon Barkley",
             "team": "PHI",
-            "prob": 38.4,
+            "prob": 38.2,
             "scored": false
           }
         ]
@@ -802,29 +884,31 @@
           "away": 13
         },
         "pick": "DEN",
-        "pick_prob": 53.1,
+        "pick_prob": 57.2,
         "correct": true,
         "model_correct": false,
         "market_correct": true,
-        "brier": 0.22,
+        "brier": 0.1832,
+        "ats_edge": 4.3,
+        "ats_cover": true,
         "model_brier": 0.3069,
         "scorers": [
           {
             "name": "Evan Engram",
             "team": "DEN",
-            "prob": 43.4,
+            "prob": 44.4,
+            "scored": false
+          },
+          {
+            "name": "Courtland Sutton",
+            "team": "DEN",
+            "prob": 34.8,
             "scored": false
           },
           {
             "name": "Brenton Strange",
             "team": "JAX",
-            "prob": 35.1,
-            "scored": false
-          },
-          {
-            "name": "Josh Cameron",
-            "team": "JAX",
-            "prob": 34.6,
+            "prob": 34.2,
             "scored": false
           }
         ]
@@ -843,29 +927,31 @@
           "away": 26
         },
         "pick": "LAC",
-        "pick_prob": 67.2,
+        "pick_prob": 73.4,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.4516,
+        "brier": 0.5388,
+        "ats_edge": 1.5,
+        "ats_cover": false,
         "model_brier": 0.4147,
         "scorers": [
           {
             "name": "Ashton Jeanty",
             "team": "LV",
-            "prob": 55.2,
+            "prob": 54.7,
             "scored": false
           },
           {
             "name": "Omarion Hampton",
             "team": "LAC",
-            "prob": 40.7,
+            "prob": 41.0,
             "scored": true
           },
           {
             "name": "Ladd McConkey",
             "team": "LAC",
-            "prob": 37.5,
+            "prob": 37.8,
             "scored": false
           }
         ]
@@ -884,29 +970,31 @@
           "away": 31
         },
         "pick": "SEA",
-        "pick_prob": 62.7,
+        "pick_prob": 65.7,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.1391,
+        "brier": 0.1176,
+        "ats_edge": 2.7,
+        "ats_cover": false,
         "model_brier": 0.105,
         "scorers": [
           {
             "name": "Jaxon Smith-Njigba",
             "team": "SEA",
-            "prob": 51.9,
+            "prob": 51.2,
             "scored": true
           },
           {
             "name": "George Holani",
             "team": "SEA",
-            "prob": 33.6,
+            "prob": 33.0,
             "scored": false
           },
           {
             "name": "Jeremiyah Love",
             "team": "ARI",
-            "prob": 31.3,
+            "prob": 31.9,
             "scored": false
           }
         ]
@@ -925,29 +1013,31 @@
           "away": 20
         },
         "pick": "DAL",
-        "pick_prob": 58.3,
+        "pick_prob": 65.7,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.1739,
+        "brier": 0.1176,
+        "ats_edge": 2.0,
+        "ats_cover": true,
         "model_brier": 0.207,
         "scorers": [
           {
             "name": "Javonte Williams",
             "team": "DAL",
-            "prob": 70.5,
+            "prob": 70.9,
             "scored": false
           },
           {
             "name": "CeeDee Lamb",
             "team": "DAL",
-            "prob": 42.2,
+            "prob": 42.5,
             "scored": true
           },
           {
             "name": "Jacory Croskey-Merritt",
             "team": "WAS",
-            "prob": 29.9,
+            "prob": 29.6,
             "scored": false
           }
         ]
@@ -966,29 +1056,31 @@
           "away": 13
         },
         "pick": "SF",
-        "pick_prob": 79.7,
+        "pick_prob": 86.3,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.0412,
+        "brier": 0.0188,
+        "ats_edge": 3.9,
+        "ats_cover": true,
         "model_brier": 0.0681,
         "scorers": [
           {
             "name": "De'Von Achane",
             "team": "MIA",
-            "prob": 48.1,
+            "prob": 46.8,
             "scored": false
           },
           {
             "name": "Deebo Samuel Sr.",
             "team": "SF",
-            "prob": 42.9,
+            "prob": 43.7,
             "scored": false
           },
           {
             "name": "Mike Evans",
             "team": "SF",
-            "prob": 35.6,
+            "prob": 36.3,
             "scored": false
           }
         ]
@@ -1007,29 +1099,31 @@
           "away": 30
         },
         "pick": "KC",
-        "pick_prob": 67.8,
+        "pick_prob": 69.6,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.1037,
+        "brier": 0.0924,
+        "ats_edge": -0.7,
+        "ats_cover": false,
         "model_brier": 0.0967,
         "scorers": [
           {
             "name": "Kenneth Walker III",
             "team": "KC",
-            "prob": 62.8,
+            "prob": 62.6,
             "scored": false
           },
           {
             "name": "Jonathan Taylor",
             "team": "IND",
-            "prob": 61.9,
+            "prob": 62.1,
             "scored": true
           },
           {
             "name": "Patrick Mahomes",
             "team": "KC",
-            "prob": 35.6,
+            "prob": 35.5,
             "scored": false
           }
         ]
@@ -1048,11 +1142,13 @@
           "away": 6
         },
         "pick": "LA",
-        "pick_prob": 68.3,
+        "pick_prob": 71.8,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.1005,
+        "brier": 0.0795,
+        "ats_edge": 0.3,
+        "ats_cover": true,
         "model_brier": 0.1037,
         "scorers": [
           {
@@ -1064,13 +1160,13 @@
           {
             "name": "Isaiah Likely",
             "team": "NYG",
-            "prob": 44.1,
+            "prob": 44.0,
             "scored": false
           },
           {
             "name": "Cam Skattebo",
             "team": "NYG",
-            "prob": 40.2,
+            "prob": 40.1,
             "scored": false
           }
         ]
@@ -1089,29 +1185,31 @@
           "away": 35
         },
         "pick": "GB",
-        "pick_prob": 60.9,
+        "pick_prob": 66.9,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.3709,
+        "brier": 0.4476,
+        "ats_edge": 2.3,
+        "ats_cover": false,
         "model_brier": 0.3204,
         "scorers": [
           {
             "name": "Bijan Robinson",
             "team": "ATL",
-            "prob": 48.2,
+            "prob": 47.6,
             "scored": true
           },
           {
             "name": "Christian Watson",
             "team": "GB",
-            "prob": 42.1,
+            "prob": 42.6,
             "scored": true
           },
           {
             "name": "MarShawn Lloyd",
             "team": "GB",
-            "prob": 35.7,
+            "prob": 36.2,
             "scored": false
           }
         ]
@@ -1130,30 +1228,32 @@
           "away": 16
         },
         "pick": "BUF",
-        "pick_prob": 71.9,
+        "pick_prob": 73.4,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.079,
+        "brier": 0.0708,
+        "ats_edge": -2.5,
+        "ats_cover": true,
         "model_brier": 0.0581,
         "scorers": [
           {
             "name": "Josh Allen",
             "team": "BUF",
-            "prob": 51.0,
-            "scored": true
-          },
-          {
-            "name": "James Cook",
-            "team": "BUF",
-            "prob": 46.6,
+            "prob": 50.5,
             "scored": true
           },
           {
             "name": "Omarion Hampton",
             "team": "LAC",
-            "prob": 46.5,
+            "prob": 47.1,
             "scored": false
+          },
+          {
+            "name": "James Cook",
+            "team": "BUF",
+            "prob": 46.2,
+            "scored": true
           }
         ]
       },
@@ -1171,28 +1271,30 @@
           "away": 18
         },
         "pick": "CAR",
-        "pick_prob": 55.5,
+        "pick_prob": 55.1,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.308,
+        "brier": 0.3036,
+        "ats_edge": -1.9,
+        "ats_cover": true,
         "model_brier": 0.2694,
         "scorers": [
           {
             "name": "Chuba Hubbard",
             "team": "CAR",
-            "prob": 39.2,
+            "prob": 39.7,
             "scored": false
           },
           {
             "name": "Denzel Boston",
             "team": "CLE",
-            "prob": 32.3,
+            "prob": 31.9,
             "scored": false
           },
           {
-            "name": "Quinshon Judkins",
-            "team": "CLE",
+            "name": "Jalen Coker",
+            "team": "CAR",
             "prob": 27.8,
             "scored": false
           }
@@ -1212,29 +1314,31 @@
           "away": 24
         },
         "pick": "DET",
-        "pick_prob": 70.2,
+        "pick_prob": 73.4,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.0888,
+        "brier": 0.0708,
+        "ats_edge": -0.4,
+        "ats_cover": null,
         "model_brier": 0.0847,
         "scorers": [
           {
             "name": "Jahmyr Gibbs",
             "team": "DET",
-            "prob": 62.2,
+            "prob": 62.1,
             "scored": true
           },
           {
             "name": "Amon-Ra St. Brown",
             "team": "DET",
-            "prob": 53.8,
+            "prob": 53.7,
             "scored": true
           },
           {
             "name": "Breece Hall",
             "team": "NYJ",
-            "prob": 38.3,
+            "prob": 38.4,
             "scored": false
           }
         ]
@@ -1253,29 +1357,31 @@
           "away": 17
         },
         "pick": "HOU",
-        "pick_prob": 54.9,
+        "pick_prob": 53.2,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.3014,
+        "brier": 0.283,
+        "ats_edge": 0.5,
+        "ats_cover": true,
         "model_brier": 0.3136,
         "scorers": [
           {
             "name": "Jonathan Taylor",
             "team": "IND",
-            "prob": 57.8,
+            "prob": 58.0,
             "scored": false
           },
           {
             "name": "David Montgomery",
             "team": "HOU",
-            "prob": 52.8,
+            "prob": 52.6,
             "scored": false
           },
           {
             "name": "Tyler Warren",
             "team": "IND",
-            "prob": 27.9,
+            "prob": 28.1,
             "scored": false
           }
         ]
@@ -1294,29 +1400,31 @@
           "away": 6
         },
         "pick": "JAX",
-        "pick_prob": 56.3,
+        "pick_prob": 59.3,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.191,
+        "brier": 0.1656,
+        "ats_edge": 2.6,
+        "ats_cover": true,
         "model_brier": 0.2381,
         "scorers": [
           {
             "name": "Bhayshul Tuten",
             "team": "JAX",
-            "prob": 41.8,
+            "prob": 42.3,
             "scored": true
           },
           {
             "name": "Eli Raridon",
             "team": "NE",
-            "prob": 31.8,
+            "prob": 31.3,
             "scored": false
           },
           {
             "name": "Hunter Henry",
             "team": "NE",
-            "prob": 29.3,
+            "prob": 28.8,
             "scored": false
           }
         ]
@@ -1335,29 +1443,31 @@
           "away": 24
         },
         "pick": "KC",
-        "pick_prob": 73.4,
+        "pick_prob": 82.2,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.0708,
+        "brier": 0.0317,
+        "ats_edge": -4.7,
+        "ats_cover": false,
         "model_brier": 0.1204,
         "scorers": [
           {
             "name": "Kenneth Walker III",
             "team": "KC",
-            "prob": 55.6,
+            "prob": 56.6,
             "scored": true
           },
           {
             "name": "De'Von Achane",
             "team": "MIA",
-            "prob": 40.0,
+            "prob": 38.7,
             "scored": false
           },
           {
             "name": "Xavier Worthy",
             "team": "KC",
-            "prob": 27.2,
+            "prob": 27.9,
             "scored": false
           }
         ]
@@ -1376,17 +1486,19 @@
           "away": 7
         },
         "pick": "NYG",
-        "pick_prob": 57.2,
+        "pick_prob": 54.3,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.1832,
+        "brier": 0.2088,
+        "ats_edge": 0.2,
+        "ats_cover": true,
         "model_brier": 0.1866,
         "scorers": [
           {
             "name": "Cam Skattebo",
             "team": "NYG",
-            "prob": 35.3,
+            "prob": 35.4,
             "scored": false
           },
           {
@@ -1398,7 +1510,7 @@
           {
             "name": "Cam Ward",
             "team": "TEN",
-            "prob": 33.2,
+            "prob": 33.1,
             "scored": false
           }
         ]
@@ -1417,30 +1529,32 @@
           "away": 27
         },
         "pick": "CIN",
-        "pick_prob": 56.8,
+        "pick_prob": 61.6,
         "correct": false,
         "model_correct": true,
         "market_correct": false,
-        "brier": 0.3226,
+        "brier": 0.3795,
+        "ats_edge": -3.6,
+        "ats_cover": true,
         "model_brier": 0.248,
         "scorers": [
           {
             "name": "Chase Brown",
             "team": "CIN",
-            "prob": 41.5,
+            "prob": 42.3,
             "scored": false
           },
           {
             "name": "Pat Freiermuth",
             "team": "PIT",
-            "prob": 33.2,
+            "prob": 32.4,
             "scored": false
           },
           {
-            "name": "Jaylen Warren",
-            "team": "PIT",
-            "prob": 30.4,
-            "scored": false
+            "name": "Ja'Marr Chase",
+            "team": "CIN",
+            "prob": 30.0,
+            "scored": true
           }
         ]
       },
@@ -1458,11 +1572,13 @@
           "away": 31
         },
         "pick": "SEA",
-        "pick_prob": 73.7,
+        "pick_prob": 77.2,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.5432,
+        "brier": 0.596,
+        "ats_edge": 0.2,
+        "ats_cover": true,
         "model_brier": 0.5491,
         "scorers": [
           {
@@ -1474,13 +1590,13 @@
           {
             "name": "Stefon Diggs",
             "team": "WAS",
-            "prob": 31.0,
+            "prob": 31.1,
             "scored": false
           },
           {
             "name": "Emanuel Wilson",
             "team": "SEA",
-            "prob": 29.9,
+            "prob": 29.8,
             "scored": false
           }
         ]
@@ -1499,29 +1615,31 @@
           "away": 30
         },
         "pick": "SF",
-        "pick_prob": 72.1,
+        "pick_prob": 76.6,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.0778,
+        "brier": 0.0548,
+        "ats_edge": -1.2,
+        "ats_cover": false,
         "model_brier": 0.0676,
         "scorers": [
           {
             "name": "Christian McCaffrey",
             "team": "SF",
-            "prob": 51.2,
+            "prob": 51.0,
             "scored": true
           },
           {
             "name": "Trey McBride",
             "team": "ARI",
-            "prob": 42.2,
+            "prob": 42.5,
             "scored": false
           },
           {
             "name": "Jeremiyah Love",
             "team": "ARI",
-            "prob": 36.0,
+            "prob": 36.3,
             "scored": true
           }
         ]
@@ -1540,11 +1658,13 @@
           "away": 23
         },
         "pick": "MIN",
-        "pick_prob": 54.5,
+        "pick_prob": 50.4,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.207,
+        "brier": 0.246,
+        "ats_edge": 0.1,
+        "ats_cover": false,
         "model_brier": 0.2052,
         "scorers": [
           {
@@ -1581,29 +1701,31 @@
           "away": 34
         },
         "pick": "BAL",
-        "pick_prob": 59.3,
+        "pick_prob": 60.4,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.1656,
+        "brier": 0.1568,
+        "ats_edge": 0.5,
+        "ats_cover": null,
         "model_brier": 0.1568,
         "scorers": [
           {
             "name": "Derrick Henry",
             "team": "BAL",
-            "prob": 71.9,
+            "prob": 71.8,
             "scored": true
           },
           {
             "name": "Javonte Williams",
             "team": "DAL",
-            "prob": 50.8,
+            "prob": 50.9,
             "scored": true
           },
           {
             "name": "CeeDee Lamb",
             "team": "DAL",
-            "prob": 41.2,
+            "prob": 41.3,
             "scored": false
           }
         ]
@@ -1622,17 +1744,19 @@
           "away": 35
         },
         "pick": "NO",
-        "pick_prob": 60.4,
+        "pick_prob": 63.1,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.3648,
+        "brier": 0.3982,
+        "ats_edge": -0.2,
+        "ats_cover": false,
         "model_brier": 0.3697,
         "scorers": [
           {
             "name": "Ashton Jeanty",
             "team": "LV",
-            "prob": 50.5,
+            "prob": 50.6,
             "scored": false
           },
           {
@@ -1644,7 +1768,7 @@
           {
             "name": "Cody White",
             "team": "LV",
-            "prob": 23.6,
+            "prob": 23.7,
             "scored": true
           }
         ]
@@ -1663,29 +1787,31 @@
           "away": 26
         },
         "pick": "DEN",
-        "pick_prob": 52.4,
+        "pick_prob": 50.4,
         "correct": true,
         "model_correct": false,
         "market_correct": true,
-        "brier": 0.2266,
+        "brier": 0.246,
+        "ats_edge": 2.1,
+        "ats_cover": true,
         "model_brier": 0.2673,
         "scorers": [
           {
             "name": "Kyren Williams",
             "team": "LA",
-            "prob": 49.9,
+            "prob": 49.3,
             "scored": false
           },
           {
             "name": "Jonah Coleman",
             "team": "DEN",
-            "prob": 31.0,
+            "prob": 31.4,
             "scored": false
           },
           {
             "name": "Davante Adams",
             "team": "LA",
-            "prob": 29.2,
+            "prob": 28.9,
             "scored": false
           }
         ]
@@ -1704,29 +1830,31 @@
           "away": 7
         },
         "pick": "PHI",
-        "pick_prob": 58.6,
+        "pick_prob": 63.7,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.3434,
+        "brier": 0.4058,
+        "ats_edge": -1.7,
+        "ats_cover": true,
         "model_brier": 0.3047,
         "scorers": [
           {
             "name": "D'Andre Swift",
             "team": "CHI",
-            "prob": 43.1,
+            "prob": 42.6,
             "scored": false
           },
           {
             "name": "Tank Bigsby",
             "team": "PHI",
-            "prob": 27.3,
+            "prob": 27.6,
             "scored": false
           },
           {
             "name": "Dallas Goedert",
             "team": "PHI",
-            "prob": 26.4,
+            "prob": 26.7,
             "scored": false
           }
         ]
@@ -1745,29 +1873,31 @@
           "away": 24
         },
         "pick": "PIT",
-        "pick_prob": 54.6,
+        "pick_prob": 57.2,
         "correct": false,
         "model_correct": true,
         "market_correct": false,
-        "brier": 0.2981,
+        "brier": 0.3272,
+        "ats_edge": -2.8,
+        "ats_cover": true,
         "model_brier": 0.2401,
         "scorers": [
           {
             "name": "Jaylen Warren",
             "team": "PIT",
-            "prob": 30.3,
+            "prob": 30.8,
             "scored": false
           },
           {
             "name": "Quinshon Judkins",
             "team": "CLE",
-            "prob": 25.9,
+            "prob": 25.4,
             "scored": true
           },
           {
             "name": "Denzel Boston",
             "team": "CLE",
-            "prob": 25.0,
+            "prob": 24.5,
             "scored": false
           }
         ]
@@ -1786,29 +1916,31 @@
           "away": 30
         },
         "pick": "IND",
-        "pick_prob": 58.9,
+        "pick_prob": 66.9,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.1689,
+        "brier": 0.1096,
+        "ats_edge": -4.4,
+        "ats_cover": false,
         "model_brier": 0.247,
         "scorers": [
           {
             "name": "Jonathan Taylor",
             "team": "IND",
-            "prob": 57.5,
+            "prob": 58.6,
             "scored": true
           },
           {
             "name": "Stefon Diggs",
             "team": "WAS",
-            "prob": 29.2,
+            "prob": 28.4,
             "scored": false
           },
           {
             "name": "Tyler Warren",
             "team": "IND",
-            "prob": 26.1,
+            "prob": 26.7,
             "scored": false
           }
         ]
@@ -1827,29 +1959,31 @@
           "away": 18
         },
         "pick": "BAL",
-        "pick_prob": 79.5,
+        "pick_prob": 85.2,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.042,
+        "brier": 0.0219,
+        "ats_edge": 1.2,
+        "ats_cover": false,
         "model_brier": 0.0493,
         "scorers": [
           {
             "name": "Derrick Henry",
             "team": "BAL",
-            "prob": 66.9,
+            "prob": 67.2,
             "scored": true
           },
           {
             "name": "Tony Pollard",
             "team": "TEN",
-            "prob": 23.9,
+            "prob": 23.7,
             "scored": true
           },
           {
             "name": "Cam Ward",
             "team": "TEN",
-            "prob": 22.3,
+            "prob": 22.0,
             "scored": false
           }
         ]
@@ -1868,29 +2002,31 @@
           "away": 29
         },
         "pick": "BUF",
-        "pick_prob": 67.4,
+        "pick_prob": 74.4,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.4543,
+        "brier": 0.5535,
+        "ats_edge": 2.7,
+        "ats_cover": false,
         "model_brier": 0.3906,
         "scorers": [
           {
             "name": "Josh Allen",
             "team": "BUF",
-            "prob": 55.3,
+            "prob": 55.8,
             "scored": true
           },
           {
             "name": "James Cook",
             "team": "BUF",
-            "prob": 46.1,
+            "prob": 46.6,
             "scored": true
           },
           {
             "name": "Mack Hollins",
             "team": "NE",
-            "prob": 25.6,
+            "prob": 25.1,
             "scored": false
           }
         ]
@@ -1909,29 +2045,31 @@
           "away": 12
         },
         "pick": "CHI",
-        "pick_prob": 64.3,
+        "pick_prob": 63.1,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.1274,
+        "brier": 0.1362,
+        "ats_edge": -4.3,
+        "ats_cover": true,
         "model_brier": 0.079,
         "scorers": [
           {
             "name": "D'Andre Swift",
             "team": "CHI",
-            "prob": 42.5,
+            "prob": 41.5,
             "scored": false
           },
           {
             "name": "Breece Hall",
             "team": "NYJ",
-            "prob": 30.7,
+            "prob": 31.6,
             "scored": false
           },
           {
             "name": "Braelon Allen",
             "team": "NYJ",
-            "prob": 24.5,
+            "prob": 25.3,
             "scored": false
           }
         ]
@@ -1950,29 +2088,31 @@
           "away": 22
         },
         "pick": "CIN",
-        "pick_prob": 52.3,
+        "pick_prob": 57.2,
         "correct": false,
         "model_correct": true,
         "market_correct": false,
-        "brier": 0.2735,
+        "brier": 0.3272,
+        "ats_edge": 5.2,
+        "ats_cover": false,
         "model_brier": 0.1772,
         "scorers": [
           {
             "name": "Ja'Marr Chase",
             "team": "CIN",
-            "prob": 40.9,
+            "prob": 41.9,
             "scored": false
           },
           {
             "name": "Bhayshul Tuten",
             "team": "JAX",
-            "prob": 39.6,
+            "prob": 38.5,
             "scored": false
           },
           {
             "name": "Chase Brown",
             "team": "CIN",
-            "prob": 36.2,
+            "prob": 37.1,
             "scored": false
           }
         ]
@@ -1991,29 +2131,31 @@
           "away": 34
         },
         "pick": "HOU",
-        "pick_prob": 60.3,
+        "pick_prob": 58.3,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.3636,
+        "brier": 0.3399,
+        "ats_edge": -1.5,
+        "ats_cover": false,
         "model_brier": 0.3982,
         "scorers": [
           {
             "name": "David Montgomery",
             "team": "HOU",
-            "prob": 49.2,
+            "prob": 48.9,
             "scored": false
           },
           {
             "name": "Javonte Williams",
             "team": "DAL",
-            "prob": 42.4,
+            "prob": 42.8,
             "scored": true
           },
           {
             "name": "Woody Marks",
             "team": "HOU",
-            "prob": 34.1,
+            "prob": 33.8,
             "scored": true
           }
         ]
@@ -2032,29 +2174,31 @@
           "away": 24
         },
         "pick": "ARI",
-        "pick_prob": 54.5,
+        "pick_prob": 55.1,
         "correct": false,
         "model_correct": true,
         "market_correct": false,
-        "brier": 0.297,
+        "brier": 0.3036,
+        "ats_edge": -2.9,
+        "ats_cover": true,
         "model_brier": 0.2372,
         "scorers": [
           {
-            "name": "Cam Skattebo",
-            "team": "NYG",
+            "name": "Jeremiyah Love",
+            "team": "ARI",
             "prob": 41.8,
             "scored": false
           },
           {
-            "name": "Jeremiyah Love",
-            "team": "ARI",
+            "name": "Cam Skattebo",
+            "team": "NYG",
             "prob": 41.1,
             "scored": false
           },
           {
             "name": "Trey McBride",
             "team": "ARI",
-            "prob": 31.8,
+            "prob": 32.3,
             "scored": false
           }
         ]
@@ -2073,29 +2217,31 @@
           "away": 24
         },
         "pick": "LA",
-        "pick_prob": 58.4,
+        "pick_prob": 63.7,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.1731,
+        "brier": 0.1318,
+        "ats_edge": -1.9,
+        "ats_cover": false,
         "model_brier": 0.2061,
         "scorers": [
           {
             "name": "Kyren Williams",
             "team": "LA",
-            "prob": 40.5,
+            "prob": 41.0,
             "scored": true
           },
           {
             "name": "Davante Adams",
             "team": "LA",
-            "prob": 25.7,
+            "prob": 26.0,
             "scored": false
           },
           {
             "name": "Jalen Hurts",
             "team": "PHI",
-            "prob": 19.6,
+            "prob": 19.3,
             "scored": false
           }
         ]
@@ -2114,29 +2260,31 @@
           "away": 17
         },
         "pick": "GB",
-        "pick_prob": 54.4,
+        "pick_prob": 58.3,
         "correct": true,
         "model_correct": false,
         "market_correct": true,
-        "brier": 0.2079,
+        "brier": 0.1739,
+        "ats_edge": -4.6,
+        "ats_cover": null,
         "model_brier": 0.2981,
         "scorers": [
           {
             "name": "Christian Watson",
             "team": "GB",
-            "prob": 40.8,
+            "prob": 42.0,
             "scored": false
           },
           {
             "name": "Bucky Irving",
             "team": "TB",
-            "prob": 29.7,
+            "prob": 28.7,
             "scored": false
           },
           {
             "name": "MarShawn Lloyd",
             "team": "GB",
-            "prob": 27.8,
+            "prob": 28.6,
             "scored": false
           }
         ]
@@ -2155,29 +2303,31 @@
           "away": 10
         },
         "pick": "MIN",
-        "pick_prob": 75.4,
+        "pick_prob": 80.8,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.0605,
+        "brier": 0.0369,
+        "ats_edge": 2.2,
+        "ats_cover": false,
         "model_brier": 0.0795,
         "scorers": [
           {
             "name": "Aaron Jones",
             "team": "MIN",
-            "prob": 33.7,
+            "prob": 34.2,
             "scored": false
           },
           {
             "name": "Justin Jefferson",
             "team": "MIN",
-            "prob": 33.1,
+            "prob": 33.5,
             "scored": false
           },
           {
             "name": "Jordan Mason",
             "team": "MIN",
-            "prob": 26.5,
+            "prob": 26.8,
             "scored": false
           }
         ]
@@ -2196,29 +2346,31 @@
           "away": 30
         },
         "pick": "KC",
-        "pick_prob": 62.0,
+        "pick_prob": 66.4,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.1444,
+        "brier": 0.1129,
+        "ats_edge": -1.1,
+        "ats_cover": true,
         "model_brier": 0.16,
         "scorers": [
           {
             "name": "Kenneth Walker III",
             "team": "KC",
-            "prob": 60.6,
+            "prob": 60.9,
             "scored": true
           },
           {
             "name": "Ashton Jeanty",
             "team": "LV",
-            "prob": 44.7,
+            "prob": 44.5,
             "scored": false
           },
           {
             "name": "Cody White",
             "team": "LV",
-            "prob": 27.6,
+            "prob": 27.4,
             "scored": false
           }
         ]
@@ -2237,29 +2389,31 @@
           "away": 23
         },
         "pick": "SEA",
-        "pick_prob": 72.6,
+        "pick_prob": 74.4,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.0751,
+        "brier": 0.0655,
+        "ats_edge": -3.3,
+        "ats_cover": null,
         "model_brier": 0.0493,
         "scorers": [
           {
             "name": "Jaxon Smith-Njigba",
             "team": "SEA",
-            "prob": 55.7,
+            "prob": 54.9,
             "scored": false
           },
           {
             "name": "Omarion Hampton",
             "team": "LAC",
-            "prob": 37.0,
+            "prob": 38.0,
             "scored": true
           },
           {
             "name": "Emanuel Wilson",
             "team": "SEA",
-            "prob": 22.8,
+            "prob": 22.4,
             "scored": true
           }
         ]
@@ -2278,29 +2432,31 @@
           "away": 14
         },
         "pick": "SF",
-        "pick_prob": 59.4,
+        "pick_prob": 60.0,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.1648,
+        "brier": 0.16,
+        "ats_edge": -0.7,
+        "ats_cover": true,
         "model_brier": 0.1544,
         "scorers": [
           {
             "name": "Christian McCaffrey",
             "team": "SF",
-            "prob": 46.8,
+            "prob": 46.7,
             "scored": true
           },
           {
             "name": "George Kittle",
             "team": "SF",
-            "prob": 35.4,
+            "prob": 35.3,
             "scored": true
           },
           {
             "name": "Nate Adkins",
             "team": "DEN",
-            "prob": 24.9,
+            "prob": 25.0,
             "scored": false
           }
         ]
@@ -2319,29 +2475,31 @@
           "away": 26
         },
         "pick": "DET",
-        "pick_prob": 60.1,
+        "pick_prob": 66.4,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.3612,
+        "brier": 0.4409,
+        "ats_edge": -3.1,
+        "ats_cover": true,
         "model_brier": 0.2938,
         "scorers": [
           {
             "name": "Jahmyr Gibbs",
             "team": "DET",
-            "prob": 69.2,
+            "prob": 69.8,
             "scored": true
           },
           {
             "name": "Amon-Ra St. Brown",
             "team": "DET",
-            "prob": 49.7,
+            "prob": 50.3,
             "scored": false
           },
           {
             "name": "Chuba Hubbard",
             "team": "CAR",
-            "prob": 40.2,
+            "prob": 39.5,
             "scored": true
           }
         ]
@@ -2360,29 +2518,31 @@
           "away": 45
         },
         "pick": "NO",
-        "pick_prob": 50.8,
+        "pick_prob": 51.7,
         "correct": false,
         "model_correct": true,
         "market_correct": false,
-        "brier": 0.2581,
+        "brier": 0.2673,
+        "ats_edge": 3.7,
+        "ats_cover": false,
         "model_brier": 0.1901,
         "scorers": [
           {
             "name": "Bijan Robinson",
             "team": "ATL",
-            "prob": 67.3,
+            "prob": 66.3,
             "scored": true
           },
           {
             "name": "Juwan Johnson",
             "team": "NO",
-            "prob": 34.5,
+            "prob": 35.2,
             "scored": false
           },
           {
             "name": "Noah Fant",
             "team": "NO",
-            "prob": 30.1,
+            "prob": 30.7,
             "scored": false
           }
         ]
@@ -2401,29 +2561,31 @@
           "away": 24
         },
         "pick": "DAL",
-        "pick_prob": 70.1,
+        "pick_prob": 80.8,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.4914,
+        "brier": 0.6529,
+        "ats_edge": 7.1,
+        "ats_cover": false,
         "model_brier": 0.326,
         "scorers": [
           {
             "name": "Javonte Williams",
             "team": "DAL",
-            "prob": 60.8,
+            "prob": 62.3,
             "scored": true
           },
           {
             "name": "CeeDee Lamb",
             "team": "DAL",
-            "prob": 37.9,
+            "prob": 39.1,
             "scored": false
           },
           {
             "name": "Bucky Irving",
             "team": "TB",
-            "prob": 30.1,
+            "prob": 28.7,
             "scored": true
           }
         ]
@@ -2442,29 +2604,31 @@
           "away": 17
         },
         "pick": "JAX",
-        "pick_prob": 69.1,
+        "pick_prob": 76.0,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.0955,
+        "brier": 0.0576,
+        "ats_edge": 2.3,
+        "ats_cover": false,
         "model_brier": 0.1225,
         "scorers": [
           {
             "name": "Bhayshul Tuten",
             "team": "JAX",
-            "prob": 36.0,
+            "prob": 36.4,
             "scored": false
           },
           {
             "name": "Chris Rodriguez Jr.",
             "team": "JAX",
-            "prob": 27.9,
+            "prob": 28.3,
             "scored": false
           },
           {
             "name": "Darius Cooper",
             "team": "PHI",
-            "prob": 25.7,
+            "prob": 25.2,
             "scored": true
           }
         ]
@@ -2483,17 +2647,19 @@
           "away": 7
         },
         "pick": "CHI",
-        "pick_prob": 54.2,
+        "pick_prob": 53.2,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.2938,
+        "brier": 0.283,
+        "ats_edge": -0.3,
+        "ats_cover": true,
         "model_brier": 0.2884,
         "scorers": [
           {
             "name": "Kyle Monangai",
             "team": "CHI",
-            "prob": 38.7,
+            "prob": 38.8,
             "scored": false
           },
           {
@@ -2524,29 +2690,31 @@
           "away": 31
         },
         "pick": "CIN",
-        "pick_prob": 66.1,
+        "pick_prob": 74.8,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.1149,
+        "brier": 0.0635,
+        "ats_edge": -4.2,
+        "ats_cover": null,
         "model_brier": 0.1747,
         "scorers": [
           {
             "name": "Ollie Gordon II",
             "team": "MIA",
-            "prob": 37.5,
+            "prob": 36.5,
             "scored": true
           },
           {
             "name": "Ja'Marr Chase",
             "team": "CIN",
-            "prob": 30.6,
+            "prob": 31.4,
             "scored": true
           },
           {
             "name": "Mike Gesicki",
             "team": "CIN",
-            "prob": 29.0,
+            "prob": 29.7,
             "scored": true
           }
         ]
@@ -2565,29 +2733,31 @@
           "away": 17
         },
         "pick": "NE",
-        "pick_prob": 63.4,
+        "pick_prob": 61.6,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.134,
+        "brier": 0.1475,
+        "ats_edge": -3.3,
+        "ats_cover": true,
         "model_brier": 0.0936,
         "scorers": [
           {
             "name": "Ashton Jeanty",
             "team": "LV",
-            "prob": 37.1,
+            "prob": 37.9,
             "scored": false
           },
           {
             "name": "Romeo Doubs",
             "team": "NE",
-            "prob": 34.9,
+            "prob": 34.3,
             "scored": false
           },
           {
             "name": "Rhamondre Stevenson",
             "team": "NE",
-            "prob": 27.8,
+            "prob": 27.3,
             "scored": true
           }
         ]
@@ -2606,29 +2776,31 @@
           "away": 23
         },
         "pick": "MIN",
-        "pick_prob": 58.8,
+        "pick_prob": 56.3,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.1697,
+        "brier": 0.191,
+        "ats_edge": 1.5,
+        "ats_cover": false,
         "model_brier": 0.1467,
         "scorers": [
           {
             "name": "Aaron Jones",
             "team": "MIN",
-            "prob": 42.1,
+            "prob": 41.7,
             "scored": true
           },
           {
             "name": "T.J. Hockenson",
             "team": "MIN",
-            "prob": 28.3,
+            "prob": 28.0,
             "scored": false
           },
           {
             "name": "Justin Jefferson",
             "team": "MIN",
-            "prob": 25.0,
+            "prob": 24.8,
             "scored": true
           }
         ]
@@ -2647,29 +2819,31 @@
           "away": 12
         },
         "pick": "NYJ",
-        "pick_prob": 53.2,
+        "pick_prob": 56.3,
         "correct": true,
         "model_correct": false,
         "market_correct": true,
-        "brier": 0.219,
+        "brier": 0.191,
+        "ats_edge": 4.3,
+        "ats_cover": true,
         "model_brier": 0.3047,
         "scorers": [
           {
             "name": "Quinshon Judkins",
             "team": "CLE",
-            "prob": 34.3,
+            "prob": 33.2,
             "scored": false
           },
           {
             "name": "Braelon Allen",
             "team": "NYJ",
-            "prob": 28.1,
+            "prob": 28.9,
             "scored": true
           },
           {
-            "name": "Harold Fannin Jr.",
-            "team": "CLE",
-            "prob": 26.7,
+            "name": "Breece Hall",
+            "team": "NYJ",
+            "prob": 27.5,
             "scored": false
           }
         ]
@@ -2688,29 +2862,31 @@
           "away": 22
         },
         "pick": "PIT",
-        "pick_prob": 57.9,
+        "pick_prob": 59.3,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.1772,
+        "brier": 0.1656,
+        "ats_edge": 0.9,
+        "ats_cover": true,
         "model_brier": 0.1918,
         "scorers": [
           {
             "name": "Jonathan Taylor",
             "team": "IND",
-            "prob": 50.7,
+            "prob": 50.4,
             "scored": false
           },
           {
             "name": "Jaylen Warren",
             "team": "PIT",
-            "prob": 26.1,
+            "prob": 26.3,
             "scored": true
           },
           {
             "name": "Roman Wilson",
             "team": "PIT",
-            "prob": 23.8,
+            "prob": 23.9,
             "scored": false
           }
         ]
@@ -2729,29 +2905,31 @@
           "away": 26
         },
         "pick": "HOU",
-        "pick_prob": 68.0,
+        "pick_prob": 72.6,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.1024,
+        "brier": 0.0751,
+        "ats_edge": -0.5,
+        "ats_cover": false,
         "model_brier": 0.1089,
         "scorers": [
           {
             "name": "David Montgomery",
             "team": "HOU",
-            "prob": 36.1,
+            "prob": 36.2,
             "scored": false
           },
           {
             "name": "Tony Pollard",
             "team": "TEN",
-            "prob": 32.6,
+            "prob": 32.4,
             "scored": false
           },
           {
             "name": "Woody Marks",
             "team": "HOU",
-            "prob": 31.7,
+            "prob": 31.8,
             "scored": false
           }
         ]
@@ -2770,29 +2948,31 @@
           "away": 27
         },
         "pick": "WAS",
-        "pick_prob": 58.0,
+        "pick_prob": 61.6,
         "correct": null,
         "model_correct": null,
         "market_correct": null,
         "brier": null,
+        "ats_edge": 2.3,
+        "ats_cover": false,
         "model_brier": null,
         "scorers": [
           {
             "name": "Cam Skattebo",
             "team": "NYG",
-            "prob": 28.2,
+            "prob": 27.8,
             "scored": false
           },
           {
             "name": "Stefon Diggs",
             "team": "WAS",
-            "prob": 26.3,
+            "prob": 26.7,
             "scored": false
           },
           {
             "name": "Jacory Croskey-Merritt",
             "team": "WAS",
-            "prob": 25.0,
+            "prob": 25.4,
             "scored": true
           }
         ]
@@ -2811,29 +2991,31 @@
           "away": 23
         },
         "pick": "DEN",
-        "pick_prob": 59.1,
+        "pick_prob": 63.1,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.1673,
+        "brier": 0.1362,
+        "ats_edge": -1.2,
+        "ats_cover": false,
         "model_brier": 0.1858,
         "scorers": [
           {
             "name": "Omarion Hampton",
             "team": "LAC",
-            "prob": 41.5,
+            "prob": 41.2,
             "scored": false
           },
           {
             "name": "Nate Adkins",
             "team": "DEN",
-            "prob": 21.4,
+            "prob": 21.5,
             "scored": false
           },
           {
             "name": "Jaylen Waddle",
             "team": "DEN",
-            "prob": 19.4,
+            "prob": 19.6,
             "scored": false
           }
         ]
@@ -2852,29 +3034,31 @@
           "away": 45
         },
         "pick": "DET",
-        "pick_prob": 63.4,
+        "pick_prob": 69.6,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.134,
+        "brier": 0.0924,
+        "ats_edge": -2.6,
+        "ats_cover": false,
         "model_brier": 0.1731,
         "scorers": [
           {
             "name": "Jahmyr Gibbs",
             "team": "DET",
-            "prob": 67.1,
+            "prob": 67.6,
             "scored": true
           },
           {
             "name": "Amon-Ra St. Brown",
             "team": "DET",
-            "prob": 45.8,
+            "prob": 46.3,
             "scored": false
           },
           {
             "name": "Jeremiyah Love",
             "team": "ARI",
-            "prob": 35.5,
+            "prob": 35.0,
             "scored": false
           }
         ]
@@ -2893,29 +3077,31 @@
           "away": 32
         },
         "pick": "SEA",
-        "pick_prob": 59.5,
+        "pick_prob": 60.0,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.354,
+        "brier": 0.36,
+        "ats_edge": -0.7,
+        "ats_cover": false,
         "model_brier": 0.3709,
         "scorers": [
           {
             "name": "Jaxon Smith-Njigba",
             "team": "SEA",
-            "prob": 45.8,
+            "prob": 45.6,
             "scored": true
           },
           {
             "name": "Christian McCaffrey",
             "team": "SF",
-            "prob": 40.7,
+            "prob": 40.8,
             "scored": true
           },
           {
             "name": "Emanuel Wilson",
             "team": "SEA",
-            "prob": 36.8,
+            "prob": 36.6,
             "scored": true
           }
         ]
@@ -2934,29 +3120,31 @@
           "away": 30
         },
         "pick": "ATL",
-        "pick_prob": 62.3,
+        "pick_prob": 60.9,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.3881,
+        "brier": 0.3709,
+        "ats_edge": -2.2,
+        "ats_cover": false,
         "model_brier": 0.4396,
         "scorers": [
           {
             "name": "Bijan Robinson",
             "team": "ATL",
-            "prob": 61.0,
+            "prob": 60.5,
             "scored": false
           },
           {
             "name": "Derrick Henry",
             "team": "BAL",
-            "prob": 54.4,
+            "prob": 55.1,
             "scored": true
           },
           {
             "name": "Brian Robinson",
             "team": "ATL",
-            "prob": 43.3,
+            "prob": 42.9,
             "scored": false
           }
         ]
@@ -2975,29 +3163,31 @@
           "away": 37
         },
         "pick": "LA",
-        "pick_prob": 58.9,
+        "pick_prob": 62.2,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.3469,
+        "brier": 0.3869,
+        "ats_edge": 1.4,
+        "ats_cover": false,
         "model_brier": 0.3158,
         "scorers": [
           {
             "name": "Kyren Williams",
             "team": "LA",
-            "prob": 60.5,
+            "prob": 60.8,
             "scored": true
           },
           {
             "name": "Josh Allen",
             "team": "BUF",
-            "prob": 49.8,
+            "prob": 49.5,
             "scored": true
           },
           {
             "name": "James Cook",
             "team": "BUF",
-            "prob": 43.8,
+            "prob": 43.5,
             "scored": true
           }
         ]
@@ -3016,29 +3206,31 @@
           "away": 14
         },
         "pick": "SEA",
-        "pick_prob": 56.4,
+        "pick_prob": 58.3,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.3181,
+        "brier": 0.3399,
+        "ats_edge": -1.0,
+        "ats_cover": true,
         "model_brier": 0.297,
         "scorers": [
           {
             "name": "Jaxon Smith-Njigba",
             "team": "SEA",
-            "prob": 39.9,
+            "prob": 40.1,
             "scored": false
           },
           {
             "name": "Emanuel Wilson",
             "team": "SEA",
-            "prob": 36.0,
+            "prob": 36.2,
             "scored": false
           },
           {
             "name": "J.K. Dobbins",
             "team": "DEN",
-            "prob": 28.3,
+            "prob": 28.1,
             "scored": true
           }
         ]
@@ -3057,29 +3249,31 @@
           "away": 34
         },
         "pick": "JAX",
-        "pick_prob": 58.0,
+        "pick_prob": 56.3,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.3364,
+        "brier": 0.317,
+        "ats_edge": -0.6,
+        "ats_cover": false,
         "model_brier": 0.3505,
         "scorers": [
           {
             "name": "Parker Washington",
             "team": "JAX",
-            "prob": 32.6,
+            "prob": 32.5,
             "scored": false
           },
           {
             "name": "Bhayshul Tuten",
             "team": "JAX",
-            "prob": 31.3,
+            "prob": 31.2,
             "scored": true
           },
           {
             "name": "Woody Marks",
             "team": "HOU",
-            "prob": 30.2,
+            "prob": 30.3,
             "scored": false
           }
         ]
@@ -3098,29 +3292,31 @@
           "away": 31
         },
         "pick": "CHI",
-        "pick_prob": 52.3,
+        "pick_prob": 51.7,
         "correct": true,
         "model_correct": false,
         "market_correct": true,
-        "brier": 0.2275,
+        "brier": 0.2333,
+        "ats_edge": -2.1,
+        "ats_cover": false,
         "model_brier": 0.2683,
         "scorers": [
           {
             "name": "Bijan Robinson",
             "team": "ATL",
-            "prob": 57.5,
+            "prob": 57.0,
             "scored": false
           },
           {
             "name": "D'Andre Swift",
             "team": "CHI",
-            "prob": 44.7,
+            "prob": 45.2,
             "scored": true
           },
           {
             "name": "Kyle Monangai",
             "team": "CHI",
-            "prob": 37.4,
+            "prob": 37.8,
             "scored": false
           }
         ]
@@ -3139,29 +3335,31 @@
           "away": 10
         },
         "pick": "BAL",
-        "pick_prob": 57.4,
+        "pick_prob": 60.4,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.3295,
+        "brier": 0.3648,
+        "ats_edge": -1.5,
+        "ats_cover": true,
         "model_brier": 0.297,
         "scorers": [
           {
             "name": "Derrick Henry",
             "team": "BAL",
-            "prob": 53.4,
+            "prob": 53.8,
             "scored": false
           },
           {
             "name": "Quinshon Judkins",
             "team": "CLE",
-            "prob": 32.3,
+            "prob": 31.9,
             "scored": false
           },
           {
             "name": "Denzel Boston",
             "team": "CLE",
-            "prob": 24.6,
+            "prob": 24.4,
             "scored": false
           }
         ]
@@ -3180,29 +3378,31 @@
           "away": 26
         },
         "pick": "IND",
-        "pick_prob": 69.9,
+        "pick_prob": 71.8,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.4886,
+        "brier": 0.5155,
+        "ats_edge": -1.6,
+        "ats_cover": false,
         "model_brier": 0.5285,
         "scorers": [
           {
             "name": "Jonathan Taylor",
             "team": "IND",
-            "prob": 56.1,
+            "prob": 55.7,
             "scored": true
           },
           {
             "name": "Tony Pollard",
             "team": "TEN",
-            "prob": 36.3,
+            "prob": 36.8,
             "scored": false
           },
           {
             "name": "Tyler Warren",
             "team": "IND",
-            "prob": 27.4,
+            "prob": 27.2,
             "scored": false
           }
         ]
@@ -3221,29 +3421,31 @@
           "away": 19
         },
         "pick": "NE",
-        "pick_prob": 73.0,
+        "pick_prob": 74.4,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.0729,
+        "brier": 0.0655,
+        "ats_edge": -2.3,
+        "ats_cover": false,
         "model_brier": 0.0543,
         "scorers": [
           {
             "name": "Rhamondre Stevenson",
             "team": "NE",
-            "prob": 32.1,
+            "prob": 31.7,
             "scored": false
           },
           {
             "name": "Braelon Allen",
             "team": "NYJ",
-            "prob": 31.0,
+            "prob": 31.6,
             "scored": false
           },
           {
             "name": "Garrett Wilson",
             "team": "NYJ",
-            "prob": 24.4,
+            "prob": 24.8,
             "scored": false
           }
         ]
@@ -3262,29 +3464,31 @@
           "away": 34
         },
         "pick": "NYG",
-        "pick_prob": 50.5,
+        "pick_prob": 50.4,
         "correct": false,
         "model_correct": false,
         "market_correct": true,
-        "brier": 0.255,
+        "brier": 0.254,
+        "ats_edge": -5.0,
+        "ats_cover": false,
         "model_brier": 0.3624,
         "scorers": [
           {
             "name": "Isaiah Likely",
             "team": "NYG",
-            "prob": 37.6,
+            "prob": 36.5,
             "scored": true
           },
           {
             "name": "Malik Nabers",
             "team": "NYG",
-            "prob": 28.6,
+            "prob": 27.7,
             "scored": false
           },
           {
-            "name": "Cam Skattebo",
-            "team": "NYG",
-            "prob": 26.4,
+            "name": "Juwan Johnson",
+            "team": "NO",
+            "prob": 25.6,
             "scored": false
           }
         ]
@@ -3303,29 +3507,31 @@
           "away": 25
         },
         "pick": "CAR",
-        "pick_prob": 55.9,
+        "pick_prob": 59.3,
         "correct": true,
         "model_correct": false,
         "market_correct": true,
-        "brier": 0.1945,
+        "brier": 0.1656,
+        "ats_edge": -3.0,
+        "ats_cover": false,
         "model_brier": 0.251,
         "scorers": [
           {
             "name": "Chuba Hubbard",
             "team": "CAR",
-            "prob": 40.8,
+            "prob": 41.5,
             "scored": true
           },
           {
             "name": "Darius Cooper",
             "team": "PHI",
-            "prob": 28.9,
+            "prob": 28.2,
             "scored": false
           },
           {
             "name": "Tetairoa McMillan",
             "team": "CAR",
-            "prob": 23.5,
+            "prob": 24.0,
             "scored": false
           }
         ]
@@ -3344,29 +3550,31 @@
           "away": 26
         },
         "pick": "PIT",
-        "pick_prob": 53.2,
+        "pick_prob": 56.3,
         "correct": true,
         "model_correct": false,
         "market_correct": true,
-        "brier": 0.219,
+        "brier": 0.191,
+        "ats_edge": -4.2,
+        "ats_cover": false,
         "model_brier": 0.3036,
         "scorers": [
           {
             "name": "Bucky Irving",
             "team": "TB",
-            "prob": 39.4,
+            "prob": 38.2,
             "scored": false
           },
           {
             "name": "Pat Freiermuth",
             "team": "PIT",
-            "prob": 31.0,
+            "prob": 31.9,
             "scored": false
           },
           {
             "name": "Jaylen Warren",
             "team": "PIT",
-            "prob": 30.9,
+            "prob": 31.8,
             "scored": false
           }
         ]
@@ -3385,29 +3593,31 @@
           "away": 18
         },
         "pick": "LA",
-        "pick_prob": 80.7,
+        "pick_prob": 84.0,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.6512,
+        "brier": 0.7056,
+        "ats_edge": 2.4,
+        "ats_cover": false,
         "model_brier": 0.5975,
         "scorers": [
           {
             "name": "Kyren Williams",
             "team": "LA",
-            "prob": 59.0,
+            "prob": 59.5,
             "scored": false
           },
           {
             "name": "Davante Adams",
             "team": "LA",
-            "prob": 41.8,
+            "prob": 42.2,
             "scored": false
           },
           {
             "name": "Puka Nacua",
             "team": "LA",
-            "prob": 31.6,
+            "prob": 32.0,
             "scored": false
           }
         ]
@@ -3426,29 +3636,31 @@
           "away": 6
         },
         "pick": "KC",
-        "pick_prob": 71.9,
+        "pick_prob": 78.7,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.079,
+        "brier": 0.0454,
+        "ats_edge": -1.0,
+        "ats_cover": true,
         "model_brier": 0.0697,
         "scorers": [
           {
             "name": "Kenneth Walker III",
             "team": "KC",
-            "prob": 61.2,
+            "prob": 60.9,
             "scored": true
           },
           {
             "name": "Omarion Hampton",
             "team": "LAC",
-            "prob": 34.1,
+            "prob": 34.4,
             "scored": false
           },
           {
             "name": "Tyquan Thornton",
             "team": "KC",
-            "prob": 20.4,
+            "prob": 20.3,
             "scored": false
           }
         ]
@@ -3467,11 +3679,13 @@
           "away": 33
         },
         "pick": "BUF",
-        "pick_prob": 65.8,
+        "pick_prob": 67.5,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.117,
+        "brier": 0.1056,
+        "ats_edge": 0.0,
+        "ats_cover": true,
         "model_brier": 0.117,
         "scorers": [
           {
@@ -3507,30 +3721,32 @@
           "home": 23,
           "away": 13
         },
-        "pick": "GB",
-        "pick_prob": 51.8,
-        "correct": true,
+        "pick": "DAL",
+        "pick_prob": 51.1,
+        "correct": false,
         "model_correct": true,
         "market_correct": false,
-        "brier": 0.2323,
+        "brier": 0.2611,
+        "ats_edge": -6.3,
+        "ats_cover": true,
         "model_brier": 0.1296,
         "scorers": [
           {
             "name": "Javonte Williams",
             "team": "DAL",
-            "prob": 58.4,
+            "prob": 59.8,
             "scored": true
           },
           {
             "name": "Christian Watson",
             "team": "GB",
-            "prob": 45.4,
+            "prob": 44.1,
             "scored": false
           },
           {
             "name": "MarShawn Lloyd",
             "team": "GB",
-            "prob": 41.8,
+            "prob": 40.6,
             "scored": false
           }
         ]
@@ -3549,29 +3765,31 @@
           "away": 17
         },
         "pick": "SF",
-        "pick_prob": 72.9,
+        "pick_prob": 76.6,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.0734,
+        "brier": 0.0548,
+        "ats_edge": -2.2,
+        "ats_cover": false,
         "model_brier": 0.0562,
         "scorers": [
           {
             "name": "Christian McCaffrey",
             "team": "SF",
-            "prob": 51.2,
+            "prob": 50.7,
             "scored": true
           },
           {
             "name": "George Kittle",
             "team": "SF",
-            "prob": 33.4,
+            "prob": 33.0,
             "scored": true
           },
           {
             "name": "Mike Evans",
             "team": "SF",
-            "prob": 31.4,
+            "prob": 31.1,
             "scored": false
           }
         ]
@@ -3590,29 +3808,31 @@
           "away": 24
         },
         "pick": "CHI",
-        "pick_prob": 57.1,
+        "pick_prob": 58.3,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.184,
+        "brier": 0.1739,
+        "ats_edge": 1.8,
+        "ats_cover": true,
         "model_brier": 0.2162,
         "scorers": [
           {
             "name": "D'Andre Swift",
             "team": "CHI",
-            "prob": 48.8,
+            "prob": 49.2,
             "scored": true
           },
           {
             "name": "Kyle Monangai",
             "team": "CHI",
-            "prob": 27.1,
+            "prob": 27.4,
             "scored": false
           },
           {
             "name": "Rhamondre Stevenson",
             "team": "NE",
-            "prob": 25.8,
+            "prob": 25.5,
             "scored": true
           }
         ]
@@ -3636,24 +3856,26 @@
         "model_correct": true,
         "market_correct": true,
         "brier": 0.1656,
+        "ats_edge": 0.5,
+        "ats_cover": false,
         "model_brier": 0.1576,
         "scorers": [
           {
             "name": "Jaylen Warren",
             "team": "PIT",
-            "prob": 29.2,
+            "prob": 29.1,
             "scored": false
           },
           {
             "name": "Pat Freiermuth",
             "team": "PIT",
-            "prob": 28.1,
+            "prob": 28.0,
             "scored": false
           },
           {
             "name": "Alvin Kamara",
             "team": "NO",
-            "prob": 22.7,
+            "prob": 22.8,
             "scored": false
           }
         ]
@@ -3672,29 +3894,31 @@
           "away": 20
         },
         "pick": "SF",
-        "pick_prob": 58.4,
+        "pick_prob": 58.3,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.3411,
+        "brier": 0.3399,
+        "ats_edge": 1.0,
+        "ats_cover": true,
         "model_brier": 0.3636,
         "scorers": [
           {
             "name": "Christian McCaffrey",
             "team": "SF",
-            "prob": 53.0,
+            "prob": 52.8,
             "scored": true
           },
           {
             "name": "Bijan Robinson",
             "team": "ATL",
-            "prob": 44.3,
+            "prob": 44.5,
             "scored": false
           },
           {
             "name": "George Kittle",
             "team": "SF",
-            "prob": 34.3,
+            "prob": 34.1,
             "scored": false
           }
         ]
@@ -3713,29 +3937,31 @@
           "away": 35
         },
         "pick": "CIN",
-        "pick_prob": 54.3,
+        "pick_prob": 59.3,
         "correct": true,
         "model_correct": false,
         "market_correct": true,
-        "brier": 0.2088,
+        "brier": 0.1656,
+        "ats_edge": -4.7,
+        "ats_cover": false,
         "model_brier": 0.3014,
         "scorers": [
           {
             "name": "Derrick Henry",
             "team": "BAL",
-            "prob": 54.2,
+            "prob": 53.0,
             "scored": false
           },
           {
             "name": "Ja'Marr Chase",
             "team": "CIN",
-            "prob": 31.3,
+            "prob": 32.1,
             "scored": true
           },
           {
             "name": "Chase Brown",
             "team": "CIN",
-            "prob": 27.5,
+            "prob": 28.2,
             "scored": false
           }
         ]
@@ -3754,29 +3980,31 @@
           "away": 43
         },
         "pick": "CAR",
-        "pick_prob": 59.3,
+        "pick_prob": 60.0,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.3516,
+        "brier": 0.36,
+        "ats_edge": -0.6,
+        "ats_cover": false,
         "model_brier": 0.3648,
         "scorers": [
           {
             "name": "Chuba Hubbard",
             "team": "CAR",
-            "prob": 49.2,
+            "prob": 49.1,
             "scored": false
           },
           {
             "name": "Bucky Irving",
             "team": "TB",
-            "prob": 41.6,
+            "prob": 41.7,
             "scored": true
           },
           {
             "name": "Emeka Egbuka",
             "team": "TB",
-            "prob": 29.3,
+            "prob": 29.4,
             "scored": false
           }
         ]
@@ -3795,29 +4023,31 @@
           "away": 27
         },
         "pick": "HOU",
-        "pick_prob": 74.0,
+        "pick_prob": 80.4,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.5476,
+        "brier": 0.6464,
+        "ats_edge": 3.9,
+        "ats_cover": false,
         "model_brier": 0.4529,
         "scorers": [
           {
             "name": "Woody Marks",
             "team": "HOU",
-            "prob": 28.7,
+            "prob": 29.3,
             "scored": false
           },
           {
             "name": "Isaiah Likely",
             "team": "NYG",
-            "prob": 28.3,
+            "prob": 27.4,
             "scored": false
           },
           {
             "name": "Foster Moreau",
             "team": "HOU",
-            "prob": 25.7,
+            "prob": 26.3,
             "scored": false
           }
         ]
@@ -3836,29 +4066,31 @@
           "away": 10
         },
         "pick": "MIN",
-        "pick_prob": 69.8,
+        "pick_prob": 73.4,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.0912,
+        "brier": 0.0708,
+        "ats_edge": -1.6,
+        "ats_cover": false,
         "model_brier": 0.0756,
         "scorers": [
           {
             "name": "Aaron Jones",
             "team": "MIN",
-            "prob": 47.1,
+            "prob": 46.7,
             "scored": false
           },
           {
             "name": "Jonathan Taylor",
             "team": "IND",
-            "prob": 43.8,
+            "prob": 44.3,
             "scored": true
           },
           {
             "name": "Justin Jefferson",
             "team": "MIN",
-            "prob": 27.9,
+            "prob": 27.6,
             "scored": false
           }
         ]
@@ -3877,29 +4109,31 @@
           "away": 28
         },
         "pick": "NYJ",
-        "pick_prob": 58.5,
+        "pick_prob": 65.7,
         "correct": false,
         "model_correct": false,
         "market_correct": false,
-        "brier": 0.3422,
+        "brier": 0.4316,
+        "ats_edge": 1.8,
+        "ats_cover": false,
         "model_brier": 0.3036,
         "scorers": [
           {
             "name": "Ollie Gordon II",
             "team": "MIA",
-            "prob": 41.2,
+            "prob": 40.7,
             "scored": true
           },
           {
             "name": "Braelon Allen",
             "team": "NYJ",
-            "prob": 37.6,
+            "prob": 38.0,
             "scored": false
           },
           {
             "name": "Garrett Wilson",
             "team": "NYJ",
-            "prob": 29.2,
+            "prob": 29.5,
             "scored": false
           }
         ]
@@ -3918,29 +4152,31 @@
           "away": 27
         },
         "pick": "CLE",
-        "pick_prob": 56.2,
+        "pick_prob": 54.3,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.1918,
+        "brier": 0.2088,
+        "ats_edge": 1.8,
+        "ats_cover": false,
         "model_brier": 0.1632,
         "scorers": [
           {
             "name": "Tony Pollard",
             "team": "TEN",
-            "prob": 31.1,
+            "prob": 31.5,
             "scored": true
           },
           {
             "name": "Quinshon Judkins",
             "team": "CLE",
-            "prob": 28.1,
+            "prob": 27.7,
             "scored": true
           },
           {
             "name": "Denzel Boston",
             "team": "CLE",
-            "prob": 22.1,
+            "prob": 21.8,
             "scored": false
           }
         ]
@@ -3959,29 +4195,31 @@
           "away": 30
         },
         "pick": "DEN",
-        "pick_prob": 63.7,
+        "pick_prob": 66.9,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.1318,
+        "brier": 0.1096,
+        "ats_edge": 0.7,
+        "ats_cover": false,
         "model_brier": 0.1218,
         "scorers": [
           {
             "name": "J.K. Dobbins",
             "team": "DEN",
-            "prob": 41.7,
+            "prob": 41.6,
             "scored": true
           },
           {
             "name": "Trey McBride",
             "team": "ARI",
-            "prob": 24.5,
+            "prob": 24.6,
             "scored": true
           },
           {
             "name": "RJ Harvey",
             "team": "DEN",
-            "prob": 23.9,
+            "prob": 23.8,
             "scored": true
           }
         ]
@@ -4000,29 +4238,31 @@
           "away": 17
         },
         "pick": "DET",
-        "pick_prob": 59.5,
+        "pick_prob": 63.1,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.164,
+        "brier": 0.1362,
+        "ats_edge": 0.7,
+        "ats_cover": false,
         "model_brier": 0.1756,
         "scorers": [
           {
             "name": "Jahmyr Gibbs",
             "team": "DET",
-            "prob": 65.4,
+            "prob": 65.5,
             "scored": false
           },
           {
             "name": "Amon-Ra St. Brown",
             "team": "DET",
-            "prob": 37.5,
+            "prob": 37.6,
             "scored": false
           },
           {
             "name": "Christian Watson",
             "team": "GB",
-            "prob": 37.2,
+            "prob": 37.0,
             "scored": false
           }
         ]
@@ -4041,29 +4281,31 @@
           "away": 35
         },
         "pick": "LA",
-        "pick_prob": 61.2,
+        "pick_prob": 61.6,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.1505,
+        "brier": 0.1475,
+        "ats_edge": 1.0,
+        "ats_cover": false,
         "model_brier": 0.1362,
         "scorers": [
           {
             "name": "Kyren Williams",
             "team": "LA",
-            "prob": 49.2,
+            "prob": 49.0,
             "scored": true
           },
           {
             "name": "Ashton Jeanty",
             "team": "LV",
-            "prob": 37.0,
+            "prob": 37.2,
             "scored": true
           },
           {
             "name": "Davante Adams",
             "team": "LA",
-            "prob": 32.6,
+            "prob": 32.4,
             "scored": false
           }
         ]
@@ -4082,29 +4324,31 @@
           "away": 3
         },
         "pick": "SEA",
-        "pick_prob": 58.0,
+        "pick_prob": 59.3,
         "correct": true,
         "model_correct": true,
         "market_correct": true,
-        "brier": 0.1764,
+        "brier": 0.1656,
+        "ats_edge": 0.9,
+        "ats_cover": true,
         "model_brier": 0.191,
         "scorers": [
           {
             "name": "Kenneth Walker III",
             "team": "KC",
-            "prob": 57.3,
+            "prob": 57.1,
             "scored": false
           },
           {
             "name": "Jaxon Smith-Njigba",
             "team": "SEA",
-            "prob": 39.2,
+            "prob": 39.4,
             "scored": true
           },
           {
             "name": "Emanuel Wilson",
             "team": "SEA",
-            "prob": 35.6,
+            "prob": 35.8,
             "scored": true
           }
         ]
@@ -4123,29 +4367,31 @@
           "away": 38
         },
         "pick": "DAL",
-        "pick_prob": 55.9,
+        "pick_prob": 66.4,
         "correct": true,
         "model_correct": false,
         "market_correct": true,
-        "brier": 0.1945,
+        "brier": 0.1129,
+        "ats_edge": -7.5,
+        "ats_cover": false,
         "model_brier": 0.3446,
         "scorers": [
           {
             "name": "Javonte Williams",
             "team": "DAL",
-            "prob": 51.4,
+            "prob": 53.3,
             "scored": true
           },
           {
             "name": "CeeDee Lamb",
             "team": "DAL",
-            "prob": 28.4,
+            "prob": 29.7,
             "scored": true
           },
           {
             "name": "Darius Cooper",
             "team": "PHI",
-            "prob": 26.9,
+            "prob": 25.5,
             "scored": false
           }
         ]
@@ -4182,18 +4428,20 @@
         "off_rank": 12,
         "def_rank": 19
       },
-      "prob_home_win": 62.1,
-      "prob_away_win": 37.9,
-      "predicted_spread": -4.2,
+      "prob_home_win": 60.4,
+      "prob_away_win": 39.6,
+      "predicted_spread": -3.5,
       "model_spread": -5.5,
       "model_prob_home": 65.8,
       "vegas_spread": -3.5,
       "vegas_total": 54.5,
       "projected_score": {
         "home": 29,
-        "away": 25
+        "away": 26
       },
       "confidence_score": "Modérée",
+      "tier": "Probable",
+      "prob_source": "cotes",
       "factors": {
         "elo": 7.3,
         "epa": 3.7,
@@ -4208,7 +4456,7 @@
           "home_days": 14,
           "away_days": 7
         },
-        "market_weight": 0.67
+        "market_weight": 1.0
       },
       "scorers": [
         {
@@ -4217,7 +4465,7 @@
           "team": "BAL",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tm79x0iknqg6hms3ypyt",
-          "prob": 56.7,
+          "prob": 57.2,
           "season_tds": 8,
           "status": null
         },
@@ -4227,7 +4475,7 @@
           "team": "BUF",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/anjbznqb9i21wzcgrtbs",
-          "prob": 52.2,
+          "prob": 51.8,
           "season_tds": 6,
           "status": null
         },
@@ -4237,7 +4485,7 @@
           "team": "BUF",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ynrhq9iv30ysjpwmrfdv",
-          "prob": 42.9,
+          "prob": 42.5,
           "season_tds": 8,
           "status": null
         },
@@ -4247,7 +4495,7 @@
           "team": "BAL",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xzhto2dejy2pflkfx40c",
-          "prob": 27.4,
+          "prob": 27.8,
           "season_tds": 3,
           "status": null
         },
@@ -4257,7 +4505,7 @@
           "team": "BUF",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/garesglkqop2fvgc5bgh",
-          "prob": 24.8,
+          "prob": 24.6,
           "season_tds": 3,
           "status": null
         },
@@ -4267,7 +4515,7 @@
           "team": "BUF",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ituuwxmqtheiha2kkrvt",
-          "prob": 16.3,
+          "prob": 16.1,
           "season_tds": 1,
           "status": null
         },
@@ -4277,7 +4525,7 @@
           "team": "BUF",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cmrfup2mfx13pjb0qznw",
-          "prob": 13.6,
+          "prob": 13.5,
           "season_tds": 1,
           "status": "Questionable"
         },
@@ -4287,7 +4535,7 @@
           "team": "BAL",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/u4xzz7tclch0tpzm9hhz",
-          "prob": 13.0,
+          "prob": 13.2,
           "season_tds": 1,
           "status": null
         },
@@ -4297,7 +4545,7 @@
           "team": "BAL",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/maktufaiogxfm5ewjsi9",
-          "prob": 11.2,
+          "prob": 11.3,
           "season_tds": 1,
           "status": null
         },
@@ -4307,7 +4555,7 @@
           "team": "BAL",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fxyjf9d5qkwqjdd8ypvv",
-          "prob": 10.2,
+          "prob": 10.3,
           "season_tds": 1,
           "status": null
         },
@@ -4317,7 +4565,7 @@
           "team": "BUF",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/woswdfrtxnsfgzsjvsxx",
-          "prob": 9.5,
+          "prob": 9.4,
           "season_tds": 2,
           "status": null
         },
@@ -4327,12 +4575,12 @@
           "team": "BAL",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gtktmsfcxc1eijwpwzyq",
-          "prob": 8.4,
+          "prob": 8.5,
           "season_tds": 1,
           "status": null
         }
       ],
-      "commentary": "Avantage Bills (62 %), à domicile."
+      "commentary": "Avantage Bills (60 %), à domicile."
     },
     {
       "game_id": "2026_08_TEN_CIN",
@@ -4363,18 +4611,20 @@
         "off_rank": 32,
         "def_rank": 26
       },
-      "prob_home_win": 81.0,
-      "prob_away_win": 19.0,
-      "predicted_spread": -11.9,
+      "prob_home_win": 84.7,
+      "prob_away_win": 15.3,
+      "predicted_spread": -12.5,
       "model_spread": -10.6,
       "model_prob_home": 78.3,
       "vegas_spread": -12.5,
       "vegas_total": 46.5,
       "projected_score": {
-        "home": 29,
+        "home": 30,
         "away": 17
       },
       "confidence_score": "Élevée",
+      "tier": "Très sûr",
+      "prob_source": "cotes",
       "factors": {
         "elo": 12.0,
         "epa": 9.1,
@@ -4389,7 +4639,7 @@
           "home_days": 7,
           "away_days": 7
         },
-        "market_weight": 0.67
+        "market_weight": 1.0
       },
       "scorers": [
         {
@@ -4398,7 +4648,7 @@
           "team": "TEN",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/u4poetcrbxffcuyglmj8",
-          "prob": 42.7,
+          "prob": 42.1,
           "season_tds": 4,
           "status": null
         },
@@ -4408,7 +4658,7 @@
           "team": "CIN",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qya3dtjb5kgofcuj2tuw",
-          "prob": 36.5,
+          "prob": 36.8,
           "season_tds": 5,
           "status": null
         },
@@ -4418,7 +4668,7 @@
           "team": "CIN",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dykckg6we3cnw9yhpggi",
-          "prob": 33.1,
+          "prob": 33.4,
           "season_tds": 5,
           "status": null
         },
@@ -4428,7 +4678,7 @@
           "team": "CIN",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fllwhcdovol5i7xxahf6",
-          "prob": 29.4,
+          "prob": 29.6,
           "season_tds": 2,
           "status": null
         },
@@ -4438,7 +4688,7 @@
           "team": "CIN",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tch3y6jlj7khvyi9jg0c",
-          "prob": 27.5,
+          "prob": 27.7,
           "season_tds": 1,
           "status": null
         },
@@ -4448,7 +4698,7 @@
           "team": "CIN",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gpwtyv3viwy9q4ewderl",
-          "prob": 21.3,
+          "prob": 21.5,
           "season_tds": 2,
           "status": null
         },
@@ -4458,7 +4708,7 @@
           "team": "TEN",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/e4fazi7xfvo5c7aquenn",
-          "prob": 16.6,
+          "prob": 16.3,
           "season_tds": 2,
           "status": null
         },
@@ -4468,7 +4718,7 @@
           "team": "CIN",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gnnvcgui1cijybukk2w7",
-          "prob": 12.7,
+          "prob": 12.8,
           "season_tds": 1,
           "status": null
         },
@@ -4478,7 +4728,7 @@
           "team": "TEN",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/l7iuimdeqgmmhdzdhl67",
-          "prob": 12.6,
+          "prob": 12.4,
           "season_tds": 2,
           "status": null
         },
@@ -4488,7 +4738,7 @@
           "team": "TEN",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xozpynzjbuorn6ixdjh3",
-          "prob": 10.5,
+          "prob": 10.3,
           "season_tds": 1,
           "status": null
         },
@@ -4513,7 +4763,7 @@
           "status": "Questionable"
         }
       ],
-      "commentary": "Avantage Bengals (81 %), à domicile."
+      "commentary": "Avantage Bengals (85 %), à domicile."
     },
     {
       "game_id": "2026_08_ARI_DAL",
@@ -4544,18 +4794,20 @@
         "off_rank": 23,
         "def_rank": 29
       },
-      "prob_home_win": 67.9,
-      "prob_away_win": 32.1,
-      "predicted_spread": -6.3,
+      "prob_home_win": 73.4,
+      "prob_away_win": 26.6,
+      "predicted_spread": -7.0,
       "model_spread": -4.9,
       "model_prob_home": 64.0,
       "vegas_spread": -7.0,
       "vegas_total": 54.5,
       "projected_score": {
-        "home": 30,
+        "home": 31,
         "away": 24
       },
-      "confidence_score": "Modérée",
+      "confidence_score": "Élevée",
+      "tier": "Sûr",
+      "prob_source": "cotes",
       "factors": {
         "elo": 5.6,
         "epa": 4.4,
@@ -4570,7 +4822,7 @@
           "home_days": 6,
           "away_days": 7
         },
-        "market_weight": 0.67
+        "market_weight": 1.0
       },
       "scorers": [
         {
@@ -4579,7 +4831,7 @@
           "team": "DAL",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xvwroirev2kie6oiphtz",
-          "prob": 58.8,
+          "prob": 59.3,
           "season_tds": 9,
           "status": null
         },
@@ -4589,7 +4841,7 @@
           "team": "DAL",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mbblzwtynxr15ovzkevi",
-          "prob": 43.2,
+          "prob": 43.5,
           "season_tds": 6,
           "status": null
         },
@@ -4599,7 +4851,7 @@
           "team": "ARI",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/psasp10nn5pcvkli9kil",
-          "prob": 34.2,
+          "prob": 33.8,
           "season_tds": 4,
           "status": null
         },
@@ -4609,7 +4861,7 @@
           "team": "DAL",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cbpyykoguf7rsxezqzvk",
-          "prob": 22.9,
+          "prob": 23.1,
           "season_tds": 2,
           "status": "Questionable"
         },
@@ -4619,7 +4871,7 @@
           "team": "ARI",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/sp9lhhmpv4qy3xy2msxd",
-          "prob": 19.5,
+          "prob": 19.2,
           "season_tds": 1,
           "status": null
         },
@@ -4629,7 +4881,7 @@
           "team": "ARI",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/b12gtjsylmql5v7iyyla",
-          "prob": 18.5,
+          "prob": 18.3,
           "season_tds": 2,
           "status": null
         },
@@ -4639,7 +4891,7 @@
           "team": "ARI",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hm2b9z4zujjmbiyldh8n",
-          "prob": 17.4,
+          "prob": 17.2,
           "season_tds": 1,
           "status": null
         },
@@ -4649,7 +4901,7 @@
           "team": "DAL",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xpykb0tbosfwsn6dqstb",
-          "prob": 16.8,
+          "prob": 16.9,
           "season_tds": 3,
           "status": null
         },
@@ -4659,7 +4911,7 @@
           "team": "DAL",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tqwq3cgpqu7j9hzoyicx",
-          "prob": 15.3,
+          "prob": 15.5,
           "season_tds": 1,
           "status": null
         },
@@ -4669,7 +4921,7 @@
           "team": "ARI",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/adwepaexueevxdcqjhyf",
-          "prob": 14.6,
+          "prob": 14.4,
           "season_tds": 2,
           "status": null
         },
@@ -4679,7 +4931,7 @@
           "team": "ARI",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qjswiunczrn5xmdiqhlz",
-          "prob": 13.3,
+          "prob": 13.1,
           "season_tds": 1,
           "status": null
         },
@@ -4689,12 +4941,12 @@
           "team": "DAL",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/v65dvcfcx8mz8kvif7dw",
-          "prob": 8.7,
+          "prob": 8.8,
           "season_tds": 0,
           "status": null
         }
       ],
-      "commentary": "Avantage Cowboys (68 %), à domicile."
+      "commentary": "Avantage Cowboys (73 %), à domicile."
     },
     {
       "game_id": "2026_08_MIN_DET",
@@ -4725,18 +4977,20 @@
         "off_rank": 30,
         "def_rank": 1
       },
-      "prob_home_win": 56.2,
-      "prob_away_win": 43.8,
-      "predicted_spread": -2.1,
+      "prob_home_win": 60.4,
+      "prob_away_win": 39.6,
+      "predicted_spread": -3.0,
       "model_spread": -0.3,
       "model_prob_home": 50.8,
       "vegas_spread": -3.0,
       "vegas_total": 46.5,
       "projected_score": {
-        "home": 24,
+        "home": 25,
         "away": 22
       },
-      "confidence_score": "Faible",
+      "confidence_score": "Modérée",
+      "tier": "Probable",
+      "prob_source": "cotes",
       "factors": {
         "elo": -0.9,
         "epa": 1.3,
@@ -4751,7 +5005,7 @@
           "home_days": 7,
           "away_days": 7
         },
-        "market_weight": 0.67
+        "market_weight": 1.0
       },
       "scorers": [
         {
@@ -4760,7 +5014,7 @@
           "team": "DET",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cursejnmmp1i9hnxihkj",
-          "prob": 55.1,
+          "prob": 55.8,
           "season_tds": 9,
           "status": null
         },
@@ -4770,7 +5024,7 @@
           "team": "MIN",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bktkfvgfwujkdbzkcfim",
-          "prob": 36.7,
+          "prob": 36.1,
           "season_tds": 2,
           "status": null
         },
@@ -4780,7 +5034,7 @@
           "team": "DET",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/byiptqggtglvy5qrw5wp",
-          "prob": 30.9,
+          "prob": 31.4,
           "season_tds": 4,
           "status": null
         },
@@ -4790,7 +5044,7 @@
           "team": "DET",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fd8nwhm6pvxfyzphzl6i",
-          "prob": 27.2,
+          "prob": 27.6,
           "season_tds": 5,
           "status": null
         },
@@ -4800,7 +5054,7 @@
           "team": "MIN",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/rs8o65x0u0n9xzde0fd6",
-          "prob": 25.4,
+          "prob": 24.9,
           "season_tds": 2,
           "status": null
         },
@@ -4810,7 +5064,7 @@
           "team": "MIN",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tzx1iqbxxa1807m6olwj",
-          "prob": 23.3,
+          "prob": 22.9,
           "season_tds": 3,
           "status": null
         },
@@ -4820,7 +5074,7 @@
           "team": "DET",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wxlk7ysg2nfq6h6ntdcu",
-          "prob": 20.6,
+          "prob": 20.9,
           "season_tds": 3,
           "status": null
         },
@@ -4830,7 +5084,7 @@
           "team": "MIN",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xe3i1lsb3rsioqy61krt",
-          "prob": 13.1,
+          "prob": 12.9,
           "season_tds": 1,
           "status": null
         },
@@ -4840,7 +5094,7 @@
           "team": "MIN",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ty8e8iasniuuhto6qfdx",
-          "prob": 8.1,
+          "prob": 7.9,
           "season_tds": 1,
           "status": null
         },
@@ -4850,18 +5104,8 @@
           "team": "DET",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/kaicbot8qhzrvddilbtp",
-          "prob": 7.6,
+          "prob": 7.8,
           "season_tds": 1,
-          "status": null
-        },
-        {
-          "player_id": "00-0040506",
-          "name": "Myles Price",
-          "team": "MIN",
-          "position": "WR",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zsjrzuziooij49ubg0lx",
-          "prob": 4.8,
-          "season_tds": 0,
           "status": null
         },
         {
@@ -4870,12 +5114,22 @@
           "team": "DET",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ducfhbiy2a8loytcjymn",
-          "prob": 4.8,
+          "prob": 4.9,
+          "season_tds": 0,
+          "status": null
+        },
+        {
+          "player_id": "00-0040506",
+          "name": "Myles Price",
+          "team": "MIN",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zsjrzuziooij49ubg0lx",
+          "prob": 4.7,
           "season_tds": 0,
           "status": null
         }
       ],
-      "commentary": "Avantage Lions (56 %), à domicile."
+      "commentary": "Avantage Lions (60 %), à domicile."
     },
     {
       "game_id": "2026_08_IND_JAX",
@@ -4906,9 +5160,9 @@
         "off_rank": 21,
         "def_rank": 17
       },
-      "prob_home_win": 76.5,
-      "prob_away_win": 23.5,
-      "predicted_spread": -9.8,
+      "prob_home_win": 79.6,
+      "prob_away_win": 20.4,
+      "predicted_spread": -10.0,
       "model_spread": -9.3,
       "model_prob_home": 75.4,
       "vegas_spread": -10.0,
@@ -4918,6 +5172,8 @@
         "away": 18
       },
       "confidence_score": "Élevée",
+      "tier": "Sûr",
+      "prob_source": "cotes",
       "factors": {
         "elo": 9.5,
         "epa": 7.0,
@@ -4932,7 +5188,7 @@
           "home_days": 14,
           "away_days": 7
         },
-        "market_weight": 0.67
+        "market_weight": 1.0
       },
       "scorers": [
         {
@@ -4941,7 +5197,7 @@
           "team": "JAX",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ryjnphuyjbedmgpx5qqj",
-          "prob": 47.6,
+          "prob": 47.7,
           "season_tds": 4,
           "status": null
         },
@@ -4951,7 +5207,7 @@
           "team": "IND",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/d7pmatz5wylijbsplnkg",
-          "prob": 47.3,
+          "prob": 47.1,
           "season_tds": 8,
           "status": null
         },
@@ -4961,7 +5217,7 @@
           "team": "JAX",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yn0hc5xrz5nqeccg8two",
-          "prob": 33.5,
+          "prob": 33.7,
           "season_tds": 4,
           "status": null
         },
@@ -4971,7 +5227,7 @@
           "team": "JAX",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pknd5uajvpvfd8c744im",
-          "prob": 25.2,
+          "prob": 25.3,
           "season_tds": 2,
           "status": null
         },
@@ -4991,7 +5247,7 @@
           "team": "IND",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ggbgv9okpladwqzth5l5",
-          "prob": 14.9,
+          "prob": 14.8,
           "season_tds": 3,
           "status": null
         },
@@ -5001,7 +5257,7 @@
           "team": "JAX",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jwb3wyhoqqq52mfiyxxc",
-          "prob": 14.5,
+          "prob": 14.6,
           "season_tds": 2,
           "status": null
         },
@@ -5011,7 +5267,7 @@
           "team": "JAX",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/plnekkriys4cm11rnxwl",
-          "prob": 12.8,
+          "prob": 12.9,
           "season_tds": 1,
           "status": null
         },
@@ -5056,7 +5312,7 @@
           "status": null
         }
       ],
-      "commentary": "Avantage Jaguars (77 %), à domicile."
+      "commentary": "Avantage Jaguars (80 %), à domicile."
     },
     {
       "game_id": "2026_08_LV_NYJ",
@@ -5087,8 +5343,8 @@
         "off_rank": 28,
         "def_rank": 25
       },
-      "prob_home_win": 54.5,
-      "prob_away_win": 45.5,
+      "prob_home_win": 52.6,
+      "prob_away_win": 47.4,
       "predicted_spread": -1.5,
       "model_spread": -1.6,
       "model_prob_home": 54.6,
@@ -5099,6 +5355,8 @@
         "away": 22
       },
       "confidence_score": "Faible",
+      "tier": "Serré",
+      "prob_source": "cotes",
       "factors": {
         "elo": 0.5,
         "epa": 2.9,
@@ -5113,7 +5371,7 @@
           "home_days": 7,
           "away_days": 7
         },
-        "market_weight": 0.67
+        "market_weight": 1.0
       },
       "scorers": [
         {
@@ -5237,7 +5495,7 @@
           "status": null
         }
       ],
-      "commentary": "Avantage Jets (54 %), à domicile."
+      "commentary": "Avantage Jets (53 %), à domicile."
     },
     {
       "game_id": "2026_08_CLE_PIT",
@@ -5268,9 +5526,9 @@
         "off_rank": 29,
         "def_rank": 5
       },
-      "prob_home_win": 60.6,
-      "prob_away_win": 39.4,
-      "predicted_spread": -3.6,
+      "prob_home_win": 63.1,
+      "prob_away_win": 36.9,
+      "predicted_spread": -3.5,
       "model_spread": -3.9,
       "model_prob_home": 61.4,
       "vegas_spread": -3.5,
@@ -5280,6 +5538,8 @@
         "away": 18
       },
       "confidence_score": "Modérée",
+      "tier": "Probable",
+      "prob_source": "cotes",
       "factors": {
         "elo": 5.5,
         "epa": 2.4,
@@ -5294,7 +5554,7 @@
           "home_days": 7,
           "away_days": 7
         },
-        "market_weight": 0.67
+        "market_weight": 1.0
       },
       "scorers": [
         {
@@ -5303,7 +5563,7 @@
           "team": "CLE",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ojtce2im0wp2ltyel0vc",
-          "prob": 33.7,
+          "prob": 33.9,
           "season_tds": 3,
           "status": null
         },
@@ -5313,7 +5573,7 @@
           "team": "PIT",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dkiteytgnxar1mpaxcxv",
-          "prob": 28.9,
+          "prob": 28.8,
           "season_tds": 2,
           "status": null
         },
@@ -5333,7 +5593,7 @@
           "team": "PIT",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pyrdsypgggjshiaygkr7",
-          "prob": 23.4,
+          "prob": 23.3,
           "season_tds": 4,
           "status": null
         },
@@ -5353,7 +5613,7 @@
           "team": "CLE",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/private/f_auto,q_auto/league/otfs2docj6eahaebo5xn",
-          "prob": 16.5,
+          "prob": 16.6,
           "season_tds": 1,
           "status": null
         },
@@ -5373,7 +5633,7 @@
           "team": "CLE",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fxublmpnxx9uggsddwik",
-          "prob": 15.1,
+          "prob": 15.2,
           "season_tds": 3,
           "status": null
         },
@@ -5383,7 +5643,7 @@
           "team": "PIT",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/kxql4sjfelubhxawu2zh",
-          "prob": 12.6,
+          "prob": 12.5,
           "season_tds": 1,
           "status": null
         },
@@ -5418,7 +5678,7 @@
           "status": null
         }
       ],
-      "commentary": "Avantage Steelers (61 %), à domicile."
+      "commentary": "Avantage Steelers (63 %), à domicile."
     },
     {
       "game_id": "2026_08_ATL_TB",
@@ -5449,18 +5709,20 @@
         "off_rank": 22,
         "def_rank": 14
       },
-      "prob_home_win": 54.7,
-      "prob_away_win": 45.3,
-      "predicted_spread": -1.6,
+      "prob_home_win": 53.2,
+      "prob_away_win": 46.8,
+      "predicted_spread": -1.5,
       "model_spread": -1.8,
       "model_prob_home": 55.3,
       "vegas_spread": -1.5,
       "vegas_total": 43.5,
       "projected_score": {
-        "home": 23,
+        "home": 22,
         "away": 21
       },
       "confidence_score": "Faible",
+      "tier": "Serré",
+      "prob_source": "cotes",
       "factors": {
         "elo": 1.4,
         "epa": 2.9,
@@ -5475,7 +5737,7 @@
           "home_days": 7,
           "away_days": 7
         },
-        "market_weight": 0.67
+        "market_weight": 1.0
       },
       "scorers": [
         {
@@ -5484,7 +5746,7 @@
           "team": "TB",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vkc00rvnix3f2b96vkwo",
-          "prob": 46.1,
+          "prob": 46.0,
           "season_tds": 5,
           "status": null
         },
@@ -5494,7 +5756,7 @@
           "team": "ATL",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zaxetgy0p0ul6evlsf63",
-          "prob": 36.6,
+          "prob": 36.7,
           "season_tds": 5,
           "status": null
         },
@@ -5504,7 +5766,7 @@
           "team": "ATL",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xczipzxvytnmvgznhhb4",
-          "prob": 26.5,
+          "prob": 26.6,
           "season_tds": 4,
           "status": null
         },
@@ -5524,7 +5786,7 @@
           "team": "ATL",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/y5mkxrljhsglpwl3ky94",
-          "prob": 14.1,
+          "prob": 14.2,
           "season_tds": 1,
           "status": null
         },
@@ -5544,7 +5806,7 @@
           "team": "TB",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/eo62l8ec8e3lzt86ihth",
-          "prob": 11.7,
+          "prob": 11.6,
           "season_tds": 1,
           "status": "Questionable"
         },
@@ -5554,7 +5816,7 @@
           "team": "TB",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ajbnpagviw0glrhf5a2e",
-          "prob": 11.5,
+          "prob": 11.4,
           "season_tds": 1,
           "status": null
         },
@@ -5564,7 +5826,7 @@
           "team": "TB",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mmf6qmo6a2evw4feupcm",
-          "prob": 8.2,
+          "prob": 8.1,
           "season_tds": 1,
           "status": null
         },
@@ -5599,7 +5861,7 @@
           "status": null
         }
       ],
-      "commentary": "Avantage Buccaneers (55 %), à domicile."
+      "commentary": "Avantage Buccaneers (53 %), à domicile."
     },
     {
       "game_id": "2026_08_LAC_LA",
@@ -5630,18 +5892,20 @@
         "off_rank": 31,
         "def_rank": 6
       },
-      "prob_home_win": 69.5,
-      "prob_away_win": 30.5,
-      "predicted_spread": -6.9,
+      "prob_home_win": 69.1,
+      "prob_away_win": 30.9,
+      "predicted_spread": -6.5,
       "model_spread": -7.6,
       "model_prob_home": 71.4,
       "vegas_spread": -6.5,
       "vegas_total": 45.5,
       "projected_score": {
         "home": 26,
-        "away": 19
+        "away": 20
       },
       "confidence_score": "Modérée",
+      "tier": "Probable",
+      "prob_source": "cotes",
       "factors": {
         "elo": 8.7,
         "epa": 8.6,
@@ -5656,7 +5920,7 @@
           "home_days": 7,
           "away_days": 14
         },
-        "market_weight": 0.67
+        "market_weight": 1.0
       },
       "scorers": [
         {
@@ -5665,7 +5929,7 @@
           "team": "LA",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xti3pek6rmojqchakxpy",
-          "prob": 44.7,
+          "prob": 44.4,
           "season_tds": 6,
           "status": null
         },
@@ -5675,7 +5939,7 @@
           "team": "LAC",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lf2jxvxnbexlinoydbej",
-          "prob": 32.6,
+          "prob": 32.8,
           "season_tds": 3,
           "status": null
         },
@@ -5685,7 +5949,7 @@
           "team": "LA",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/axzqbqjkrbwfzodwwakq",
-          "prob": 32.5,
+          "prob": 32.3,
           "season_tds": 3,
           "status": null
         },
@@ -5695,7 +5959,7 @@
           "team": "LA",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ipy6qw7hdygdfc8k86ba",
-          "prob": 28.6,
+          "prob": 28.4,
           "season_tds": 3,
           "status": null
         },
@@ -5705,7 +5969,7 @@
           "team": "LA",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tdzluk4xau3arxqk9zsl",
-          "prob": 24.1,
+          "prob": 23.9,
           "season_tds": 4,
           "status": null
         },
@@ -5715,7 +5979,7 @@
           "team": "LAC",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tqdctdun0bv60d5ziwtl",
-          "prob": 20.6,
+          "prob": 20.8,
           "season_tds": 2,
           "status": null
         },
@@ -5725,7 +5989,7 @@
           "team": "LA",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/iweydtcrfchsl3mt6jtd",
-          "prob": 20.1,
+          "prob": 20.0,
           "season_tds": 2,
           "status": null
         },
@@ -5735,7 +5999,7 @@
           "team": "LAC",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/r8b4oghjwhw8x9nv1wbs",
-          "prob": 15.4,
+          "prob": 15.5,
           "season_tds": 1,
           "status": null
         },
@@ -5745,7 +6009,7 @@
           "team": "LAC",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ztciwwpbyaffmckwrzdk",
-          "prob": 12.8,
+          "prob": 12.9,
           "season_tds": 1,
           "status": null
         },
@@ -5755,7 +6019,7 @@
           "team": "LA",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qsyrgtfjj06wryahnxc9",
-          "prob": 12.0,
+          "prob": 11.9,
           "season_tds": 1,
           "status": "Questionable"
         },
@@ -5765,7 +6029,7 @@
           "team": "LAC",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jnkspnntgebegzp4ghve",
-          "prob": 9.3,
+          "prob": 9.4,
           "season_tds": 0,
           "status": null
         },
@@ -5775,7 +6039,7 @@
           "team": "LAC",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wclzjjataerwmaj3d4kq",
-          "prob": 8.3,
+          "prob": 8.4,
           "season_tds": 1,
           "status": null
         }
@@ -5811,18 +6075,20 @@
         "off_rank": 8,
         "def_rank": 9
       },
-      "prob_home_win": 49.4,
-      "prob_away_win": 50.6,
-      "predicted_spread": 0.2,
+      "prob_home_win": 48.9,
+      "prob_away_win": 51.1,
+      "predicted_spread": 1.5,
       "model_spread": -2.4,
       "model_prob_home": 56.9,
       "vegas_spread": 1.5,
       "vegas_total": 40.5,
       "projected_score": {
         "home": 20,
-        "away": 20
+        "away": 21
       },
       "confidence_score": "Faible",
+      "tier": "Serré",
+      "prob_source": "cotes",
       "factors": {
         "elo": 4.4,
         "epa": 0.3,
@@ -5837,7 +6103,7 @@
           "home_days": 7,
           "away_days": 7
         },
-        "market_weight": 0.67
+        "market_weight": 1.0
       },
       "scorers": [
         {
@@ -5846,7 +6112,7 @@
           "team": "KC",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vk6nruaqdewdglofcwwg",
-          "prob": 58.6,
+          "prob": 59.7,
           "season_tds": 8,
           "status": null
         },
@@ -5856,7 +6122,7 @@
           "team": "DEN",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cevotvl3ho5h1mioruyg",
-          "prob": 33.2,
+          "prob": 32.4,
           "season_tds": 3,
           "status": null
         },
@@ -5866,7 +6132,17 @@
           "team": "DEN",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zvo9xatffmqn9lnukpgk",
-          "prob": 17.1,
+          "prob": 16.6,
+          "season_tds": 2,
+          "status": null
+        },
+        {
+          "player_id": "00-0030506",
+          "name": "Travis Kelce",
+          "team": "KC",
+          "position": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dpxovcfku6ud2aohgf6a",
+          "prob": 13.7,
           "season_tds": 2,
           "status": null
         },
@@ -5876,18 +6152,8 @@
           "team": "DEN",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/kqwmqcrlrwmqcvfuguhs",
-          "prob": 13.7,
-          "season_tds": 1,
-          "status": null
-        },
-        {
-          "player_id": "00-0030506",
-          "name": "Travis Kelce",
-          "team": "KC",
-          "position": "TE",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dpxovcfku6ud2aohgf6a",
           "prob": 13.3,
-          "season_tds": 2,
+          "season_tds": 1,
           "status": null
         },
         {
@@ -5896,7 +6162,7 @@
           "team": "KC",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bjqzuempyiwxe0hl7e5a",
-          "prob": 12.7,
+          "prob": 13.0,
           "season_tds": 2,
           "status": null
         },
@@ -5906,19 +6172,9 @@
           "team": "DEN",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gkh7m1jedon9mwn5jlf1",
-          "prob": 12.6,
+          "prob": 12.2,
           "season_tds": 1,
           "status": "Questionable"
-        },
-        {
-          "player_id": "00-0038783",
-          "name": "Nate Adkins",
-          "team": "DEN",
-          "position": "TE",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hedaw0ksq5qdzp9uhe3w",
-          "prob": 9.7,
-          "season_tds": 2,
-          "status": null
         },
         {
           "player_id": "00-0039894",
@@ -5926,7 +6182,27 @@
           "team": "KC",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/u6fmnffwteccoxn3uguq",
-          "prob": 9.3,
+          "prob": 9.6,
+          "season_tds": 1,
+          "status": null
+        },
+        {
+          "player_id": "00-0038783",
+          "name": "Nate Adkins",
+          "team": "DEN",
+          "position": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hedaw0ksq5qdzp9uhe3w",
+          "prob": 9.4,
+          "season_tds": 2,
+          "status": null
+        },
+        {
+          "player_id": "00-0040646",
+          "name": "Jalen Royals",
+          "team": "KC",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/sqrid1hnmwqymcp2vxfx",
+          "prob": 7.1,
           "season_tds": 1,
           "status": null
         },
@@ -5936,16 +6212,6 @@
           "team": "DEN",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qbauucaxakkhtxihuvmr",
-          "prob": 7.1,
-          "season_tds": 1,
-          "status": null
-        },
-        {
-          "player_id": "00-0040646",
-          "name": "Jalen Royals",
-          "team": "KC",
-          "position": "WR",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/sqrid1hnmwqymcp2vxfx",
           "prob": 6.9,
           "season_tds": 1,
           "status": null
@@ -5956,12 +6222,12 @@
           "team": "KC",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/avdz4njz1slqn7ktqcuq",
-          "prob": 5.9,
+          "prob": 6.1,
           "season_tds": 0,
           "status": null
         }
       ],
-      "commentary": "Avantage Chiefs (51 %), à l’extérieur. Le modèle maison (−2,4) s’écarte nettement des bookmakers (+1,5)."
+      "commentary": "Avantage Chiefs (51 %), à l’extérieur. Notre modèle maison voit plutôt l’autre équipe gagner : signal de prudence."
     },
     {
       "game_id": "2026_08_NE_MIA",
@@ -5992,9 +6258,9 @@
         "off_rank": 7,
         "def_rank": 12
       },
-      "prob_home_win": 30.6,
-      "prob_away_win": 69.4,
-      "predicted_spread": 6.9,
+      "prob_home_win": 25.9,
+      "prob_away_win": 74.1,
+      "predicted_spread": 7.0,
       "model_spread": 6.6,
       "model_prob_home": 31.4,
       "vegas_spread": 7.0,
@@ -6003,7 +6269,9 @@
         "home": 18,
         "away": 25
       },
-      "confidence_score": "Modérée",
+      "confidence_score": "Élevée",
+      "tier": "Sûr",
+      "prob_source": "cotes",
       "factors": {
         "elo": -6.4,
         "epa": -5.6,
@@ -6018,7 +6286,7 @@
           "home_days": 7,
           "away_days": 10
         },
-        "market_weight": 0.67
+        "market_weight": 1.0
       },
       "scorers": [
         {
@@ -6027,7 +6295,7 @@
           "team": "MIA",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bv33rgypaauv7sealwkr",
-          "prob": 42.6,
+          "prob": 42.5,
           "season_tds": 4,
           "status": null
         },
@@ -6037,7 +6305,7 @@
           "team": "NE",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/x9dlpy3i5fciajd4w9ij",
-          "prob": 32.3,
+          "prob": 32.4,
           "season_tds": 3,
           "status": null
         },
@@ -6047,7 +6315,7 @@
           "team": "NE",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/m3fpxawsccoqsajtqlec",
-          "prob": 22.6,
+          "prob": 22.7,
           "season_tds": 3,
           "status": null
         },
@@ -6057,7 +6325,7 @@
           "team": "MIA",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/earybrx24kkhnk4innsw",
-          "prob": 22.5,
+          "prob": 22.4,
           "season_tds": 3,
           "status": null
         },
@@ -6067,7 +6335,7 @@
           "team": "NE",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/d27wez0jqd5vfcrjizpb",
-          "prob": 21.0,
+          "prob": 21.1,
           "season_tds": 3,
           "status": null
         },
@@ -6077,7 +6345,7 @@
           "team": "NE",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mkauzrg7vo8lfziigsbg",
-          "prob": 19.8,
+          "prob": 19.9,
           "season_tds": 2,
           "status": null
         },
@@ -6087,7 +6355,7 @@
           "team": "NE",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hfbzcsv4v7fdpohl42mk",
-          "prob": 18.7,
+          "prob": 18.8,
           "season_tds": 2,
           "status": null
         },
@@ -6097,7 +6365,7 @@
           "team": "MIA",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/h0ds6lir4svszjcpc3hr",
-          "prob": 17.3,
+          "prob": 17.2,
           "season_tds": 2,
           "status": null
         },
@@ -6117,7 +6385,7 @@
           "team": "MIA",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/nqqd4zjnxephjb4qziww",
-          "prob": 9.0,
+          "prob": 8.9,
           "season_tds": 1,
           "status": null
         },
@@ -6142,7 +6410,7 @@
           "status": null
         }
       ],
-      "commentary": "Avantage Patriots (69 %), à l’extérieur."
+      "commentary": "Avantage Patriots (74 %), à l’extérieur."
     },
     {
       "game_id": "2026_08_PHI_WAS",
@@ -6173,18 +6441,20 @@
         "off_rank": 27,
         "def_rank": 23
       },
-      "prob_home_win": 63.4,
-      "prob_away_win": 36.6,
-      "predicted_spread": -4.6,
+      "prob_home_win": 69.1,
+      "prob_away_win": 30.9,
+      "predicted_spread": -6.0,
       "model_spread": -1.8,
       "model_prob_home": 55.4,
       "vegas_spread": -6.0,
       "vegas_total": 40.5,
       "projected_score": {
         "home": 23,
-        "away": 18
+        "away": 17
       },
       "confidence_score": "Modérée",
+      "tier": "Probable",
+      "prob_source": "cotes",
       "factors": {
         "elo": 0.7,
         "epa": 1.8,
@@ -6199,27 +6469,27 @@
           "home_days": 13,
           "away_days": 6
         },
-        "market_weight": 0.67
+        "market_weight": 1.0
       },
       "scorers": [
-        {
-          "player_id": "00-0037258",
-          "name": "Dameon Pierce",
-          "team": "PHI",
-          "position": "RB",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/oai3defivyfyofxxh4ux",
-          "prob": 24.9,
-          "season_tds": 2,
-          "status": null
-        },
         {
           "player_id": "00-0031588",
           "name": "Stefon Diggs",
           "team": "WAS",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dpmpctgbwlvgyzg3opli",
-          "prob": 24.9,
+          "prob": 25.5,
           "season_tds": 4,
+          "status": null
+        },
+        {
+          "player_id": "00-0037258",
+          "name": "Dameon Pierce",
+          "team": "PHI",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/oai3defivyfyofxxh4ux",
+          "prob": 24.1,
+          "season_tds": 2,
           "status": null
         },
         {
@@ -6228,7 +6498,7 @@
           "team": "WAS",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wtdhs50gcl2p6vngsnre",
-          "prob": 22.4,
+          "prob": 23.0,
           "season_tds": 2,
           "status": null
         },
@@ -6238,7 +6508,7 @@
           "team": "WAS",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qew4qhlj4yuf50voko61",
-          "prob": 21.5,
+          "prob": 22.1,
           "season_tds": 2,
           "status": null
         },
@@ -6248,7 +6518,7 @@
           "team": "WAS",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gfz8k5onuqjrche9ogqc",
-          "prob": 20.7,
+          "prob": 21.2,
           "season_tds": 2,
           "status": null
         },
@@ -6258,18 +6528,8 @@
           "team": "PHI",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pe71oe4eoyyfnq80fkxc",
-          "prob": 19.5,
+          "prob": 18.8,
           "season_tds": 4,
-          "status": null
-        },
-        {
-          "player_id": "00-0034844",
-          "name": "Saquon Barkley",
-          "team": "PHI",
-          "position": "RB",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qcayrzjpura2zydszonh",
-          "prob": 16.6,
-          "season_tds": 1,
           "status": null
         },
         {
@@ -6278,9 +6538,19 @@
           "team": "WAS",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bmozbzdxgnnwdniuvgnn",
-          "prob": 15.8,
+          "prob": 16.3,
           "season_tds": 2,
           "status": "Questionable"
+        },
+        {
+          "player_id": "00-0034844",
+          "name": "Saquon Barkley",
+          "team": "PHI",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qcayrzjpura2zydszonh",
+          "prob": 16.0,
+          "season_tds": 1,
+          "status": null
         },
         {
           "player_id": "00-0039746",
@@ -6288,7 +6558,7 @@
           "team": "PHI",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pvpaepncsdfgzdubkuhg",
-          "prob": 13.6,
+          "prob": 13.1,
           "season_tds": 1,
           "status": null
         },
@@ -6298,7 +6568,7 @@
           "team": "WAS",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tmfl2zruajmkrtcg4zxp",
-          "prob": 11.5,
+          "prob": 11.9,
           "season_tds": 1,
           "status": null
         },
@@ -6308,7 +6578,7 @@
           "team": "PHI",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xow5yvxjeqa6witmofmp",
-          "prob": 10.6,
+          "prob": 10.2,
           "season_tds": 1,
           "status": null
         },
@@ -6318,12 +6588,12 @@
           "team": "PHI",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ys2i2o7c0bl36xvlrojz",
-          "prob": 10.5,
+          "prob": 10.1,
           "season_tds": 1,
           "status": null
         }
       ],
-      "commentary": "Avantage Commanders (63 %), à domicile. Le modèle maison (−1,8) s’écarte nettement des bookmakers (−6,0)."
+      "commentary": "Avantage Commanders (69 %), à domicile. Le modèle maison (−1,8) s’écarte des bookmakers (−6,0)."
     },
     {
       "game_id": "2026_08_CHI_SEA",
@@ -6354,9 +6624,9 @@
         "off_rank": 11,
         "def_rank": 16
       },
-      "prob_home_win": 58.1,
-      "prob_away_win": 41.9,
-      "predicted_spread": -2.7,
+      "prob_home_win": 60.0,
+      "prob_away_win": 40.0,
+      "predicted_spread": -3.0,
       "model_spread": -2.2,
       "model_prob_home": 56.6,
       "vegas_spread": -3.0,
@@ -6366,6 +6636,8 @@
         "away": 22
       },
       "confidence_score": "Faible",
+      "tier": "Serré",
+      "prob_source": "cotes",
       "factors": {
         "elo": 5.6,
         "epa": 3.9,
@@ -6380,7 +6652,7 @@
           "home_days": 8,
           "away_days": 11
         },
-        "market_weight": 0.67
+        "market_weight": 1.0
       },
       "scorers": [
         {
@@ -6389,7 +6661,7 @@
           "team": "CHI",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/owpmwzoilitcodc6cmxo",
-          "prob": 46.6,
+          "prob": 46.4,
           "season_tds": 7,
           "status": null
         },
@@ -6399,7 +6671,7 @@
           "team": "SEA",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yx1xjrupbqdknnjaq4a6",
-          "prob": 41.7,
+          "prob": 41.9,
           "season_tds": 8,
           "status": null
         },
@@ -6409,7 +6681,7 @@
           "team": "SEA",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/uorruvczsxzvffpbxu8z",
-          "prob": 39.8,
+          "prob": 39.9,
           "season_tds": 4,
           "status": null
         },
@@ -6419,7 +6691,7 @@
           "team": "CHI",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tdeidev1typrqjijtb3a",
-          "prob": 21.5,
+          "prob": 21.4,
           "season_tds": 2,
           "status": null
         },
@@ -6429,7 +6701,7 @@
           "team": "CHI",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/iyuwdz7pbowdkwzq2tg5",
-          "prob": 20.3,
+          "prob": 20.2,
           "season_tds": 2,
           "status": null
         },
@@ -6439,7 +6711,7 @@
           "team": "SEA",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pgwvv5qhcmnwf3tomy1a",
-          "prob": 19.2,
+          "prob": 19.3,
           "season_tds": 1,
           "status": null
         },
@@ -6449,7 +6721,7 @@
           "team": "CHI",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mzfm6qlgvsa9i5bstqoa",
-          "prob": 14.7,
+          "prob": 14.6,
           "season_tds": 1,
           "status": null
         },
@@ -6459,7 +6731,7 @@
           "team": "SEA",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/i0esiguve9if4ts5mm1q",
-          "prob": 13.2,
+          "prob": 13.3,
           "season_tds": 1,
           "status": null
         },
@@ -6479,7 +6751,7 @@
           "team": "CHI",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/trqs4qje1ctnwxs9shwd",
-          "prob": 8.1,
+          "prob": 8.0,
           "season_tds": 1,
           "status": null
         },
@@ -6499,38 +6771,596 @@
           "team": "SEA",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lmsun4qzmk1rkgt4kw76",
-          "prob": 6.7,
+          "prob": 6.8,
           "season_tds": 1,
           "status": null
         }
       ],
-      "commentary": "Avantage Seahawks (58 %), à domicile. QB annoncé chez les Bears (Caleb Williams) : +2,0 pt par rapport à leur niveau habituel."
+      "commentary": "Avantage Seahawks (60 %), à domicile. QB annoncé chez les Bears (Caleb Williams) : +2,0 pt par rapport à leur niveau habituel."
     }
   ],
+  "picks": {
+    "safest": [
+      {
+        "game_id": "2026_08_TEN_CIN",
+        "gameday": "2026-11-01",
+        "gametime": "13:00",
+        "team": {
+          "abbr": "CIN",
+          "name": "Cincinnati Bengals",
+          "nick": "Bengals",
+          "color": "#FB4F14",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+          "elo": 1565.5,
+          "record": "4-2",
+          "off_rank": 9,
+          "def_rank": 21
+        },
+        "opponent": {
+          "abbr": "TEN",
+          "name": "Tennessee Titans",
+          "nick": "Titans",
+          "color": "#4495D2",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+          "elo": 1314.7,
+          "record": "1-6",
+          "off_rank": 32,
+          "def_rank": 26
+        },
+        "home": true,
+        "prob": 84.7,
+        "tier": "Très sûr",
+        "fair_odds": 1.18,
+        "hist": {
+          "tier": "Très sûr",
+          "min": 0.8,
+          "games": 369,
+          "predicted": 84.7,
+          "actual": 86.2
+        },
+        "model_agrees": true,
+        "model_prob": 78.3
+      },
+      {
+        "game_id": "2026_08_IND_JAX",
+        "gameday": "2026-11-01",
+        "gametime": "13:00",
+        "team": {
+          "abbr": "JAX",
+          "name": "Jacksonville Jaguars",
+          "nick": "Jaguars",
+          "color": "#006778",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+          "elo": 1607.6,
+          "record": "4-2",
+          "off_rank": 6,
+          "def_rank": 8
+        },
+        "opponent": {
+          "abbr": "IND",
+          "name": "Indianapolis Colts",
+          "nick": "Colts",
+          "color": "#002C5F",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+          "elo": 1418.6,
+          "record": "2-5",
+          "off_rank": 21,
+          "def_rank": 17
+        },
+        "home": true,
+        "prob": 79.6,
+        "tier": "Sûr",
+        "fair_odds": 1.26,
+        "hist": {
+          "tier": "Sûr",
+          "min": 0.7,
+          "games": 994,
+          "predicted": 74.8,
+          "actual": 76.8
+        },
+        "model_agrees": true,
+        "model_prob": 75.4
+      },
+      {
+        "game_id": "2026_08_NE_MIA",
+        "gameday": "2026-11-01",
+        "gametime": "16:25",
+        "team": {
+          "abbr": "NE",
+          "name": "New England Patriots",
+          "nick": "Patriots",
+          "color": "#002244",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+          "elo": 1597.8,
+          "record": "4-3",
+          "off_rank": 7,
+          "def_rank": 12
+        },
+        "opponent": {
+          "abbr": "MIA",
+          "name": "Miami Dolphins",
+          "nick": "Dolphins",
+          "color": "#008E97",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+          "elo": 1389.7,
+          "record": "1-5",
+          "off_rank": 19,
+          "def_rank": 31
+        },
+        "home": false,
+        "prob": 74.1,
+        "tier": "Sûr",
+        "fair_odds": 1.35,
+        "hist": {
+          "tier": "Sûr",
+          "min": 0.7,
+          "games": 994,
+          "predicted": 74.8,
+          "actual": 76.8
+        },
+        "model_agrees": true,
+        "model_prob": 68.6
+      },
+      {
+        "game_id": "2026_08_ARI_DAL",
+        "gameday": "2026-11-01",
+        "gametime": "13:00",
+        "team": {
+          "abbr": "DAL",
+          "name": "Dallas Cowboys",
+          "nick": "Cowboys",
+          "color": "#002244",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+          "elo": 1471.6,
+          "record": "3-4",
+          "off_rank": 4,
+          "def_rank": 32
+        },
+        "opponent": {
+          "abbr": "ARI",
+          "name": "Arizona Cardinals",
+          "nick": "Cardinals",
+          "color": "#97233F",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+          "elo": 1379.2,
+          "record": "2-5",
+          "off_rank": 23,
+          "def_rank": 29
+        },
+        "home": true,
+        "prob": 73.4,
+        "tier": "Sûr",
+        "fair_odds": 1.36,
+        "hist": {
+          "tier": "Sûr",
+          "min": 0.7,
+          "games": 994,
+          "predicted": 74.8,
+          "actual": 76.8
+        },
+        "model_agrees": true,
+        "model_prob": 64.0
+      }
+    ],
+    "coin_flips": [
+      {
+        "game_id": "2026_08_ATL_TB",
+        "gameday": "2026-11-01",
+        "gametime": "13:00",
+        "team": {
+          "abbr": "TB",
+          "name": "Tampa Bay Buccaneers",
+          "nick": "Buccaneers",
+          "color": "#A71930",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+          "elo": 1475.6,
+          "record": "2-5",
+          "off_rank": 25,
+          "def_rank": 3
+        },
+        "opponent": {
+          "abbr": "ATL",
+          "name": "Atlanta Falcons",
+          "nick": "Falcons",
+          "color": "#A71930",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+          "elo": 1489.2,
+          "record": "3-4",
+          "off_rank": 22,
+          "def_rank": 14
+        },
+        "home": true,
+        "prob": 53.2,
+        "tier": "Serré",
+        "fair_odds": 1.88,
+        "hist": {
+          "tier": "Serré",
+          "min": 0.5,
+          "games": 1244,
+          "predicted": 55.4,
+          "actual": 55.4
+        },
+        "model_agrees": true,
+        "model_prob": 55.3
+      },
+      {
+        "game_id": "2026_08_LV_NYJ",
+        "gameday": "2026-11-01",
+        "gametime": "13:00",
+        "team": {
+          "abbr": "NYJ",
+          "name": "New York Jets",
+          "nick": "Jets",
+          "color": "#003F2D",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+          "elo": 1364.7,
+          "record": "2-5",
+          "off_rank": 24,
+          "def_rank": 24
+        },
+        "opponent": {
+          "abbr": "LV",
+          "name": "Las Vegas Raiders",
+          "nick": "Raiders",
+          "color": "#000000",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+          "elo": 1401.4,
+          "record": "3-4",
+          "off_rank": 28,
+          "def_rank": 25
+        },
+        "home": true,
+        "prob": 52.6,
+        "tier": "Serré",
+        "fair_odds": 1.9,
+        "hist": {
+          "tier": "Serré",
+          "min": 0.5,
+          "games": 1244,
+          "predicted": 55.4,
+          "actual": 55.4
+        },
+        "model_agrees": true,
+        "model_prob": 54.6
+      },
+      {
+        "game_id": "2026_08_KC_DEN",
+        "gameday": "2026-11-01",
+        "gametime": "16:25",
+        "team": {
+          "abbr": "KC",
+          "name": "Kansas City Chiefs",
+          "nick": "Chiefs",
+          "color": "#E31837",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+          "elo": 1564.9,
+          "record": "5-1",
+          "off_rank": 8,
+          "def_rank": 9
+        },
+        "opponent": {
+          "abbr": "DEN",
+          "name": "Denver Broncos",
+          "nick": "Broncos",
+          "color": "#002244",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+          "elo": 1626.8,
+          "record": "5-2",
+          "off_rank": 16,
+          "def_rank": 4
+        },
+        "home": false,
+        "prob": 51.1,
+        "tier": "Serré",
+        "fair_odds": 1.96,
+        "hist": {
+          "tier": "Serré",
+          "min": 0.5,
+          "games": 1244,
+          "predicted": 55.4,
+          "actual": 55.4
+        },
+        "model_agrees": false,
+        "model_prob": 43.1
+      }
+    ],
+    "scorers": [
+      {
+        "player_id": "00-0038134",
+        "name": "Kenneth Walker III",
+        "team": "KC",
+        "position": "RB",
+        "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vk6nruaqdewdglofcwwg",
+        "prob": 59.7,
+        "season_tds": 8,
+        "status": null,
+        "game_id": "2026_08_KC_DEN",
+        "opponent": "DEN",
+        "fair_odds": 1.68,
+        "hist": {
+          "label": "50 % et plus",
+          "min": 50,
+          "n": 53,
+          "predicted": 57.9,
+          "actual": 58.5
+        }
+      },
+      {
+        "player_id": "00-0036997",
+        "name": "Javonte Williams",
+        "team": "DAL",
+        "position": "RB",
+        "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xvwroirev2kie6oiphtz",
+        "prob": 59.3,
+        "season_tds": 9,
+        "status": null,
+        "game_id": "2026_08_ARI_DAL",
+        "opponent": "ARI",
+        "fair_odds": 1.69,
+        "hist": {
+          "label": "50 % et plus",
+          "min": 50,
+          "n": 53,
+          "predicted": 57.9,
+          "actual": 58.5
+        }
+      },
+      {
+        "player_id": "00-0032764",
+        "name": "Derrick Henry",
+        "team": "BAL",
+        "position": "RB",
+        "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tm79x0iknqg6hms3ypyt",
+        "prob": 57.2,
+        "season_tds": 8,
+        "status": null,
+        "game_id": "2026_08_BAL_BUF",
+        "opponent": "BUF",
+        "fair_odds": 1.75,
+        "hist": {
+          "label": "50 % et plus",
+          "min": 50,
+          "n": 53,
+          "predicted": 57.9,
+          "actual": 58.5
+        }
+      },
+      {
+        "player_id": "00-0039139",
+        "name": "Jahmyr Gibbs",
+        "team": "DET",
+        "position": "RB",
+        "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cursejnmmp1i9hnxihkj",
+        "prob": 55.8,
+        "season_tds": 9,
+        "status": null,
+        "game_id": "2026_08_MIN_DET",
+        "opponent": "MIN",
+        "fair_odds": 1.79,
+        "hist": {
+          "label": "50 % et plus",
+          "min": 50,
+          "n": 53,
+          "predicted": 57.9,
+          "actual": 58.5
+        }
+      },
+      {
+        "player_id": "00-0037248",
+        "name": "James Cook",
+        "team": "BUF",
+        "position": "RB",
+        "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/anjbznqb9i21wzcgrtbs",
+        "prob": 51.8,
+        "season_tds": 6,
+        "status": null,
+        "game_id": "2026_08_BAL_BUF",
+        "opponent": "BAL",
+        "fair_odds": 1.93,
+        "hist": {
+          "label": "50 % et plus",
+          "min": 50,
+          "n": 53,
+          "predicted": 57.9,
+          "actual": 58.5
+        }
+      },
+      {
+        "player_id": "00-0040719",
+        "name": "Bhayshul Tuten",
+        "team": "JAX",
+        "position": "RB",
+        "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ryjnphuyjbedmgpx5qqj",
+        "prob": 47.7,
+        "season_tds": 4,
+        "status": null,
+        "game_id": "2026_08_IND_JAX",
+        "opponent": "IND",
+        "fair_odds": 2.1,
+        "hist": {
+          "label": "40 à 50 %",
+          "min": 40,
+          "n": 59,
+          "predicted": 43.9,
+          "actual": 44.1
+        }
+      },
+      {
+        "player_id": "00-0036223",
+        "name": "Jonathan Taylor",
+        "team": "IND",
+        "position": "RB",
+        "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/d7pmatz5wylijbsplnkg",
+        "prob": 47.1,
+        "season_tds": 8,
+        "status": null,
+        "game_id": "2026_08_IND_JAX",
+        "opponent": "JAX",
+        "fair_odds": 2.12,
+        "hist": {
+          "label": "40 à 50 %",
+          "min": 40,
+          "n": 59,
+          "predicted": 43.9,
+          "actual": 44.1
+        }
+      },
+      {
+        "player_id": "00-0036275",
+        "name": "D'Andre Swift",
+        "team": "CHI",
+        "position": "RB",
+        "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/owpmwzoilitcodc6cmxo",
+        "prob": 46.4,
+        "season_tds": 7,
+        "status": null,
+        "game_id": "2026_08_CHI_SEA",
+        "opponent": "SEA",
+        "fair_odds": 2.16,
+        "hist": {
+          "label": "40 à 50 %",
+          "min": 40,
+          "n": 59,
+          "predicted": 43.9,
+          "actual": 44.1
+        }
+      },
+      {
+        "player_id": "00-0039361",
+        "name": "Bucky Irving",
+        "team": "TB",
+        "position": "RB",
+        "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vkc00rvnix3f2b96vkwo",
+        "prob": 46.0,
+        "season_tds": 5,
+        "status": null,
+        "game_id": "2026_08_ATL_TB",
+        "opponent": "ATL",
+        "fair_odds": 2.17,
+        "hist": {
+          "label": "40 à 50 %",
+          "min": 40,
+          "n": 59,
+          "predicted": 43.9,
+          "actual": 44.1
+        }
+      },
+      {
+        "player_id": "00-0037840",
+        "name": "Kyren Williams",
+        "team": "LA",
+        "position": "RB",
+        "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xti3pek6rmojqchakxpy",
+        "prob": 44.4,
+        "season_tds": 6,
+        "status": null,
+        "game_id": "2026_08_LAC_LA",
+        "opponent": "LAC",
+        "fair_odds": 2.25,
+        "hist": {
+          "label": "40 à 50 %",
+          "min": 40,
+          "n": 59,
+          "predicted": 43.9,
+          "actual": 44.1
+        }
+      },
+      {
+        "player_id": "00-0036358",
+        "name": "CeeDee Lamb",
+        "team": "DAL",
+        "position": "WR",
+        "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mbblzwtynxr15ovzkevi",
+        "prob": 43.5,
+        "season_tds": 6,
+        "status": null,
+        "game_id": "2026_08_ARI_DAL",
+        "opponent": "ARI",
+        "fair_odds": 2.3,
+        "hist": {
+          "label": "40 à 50 %",
+          "min": 40,
+          "n": 59,
+          "predicted": 43.9,
+          "actual": 44.1
+        }
+      },
+      {
+        "player_id": "00-0034857",
+        "name": "Josh Allen",
+        "team": "BUF",
+        "position": "QB",
+        "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ynrhq9iv30ysjpwmrfdv",
+        "prob": 42.5,
+        "season_tds": 8,
+        "status": null,
+        "game_id": "2026_08_BAL_BUF",
+        "opponent": "BAL",
+        "fair_odds": 2.35,
+        "hist": {
+          "label": "40 à 50 %",
+          "min": 40,
+          "n": 59,
+          "predicted": 43.9,
+          "actual": 44.1
+        }
+      }
+    ],
+    "reliability": [
+      {
+        "tier": "Très sûr",
+        "min": 0.8,
+        "games": 369,
+        "predicted": 84.7,
+        "actual": 86.2
+      },
+      {
+        "tier": "Sûr",
+        "min": 0.7,
+        "games": 994,
+        "predicted": 74.8,
+        "actual": 76.8
+      },
+      {
+        "tier": "Probable",
+        "min": 0.6,
+        "games": 1315,
+        "predicted": 64.7,
+        "actual": 63.2
+      },
+      {
+        "tier": "Serré",
+        "min": 0.5,
+        "games": 1244,
+        "predicted": 55.4,
+        "actual": 55.4
+      }
+    ]
+  },
   "top_scorers": [
-    {
-      "player_id": "00-0036997",
-      "name": "Javonte Williams",
-      "team": "DAL",
-      "position": "RB",
-      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xvwroirev2kie6oiphtz",
-      "prob": 58.8,
-      "season_tds": 9,
-      "status": null,
-      "game_id": "2026_08_ARI_DAL",
-      "opponent": "ARI"
-    },
     {
       "player_id": "00-0038134",
       "name": "Kenneth Walker III",
       "team": "KC",
       "position": "RB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vk6nruaqdewdglofcwwg",
-      "prob": 58.6,
+      "prob": 59.7,
       "season_tds": 8,
       "status": null,
       "game_id": "2026_08_KC_DEN",
       "opponent": "DEN"
+    },
+    {
+      "player_id": "00-0036997",
+      "name": "Javonte Williams",
+      "team": "DAL",
+      "position": "RB",
+      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xvwroirev2kie6oiphtz",
+      "prob": 59.3,
+      "season_tds": 9,
+      "status": null,
+      "game_id": "2026_08_ARI_DAL",
+      "opponent": "ARI"
     },
     {
       "player_id": "00-0032764",
@@ -6538,7 +7368,7 @@
       "team": "BAL",
       "position": "RB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tm79x0iknqg6hms3ypyt",
-      "prob": 56.7,
+      "prob": 57.2,
       "season_tds": 8,
       "status": null,
       "game_id": "2026_08_BAL_BUF",
@@ -6550,7 +7380,7 @@
       "team": "DET",
       "position": "RB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cursejnmmp1i9hnxihkj",
-      "prob": 55.1,
+      "prob": 55.8,
       "season_tds": 9,
       "status": null,
       "game_id": "2026_08_MIN_DET",
@@ -6562,7 +7392,7 @@
       "team": "BUF",
       "position": "RB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/anjbznqb9i21wzcgrtbs",
-      "prob": 52.2,
+      "prob": 51.8,
       "season_tds": 6,
       "status": null,
       "game_id": "2026_08_BAL_BUF",
@@ -6574,7 +7404,7 @@
       "team": "JAX",
       "position": "RB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ryjnphuyjbedmgpx5qqj",
-      "prob": 47.6,
+      "prob": 47.7,
       "season_tds": 4,
       "status": null,
       "game_id": "2026_08_IND_JAX",
@@ -6586,7 +7416,7 @@
       "team": "IND",
       "position": "RB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/d7pmatz5wylijbsplnkg",
-      "prob": 47.3,
+      "prob": 47.1,
       "season_tds": 8,
       "status": null,
       "game_id": "2026_08_IND_JAX",
@@ -6598,7 +7428,7 @@
       "team": "CHI",
       "position": "RB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/owpmwzoilitcodc6cmxo",
-      "prob": 46.6,
+      "prob": 46.4,
       "season_tds": 7,
       "status": null,
       "game_id": "2026_08_CHI_SEA",
@@ -6610,7 +7440,7 @@
       "team": "TB",
       "position": "RB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vkc00rvnix3f2b96vkwo",
-      "prob": 46.1,
+      "prob": 46.0,
       "season_tds": 5,
       "status": null,
       "game_id": "2026_08_ATL_TB",
@@ -6622,7 +7452,7 @@
       "team": "LA",
       "position": "RB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xti3pek6rmojqchakxpy",
-      "prob": 44.7,
+      "prob": 44.4,
       "season_tds": 6,
       "status": null,
       "game_id": "2026_08_LAC_LA",
@@ -6634,7 +7464,7 @@
       "team": "DAL",
       "position": "WR",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mbblzwtynxr15ovzkevi",
-      "prob": 43.2,
+      "prob": 43.5,
       "season_tds": 6,
       "status": null,
       "game_id": "2026_08_ARI_DAL",
@@ -6646,7 +7476,7 @@
       "team": "BUF",
       "position": "QB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ynrhq9iv30ysjpwmrfdv",
-      "prob": 42.9,
+      "prob": 42.5,
       "season_tds": 8,
       "status": null,
       "game_id": "2026_08_BAL_BUF",
