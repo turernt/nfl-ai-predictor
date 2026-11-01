@@ -2,7 +2,7 @@ name: Update NFL Data & Elo
 
 on:
   schedule:
-    - cron: "0 9 * * 2"   # mardi 9h UTC, après le Monday Night Football
+    - cron: "0 13 * * *"  # chaque jour à 13 h UTC : cotes, blessures et QB titulaires à jour avant les matchs
   workflow_dispatch:
 
 permissions:
@@ -27,7 +27,22 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run data pipeline
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}             # facultatif : cotes de plusieurs bookmakers
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }} # facultatif : alertes
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python main.py --update
+
+      - name: Validate data
+        run: python -m src.validate
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Build website (check before publishing)
+        working-directory: web
+        run: npm install --no-audit --no-fund && npm run build
 
       - name: Commit and push updated data
         run: |
