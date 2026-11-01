@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import data from '../../../data/predictions.json';
-import { Topbar, Footer, Logo, Scorer, ProbBar } from '../../ui';
+import { Topbar, Footer, Logo, Scorer, ProbBar, tc } from '../../ui';
 import { kickoff, fmtLong, fmtHour, spreadLabel, edgeLabel, num, pct } from '../../lib';
 
 export function generateStaticParams() {
@@ -24,8 +24,8 @@ function FactorRow({ label, pts, g, scale, strong }) {
       <span className="factor-label">{label}</span>
       <div className="factor-bar" aria-hidden="true">
         <span className="axis" />
-        {pts < 0 && <span className="fill" style={{ right: '50%', width: `${w}%`, background: g.away.color }} />}
-        {pts > 0 && <span className="fill" style={{ left: '50%', width: `${w}%`, background: g.home.color }} />}
+        {pts < 0 && <span className="fill tc" style={{ right: '50%', width: `${w}%`, ...tc(g.away) }} />}
+        {pts > 0 && <span className="fill tc" style={{ left: '50%', width: `${w}%`, ...tc(g.home) }} />}
       </div>
       <span className="factor-val">{edgeLabel(pts, g.home, g.away)}</span>
     </div>
@@ -44,9 +44,9 @@ function EloChart({ home, away, weeks }) {
       <line x1={P} x2={W - P} y1={y(1505)} y2={y(1505)} className="ref" />
       <text x={P} y={y(1505) - 6} className="ref-label">Moyenne 1 505</text>
       {[away, home].map((t) => (
-        <g key={t.abbr}>
-          <polyline points={line(t.history)} fill="none" stroke={t.color} strokeWidth="2.5" strokeLinejoin="round" />
-          <circle cx={x(t.history.length - 1, t.history.length)} cy={y(t.history.at(-1))} r="4" fill={t.color} />
+        <g key={t.abbr} className="tcs" style={tc(t)}>
+          <polyline points={line(t.history)} fill="none" strokeWidth="2.5" strokeLinejoin="round" />
+          <circle cx={x(t.history.length - 1, t.history.length)} cy={y(t.history.at(-1))} r="4" />
           <text x={x(t.history.length - 1, t.history.length) - 8} y={y(t.history.at(-1)) - 8} textAnchor="end" className="pt-label">
             {t.abbr} {Math.round(t.history.at(-1))}
           </text>
@@ -103,7 +103,7 @@ export default function MatchPage({ params }) {
             {[[g.away, g.prob_away_win, proj.away], [g.home, g.prob_home_win, proj.home]].map(([t, p, sc], i) => (
               <div key={t.abbr} className={`sb-team ${i ? 'home' : ''} ${p >= 50 ? 'is-fav' : ''}`}>
                 <Logo team={t} size={64} />
-                <span className="sb-name">{t.name}</span>
+                <Link className="sb-name" href={`/equipe/${t.abbr}`}>{t.name}</Link>
                 <span className="team-sub">{t.record}{i ? ', à domicile' : ''}</span>
                 <span className="sb-score">{sc ?? '—'}</span>
                 <span className="sb-win">{pct(p)}</span>
@@ -112,6 +112,18 @@ export default function MatchPage({ params }) {
           </div>
           <ProbBar g={g} />
           <p className="sb-note">{g.commentary}</p>
+          {g.line_history?.length > 1 && (() => {
+            const h = g.line_history, a = h[0], z = h[h.length - 1];
+            const d = (x) => new Date(x).toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' });
+            const diff = z.prob_home - a.prob_home;
+            return (
+              <p className="move">
+                Mouvement du marché depuis le {d(a.date)} : {g.home.nick} {pct(a.prob_home)} → {pct(z.prob_home)}
+                {Math.abs(diff) >= 0.5 ? ` (${diff > 0 ? '+' : '−'}${num(Math.abs(diff))} pt)` : ' (stable)'}
+                {a.spread != null && z.spread != null && a.spread !== z.spread ? `, écart ${spreadLabel(a.spread, g.home, g.away)} → ${spreadLabel(z.spread, g.home, g.away)}` : ''}
+              </p>
+            );
+          })()}
         </header>
 
         <section className="panel">
@@ -132,6 +144,70 @@ export default function MatchPage({ params }) {
             total : {g.vegas_total != null ? num(g.vegas_total) : '—'}.
           </p>
         </section>
+
+        {(g.weather || g.injuries) && (
+          <section className="panel">
+            <h2>Avant le match</h2>
+            {g.weather && (
+              <p className="wx">
+                {g.weather.roof === 'dome' ? 'Stade couvert : la météo ne joue pas.'
+                  : g.weather.error ? 'Météo momentanément indisponible.'
+                  : g.weather.pending ? 'Prévisions météo disponibles 7 jours avant le match.'
+                  : <>Météo prévue au coup d’envoi : <b>{g.weather.temp_c}&nbsp;°C</b>, vent <b>{g.weather.wind_kmh}&nbsp;km/h</b>
+                      {g.weather.precip_prob != null ? <>, risque de pluie {g.weather.precip_prob}&nbsp;%</> : null}
+                      {g.weather.roof === 'retractable' ? ' (toit rétractable, souvent fermé)' : ''}.</>}
+                {g.weather.windy && <span className="warn"> Vent fort : depuis 2023, le total de points est passé sous la ligne dans 56&nbsp;% de ces matchs.</span>}
+              </p>
+            )}
+            {g.injuries && (
+              <div className="two-col">
+                {[g.away, g.home].map((t) => {
+                  const list = (t.abbr === g.home.abbr ? g.injuries.home : g.injuries.away) || [];
+                  return (
+                    <div key={t.abbr}>
+                      <h3 className="col-title"><Logo team={t} size={22} />Blessés {t.nick}</h3>
+                      {list.length ? (
+                        <ul className="inj">
+                          {list.map((x) => (
+                            <li key={x.name}>
+                              <span className={`st st-${x.status}`}>{{ Out: 'Forfait', Doubtful: 'Douteux', Questionable: 'Incertain' }[x.status]}</span>
+                              <span>{x.name} <span className="team-sub">{x.position}{x.injury ? `, ${x.injury}` : ''}</span></span>
+                            </li>
+                          ))}
+                        </ul>
+                      ) : <p className="team-sub">Aucun joueur signalé.</p>}
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+          </section>
+        )}
+
+        {g.odds && (
+          <section className="panel">
+            <h2>Cotes des bookmakers</h2>
+            <p className="lede">
+              {g.odds.n_books} bookmakers. Cote juste (sans marge) : {g.away.nick} {num(g.odds.fair_away, 2)}, {g.home.nick} {num(g.odds.fair_home, 2)}.
+              En vert, les cotes supérieures au juste prix.
+            </p>
+            <div className="table-scroll">
+              <table className="compare odds">
+                <thead><tr><th>Bookmaker</th><th>{g.away.abbr}</th><th>{g.home.abbr}</th><th>Marge</th></tr></thead>
+                <tbody>
+                  {g.odds.books.map((b) => (
+                    <tr key={b.key}>
+                      <th scope="row">{b.title}</th>
+                      <td className={b.away > g.odds.fair_away ? 'val' : ''}>{num(b.away, 2)}</td>
+                      <td className={b.home > g.odds.fair_home ? 'val' : ''}>{num(b.home, 2)}</td>
+                      <td>{num(b.margin)}&nbsp;%</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </section>
+        )}
 
         <section className="panel">
           <h2>Face à face</h2>
