@@ -10,6 +10,14 @@ from src.ingestion.loader import (load_schedules, load_teams, load_player_stats,
 from src.models.elo_engine import NFLEloModel, confidence_label
 from src.models.ratings import (epa_ratings, epa_margin, qb_table, qb_adjustment, rest_adjustment, win_prob)
 from src.models.scorers import build_player_table, team_td_rates, likely_scorers, red_zone_opps
+from src.ingestion.odds import fetch_odds, consensus, find as find_odds
+from src.models.season_sim import simulate
+from src.models.devig import shin, quarter_kelly
+from src.ingestion.loader import load_injury_details
+from src.ingestion.weather import forecast
+from src.tracking import update_log, summarize
+
+ROUNDS = {"WC": "Wild Card", "DIV": "Tour de division", "CON": "Finale de conférence", "SB": "Super Bowl"}
 
 logger = logging.getLogger(__name__)
 
@@ -27,8 +35,35 @@ def no_vig_prob(home_ml, away_ml) -> float | None:
     if pd.isna(home_ml) or pd.isna(away_ml):
         return None
     imp = lambda o: 100 / (o + 100) if o > 0 else -o / (-o + 100)
-    ph, pa = imp(home_ml), imp(away_ml)
-    return ph / (ph + pa)
+    return shin([imp(home_ml), imp(away_ml)])[0]   # méthode de Shin (voir src/models/devig.py)
+
+
+def readable_on_dark(c1, c2) -> str:
+    """Couleur d'équipe lisible sur fond sombre : la secondaire si la principale est trop foncée."""
+    def lum(c):
+        try:
+            r, g, b = (int(str(c).lstrip("#")[i:i + 2], 16) / 255 for i in (0, 2, 4))
+        except (ValueError, TypeError):
+            return 0.0
+        f = lambda v: v / 12.92 if v <= 0.03928 else ((v + 0.055) / 1.055) ** 2.4
+        return 0.2126 * f(r) + 0.7152 * f(g) + 0.0722 * f(b)
+    if lum(c1) >= 0.06 or not isinstance(c2, str):
+        return c1
+    return c2 if lum(c2) > lum(c1) else c1
+
+
+def _dec(ml) -> float | None:
+    """Cote américaine -> cote décimale (marge du bookmaker incluse)."""
+    if pd.isna(ml):
+        return None
+    return round(1 + ml / 100 if ml > 0 else 1 + 100 / -ml, 3)
+
+
+def _units(bets) -> dict:
+    """Bilan à mise fixe (1 unité par pari) aux vraies cotes, marge comprise."""
+    bets = [b for b in bets if b["pick_odds"] and b["correct"] is not None]
+    profit = sum((b["pick_odds"] - 1) if b["correct"] else -1 for b in bets)
+    return {"bets": len(bets), "units": round(profit, 2), "roi": round(profit / len(bets) * 100, 1) if bets else None}
 
 
 def tier_of(p: float) -> str:
@@ -87,7 +122,7 @@ class Context:
         self.injuries = injuries or {}
 
 
-def predict_game(g, elo: dict, ctx: Context, team_info, with_injuries: bool) -> dict:
+def predict_game(g, elo: dict, ctx: Context, team_info, with_injuries: bool, odds: dict | None = None) -> dict:
     neutral = g.location == "Neutral"
     elo_m = (elo.get(g.home_team, 1505) + (0 if neutral else HFA) - elo.get(g.away_team, 1505)) / ELO_PER_POINT
     epa_m = epa_margin(ctx.epa, g.home_team, g.away_team, neutral)
@@ -99,9 +134,18 @@ def predict_game(g, elo: dict, ctx: Context, team_info, with_injuries: bool) -> 
     spread = MARKET_WEIGHT * vegas + (1 - MARKET_WEIGHT) * model_spread if vegas is not None else model_spread
     p_ml = no_vig_prob(g.home_moneyline, g.away_moneyline)
     p_home = (p_ml if p_ml is not None else win_prob(spread)) * 100
-    source = "cotes" if p_ml is not None else ("spread" if vegas is not None else "modèle")
+    source = "cotes nflverse" if p_ml is not None else ("spread" if vegas is not None else "modèle")
+    total_line = None if pd.isna(g.total_line) else float(g.total_line)
+    if odds:  # consensus de plusieurs bookmakers, prioritaire sur la ligne unique nflverse
+        p_home = odds["prob_home"] * 100
+        source = f"moyenne de {odds['n_books']} bookmakers"
+        if odds["spread"] is not None:
+            vegas = float(odds["spread"])
+            spread = vegas
+        if odds["total"] is not None:
+            total_line = float(odds["total"])
 
-    total = DEFAULT_TOTAL if pd.isna(g.total_line) else float(g.total_line)
+    total = DEFAULT_TOTAL if total_line is None else total_line
     home_pts, away_pts = total / 2 - spread / 2, total / 2 + spread / 2
     inj = ctx.injuries if with_injuries else {}
     scorers = (likely_scorers(ctx.players, ctx.rates, g.away_team, away_pts, inj)
@@ -117,7 +161,11 @@ def predict_game(g, elo: dict, ctx: Context, team_info, with_injuries: bool) -> 
         "prob_home_win": round(p_home, 1), "prob_away_win": round(100 - p_home, 1),
         "predicted_spread": round(spread, 1), "model_spread": round(model_spread, 1),
         "model_prob_home": round(win_prob(model_spread) * 100, 1),
-        "vegas_spread": vegas, "vegas_total": None if pd.isna(g.total_line) else float(g.total_line),
+        "vegas_spread": vegas, "vegas_total": total_line,
+        "odds": None if not odds else {
+            "n_books": odds["n_books"], "books": odds["books"], "best_fr": odds["best_fr"],
+            "fair_home": round(100 / p_home, 2), "fair_away": round(100 / (100 - p_home), 2),
+        },
         "projected_score": {"home": round(home_pts), "away": round(away_pts)},
         "confidence_score": confidence_label(p_home),
         "tier": tier_of(max(p_home, 100 - p_home) / 100), "prob_source": source,
@@ -181,6 +229,7 @@ def run_pipeline() -> dict:
                 "name": row["team_name"] if row is not None else abbr,
                 "nick": row["team_nick"] if row is not None else abbr,
                 "color": row["team_color"] if row is not None else "#444444",
+                "color_dark": readable_on_dark(row["team_color"], row["team_color2"]) if row is not None else "#888888",
                 "logo": row["team_logo_espn"] if row is not None else None,
                 "elo": round(elo_now.get(abbr, 1505), 1),
                 "record": f"{w}-{l}" + (f"-{d}" if d else ""),
@@ -209,6 +258,7 @@ def run_pipeline() -> dict:
                 "score": {"home": int(g.home_score), "away": int(g.away_score)},
                 "pick": pr["home"]["abbr"] if pr["prob_home_win"] >= 50 else pr["away"]["abbr"],
                 "pick_prob": max(pr["prob_home_win"], pr["prob_away_win"]),
+                "pick_odds": _dec(g.home_moneyline if pr["prob_home_win"] >= 50 else g.away_moneyline),
                 "correct": None if tie else (pr["prob_home_win"] >= 50) == home_won,
                 "model_correct": None if tie else (pr["model_prob_home"] >= 50) == home_won,
                 "market_correct": None if tie or pr["vegas_spread"] in (None, 0) else (pr["vegas_spread"] < 0) == home_won,
@@ -227,7 +277,10 @@ def run_pipeline() -> dict:
     sc_all = [x for b in backtest for x in b["all_scorers"]]
     sc_top = [s for b in backtest for s in b["scorers"]]
     weeks = sorted({b["week"] for b in backtest})
+    safe = [b for b in decided if b["pick_prob"] >= 70]
     summary = {
+        "safe_picks": {"n": len(safe), "correct": sum(b["correct"] for b in safe)},
+        "units_all": _units(decided), "units_safe": _units(safe),
         "games": len(decided),
         "correct": sum(b["correct"] for b in decided),
         "brier": round(sum(b["brier"] for b in decided) / len(decided), 3) if decided else None,
@@ -259,8 +312,25 @@ def run_pipeline() -> dict:
     # --- Semaine à venir
     ctx = Context(pbp, stats, sched, season, week, load_injury_report(season, week))
     team_info = make_team_info(ctx.epa)
-    predictions = [predict_game(g, elo_now, ctx, team_info, with_injuries=True)
+    events = fetch_odds()
+    cons = consensus(events, {row["team_name"]: abbr for abbr, row in teams.iterrows()})
+    predictions = [predict_game(g, elo_now, ctx, team_info, with_injuries=True,
+                                odds=find_odds(cons, g.home_team, g.away_team, g.gameday))
                    for g in upcoming[upcoming.week == week].itertuples()]
+    n_cons = sum(1 for p in predictions if p["odds"])
+    inj = load_injury_details(season, week)
+    for p, g in zip(predictions, upcoming[upcoming.week == week].itertuples()):
+        p["injuries"] = {"home": inj.get(p["home"]["abbr"], [])[:10], "away": inj.get(p["away"]["abbr"], [])[:10]}
+        p["weather"] = forecast(p["home"]["abbr"], p["neutral_site"], p["gameday"], p["gametime"])
+        p["round"] = ROUNDS.get(g.game_type)
+    log = update_log(DATA_DIR / "picks_log.json", predictions, cur_sched, season)
+    tracking = summarize(log, season)
+    post = cur_sched[cur_sched.game_type.isin(ROUNDS.keys())]
+    postseason = [{
+        "game_id": g.game_id, "round": ROUNDS[g.game_type], "home": g.home_team, "away": g.away_team,
+        "score": None if pd.isna(g.home_score) else {"home": int(g.home_score), "away": int(g.away_score)},
+        "prob_home": next((p["prob_home_win"] for p in predictions if p["game_id"] == g.game_id), None),
+    } for g in post.itertuples()]
 
     top_scorers = sorted((dict(sc, game_id=pr["game_id"],
                                opponent=pr["home"]["abbr"] if sc["team"] == pr["away"]["abbr"] else pr["away"]["abbr"])
@@ -278,7 +348,11 @@ def run_pipeline() -> dict:
         p = max(pr["prob_home_win"], pr["prob_away_win"])
         fav, opp = (pr["home"], pr["away"]) if home_fav else (pr["away"], pr["home"])
         model_fav_home = pr["model_spread"] < 0
+        side = "home" if home_fav else "away"
+        best = (pr["odds"] or {}).get("best_fr", {}).get(side) if pr["odds"] else None
         picks_win.append({
+            "best_fr": best, "ev": round((best["price"] * p / 100 - 1) * 100, 1) if best else None,
+            "source": pr["prob_source"],
             "game_id": pr["game_id"], "gameday": pr["gameday"], "gametime": pr["gametime"],
             "team": fav, "opponent": opp, "home": home_fav, "prob": p, "tier": pr["tier"],
             "fair_odds": round(100 / p, 2), "hist": rel.get(pr["tier"]),
@@ -288,12 +362,83 @@ def run_pipeline() -> dict:
     picks_win.sort(key=lambda x: x["prob"], reverse=True)
     picks_scorers = [dict(sc, fair_odds=round(100 / sc["prob"], 2), hist=sc_tier(sc["prob"]))
                      for sc in top_scorers if sc["prob"] >= 40]
+    # Cotes françaises au-dessus du juste prix (calculé sur le consensus de tous les bookmakers)
+    value = []
+    for pr in predictions:
+        if not pr["odds"]:
+            continue
+        for side, team, opp, p in (("home", pr["home"], pr["away"], pr["prob_home_win"]),
+                                   ("away", pr["away"], pr["home"], pr["prob_away_win"])):
+            best = pr["odds"]["best_fr"].get(side)
+            if best and best["price"] * p / 100 >= 1.02:  # marge de sécurité : 2 % d’espérance minimum
+                value.append({"game_id": pr["game_id"], "gameday": pr["gameday"], "gametime": pr["gametime"],
+                              "team": team, "opponent": opp, "prob": p, "price": best["price"], "book": best["book"],
+                              "stake_pct": round(quarter_kelly(p / 100, best["price"]) * 100, 2),
+                              "fair_odds": round(100 / p, 2), "ev": round((best["price"] * p / 100 - 1) * 100, 1)})
+    value.sort(key=lambda x: x["ev"], reverse=True)
+    # Badges des cartes de match : occasion, blessés importants, vent
+    value_ids = {v["game_id"] for v in value}
+    for pr in predictions:
+        key_out = sum(1 for side in ("home", "away") for x in (pr.get("injuries") or {}).get(side, [])
+                      if x["status"] in ("Out", "Doubtful") and x["position"] in ("QB", "RB", "WR", "TE"))
+        pr["flags"] = {"value": pr["game_id"] in value_ids, "key_out": key_out,
+                       "windy": bool((pr.get("weather") or {}).get("windy")),
+                       "dome": (pr.get("weather") or {}).get("roof") == "dome"}
     picks = {
+        "value": value,
         "safest": [x for x in picks_win if x["prob"] >= 70],
         "coin_flips": [x for x in picks_win if x["prob"] < 57],
         "scorers": picks_scorers,
         "reliability": reliability,
     }
+
+    # Historique des lignes (une photo par jour, conservée d'une exécution à l'autre)
+    hist_path = DATA_DIR / "line_history.json"
+    try:
+        line_hist = json.loads(hist_path.read_text())
+    except (FileNotFoundError, ValueError):
+        line_hist = {}
+    today = datetime.now(timezone.utc).date().isoformat()
+    current_ids = {p["game_id"] for p in predictions}
+    line_hist = {k: v for k, v in line_hist.items() if k in current_ids}
+    for p in predictions:
+        snaps = [x for x in line_hist.get(p["game_id"], []) if x["date"] != today]
+        snaps.append({"date": today, "prob_home": p["prob_home_win"], "spread": p["vegas_spread"],
+                      "books": (p["odds"] or {}).get("n_books")})
+        line_hist[p["game_id"]] = snaps[-14:]
+        p["line_history"] = line_hist[p["game_id"]]
+    hist_path.write_text(json.dumps(line_hist, ensure_ascii=False, indent=1))
+
+    # Course aux playoffs : 10 000 simulations de la fin de saison
+    sim_ratings = {t: ELO_WEIGHT * (elo_now[t] - 1505) / ELO_PER_POINT
+                      + (1 - ELO_WEIGHT) * (float(ctx.epa.at[t, "net"]) * 30 if t in ctx.epa.index else 0.0)
+                   for t in teams.index if t in elo_now}
+    remaining = cur_sched[cur_sched.home_score.isna() & (cur_sched.game_type == "REG")]
+    sim = simulate(remaining, played[(played.season == season) & (played.game_type == "REG")], record, sim_ratings, teams,
+                   fixed_probs={p["game_id"]: p["prob_home_win"] / 100 for p in predictions}) if len(remaining) else {}
+
+    pred_by_id = {p["game_id"]: p for p in predictions}
+
+    def team_schedule(t):
+        rows = []
+        for g in cur_sched[(cur_sched.home_team == t) | (cur_sched.away_team == t)].itertuples():
+            home = g.home_team == t
+            opp = g.away_team if home else g.home_team
+            row = {"week": int(g.week), "game_id": g.game_id, "gameday": g.gameday, "home": home, "opp": opp,
+                   "opp_nick": teams.at[opp, "team_nick"] if opp in teams.index else opp,
+                   "opp_logo": teams.at[opp, "team_logo_espn"] if opp in teams.index else None}
+            if not pd.isna(g.home_score):
+                us, them = (g.home_score, g.away_score) if home else (g.away_score, g.home_score)
+                row.update(score=f"{int(us)}-{int(them)}", result="V" if us > them else "D" if us < them else "N")
+            elif g.game_id in pred_by_id:
+                pr = pred_by_id[g.game_id]
+                row["prob"] = pr["prob_home_win"] if home else pr["prob_away_win"]
+            else:
+                m = sim_ratings.get(g.home_team, 0) - sim_ratings.get(g.away_team, 0) + (0 if g.location == "Neutral" else 1.7)
+                ph = win_prob(-m) * 100
+                row["prob"] = round(ph if home else 100 - ph, 1)
+            rows.append(row)
+        return rows
 
     weeks_hist = sorted(snapshots)
     ranking = []
@@ -302,18 +447,26 @@ def run_pipeline() -> dict:
             continue
         info = team_info(t)
         info["history"] = [round(snapshots[w].get(t, 1505), 1) for w in weeks_hist] + [info["elo"]]
+        info["conf"] = teams.at[t, "team_conf"]
+        info["division"] = teams.at[t, "team_division"]
+        info["sim"] = sim.get(t)
+        info["schedule"] = team_schedule(t)
         ranking.append(info)
     ranking.sort(key=lambda t: t["elo"], reverse=True)
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "season": season, "week": week,
+        "week_label": (predictions[0].get("round") if predictions and predictions[0].get("round") else f"Semaine {week}"),
+        "tracking": tracking, "postseason": postseason,
         "model": {"elo_weight": ELO_WEIGHT, "market_weight": round(MARKET_WEIGHT, 2), "hfa_elo": HFA},
         "season_record": {"games": summary["games"], "correct": summary["correct"],
                           "accuracy": round(summary["correct"] / summary["games"] * 100, 1) if summary["games"] else None},
         "bilan": {"summary": summary, "games": backtest},
         "predictions": predictions,
         "picks": picks,
+        "odds_source": {"type": "consensus" if n_cons else "nflverse", "games": n_cons,
+                        "books": max((p["odds"]["n_books"] for p in predictions if p["odds"]), default=0)},
         "top_scorers": top_scorers,
         "ranking": ranking,
     }
