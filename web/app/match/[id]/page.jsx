@@ -115,18 +115,20 @@ export default function MatchPage({ params }) {
         </header>
 
         <section className="panel">
-          <h2>Comment on arrive à ce pronostic</h2>
+          <h2>Ce que dit notre modèle</h2>
           <p className="lede">Chaque facteur est exprimé en points d’avance au score pour l’une des deux équipes.</p>
           <div className="factors">
             <div className="factor-head"><span /><span className="fh-teams"><span>{g.away.abbr}</span><span>{g.home.abbr}</span></span><span /></div>
             {rows.map(([l, v]) => <FactorRow key={l} label={l} pts={v} g={g} scale={scale} />)}
             <FactorRow label="Modèle maison" pts={model} g={g} scale={scale} strong />
-            {market != null && <FactorRow label="Bookmakers" pts={market} g={g} scale={scale} strong />}
-            <FactorRow label={market != null ? 'Pronostic final' : 'Pronostic final (sans ligne)'} pts={final} g={g} scale={scale} strong />
+            {market != null
+              ? <FactorRow label="Bookmakers (pronostic retenu)" pts={market} g={g} scale={scale} strong />
+              : <FactorRow label="Pronostic retenu" pts={final} g={g} scale={scale} strong />}
           </div>
           <p className="fine">
-            Le pronostic final combine les bookmakers (deux tiers), qui intègrent des informations de dernière minute,
-            et notre modèle (un tiers), qui apporte une lecture indépendante. Spread final : {spreadLabel(g.predicted_spread, g.home, g.away)},
+            La probabilité affichée vient des cotes des bookmakers, marge retirée : testées sur 3 900 matchs depuis 2012,
+            elles sont plus fiables que notre modèle et que tout mélange des deux. Notre modèle sert de second avis :
+            quand il contredit les cotes, c’est un signal de prudence. Spread retenu : {spreadLabel(g.predicted_spread, g.home, g.away)},
             total : {g.vegas_total != null ? num(g.vegas_total) : '—'}.
           </p>
         </section>
