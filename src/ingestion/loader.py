@@ -23,7 +23,7 @@ def load_schedules(seasons: list[int]) -> pd.DataFrame:
 def load_teams() -> pd.DataFrame:
     df = nfl.load_teams().to_pandas()
     df = df[~df["team_abbr"].isin(TEAM_ALIASES.keys())]
-    return df[["team_abbr", "team_name", "team_nick", "team_conf", "team_division", "team_color", "team_logo_espn"]]
+    return df[["team_abbr", "team_name", "team_nick", "team_conf", "team_division", "team_color", "team_color2", "team_logo_espn"]]
 
 
 def load_player_stats(season: int) -> pd.DataFrame:
@@ -48,3 +48,34 @@ def load_pbp(seasons: list[int]) -> pd.DataFrame:
             "rusher_player_id", "receiver_player_id", "passer_player_id", "qb_dropback", "qb_epa"]
     df = nfl.load_pbp(seasons).to_pandas()[cols]
     return _normalize(df, ["posteam", "defteam"])
+
+
+STATUS_ORDER = {"Out": 0, "Doubtful": 1, "Questionable": 2}
+INJURY_FR = {"knee": "genou", "hamstring": "ischio-jambiers", "ankle": "cheville", "shoulder": "épaule", "hip": "hanche",
+             "groin": "aine", "foot": "pied", "concussion": "commotion", "calf": "mollet", "quadricep": "quadriceps",
+             "quadriceps": "quadriceps", "back": "dos", "illness": "maladie", "hand": "main", "wrist": "poignet",
+             "elbow": "coude", "chest": "thorax", "ribs": "côtes", "neck": "cou", "toe": "orteil", "achilles": "tendon d’Achille",
+             "thigh": "cuisse", "personal matter": "raisons personnelles", "not injury related": "hors blessure",
+             "abdomen": "abdomen", "oblique": "oblique", "finger": "doigt", "thumb": "pouce", "pectoral": "pectoral",
+             "heel": "talon", "shin": "tibia", "head": "tête", "face": "visage", "eye": "œil", "glute": "fessier"}
+POS_ORDER = {"QB": 0, "RB": 1, "WR": 2, "TE": 3, "T": 4, "G": 5, "C": 5, "DE": 6, "DT": 6, "LB": 7, "CB": 7, "S": 8}
+
+
+def load_injury_details(season: int, week: int) -> dict:
+    """{équipe: [{name, position, status, injury}]} pour la semaine, les plus importants d'abord."""
+    try:
+        df = nfl.load_injuries([season]).to_pandas()
+    except Exception as e:
+        logger.warning("Rapport de blessures indisponible : %s", e)
+        return {}
+    df = df[(df["week"] == week) & df["report_status"].isin(STATUS_ORDER.keys())].copy()
+    df["team"] = df["team"].replace(TEAM_ALIASES)
+    df["_s"] = df["report_status"].map(STATUS_ORDER)
+    df["_p"] = df["position"].map(POS_ORDER).fillna(9)
+    out = {}
+    for team, grp in df.sort_values(["_s", "_p"]).groupby("team"):
+        out[team] = [{"name": r.full_name, "position": r.position, "status": r.report_status,
+                      "injury": INJURY_FR.get(r.report_primary_injury.lower(), r.report_primary_injury.lower())
+                      if isinstance(r.report_primary_injury, str) else None}
+                     for r in grp.itertuples()]
+    return out
