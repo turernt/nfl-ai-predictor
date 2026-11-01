@@ -29,6 +29,14 @@ function GameCard({ g }) {
         <span>{date ? `${fmtDay(date)}, ${fmtHour(date)}` : 'Date à confirmer'}</span>
         <span className={`conf conf-${g.confidence_score}`}>Confiance {g.confidence_score.toLowerCase()}</span>
       </header>
+      {g.flags && (g.flags.value || g.flags.key_out > 0 || g.flags.windy || g.weather?.temp_c != null) && (
+        <div className="flags">
+          {g.flags.value && <span className="flag v">Cote française au-dessus du juste prix</span>}
+          {g.flags.key_out > 0 && <span className="flag i">{g.flags.key_out} titulaire{g.flags.key_out > 1 ? 's' : ''} offensif{g.flags.key_out > 1 ? 's' : ''} absent{g.flags.key_out > 1 ? 's' : ''}</span>}
+          {g.flags.windy && <span className="flag w">Vent fort</span>}
+          {!g.flags.windy && g.weather?.temp_c != null && <span className="flag">{g.weather.temp_c}&nbsp;°C, vent {g.weather.wind_kmh}&nbsp;km/h</span>}
+        </div>
+      )}
       <div className="matchup">
         <div className="col-labels"><span>Score</span><span>Victoire</span></div>
         <TeamRow team={g.away} prob={g.prob_away_win} score={proj.away} favored={!homeFav} />
@@ -36,7 +44,7 @@ function GameCard({ g }) {
       </div>
       <ProbBar g={g} />
       <dl className="lines">
-        <div><dt>Bookmakers</dt><dd>{spreadLabel(g.vegas_spread, g.home, g.away)}</dd></div>
+        <div><dt>Bookmakers{g.odds ? ` (${g.odds.n_books})` : ''}</dt><dd>{spreadLabel(g.vegas_spread, g.home, g.away)}</dd></div>
         <div><dt>Modèle maison</dt><dd>{spreadLabel(g.model_spread, g.home, g.away)}</dd></div>
         <div><dt>Total</dt><dd>{g.vegas_total != null ? num(g.vegas_total) : '—'}</dd></div>
       </dl>
