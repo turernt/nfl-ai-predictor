@@ -269,3 +269,81 @@ h1, h2, .brand, .team-name, .score, .win, .big-prob, .elo b, .recap-big, .sb-nam
   .pk-side { grid-column: 2; flex-direction: row; align-items: baseline; gap: 0.75rem; justify-content: flex-start; }
   .pk-prob { font-size: 1.6rem; }
 }
+
+/* Couleurs d’équipe lisibles en mode sombre */
+.tc { background: var(--team); }
+.tcs polyline { stroke: var(--team); }
+.tcs circle { fill: var(--team); }
+@media (prefers-color-scheme: dark) {
+  .tc { background: var(--team-dark); }
+  .tcs polyline { stroke: var(--team-dark); }
+  .tcs circle { fill: var(--team-dark); }
+}
+
+/* Cotes */
+.src { font-size: 0.85rem; color: var(--muted); margin-top: 0.4rem; }
+.table-scroll { overflow-x: auto; }
+.compare.odds td.val { color: var(--accent); font-weight: 600; }
+.compare.odds .badge { margin-left: 0.4rem; }
+
+/* Course aux playoffs */
+.sim { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; min-width: 46rem; }
+.sim th, .sim td { padding: 0.45rem 0.4rem; border-bottom: 1px solid var(--line); text-align: center; font-size: 0.92rem; }
+.sim thead th { font-size: 0.75rem; font-weight: 500; color: var(--muted); }
+.sim .t-left { text-align: left; }
+.sim tbody th { font-weight: 500; }
+.sim tr.cut td, .sim tr.cut th { border-bottom: 2px solid var(--ink); }
+.team-cell { display: flex; align-items: center; gap: 0.5rem; white-space: nowrap; }
+.team-cell .team-sub { margin-left: 0.2rem; }
+.heat { position: relative; }
+.heat::before { content: ""; position: absolute; inset: 3px 2px; border-radius: 3px; background: var(--accent); opacity: calc(var(--h) / 100% * 0.35); }
+.heat span { position: relative; }
+.heat.strong span { font-weight: 600; }
+.muted { color: var(--muted); }
+.sb-favs { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr)); gap: 0.25rem 1.5rem; margin-top: 0.75rem; }
+.sb-favs li { display: grid; grid-template-columns: 36px 1fr auto; grid-template-rows: auto auto; column-gap: 0.6rem; align-items: center; padding: 0.5rem 0; border-top: 1px solid var(--line); }
+.sb-favs li .logo { grid-row: span 2; }
+.sb-fav-name { display: flex; flex-direction: column; font-weight: 600; grid-row: span 2; }
+.sb-favs b { font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif; font-size: 1.5rem; color: var(--accent); text-align: right; }
+.sb-favs li > .team-sub:last-child { grid-column: 3; text-align: right; }
+.stat-big.pos { color: var(--accent); }
+.stat-big.neg { color: var(--down); }
+.move { margin-top: 0.4rem; font-size: 0.85rem; color: var(--muted); text-align: center; }
+
+/* Pages équipe */
+.team-head { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 1rem; margin-bottom: 1.25rem; }
+.team-head h1 { font-weight: 700; font-size: clamp(1.8rem, 5vw, 2.6rem); line-height: 1; }
+.team-head .team-sub { font-size: 0.9rem; margin-top: 0.3rem; }
+.sched { list-style: none; }
+.sched li { display: grid; grid-template-columns: 2.5rem 1fr auto; align-items: center; gap: 0.75rem; padding: 0.5rem 0; border-top: 1px solid var(--line); }
+.sched .wk { color: var(--muted); font-variant-numeric: tabular-nums; }
+.sched .opp { display: flex; align-items: center; gap: 0.45rem; }
+.sched .opp a, .elo-name a, .team-cell a, a.sb-name { text-decoration: none; }
+.sched .opp a:hover, .elo-name a:hover, .team-cell a:hover, a.sb-name:hover { text-decoration: underline; }
+.sched .res { display: flex; align-items: center; gap: 0.6rem; font-variant-numeric: tabular-nums; }
+.sched li.w .res b { color: var(--accent); }
+.sched li.l .res b { color: var(--down); }
+.meter.wide { width: 5rem; }
+@media (max-width: 40rem) { .team-head { grid-template-columns: auto 1fr; } .team-head .spark { display: none; } }
+
+/* Avant-match, bandeau, mentions */
+.stale { background: var(--warn); color: #fff; text-align: center; font-size: 0.88rem; padding: 0.45rem 1rem; }
+.wx { margin-top: 0.4rem; margin-bottom: 1rem; }
+.wx .warn { color: var(--warn); }
+.inj { list-style: none; }
+.inj li { display: flex; align-items: baseline; gap: 0.6rem; padding: 0.3rem 0; border-top: 1px solid var(--line); font-size: 0.92rem; }
+.st { flex: none; font-size: 0.72rem; font-weight: 600; padding: 0.05rem 0.45rem; border-radius: 999px; background: var(--bg); color: var(--muted); min-width: 4.6rem; text-align: center; }
+.st-Out { background: var(--down-soft); color: var(--down); }
+.st-Doubtful { background: var(--down-soft); color: var(--warn); }
+.round + .round { margin-top: 1rem; }
+.legal h1 { font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif; font-weight: 700; font-size: 2.4rem; margin-bottom: 1rem; }
+.legal h2 { font-size: 1.3rem; margin: 1.5rem 0 0.4rem; }
+.legal p { color: var(--muted); max-width: 46rem; margin-bottom: 0.6rem; }
+.legal a, .footer a { color: var(--accent); }
+
+/* Badges des cartes */
+.flags { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: -0.35rem; }
+.flag { font-size: 0.74rem; padding: 0.12rem 0.5rem; border-radius: 999px; background: var(--bg); color: var(--muted); }
+.flag.v { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+.flag.i { background: var(--down-soft); color: var(--down); }
+.flag.w { background: var(--down-soft); color: var(--warn); }
