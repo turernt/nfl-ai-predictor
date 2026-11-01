@@ -15,7 +15,43 @@ logger = logging.getLogger(__name__)
 
 DEFAULT_TOTAL = 44.0     # total de points moyen en NFL, utilisé sans ligne des bookmakers
 ELO_WEIGHT = 0.5         # modèle maison = 50 % Elo + 50 % EPA, puis QB et repos
-MARKET_WEIGHT = 2 / 3    # prédiction finale = 2/3 marché + 1/3 modèle maison
+# Étude 2023-2026 (899 matchs) : les cotes du marché prédisent mieux que le modèle maison et que
+# tout mélange des deux (Brier 0,213 contre 0,215 pour 2/3-1/3). La probabilité affichée est donc
+# celle des cotes (marge du bookmaker retirée) ; le modèle maison sert de second avis.
+MARKET_WEIGHT = 1.0
+TIERS = [(0.8, "Très sûr"), (0.7, "Sûr"), (0.6, "Probable"), (0.5, "Serré")]
+
+
+def no_vig_prob(home_ml, away_ml) -> float | None:
+    """Probabilité de victoire à domicile tirée des cotes américaines, marge retirée."""
+    if pd.isna(home_ml) or pd.isna(away_ml):
+        return None
+    imp = lambda o: 100 / (o + 100) if o > 0 else -o / (-o + 100)
+    ph, pa = imp(home_ml), imp(away_ml)
+    return ph / (ph + pa)
+
+
+def tier_of(p: float) -> str:
+    return next(name for th, name in TIERS if p >= th)
+
+
+def market_reliability(sched: pd.DataFrame) -> list[dict]:
+    """Taux de victoire réel du favori des cotes, par palier de probabilité (depuis 2012)."""
+    g = sched[(sched.season >= 2012)].dropna(subset=["home_score", "home_moneyline", "away_moneyline"])
+    g = g[g.home_score != g.away_score]
+    rows = []
+    for x in g.itertuples():
+        p = no_vig_prob(x.home_moneyline, x.away_moneyline)
+        fav = max(p, 1 - p)
+        rows.append((tier_of(fav), fav, (p >= 0.5) == (x.home_score > x.away_score)))
+    df = pd.DataFrame(rows, columns=["tier", "p", "win"])
+    out = []
+    for th, name in TIERS:
+        d = df[df.tier == name]
+        out.append({"tier": name, "min": th, "games": len(d),
+                    "predicted": round(d.p.mean() * 100, 1) if len(d) else None,
+                    "actual": round(d.win.mean() * 100, 1) if len(d) else None})
+    return out
 
 
 def current_season(now: datetime | None = None) -> int:
@@ -31,8 +67,10 @@ def _commentary(fav: str, prob: float, home_is_fav: bool, neutral: bool, model_s
                 vegas: float | None, qb_notes: list[str]) -> str:
     venue = "" if neutral else (", à domicile" if home_is_fav else ", à l’extérieur")
     text = f"Avantage {fav} ({prob:.0f}\u00a0%){venue}."
-    if vegas is not None and abs(model_spread - vegas) >= 3:
-        text += f" Le modèle maison ({_fr(model_spread)}) s’écarte nettement des bookmakers ({_fr(vegas)})."
+    if vegas is not None and (model_spread < 0) != (vegas < 0) and abs(model_spread - vegas) >= 1.5:
+        text += " Notre modèle maison voit plutôt l’autre équipe gagner : signal de prudence."
+    elif vegas is not None and abs(model_spread - vegas) >= 3:
+        text += f" Le modèle maison ({_fr(model_spread)}) s’écarte des bookmakers ({_fr(vegas)})."
     for note in qb_notes:
         text += " " + note
     return text
@@ -59,7 +97,9 @@ def predict_game(g, elo: dict, ctx: Context, team_info, with_injuries: bool) -> 
     model_spread = -(ELO_WEIGHT * elo_m + (1 - ELO_WEIGHT) * epa_m + qb_h - qb_a + rest_m)
     vegas = None if pd.isna(g.spread_line) else -float(g.spread_line)
     spread = MARKET_WEIGHT * vegas + (1 - MARKET_WEIGHT) * model_spread if vegas is not None else model_spread
-    p_home = win_prob(spread) * 100
+    p_ml = no_vig_prob(g.home_moneyline, g.away_moneyline)
+    p_home = (p_ml if p_ml is not None else win_prob(spread)) * 100
+    source = "cotes" if p_ml is not None else ("spread" if vegas is not None else "modèle")
 
     total = DEFAULT_TOTAL if pd.isna(g.total_line) else float(g.total_line)
     home_pts, away_pts = total / 2 - spread / 2, total / 2 + spread / 2
@@ -80,6 +120,7 @@ def predict_game(g, elo: dict, ctx: Context, team_info, with_injuries: bool) -> 
         "vegas_spread": vegas, "vegas_total": None if pd.isna(g.total_line) else float(g.total_line),
         "projected_score": {"home": round(home_pts), "away": round(away_pts)},
         "confidence_score": confidence_label(p_home),
+        "tier": tier_of(max(p_home, 100 - p_home) / 100), "prob_source": source,
         "factors": {
             "elo": round(elo_m, 1), "epa": round(epa_m, 1),
             "qb": {"home": round(qb_h, 1), "away": round(qb_a, 1),
@@ -88,7 +129,7 @@ def predict_game(g, elo: dict, ctx: Context, team_info, with_injuries: bool) -> 
             "rest": {"pts": round(rest_m, 1),
                      "home_days": None if pd.isna(g.home_rest) else int(g.home_rest),
                      "away_days": None if pd.isna(g.away_rest) else int(g.away_rest)},
-            "market_weight": round(MARKET_WEIGHT if vegas is not None else 0, 2),
+            "market_weight": 1.0 if vegas is not None else 0.0,
         },
         "scorers": sorted(scorers, key=lambda x: x["prob"], reverse=True),
         "commentary": _commentary((home if home_fav else away)["nick"], max(p_home, 100 - p_home),
@@ -172,6 +213,9 @@ def run_pipeline() -> dict:
                 "model_correct": None if tie else (pr["model_prob_home"] >= 50) == home_won,
                 "market_correct": None if tie or pr["vegas_spread"] in (None, 0) else (pr["vegas_spread"] < 0) == home_won,
                 "brier": None if tie else round((pr["prob_home_win"] / 100 - home_won) ** 2, 4),
+                "ats_edge": None if pr["vegas_spread"] is None else round(pr["model_spread"] - pr["vegas_spread"], 1),
+                "ats_cover": None if pr["vegas_spread"] is None or (g.home_score - g.away_score) + pr["vegas_spread"] == 0
+                             else bool((g.home_score - g.away_score) + pr["vegas_spread"] > 0),
                 "model_brier": None if tie else round((pr["model_prob_home"] / 100 - home_won) ** 2, 4),
                 "scorers": [{"name": s["name"], "team": s["team"], "prob": s["prob"], "scored": s["scored"]}
                             for s in pr["scorers"][:3]],
@@ -198,6 +242,17 @@ def run_pipeline() -> dict:
         "weeks": [{"week": w, "games": len([b for b in decided if b["week"] == w]),
                    "correct": sum(b["correct"] for b in decided if b["week"] == w)} for w in weeks],
     }
+    # Paris contre l'écart : quand le modèle diffère du marché d'au moins 3 points, a-t-il raison ?
+    ats = [b for b in backtest if b["ats_edge"] is not None and abs(b["ats_edge"]) >= 3 and b["ats_cover"] is not None]
+    # edge < 0 => le modèle est plus favorable au domicile que le marché => pari sur le domicile
+    summary["ats_games"] = len(ats)
+    summary["ats_correct"] = sum((b["ats_edge"] < 0) == b["ats_cover"] for b in ats)
+    # Fiabilité des buteurs par palier de probabilité
+    buckets = [(50, 101, "50 % et plus"), (40, 50, "40 à 50 %"), (30, 40, "30 à 40 %"), (0, 30, "moins de 30 %")]
+    summary["scorer_tiers"] = [{
+        "label": lab, "min": lo, "n": len(sel := [h for p, h in sc_all if lo <= p < hi]),
+        "predicted": round(sum(p for p, _ in sc_all if lo <= p < hi) / len(sel), 1) if sel else None,
+        "actual": round(sum(sel) / len(sel) * 100, 1) if sel else None} for lo, hi, lab in buckets]
     for b in backtest:
         b.pop("all_scorers")
 
@@ -211,6 +266,34 @@ def run_pipeline() -> dict:
                                opponent=pr["home"]["abbr"] if sc["team"] == pr["away"]["abbr"] else pr["away"]["abbr"])
                           for pr in predictions for sc in pr["scorers"]),
                          key=lambda x: x["prob"], reverse=True)[:12]
+
+    reliability = market_reliability(sched)
+    rel = {r["tier"]: r for r in reliability}
+    sc_rel = summary["scorer_tiers"]
+    def sc_tier(p):
+        return next((t for t in sc_rel if p >= t["min"]), sc_rel[-1])
+    picks_win = []
+    for pr in predictions:
+        home_fav = pr["prob_home_win"] >= 50
+        p = max(pr["prob_home_win"], pr["prob_away_win"])
+        fav, opp = (pr["home"], pr["away"]) if home_fav else (pr["away"], pr["home"])
+        model_fav_home = pr["model_spread"] < 0
+        picks_win.append({
+            "game_id": pr["game_id"], "gameday": pr["gameday"], "gametime": pr["gametime"],
+            "team": fav, "opponent": opp, "home": home_fav, "prob": p, "tier": pr["tier"],
+            "fair_odds": round(100 / p, 2), "hist": rel.get(pr["tier"]),
+            "model_agrees": model_fav_home == home_fav,
+            "model_prob": pr["model_prob_home"] if home_fav else round(100 - pr["model_prob_home"], 1),
+        })
+    picks_win.sort(key=lambda x: x["prob"], reverse=True)
+    picks_scorers = [dict(sc, fair_odds=round(100 / sc["prob"], 2), hist=sc_tier(sc["prob"]))
+                     for sc in top_scorers if sc["prob"] >= 40]
+    picks = {
+        "safest": [x for x in picks_win if x["prob"] >= 70],
+        "coin_flips": [x for x in picks_win if x["prob"] < 57],
+        "scorers": picks_scorers,
+        "reliability": reliability,
+    }
 
     weeks_hist = sorted(snapshots)
     ranking = []
@@ -230,11 +313,12 @@ def run_pipeline() -> dict:
                           "accuracy": round(summary["correct"] / summary["games"] * 100, 1) if summary["games"] else None},
         "bilan": {"summary": summary, "games": backtest},
         "predictions": predictions,
+        "picks": picks,
         "top_scorers": top_scorers,
         "ranking": ranking,
     }
 
-    (DATA_DIR / "predictions.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2))
+    (DATA_DIR / "predictions.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2, default=lambda o: o.item() if hasattr(o, "item") else str(o)))
     pd.DataFrame(ranking)[["abbr", "name", "elo"]].to_csv(DATA_DIR / "team_elos.csv", index=False)
     cur_sched.to_csv(DATA_DIR / "schedules.csv", index=False)
     WEB_DATA_DIR.mkdir(parents=True, exist_ok=True)
