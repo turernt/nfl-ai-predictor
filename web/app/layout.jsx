@@ -1,21 +1,22 @@
+import '@fontsource/barlow/400.css';
+import '@fontsource/barlow/500.css';
+import '@fontsource/barlow-condensed/600.css';
+import '@fontsource/barlow-condensed/700.css';
 import './globals.css';
 
 export const metadata = {
-  title: 'Gridiron Analytics — prédictions NFL',
-  description: 'Probabilités de victoire et spreads NFL calculés chaque semaine par un modèle Elo.',
+  metadataBase: new URL(process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : 'http://localhost:3000'),
+  title: { default: 'Arthur Analytics, prédictions NFL', template: '%s | Arthur Analytics' },
+  description: 'Probabilités de victoire, scores projetés et buteurs probables pour chaque match NFL, recalculés chaque semaine.',
+  openGraph: { siteName: 'Arthur Analytics', locale: 'fr_FR', type: 'website' },
 };
+
+export const viewport = { themeColor: '#0f1b2d' };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500&display=swap"
-          rel="stylesheet"
-        />
-      </head>
       <body>{children}</body>
     </html>
   );

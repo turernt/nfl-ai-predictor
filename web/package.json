@@ -1,1 +1,16 @@
-{"name":"nfl-ai-predictor-web","private":true,"scripts":{"dev":"next dev","build":"next build","start":"next start"},"dependencies":{"next":"14.2.15","react":"18.3.1","react-dom":"18.3.1"}}
+{
+  "name": "nfl-ai-predictor-web",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.15",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "@fontsource/barlow": "5.1.0",
+    "@fontsource/barlow-condensed": "5.1.0"
+  }
+}

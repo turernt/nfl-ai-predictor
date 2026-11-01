@@ -5,14 +5,17 @@ from datetime import datetime, timezone
 
 import pandas as pd
 
-from src.config import DATA_DIR, WEB_DATA_DIR, FIRST_SEASON, HFA
-from src.ingestion.loader import load_schedules, load_teams, load_player_stats, load_injury_report
+from src.config import DATA_DIR, WEB_DATA_DIR, FIRST_SEASON, HFA, ELO_PER_POINT
+from src.ingestion.loader import (load_schedules, load_teams, load_player_stats, load_injury_report, load_pbp)
 from src.models.elo_engine import NFLEloModel, confidence_label
-from src.models.scorers import build_player_table, team_td_rates, likely_scorers
-
-DEFAULT_TOTAL = 44.0  # total de points moyen en NFL, utilisé sans ligne des bookmakers
+from src.models.ratings import (epa_ratings, epa_margin, qb_table, qb_adjustment, rest_adjustment, win_prob)
+from src.models.scorers import build_player_table, team_td_rates, likely_scorers, red_zone_opps
 
 logger = logging.getLogger(__name__)
+
+DEFAULT_TOTAL = 44.0     # total de points moyen en NFL, utilisé sans ligne des bookmakers
+ELO_WEIGHT = 0.5         # modèle maison = 50 % Elo + 50 % EPA, puis QB et repos
+MARKET_WEIGHT = 2 / 3    # prédiction finale = 2/3 marché + 1/3 modèle maison
 
 
 def current_season(now: datetime | None = None) -> int:
@@ -24,127 +27,208 @@ def _fr(x: float) -> str:
     return f"{x:+.1f}".replace("-", "−").replace(".", ",")
 
 
-def _commentary(fav: str, dog: str, prob: float, model_spread: float, vegas_spread: float | None,
-                vegas_fav: str | None, home_is_fav: bool, neutral: bool) -> str:
+def _commentary(fav: str, prob: float, home_is_fav: bool, neutral: bool, model_spread: float,
+                vegas: float | None, qb_notes: list[str]) -> str:
     venue = "" if neutral else (", à domicile" if home_is_fav else ", à l’extérieur")
     text = f"Avantage {fav} ({prob:.0f}\u00a0%){venue}."
-    if vegas_spread is not None and vegas_spread != 0 and (vegas_spread < 0) != (model_spread < 0):
-        text += f" Les bookmakers voient plutôt {vegas_fav} gagner : lecture opposée à surveiller."
-    elif vegas_spread is not None and abs(model_spread - vegas_spread) >= 3:
-        side = "plus large" if abs(model_spread) > abs(vegas_spread) else "plus serré"
-        text += f" Le modèle annonce un écart {side} que les bookmakers ({_fr(vegas_spread)})."
-    elif prob < 58:
-        text += f" Match très ouvert face à {dog}."
+    if vegas is not None and abs(model_spread - vegas) >= 3:
+        text += f" Le modèle maison ({_fr(model_spread)}) s’écarte nettement des bookmakers ({_fr(vegas)})."
+    for note in qb_notes:
+        text += " " + note
     return text
+
+
+class Context:
+    """Tout ce qui est connu avant une semaine donnée."""
+
+    def __init__(self, pbp, stats, sched, season, week, injuries=None):
+        self.epa = epa_ratings(pbp, season, week)
+        self.qbs, self.qb_base, self.qb_repl = qb_table(pbp, season, week)
+        self.players = build_player_table(stats, week, red_zone_opps(pbp, season, week))
+        self.rates = team_td_rates(stats, sched, season, week)
+        self.injuries = injuries or {}
+
+
+def predict_game(g, elo: dict, ctx: Context, team_info, with_injuries: bool) -> dict:
+    neutral = g.location == "Neutral"
+    elo_m = (elo.get(g.home_team, 1505) + (0 if neutral else HFA) - elo.get(g.away_team, 1505)) / ELO_PER_POINT
+    epa_m = epa_margin(ctx.epa, g.home_team, g.away_team, neutral)
+    qb_h = qb_adjustment(ctx.qbs, ctx.qb_base, ctx.qb_repl, g.home_team, g.home_qb_id)
+    qb_a = qb_adjustment(ctx.qbs, ctx.qb_base, ctx.qb_repl, g.away_team, g.away_qb_id)
+    rest_m = rest_adjustment(g.home_rest, g.away_rest)
+    model_spread = -(ELO_WEIGHT * elo_m + (1 - ELO_WEIGHT) * epa_m + qb_h - qb_a + rest_m)
+    vegas = None if pd.isna(g.spread_line) else -float(g.spread_line)
+    spread = MARKET_WEIGHT * vegas + (1 - MARKET_WEIGHT) * model_spread if vegas is not None else model_spread
+    p_home = win_prob(spread) * 100
+
+    total = DEFAULT_TOTAL if pd.isna(g.total_line) else float(g.total_line)
+    home_pts, away_pts = total / 2 - spread / 2, total / 2 + spread / 2
+    inj = ctx.injuries if with_injuries else {}
+    scorers = (likely_scorers(ctx.players, ctx.rates, g.away_team, away_pts, inj)
+               + likely_scorers(ctx.players, ctx.rates, g.home_team, home_pts, inj))
+    home, away = team_info(g.home_team), team_info(g.away_team)
+    home_fav = p_home >= 50
+    qb_notes = [f"QB annoncé chez les {t['nick']} ({name}) : {_fr(v)} pt par rapport à leur niveau habituel."
+                for t, name, v in ((home, g.home_qb_name, qb_h), (away, g.away_qb_name, qb_a)) if abs(v) >= 2]
+    return {
+        "game_id": g.game_id, "week": int(g.week), "game_type": g.game_type,
+        "gameday": g.gameday, "gametime": g.gametime, "neutral_site": neutral,
+        "home": home, "away": away,
+        "prob_home_win": round(p_home, 1), "prob_away_win": round(100 - p_home, 1),
+        "predicted_spread": round(spread, 1), "model_spread": round(model_spread, 1),
+        "model_prob_home": round(win_prob(model_spread) * 100, 1),
+        "vegas_spread": vegas, "vegas_total": None if pd.isna(g.total_line) else float(g.total_line),
+        "projected_score": {"home": round(home_pts), "away": round(away_pts)},
+        "confidence_score": confidence_label(p_home),
+        "factors": {
+            "elo": round(elo_m, 1), "epa": round(epa_m, 1),
+            "qb": {"home": round(qb_h, 1), "away": round(qb_a, 1),
+                   "home_name": g.home_qb_name if isinstance(g.home_qb_name, str) else None,
+                   "away_name": g.away_qb_name if isinstance(g.away_qb_name, str) else None},
+            "rest": {"pts": round(rest_m, 1),
+                     "home_days": None if pd.isna(g.home_rest) else int(g.home_rest),
+                     "away_days": None if pd.isna(g.away_rest) else int(g.away_rest)},
+            "market_weight": round(MARKET_WEIGHT if vegas is not None else 0, 2),
+        },
+        "scorers": sorted(scorers, key=lambda x: x["prob"], reverse=True),
+        "commentary": _commentary((home if home_fav else away)["nick"], max(p_home, 100 - p_home),
+                                  home_fav, neutral, model_spread, vegas, qb_notes),
+    }
 
 
 def run_pipeline() -> dict:
     DATA_DIR.mkdir(exist_ok=True)
     season = current_season()
-    seasons = list(range(FIRST_SEASON, season + 1))
-    sched = load_schedules(seasons)
+    sched = load_schedules(list(range(FIRST_SEASON, season + 1)))
     teams = load_teams().set_index("team_abbr")
+    pbp = load_pbp([season - 1, season])
+    stats = load_player_stats(season)
 
+    cur_sched = sched[sched.season == season]
+    upcoming = cur_sched[cur_sched.home_score.isna()]
+    week = int(upcoming.week.min()) if not upcoming.empty else int(cur_sched.week.max()) + 1
+
+    # --- Elo, avec un instantané avant chaque semaine de la saison en cours
     model = NFLEloModel()
-    hits, games_scored = 0, 0
-    last_season = None
-
+    snapshots, last_season = {}, None
     played = sched.dropna(subset=["home_score", "away_score"])
     for g in played.itertuples():
         if g.season != last_season:
             if last_season is not None:
                 model.new_season()
             last_season = g.season
-        neutral = g.location == "Neutral"
-        if g.season == season and g.home_score != g.away_score:
-            p = model.predict(g.home_team, g.away_team, neutral)["prob_home_win"]
-            games_scored += 1
-            hits += (p >= 50) == (g.home_score > g.away_score)
-        model.update(g.home_team, g.away_team, g.home_score, g.away_score, neutral)
-
+        if g.season == season and g.week not in snapshots:
+            snapshots[g.week] = dict(model.ratings)
+        model.update(g.home_team, g.away_team, g.home_score, g.away_score, g.location == "Neutral")
     if last_season is not None and last_season < season:
-        model.new_season()  # intersaison : on applique la régression avant la semaine 1
+        model.new_season()
+    snapshots.setdefault(week, dict(model.ratings))
+    elo_now = dict(model.ratings)
 
-    cur = played[played.season == season]
     record = {}
-    for g in cur.itertuples():
+    for g in played[played.season == season].itertuples():
         for t, us, them in ((g.home_team, g.home_score, g.away_score), (g.away_team, g.away_score, g.home_score)):
             w, l, d = record.get(t, (0, 0, 0))
             record[t] = (w + (us > them), l + (us < them), d + (us == them))
 
-    def team_info(abbr: str) -> dict:
-        row = teams.loc[abbr] if abbr in teams.index else None
-        return {
-            "abbr": abbr,
-            "name": row["team_name"] if row is not None else abbr,
-            "nick": row["team_nick"] if row is not None else abbr,
-            "color": row["team_color"] if row is not None else "#444444",
-            "logo": row["team_logo_espn"] if row is not None else None,
-            "elo": round(model.get(abbr), 1),
-            "record": "-".join(str(x) for x in record.get(abbr, (0, 0, 0))[:2])
-                      + (f"-{record[abbr][2]}" if record.get(abbr, (0, 0, 0))[2] else ""),
-        }
+    def make_team_info(epa: pd.DataFrame):
+        def team_info(abbr: str) -> dict:
+            row = teams.loc[abbr] if abbr in teams.index else None
+            w, l, d = record.get(abbr, (0, 0, 0))
+            return {
+                "abbr": abbr,
+                "name": row["team_name"] if row is not None else abbr,
+                "nick": row["team_nick"] if row is not None else abbr,
+                "color": row["team_color"] if row is not None else "#444444",
+                "logo": row["team_logo_espn"] if row is not None else None,
+                "elo": round(elo_now.get(abbr, 1505), 1),
+                "record": f"{w}-{l}" + (f"-{d}" if d else ""),
+                "off_rank": int(epa.at[abbr, "off_rank"]) if abbr in epa.index else None,
+                "def_rank": int(epa.at[abbr, "def_rank"]) if abbr in epa.index else None,
+            }
+        return team_info
 
-    upcoming = sched[(sched.season == season) & sched.home_score.isna()]
-    week = int(upcoming.week.min()) if not upcoming.empty else None
-    predictions = []
-    if week is not None:
-        try:
-            stats = load_player_stats(season)
-            players = build_player_table(stats, week)
-            rates = team_td_rates(stats, sched, season, week)
-            injuries = load_injury_report(season, week)
-        except Exception as e:
-            logger.warning("Buteurs probables indisponibles : %s", e)
-            players, rates, injuries = pd.DataFrame(), pd.DataFrame(), {}
-        for g in upcoming[upcoming.week == week].itertuples():
-            neutral = g.location == "Neutral"
-            pred = model.predict(g.home_team, g.away_team, neutral)
-            vegas = None if pd.isna(g.spread_line) else -float(g.spread_line)
-            home, away = team_info(g.home_team), team_info(g.away_team)
-            home_fav = pred["prob_home_win"] >= 50
-            fav, dog = (home, away) if home_fav else (away, home)
-            total = DEFAULT_TOTAL if pd.isna(g.total_line) else float(g.total_line)
-            home_pts = total / 2 - pred["predicted_spread"] / 2
-            away_pts = total - home_pts
-            scorers = (likely_scorers(players, rates, g.away_team, away_pts, injuries)
-                       + likely_scorers(players, rates, g.home_team, home_pts, injuries))
-            predictions.append({
-                "game_id": g.game_id,
-                "week": week,
-                "game_type": g.game_type,
-                "gameday": g.gameday,
-                "gametime": g.gametime,
-                "neutral_site": neutral,
-                "home": home,
-                "away": away,
-                **pred,
-                "vegas_spread": vegas,
-                "vegas_total": None if pd.isna(g.total_line) else float(g.total_line),
-                "projected_score": {"home": round(home_pts), "away": round(away_pts)},
-                "scorers": sorted(scorers, key=lambda x: x["prob"], reverse=True),
-                "confidence_score": confidence_label(pred["prob_home_win"]),
-                "commentary": _commentary(fav["nick"], dog["nick"], max(pred["prob_home_win"], pred["prob_away_win"]),
-                                          pred["predicted_spread"], vegas,
-                                          None if vegas is None else (home["nick"] if vegas < 0 else away["nick"]),
-                                          home_fav, neutral),
+    # --- Bilan : chaque semaine passée, prédite avec les seules infos disponibles avant
+    backtest = []
+    for wk in sorted(w for w in cur_sched.week.unique() if w < week):
+        ctx = Context(pbp, stats, sched, season, wk)
+        info = make_team_info(ctx.epa)
+        actual_td = stats[(stats.week == wk)].assign(
+            t=lambda d: d["rushing_tds"].fillna(0) + d["receiving_tds"].fillna(0)).set_index("player_id")["t"]
+        for g in played[(played.season == season) & (played.week == wk)].itertuples():
+            pr = predict_game(g, snapshots[wk], ctx, info, with_injuries=False)
+            home_won = g.home_score > g.away_score
+            tie = g.home_score == g.away_score
+            for sc in pr["scorers"]:
+                sc["scored"] = bool(actual_td.get(sc["player_id"], 0) > 0)
+            backtest.append({
+                "game_id": pr["game_id"], "week": int(wk), "home": pr["home"]["abbr"], "away": pr["away"]["abbr"],
+                "home_nick": pr["home"]["nick"], "away_nick": pr["away"]["nick"],
+                "home_logo": pr["home"]["logo"], "away_logo": pr["away"]["logo"],
+                "score": {"home": int(g.home_score), "away": int(g.away_score)},
+                "pick": pr["home"]["abbr"] if pr["prob_home_win"] >= 50 else pr["away"]["abbr"],
+                "pick_prob": max(pr["prob_home_win"], pr["prob_away_win"]),
+                "correct": None if tie else (pr["prob_home_win"] >= 50) == home_won,
+                "model_correct": None if tie else (pr["model_prob_home"] >= 50) == home_won,
+                "market_correct": None if tie or pr["vegas_spread"] in (None, 0) else (pr["vegas_spread"] < 0) == home_won,
+                "brier": None if tie else round((pr["prob_home_win"] / 100 - home_won) ** 2, 4),
+                "model_brier": None if tie else round((pr["model_prob_home"] / 100 - home_won) ** 2, 4),
+                "scorers": [{"name": s["name"], "team": s["team"], "prob": s["prob"], "scored": s["scored"]}
+                            for s in pr["scorers"][:3]],
+                "all_scorers": [(s["prob"], s["scored"]) for s in pr["scorers"]],
             })
 
-    ranking = sorted((team_info(t) for t in teams.index if t in model.ratings),
-                     key=lambda t: t["elo"], reverse=True)
+    decided = [b for b in backtest if b["correct"] is not None]
+    mk = [b for b in decided if b["market_correct"] is not None]
+    sc_all = [x for b in backtest for x in b["all_scorers"]]
+    sc_top = [s for b in backtest for s in b["scorers"]]
+    weeks = sorted({b["week"] for b in backtest})
+    summary = {
+        "games": len(decided),
+        "correct": sum(b["correct"] for b in decided),
+        "brier": round(sum(b["brier"] for b in decided) / len(decided), 3) if decided else None,
+        "model_correct": sum(b["model_correct"] for b in decided),
+        "model_brier": round(sum(b["model_brier"] for b in decided) / len(decided), 3) if decided else None,
+        "market_games": len(mk), "market_correct": sum(b["market_correct"] for b in mk),
+        "scorer_picks": len(sc_top), "scorer_hits": sum(s["scored"] for s in sc_top),
+        "scorer_expected": round(sum(s["prob"] for s in sc_top) / 100, 1),
+        "scorer_all_n": len(sc_all), "scorer_all_hits": sum(h for _, h in sc_all),
+        "scorer_all_expected": round(sum(p for p, _ in sc_all) / 100, 1),
+        "scorer_brier": round(sum((p / 100 - h) ** 2 for p, h in sc_all) / len(sc_all), 4) if sc_all else None,
+        "weeks": [{"week": w, "games": len([b for b in decided if b["week"] == w]),
+                   "correct": sum(b["correct"] for b in decided if b["week"] == w)} for w in weeks],
+    }
+    for b in backtest:
+        b.pop("all_scorers")
+
+    # --- Semaine à venir
+    ctx = Context(pbp, stats, sched, season, week, load_injury_report(season, week))
+    team_info = make_team_info(ctx.epa)
+    predictions = [predict_game(g, elo_now, ctx, team_info, with_injuries=True)
+                   for g in upcoming[upcoming.week == week].itertuples()]
 
     top_scorers = sorted((dict(sc, game_id=pr["game_id"],
                                opponent=pr["home"]["abbr"] if sc["team"] == pr["away"]["abbr"] else pr["away"]["abbr"])
                           for pr in predictions for sc in pr["scorers"]),
                          key=lambda x: x["prob"], reverse=True)[:12]
 
+    weeks_hist = sorted(snapshots)
+    ranking = []
+    for t in teams.index:
+        if t not in elo_now:
+            continue
+        info = team_info(t)
+        info["history"] = [round(snapshots[w].get(t, 1505), 1) for w in weeks_hist] + [info["elo"]]
+        ranking.append(info)
+    ranking.sort(key=lambda t: t["elo"], reverse=True)
+
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "season": season,
-        "week": week,
-        "model": {"name": "Elo (marge de victoire, régression inter-saisons)", "hfa_elo": HFA},
-        "season_record": {"games": games_scored, "correct": hits,
-                          "accuracy": round(hits / games_scored * 100, 1) if games_scored else None},
+        "season": season, "week": week,
+        "model": {"elo_weight": ELO_WEIGHT, "market_weight": round(MARKET_WEIGHT, 2), "hfa_elo": HFA},
+        "season_record": {"games": summary["games"], "correct": summary["correct"],
+                          "accuracy": round(summary["correct"] / summary["games"] * 100, 1) if summary["games"] else None},
+        "bilan": {"summary": summary, "games": backtest},
         "predictions": predictions,
         "top_scorers": top_scorers,
         "ranking": ranking,
@@ -152,9 +236,9 @@ def run_pipeline() -> dict:
 
     (DATA_DIR / "predictions.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2))
     pd.DataFrame(ranking)[["abbr", "name", "elo"]].to_csv(DATA_DIR / "team_elos.csv", index=False)
-    sched[sched.season == season].to_csv(DATA_DIR / "schedules.csv", index=False)
+    cur_sched.to_csv(DATA_DIR / "schedules.csv", index=False)
     WEB_DATA_DIR.mkdir(parents=True, exist_ok=True)
     shutil.copy(DATA_DIR / "predictions.json", WEB_DATA_DIR / "predictions.json")
-    logger.info("Saison %s, semaine %s : %d prédictions, modèle %s/%s cette saison",
-                season, week, len(predictions), hits, games_scored)
+    logger.info("Saison %s, semaine %s : %d prédictions ; bilan %s/%s (modèle seul %s)",
+                season, week, len(predictions), summary["correct"], summary["games"], summary["model_correct"])
     return payload

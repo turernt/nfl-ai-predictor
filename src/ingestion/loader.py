@@ -41,3 +41,10 @@ def load_injury_report(season: int, week: int) -> dict:
         return {}
     df = df[(df["week"] == week) & df["report_status"].notna()]
     return dict(zip(df["gsis_id"], df["report_status"]))
+
+
+def load_pbp(seasons: list[int]) -> pd.DataFrame:
+    cols = ["season", "week", "season_type", "posteam", "defteam", "epa", "play_type", "yardline_100",
+            "rusher_player_id", "receiver_player_id", "passer_player_id", "qb_dropback", "qb_epa"]
+    df = nfl.load_pbp(seasons).to_pandas()[cols]
+    return _normalize(df, ["posteam", "defteam"])
