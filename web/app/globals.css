@@ -228,3 +228,44 @@ h1, h2, .brand, .team-name, .score, .win, .big-prob, .elo b, .recap-big, .sb-nam
   .res-scorers { grid-column: 2; }
   .sb-score { font-size: 2.6rem; }
 }
+
+/* Pronostics */
+.howto, .responsible { background: var(--card); border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: var(--radius); padding: 0.9rem 1.1rem; font-size: 0.92rem; color: var(--muted); }
+.howto b, .responsible b { color: var(--ink); font-weight: 600; }
+.responsible { margin-top: 1.5rem; border-left-color: var(--warn); }
+.picks { list-style: none; }
+.pk { display: grid; grid-template-columns: 1.6rem 1fr auto; gap: 0.9rem; align-items: center; padding: 0.9rem 0; border-top: 1px solid var(--line); }
+.pk-rank { font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif; font-weight: 700; font-size: 1.4rem; color: var(--muted); text-align: center; }
+.pk-main { display: grid; gap: 0.45rem; min-width: 0; }
+.pk-teams { display: flex; align-items: center; gap: 0.75rem; }
+.pk-teams > div { display: flex; flex-direction: column; min-width: 0; }
+.pk-title { font-weight: 600; font-size: 1.05rem; }
+.pk-sub, .pk-when { font-size: 0.82rem; color: var(--muted); }
+.pk-facts { display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem 0.9rem; font-size: 0.82rem; color: var(--muted); }
+.pk-facts b { color: var(--ink); font-weight: 600; }
+.pk-facts .ok { color: var(--accent); }
+.pk-facts .warn { color: var(--warn); }
+.pk-side { display: flex; flex-direction: column; align-items: flex-end; gap: 0.1rem; text-align: right; }
+.pk-prob { font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif; font-weight: 700; font-size: 2rem; line-height: 1; color: var(--accent); }
+.pk-odds { font-size: 0.8rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.pk-link { font-size: 0.82rem; color: var(--accent); text-decoration: none; }
+.face.lg { width: 40px; height: 40px; }
+.badge { display: inline-block; font-size: 0.75rem; font-weight: 600; padding: 0.1rem 0.5rem; border-radius: 999px; background: var(--bg); color: var(--muted); }
+.badge.t1 { background: var(--accent); color: var(--card); }
+.badge.t2 { background: var(--accent-soft); color: var(--accent); }
+.badge.t3 { background: var(--bg); color: var(--ink); }
+.flips { list-style: none; }
+.flips li { display: flex; align-items: center; gap: 0.5rem; padding: 0.55rem 0; border-top: 1px solid var(--line); }
+.flips li b { margin-left: auto; font-variant-numeric: tabular-nums; }
+.flips li a { font-size: 0.82rem; color: var(--accent); text-decoration: none; }
+.compare.rel { margin-top: 0.5rem; margin-bottom: 1rem; }
+.compare.rel th[scope="row"] { color: var(--ink); }
+.findings { list-style: none; display: grid; gap: 0.75rem; }
+.findings li { padding-left: 1rem; border-left: 2px solid var(--line); color: var(--muted); }
+.findings b { color: var(--ink); font-weight: 600; }
+.hero a { color: var(--accent); }
+@media (max-width: 40rem) {
+  .pk { grid-template-columns: 1.2rem 1fr; }
+  .pk-side { grid-column: 2; flex-direction: row; align-items: baseline; gap: 0.75rem; justify-content: flex-start; }
+  .pk-prob { font-size: 1.6rem; }
+}
