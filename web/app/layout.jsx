@@ -3,6 +3,8 @@ import '@fontsource/barlow/500.css';
 import '@fontsource/barlow-condensed/600.css';
 import '@fontsource/barlow-condensed/700.css';
 import './globals.css';
+import data from '../data/predictions.json';
+import StaleBanner from './StaleBanner';
 
 export const metadata = {
   metadataBase: new URL(process.env.VERCEL_PROJECT_PRODUCTION_URL
@@ -17,7 +19,10 @@ export const viewport = { themeColor: '#0f1b2d' };
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
-      <body>{children}</body>
+      <body>
+        <StaleBanner at={data.generated_at} />
+        {children}
+      </body>
     </html>
   );
 }
