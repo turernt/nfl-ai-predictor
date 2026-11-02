@@ -12,12 +12,15 @@ import math
 import pandas as pd
 
 RECENCY = 0.85        # poids d'un match = 0,85 ^ (nombre de semaines écoulées)
-PRIOR_TDS = 10.0      # lissage fort : les TD régressent beaucoup d’une semaine à l’autre
+PRIOR_TDS = 6.0       # lissage : équivalent de 6 TD répartis selon les opportunités
 ACTIVE_WINDOW = 3     # joueur retenu s'il a joué l'un des 3 derniers matchs de son équipe
 SKILL_POS = {"RB", "WR", "TE", "QB", "FB"}
 OUT_STATUSES = {"Out", "Doubtful"}
-RZ_WEIGHT = 0.7      # part de la zone rouge dans les opportunités (calé sur le bilan)
-CALIBRATION = 0.7     # calé sur le bilan de la saison (sinon surestimation des favoris)
+RZ_WEIGHT = 0.7      # part de la zone rouge dans les opportunités
+CALIBRATION = 0.85    # échelle des touchdowns attendus
+# Recalibration logistique : les probabilités brutes sont trop dispersées (favoris surestimés, outsiders
+# sous-estimés). Paramètres ajustés sur 2024-2025 (5 760 prédictions), vérifiés sur 2026 (Brier 0,1686).
+RECAL_A, RECAL_B = -0.214, 0.754
 
 
 def red_zone_opps(pbp: pd.DataFrame, season: int, week: int) -> pd.Series:
@@ -94,7 +97,8 @@ def likely_scorers(players: pd.DataFrame, rates: pd.DataFrame, team: str, exp_po
     p = players[players["team"] == team].copy()
     p["status"] = p["player_id"].map(injuries)
     p = p[~p["status"].isin(OUT_STATUSES)]
-    p["prob"] = 1 - (-(CALIBRATION * team_tds * p["share"])).apply(math.exp)
+    raw = (1 - (-(CALIBRATION * team_tds * p["share"])).apply(math.exp)).clip(1e-6, 1 - 1e-6)
+    p["prob"] = 1 / (1 + ((-(RECAL_A + RECAL_B * (raw / (1 - raw)).apply(math.log)))).apply(math.exp))
     p = p.sort_values("prob", ascending=False).head(top)
     return [{
         "player_id": row.player_id, "name": row.name_, "team": team, "position": row.position,
