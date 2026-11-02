@@ -2,7 +2,10 @@ name: Update NFL Data & Elo
 
 on:
   schedule:
-    - cron: "0 13 * * *"  # chaque jour à 13 h UTC : cotes, blessures et QB titulaires à jour avant les matchs
+    # Deux passages par jour, à des minutes décalées (GitHub saute souvent les tâches prévues pile à l'heure) :
+    # 13 h 17 UTC (rapports de blessures du jour) et 21 h 47 UTC (dernières cotes avant les matchs du soir)
+    - cron: "17 13 * * *"
+    - cron: "47 21 * * *"
   workflow_dispatch:
 
 permissions:
