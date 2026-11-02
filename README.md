@@ -15,7 +15,7 @@ Prédictions NFL hebdomadaires (probabilités de victoire, scores projetés, but
 
 ## Fonctionnement
 
-1. **GitHub Actions** (chaque jour à 13 h UTC, pour suivre les cotes, blessures et QB annoncés) lance `python main.py --update`.
+1. **GitHub Actions** (deux fois par jour, 13 h 17 et 21 h 47 UTC, pour suivre cotes, blessures et QB annoncés) lance `python main.py --update`.
 2. Le pipeline charge tous les calendriers depuis 2010 via `nflreadpy`, recalcule les Elo
    (marge de victoire, retour à la moyenne entre saisons, terrain neutre géré) et écrit
    `data/predictions.json`, `data/team_elos.csv`, `data/schedules.csv` (+ copie dans `web/data/`).
@@ -33,7 +33,7 @@ Parions Sport, NetBet) et repérer les cotes françaises au-dessus du juste prix
 1. Créer une clé gratuite sur https://the-odds-api.com (offre Starter, 500 crédits/mois, sans carte bancaire).
 2. GitHub → *Settings → Secrets and variables → Actions → New repository secret* : nom `ODDS_API_KEY`.
 
-Une mise à jour consomme 9 crédits (3 marchés × 3 régions), soit environ 280 par mois.
+Une mise à jour consomme 6 crédits (2 marchés × 3 régions) ; avec deux mises à jour par jour, environ 370 crédits par mois.
 
 ## Alertes Telegram (facultatif, gratuit)
 
