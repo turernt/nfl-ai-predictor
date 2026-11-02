@@ -21,7 +21,7 @@ def _p(margin):
 
 
 def simulate(remaining: pd.DataFrame, played: pd.DataFrame, record: dict, ratings: dict, teams: pd.DataFrame,
-             fixed_probs: dict | None = None, sims: int = SIMS, seed: int = 7) -> dict:
+             fixed_probs: dict | None = None, sims: int = SIMS, seed: int = 7, hfa_pts: float = HFA_PTS) -> dict:
     """remaining : matchs restants (home_team, away_team, game_id, location, week).
     ratings : points au-dessus de la moyenne. fixed_probs : {game_id: proba domicile} (cotes du marché)."""
     rng = np.random.default_rng(seed)
@@ -35,7 +35,7 @@ def simulate(remaining: pd.DataFrame, played: pd.DataFrame, record: dict, rating
     wins = np.tile(np.array([record.get(a, (0, 0, 0))[0] + 0.5 * record.get(a, (0, 0, 0))[2] for a in abbrs], float), (sims, 1))
     g = remaining[remaining.home_team.isin(idx) & remaining.away_team.isin(idx)]
     h = g.home_team.map(idx).to_numpy(); a = g.away_team.map(idx).to_numpy()
-    hfa = np.where(g.location.to_numpy() == "Neutral", 0.0, HFA_PTS)
+    hfa = np.where(g.location.to_numpy() == "Neutral", 0.0, hfa_pts)
     margin = strength[:, h] - strength[:, a] + hfa
     prob = _p(margin)
     fixed_probs = fixed_probs or {}
@@ -95,7 +95,7 @@ def simulate(remaining: pd.DataFrame, played: pd.DataFrame, record: dict, rating
     conf_win = np.zeros((sims, T), bool); sb_win = np.zeros((sims, T), bool)
 
     def play(i, j, s, home):  # renvoie le gagnant entre i et j (home = équipe à domicile ou None)
-        m = strength[s, i] - strength[s, j] + (HFA_PTS if home == i else -HFA_PTS if home == j else 0)
+        m = strength[s, i] - strength[s, j] + (hfa_pts if home == i else -hfa_pts if home == j else 0)
         return i if rng.random() < 0.5 * (1 + math.erf(m / GAME_SD / math.sqrt(2))) else j
 
     conf_idx = {c: np.where(conf == c)[0] for c in np.unique(conf)}
