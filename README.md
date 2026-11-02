@@ -4,12 +4,13 @@ Prédictions NFL hebdomadaires (probabilités de victoire, scores projetés, but
 
 ## Modèle
 
+- **Classement de force** : notes en points ajustées par moindres carrés sur toutes les lignes des bookmakers de la saison, rappelées vers le modèle maison ; elles servent aux matchs des semaines suivantes et à la simulation des playoffs (écart moyen de 2,6 pts avec les futures lignes, contre 2,8 pour le modèle seul).
 - **Modèle maison** = 50 % Elo (marge de victoire, régression inter-saisons) + 50 % efficacité par jeu (EPA, play-by-play),
   ajusté du quarterback annoncé (valeur EPA par dropback vs niveau habituel de l’équipe) et du repos.
 - **Probabilité retenue** = cotes des bookmakers, marge retirée (testées plus fiables que le modèle et que tout mélange, 899 matchs 2023-2026) ; le modèle maison sert de second avis.
 - **Pronostics** (`/pronostics`) : favoris à 70 % ou plus, buteurs à 40 % ou plus, matchs à éviter, avec la fiabilité historique de chaque palier (depuis 2012).
 - **Buteurs** : part des TD de l’équipe lissée vers la part d’opportunités (70 % zone rouge), TD attendus de l’équipe
-  selon le score projeté, loi de Poisson ; calibration calée sur le bilan de la saison.
+  selon le score projeté, loi de Poisson, puis recalibration logistique ajustée sur 2024-2025 (5 760 prédictions) et vérifiée sur 2026.
 - **Bilan** : chaque semaine passée est re-prédite avec les seules données disponibles avant, puis comparée aux résultats.
 
 ## Fonctionnement
