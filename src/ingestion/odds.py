@@ -1,6 +1,7 @@
 """Cotes en direct de plusieurs bookmakers via The Odds API (offre gratuite : 500 crédits/mois).
 
-Une requête = marchés (3) × régions (3) = 9 crédits ; une mise à jour par jour ≈ 280 crédits/mois.
+Une requête = marchés (2) × régions (3) = 6 crédits ; deux mises à jour par jour ≈ 370 crédits/mois.
+Les totaux de points viennent de nflverse (le marché « totals » coûterait 3 crédits de plus par requête).
 Sans clé (variable d'environnement ODDS_API_KEY), le pipeline revient aux lignes nflverse.
 """
 import logging
@@ -14,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 URL = "https://api.the-odds-api.com/v4/sports/americanfootball_nfl/odds"
 REGIONS = "us,eu,fr"
-MARKETS = "h2h,spreads,totals"
+MARKETS = "h2h,spreads"
 FR_BOOKS = {"betclic_fr", "winamax_fr", "unibet_fr", "pmu_fr", "parionssport_fr", "netbet_fr"}
 SHARP_BOOKS = {"pinnacle", "betfair_ex_eu", "betfair_ex_uk"}   # marchés les plus efficaces : poids double
 
