@@ -37,7 +37,7 @@ export default function TeamPage({ params }) {
           <div>
             <h1>{t.name}</h1>
             <p className="team-sub">
-              {t.record}, {t.division}. Elo {Math.round(t.elo)} ({rank + 1}e). Attaque {t.off_rank ? `${t.off_rank}e` : '—'}, défense {t.def_rank ? `${t.def_rank}e` : '—'} (EPA).
+              {t.record}, {t.division}. Force {t.power != null ? `${t.power >= 0 ? '+' : '−'}${num(Math.abs(t.power))} pts` : '—'} ({rank + 1}e), Elo {Math.round(t.elo)}. Attaque {t.off_rank ? `${t.off_rank}e` : '—'}, défense {t.def_rank ? `${t.def_rank}e` : '—'} (EPA).
             </p>
           </div>
           <Sparkline values={t.history} width={120} height={36} color="var(--accent)" />
