@@ -67,8 +67,11 @@ export default function Home() {
         )}
 
         <section id="classement" className="block">
-          <h2>Classement Elo</h2>
-          <p className="lede">1 505 correspond à une équipe moyenne. 25 points d’écart valent environ un point au score. La courbe montre l’évolution depuis le début de la saison.</p>
+          <h2>Classement de force</h2>
+          <p className="lede">
+            Points d’avance attendus face à une équipe moyenne sur terrain neutre, calculés à partir de toutes les cotes
+            de la saison et de notre modèle. La courbe montre l’évolution de l’Elo depuis la semaine 1.
+          </p>
           <ol className="elo">
             {ranking.map((t, i) => (
               <li key={t.abbr}>
@@ -76,7 +79,7 @@ export default function Home() {
                 {t.logo ? <img className="mini-logo" src={t.logo} alt="" width="22" height="22" loading="lazy" /> : <span className="mini-logo" />}
                 <span className="elo-name"><Link href={`/equipe/${t.abbr}`}>{t.nick}</Link><span className="team-sub"> {t.record}</span></span>
                 <Sparkline values={t.history} color={t.history?.at(-1) >= t.history?.[0] ? 'var(--accent)' : 'var(--down)'} />
-                <b>{Math.round(t.elo)}</b>
+                <b>{t.power != null ? `${t.power >= 0 ? '+' : '−'}${num(Math.abs(t.power))}` : Math.round(t.elo)}</b>
               </li>
             ))}
           </ol>
