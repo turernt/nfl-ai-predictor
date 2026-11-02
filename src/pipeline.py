@@ -13,6 +13,7 @@ from src.models.scorers import build_player_table, team_td_rates, likely_scorers
 from src.ingestion.odds import fetch_odds, consensus, find as find_odds
 from src.models.season_sim import simulate
 from src.models.devig import shin, quarter_kelly
+from src.models import market_ratings
 from src.ingestion.loader import load_injury_details
 from src.ingestion.weather import forecast
 from src.tracking import update_log, summarize
@@ -409,13 +410,18 @@ def run_pipeline() -> dict:
         p["line_history"] = line_hist[p["game_id"]]
     hist_path.write_text(json.dumps(line_hist, ensure_ascii=False, indent=1))
 
+    # Notes de force : modèle maison, puis ajustées sur toutes les lignes des bookmakers de la saison
+    model_ratings = {t: ELO_WEIGHT * (elo_now[t] - 1505) / ELO_PER_POINT
+                        + (1 - ELO_WEIGHT) * (float(ctx.epa.at[t, "net"]) * 30 if t in ctx.epa.index else 0.0)
+                     for t in teams.index if t in elo_now}
+    lines = cur_sched[(cur_sched.week <= week) & (cur_sched.game_type == "REG")]
+    overrides = {p["game_id"]: -p["vegas_spread"] for p in predictions if p["vegas_spread"] is not None}
+    sim_ratings, market_hfa = market_ratings.fit(lines, model_ratings, week, overrides)
     # Course aux playoffs : 10 000 simulations de la fin de saison
-    sim_ratings = {t: ELO_WEIGHT * (elo_now[t] - 1505) / ELO_PER_POINT
-                      + (1 - ELO_WEIGHT) * (float(ctx.epa.at[t, "net"]) * 30 if t in ctx.epa.index else 0.0)
-                   for t in teams.index if t in elo_now}
     remaining = cur_sched[cur_sched.home_score.isna() & (cur_sched.game_type == "REG")]
     sim = simulate(remaining, played[(played.season == season) & (played.game_type == "REG")], record, sim_ratings, teams,
-                   fixed_probs={p["game_id"]: p["prob_home_win"] / 100 for p in predictions}) if len(remaining) else {}
+                   fixed_probs={p["game_id"]: p["prob_home_win"] / 100 for p in predictions},
+                   hfa_pts=market_hfa) if len(remaining) else {}
 
     pred_by_id = {p["game_id"]: p for p in predictions}
 
@@ -434,7 +440,7 @@ def run_pipeline() -> dict:
                 pr = pred_by_id[g.game_id]
                 row["prob"] = pr["prob_home_win"] if home else pr["prob_away_win"]
             else:
-                m = sim_ratings.get(g.home_team, 0) - sim_ratings.get(g.away_team, 0) + (0 if g.location == "Neutral" else 1.7)
+                m = sim_ratings.get(g.home_team, 0) - sim_ratings.get(g.away_team, 0) + (0 if g.location == "Neutral" else market_hfa)
                 ph = win_prob(-m) * 100
                 row["prob"] = round(ph if home else 100 - ph, 1)
             rows.append(row)
@@ -450,9 +456,10 @@ def run_pipeline() -> dict:
         info["conf"] = teams.at[t, "team_conf"]
         info["division"] = teams.at[t, "team_division"]
         info["sim"] = sim.get(t)
+        info["power"] = round(sim_ratings.get(t, 0.0), 1)
         info["schedule"] = team_schedule(t)
         ranking.append(info)
-    ranking.sort(key=lambda t: t["elo"], reverse=True)
+    ranking.sort(key=lambda t: t["power"], reverse=True)   # classement de force (cotes + modèle)
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
