@@ -12,7 +12,9 @@
    "open_prob": 71.9,
    "open_fr": null,
    "close_prob": 71.9,
-   "closed_at": "2026-11-01T22:28+00:00"
+   "closed_at": "2026-11-01T22:28+00:00",
+   "result": "V",
+   "score": "9-24"
   },
   "2026_08_KC_DEN": {
    "season": 2026,
@@ -25,7 +27,9 @@
    "open_prob": 50.5,
    "open_fr": null,
    "close_prob": 50.5,
-   "closed_at": "2026-11-01T22:28+00:00"
+   "closed_at": "2026-11-01T22:28+00:00",
+   "result": "V",
+   "score": "24-28"
   },
   "2026_08_NE_MIA": {
    "season": 2026,
@@ -38,7 +42,9 @@
    "open_prob": 75.4,
    "open_fr": null,
    "close_prob": 75.4,
-   "closed_at": "2026-11-01T22:28+00:00"
+   "closed_at": "2026-11-01T22:28+00:00",
+   "result": "V",
+   "score": "24-19"
   },
   "2026_08_PHI_WAS": {
    "season": 2026,
@@ -51,7 +57,9 @@
    "open_prob": 70.9,
    "open_fr": null,
    "close_prob": 70.9,
-   "closed_at": "2026-11-01T22:28+00:00"
+   "closed_at": "2026-11-01T22:28+00:00",
+   "result": "V",
+   "score": "10-27"
   },
   "2026_08_CHI_SEA": {
    "season": 2026,
@@ -63,8 +71,8 @@
    "pick_home": true,
    "open_prob": 60.4,
    "open_fr": null,
-   "close_prob": 60.4,
-   "closed_at": "2026-11-01T22:28+00:00"
+   "close_prob": 60.8,
+   "closed_at": "2026-11-02T18:29+00:00"
   }
  }
 }
