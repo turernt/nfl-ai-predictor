@@ -11,6 +11,12 @@
    "prob_home": 60.8,
    "spread": -3.0,
    "books": null
+  },
+  {
+   "date": "2026-11-03",
+   "prob_home": 60.4,
+   "spread": -3.0,
+   "books": null
   }
  ]
 }
