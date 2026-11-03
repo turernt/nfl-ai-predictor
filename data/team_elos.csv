@@ -1,33 +1,33 @@
 abbr,name,elo
-SEA,Seattle Seahawks,1659.6
 JAX,Jacksonville Jaguars,1618.9
 BUF,Buffalo Bills,1658.0
+SEA,Seattle Seahawks,1619.3
 LA,Los Angeles Rams,1582.6
 SF,San Francisco 49ers,1619.2
-CIN,Cincinnati Bengals,1568.8
-KC,Kansas City Chiefs,1550.9
+CHI,Chicago Bears,1619.3
 DEN,Denver Broncos,1629.6
-DET,Detroit Lions,1575.5
+KC,Kansas City Chiefs,1550.9
 NE,New England Patriots,1602.3
-MIN,Minnesota Vikings,1614.0
-CHI,Chicago Bears,1579.0
+CIN,Cincinnati Bengals,1568.8
+DET,Detroit Lions,1575.5
 HOU,Houston Texans,1511.9
+MIN,Minnesota Vikings,1614.0
 GB,Green Bay Packers,1539.0
 PIT,Pittsburgh Steelers,1577.3
-BAL,Baltimore Ravens,1497.0
 DAL,Dallas Cowboys,1452.2
-CAR,Carolina Panthers,1442.1
+BAL,Baltimore Ravens,1497.0
 TB,Tampa Bay Buccaneers,1502.9
 ATL,Atlanta Falcons,1466.9
-IND,Indianapolis Colts,1407.6
-LAC,Los Angeles Chargers,1396.2
+CAR,Carolina Panthers,1442.1
+NYG,New York Giants,1472.4
+WAS,Washington Commanders,1444.1
 NO,New Orleans Saints,1420.9
 CLE,Cleveland Browns,1455.7
-WAS,Washington Commanders,1444.1
-NYG,New York Giants,1472.4
+LAC,Los Angeles Chargers,1396.2
+IND,Indianapolis Colts,1407.6
 LV,Las Vegas Raiders,1430.0
 NYJ,New York Jets,1358.7
-PHI,Philadelphia Eagles,1415.2
 ARI,Arizona Cardinals,1404.6
+PHI,Philadelphia Eagles,1415.2
 MIA,Miami Dolphins,1383.5
 TEN,Tennessee Titans,1323.3
