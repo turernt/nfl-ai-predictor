@@ -5,11 +5,23 @@
    "prob_home": 17.9,
    "spread": 10.0,
    "books": null
+  },
+  {
+   "date": "2026-11-04",
+   "prob_home": 17.5,
+   "spread": 10.0,
+   "books": null
   }
  ],
  "2026_09_CIN_ATL": [
   {
    "date": "2026-11-03",
+   "prob_home": 40.3,
+   "spread": 3.0,
+   "books": null
+  },
+  {
+   "date": "2026-11-04",
    "prob_home": 40.3,
    "spread": 3.0,
    "books": null
@@ -21,11 +33,23 @@
    "prob_home": 43.4,
    "spread": 2.5,
    "books": null
+  },
+  {
+   "date": "2026-11-04",
+   "prob_home": 43.4,
+   "spread": 2.5,
+   "books": null
   }
  ],
  "2026_09_DAL_IND": [
   {
    "date": "2026-11-03",
+   "prob_home": 28.6,
+   "spread": 6.0,
+   "books": null
+  },
+  {
+   "date": "2026-11-04",
    "prob_home": 28.6,
    "spread": 6.0,
    "books": null
@@ -37,11 +61,23 @@
    "prob_home": 81.2,
    "spread": -9.5,
    "books": null
+  },
+  {
+   "date": "2026-11-04",
+   "prob_home": 81.2,
+   "spread": -9.5,
+   "books": null
   }
  ],
  "2026_09_DET_MIA": [
   {
    "date": "2026-11-03",
+   "prob_home": 23.2,
+   "spread": 7.0,
+   "books": null
+  },
+  {
+   "date": "2026-11-04",
    "prob_home": 23.2,
    "spread": 7.0,
    "books": null
@@ -53,11 +89,23 @@
    "prob_home": 52.3,
    "spread": -1.5,
    "books": null
+  },
+  {
+   "date": "2026-11-04",
+   "prob_home": 51.8,
+   "spread": -1.5,
+   "books": null
   }
  ],
  "2026_09_NYG_PHI": [
   {
    "date": "2026-11-03",
+   "prob_home": 39.2,
+   "spread": 3.5,
+   "books": null
+  },
+  {
+   "date": "2026-11-04",
    "prob_home": 39.2,
    "spread": 3.5,
    "books": null
@@ -69,11 +117,23 @@
    "prob_home": 31.2,
    "spread": 5.5,
    "books": null
+  },
+  {
+   "date": "2026-11-04",
+   "prob_home": 31.7,
+   "spread": 5.5,
+   "books": null
   }
  ],
  "2026_09_HOU_LAC": [
   {
    "date": "2026-11-03",
+   "prob_home": 33.6,
+   "spread": 4.5,
+   "books": null
+  },
+  {
+   "date": "2026-11-04",
    "prob_home": 33.6,
    "spread": 4.5,
    "books": null
@@ -85,12 +145,24 @@
    "prob_home": 82.5,
    "spread": -10.0,
    "books": null
+  },
+  {
+   "date": "2026-11-04",
+   "prob_home": 80.8,
+   "spread": -10.0,
+   "books": null
   }
  ],
  "2026_09_GB_NE": [
   {
    "date": "2026-11-03",
    "prob_home": 60.4,
+   "spread": -3.0,
+   "books": null
+  },
+  {
+   "date": "2026-11-04",
+   "prob_home": 60.8,
    "spread": -3.0,
    "books": null
   }
@@ -101,6 +173,12 @@
    "prob_home": 83.6,
    "spread": -10.5,
    "books": null
+  },
+  {
+   "date": "2026-11-04",
+   "prob_home": 85.4,
+   "spread": -12.5,
+   "books": null
   }
  ],
  "2026_09_TB_CHI": [
@@ -109,11 +187,23 @@
    "prob_home": 71.9,
    "spread": -6.0,
    "books": null
+  },
+  {
+   "date": "2026-11-04",
+   "prob_home": 72.3,
+   "spread": -6.0,
+   "books": null
   }
  ],
  "2026_09_BUF_MIN": [
   {
    "date": "2026-11-03",
+   "prob_home": 37.9,
+   "spread": 3.5,
+   "books": null
+  },
+  {
+   "date": "2026-11-04",
    "prob_home": 37.9,
    "spread": 3.5,
    "books": null
