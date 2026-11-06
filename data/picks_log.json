@@ -86,8 +86,8 @@
    "pick_home": false,
    "open_prob": 82.1,
    "open_fr": null,
-   "close_prob": 81.2,
-   "closed_at": "2026-11-05T20:39+00:00"
+   "close_prob": 79.9,
+   "closed_at": "2026-11-06T01:50+00:00"
   },
   "2026_09_CIN_ATL": {
    "season": 2026,
@@ -99,8 +99,8 @@
    "pick_home": false,
    "open_prob": 59.7,
    "open_fr": null,
-   "close_prob": 60.4,
-   "closed_at": "2026-11-05T20:39+00:00"
+   "close_prob": 60.8,
+   "closed_at": "2026-11-06T01:50+00:00"
   },
   "2026_09_DEN_CAR": {
    "season": 2026,
@@ -113,7 +113,7 @@
    "open_prob": 56.6,
    "open_fr": null,
    "close_prob": 58.7,
-   "closed_at": "2026-11-05T20:39+00:00"
+   "closed_at": "2026-11-06T01:50+00:00"
   },
   "2026_09_DAL_IND": {
    "season": 2026,
@@ -126,7 +126,7 @@
    "open_prob": 71.4,
    "open_fr": null,
    "close_prob": 67.6,
-   "closed_at": "2026-11-05T20:39+00:00"
+   "closed_at": "2026-11-06T01:50+00:00"
   },
   "2026_09_NYJ_KC": {
    "season": 2026,
@@ -139,7 +139,7 @@
    "open_prob": 81.2,
    "open_fr": null,
    "close_prob": 83.1,
-   "closed_at": "2026-11-05T20:39+00:00"
+   "closed_at": "2026-11-06T01:50+00:00"
   },
   "2026_09_DET_MIA": {
    "season": 2026,
@@ -151,8 +151,8 @@
    "pick_home": false,
    "open_prob": 76.8,
    "open_fr": null,
-   "close_prob": 75.9,
-   "closed_at": "2026-11-05T20:39+00:00"
+   "close_prob": 75.1,
+   "closed_at": "2026-11-06T01:50+00:00"
   },
   "2026_09_CLE_NO": {
    "season": 2026,
@@ -165,7 +165,7 @@
    "open_prob": 52.3,
    "open_fr": null,
    "close_prob": 59.7,
-   "closed_at": "2026-11-05T20:39+00:00"
+   "closed_at": "2026-11-06T01:50+00:00"
   },
   "2026_09_NYG_PHI": {
    "season": 2026,
@@ -177,8 +177,8 @@
    "pick_home": false,
    "open_prob": 60.8,
    "open_fr": null,
-   "close_prob": 60.4,
-   "closed_at": "2026-11-05T20:39+00:00"
+   "close_prob": 59.7,
+   "closed_at": "2026-11-06T01:50+00:00"
   },
   "2026_09_LA_WAS": {
    "season": 2026,
@@ -191,7 +191,7 @@
    "open_prob": 68.8,
    "open_fr": null,
    "close_prob": 67.1,
-   "closed_at": "2026-11-05T20:39+00:00"
+   "closed_at": "2026-11-06T01:50+00:00"
   },
   "2026_09_HOU_LAC": {
    "season": 2026,
@@ -203,8 +203,8 @@
    "pick_home": false,
    "open_prob": 66.4,
    "open_fr": null,
-   "close_prob": 66.4,
-   "closed_at": "2026-11-05T20:39+00:00"
+   "close_prob": 68.3,
+   "closed_at": "2026-11-06T01:50+00:00"
   },
   "2026_09_LV_SF": {
    "season": 2026,
@@ -216,8 +216,8 @@
    "pick_home": true,
    "open_prob": 82.5,
    "open_fr": null,
-   "close_prob": 81.7,
-   "closed_at": "2026-11-05T20:39+00:00"
+   "close_prob": 80.8,
+   "closed_at": "2026-11-06T01:50+00:00"
   },
   "2026_09_GB_NE": {
    "season": 2026,
@@ -230,7 +230,7 @@
    "open_prob": 60.4,
    "open_fr": null,
    "close_prob": 60.4,
-   "closed_at": "2026-11-05T20:39+00:00"
+   "closed_at": "2026-11-06T01:50+00:00"
   },
   "2026_09_ARI_SEA": {
    "season": 2026,
@@ -243,7 +243,7 @@
    "open_prob": 83.6,
    "open_fr": null,
    "close_prob": 79.9,
-   "closed_at": "2026-11-05T20:39+00:00"
+   "closed_at": "2026-11-06T01:50+00:00"
   },
   "2026_09_TB_CHI": {
    "season": 2026,
@@ -256,7 +256,7 @@
    "open_prob": 71.9,
    "open_fr": null,
    "close_prob": 72.7,
-   "closed_at": "2026-11-05T20:39+00:00"
+   "closed_at": "2026-11-06T01:50+00:00"
   },
   "2026_09_BUF_MIN": {
    "season": 2026,
@@ -269,7 +269,7 @@
    "open_prob": 62.1,
    "open_fr": null,
    "close_prob": 60.8,
-   "closed_at": "2026-11-05T20:39+00:00"
+   "closed_at": "2026-11-06T01:50+00:00"
   }
  }
 }
