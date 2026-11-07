@@ -5,8 +5,8 @@ SEA,Seattle Seahawks,1619.3
 SF,San Francisco 49ers,1619.2
 LA,Los Angeles Rams,1582.6
 CHI,Chicago Bears,1619.3
-KC,Kansas City Chiefs,1550.9
 DEN,Denver Broncos,1629.6
+KC,Kansas City Chiefs,1550.9
 NE,New England Patriots,1602.3
 CIN,Cincinnati Bengals,1568.8
 DET,Detroit Lions,1575.5
@@ -19,9 +19,9 @@ BAL,Baltimore Ravens,1473.9
 TB,Tampa Bay Buccaneers,1502.9
 ATL,Atlanta Falcons,1466.9
 CAR,Carolina Panthers,1442.1
+NO,New Orleans Saints,1420.9
 NYG,New York Giants,1472.4
 WAS,Washington Commanders,1444.1
-NO,New Orleans Saints,1420.9
 CLE,Cleveland Browns,1455.7
 IND,Indianapolis Colts,1407.6
 LAC,Los Angeles Chargers,1396.2
