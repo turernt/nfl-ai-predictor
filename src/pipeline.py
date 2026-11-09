@@ -6,10 +6,12 @@ from datetime import datetime, timezone
 import pandas as pd
 
 from src.config import DATA_DIR, WEB_DATA_DIR, FIRST_SEASON, HFA, ELO_PER_POINT
-from src.ingestion.loader import (load_schedules, load_teams, load_player_stats, load_injury_report, load_pbp)
+from src.ingestion.loader import (load_schedules, load_teams, load_player_stats, load_injury_report, load_pbp,
+                                  load_injuries_all, load_snaps, load_depth_chart, load_roster_status)
 from src.models.elo_engine import NFLEloModel, confidence_label
 from src.models.ratings import (epa_ratings, epa_margin, qb_table, qb_adjustment, rest_adjustment, win_prob)
-from src.models.scorers import build_player_table, team_td_rates, likely_scorers, red_zone_opps
+from src.models.scorers import ScorerModel, likely_scorers, player_weeks, snap_table, FEATURES
+from src.models import lineup as lineup_mod
 from src.ingestion.odds import fetch_odds, consensus, find as find_odds
 from src.models.season_sim import simulate
 from src.models.devig import shin, quarter_kelly
@@ -115,20 +117,30 @@ def _commentary(fav: str, prob: float, home_is_fav: bool, neutral: bool, model_s
 class Context:
     """Tout ce qui est connu avant une semaine donnée."""
 
-    def __init__(self, pbp, stats, sched, season, week, injuries=None):
+    def __init__(self, pbp, season, week, scorer_model, statuses=None, lineups=None):
+        self.season, self.week = season, week
         self.epa = epa_ratings(pbp, season, week)
         self.qbs, self.qb_base, self.qb_repl = qb_table(pbp, season, week)
-        self.players = build_player_table(stats, week, red_zone_opps(pbp, season, week))
-        self.rates = team_td_rates(stats, sched, season, week)
-        self.injuries = injuries or {}
+        self.model = scorer_model
+        self.live = lineups is not None      # semaine à venir : composition connue, journal des matchs affiché
+        self.lineups = lineups or {}
+        self.statuses = statuses if statuses is not None else scorer_model.statuses(season, week)
+        # effectif actif de chaque équipe : écarte les joueurs sortis de l'effectif, réintègre ceux qui reviennent
+        roster = {t: l["active_ids"] for t, l in self.lineups.items() if l.get("active_ids")} or None
+        self.players = scorer_model.players(season, week, statuses=self.statuses, roster=roster)
 
 
-def predict_game(g, elo: dict, ctx: Context, team_info, with_injuries: bool, odds: dict | None = None) -> dict:
+def predict_game(g, elo: dict, ctx: Context, team_info, odds: dict | None = None) -> dict:
     neutral = g.location == "Neutral"
     elo_m = (elo.get(g.home_team, 1505) + (0 if neutral else HFA) - elo.get(g.away_team, 1505)) / ELO_PER_POINT
     epa_m = epa_margin(ctx.epa, g.home_team, g.away_team, neutral)
-    qb_h = qb_adjustment(ctx.qbs, ctx.qb_base, ctx.qb_repl, g.home_team, g.home_qb_id)
-    qb_a = qb_adjustment(ctx.qbs, ctx.qb_base, ctx.qb_repl, g.away_team, g.away_qb_id)
+    # Composition : si le QB du calendrier est forfait, on prend le suivant dans la hiérarchie
+    home_qb_id, home_qb_name, home_qb_new = lineup_mod.starting_qb(
+        ctx.lineups.get(g.home_team), g.home_qb_id, g.home_qb_name, ctx.statuses)
+    away_qb_id, away_qb_name, away_qb_new = lineup_mod.starting_qb(
+        ctx.lineups.get(g.away_team), g.away_qb_id, g.away_qb_name, ctx.statuses)
+    qb_h = qb_adjustment(ctx.qbs, ctx.qb_base, ctx.qb_repl, g.home_team, home_qb_id)
+    qb_a = qb_adjustment(ctx.qbs, ctx.qb_base, ctx.qb_repl, g.away_team, away_qb_id)
     rest_m = rest_adjustment(g.home_rest, g.away_rest)
     model_spread = -(ELO_WEIGHT * elo_m + (1 - ELO_WEIGHT) * epa_m + qb_h - qb_a + rest_m)
     vegas = None if pd.isna(g.spread_line) else -float(g.spread_line)
@@ -148,13 +160,16 @@ def predict_game(g, elo: dict, ctx: Context, team_info, with_injuries: bool, odd
 
     total = DEFAULT_TOTAL if total_line is None else total_line
     home_pts, away_pts = total / 2 - spread / 2, total / 2 + spread / 2
-    inj = ctx.injuries if with_injuries else {}
-    scorers = (likely_scorers(ctx.players, ctx.rates, g.away_team, away_pts, inj)
-               + likely_scorers(ctx.players, ctx.rates, g.home_team, home_pts, inj))
+    scorers = []
+    for team, pts, margin in ((g.away_team, away_pts, spread), (g.home_team, home_pts, -spread)):
+        scorers += likely_scorers(ctx.model, ctx.players, ctx.season, ctx.week, team, pts, margin,
+                                  depth=(ctx.lineups.get(team) or {}).get("labels"), with_form=ctx.live)
     home, away = team_info(g.home_team), team_info(g.away_team)
     home_fav = p_home >= 50
-    qb_notes = [f"QB annoncé chez les {t['nick']} ({name}) : {_fr(v)} pt par rapport à leur niveau habituel."
-                for t, name, v in ((home, g.home_qb_name, qb_h), (away, g.away_qb_name, qb_a)) if abs(v) >= 2]
+    qb_notes = [f"QB titulaire indisponible chez les {t['nick']} : {name} attendu."
+                for t, name, new in ((home, home_qb_name, home_qb_new), (away, away_qb_name, away_qb_new)) if new]
+    qb_notes += [f"QB annoncé chez les {t['nick']} ({name}) : {_fr(v)} pt par rapport à leur niveau habituel."
+                 for t, name, v in ((home, home_qb_name, qb_h), (away, away_qb_name, qb_a)) if abs(v) >= 2]
     return {
         "game_id": g.game_id, "week": int(g.week), "game_type": g.game_type,
         "gameday": g.gameday, "gametime": g.gametime, "neutral_site": neutral,
@@ -173,8 +188,8 @@ def predict_game(g, elo: dict, ctx: Context, team_info, with_injuries: bool, odd
         "factors": {
             "elo": round(elo_m, 1), "epa": round(epa_m, 1),
             "qb": {"home": round(qb_h, 1), "away": round(qb_a, 1),
-                   "home_name": g.home_qb_name if isinstance(g.home_qb_name, str) else None,
-                   "away_name": g.away_qb_name if isinstance(g.away_qb_name, str) else None},
+                   "home_name": home_qb_name if isinstance(home_qb_name, str) else None,
+                   "away_name": away_qb_name if isinstance(away_qb_name, str) else None},
             "rest": {"pts": round(rest_m, 1),
                      "home_days": None if pd.isna(g.home_rest) else int(g.home_rest),
                      "away_days": None if pd.isna(g.away_rest) else int(g.away_rest)},
@@ -191,8 +206,14 @@ def run_pipeline() -> dict:
     season = current_season()
     sched = load_schedules(list(range(FIRST_SEASON, season + 1)))
     teams = load_teams().set_index("team_abbr")
-    pbp = load_pbp([season - 1, season])
-    stats = load_player_stats(season)
+    # Trois saisons d'historique en plus de la saison en cours : le modèle de buteurs apprend dessus
+    hist_seasons = list(range(season - 3, season + 1))
+    pbp = load_pbp(hist_seasons)
+    stats_all = load_player_stats(hist_seasons)
+    stats = stats_all[stats_all["season"] == season]
+    snaps, id_map = load_snaps(hist_seasons)
+    scorer_model = ScorerModel(player_weeks(stats_all, pbp), snap_table(snaps, id_map), sched,
+                               load_injuries_all(hist_seasons))
 
     cur_sched = sched[sched.season == season]
     upcoming = cur_sched[cur_sched.home_score.isna()]
@@ -242,12 +263,12 @@ def run_pipeline() -> dict:
     # --- Bilan : chaque semaine passée, prédite avec les seules infos disponibles avant
     backtest = []
     for wk in sorted(w for w in cur_sched.week.unique() if w < week):
-        ctx = Context(pbp, stats, sched, season, wk)
+        ctx = Context(pbp, season, wk, scorer_model)
         info = make_team_info(ctx.epa)
         actual_td = stats[(stats.week == wk)].assign(
             t=lambda d: d["rushing_tds"].fillna(0) + d["receiving_tds"].fillna(0)).set_index("player_id")["t"]
         for g in played[(played.season == season) & (played.week == wk)].itertuples():
-            pr = predict_game(g, snapshots[wk], ctx, info, with_injuries=False)
+            pr = predict_game(g, snapshots[wk], ctx, info)
             home_won = g.home_score > g.away_score
             tie = g.home_score == g.away_score
             for sc in pr["scorers"]:
@@ -311,11 +332,14 @@ def run_pipeline() -> dict:
         b.pop("all_scorers")
 
     # --- Semaine à venir
-    ctx = Context(pbp, stats, sched, season, week, load_injury_report(season, week))
+    statuses = load_injury_report(season, week)
+    # Composition probable : hiérarchie des postes, effectif actif et rapport de blessures
+    lineups = lineup_mod.build(load_depth_chart(season), load_roster_status(season), statuses)
+    ctx = Context(pbp, season, week, scorer_model, statuses=statuses, lineups=lineups)
     team_info = make_team_info(ctx.epa)
     events = fetch_odds()
     cons = consensus(events, {row["team_name"]: abbr for abbr, row in teams.iterrows()})
-    predictions = [predict_game(g, elo_now, ctx, team_info, with_injuries=True,
+    predictions = [predict_game(g, elo_now, ctx, team_info,
                                 odds=find_odds(cons, g.home_team, g.away_team, g.gameday))
                    for g in upcoming[upcoming.week == week].itertuples()]
     n_cons = sum(1 for p in predictions if p["odds"])
@@ -324,6 +348,7 @@ def run_pipeline() -> dict:
         p["injuries"] = {"home": inj.get(p["home"]["abbr"], [])[:10], "away": inj.get(p["away"]["abbr"], [])[:10]}
         p["weather"] = forecast(p["home"]["abbr"], p["neutral_site"], p["gameday"], p["gametime"])
         p["round"] = ROUNDS.get(g.game_type)
+        p["lineup"] = {side: (lineups.get(p[side]["abbr"]) or {}).get("players", []) for side in ("home", "away")}
     log = update_log(DATA_DIR / "picks_log.json", predictions, cur_sched, season)
     tracking = summarize(log, season)
     post = cur_sched[cur_sched.game_type.isin(ROUNDS.keys())]
@@ -475,6 +500,10 @@ def run_pipeline() -> dict:
         "odds_source": {"type": "consensus" if n_cons else "nflverse", "games": n_cons,
                         "books": max((p["odds"]["n_books"] for p in predictions if p["odds"]), default=0)},
         "top_scorers": top_scorers,
+        "scorer_model": {"version": 2, "train_rows": int(scorer_model.train_rows),
+                         "train_seasons": [season - 2, season],
+                         "coefs": dict(zip(["constante"] + FEATURES,
+                                           (round(float(c), 3) for c in scorer_model.coefs(season, week))))},
         "ranking": ranking,
     }
 
