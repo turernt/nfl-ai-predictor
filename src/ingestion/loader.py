@@ -26,9 +26,11 @@ def load_teams() -> pd.DataFrame:
     return df[["team_abbr", "team_name", "team_nick", "team_conf", "team_division", "team_color", "team_color2", "team_logo_espn"]]
 
 
-def load_player_stats(season: int) -> pd.DataFrame:
-    df = nfl.load_player_stats([season]).to_pandas()
-    df["team"] = df["team"].replace(TEAM_ALIASES)
+def load_player_stats(seasons: list[int]) -> pd.DataFrame:
+    """Statistiques joueur par match (plusieurs saisons : le modèle de buteurs apprend sur l'historique)."""
+    df = nfl.load_player_stats(seasons).to_pandas()
+    for c in ("team", "opponent_team"):
+        df[c] = df[c].replace(TEAM_ALIASES)
     return df
 
 
@@ -45,9 +47,59 @@ def load_injury_report(season: int, week: int) -> dict:
 
 def load_pbp(seasons: list[int]) -> pd.DataFrame:
     cols = ["season", "week", "season_type", "posteam", "defteam", "epa", "play_type", "yardline_100",
-            "rusher_player_id", "receiver_player_id", "passer_player_id", "qb_dropback", "qb_epa"]
-    df = nfl.load_pbp(seasons).to_pandas()[cols]
+            "rusher_player_id", "receiver_player_id", "passer_player_id", "qb_dropback", "qb_epa",
+            "two_point_attempt"]
+    df = nfl.load_pbp(seasons).select(cols).to_pandas()   # colonnes choisies avant la conversion : moins de mémoire
     return _normalize(df, ["posteam", "defteam"])
+
+
+def load_injuries_all(seasons: list[int]) -> pd.DataFrame | None:
+    """Rapports de blessures de plusieurs saisons (statut de chaque joueur, semaine par semaine)."""
+    try:
+        df = nfl.load_injuries(seasons).to_pandas()
+    except Exception as e:
+        logger.warning("Rapports de blessures indisponibles : %s", e)
+        return None
+    df["team"] = df["team"].replace(TEAM_ALIASES)
+    return df[["season", "week", "team", "gsis_id", "report_status"]]
+
+
+def load_snaps(seasons: list[int]) -> tuple[pd.DataFrame | None, dict]:
+    """Snaps joués par match et table de correspondance des identifiants (PFR -> GSIS)."""
+    try:
+        snaps = nfl.load_snap_counts(seasons).to_pandas()[["season", "week", "pfr_player_id", "offense_pct"]]
+        ids = nfl.load_players().to_pandas()[["pfr_id", "gsis_id"]].dropna()
+        return snaps, dict(zip(ids["pfr_id"], ids["gsis_id"]))
+    except Exception as e:
+        logger.warning("Snaps indisponibles : %s", e)
+        return None, {}
+
+
+def load_depth_chart(season: int) -> pd.DataFrame | None:
+    """Dernière hiérarchie connue de chaque équipe (QB, RB, WR, TE), du titulaire au remplaçant."""
+    try:
+        df = nfl.load_depth_charts([season]).to_pandas()
+    except Exception as e:
+        logger.warning("Hiérarchie des postes indisponible : %s", e)
+        return None
+    if "dt" not in df.columns or "pos_rank" not in df.columns:
+        return None
+    df["team"] = df["team"].replace(TEAM_ALIASES)
+    df = df[df["dt"] == df.groupby("team")["dt"].transform("max")]
+    df = df[df["pos_abb"].isin(["QB", "RB", "WR", "TE"]) & df["gsis_id"].notna()]
+    return df[["team", "gsis_id", "player_name", "pos_abb", "pos_rank", "dt"]].sort_values(["team", "pos_abb", "pos_rank"])
+
+
+def load_roster_status(season: int) -> pd.DataFrame | None:
+    """Statut d'effectif le plus récent de chaque joueur (ACT = actif, RES = réserve des blessés, DEV = réserve)."""
+    try:
+        df = nfl.load_rosters_weekly([season]).to_pandas()
+    except Exception as e:
+        logger.warning("Effectifs indisponibles : %s", e)
+        return None
+    df["team"] = df["team"].replace(TEAM_ALIASES)
+    df = df[df["week"] == df.groupby("team")["week"].transform("max")]
+    return df[["team", "gsis_id", "full_name", "position", "status"]].dropna(subset=["gsis_id"])
 
 
 STATUS_ORDER = {"Out": 0, "Doubtful": 1, "Questionable": 2}
