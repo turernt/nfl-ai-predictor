@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T22:02:40+00:00",
+  "generated_at": "2026-11-09T22:44:11+00:00",
   "season": 2026,
   "week": 9,
   "week_label": "Semaine 9",
@@ -12,7 +12,7 @@
       "n": 10,
       "correct": 10
     },
-    "clv_avg": 0.05,
+    "clv_avg": 0.02,
     "clv_pos": 7,
     "clv_n": 20,
     "fr_bets": 0,
@@ -295,12 +295,12 @@
       "market_games": 120,
       "market_correct": 79,
       "scorer_picks": 315,
-      "scorer_hits": 116,
-      "scorer_expected": 130.3,
+      "scorer_hits": 122,
+      "scorer_expected": 132.0,
       "scorer_all_n": 1260,
-      "scorer_all_hits": 288,
-      "scorer_all_expected": 317.3,
-      "scorer_brier": 0.1663,
+      "scorer_all_hits": 325,
+      "scorer_all_expected": 327.6,
+      "scorer_brier": 0.1775,
       "weeks": [
         {
           "week": 1,
@@ -349,30 +349,30 @@
         {
           "label": "50 % et plus",
           "min": 50,
-          "n": 58,
-          "predicted": 56.7,
-          "actual": 56.9
+          "n": 69,
+          "predicted": 58.3,
+          "actual": 62.3
         },
         {
           "label": "40 à 50 %",
           "min": 40,
-          "n": 95,
-          "predicted": 44.3,
-          "actual": 45.3
+          "n": 98,
+          "predicted": 44.7,
+          "actual": 42.9
         },
         {
           "label": "30 à 40 %",
           "min": 30,
-          "n": 217,
-          "predicted": 34.4,
-          "actual": 24.0
+          "n": 203,
+          "predicted": 34.2,
+          "actual": 31.0
         },
         {
           "label": "moins de 30 %",
           "min": 0,
           "n": 890,
-          "predicted": 18.8,
-          "actual": 18.0
+          "predicted": 19.6,
+          "actual": 19.9
         }
       ]
     },
@@ -804,19 +804,19 @@
           {
             "name": "Jahmyr Gibbs",
             "team": "DET",
-            "prob": 60.1,
+            "prob": 59.7,
+            "scored": true
+          },
+          {
+            "name": "James Cook",
+            "team": "BUF",
+            "prob": 54.4,
             "scored": true
           },
           {
             "name": "Amon-Ra St. Brown",
             "team": "DET",
-            "prob": 49.1,
-            "scored": true
-          },
-          {
-            "name": "Josh Allen",
-            "team": "BUF",
-            "prob": 46.9,
+            "prob": 51.6,
             "scored": true
           }
         ]
@@ -846,21 +846,21 @@
         "model_brier": 0.5112,
         "scorers": [
           {
-            "name": "Bijan Robinson",
-            "team": "ATL",
-            "prob": 59.1,
-            "scored": false
-          },
-          {
             "name": "Chuba Hubbard",
             "team": "CAR",
-            "prob": 50.8,
+            "prob": 50.5,
             "scored": true
+          },
+          {
+            "name": "Bijan Robinson",
+            "team": "ATL",
+            "prob": 48.9,
+            "scored": false
           },
           {
             "name": "Jalen Coker",
             "team": "CAR",
-            "prob": 40.0,
+            "prob": 37.4,
             "scored": false
           }
         ]
@@ -892,19 +892,19 @@
           {
             "name": "Derrick Henry",
             "team": "BAL",
-            "prob": 65.8,
+            "prob": 61.8,
             "scored": true
           },
           {
-            "name": "Juwan Johnson",
+            "name": "Travis Etienne",
             "team": "NO",
-            "prob": 31.7,
+            "prob": 34.5,
             "scored": false
           },
           {
-            "name": "Lamar Jackson",
+            "name": "Mark Andrews",
             "team": "BAL",
-            "prob": 30.9,
+            "prob": 33.0,
             "scored": false
           }
         ]
@@ -936,19 +936,19 @@
           {
             "name": "D'Andre Swift",
             "team": "CHI",
-            "prob": 56.1,
-            "scored": false
-          },
-          {
-            "name": "Caleb Williams",
-            "team": "CHI",
-            "prob": 41.8,
+            "prob": 53.5,
             "scored": false
           },
           {
             "name": "Justin Jefferson",
             "team": "MIN",
-            "prob": 41.1,
+            "prob": 42.5,
+            "scored": false
+          },
+          {
+            "name": "Colston Loveland",
+            "team": "CHI",
+            "prob": 35.6,
             "scored": false
           }
         ]
@@ -980,19 +980,19 @@
           {
             "name": "David Montgomery",
             "team": "HOU",
-            "prob": 67.9,
+            "prob": 49.2,
             "scored": false
           },
           {
             "name": "Chase Brown",
             "team": "CIN",
-            "prob": 42.6,
+            "prob": 47.3,
             "scored": false
           },
           {
-            "name": "Nico Collins",
+            "name": "Woody Marks",
             "team": "HOU",
-            "prob": 38.1,
+            "prob": 34.7,
             "scored": false
           }
         ]
@@ -1022,21 +1022,21 @@
         "model_brier": 0.1225,
         "scorers": [
           {
-            "name": "Eli Raridon",
+            "name": "Rhamondre Stevenson",
             "team": "NE",
             "prob": 52.1,
             "scored": false
           },
           {
-            "name": "Mack Hollins",
-            "team": "NE",
-            "prob": 43.1,
+            "name": "DK Metcalf",
+            "team": "PIT",
+            "prob": 27.0,
             "scored": false
           },
           {
-            "name": "Pat Freiermuth",
+            "name": "Jaylen Warren",
             "team": "PIT",
-            "prob": 39.1,
+            "prob": 26.1,
             "scored": false
           }
         ]
@@ -1066,21 +1066,21 @@
         "model_brier": 0.1731,
         "scorers": [
           {
-            "name": "Breece Hall",
-            "team": "NYJ",
-            "prob": 51.1,
-            "scored": false
-          },
-          {
             "name": "Christian Watson",
             "team": "GB",
-            "prob": 44.1,
+            "prob": 43.6,
             "scored": true
+          },
+          {
+            "name": "Breece Hall",
+            "team": "NYJ",
+            "prob": 39.2,
+            "scored": false
           },
           {
             "name": "Matthew Golden",
             "team": "GB",
-            "prob": 32.7,
+            "prob": 30.7,
             "scored": false
           }
         ]
@@ -1110,21 +1110,21 @@
         "model_brier": 0.3944,
         "scorers": [
           {
-            "name": "Baker Mayfield",
+            "name": "Kenny Gainwell",
             "team": "TB",
-            "prob": 44.2,
+            "prob": 40.8,
             "scored": false
           },
           {
             "name": "Bucky Irving",
             "team": "TB",
-            "prob": 42.8,
+            "prob": 38.4,
             "scored": false
           },
           {
-            "name": "Quinshon Judkins",
-            "team": "CLE",
-            "prob": 35.4,
+            "name": "Cade Otton",
+            "team": "TB",
+            "prob": 32.4,
             "scored": false
           }
         ]
@@ -1156,19 +1156,19 @@
           {
             "name": "Dallas Goedert",
             "team": "PHI",
-            "prob": 51.4,
-            "scored": false
-          },
-          {
-            "name": "Elic Ayomanor",
-            "team": "TEN",
-            "prob": 48.7,
+            "prob": 48.4,
             "scored": false
           },
           {
             "name": "Saquon Barkley",
             "team": "PHI",
-            "prob": 37.1,
+            "prob": 46.7,
+            "scored": false
+          },
+          {
+            "name": "Dontayvion Wicks",
+            "team": "PHI",
+            "prob": 30.9,
             "scored": false
           }
         ]
@@ -1198,21 +1198,21 @@
         "model_brier": 0.3215,
         "scorers": [
           {
-            "name": "Evan Engram",
+            "name": "Courtland Sutton",
             "team": "DEN",
-            "prob": 48.2,
+            "prob": 35.1,
             "scored": false
           },
           {
-            "name": "Brenton Strange",
-            "team": "JAX",
-            "prob": 37.1,
+            "name": "RJ Harvey",
+            "team": "DEN",
+            "prob": 29.7,
             "scored": false
           },
           {
-            "name": "Josh Cameron",
+            "name": "Chris Rodriguez Jr.",
             "team": "JAX",
-            "prob": 36.8,
+            "prob": 27.8,
             "scored": false
           }
         ]
@@ -1242,21 +1242,21 @@
         "model_brier": 0.3919,
         "scorers": [
           {
-            "name": "Ashton Jeanty",
-            "team": "LV",
-            "prob": 54.4,
-            "scored": false
-          },
-          {
             "name": "Omarion Hampton",
             "team": "LAC",
-            "prob": 44.9,
+            "prob": 44.4,
             "scored": true
           },
           {
-            "name": "Ladd McConkey",
+            "name": "Ashton Jeanty",
+            "team": "LV",
+            "prob": 44.2,
+            "scored": false
+          },
+          {
+            "name": "Quentin Johnston",
             "team": "LAC",
-            "prob": 42.7,
+            "prob": 28.8,
             "scored": false
           }
         ]
@@ -1288,19 +1288,19 @@
           {
             "name": "Jaxon Smith-Njigba",
             "team": "SEA",
-            "prob": 52.6,
+            "prob": 47.3,
             "scored": true
-          },
-          {
-            "name": "Jeremiyah Love",
-            "team": "ARI",
-            "prob": 36.5,
-            "scored": false
           },
           {
             "name": "Trey McBride",
             "team": "ARI",
-            "prob": 36.1,
+            "prob": 33.9,
+            "scored": true
+          },
+          {
+            "name": "AJ Barner",
+            "team": "SEA",
+            "prob": 29.4,
             "scored": true
           }
         ]
@@ -1332,19 +1332,19 @@
           {
             "name": "Javonte Williams",
             "team": "DAL",
-            "prob": 68.4,
+            "prob": 65.7,
             "scored": false
           },
           {
             "name": "CeeDee Lamb",
             "team": "DAL",
-            "prob": 45.2,
+            "prob": 42.4,
             "scored": true
           },
           {
             "name": "Jacory Croskey-Merritt",
             "team": "WAS",
-            "prob": 35.6,
+            "prob": 42.3,
             "scored": false
           }
         ]
@@ -1374,21 +1374,21 @@
         "model_brier": 0.0745,
         "scorers": [
           {
-            "name": "De'Von Achane",
-            "team": "MIA",
-            "prob": 45.7,
-            "scored": false
-          },
-          {
-            "name": "Deebo Samuel Sr.",
+            "name": "Christian McCaffrey",
             "team": "SF",
-            "prob": 45.7,
-            "scored": false
+            "prob": 59.4,
+            "scored": true
           },
           {
             "name": "Mike Evans",
             "team": "SF",
-            "prob": 40.7,
+            "prob": 40.9,
+            "scored": false
+          },
+          {
+            "name": "De'Von Achane",
+            "team": "MIA",
+            "prob": 33.5,
             "scored": false
           }
         ]
@@ -1420,19 +1420,19 @@
           {
             "name": "Kenneth Walker III",
             "team": "KC",
-            "prob": 60.6,
+            "prob": 61.3,
             "scored": false
           },
           {
             "name": "Jonathan Taylor",
             "team": "IND",
-            "prob": 60.2,
+            "prob": 58.1,
             "scored": true
           },
           {
-            "name": "Patrick Mahomes",
+            "name": "Rashee Rice",
             "team": "KC",
-            "prob": 39.0,
+            "prob": 44.2,
             "scored": false
           }
         ]
@@ -1464,19 +1464,19 @@
           {
             "name": "Kyren Williams",
             "team": "LA",
-            "prob": 60.4,
+            "prob": 55.0,
             "scored": true
-          },
-          {
-            "name": "Isaiah Likely",
-            "team": "NYG",
-            "prob": 47.1,
-            "scored": false
           },
           {
             "name": "Cam Skattebo",
             "team": "NYG",
-            "prob": 41.4,
+            "prob": 34.7,
+            "scored": false
+          },
+          {
+            "name": "Colby Parkinson",
+            "team": "LA",
+            "prob": 34.7,
             "scored": false
           }
         ]
@@ -1506,22 +1506,22 @@
         "model_brier": 0.3036,
         "scorers": [
           {
-            "name": "Bijan Robinson",
-            "team": "ATL",
-            "prob": 49.4,
-            "scored": true
-          },
-          {
             "name": "Christian Watson",
             "team": "GB",
-            "prob": 48.6,
+            "prob": 49.1,
             "scored": true
           },
           {
-            "name": "MarShawn Lloyd",
+            "name": "Bijan Robinson",
+            "team": "ATL",
+            "prob": 37.2,
+            "scored": true
+          },
+          {
+            "name": "Matthew Golden",
             "team": "GB",
-            "prob": 38.9,
-            "scored": false
+            "prob": 30.1,
+            "scored": true
           }
         ]
       },
@@ -1550,22 +1550,22 @@
         "model_brier": 0.065,
         "scorers": [
           {
+            "name": "James Cook",
+            "team": "BUF",
+            "prob": 57.7,
+            "scored": true
+          },
+          {
             "name": "Josh Allen",
             "team": "BUF",
-            "prob": 52.5,
+            "prob": 42.1,
             "scored": true
           },
           {
             "name": "Omarion Hampton",
             "team": "LAC",
-            "prob": 49.1,
+            "prob": 38.8,
             "scored": false
-          },
-          {
-            "name": "James Cook",
-            "team": "BUF",
-            "prob": 42.8,
-            "scored": true
           }
         ]
       },
@@ -1596,19 +1596,19 @@
           {
             "name": "Chuba Hubbard",
             "team": "CAR",
-            "prob": 42.8,
+            "prob": 45.8,
             "scored": false
           },
           {
             "name": "Denzel Boston",
             "team": "CLE",
-            "prob": 38.8,
+            "prob": 34.4,
             "scored": false
           },
           {
-            "name": "Jalen Coker",
+            "name": "Tetairoa McMillan",
             "team": "CAR",
-            "prob": 32.7,
+            "prob": 30.8,
             "scored": false
           }
         ]
@@ -1640,19 +1640,19 @@
           {
             "name": "Jahmyr Gibbs",
             "team": "DET",
-            "prob": 58.8,
+            "prob": 68.2,
             "scored": true
           },
           {
             "name": "Amon-Ra St. Brown",
             "team": "DET",
-            "prob": 55.8,
+            "prob": 59.7,
             "scored": true
           },
           {
-            "name": "Breece Hall",
-            "team": "NYJ",
-            "prob": 39.6,
+            "name": "Sam LaPorta",
+            "team": "DET",
+            "prob": 43.5,
             "scored": false
           }
         ]
@@ -1684,19 +1684,19 @@
           {
             "name": "Jonathan Taylor",
             "team": "IND",
-            "prob": 57.3,
+            "prob": 59.8,
             "scored": false
           },
           {
             "name": "David Montgomery",
             "team": "HOU",
-            "prob": 54.4,
+            "prob": 41.1,
             "scored": false
           },
           {
             "name": "Tyler Warren",
             "team": "IND",
-            "prob": 34.1,
+            "prob": 37.3,
             "scored": false
           }
         ]
@@ -1728,19 +1728,19 @@
           {
             "name": "Bhayshul Tuten",
             "team": "JAX",
-            "prob": 42.6,
+            "prob": 36.3,
             "scored": true
           },
           {
-            "name": "Eli Raridon",
+            "name": "TreVeyon Henderson",
             "team": "NE",
-            "prob": 36.2,
+            "prob": 32.8,
             "scored": false
           },
           {
-            "name": "Brenton Strange",
-            "team": "JAX",
-            "prob": 31.7,
+            "name": "Rhamondre Stevenson",
+            "team": "NE",
+            "prob": 31.1,
             "scored": false
           }
         ]
@@ -1772,19 +1772,19 @@
           {
             "name": "Kenneth Walker III",
             "team": "KC",
-            "prob": 53.1,
+            "prob": 66.4,
             "scored": true
           },
           {
             "name": "De'Von Achane",
             "team": "MIA",
-            "prob": 38.5,
+            "prob": 39.7,
             "scored": false
           },
           {
-            "name": "Xavier Worthy",
+            "name": "Rashee Rice",
             "team": "KC",
-            "prob": 31.9,
+            "prob": 38.5,
             "scored": false
           }
         ]
@@ -1814,21 +1814,21 @@
         "model_brier": 0.1998,
         "scorers": [
           {
-            "name": "Isaiah Likely",
+            "name": "Cam Skattebo",
             "team": "NYG",
-            "prob": 40.3,
+            "prob": 33.0,
+            "scored": false
+          },
+          {
+            "name": "Devin Singletary",
+            "team": "NYG",
+            "prob": 24.7,
             "scored": false
           },
           {
             "name": "Cam Ward",
             "team": "TEN",
-            "prob": 39.6,
-            "scored": false
-          },
-          {
-            "name": "Cam Skattebo",
-            "team": "NYG",
-            "prob": 37.7,
+            "prob": 24.6,
             "scored": false
           }
         ]
@@ -1860,19 +1860,19 @@
           {
             "name": "Chase Brown",
             "team": "CIN",
-            "prob": 42.3,
-            "scored": false
-          },
-          {
-            "name": "Pat Freiermuth",
-            "team": "PIT",
-            "prob": 38.0,
+            "prob": 49.6,
             "scored": false
           },
           {
             "name": "Ja'Marr Chase",
             "team": "CIN",
-            "prob": 37.6,
+            "prob": 39.9,
+            "scored": true
+          },
+          {
+            "name": "DK Metcalf",
+            "team": "PIT",
+            "prob": 28.1,
             "scored": true
           }
         ]
@@ -1904,19 +1904,19 @@
           {
             "name": "Jaxon Smith-Njigba",
             "team": "SEA",
-            "prob": 56.7,
+            "prob": 47.8,
             "scored": true
           },
           {
-            "name": "Stefon Diggs",
-            "team": "WAS",
-            "prob": 38.3,
+            "name": "AJ Barner",
+            "team": "SEA",
+            "prob": 33.8,
             "scored": false
           },
           {
             "name": "Emanuel Wilson",
             "team": "SEA",
-            "prob": 29.7,
+            "prob": 28.6,
             "scored": false
           }
         ]
@@ -1948,20 +1948,20 @@
           {
             "name": "Christian McCaffrey",
             "team": "SF",
-            "prob": 49.7,
+            "prob": 59.3,
             "scored": true
           },
           {
             "name": "Trey McBride",
             "team": "ARI",
-            "prob": 46.3,
+            "prob": 41.1,
             "scored": false
           },
           {
-            "name": "Jeremiyah Love",
-            "team": "ARI",
-            "prob": 38.9,
-            "scored": true
+            "name": "Kyle Juszczyk",
+            "team": "SF",
+            "prob": 30.2,
+            "scored": false
           }
         ]
       },
@@ -1992,19 +1992,19 @@
           {
             "name": "Justin Jefferson",
             "team": "MIN",
-            "prob": 40.6,
+            "prob": 40.5,
             "scored": false
           },
           {
             "name": "Aaron Jones",
             "team": "MIN",
-            "prob": 36.4,
+            "prob": 36.2,
             "scored": false
           },
           {
             "name": "Bucky Irving",
             "team": "TB",
-            "prob": 34.8,
+            "prob": 33.5,
             "scored": false
           }
         ]
@@ -2036,19 +2036,19 @@
           {
             "name": "Derrick Henry",
             "team": "BAL",
-            "prob": 68.1,
+            "prob": 60.5,
             "scored": true
           },
           {
             "name": "Javonte Williams",
             "team": "DAL",
-            "prob": 49.0,
+            "prob": 57.6,
             "scored": true
           },
           {
             "name": "CeeDee Lamb",
             "team": "DAL",
-            "prob": 46.0,
+            "prob": 41.7,
             "scored": false
           }
         ]
@@ -2080,20 +2080,20 @@
           {
             "name": "Ashton Jeanty",
             "team": "LV",
-            "prob": 48.5,
+            "prob": 50.3,
             "scored": false
           },
           {
-            "name": "Tyler Shough",
+            "name": "Travis Etienne",
             "team": "NO",
-            "prob": 32.6,
+            "prob": 39.9,
             "scored": false
           },
           {
-            "name": "Cody White",
-            "team": "LV",
-            "prob": 31.7,
-            "scored": true
+            "name": "Devaughn Vele",
+            "team": "NO",
+            "prob": 35.6,
+            "scored": false
           }
         ]
       },
@@ -2124,19 +2124,19 @@
           {
             "name": "Kyren Williams",
             "team": "LA",
-            "prob": 49.1,
+            "prob": 40.2,
+            "scored": false
+          },
+          {
+            "name": "RJ Harvey",
+            "team": "DEN",
+            "prob": 35.7,
             "scored": false
           },
           {
             "name": "Davante Adams",
             "team": "LA",
-            "prob": 36.5,
-            "scored": false
-          },
-          {
-            "name": "Jonah Coleman",
-            "team": "DEN",
-            "prob": 36.3,
+            "prob": 28.7,
             "scored": false
           }
         ]
@@ -2168,19 +2168,19 @@
           {
             "name": "D'Andre Swift",
             "team": "CHI",
-            "prob": 44.3,
+            "prob": 42.5,
             "scored": false
           },
           {
-            "name": "Dallas Goedert",
+            "name": "DeVonta Smith",
             "team": "PHI",
-            "prob": 33.8,
+            "prob": 40.8,
             "scored": false
           },
           {
-            "name": "Tank Bigsby",
+            "name": "Dontayvion Wicks",
             "team": "PHI",
-            "prob": 31.7,
+            "prob": 28.4,
             "scored": false
           }
         ]
@@ -2210,22 +2210,22 @@
         "model_brier": 0.243,
         "scorers": [
           {
-            "name": "Harold Fannin Jr.",
-            "team": "CLE",
-            "prob": 31.8,
-            "scored": true
-          },
-          {
             "name": "Jaylen Warren",
             "team": "PIT",
-            "prob": 31.1,
+            "prob": 42.7,
             "scored": false
           },
           {
-            "name": "Denzel Boston",
-            "team": "CLE",
-            "prob": 30.9,
+            "name": "DK Metcalf",
+            "team": "PIT",
+            "prob": 33.3,
             "scored": false
+          },
+          {
+            "name": "Harold Fannin Jr.",
+            "team": "CLE",
+            "prob": 30.0,
+            "scored": true
           }
         ]
       },
@@ -2256,18 +2256,18 @@
           {
             "name": "Jonathan Taylor",
             "team": "IND",
-            "prob": 57.6,
+            "prob": 65.1,
             "scored": true
-          },
-          {
-            "name": "Stefon Diggs",
-            "team": "WAS",
-            "prob": 35.0,
-            "scored": false
           },
           {
             "name": "Tyler Warren",
             "team": "IND",
+            "prob": 41.1,
+            "scored": false
+          },
+          {
+            "name": "Jacory Croskey-Merritt",
+            "team": "WAS",
             "prob": 33.1,
             "scored": false
           }
@@ -2300,20 +2300,20 @@
           {
             "name": "Derrick Henry",
             "team": "BAL",
-            "prob": 64.3,
+            "prob": 65.0,
             "scored": true
+          },
+          {
+            "name": "Rashod Bateman",
+            "team": "BAL",
+            "prob": 32.4,
+            "scored": false
           },
           {
             "name": "Cam Ward",
             "team": "TEN",
-            "prob": 30.0,
+            "prob": 21.7,
             "scored": false
-          },
-          {
-            "name": "Tony Pollard",
-            "team": "TEN",
-            "prob": 25.6,
-            "scored": true
           }
         ]
       },
@@ -2342,22 +2342,22 @@
         "model_brier": 0.377,
         "scorers": [
           {
-            "name": "Josh Allen",
-            "team": "BUF",
-            "prob": 56.9,
-            "scored": true
-          },
-          {
             "name": "James Cook",
             "team": "BUF",
-            "prob": 44.4,
+            "prob": 55.3,
             "scored": true
           },
           {
-            "name": "TreVeyon Henderson",
+            "name": "Josh Allen",
+            "team": "BUF",
+            "prob": 43.4,
+            "scored": true
+          },
+          {
+            "name": "Rhamondre Stevenson",
             "team": "NE",
-            "prob": 28.3,
-            "scored": false
+            "prob": 28.5,
+            "scored": true
           }
         ]
       },
@@ -2388,19 +2388,19 @@
           {
             "name": "D'Andre Swift",
             "team": "CHI",
-            "prob": 42.2,
-            "scored": false
-          },
-          {
-            "name": "Breece Hall",
-            "team": "NYJ",
-            "prob": 32.7,
+            "prob": 50.9,
             "scored": false
           },
           {
             "name": "Garrett Wilson",
             "team": "NYJ",
-            "prob": 31.0,
+            "prob": 31.4,
+            "scored": false
+          },
+          {
+            "name": "Case Keenum",
+            "team": "CHI",
+            "prob": 29.3,
             "scored": false
           }
         ]
@@ -2430,21 +2430,21 @@
         "model_brier": 0.1714,
         "scorers": [
           {
+            "name": "Chase Brown",
+            "team": "CIN",
+            "prob": 51.3,
+            "scored": false
+          },
+          {
             "name": "Ja'Marr Chase",
             "team": "CIN",
-            "prob": 46.0,
+            "prob": 49.5,
             "scored": false
           },
           {
             "name": "Bhayshul Tuten",
             "team": "JAX",
-            "prob": 39.8,
-            "scored": false
-          },
-          {
-            "name": "Chase Brown",
-            "team": "CIN",
-            "prob": 37.0,
+            "prob": 36.0,
             "scored": false
           }
         ]
@@ -2474,21 +2474,21 @@
         "model_brier": 0.3795,
         "scorers": [
           {
-            "name": "David Montgomery",
-            "team": "HOU",
-            "prob": 50.3,
-            "scored": false
-          },
-          {
             "name": "Javonte Williams",
             "team": "DAL",
-            "prob": 43.3,
+            "prob": 52.6,
             "scored": true
+          },
+          {
+            "name": "David Montgomery",
+            "team": "HOU",
+            "prob": 47.1,
+            "scored": false
           },
           {
             "name": "Woody Marks",
             "team": "HOU",
-            "prob": 36.7,
+            "prob": 37.3,
             "scored": true
           }
         ]
@@ -2518,21 +2518,21 @@
         "model_brier": 0.244,
         "scorers": [
           {
-            "name": "Jeremiyah Love",
-            "team": "ARI",
-            "prob": 43.3,
-            "scored": false
-          },
-          {
-            "name": "Cam Skattebo",
-            "team": "NYG",
-            "prob": 41.7,
-            "scored": false
-          },
-          {
             "name": "Trey McBride",
             "team": "ARI",
-            "prob": 36.8,
+            "prob": 44.5,
+            "scored": false
+          },
+          {
+            "name": "Michael Wilson",
+            "team": "ARI",
+            "prob": 42.1,
+            "scored": false
+          },
+          {
+            "name": "Jeremiyah Love",
+            "team": "ARI",
+            "prob": 36.7,
             "scored": false
           }
         ]
@@ -2564,20 +2564,20 @@
           {
             "name": "Kyren Williams",
             "team": "LA",
-            "prob": 41.8,
+            "prob": 44.4,
             "scored": true
           },
           {
-            "name": "Davante Adams",
-            "team": "LA",
-            "prob": 32.6,
+            "name": "Dontayvion Wicks",
+            "team": "PHI",
+            "prob": 33.0,
             "scored": false
           },
           {
-            "name": "Dallas Goedert",
-            "team": "PHI",
-            "prob": 25.9,
-            "scored": false
+            "name": "Puka Nacua",
+            "team": "LA",
+            "prob": 32.9,
+            "scored": true
           }
         ]
       },
@@ -2608,19 +2608,19 @@
           {
             "name": "Christian Watson",
             "team": "GB",
-            "prob": 47.1,
+            "prob": 43.6,
             "scored": false
+          },
+          {
+            "name": "Matthew Golden",
+            "team": "GB",
+            "prob": 28.2,
+            "scored": true
           },
           {
             "name": "Bucky Irving",
             "team": "TB",
-            "prob": 31.8,
-            "scored": false
-          },
-          {
-            "name": "MarShawn Lloyd",
-            "team": "GB",
-            "prob": 31.7,
+            "prob": 25.2,
             "scored": false
           }
         ]
@@ -2650,21 +2650,21 @@
         "model_brier": 0.0858,
         "scorers": [
           {
-            "name": "Justin Jefferson",
+            "name": "Aaron Jones",
             "team": "MIN",
-            "prob": 37.5,
+            "prob": 42.4,
             "scored": false
           },
           {
-            "name": "Aaron Jones",
+            "name": "Jordan Addison",
             "team": "MIN",
-            "prob": 35.6,
+            "prob": 35.5,
             "scored": false
           },
           {
             "name": "Jordan Mason",
             "team": "MIN",
-            "prob": 30.4,
+            "prob": 33.0,
             "scored": false
           }
         ]
@@ -2696,19 +2696,19 @@
           {
             "name": "Kenneth Walker III",
             "team": "KC",
-            "prob": 57.8,
+            "prob": 63.1,
             "scored": true
           },
           {
             "name": "Ashton Jeanty",
             "team": "LV",
-            "prob": 42.0,
+            "prob": 49.9,
             "scored": false
           },
           {
-            "name": "Cody White",
-            "team": "LV",
-            "prob": 34.2,
+            "name": "Rashee Rice",
+            "team": "KC",
+            "prob": 34.5,
             "scored": false
           }
         ]
@@ -2740,20 +2740,20 @@
           {
             "name": "Jaxon Smith-Njigba",
             "team": "SEA",
-            "prob": 57.6,
+            "prob": 51.6,
             "scored": false
           },
           {
-            "name": "Omarion Hampton",
-            "team": "LAC",
-            "prob": 40.4,
+            "name": "AJ Barner",
+            "team": "SEA",
+            "prob": 37.3,
+            "scored": false
+          },
+          {
+            "name": "Emanuel Wilson",
+            "team": "SEA",
+            "prob": 29.1,
             "scored": true
-          },
-          {
-            "name": "Keaton Mitchell",
-            "team": "LAC",
-            "prob": 26.1,
-            "scored": false
           }
         ]
       },
@@ -2784,19 +2784,19 @@
           {
             "name": "Christian McCaffrey",
             "team": "SF",
-            "prob": 45.8,
+            "prob": 58.1,
             "scored": true
           },
           {
             "name": "George Kittle",
             "team": "SF",
-            "prob": 39.4,
+            "prob": 31.8,
             "scored": true
           },
           {
-            "name": "Nate Adkins",
+            "name": "Courtland Sutton",
             "team": "DEN",
-            "prob": 32.7,
+            "prob": 31.5,
             "scored": false
           }
         ]
@@ -2828,19 +2828,19 @@
           {
             "name": "Jahmyr Gibbs",
             "team": "DET",
-            "prob": 66.3,
+            "prob": 68.6,
             "scored": true
           },
           {
             "name": "Amon-Ra St. Brown",
             "team": "DET",
-            "prob": 52.4,
+            "prob": 55.8,
             "scored": false
           },
           {
             "name": "Chuba Hubbard",
             "team": "CAR",
-            "prob": 42.0,
+            "prob": 46.7,
             "scored": true
           }
         ]
@@ -2872,19 +2872,19 @@
           {
             "name": "Bijan Robinson",
             "team": "ATL",
-            "prob": 62.7,
+            "prob": 52.4,
             "scored": true
           },
           {
-            "name": "Juwan Johnson",
+            "name": "Chris Olave",
             "team": "NO",
-            "prob": 40.2,
+            "prob": 38.4,
             "scored": false
           },
           {
-            "name": "Noah Fant",
+            "name": "Travis Etienne",
             "team": "NO",
-            "prob": 37.5,
+            "prob": 36.3,
             "scored": false
           }
         ]
@@ -2916,20 +2916,20 @@
           {
             "name": "Javonte Williams",
             "team": "DAL",
-            "prob": 60.3,
+            "prob": 70.2,
             "scored": true
           },
           {
             "name": "CeeDee Lamb",
             "team": "DAL",
-            "prob": 42.6,
+            "prob": 47.0,
             "scored": false
           },
           {
-            "name": "Jake Ferguson",
+            "name": "George Pickens",
             "team": "DAL",
-            "prob": 33.5,
-            "scored": false
+            "prob": 37.0,
+            "scored": true
           }
         ]
       },
@@ -2960,20 +2960,20 @@
           {
             "name": "Bhayshul Tuten",
             "team": "JAX",
-            "prob": 37.2,
+            "prob": 38.3,
             "scored": false
           },
           {
-            "name": "Chris Rodriguez Jr.",
+            "name": "Parker Washington",
             "team": "JAX",
-            "prob": 32.8,
-            "scored": false
+            "prob": 34.2,
+            "scored": true
           },
           {
-            "name": "Darius Cooper",
-            "team": "PHI",
-            "prob": 32.6,
-            "scored": true
+            "name": "Jakobi Meyers",
+            "team": "JAX",
+            "prob": 31.0,
+            "scored": false
           }
         ]
       },
@@ -3002,22 +3002,22 @@
         "model_brier": 0.3003,
         "scorers": [
           {
-            "name": "Christian Watson",
-            "team": "GB",
-            "prob": 41.6,
-            "scored": true
-          },
-          {
-            "name": "Kyle Monangai",
-            "team": "CHI",
-            "prob": 41.4,
-            "scored": false
-          },
-          {
             "name": "D'Andre Swift",
             "team": "CHI",
-            "prob": 38.3,
+            "prob": 52.2,
             "scored": true
+          },
+          {
+            "name": "Christian Watson",
+            "team": "GB",
+            "prob": 40.0,
+            "scored": true
+          },
+          {
+            "name": "Matthew Golden",
+            "team": "GB",
+            "prob": 34.8,
+            "scored": false
           }
         ]
       },
@@ -3046,21 +3046,21 @@
         "model_brier": 0.1697,
         "scorers": [
           {
-            "name": "Ollie Gordon II",
-            "team": "MIA",
-            "prob": 41.2,
-            "scored": true
+            "name": "Chase Brown",
+            "team": "CIN",
+            "prob": 50.1,
+            "scored": false
           },
           {
-            "name": "Ja'Marr Chase",
-            "team": "CIN",
-            "prob": 37.3,
+            "name": "Ollie Gordon II",
+            "team": "MIA",
+            "prob": 26.9,
             "scored": true
           },
           {
             "name": "Mike Gesicki",
             "team": "CIN",
-            "prob": 36.8,
+            "prob": 25.7,
             "scored": true
           }
         ]
@@ -3090,22 +3090,22 @@
         "model_brier": 0.1056,
         "scorers": [
           {
-            "name": "Romeo Doubs",
-            "team": "NE",
-            "prob": 39.6,
-            "scored": false
-          },
-          {
             "name": "Ashton Jeanty",
             "team": "LV",
-            "prob": 36.7,
+            "prob": 33.1,
             "scored": false
           },
           {
-            "name": "Rhamondre Stevenson",
-            "team": "NE",
-            "prob": 31.6,
+            "name": "Brock Bowers",
+            "team": "LV",
+            "prob": 32.8,
             "scored": true
+          },
+          {
+            "name": "Romeo Doubs",
+            "team": "NE",
+            "prob": 32.2,
+            "scored": false
           }
         ]
       },
@@ -3136,20 +3136,20 @@
           {
             "name": "Aaron Jones",
             "team": "MIN",
-            "prob": 41.3,
+            "prob": 40.0,
             "scored": true
           },
           {
-            "name": "T.J. Hockenson",
-            "team": "MIN",
-            "prob": 31.4,
+            "name": "Devaughn Vele",
+            "team": "NO",
+            "prob": 32.3,
             "scored": false
           },
           {
-            "name": "Justin Jefferson",
-            "team": "MIN",
-            "prob": 31.4,
-            "scored": true
+            "name": "Chris Olave",
+            "team": "NO",
+            "prob": 29.4,
+            "scored": false
           }
         ]
       },
@@ -3180,20 +3180,20 @@
           {
             "name": "Quinshon Judkins",
             "team": "CLE",
-            "prob": 33.8,
-            "scored": false
-          },
-          {
-            "name": "Harold Fannin Jr.",
-            "team": "CLE",
-            "prob": 33.0,
+            "prob": 34.2,
             "scored": false
           },
           {
             "name": "Braelon Allen",
             "team": "NYJ",
-            "prob": 30.8,
+            "prob": 33.8,
             "scored": true
+          },
+          {
+            "name": "Harold Fannin Jr.",
+            "team": "CLE",
+            "prob": 31.1,
+            "scored": false
           }
         ]
       },
@@ -3224,20 +3224,20 @@
           {
             "name": "Jonathan Taylor",
             "team": "IND",
-            "prob": 51.2,
+            "prob": 50.3,
             "scored": false
           },
           {
-            "name": "Roman Wilson",
+            "name": "Jaylen Warren",
             "team": "PIT",
-            "prob": 31.2,
-            "scored": false
-          },
-          {
-            "name": "Pat Freiermuth",
-            "team": "PIT",
-            "prob": 29.4,
+            "prob": 44.2,
             "scored": true
+          },
+          {
+            "name": "DK Metcalf",
+            "team": "PIT",
+            "prob": 33.6,
+            "scored": false
           }
         ]
       },
@@ -3268,19 +3268,19 @@
           {
             "name": "David Montgomery",
             "team": "HOU",
-            "prob": 38.4,
-            "scored": false
-          },
-          {
-            "name": "Nico Collins",
-            "team": "HOU",
-            "prob": 36.1,
+            "prob": 39.1,
             "scored": false
           },
           {
             "name": "Woody Marks",
             "team": "HOU",
-            "prob": 35.7,
+            "prob": 33.0,
+            "scored": false
+          },
+          {
+            "name": "Nico Collins",
+            "team": "HOU",
+            "prob": 31.2,
             "scored": false
           }
         ]
@@ -3310,22 +3310,22 @@
         "model_brier": null,
         "scorers": [
           {
-            "name": "Stefon Diggs",
+            "name": "Jacory Croskey-Merritt",
             "team": "WAS",
-            "prob": 33.2,
-            "scored": false
+            "prob": 32.7,
+            "scored": true
           },
           {
             "name": "Cam Skattebo",
             "team": "NYG",
-            "prob": 29.7,
+            "prob": 29.2,
             "scored": false
           },
           {
-            "name": "Jacory Croskey-Merritt",
+            "name": "Rachaad White",
             "team": "WAS",
-            "prob": 27.8,
-            "scored": true
+            "prob": 27.4,
+            "scored": false
           }
         ]
       },
@@ -3356,20 +3356,20 @@
           {
             "name": "Omarion Hampton",
             "team": "LAC",
-            "prob": 43.4,
+            "prob": 31.7,
             "scored": false
           },
           {
-            "name": "Nate Adkins",
+            "name": "RJ Harvey",
+            "team": "DEN",
+            "prob": 29.3,
+            "scored": false
+          },
+          {
+            "name": "Courtland Sutton",
             "team": "DEN",
             "prob": 29.2,
-            "scored": false
-          },
-          {
-            "name": "Jaylen Waddle",
-            "team": "DEN",
-            "prob": 25.7,
-            "scored": false
+            "scored": true
           }
         ]
       },
@@ -3400,19 +3400,19 @@
           {
             "name": "Jahmyr Gibbs",
             "team": "DET",
-            "prob": 65.0,
+            "prob": 71.8,
             "scored": true
           },
           {
             "name": "Amon-Ra St. Brown",
             "team": "DET",
-            "prob": 48.4,
+            "prob": 57.1,
             "scored": false
           },
           {
-            "name": "Jeremiyah Love",
+            "name": "Michael Wilson",
             "team": "ARI",
-            "prob": 37.0,
+            "prob": 47.0,
             "scored": false
           }
         ]
@@ -3442,21 +3442,21 @@
         "model_brier": 0.354,
         "scorers": [
           {
+            "name": "Christian McCaffrey",
+            "team": "SF",
+            "prob": 53.4,
+            "scored": true
+          },
+          {
             "name": "Jaxon Smith-Njigba",
             "team": "SEA",
             "prob": 48.6,
             "scored": true
           },
           {
-            "name": "Christian McCaffrey",
-            "team": "SF",
-            "prob": 41.7,
-            "scored": true
-          },
-          {
             "name": "Emanuel Wilson",
             "team": "SEA",
-            "prob": 37.9,
+            "prob": 36.3,
             "scored": true
           }
         ]
@@ -3488,19 +3488,19 @@
           {
             "name": "Bijan Robinson",
             "team": "ATL",
-            "prob": 57.4,
+            "prob": 53.8,
             "scored": false
           },
           {
             "name": "Derrick Henry",
             "team": "BAL",
-            "prob": 53.7,
+            "prob": 48.8,
             "scored": true
           },
           {
             "name": "Brian Robinson",
             "team": "ATL",
-            "prob": 45.9,
+            "prob": 30.3,
             "scored": false
           }
         ]
@@ -3532,19 +3532,19 @@
           {
             "name": "Kyren Williams",
             "team": "LA",
-            "prob": 58.5,
-            "scored": true
-          },
-          {
-            "name": "Josh Allen",
-            "team": "BUF",
-            "prob": 51.8,
+            "prob": 60.7,
             "scored": true
           },
           {
             "name": "James Cook",
             "team": "BUF",
-            "prob": 43.0,
+            "prob": 47.6,
+            "scored": true
+          },
+          {
+            "name": "Puka Nacua",
+            "team": "LA",
+            "prob": 47.6,
             "scored": true
           }
         ]
@@ -3576,20 +3576,20 @@
           {
             "name": "Jaxon Smith-Njigba",
             "team": "SEA",
-            "prob": 44.1,
+            "prob": 41.6,
             "scored": false
           },
           {
             "name": "Emanuel Wilson",
             "team": "SEA",
-            "prob": 37.9,
+            "prob": 35.3,
             "scored": false
           },
           {
-            "name": "J.K. Dobbins",
-            "team": "DEN",
-            "prob": 30.7,
-            "scored": true
+            "name": "AJ Barner",
+            "team": "SEA",
+            "prob": 29.2,
+            "scored": false
           }
         ]
       },
@@ -3618,22 +3618,22 @@
         "model_brier": 0.3528,
         "scorers": [
           {
-            "name": "Parker Washington",
-            "team": "JAX",
-            "prob": 37.9,
-            "scored": false
-          },
-          {
             "name": "Woody Marks",
             "team": "HOU",
-            "prob": 32.9,
+            "prob": 39.0,
             "scored": false
           },
           {
             "name": "Bhayshul Tuten",
             "team": "JAX",
-            "prob": 32.6,
+            "prob": 37.0,
             "scored": true
+          },
+          {
+            "name": "Parker Washington",
+            "team": "JAX",
+            "prob": 35.2,
+            "scored": false
           }
         ]
       },
@@ -3662,22 +3662,22 @@
         "model_brier": 0.2632,
         "scorers": [
           {
-            "name": "Bijan Robinson",
-            "team": "ATL",
-            "prob": 54.3,
-            "scored": false
-          },
-          {
             "name": "D'Andre Swift",
             "team": "CHI",
-            "prob": 46.5,
+            "prob": 57.8,
             "scored": true
           },
           {
-            "name": "Brian Robinson",
+            "name": "Bijan Robinson",
             "team": "ATL",
-            "prob": 41.4,
+            "prob": 55.7,
             "scored": false
+          },
+          {
+            "name": "Colston Loveland",
+            "team": "CHI",
+            "prob": 32.4,
+            "scored": true
           }
         ]
       },
@@ -3708,19 +3708,19 @@
           {
             "name": "Derrick Henry",
             "team": "BAL",
-            "prob": 52.5,
+            "prob": 50.2,
             "scored": false
           },
           {
-            "name": "Quinshon Judkins",
+            "name": "Harold Fannin Jr.",
             "team": "CLE",
-            "prob": 32.6,
+            "prob": 30.3,
             "scored": false
           },
           {
             "name": "Denzel Boston",
             "team": "CLE",
-            "prob": 30.8,
+            "prob": 29.3,
             "scored": false
           }
         ]
@@ -3752,19 +3752,19 @@
           {
             "name": "Jonathan Taylor",
             "team": "IND",
-            "prob": 55.0,
+            "prob": 63.5,
             "scored": true
-          },
-          {
-            "name": "Tony Pollard",
-            "team": "TEN",
-            "prob": 37.7,
-            "scored": false
           },
           {
             "name": "Tyler Warren",
             "team": "IND",
-            "prob": 33.4,
+            "prob": 29.7,
+            "scored": false
+          },
+          {
+            "name": "Tony Pollard",
+            "team": "TEN",
+            "prob": 29.5,
             "scored": false
           }
         ]
@@ -3796,20 +3796,20 @@
           {
             "name": "Rhamondre Stevenson",
             "team": "NE",
-            "prob": 34.6,
+            "prob": 45.4,
             "scored": false
           },
           {
             "name": "Braelon Allen",
             "team": "NYJ",
-            "prob": 34.0,
+            "prob": 32.9,
             "scored": false
           },
           {
-            "name": "Garrett Wilson",
-            "team": "NYJ",
-            "prob": 31.3,
-            "scored": false
+            "name": "Romeo Doubs",
+            "team": "NE",
+            "prob": 32.3,
+            "scored": true
           }
         ]
       },
@@ -3838,22 +3838,22 @@
         "model_brier": 0.354,
         "scorers": [
           {
-            "name": "Isaiah Likely",
-            "team": "NYG",
-            "prob": 41.4,
-            "scored": true
+            "name": "Devaughn Vele",
+            "team": "NO",
+            "prob": 37.8,
+            "scored": false
           },
           {
             "name": "Malik Nabers",
             "team": "NYG",
-            "prob": 32.9,
+            "prob": 35.8,
             "scored": false
           },
           {
-            "name": "Juwan Johnson",
-            "team": "NO",
-            "prob": 31.2,
-            "scored": false
+            "name": "Isaiah Likely",
+            "team": "NYG",
+            "prob": 33.9,
+            "scored": true
           }
         ]
       },
@@ -3884,20 +3884,20 @@
           {
             "name": "Chuba Hubbard",
             "team": "CAR",
-            "prob": 44.0,
+            "prob": 48.5,
             "scored": true
-          },
-          {
-            "name": "Darius Cooper",
-            "team": "PHI",
-            "prob": 35.6,
-            "scored": false
           },
           {
             "name": "Tetairoa McMillan",
             "team": "CAR",
-            "prob": 29.2,
+            "prob": 36.1,
             "scored": false
+          },
+          {
+            "name": "DeVonta Smith",
+            "team": "PHI",
+            "prob": 25.7,
+            "scored": true
           }
         ]
       },
@@ -3926,21 +3926,21 @@
         "model_brier": 0.2959,
         "scorers": [
           {
-            "name": "Bucky Irving",
-            "team": "TB",
-            "prob": 40.2,
-            "scored": false
-          },
-          {
-            "name": "Pat Freiermuth",
-            "team": "PIT",
-            "prob": 37.5,
-            "scored": false
-          },
-          {
             "name": "Jaylen Warren",
             "team": "PIT",
-            "prob": 34.4,
+            "prob": 44.9,
+            "scored": false
+          },
+          {
+            "name": "Bucky Irving",
+            "team": "TB",
+            "prob": 31.8,
+            "scored": false
+          },
+          {
+            "name": "DK Metcalf",
+            "team": "PIT",
+            "prob": 29.3,
             "scored": false
           }
         ]
@@ -3972,19 +3972,19 @@
           {
             "name": "Kyren Williams",
             "team": "LA",
-            "prob": 56.8,
-            "scored": false
-          },
-          {
-            "name": "Davante Adams",
-            "team": "LA",
-            "prob": 45.3,
+            "prob": 67.6,
             "scored": false
           },
           {
             "name": "Puka Nacua",
             "team": "LA",
-            "prob": 35.5,
+            "prob": 53.2,
+            "scored": false
+          },
+          {
+            "name": "Davante Adams",
+            "team": "LA",
+            "prob": 48.4,
             "scored": false
           }
         ]
@@ -4016,19 +4016,19 @@
           {
             "name": "Kenneth Walker III",
             "team": "KC",
-            "prob": 58.0,
+            "prob": 62.8,
             "scored": true
           },
           {
-            "name": "Omarion Hampton",
-            "team": "LAC",
-            "prob": 36.8,
+            "name": "Travis Kelce",
+            "team": "KC",
+            "prob": 28.7,
             "scored": false
           },
           {
-            "name": "Tyquan Thornton",
+            "name": "Xavier Worthy",
             "team": "KC",
-            "prob": 27.3,
+            "prob": 28.5,
             "scored": false
           }
         ]
@@ -4058,22 +4058,22 @@
         "model_brier": 0.1218,
         "scorers": [
           {
-            "name": "Josh Allen",
-            "team": "BUF",
-            "prob": 52.8,
-            "scored": false
-          },
-          {
             "name": "James Cook",
             "team": "BUF",
-            "prob": 51.3,
+            "prob": 57.3,
             "scored": true
           },
           {
             "name": "Ashton Jeanty",
             "team": "LV",
-            "prob": 36.7,
+            "prob": 45.3,
             "scored": true
+          },
+          {
+            "name": "Josh Allen",
+            "team": "BUF",
+            "prob": 44.3,
+            "scored": false
           }
         ]
       },
@@ -4104,19 +4104,19 @@
           {
             "name": "Javonte Williams",
             "team": "DAL",
-            "prob": 58.4,
+            "prob": 67.3,
             "scored": true
           },
           {
             "name": "Christian Watson",
             "team": "GB",
-            "prob": 48.8,
+            "prob": 46.6,
             "scored": false
           },
           {
-            "name": "MarShawn Lloyd",
-            "team": "GB",
-            "prob": 42.7,
+            "name": "George Pickens",
+            "team": "DAL",
+            "prob": 41.2,
             "scored": false
           }
         ]
@@ -4148,20 +4148,20 @@
           {
             "name": "Christian McCaffrey",
             "team": "SF",
-            "prob": 50.0,
+            "prob": 66.8,
             "scored": true
           },
           {
             "name": "George Kittle",
             "team": "SF",
-            "prob": 37.8,
+            "prob": 42.6,
             "scored": true
           },
           {
-            "name": "Mike Evans",
-            "team": "SF",
-            "prob": 34.9,
-            "scored": false
+            "name": "Rachaad White",
+            "team": "WAS",
+            "prob": 32.0,
+            "scored": true
           }
         ]
       },
@@ -4192,20 +4192,20 @@
           {
             "name": "D'Andre Swift",
             "team": "CHI",
-            "prob": 49.9,
+            "prob": 57.9,
             "scored": true
           },
           {
-            "name": "Kyle Monangai",
-            "team": "CHI",
-            "prob": 31.8,
-            "scored": false
+            "name": "Rhamondre Stevenson",
+            "team": "NE",
+            "prob": 37.7,
+            "scored": true
           },
           {
-            "name": "DeMario Douglas",
-            "team": "NE",
-            "prob": 31.6,
-            "scored": false
+            "name": "Colston Loveland",
+            "team": "CHI",
+            "prob": 37.4,
+            "scored": true
           }
         ]
       },
@@ -4234,22 +4234,22 @@
         "model_brier": 0.1624,
         "scorers": [
           {
-            "name": "Pat Freiermuth",
-            "team": "PIT",
-            "prob": 34.3,
-            "scored": false
-          },
-          {
             "name": "Jaylen Warren",
             "team": "PIT",
-            "prob": 32.1,
+            "prob": 46.8,
             "scored": false
           },
           {
-            "name": "Alvin Kamara",
-            "team": "NO",
-            "prob": 28.5,
+            "name": "DK Metcalf",
+            "team": "PIT",
+            "prob": 34.5,
             "scored": false
+          },
+          {
+            "name": "Devaughn Vele",
+            "team": "NO",
+            "prob": 29.7,
+            "scored": true
           }
         ]
       },
@@ -4280,19 +4280,19 @@
           {
             "name": "Christian McCaffrey",
             "team": "SF",
-            "prob": 52.1,
+            "prob": 64.4,
             "scored": true
           },
           {
             "name": "Bijan Robinson",
             "team": "ATL",
-            "prob": 44.3,
+            "prob": 55.3,
             "scored": false
           },
           {
             "name": "George Kittle",
             "team": "SF",
-            "prob": 38.3,
+            "prob": 47.6,
             "scored": false
           }
         ]
@@ -4324,19 +4324,19 @@
           {
             "name": "Derrick Henry",
             "team": "BAL",
-            "prob": 51.8,
+            "prob": 49.2,
+            "scored": false
+          },
+          {
+            "name": "Chase Brown",
+            "team": "CIN",
+            "prob": 45.9,
             "scored": false
           },
           {
             "name": "Ja'Marr Chase",
             "team": "CIN",
-            "prob": 37.3,
-            "scored": true
-          },
-          {
-            "name": "Mike Gesicki",
-            "team": "CIN",
-            "prob": 35.2,
+            "prob": 37.1,
             "scored": true
           }
         ]
@@ -4368,19 +4368,19 @@
           {
             "name": "Chuba Hubbard",
             "team": "CAR",
-            "prob": 49.1,
+            "prob": 58.2,
             "scored": false
           },
           {
             "name": "Bucky Irving",
             "team": "TB",
-            "prob": 42.5,
+            "prob": 38.3,
             "scored": true
           },
           {
-            "name": "Emeka Egbuka",
-            "team": "TB",
-            "prob": 35.3,
+            "name": "Tetairoa McMillan",
+            "team": "CAR",
+            "prob": 36.0,
             "scored": false
           }
         ]
@@ -4410,21 +4410,21 @@
         "model_brier": 0.4316,
         "scorers": [
           {
-            "name": "Isaiah Likely",
-            "team": "NYG",
-            "prob": 33.3,
-            "scored": false
-          },
-          {
-            "name": "Foster Moreau",
-            "team": "HOU",
-            "prob": 33.0,
-            "scored": false
-          },
-          {
             "name": "Woody Marks",
             "team": "HOU",
-            "prob": 31.4,
+            "prob": 49.4,
+            "scored": false
+          },
+          {
+            "name": "Nico Collins",
+            "team": "HOU",
+            "prob": 32.9,
+            "scored": false
+          },
+          {
+            "name": "Malik Nabers",
+            "team": "NYG",
+            "prob": 25.2,
             "scored": false
           }
         ]
@@ -4456,19 +4456,19 @@
           {
             "name": "Aaron Jones",
             "team": "MIN",
-            "prob": 46.3,
+            "prob": 49.2,
             "scored": false
           },
           {
             "name": "Jonathan Taylor",
             "team": "IND",
-            "prob": 45.7,
+            "prob": 45.8,
             "scored": true
           },
           {
             "name": "Justin Jefferson",
             "team": "MIN",
-            "prob": 34.9,
+            "prob": 31.6,
             "scored": false
           }
         ]
@@ -4498,22 +4498,22 @@
         "model_brier": 0.3014,
         "scorers": [
           {
-            "name": "Ollie Gordon II",
-            "team": "MIA",
-            "prob": 43.1,
-            "scored": true
-          },
-          {
             "name": "Braelon Allen",
             "team": "NYJ",
-            "prob": 38.9,
+            "prob": 39.6,
             "scored": false
           },
           {
             "name": "Garrett Wilson",
             "team": "NYJ",
-            "prob": 35.0,
+            "prob": 36.5,
             "scored": false
+          },
+          {
+            "name": "Ollie Gordon II",
+            "team": "MIA",
+            "prob": 35.7,
+            "scored": true
           }
         ]
       },
@@ -4542,21 +4542,21 @@
         "model_brier": 0.1608,
         "scorers": [
           {
-            "name": "Tony Pollard",
-            "team": "TEN",
-            "prob": 33.1,
+            "name": "Quinshon Judkins",
+            "team": "CLE",
+            "prob": 33.0,
             "scored": true
           },
           {
-            "name": "Quinshon Judkins",
-            "team": "CLE",
+            "name": "Tony Pollard",
+            "team": "TEN",
             "prob": 29.4,
             "scored": true
           },
           {
-            "name": "Denzel Boston",
+            "name": "Harold Fannin Jr.",
             "team": "CLE",
-            "prob": 28.4,
+            "prob": 28.9,
             "scored": false
           }
         ]
@@ -4588,20 +4588,20 @@
           {
             "name": "J.K. Dobbins",
             "team": "DEN",
-            "prob": 43.1,
+            "prob": 38.2,
             "scored": true
           },
           {
             "name": "Trey McBride",
             "team": "ARI",
-            "prob": 30.1,
+            "prob": 37.8,
             "scored": true
           },
           {
-            "name": "RJ Harvey",
-            "team": "DEN",
-            "prob": 28.7,
-            "scored": true
+            "name": "Michael Wilson",
+            "team": "ARI",
+            "prob": 34.3,
+            "scored": false
           }
         ]
       },
@@ -4632,19 +4632,19 @@
           {
             "name": "Jahmyr Gibbs",
             "team": "DET",
-            "prob": 62.4,
-            "scored": false
-          },
-          {
-            "name": "Christian Watson",
-            "team": "GB",
-            "prob": 42.7,
+            "prob": 70.4,
             "scored": false
           },
           {
             "name": "Amon-Ra St. Brown",
             "team": "DET",
-            "prob": 39.8,
+            "prob": 54.0,
+            "scored": false
+          },
+          {
+            "name": "Christian Watson",
+            "team": "GB",
+            "prob": 43.9,
             "scored": false
           }
         ]
@@ -4676,20 +4676,20 @@
           {
             "name": "Kyren Williams",
             "team": "LA",
-            "prob": 48.1,
+            "prob": 57.1,
+            "scored": true
+          },
+          {
+            "name": "Ashton Jeanty",
+            "team": "LV",
+            "prob": 45.0,
             "scored": true
           },
           {
             "name": "Davante Adams",
             "team": "LA",
-            "prob": 37.2,
+            "prob": 38.9,
             "scored": false
-          },
-          {
-            "name": "Ashton Jeanty",
-            "team": "LV",
-            "prob": 37.2,
-            "scored": true
           }
         ]
       },
@@ -4720,19 +4720,19 @@
           {
             "name": "Kenneth Walker III",
             "team": "KC",
-            "prob": 55.6,
+            "prob": 55.3,
             "scored": false
           },
           {
             "name": "Jaxon Smith-Njigba",
             "team": "SEA",
-            "prob": 43.3,
+            "prob": 43.7,
             "scored": true
           },
           {
             "name": "Emanuel Wilson",
             "team": "SEA",
-            "prob": 37.5,
+            "prob": 34.2,
             "scored": true
           }
         ]
@@ -4764,20 +4764,20 @@
           {
             "name": "Javonte Williams",
             "team": "DAL",
-            "prob": 53.6,
+            "prob": 62.1,
             "scored": true
           },
           {
             "name": "CeeDee Lamb",
             "team": "DAL",
-            "prob": 33.4,
+            "prob": 36.8,
             "scored": true
           },
           {
-            "name": "Darius Cooper",
+            "name": "Dameon Pierce",
             "team": "PHI",
-            "prob": 32.8,
-            "scored": false
+            "prob": 36.6,
+            "scored": true
           }
         ]
       },
@@ -4808,20 +4808,20 @@
           {
             "name": "Chuba Hubbard",
             "team": "CAR",
-            "prob": 43.4,
+            "prob": 47.9,
+            "scored": true
+          },
+          {
+            "name": "Josh Jacobs",
+            "team": "GB",
+            "prob": 41.7,
             "scored": true
           },
           {
             "name": "Christian Watson",
             "team": "GB",
-            "prob": 38.0,
+            "prob": 39.9,
             "scored": false
-          },
-          {
-            "name": "Matthew Golden",
-            "team": "GB",
-            "prob": 34.6,
-            "scored": true
           }
         ]
       },
@@ -4850,21 +4850,21 @@
         "model_brier": 0.1253,
         "scorers": [
           {
-            "name": "Derrick Henry",
-            "team": "BAL",
-            "prob": 55.3,
+            "name": "James Cook",
+            "team": "BUF",
+            "prob": 56.0,
             "scored": true
           },
           {
-            "name": "James Cook",
-            "team": "BUF",
-            "prob": 50.3,
+            "name": "Derrick Henry",
+            "team": "BAL",
+            "prob": 54.2,
             "scored": true
           },
           {
             "name": "Josh Allen",
             "team": "BUF",
-            "prob": 45.2,
+            "prob": 40.5,
             "scored": true
           }
         ]
@@ -4894,21 +4894,21 @@
         "model_brier": 0.0534,
         "scorers": [
           {
-            "name": "Tony Pollard",
-            "team": "TEN",
-            "prob": 42.9,
-            "scored": true
+            "name": "Chase Brown",
+            "team": "CIN",
+            "prob": 53.1,
+            "scored": false
           },
           {
             "name": "Ja'Marr Chase",
             "team": "CIN",
-            "prob": 41.0,
+            "prob": 46.0,
             "scored": true
           },
           {
-            "name": "Mike Gesicki",
+            "name": "Tee Higgins",
             "team": "CIN",
-            "prob": 39.3,
+            "prob": 35.7,
             "scored": true
           }
         ]
@@ -4940,19 +4940,19 @@
           {
             "name": "Javonte Williams",
             "team": "DAL",
-            "prob": 57.9,
+            "prob": 69.3,
             "scored": false
           },
           {
             "name": "CeeDee Lamb",
             "team": "DAL",
-            "prob": 45.7,
+            "prob": 49.8,
             "scored": false
           },
           {
             "name": "Trey McBride",
             "team": "ARI",
-            "prob": 38.8,
+            "prob": 45.8,
             "scored": true
           }
         ]
@@ -4984,19 +4984,19 @@
           {
             "name": "Jahmyr Gibbs",
             "team": "DET",
-            "prob": 53.5,
+            "prob": 64.3,
             "scored": true
           },
           {
-            "name": "Aaron Jones",
-            "team": "MIN",
-            "prob": 37.5,
+            "name": "Amon-Ra St. Brown",
+            "team": "DET",
+            "prob": 42.9,
             "scored": false
           },
           {
             "name": "Jameson Williams",
             "team": "DET",
-            "prob": 36.9,
+            "prob": 42.0,
             "scored": true
           }
         ]
@@ -5026,21 +5026,21 @@
         "model_brier": 0.065,
         "scorers": [
           {
-            "name": "Jonathan Taylor",
-            "team": "IND",
-            "prob": 47.7,
-            "scored": false
-          },
-          {
             "name": "Bhayshul Tuten",
             "team": "JAX",
-            "prob": 47.0,
+            "prob": 50.8,
             "scored": true
+          },
+          {
+            "name": "Jonathan Taylor",
+            "team": "IND",
+            "prob": 44.1,
+            "scored": false
           },
           {
             "name": "Parker Washington",
             "team": "JAX",
-            "prob": 37.8,
+            "prob": 40.9,
             "scored": false
           }
         ]
@@ -5072,19 +5072,19 @@
           {
             "name": "Ashton Jeanty",
             "team": "LV",
-            "prob": 39.2,
+            "prob": 46.8,
             "scored": false
           },
           {
             "name": "Braelon Allen",
             "team": "NYJ",
-            "prob": 35.4,
+            "prob": 43.7,
             "scored": true
           },
           {
-            "name": "Tre Tucker",
-            "team": "LV",
-            "prob": 33.6,
+            "name": "Garrett Wilson",
+            "team": "NYJ",
+            "prob": 34.2,
             "scored": false
           }
         ]
@@ -5114,22 +5114,22 @@
         "model_brier": 0.1576,
         "scorers": [
           {
-            "name": "Quinshon Judkins",
-            "team": "CLE",
-            "prob": 36.0,
-            "scored": false
-          },
-          {
-            "name": "Darnell Washington",
-            "team": "PIT",
-            "prob": 31.2,
-            "scored": false
-          },
-          {
             "name": "Jaylen Warren",
             "team": "PIT",
-            "prob": 30.9,
+            "prob": 39.9,
             "scored": true
+          },
+          {
+            "name": "Quinshon Judkins",
+            "team": "CLE",
+            "prob": 31.6,
+            "scored": false
+          },
+          {
+            "name": "DK Metcalf",
+            "team": "PIT",
+            "prob": 30.5,
+            "scored": false
           }
         ]
       },
@@ -5158,21 +5158,21 @@
         "model_brier": 0.2079,
         "scorers": [
           {
+            "name": "Bijan Robinson",
+            "team": "ATL",
+            "prob": 47.2,
+            "scored": false
+          },
+          {
             "name": "Bucky Irving",
             "team": "TB",
             "prob": 46.5,
             "scored": true
           },
           {
-            "name": "Bijan Robinson",
+            "name": "Drake London",
             "team": "ATL",
-            "prob": 36.3,
-            "scored": false
-          },
-          {
-            "name": "Kyle Pitts",
-            "team": "ATL",
-            "prob": 31.8,
+            "prob": 26.6,
             "scored": false
           }
         ]
@@ -5204,20 +5204,20 @@
           {
             "name": "Kyren Williams",
             "team": "LA",
-            "prob": 45.2,
+            "prob": 54.0,
             "scored": true
           },
           {
-            "name": "Omarion Hampton",
-            "team": "LAC",
+            "name": "Puka Nacua",
+            "team": "LA",
+            "prob": 45.7,
+            "scored": true
+          },
+          {
+            "name": "Davante Adams",
+            "team": "LA",
             "prob": 36.8,
             "scored": false
-          },
-          {
-            "name": "Blake Corum",
-            "team": "LA",
-            "prob": 35.6,
-            "scored": true
           }
         ]
       },
@@ -5248,19 +5248,19 @@
           {
             "name": "Kenneth Walker III",
             "team": "KC",
-            "prob": 56.3,
+            "prob": 54.5,
             "scored": false
           },
           {
             "name": "J.K. Dobbins",
             "team": "DEN",
-            "prob": 37.9,
+            "prob": 35.5,
             "scored": false
           },
           {
-            "name": "RJ Harvey",
+            "name": "Courtland Sutton",
             "team": "DEN",
-            "prob": 28.1,
+            "prob": 25.9,
             "scored": false
           }
         ]
@@ -5292,20 +5292,20 @@
           {
             "name": "Ollie Gordon II",
             "team": "MIA",
-            "prob": 41.8,
+            "prob": 42.5,
             "scored": false
           },
           {
             "name": "Rhamondre Stevenson",
             "team": "NE",
-            "prob": 34.1,
+            "prob": 42.4,
             "scored": false
           },
           {
-            "name": "DeMario Douglas",
+            "name": "Hunter Henry",
             "team": "NE",
-            "prob": 28.2,
-            "scored": true
+            "prob": 26.4,
+            "scored": false
           }
         ]
       },
@@ -5334,22 +5334,22 @@
         "model_brier": 0.164,
         "scorers": [
           {
-            "name": "Stefon Diggs",
-            "team": "WAS",
-            "prob": 32.1,
-            "scored": true
-          },
-          {
             "name": "Dameon Pierce",
             "team": "PHI",
-            "prob": 28.3,
+            "prob": 36.2,
             "scored": false
           },
           {
             "name": "Rachaad White",
             "team": "WAS",
-            "prob": 28.2,
+            "prob": 35.0,
             "scored": true
+          },
+          {
+            "name": "Jacory Croskey-Merritt",
+            "team": "WAS",
+            "prob": 31.2,
+            "scored": false
           }
         ]
       },
@@ -5380,19 +5380,19 @@
           {
             "name": "D'Andre Swift",
             "team": "CHI",
-            "prob": 47.4,
+            "prob": 49.4,
             "scored": true
           },
           {
             "name": "Jaxon Smith-Njigba",
             "team": "SEA",
-            "prob": 45.6,
+            "prob": 45.8,
             "scored": true
           },
           {
             "name": "Emanuel Wilson",
             "team": "SEA",
-            "prob": 41.5,
+            "prob": 37.9,
             "scored": false
           }
         ]
@@ -5431,11 +5431,11 @@
         "off_rank": 1,
         "def_rank": 17
       },
-      "prob_home_win": 35.7,
-      "prob_away_win": 64.3,
+      "prob_home_win": 36.4,
+      "prob_away_win": 63.6,
       "predicted_spread": 3.5,
-      "model_spread": 1.0,
-      "model_prob_home": 47.0,
+      "model_spread": 0.5,
+      "model_prob_home": 48.6,
       "vegas_spread": 3.5,
       "vegas_total": 45.5,
       "odds": null,
@@ -5450,9 +5450,9 @@
         "elo": -0.4,
         "epa": -1.5,
         "qb": {
-          "home": -0.1,
+          "home": 0.5,
           "away": 0.0,
-          "home_name": "Kyler Murray",
+          "home_name": "Carson Wentz",
           "away_name": "Josh Allen"
         },
         "rest": {
@@ -5469,9 +5469,66 @@
           "team": "BUF",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/anjbznqb9i21wzcgrtbs",
-          "prob": 44.6,
+          "prob": 48.1,
           "season_tds": 7,
-          "status": null
+          "status": null,
+          "games": 7,
+          "snap": 60,
+          "xtd": 0.83,
+          "depth": "RB1",
+          "form": [
+            {
+              "week": 3,
+              "opp": "LAC",
+              "car": 24,
+              "tgt": 1,
+              "rec": 0,
+              "yds": 154,
+              "td": 1,
+              "snap": 67
+            },
+            {
+              "week": 4,
+              "opp": "NE",
+              "car": 12,
+              "tgt": 2,
+              "rec": 2,
+              "yds": 83,
+              "td": 1,
+              "snap": 59
+            },
+            {
+              "week": 5,
+              "opp": "LA",
+              "car": 25,
+              "tgt": 1,
+              "rec": 1,
+              "yds": 118,
+              "td": 2,
+              "snap": 62
+            },
+            {
+              "week": 6,
+              "opp": "LV",
+              "car": 22,
+              "tgt": 3,
+              "rec": 3,
+              "yds": 153,
+              "td": 1,
+              "snap": 66
+            },
+            {
+              "week": 8,
+              "opp": "BAL",
+              "car": 21,
+              "tgt": 3,
+              "rec": 2,
+              "yds": 101,
+              "td": 1,
+              "snap": 54
+            }
+          ],
+          "scored_last": 5
         },
         {
           "player_id": "00-0034857",
@@ -5479,9 +5536,66 @@
           "team": "BUF",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ynrhq9iv30ysjpwmrfdv",
-          "prob": 40.6,
+          "prob": 36.7,
           "season_tds": 9,
-          "status": null
+          "status": null,
+          "games": 7,
+          "snap": 98,
+          "xtd": 0.88,
+          "depth": "QB1",
+          "form": [
+            {
+              "week": 3,
+              "opp": "LAC",
+              "car": 8,
+              "tgt": 1,
+              "rec": 1,
+              "yds": 23,
+              "td": 2,
+              "snap": 100
+            },
+            {
+              "week": 4,
+              "opp": "NE",
+              "car": 5,
+              "tgt": 0,
+              "rec": 0,
+              "yds": 4,
+              "td": 1,
+              "snap": 100
+            },
+            {
+              "week": 5,
+              "opp": "LA",
+              "car": 10,
+              "tgt": 0,
+              "rec": 0,
+              "yds": 121,
+              "td": 1,
+              "snap": 100
+            },
+            {
+              "week": 6,
+              "opp": "LV",
+              "car": 5,
+              "tgt": 0,
+              "rec": 0,
+              "yds": 1,
+              "td": 0,
+              "snap": 100
+            },
+            {
+              "week": 8,
+              "opp": "BAL",
+              "car": 7,
+              "tgt": 0,
+              "rec": 0,
+              "yds": 30,
+              "td": 1,
+              "snap": 95
+            }
+          ],
+          "scored_last": 4
         },
         {
           "player_id": "00-0036322",
@@ -5489,29 +5603,66 @@
           "team": "MIN",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tzx1iqbxxa1807m6olwj",
-          "prob": 35.1,
+          "prob": 36.6,
           "season_tds": 4,
-          "status": null
-        },
-        {
-          "player_id": "00-0035229",
-          "name": "T.J. Hockenson",
-          "team": "MIN",
-          "position": "TE",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/rs8o65x0u0n9xzde0fd6",
-          "prob": 34.4,
-          "season_tds": 3,
-          "status": null
-        },
-        {
-          "player_id": "00-0033293",
-          "name": "Aaron Jones",
-          "team": "MIN",
-          "position": "RB",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bktkfvgfwujkdbzkcfim",
-          "prob": 32.4,
-          "season_tds": 2,
-          "status": null
+          "status": null,
+          "games": 6,
+          "snap": 88,
+          "xtd": 0.37,
+          "depth": "WR1",
+          "form": [
+            {
+              "week": 2,
+              "opp": "CHI",
+              "car": 0,
+              "tgt": 6,
+              "rec": 3,
+              "yds": 55,
+              "td": 0,
+              "snap": 100
+            },
+            {
+              "week": 3,
+              "opp": "TB",
+              "car": 0,
+              "tgt": 2,
+              "rec": 2,
+              "yds": 32,
+              "td": 0,
+              "snap": 12
+            },
+            {
+              "week": 5,
+              "opp": "NO",
+              "car": 1,
+              "tgt": 7,
+              "rec": 6,
+              "yds": 68,
+              "td": 1,
+              "snap": 89
+            },
+            {
+              "week": 7,
+              "opp": "IND",
+              "car": 0,
+              "tgt": 7,
+              "rec": 4,
+              "yds": 44,
+              "td": 0,
+              "snap": 93
+            },
+            {
+              "week": 8,
+              "opp": "DET",
+              "car": 0,
+              "tgt": 9,
+              "rec": 5,
+              "yds": 33,
+              "td": 1,
+              "snap": 96
+            }
+          ],
+          "scored_last": 2
         },
         {
           "player_id": "00-0039901",
@@ -5519,19 +5670,200 @@
           "team": "BUF",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/garesglkqop2fvgc5bgh",
-          "prob": 22.8,
+          "prob": 27.5,
           "season_tds": 3,
-          "status": null
+          "status": null,
+          "games": 7,
+          "snap": 75,
+          "xtd": 0.25,
+          "depth": "WR3",
+          "form": [
+            {
+              "week": 3,
+              "opp": "LAC",
+              "car": 0,
+              "tgt": 2,
+              "rec": 1,
+              "yds": 37,
+              "td": 0,
+              "snap": 48
+            },
+            {
+              "week": 4,
+              "opp": "NE",
+              "car": 0,
+              "tgt": 7,
+              "rec": 6,
+              "yds": 116,
+              "td": 1,
+              "snap": 78
+            },
+            {
+              "week": 5,
+              "opp": "LA",
+              "car": 0,
+              "tgt": 2,
+              "rec": 1,
+              "yds": 7,
+              "td": 1,
+              "snap": 70
+            },
+            {
+              "week": 6,
+              "opp": "LV",
+              "car": 0,
+              "tgt": 6,
+              "rec": 4,
+              "yds": 59,
+              "td": 1,
+              "snap": 85
+            },
+            {
+              "week": 8,
+              "opp": "BAL",
+              "car": 0,
+              "tgt": 3,
+              "rec": 1,
+              "yds": 4,
+              "td": 0,
+              "snap": 77
+            }
+          ],
+          "scored_last": 3
         },
         {
-          "player_id": "00-0038933",
-          "name": "Dalton Kincaid",
-          "team": "BUF",
-          "position": "TE",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cmrfup2mfx13pjb0qznw",
-          "prob": 21.0,
+          "player_id": "00-0033293",
+          "name": "Aaron Jones",
+          "team": "MIN",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bktkfvgfwujkdbzkcfim",
+          "prob": 27.3,
           "season_tds": 2,
-          "status": null
+          "status": null,
+          "games": 7,
+          "snap": 50,
+          "xtd": 0.33,
+          "depth": "RB2",
+          "form": [
+            {
+              "week": 3,
+              "opp": "TB",
+              "car": 17,
+              "tgt": 6,
+              "rec": 5,
+              "yds": 92,
+              "td": 0,
+              "snap": 80
+            },
+            {
+              "week": 4,
+              "opp": "MIA",
+              "car": 20,
+              "tgt": 8,
+              "rec": 4,
+              "yds": 128,
+              "td": 0,
+              "snap": 73
+            },
+            {
+              "week": 5,
+              "opp": "NO",
+              "car": 25,
+              "tgt": 3,
+              "rec": 3,
+              "yds": 117,
+              "td": 1,
+              "snap": 87
+            },
+            {
+              "week": 7,
+              "opp": "IND",
+              "car": 8,
+              "tgt": 1,
+              "rec": 1,
+              "yds": 26,
+              "td": 0,
+              "snap": 25
+            },
+            {
+              "week": 8,
+              "opp": "DET",
+              "car": 5,
+              "tgt": 2,
+              "rec": 2,
+              "yds": 40,
+              "td": 0,
+              "snap": 40
+            }
+          ],
+          "scored_last": 1
+        },
+        {
+          "player_id": "00-0035229",
+          "name": "T.J. Hockenson",
+          "team": "MIN",
+          "position": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/rs8o65x0u0n9xzde0fd6",
+          "prob": 27.1,
+          "season_tds": 3,
+          "status": null,
+          "games": 7,
+          "snap": 70,
+          "xtd": 0.32,
+          "depth": "TE1",
+          "form": [
+            {
+              "week": 3,
+              "opp": "TB",
+              "car": 0,
+              "tgt": 4,
+              "rec": 2,
+              "yds": 11,
+              "td": 0,
+              "snap": 85
+            },
+            {
+              "week": 4,
+              "opp": "MIA",
+              "car": 0,
+              "tgt": 13,
+              "rec": 13,
+              "yds": 119,
+              "td": 0,
+              "snap": 83
+            },
+            {
+              "week": 5,
+              "opp": "NO",
+              "car": 0,
+              "tgt": 1,
+              "rec": 1,
+              "yds": 7,
+              "td": 0,
+              "snap": 3
+            },
+            {
+              "week": 7,
+              "opp": "IND",
+              "car": 0,
+              "tgt": 5,
+              "rec": 4,
+              "yds": 35,
+              "td": 1,
+              "snap": 76
+            },
+            {
+              "week": 8,
+              "opp": "DET",
+              "car": 0,
+              "tgt": 5,
+              "rec": 4,
+              "yds": 58,
+              "td": 1,
+              "snap": 83
+            }
+          ],
+          "scored_last": 2
         },
         {
           "player_id": "00-0034827",
@@ -5539,19 +5871,66 @@
           "team": "BUF",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tmiale9dvql5ol2xmhf1",
-          "prob": 20.1,
+          "prob": 25.4,
           "season_tds": 2,
-          "status": null
-        },
-        {
-          "player_id": "00-0037525",
-          "name": "Jordan Mason",
-          "team": "MIN",
-          "position": "RB",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xe3i1lsb3rsioqy61krt",
-          "prob": 17.0,
-          "season_tds": 1,
-          "status": null
+          "status": null,
+          "games": 5,
+          "snap": 60,
+          "xtd": 0.38,
+          "depth": "WR1",
+          "form": [
+            {
+              "week": 1,
+              "opp": "HOU",
+              "car": 0,
+              "tgt": 8,
+              "rec": 5,
+              "yds": 100,
+              "td": 1,
+              "snap": 76
+            },
+            {
+              "week": 2,
+              "opp": "DET",
+              "car": 1,
+              "tgt": 0,
+              "rec": 0,
+              "yds": -1,
+              "td": 0,
+              "snap": 31
+            },
+            {
+              "week": 3,
+              "opp": "LAC",
+              "car": 0,
+              "tgt": 10,
+              "rec": 6,
+              "yds": 67,
+              "td": 0,
+              "snap": 64
+            },
+            {
+              "week": 4,
+              "opp": "NE",
+              "car": 1,
+              "tgt": 2,
+              "rec": 1,
+              "yds": 17,
+              "td": 0,
+              "snap": 39
+            },
+            {
+              "week": 8,
+              "opp": "BAL",
+              "car": 1,
+              "tgt": 7,
+              "rec": 4,
+              "yds": 86,
+              "td": 1,
+              "snap": 66
+            }
+          ],
+          "scored_last": 2
         },
         {
           "player_id": "00-0037261",
@@ -5559,9 +5938,66 @@
           "team": "BUF",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ituuwxmqtheiha2kkrvt",
-          "prob": 15.7,
+          "prob": 23.8,
           "season_tds": 1,
-          "status": null
+          "status": null,
+          "games": 7,
+          "snap": 66,
+          "xtd": 0.36,
+          "depth": "WR2",
+          "form": [
+            {
+              "week": 3,
+              "opp": "LAC",
+              "car": 0,
+              "tgt": 3,
+              "rec": 1,
+              "yds": 6,
+              "td": 0,
+              "snap": 73
+            },
+            {
+              "week": 4,
+              "opp": "NE",
+              "car": 0,
+              "tgt": 8,
+              "rec": 7,
+              "yds": 82,
+              "td": 0,
+              "snap": 76
+            },
+            {
+              "week": 5,
+              "opp": "LA",
+              "car": 0,
+              "tgt": 3,
+              "rec": 3,
+              "yds": 80,
+              "td": 0,
+              "snap": 69
+            },
+            {
+              "week": 6,
+              "opp": "LV",
+              "car": 0,
+              "tgt": 6,
+              "rec": 4,
+              "yds": 34,
+              "td": 1,
+              "snap": 60
+            },
+            {
+              "week": 8,
+              "opp": "BAL",
+              "car": 0,
+              "tgt": 6,
+              "rec": 5,
+              "yds": 64,
+              "td": 0,
+              "snap": 67
+            }
+          ],
+          "scored_last": 1
         },
         {
           "player_id": "00-0038994",
@@ -5569,22 +6005,220 @@
           "team": "MIN",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ty8e8iasniuuhto6qfdx",
-          "prob": 14.5,
+          "prob": 23.7,
           "season_tds": 1,
-          "status": null
+          "status": null,
+          "games": 6,
+          "snap": 92,
+          "xtd": 0.13,
+          "depth": "WR2",
+          "form": [
+            {
+              "week": 2,
+              "opp": "CHI",
+              "car": 0,
+              "tgt": 5,
+              "rec": 2,
+              "yds": 21,
+              "td": 0,
+              "snap": 88
+            },
+            {
+              "week": 3,
+              "opp": "TB",
+              "car": 0,
+              "tgt": 9,
+              "rec": 5,
+              "yds": 90,
+              "td": 1,
+              "snap": 98
+            },
+            {
+              "week": 4,
+              "opp": "MIA",
+              "car": 1,
+              "tgt": 6,
+              "rec": 4,
+              "yds": 51,
+              "td": 0,
+              "snap": 96
+            },
+            {
+              "week": 7,
+              "opp": "IND",
+              "car": 1,
+              "tgt": 3,
+              "rec": 2,
+              "yds": 23,
+              "td": 0,
+              "snap": 83
+            },
+            {
+              "week": 8,
+              "opp": "DET",
+              "car": 0,
+              "tgt": 8,
+              "rec": 3,
+              "yds": 66,
+              "td": 0,
+              "snap": 98
+            }
+          ],
+          "scored_last": 1
         },
         {
-          "player_id": "00-0040506",
-          "name": "Myles Price",
+          "player_id": "00-0038933",
+          "name": "Dalton Kincaid",
+          "team": "BUF",
+          "position": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cmrfup2mfx13pjb0qznw",
+          "prob": 22.3,
+          "season_tds": 2,
+          "status": null,
+          "games": 7,
+          "snap": 64,
+          "xtd": 0.26,
+          "depth": "TE1",
+          "form": [
+            {
+              "week": 3,
+              "opp": "LAC",
+              "car": 0,
+              "tgt": 3,
+              "rec": 2,
+              "yds": 38,
+              "td": 0,
+              "snap": 67
+            },
+            {
+              "week": 4,
+              "opp": "NE",
+              "car": 0,
+              "tgt": 2,
+              "rec": 1,
+              "yds": 7,
+              "td": 0,
+              "snap": 59
+            },
+            {
+              "week": 5,
+              "opp": "LA",
+              "car": 0,
+              "tgt": 2,
+              "rec": 1,
+              "yds": 7,
+              "td": 0,
+              "snap": 70
+            },
+            {
+              "week": 6,
+              "opp": "LV",
+              "car": 0,
+              "tgt": 8,
+              "rec": 7,
+              "yds": 38,
+              "td": 0,
+              "snap": 72
+            },
+            {
+              "week": 8,
+              "opp": "BAL",
+              "car": 0,
+              "tgt": 6,
+              "rec": 4,
+              "yds": 86,
+              "td": 1,
+              "snap": 57
+            }
+          ],
+          "scored_last": 1
+        },
+        {
+          "player_id": "00-0037525",
+          "name": "Jordan Mason",
           "team": "MIN",
-          "position": "WR",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zsjrzuziooij49ubg0lx",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xe3i1lsb3rsioqy61krt",
+          "prob": 19.8,
+          "season_tds": 1,
+          "status": null,
+          "games": 3,
+          "snap": 43,
+          "xtd": 0.26,
+          "depth": "RB1",
+          "form": [
+            {
+              "week": 1,
+              "opp": "GB",
+              "car": 15,
+              "tgt": 0,
+              "rec": 0,
+              "yds": 59,
+              "td": 1,
+              "snap": 45
+            },
+            {
+              "week": 7,
+              "opp": "IND",
+              "car": 15,
+              "tgt": 2,
+              "rec": 0,
+              "yds": 68,
+              "td": 0,
+              "snap": 64
+            },
+            {
+              "week": 8,
+              "opp": "DET",
+              "car": 8,
+              "tgt": 0,
+              "rec": 0,
+              "yds": 20,
+              "td": 0,
+              "snap": 28
+            }
+          ],
+          "scored_last": 1
+        },
+        {
+          "player_id": "00-0032950",
+          "name": "Carson Wentz",
+          "team": "MIN",
+          "position": "QB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/azwdmcksvjva4tgaa8vm",
           "prob": 5.9,
           "season_tds": 0,
-          "status": null
+          "status": null,
+          "games": 2,
+          "snap": 93,
+          "xtd": 0.03,
+          "depth": "QB2",
+          "form": [
+            {
+              "week": 1,
+              "opp": "GB",
+              "car": 5,
+              "tgt": 0,
+              "rec": 0,
+              "yds": -1,
+              "td": 0,
+              "snap": 83
+            },
+            {
+              "week": 2,
+              "opp": "CHI",
+              "car": 3,
+              "tgt": 0,
+              "rec": 0,
+              "yds": 6,
+              "td": 0,
+              "snap": 100
+            }
+          ],
+          "scored_last": 0
         }
       ],
-      "commentary": "Avantage Bills (64 %), à l’extérieur.",
+      "commentary": "Avantage Bills (64 %), à l’extérieur. Le modèle maison (+0,5) s’écarte des bookmakers (+3,5). QB titulaire indisponible chez les Vikings : Carson Wentz attendu.",
       "injuries": {
         "home": [
           {
@@ -5661,6 +6295,140 @@
         "roof": "dome"
       },
       "round": null,
+      "lineup": {
+        "home": [
+          {
+            "player_id": "00-0035228",
+            "name": "Kyler Murray",
+            "pos": "QB",
+            "rank": 1,
+            "status": "Out",
+            "available": false
+          },
+          {
+            "player_id": "00-0032950",
+            "name": "Carson Wentz",
+            "pos": "QB",
+            "rank": 2,
+            "status": null,
+            "available": true
+          },
+          {
+            "player_id": "00-0037525",
+            "name": "Jordan Mason",
+            "pos": "RB",
+            "rank": 1,
+            "status": null,
+            "available": true
+          },
+          {
+            "player_id": "00-0033293",
+            "name": "Aaron Jones Sr.",
+            "pos": "RB",
+            "rank": 2,
+            "status": null,
+            "available": true
+          },
+          {
+            "player_id": "00-0036322",
+            "name": "Justin Jefferson",
+            "pos": "WR",
+            "rank": 1,
+            "status": null,
+            "available": true
+          },
+          {
+            "player_id": "00-0038994",
+            "name": "Jordan Addison",
+            "pos": "WR",
+            "rank": 2,
+            "status": null,
+            "available": true
+          },
+          {
+            "player_id": "00-0036259",
+            "name": "Jauan Jennings",
+            "pos": "WR",
+            "rank": 3,
+            "status": "Out",
+            "available": false
+          },
+          {
+            "player_id": "00-0040154",
+            "name": "Tai Felton",
+            "pos": "WR",
+            "rank": 4,
+            "status": null,
+            "available": true
+          },
+          {
+            "player_id": "00-0035229",
+            "name": "T.J. Hockenson",
+            "pos": "TE",
+            "rank": 1,
+            "status": null,
+            "available": true
+          }
+        ],
+        "away": [
+          {
+            "player_id": "00-0034857",
+            "name": "Josh Allen",
+            "pos": "QB",
+            "rank": 1,
+            "status": null,
+            "available": true
+          },
+          {
+            "player_id": "00-0037248",
+            "name": "James Cook III",
+            "pos": "RB",
+            "rank": 1,
+            "status": null,
+            "available": true
+          },
+          {
+            "player_id": "00-0035537",
+            "name": "Ty Johnson",
+            "pos": "RB",
+            "rank": 2,
+            "status": null,
+            "available": true
+          },
+          {
+            "player_id": "00-0034827",
+            "name": "DJ Moore",
+            "pos": "WR",
+            "rank": 1,
+            "status": null,
+            "available": true
+          },
+          {
+            "player_id": "00-0037261",
+            "name": "Khalil Shakir",
+            "pos": "WR",
+            "rank": 2,
+            "status": null,
+            "available": true
+          },
+          {
+            "player_id": "00-0039901",
+            "name": "Keon Coleman",
+            "pos": "WR",
+            "rank": 3,
+            "status": null,
+            "available": true
+          },
+          {
+            "player_id": "00-0038933",
+            "name": "Dalton Kincaid",
+            "pos": "TE",
+            "rank": 1,
+            "status": null,
+            "available": true
+          }
+        ]
+      },
       "flags": {
         "value": false,
         "key_out": 4,
@@ -5706,7 +6474,7 @@
         },
         {
           "date": "2026-11-09",
-          "prob_home": 35.7,
+          "prob_home": 36.4,
           "spread": 3.5,
           "books": null
         }
@@ -5724,38 +6492,75 @@
         "team": "BUF",
         "position": "RB",
         "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/anjbznqb9i21wzcgrtbs",
-        "prob": 44.6,
+        "prob": 48.1,
         "season_tds": 7,
         "status": null,
+        "games": 7,
+        "snap": 60,
+        "xtd": 0.83,
+        "depth": "RB1",
+        "form": [
+          {
+            "week": 3,
+            "opp": "LAC",
+            "car": 24,
+            "tgt": 1,
+            "rec": 0,
+            "yds": 154,
+            "td": 1,
+            "snap": 67
+          },
+          {
+            "week": 4,
+            "opp": "NE",
+            "car": 12,
+            "tgt": 2,
+            "rec": 2,
+            "yds": 83,
+            "td": 1,
+            "snap": 59
+          },
+          {
+            "week": 5,
+            "opp": "LA",
+            "car": 25,
+            "tgt": 1,
+            "rec": 1,
+            "yds": 118,
+            "td": 2,
+            "snap": 62
+          },
+          {
+            "week": 6,
+            "opp": "LV",
+            "car": 22,
+            "tgt": 3,
+            "rec": 3,
+            "yds": 153,
+            "td": 1,
+            "snap": 66
+          },
+          {
+            "week": 8,
+            "opp": "BAL",
+            "car": 21,
+            "tgt": 3,
+            "rec": 2,
+            "yds": 101,
+            "td": 1,
+            "snap": 54
+          }
+        ],
+        "scored_last": 5,
         "game_id": "2026_09_BUF_MIN",
         "opponent": "MIN",
-        "fair_odds": 2.24,
+        "fair_odds": 2.08,
         "hist": {
           "label": "40 à 50 %",
           "min": 40,
-          "n": 95,
-          "predicted": 44.3,
-          "actual": 45.3
-        }
-      },
-      {
-        "player_id": "00-0034857",
-        "name": "Josh Allen",
-        "team": "BUF",
-        "position": "QB",
-        "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ynrhq9iv30ysjpwmrfdv",
-        "prob": 40.6,
-        "season_tds": 9,
-        "status": null,
-        "game_id": "2026_09_BUF_MIN",
-        "opponent": "MIN",
-        "fair_odds": 2.46,
-        "hist": {
-          "label": "40 à 50 %",
-          "min": 40,
-          "n": 95,
-          "predicted": 44.3,
-          "actual": 45.3
+          "n": 98,
+          "predicted": 44.7,
+          "actual": 42.9
         }
       }
     ],
@@ -5802,9 +6607,66 @@
       "team": "BUF",
       "position": "RB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/anjbznqb9i21wzcgrtbs",
-      "prob": 44.6,
+      "prob": 48.1,
       "season_tds": 7,
       "status": null,
+      "games": 7,
+      "snap": 60,
+      "xtd": 0.83,
+      "depth": "RB1",
+      "form": [
+        {
+          "week": 3,
+          "opp": "LAC",
+          "car": 24,
+          "tgt": 1,
+          "rec": 0,
+          "yds": 154,
+          "td": 1,
+          "snap": 67
+        },
+        {
+          "week": 4,
+          "opp": "NE",
+          "car": 12,
+          "tgt": 2,
+          "rec": 2,
+          "yds": 83,
+          "td": 1,
+          "snap": 59
+        },
+        {
+          "week": 5,
+          "opp": "LA",
+          "car": 25,
+          "tgt": 1,
+          "rec": 1,
+          "yds": 118,
+          "td": 2,
+          "snap": 62
+        },
+        {
+          "week": 6,
+          "opp": "LV",
+          "car": 22,
+          "tgt": 3,
+          "rec": 3,
+          "yds": 153,
+          "td": 1,
+          "snap": 66
+        },
+        {
+          "week": 8,
+          "opp": "BAL",
+          "car": 21,
+          "tgt": 3,
+          "rec": 2,
+          "yds": 101,
+          "td": 1,
+          "snap": 54
+        }
+      ],
+      "scored_last": 5,
       "game_id": "2026_09_BUF_MIN",
       "opponent": "MIN"
     },
@@ -5814,9 +6676,66 @@
       "team": "BUF",
       "position": "QB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ynrhq9iv30ysjpwmrfdv",
-      "prob": 40.6,
+      "prob": 36.7,
       "season_tds": 9,
       "status": null,
+      "games": 7,
+      "snap": 98,
+      "xtd": 0.88,
+      "depth": "QB1",
+      "form": [
+        {
+          "week": 3,
+          "opp": "LAC",
+          "car": 8,
+          "tgt": 1,
+          "rec": 1,
+          "yds": 23,
+          "td": 2,
+          "snap": 100
+        },
+        {
+          "week": 4,
+          "opp": "NE",
+          "car": 5,
+          "tgt": 0,
+          "rec": 0,
+          "yds": 4,
+          "td": 1,
+          "snap": 100
+        },
+        {
+          "week": 5,
+          "opp": "LA",
+          "car": 10,
+          "tgt": 0,
+          "rec": 0,
+          "yds": 121,
+          "td": 1,
+          "snap": 100
+        },
+        {
+          "week": 6,
+          "opp": "LV",
+          "car": 5,
+          "tgt": 0,
+          "rec": 0,
+          "yds": 1,
+          "td": 0,
+          "snap": 100
+        },
+        {
+          "week": 8,
+          "opp": "BAL",
+          "car": 7,
+          "tgt": 0,
+          "rec": 0,
+          "yds": 30,
+          "td": 1,
+          "snap": 95
+        }
+      ],
+      "scored_last": 4,
       "game_id": "2026_09_BUF_MIN",
       "opponent": "MIN"
     },
@@ -5826,33 +6745,66 @@
       "team": "MIN",
       "position": "WR",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tzx1iqbxxa1807m6olwj",
-      "prob": 35.1,
+      "prob": 36.6,
       "season_tds": 4,
       "status": null,
-      "game_id": "2026_09_BUF_MIN",
-      "opponent": "BUF"
-    },
-    {
-      "player_id": "00-0035229",
-      "name": "T.J. Hockenson",
-      "team": "MIN",
-      "position": "TE",
-      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/rs8o65x0u0n9xzde0fd6",
-      "prob": 34.4,
-      "season_tds": 3,
-      "status": null,
-      "game_id": "2026_09_BUF_MIN",
-      "opponent": "BUF"
-    },
-    {
-      "player_id": "00-0033293",
-      "name": "Aaron Jones",
-      "team": "MIN",
-      "position": "RB",
-      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bktkfvgfwujkdbzkcfim",
-      "prob": 32.4,
-      "season_tds": 2,
-      "status": null,
+      "games": 6,
+      "snap": 88,
+      "xtd": 0.37,
+      "depth": "WR1",
+      "form": [
+        {
+          "week": 2,
+          "opp": "CHI",
+          "car": 0,
+          "tgt": 6,
+          "rec": 3,
+          "yds": 55,
+          "td": 0,
+          "snap": 100
+        },
+        {
+          "week": 3,
+          "opp": "TB",
+          "car": 0,
+          "tgt": 2,
+          "rec": 2,
+          "yds": 32,
+          "td": 0,
+          "snap": 12
+        },
+        {
+          "week": 5,
+          "opp": "NO",
+          "car": 1,
+          "tgt": 7,
+          "rec": 6,
+          "yds": 68,
+          "td": 1,
+          "snap": 89
+        },
+        {
+          "week": 7,
+          "opp": "IND",
+          "car": 0,
+          "tgt": 7,
+          "rec": 4,
+          "yds": 44,
+          "td": 0,
+          "snap": 93
+        },
+        {
+          "week": 8,
+          "opp": "DET",
+          "car": 0,
+          "tgt": 9,
+          "rec": 5,
+          "yds": 33,
+          "td": 1,
+          "snap": 96
+        }
+      ],
+      "scored_last": 2,
       "game_id": "2026_09_BUF_MIN",
       "opponent": "BUF"
     },
@@ -5862,23 +6814,206 @@
       "team": "BUF",
       "position": "WR",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/garesglkqop2fvgc5bgh",
-      "prob": 22.8,
+      "prob": 27.5,
       "season_tds": 3,
       "status": null,
+      "games": 7,
+      "snap": 75,
+      "xtd": 0.25,
+      "depth": "WR3",
+      "form": [
+        {
+          "week": 3,
+          "opp": "LAC",
+          "car": 0,
+          "tgt": 2,
+          "rec": 1,
+          "yds": 37,
+          "td": 0,
+          "snap": 48
+        },
+        {
+          "week": 4,
+          "opp": "NE",
+          "car": 0,
+          "tgt": 7,
+          "rec": 6,
+          "yds": 116,
+          "td": 1,
+          "snap": 78
+        },
+        {
+          "week": 5,
+          "opp": "LA",
+          "car": 0,
+          "tgt": 2,
+          "rec": 1,
+          "yds": 7,
+          "td": 1,
+          "snap": 70
+        },
+        {
+          "week": 6,
+          "opp": "LV",
+          "car": 0,
+          "tgt": 6,
+          "rec": 4,
+          "yds": 59,
+          "td": 1,
+          "snap": 85
+        },
+        {
+          "week": 8,
+          "opp": "BAL",
+          "car": 0,
+          "tgt": 3,
+          "rec": 1,
+          "yds": 4,
+          "td": 0,
+          "snap": 77
+        }
+      ],
+      "scored_last": 3,
       "game_id": "2026_09_BUF_MIN",
       "opponent": "MIN"
     },
     {
-      "player_id": "00-0038933",
-      "name": "Dalton Kincaid",
-      "team": "BUF",
-      "position": "TE",
-      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cmrfup2mfx13pjb0qznw",
-      "prob": 21.0,
+      "player_id": "00-0033293",
+      "name": "Aaron Jones",
+      "team": "MIN",
+      "position": "RB",
+      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bktkfvgfwujkdbzkcfim",
+      "prob": 27.3,
       "season_tds": 2,
       "status": null,
+      "games": 7,
+      "snap": 50,
+      "xtd": 0.33,
+      "depth": "RB2",
+      "form": [
+        {
+          "week": 3,
+          "opp": "TB",
+          "car": 17,
+          "tgt": 6,
+          "rec": 5,
+          "yds": 92,
+          "td": 0,
+          "snap": 80
+        },
+        {
+          "week": 4,
+          "opp": "MIA",
+          "car": 20,
+          "tgt": 8,
+          "rec": 4,
+          "yds": 128,
+          "td": 0,
+          "snap": 73
+        },
+        {
+          "week": 5,
+          "opp": "NO",
+          "car": 25,
+          "tgt": 3,
+          "rec": 3,
+          "yds": 117,
+          "td": 1,
+          "snap": 87
+        },
+        {
+          "week": 7,
+          "opp": "IND",
+          "car": 8,
+          "tgt": 1,
+          "rec": 1,
+          "yds": 26,
+          "td": 0,
+          "snap": 25
+        },
+        {
+          "week": 8,
+          "opp": "DET",
+          "car": 5,
+          "tgt": 2,
+          "rec": 2,
+          "yds": 40,
+          "td": 0,
+          "snap": 40
+        }
+      ],
+      "scored_last": 1,
       "game_id": "2026_09_BUF_MIN",
-      "opponent": "MIN"
+      "opponent": "BUF"
+    },
+    {
+      "player_id": "00-0035229",
+      "name": "T.J. Hockenson",
+      "team": "MIN",
+      "position": "TE",
+      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/rs8o65x0u0n9xzde0fd6",
+      "prob": 27.1,
+      "season_tds": 3,
+      "status": null,
+      "games": 7,
+      "snap": 70,
+      "xtd": 0.32,
+      "depth": "TE1",
+      "form": [
+        {
+          "week": 3,
+          "opp": "TB",
+          "car": 0,
+          "tgt": 4,
+          "rec": 2,
+          "yds": 11,
+          "td": 0,
+          "snap": 85
+        },
+        {
+          "week": 4,
+          "opp": "MIA",
+          "car": 0,
+          "tgt": 13,
+          "rec": 13,
+          "yds": 119,
+          "td": 0,
+          "snap": 83
+        },
+        {
+          "week": 5,
+          "opp": "NO",
+          "car": 0,
+          "tgt": 1,
+          "rec": 1,
+          "yds": 7,
+          "td": 0,
+          "snap": 3
+        },
+        {
+          "week": 7,
+          "opp": "IND",
+          "car": 0,
+          "tgt": 5,
+          "rec": 4,
+          "yds": 35,
+          "td": 1,
+          "snap": 76
+        },
+        {
+          "week": 8,
+          "opp": "DET",
+          "car": 0,
+          "tgt": 5,
+          "rec": 4,
+          "yds": 58,
+          "td": 1,
+          "snap": 83
+        }
+      ],
+      "scored_last": 2,
+      "game_id": "2026_09_BUF_MIN",
+      "opponent": "BUF"
     },
     {
       "player_id": "00-0034827",
@@ -5886,23 +7021,68 @@
       "team": "BUF",
       "position": "WR",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tmiale9dvql5ol2xmhf1",
-      "prob": 20.1,
+      "prob": 25.4,
       "season_tds": 2,
       "status": null,
+      "games": 5,
+      "snap": 60,
+      "xtd": 0.38,
+      "depth": "WR1",
+      "form": [
+        {
+          "week": 1,
+          "opp": "HOU",
+          "car": 0,
+          "tgt": 8,
+          "rec": 5,
+          "yds": 100,
+          "td": 1,
+          "snap": 76
+        },
+        {
+          "week": 2,
+          "opp": "DET",
+          "car": 1,
+          "tgt": 0,
+          "rec": 0,
+          "yds": -1,
+          "td": 0,
+          "snap": 31
+        },
+        {
+          "week": 3,
+          "opp": "LAC",
+          "car": 0,
+          "tgt": 10,
+          "rec": 6,
+          "yds": 67,
+          "td": 0,
+          "snap": 64
+        },
+        {
+          "week": 4,
+          "opp": "NE",
+          "car": 1,
+          "tgt": 2,
+          "rec": 1,
+          "yds": 17,
+          "td": 0,
+          "snap": 39
+        },
+        {
+          "week": 8,
+          "opp": "BAL",
+          "car": 1,
+          "tgt": 7,
+          "rec": 4,
+          "yds": 86,
+          "td": 1,
+          "snap": 66
+        }
+      ],
+      "scored_last": 2,
       "game_id": "2026_09_BUF_MIN",
       "opponent": "MIN"
-    },
-    {
-      "player_id": "00-0037525",
-      "name": "Jordan Mason",
-      "team": "MIN",
-      "position": "RB",
-      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xe3i1lsb3rsioqy61krt",
-      "prob": 17.0,
-      "season_tds": 1,
-      "status": null,
-      "game_id": "2026_09_BUF_MIN",
-      "opponent": "BUF"
     },
     {
       "player_id": "00-0037261",
@@ -5910,9 +7090,66 @@
       "team": "BUF",
       "position": "WR",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ituuwxmqtheiha2kkrvt",
-      "prob": 15.7,
+      "prob": 23.8,
       "season_tds": 1,
       "status": null,
+      "games": 7,
+      "snap": 66,
+      "xtd": 0.36,
+      "depth": "WR2",
+      "form": [
+        {
+          "week": 3,
+          "opp": "LAC",
+          "car": 0,
+          "tgt": 3,
+          "rec": 1,
+          "yds": 6,
+          "td": 0,
+          "snap": 73
+        },
+        {
+          "week": 4,
+          "opp": "NE",
+          "car": 0,
+          "tgt": 8,
+          "rec": 7,
+          "yds": 82,
+          "td": 0,
+          "snap": 76
+        },
+        {
+          "week": 5,
+          "opp": "LA",
+          "car": 0,
+          "tgt": 3,
+          "rec": 3,
+          "yds": 80,
+          "td": 0,
+          "snap": 69
+        },
+        {
+          "week": 6,
+          "opp": "LV",
+          "car": 0,
+          "tgt": 6,
+          "rec": 4,
+          "yds": 34,
+          "td": 1,
+          "snap": 60
+        },
+        {
+          "week": 8,
+          "opp": "BAL",
+          "car": 0,
+          "tgt": 6,
+          "rec": 5,
+          "yds": 64,
+          "td": 0,
+          "snap": 67
+        }
+      ],
+      "scored_last": 1,
       "game_id": "2026_09_BUF_MIN",
       "opponent": "MIN"
     },
@@ -5922,25 +7159,249 @@
       "team": "MIN",
       "position": "WR",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ty8e8iasniuuhto6qfdx",
-      "prob": 14.5,
+      "prob": 23.7,
       "season_tds": 1,
       "status": null,
+      "games": 6,
+      "snap": 92,
+      "xtd": 0.13,
+      "depth": "WR2",
+      "form": [
+        {
+          "week": 2,
+          "opp": "CHI",
+          "car": 0,
+          "tgt": 5,
+          "rec": 2,
+          "yds": 21,
+          "td": 0,
+          "snap": 88
+        },
+        {
+          "week": 3,
+          "opp": "TB",
+          "car": 0,
+          "tgt": 9,
+          "rec": 5,
+          "yds": 90,
+          "td": 1,
+          "snap": 98
+        },
+        {
+          "week": 4,
+          "opp": "MIA",
+          "car": 1,
+          "tgt": 6,
+          "rec": 4,
+          "yds": 51,
+          "td": 0,
+          "snap": 96
+        },
+        {
+          "week": 7,
+          "opp": "IND",
+          "car": 1,
+          "tgt": 3,
+          "rec": 2,
+          "yds": 23,
+          "td": 0,
+          "snap": 83
+        },
+        {
+          "week": 8,
+          "opp": "DET",
+          "car": 0,
+          "tgt": 8,
+          "rec": 3,
+          "yds": 66,
+          "td": 0,
+          "snap": 98
+        }
+      ],
+      "scored_last": 1,
       "game_id": "2026_09_BUF_MIN",
       "opponent": "BUF"
     },
     {
-      "player_id": "00-0040506",
-      "name": "Myles Price",
+      "player_id": "00-0038933",
+      "name": "Dalton Kincaid",
+      "team": "BUF",
+      "position": "TE",
+      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cmrfup2mfx13pjb0qznw",
+      "prob": 22.3,
+      "season_tds": 2,
+      "status": null,
+      "games": 7,
+      "snap": 64,
+      "xtd": 0.26,
+      "depth": "TE1",
+      "form": [
+        {
+          "week": 3,
+          "opp": "LAC",
+          "car": 0,
+          "tgt": 3,
+          "rec": 2,
+          "yds": 38,
+          "td": 0,
+          "snap": 67
+        },
+        {
+          "week": 4,
+          "opp": "NE",
+          "car": 0,
+          "tgt": 2,
+          "rec": 1,
+          "yds": 7,
+          "td": 0,
+          "snap": 59
+        },
+        {
+          "week": 5,
+          "opp": "LA",
+          "car": 0,
+          "tgt": 2,
+          "rec": 1,
+          "yds": 7,
+          "td": 0,
+          "snap": 70
+        },
+        {
+          "week": 6,
+          "opp": "LV",
+          "car": 0,
+          "tgt": 8,
+          "rec": 7,
+          "yds": 38,
+          "td": 0,
+          "snap": 72
+        },
+        {
+          "week": 8,
+          "opp": "BAL",
+          "car": 0,
+          "tgt": 6,
+          "rec": 4,
+          "yds": 86,
+          "td": 1,
+          "snap": 57
+        }
+      ],
+      "scored_last": 1,
+      "game_id": "2026_09_BUF_MIN",
+      "opponent": "MIN"
+    },
+    {
+      "player_id": "00-0037525",
+      "name": "Jordan Mason",
       "team": "MIN",
-      "position": "WR",
-      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zsjrzuziooij49ubg0lx",
+      "position": "RB",
+      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xe3i1lsb3rsioqy61krt",
+      "prob": 19.8,
+      "season_tds": 1,
+      "status": null,
+      "games": 3,
+      "snap": 43,
+      "xtd": 0.26,
+      "depth": "RB1",
+      "form": [
+        {
+          "week": 1,
+          "opp": "GB",
+          "car": 15,
+          "tgt": 0,
+          "rec": 0,
+          "yds": 59,
+          "td": 1,
+          "snap": 45
+        },
+        {
+          "week": 7,
+          "opp": "IND",
+          "car": 15,
+          "tgt": 2,
+          "rec": 0,
+          "yds": 68,
+          "td": 0,
+          "snap": 64
+        },
+        {
+          "week": 8,
+          "opp": "DET",
+          "car": 8,
+          "tgt": 0,
+          "rec": 0,
+          "yds": 20,
+          "td": 0,
+          "snap": 28
+        }
+      ],
+      "scored_last": 1,
+      "game_id": "2026_09_BUF_MIN",
+      "opponent": "BUF"
+    },
+    {
+      "player_id": "00-0032950",
+      "name": "Carson Wentz",
+      "team": "MIN",
+      "position": "QB",
+      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/azwdmcksvjva4tgaa8vm",
       "prob": 5.9,
       "season_tds": 0,
       "status": null,
+      "games": 2,
+      "snap": 93,
+      "xtd": 0.03,
+      "depth": "QB2",
+      "form": [
+        {
+          "week": 1,
+          "opp": "GB",
+          "car": 5,
+          "tgt": 0,
+          "rec": 0,
+          "yds": -1,
+          "td": 0,
+          "snap": 83
+        },
+        {
+          "week": 2,
+          "opp": "CHI",
+          "car": 3,
+          "tgt": 0,
+          "rec": 0,
+          "yds": 6,
+          "td": 0,
+          "snap": 100
+        }
+      ],
+      "scored_last": 0,
       "game_id": "2026_09_BUF_MIN",
       "opponent": "BUF"
     }
   ],
+  "scorer_model": {
+    "version": 2,
+    "train_rows": 9872,
+    "train_seasons": [
+      2024,
+      2026
+    ],
+    "coefs": {
+      "constante": -1.5,
+      "z": 0.279,
+      "is_qb": -0.617,
+      "is_rb": 0.43,
+      "is_te": -0.086,
+      "rb_m": 0.063,
+      "wr_m": -0.008,
+      "qb_m": -0.052,
+      "snap": 1.584,
+      "xpg": 0.312,
+      "quest": -0.439,
+      "lpts": 1.185
+    }
+  },
   "ranking": [
     {
       "abbr": "JAX",
@@ -5971,7 +7432,7 @@
         "proj_wins": 12.2,
         "playoff": 97.9,
         "division": 93.1,
-        "seed1": 21.1,
+        "seed1": 21.2,
         "conf": 23.9,
         "sb": 14.1
       },
@@ -6185,11 +7646,11 @@
       "sim": {
         "proj_wins": 12.4,
         "playoff": 97.5,
-        "division": 85.2,
-        "seed1": 30.8,
+        "division": 85.1,
+        "seed1": 30.7,
         "conf": 21.2,
         "sb": 11.9,
-        "if_win": 98.5,
+        "if_win": 98.4,
         "if_lose": 95.8
       },
       "power": 4.6,
@@ -6279,7 +7740,7 @@
           "opp": "MIN",
           "opp_nick": "Vikings",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
-          "prob": 64.3
+          "prob": 63.6
         },
         {
           "week": 10,
@@ -6834,7 +8295,7 @@
         "proj_wins": 12.3,
         "playoff": 93.8,
         "division": 80.8,
-        "seed1": 39.1,
+        "seed1": 39.0,
         "conf": 22.5,
         "sb": 11.1
       },
@@ -7482,7 +8943,7 @@
         "playoff": 91.1,
         "division": 40.4,
         "seed1": 10.2,
-        "conf": 12.1,
+        "conf": 12.0,
         "sb": 6.4
       },
       "power": 3.0,
@@ -7910,7 +9371,7 @@
       "sim": {
         "proj_wins": 11.1,
         "playoff": 81.4,
-        "division": 32.2,
+        "division": 32.1,
         "seed1": 17.7,
         "conf": 14.1,
         "sb": 6.5
@@ -8124,10 +9585,10 @@
       "division": "AFC East",
       "sim": {
         "proj_wins": 9.5,
-        "playoff": 68.2,
+        "playoff": 68.3,
         "division": 14.8,
         "seed1": 1.3,
-        "conf": 6.5,
+        "conf": 6.6,
         "sb": 3.4
       },
       "power": 2.5,
@@ -8555,9 +10016,9 @@
       "division": "NFC North",
       "sim": {
         "proj_wins": 11.3,
-        "playoff": 83.3,
-        "division": 31.5,
-        "seed1": 18.4,
+        "playoff": 83.4,
+        "division": 31.6,
+        "seed1": 18.5,
         "conf": 12.1,
         "sb": 5.8,
         "if_win": 89.4,
@@ -8650,7 +10111,7 @@
           "opp": "BUF",
           "opp_nick": "Bills",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-          "prob": 35.7
+          "prob": 36.4
         },
         {
           "week": 10,
@@ -8774,7 +10235,7 @@
         "playoff": 55.3,
         "division": 8.8,
         "seed1": 3.3,
-        "conf": 6.3,
+        "conf": 6.2,
         "sb": 2.5
       },
       "power": 1.7,
