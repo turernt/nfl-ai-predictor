@@ -19,6 +19,15 @@ def main() -> int:
         for s in p.get("scorers", []):
             if not (0 <= s["prob"] < 100):
                 errors.append(f"buteur incohérent : {s['name']}")
+            if not isinstance(s.get("form", []), list):
+                errors.append(f"journal des matchs incohérent : {s['name']}")
+        for side in ("home", "away"):
+            starters = [x for x in (p.get("lineup") or {}).get(side, []) if x.get("available")]
+            if len({x["player_id"] for x in starters}) != len(starters):
+                errors.append(f"composition en double : {p['game_id']} ({side})")
+    coefs = (d.get("scorer_model") or {}).get("coefs", {})
+    if coefs and not all(isinstance(v, (int, float)) and abs(v) < 20 for v in coefs.values()):
+        errors.append("modèle de buteurs : coefficients aberrants")
     sims = [t["sim"] for t in d.get("ranking", []) if t.get("sim")]
     if sims and abs(sum(s["sb"] for s in sims) - 100) > 1:
         errors.append("simulation : la somme des chances de Super Bowl n'est pas 100 %")
