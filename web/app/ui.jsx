@@ -45,22 +45,71 @@ export function Logo({ team, size = 36 }) {
     : <span className="logo" style={{ width: size, height: size }} />;
 }
 
-export function Scorer({ s, showTeam = true }) {
+// Derniers matchs d’un joueur : un point par match, plein s’il a marqué
+export function FormDots({ form }) {
+  if (!form?.length) return null;
+  const hits = form.filter((f) => f.td > 0).length;
+  return (
+    <span className="form" title={`A marqué dans ${hits} de ses ${form.length} derniers matchs`}>
+      {form.map((f) => <i key={f.week} className={f.td > 0 ? 'td' : ''} />)}
+      <span>{hits}/{form.length}</span>
+    </span>
+  );
+}
+
+export function Scorer({ s, showTeam = true, detail = false }) {
+  const form = s.form || [];
   return (
     <li className="scorer">
       {s.headshot ? <img className="face" src={s.headshot} alt="" width="32" height="32" loading="lazy" /> : <span className="face" />}
       <div className="scorer-id">
         <span className="scorer-name">{s.name}</span>
         <span className="scorer-sub">
-          {showTeam ? `${s.team}, ` : ''}{s.position}, {s.season_tds} TD cette saison
+          {showTeam ? `${s.team}, ` : ''}{s.depth || s.position}, {s.season_tds} TD cette saison
           {s.status && <em className="tag">{statusFr[s.status] || s.status}</em>}
         </span>
+        {!detail && <FormDots form={form} />}
       </div>
       <div className="scorer-prob">
         <b>{pct(s.prob)}</b>
         <span className="meter"><span style={{ width: `${s.prob}%` }} /></span>
       </div>
+      {detail && form.length > 0 && (
+        <details className="scorer-more">
+          <summary>
+            <FormDots form={form} /> derniers matchs{s.snap != null ? `, ${s.snap}\u00a0% des actions jouées` : ''}
+          </summary>
+          <table className="log">
+            <thead><tr><th>Match</th><th>Courses</th><th>Cibles</th><th>Yards</th><th>TD</th><th>Temps de jeu</th></tr></thead>
+            <tbody>
+              {form.map((f) => (
+                <tr key={f.week} className={f.td > 0 ? 'hit' : ''}>
+                  <td>S{f.week} {f.opp}</td><td>{f.car}</td><td>{f.tgt}</td><td>{f.yds}</td><td>{f.td}</td>
+                  <td>{f.snap != null ? `${f.snap}\u00a0%` : '—'}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </details>
+      )}
     </li>
+  );
+}
+
+// Composition probable : hiérarchie des postes croisée avec l’effectif actif et le rapport de blessures
+const POS_FR = { QB: 'Quarterback', RB: 'Coureurs', WR: 'Receveurs', TE: 'Tight end' };
+export function Lineup({ players }) {
+  if (!players?.length) return <p className="team-sub">Composition indisponible.</p>;
+  return (
+    <ul className="lineup">
+      {players.map((x) => (
+        <li key={x.player_id} className={x.available ? '' : 'off'}>
+          <span className="pos" title={POS_FR[x.pos]}>{x.pos}{x.rank}</span>
+          <span className="lu-name">{x.name}</span>
+          {x.status && <span className={`st st-${x.status}`}>{{ Out: 'Forfait', Doubtful: 'Douteux', Questionable: 'Incertain' }[x.status]}</span>}
+        </li>
+      ))}
+    </ul>
   );
 }
 
