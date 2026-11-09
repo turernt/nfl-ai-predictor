@@ -282,7 +282,9 @@
    "open_prob": 71.9,
    "open_fr": null,
    "close_prob": 70.9,
-   "closed_at": "2026-11-09T01:14+00:00"
+   "closed_at": "2026-11-09T01:14+00:00",
+   "result": "V",
+   "score": "24-27"
   },
   "2026_09_BUF_MIN": {
    "season": 2026,
@@ -294,8 +296,8 @@
    "pick_home": false,
    "open_prob": 62.1,
    "open_fr": null,
-   "close_prob": 61.4,
-   "closed_at": "2026-11-09T01:14+00:00"
+   "close_prob": 64.3,
+   "closed_at": "2026-11-09T22:02+00:00"
   }
  }
 }
