@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import data from '../../../data/predictions.json';
-import { Topbar, Footer, Logo, Scorer, ProbBar, tc } from '../../ui';
+import { Topbar, Footer, Logo, Scorer, Lineup, ProbBar, tc } from '../../ui';
 import { kickoff, fmtLong, fmtHour, spreadLabel, edgeLabel, num, pct } from '../../lib';
 
 export function generateStaticParams() {
@@ -68,7 +68,7 @@ export default function MatchPage({ params }) {
   const rows = [
     ['Force Elo', f.elo * ew],
     ['Efficacité par jeu (EPA)', f.epa * (1 - ew)],
-    ['Quarterbacks annoncés', f.qb.home - f.qb.away],
+    ['Quarterbacks attendus', f.qb.home - f.qb.away],
     ['Repos', f.rest.pts],
   ];
   const model = -g.model_spread;
@@ -87,7 +87,7 @@ export default function MatchPage({ params }) {
     ['Elo', Math.round(g.away.elo), Math.round(g.home.elo)],
     ['Attaque (rang EPA)', g.away.off_rank ? `${g.away.off_rank}e` : '—', g.home.off_rank ? `${g.home.off_rank}e` : '—'],
     ['Défense (rang EPA)', g.away.def_rank ? `${g.away.def_rank}e` : '—', g.home.def_rank ? `${g.home.def_rank}e` : '—'],
-    ['QB annoncé', f.qb.away_name || '—', f.qb.home_name || '—'],
+    ['QB attendu', f.qb.away_name || '—', f.qb.home_name || '—'],
     ['Jours de repos', f.rest.away_days ?? '—', f.rest.home_days ?? '—'],
   ];
 
@@ -218,14 +218,36 @@ export default function MatchPage({ params }) {
           {hHome && hAway && <EloChart home={hHome} away={hAway} weeks={weekLabels} />}
         </section>
 
+        {g.lineup && (g.lineup.home?.length > 0 || g.lineup.away?.length > 0) && (
+          <section className="panel">
+            <h2>Composition probable</h2>
+            <p className="lede">
+              Titulaires attendus en attaque, d’après la hiérarchie des postes, l’effectif actif et le rapport de blessures.
+              Un joueur forfait est remplacé par le suivant dans la hiérarchie.
+            </p>
+            <div className="two-col">
+              {[g.away, g.home].map((t) => (
+                <div key={t.abbr}>
+                  <h3 className="col-title"><Logo team={t} size={22} />{t.nick}</h3>
+                  <Lineup players={t.abbr === g.home.abbr ? g.lineup.home : g.lineup.away} />
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
         <section className="panel">
           <h2>Buteurs probables</h2>
-          <p className="lede">Probabilité de marquer au moins un touchdown à la course ou à la réception.</p>
+          <p className="lede">
+            Probabilité de marquer au moins un touchdown à la course ou à la réception, calculée sur les matchs précédents
+            de chaque joueur (ballons reçus près de l’en-but, temps de jeu, touchdowns), la composition du jour et le score
+            attendu. Les points verts indiquent les matchs où le joueur a marqué.
+          </p>
           <div className="two-col">
             {[g.away, g.home].map((t) => (
               <div key={t.abbr}>
                 <h3 className="col-title"><Logo team={t} size={22} />{t.nick}</h3>
-                <ul className="plain">{byTeam(t.abbr).map((s) => <Scorer key={s.player_id || s.name} s={s} showTeam={false} />)}</ul>
+                <ul className="plain">{byTeam(t.abbr).map((s) => <Scorer key={s.player_id || s.name} s={s} showTeam={false} detail />)}</ul>
               </div>
             ))}
           </div>
