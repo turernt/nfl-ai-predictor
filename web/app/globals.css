@@ -347,3 +347,20 @@ h1, h2, .brand, .team-name, .score, .win, .big-prob, .elo b, .recap-big, .sb-nam
 .flag.v { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
 .flag.i { background: var(--down-soft); color: var(--down); }
 .flag.w { background: var(--down-soft); color: var(--warn); }
+
+/* Forme récente des joueurs, journal des matchs et composition probable */
+.form { display: inline-flex; align-items: center; gap: 0.25rem; font-size: 0.75rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.form i { width: 8px; height: 8px; border-radius: 50%; background: var(--line); flex: none; }
+.form i.td { background: var(--accent); }
+.scorer-id .form { margin-top: 0.15rem; }
+.scorer-more { grid-column: 1 / -1; font-size: 0.78rem; color: var(--muted); margin: -0.15rem 0 0.3rem; }
+.scorer-more summary { cursor: pointer; display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap; }
+.scorer-more summary:hover { color: var(--ink); }
+.log { width: 100%; border-collapse: collapse; margin-top: 0.35rem; font-variant-numeric: tabular-nums; }
+.log th, .log td { padding: 0.22rem 0.3rem; text-align: right; border-bottom: 1px solid var(--line); font-weight: 400; }
+.log th:first-child, .log td:first-child { text-align: left; }
+.log tr.hit td { color: var(--ink); font-weight: 500; }
+.lineup { list-style: none; }
+.lineup li { display: grid; grid-template-columns: 2.6rem 1fr auto; align-items: baseline; gap: 0.5rem; padding: 0.3rem 0; border-top: 1px solid var(--line); font-size: 0.92rem; }
+.lineup .pos { font-size: 0.75rem; font-weight: 600; color: var(--muted); }
+.lineup li.off .lu-name { color: var(--muted); text-decoration: line-through; }
