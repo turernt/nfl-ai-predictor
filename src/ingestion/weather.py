@@ -27,7 +27,7 @@ STADIUMS = {
     "SEA": (47.5952, -122.3316, "open"), "TB": (27.9759, -82.5033, "open"),
     "TEN": (36.1665, -86.7713, "open"), "WAS": (38.9076, -76.8645, "open"),
 }
-WINDY_KMH = 19   # ~12 mph : au-delà, le total est passé sous la ligne 56 % du temps (2023-2026)
+WINDY_KMH = 19   # ~12 mph : au-delà, le total est passé sous la ligne 57,9 % du temps (594 matchs, 2012-2026)
 
 
 def kickoff_utc(gameday: str, gametime: str) -> datetime | None:
