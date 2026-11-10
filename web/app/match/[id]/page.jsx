@@ -1,15 +1,20 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import data from '../../../data/predictions.json';
+import archive from '../../../data/archive.json';
 import { Topbar, Footer, Logo, Scorer, Lineup, ProbBar, tc } from '../../ui';
 import { kickoff, fmtLong, fmtHour, spreadLabel, edgeLabel, num, pct } from '../../lib';
 
+// Matchs de la semaine (version complète) puis tous les matchs archivés de la saison (figés au coup d’envoi)
+const findGame = (id) => data.predictions.find((x) => x.game_id === id) || archive[id];
+
 export function generateStaticParams() {
-  return data.predictions.map((g) => ({ id: g.game_id }));
+  const ids = new Set([...data.predictions.map((g) => g.game_id), ...Object.keys(archive)]);
+  return [...ids].map((id) => ({ id }));
 }
 
 export function generateMetadata({ params }) {
-  const g = data.predictions.find((x) => x.game_id === params.id);
+  const g = findGame(params.id);
   if (!g) return {};
   return {
     title: `${g.away.nick} @ ${g.home.nick}, semaine ${g.week}`,
@@ -60,8 +65,11 @@ function EloChart({ home, away, weeks }) {
 }
 
 export default function MatchPage({ params }) {
-  const g = data.predictions.find((x) => x.game_id === params.id);
+  const g = findGame(params.id);
   if (!g) notFound();
+  const isFinal = g.status === 'final';
+  const frozen = g.status === 'final' || g.status === 'live';
+  const noInjuryReport = !g.injuries || (!g.injuries.home?.length && !g.injuries.away?.length);
   const date = kickoff(g.gameday, g.gametime);
   const f = g.factors;
   const ew = data.model.elo_weight;
@@ -79,7 +87,7 @@ export default function MatchPage({ params }) {
   const hHome = hist[g.home.abbr], hAway = hist[g.away.abbr];
   const nWeeks = hHome?.history?.length || 0;
   const weekLabels = Array.from({ length: nWeeks }, (_, i) => (i === nWeeks - 1 ? 'Auj.' : `S${i + 1}`));
-  const proj = g.projected_score || {};
+  const proj = (isFinal ? g.score : g.projected_score) || {};
   const byTeam = (abbr) => g.scorers.filter((s) => s.team === abbr);
 
   const compare = [
@@ -99,6 +107,14 @@ export default function MatchPage({ params }) {
 
         <header className="scoreboard">
           <p className="sb-date">Semaine {g.week}, {date ? `${fmtLong(date)}, ${fmtHour(date)}` : 'date à confirmer'}</p>
+          {frozen && (
+            <p className="notice">
+              {isFinal ? 'Match terminé, score final ci-dessous. ' : 'Match en cours. '}
+              Analyse figée telle qu’elle était publiée avant le coup d’envoi
+              {g.unpublished ? ' (recalculée après coup : aucune version n’avait été publiée)' : ''}.
+              {isFinal && g.pick_correct != null && <b className={g.pick_correct ? 'res-ok' : 'res-ko'}> Pronostic {g.pick_correct ? 'juste' : 'faux'}.</b>}
+            </p>
+          )}
           <div className="sb-teams">
             {[[g.away, g.prob_away_win, proj.away], [g.home, g.prob_home_win, proj.home]].map(([t, p, sc], i) => (
               <div key={t.abbr} className={`sb-team ${i ? 'home' : ''} ${p >= 50 ? 'is-fav' : ''}`}>
@@ -138,8 +154,8 @@ export default function MatchPage({ params }) {
               : <FactorRow label="Pronostic retenu" pts={final} g={g} scale={scale} strong />}
           </div>
           <p className="fine">
-            La probabilité affichée vient des cotes des bookmakers, marge retirée : testées sur 3 900 matchs depuis 2012,
-            elles sont plus fiables que notre modèle et que tout mélange des deux. Notre modèle sert de second avis :
+            La probabilité affichée vient des cotes des bookmakers, marge retirée : bien calibrées sur 3 950 matchs depuis 2012,
+            et jamais battues par notre modèle ni par un mélange des deux. Notre modèle sert de second avis :
             quand il contredit les cotes, c’est un signal de prudence. Spread retenu : {spreadLabel(g.predicted_spread, g.home, g.away)},
             total : {g.vegas_total != null ? num(g.vegas_total) : '—'}.
           </p>
@@ -156,10 +172,13 @@ export default function MatchPage({ params }) {
                   : <>Météo prévue au coup d’envoi : <b>{g.weather.temp_c}&nbsp;°C</b>, vent <b>{g.weather.wind_kmh}&nbsp;km/h</b>
                       {g.weather.precip_prob != null ? <>, risque de pluie {g.weather.precip_prob}&nbsp;%</> : null}
                       {g.weather.roof === 'retractable' ? ' (toit rétractable, souvent fermé)' : ''}.</>}
-                {g.weather.windy && <span className="warn"> Vent fort : depuis 2023, le total de points est passé sous la ligne dans 56&nbsp;% de ces matchs.</span>}
+                {g.weather.windy && <span className="warn"> Vent fort : depuis 2012, le total de points est passé sous la ligne dans 58&nbsp;% de ces matchs (594 matchs).</span>}
               </p>
             )}
-            {g.injuries && (
+            {g.injuries && noInjuryReport && (
+              <p className="team-sub">Rapport de blessures pas encore publié pour cette semaine (il paraît du mercredi au vendredi).</p>
+            )}
+            {g.injuries && !noInjuryReport && (
               <div className="two-col">
                 {[g.away, g.home].map((t) => {
                   const list = (t.abbr === g.home.abbr ? g.injuries.home : g.injuries.away) || [];
