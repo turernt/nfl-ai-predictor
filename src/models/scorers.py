@@ -12,8 +12,9 @@ Version 2 : le modèle apprend sur l'historique match par match de chaque joueur
    match (équipe favorite ou non) et le statut « incertain ». Elle est réajustée à chaque mise à jour sur
    toutes les prédictions passées (deux saisons précédentes et saison en cours).
 
-Test hors échantillon (mêmes joueurs, ancien modèle contre nouveau) : perte logarithmique 0,535 → 0,516
-sur 2025 (3 500 cas) et 0,535 → 0,504 sur 2026 (1 663 cas).
+Test hors échantillon, apprentissage semaine après semaine (mêmes joueurs, ancien modèle contre nouveau) :
+perte logarithmique 0,536 → 0,517 sur 2025 (3 503 cas) et 0,533 → 0,503 sur 2026 (1 664 cas) ; le buteur n°1
+de chaque match a marqué 48,0 % du temps contre 42,9 % (375 matchs).
 """
 import logging
 
