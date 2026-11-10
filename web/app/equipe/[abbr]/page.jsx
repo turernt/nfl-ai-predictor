@@ -46,7 +46,15 @@ export default function TeamPage({ params }) {
 
         {t.sim && (
           <section className="stats">
-            <div className="stat main"><span className="stat-label">Playoffs</span><span className="stat-big">{p(s.playoff)}</span><span className="stat-sub">{num(s.proj_wins)} victoires projetées</span></div>
+            <div className="stat main"><span className="stat-label">Playoffs</span><span className="stat-big">{p(s.playoff)}</span>
+              <span className="stat-sub">{num(s.proj_wins)} victoires projetées</span>
+              {t.sim_history?.length > 1 && (
+                <span className="stat-sub spark-row" title="Chances de playoffs avant chaque semaine">
+                  <Sparkline values={t.sim_history.map((x) => x[1])} color="var(--accent)" width={110} height={24} />
+                  S{t.sim_history[0][0]} {p(t.sim_history[0][1])} → {p(t.sim_history.at(-1)[1])}
+                </span>
+              )}
+            </div>
             <div className="stat"><span className="stat-label">Titre de division</span><span className="stat-big">{p(s.division)}</span><span className="stat-sub">Tête de série n°1 : {p(s.seed1)}</span></div>
             <div className="stat"><span className="stat-label">Finale de conférence gagnée</span><span className="stat-big">{p(s.conf)}</span><span className="stat-sub">{t.conf}</span></div>
             <div className="stat"><span className="stat-label">Super Bowl</span><span className="stat-big">{p(s.sb)}</span><span className="stat-sub">cote juste {s.sb > 0 ? num(100 / s.sb, 1) : '—'}</span></div>
