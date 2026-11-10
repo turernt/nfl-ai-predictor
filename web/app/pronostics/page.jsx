@@ -138,7 +138,7 @@ export default function Pronostics() {
             </p>
             <p className="src">
               {consensus
-                ? `Probabilités calculées sur la moyenne de ${src.books} bookmakers (marge retirée par la méthode de Shin, Pinnacle et Betfair comptent double).`
+                ? `Probabilités : médiane de ${src.books} bookmakers, en ne gardant que ceux dont la marge ne dépasse pas 6 % (marge retirée par la méthode de Shin).`
                 : 'Probabilités calculées sur les cotes de référence nflverse, marge retirée par la méthode de Shin.'}
             </p>
           </div>
@@ -154,8 +154,9 @@ export default function Pronostics() {
           <section className="panel">
             <h2>Cotes françaises au-dessus du juste prix</h2>
             <p className="lede">
-              Une cote proposée par un site français dépasse d’au moins 2&nbsp;% la cote juste calculée sur l’ensemble du marché.
-              C’est la seule situation où un pari est rentable sur la durée.
+              Une cote proposée par un site français dépasse d’au moins 3&nbsp;% la cote juste du marché. C’est la seule
+              situation où un pari peut être rentable sur la durée, à condition que l’écart se confirme : le bilan suit chaque
+              cote signalée face à la cote de clôture.
             </p>
             {picks.value?.length
               ? <ol className="picks">{picks.value.map((v) => <ValuePick key={v.game_id + v.team.abbr} v={v} />)}</ol>
@@ -231,9 +232,9 @@ export default function Pronostics() {
           <h2>Ce qui compte vraiment, et ce qui ne compte pas</h2>
           <p className="lede">Nous avons testé chaque facteur sur 899 matchs (saisons 2023 à 2026), en vérifiant ce qu’il apporte en plus des cotes.</p>
           <ul className="findings">
-            <li><b>Les cotes du marché sont le meilleur prédicteur.</b> Elles intègrent déjà la forme, les blessures, l’avantage du terrain et la météo. C’est pourquoi nos probabilités en sont tirées.</li>
+            <li><b>Les cotes du marché sont le meilleur prédicteur disponible.</b> Elles intègrent déjà la forme, les blessures, l’avantage du terrain et la météo. Sur 899 matchs, aucun mélange avec notre modèle n’a fait mieux que les cotes seules (score de Brier 0,213 contre 0,215) : l’écart est faible, mais rien ne justifie de s’en écarter.</li>
             <li><b>La forme récente et l’historique des confrontations n’apportent rien de plus.</b> Utiles seuls, ils ne prédisent presque rien une fois les cotes connues (corrélation inférieure à 0,04 avec l’écart restant).</li>
-            <li><b>La marge des bookmakers pèse surtout sur les outsiders.</b> Nous la retirons par la méthode de Shin plutôt qu’à parts égales : sur 3 930 matchs, les outsiders sous 25&nbsp;% sont annoncés à 18,9&nbsp;% et gagnent 18,9&nbsp;% du temps, contre 19,2&nbsp;% annoncés avec la méthode simple.</li>
+            <li><b>La marge des bookmakers est retirée par la méthode de Shin.</b> Avec deux issues, elle donne presque les mêmes probabilités que la méthode simple (0,1 point d’écart au plus). Sur 3 950 matchs, les outsiders sous 25&nbsp;% sont annoncés à 18,9&nbsp;% et gagnent 18,8&nbsp;% du temps : les probabilités sont bien calibrées.</li>
             <li><b>Ne misez jamais beaucoup, même sur une bonne occasion.</b> La mise prudente indiquée correspond à un quart du critère de Kelly, plafonnée à 2&nbsp;% du budget : assez pour profiter d’un avantage, sans risquer de tout perdre sur une série défavorable.</li>
             <li><b>L’avantage du terrain ne vaut plus qu’environ 1,5 point</b>, contre 3 il y a quinze ans. Il est déjà pris en compte par les bookmakers.</li>
             <li><b>Le quarterback titulaire est le facteur individuel le plus important.</b> Un changement de dernière minute peut faire basculer un match : vérifiez toujours les annonces avant de jouer. Si le quarterback prévu est forfait, nous prenons le suivant dans la hiérarchie de l’équipe.</li>
@@ -243,14 +244,14 @@ export default function Pronostics() {
               redistribuée à ses coéquipiers du même poste). Il se réajuste à chaque mise à jour
               {sm?.train_rows ? ` sur ${sm.train_rows.toLocaleString('fr-FR')} prédictions passées` : ''}.
               Vérifié sur 375 matchs qu’il n’avait jamais vus (2025 et 2026), son buteur n°1 de chaque match a marqué 48,0&nbsp;% du temps,
-              contre 42,9&nbsp;% avec l’ancien calcul.
+              contre 42,9&nbsp;% avec l’ancien calcul : amélioration probable, à confirmer par le suivi réel (page Bilan).
             </li>
             <li>
               <b>Nous ne proposons pas de paris contre l’écart (handicap).</b> Quand notre modèle s’éloigne des bookmakers d’au moins 3 points,
-              il a eu raison dans seulement 46,7&nbsp;% des cas sur 210 matchs depuis 2023
-              {s.ats_games ? ` (${s.ats_correct} sur ${s.ats_games} cette saison)` : ''}. Il faut 52,4&nbsp;% pour gagner de l’argent.
+              il a eu raison dans 46,7&nbsp;% des cas sur 210 matchs depuis 2023, avec une marge d’erreur de 40 à 53&nbsp;%
+              {s.ats_games ? ` (${s.ats_correct} sur ${s.ats_games} cette saison)` : ''}. Aucun avantage démontré, alors qu’il faut 52,4&nbsp;% pour gagner de l’argent.
             </li>
-            <li><b>Le vent fort réduit le nombre de points</b> : avec un vent de 19 km/h ou plus, le total est passé sous la ligne 56&nbsp;% du temps (109 matchs). L’échantillon est faible et la météo n’est pas connue à l’avance dans nos données : nous ne l’utilisons pas encore.</li>
+            <li><b>Le vent fort réduit le nombre de points</b> : depuis 2012, avec un vent de 19 km/h ou plus au coup d’envoi, le total est passé sous la ligne 57,9&nbsp;% du temps (594 matchs, ±4 points), un effet stable sur trois périodes. Il est mesuré avec le vent observé et non avec la prévision : nous ne l’utilisons pas encore dans un pronostic.</li>
           </ul>
         </section>
 
