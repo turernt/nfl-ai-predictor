@@ -1,0 +1,71 @@
+{
+ "seasons": [
+  2020,
+  2025
+ ],
+ "weeks": [
+  4,
+  8,
+  12,
+  16
+ ],
+ "n": 768,
+ "brier": 0.121,
+ "brier_base": 0.246,
+ "buckets": [
+  {
+   "label": "0 à 10 %",
+   "n": 213,
+   "predicted": 2.2,
+   "actual": 1.9
+  },
+  {
+   "label": "10 à 30 %",
+   "n": 127,
+   "predicted": 19.0,
+   "actual": 25.2
+  },
+  {
+   "label": "30 à 50 %",
+   "n": 95,
+   "predicted": 38.3,
+   "actual": 33.7
+  },
+  {
+   "label": "50 à 70 %",
+   "n": 95,
+   "predicted": 59.4,
+   "actual": 58.9
+  },
+  {
+   "label": "70 à 90 %",
+   "n": 98,
+   "predicted": 79.9,
+   "actual": 79.6
+  },
+  {
+   "label": "90 à 100 %",
+   "n": 140,
+   "predicted": 97.2,
+   "actual": 95.7
+  }
+ ],
+ "by_week": [
+  {
+   "week": 4,
+   "brier": 0.172
+  },
+  {
+   "week": 8,
+   "brier": 0.139
+  },
+  {
+   "week": 12,
+   "brier": 0.117
+  },
+  {
+   "week": 16,
+   "brier": 0.054
+  }
+ ]
+}
