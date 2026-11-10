@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import data from '../../../data/predictions.json';
+import archive from '../../../data/archive.json';
 import { Topbar, Footer, Logo, Sparkline } from '../../ui';
 import { num, pct } from '../../lib';
 
@@ -24,7 +25,7 @@ export default function TeamPage({ params }) {
   if (rank < 0) notFound();
   const t = data.ranking[rank];
   const s = t.sim || {};
-  const current = new Set(data.predictions.map((g) => g.game_id));
+  const current = new Set([...data.predictions.map((g) => g.game_id), ...Object.keys(archive)]);
   const scorers = data.predictions.flatMap((g) => g.scorers || []).filter((x) => x.team === t.abbr);
 
   return (
@@ -72,7 +73,12 @@ export default function TeamPage({ params }) {
                   <Link href={`/equipe/${g.opp}`}>{g.opp_nick}</Link>
                 </span>
                 {g.result
-                  ? <span className="res"><b>{g.result === 'V' ? 'Victoire' : g.result === 'D' ? 'Défaite' : 'Nul'}</b> {g.score}</span>
+                  ? (
+                    <span className="res">
+                      <b>{g.result === 'V' ? 'Victoire' : g.result === 'D' ? 'Défaite' : 'Nul'}</b> {g.score}
+                      {current.has(g.game_id) && <Link href={`/match/${g.game_id}`} className="pk-link">Analyse</Link>}
+                    </span>
+                  )
                   : (
                     <span className="res">
                       <span className="meter wide"><span style={{ width: `${g.prob}%` }} /></span>
