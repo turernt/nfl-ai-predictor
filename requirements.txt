@@ -1,8 +1,10 @@
-nflreadpy>=0.1.5
-polars>=1.0
-pyarrow>=15.0
-pandas>=2.0
-fastapi>=0.110
-uvicorn>=0.29
-pydantic>=2.0
-requests>=2.31
+# Versions figées : une mise à jour d'une bibliothèque ne peut plus casser le passage automatique sans prévenir
+nflreadpy==0.1.5
+polars==2.1.0
+pyarrow==26.0.1
+pandas==3.0.6
+numpy==2.5.4
+requests==2.34.2
+fastapi==0.162.4
+uvicorn==0.54.0
+pydantic==2.14.3

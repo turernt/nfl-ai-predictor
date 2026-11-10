@@ -1,5 +1,7 @@
 # Arthur Analytics
 
+Projet personnel, sans usage commercial. Le site n’est pas proposé aux moteurs de recherche (noindex).
+
 Prédictions NFL hebdomadaires (probabilités de victoire, scores projetés, buteurs probables), 100 % gratuit.
 
 ## Modèle
@@ -7,18 +9,19 @@ Prédictions NFL hebdomadaires (probabilités de victoire, scores projetés, but
 - **Classement de force** : notes en points ajustées par moindres carrés sur toutes les lignes des bookmakers de la saison, rappelées vers le modèle maison ; elles servent aux matchs des semaines suivantes et à la simulation des playoffs (écart moyen de 2,6 pts avec les futures lignes, contre 2,8 pour le modèle seul).
 - **Modèle maison** = 50 % Elo (marge de victoire, régression inter-saisons) + 50 % efficacité par jeu (EPA, play-by-play),
   ajusté du quarterback annoncé (valeur EPA par dropback vs niveau habituel de l’équipe) et du repos.
-- **Probabilité retenue** = cotes des bookmakers, marge retirée (testées plus fiables que le modèle et que tout mélange, 899 matchs 2023-2026) ; le modèle maison sert de second avis.
+- **Probabilité retenue** = cotes des bookmakers, marge retirée (médiane des bookmakers dont la marge ne dépasse pas 6 %) ; aucun mélange avec le modèle maison n’a fait mieux sur 899 matchs (2023-2026). Le modèle maison sert de second avis. Conversion écart de points → probabilité : écart-type de 11,5 points (calé sur 2016-2026).
+- **Gel au coup d’envoi** : un match commencé n’est plus recalculé ; sa dernière version publiée est conservée dans `data/archive.json` (page de match accessible toute la saison, matchs terminés visibles sur l’accueil).
 - **Pronostics** (`/pronostics`) : favoris à 70 % ou plus, buteurs à 40 % ou plus, matchs à éviter, avec la fiabilité historique de chaque palier (depuis 2012).
 - **Buteurs** : le modèle suit chaque joueur match par match (TD attendus selon la position de ses courses et de ses cibles,
   temps de jeu, statut médical), répartit les TD attendus de l’équipe selon la composition du jour, puis applique une
   régression logistique réajustée à chaque mise à jour sur les prédictions passées. Hors échantillon (2025-2026), son buteur
   n°1 de chaque match a marqué 48,0 % du temps contre 42,9 % avec l’ancien calcul.
 - **Composition probable** : hiérarchie des postes, effectif actif et rapport de blessures (QB, coureurs, receveurs, tight end).
-- **Bilan** : chaque semaine passée est re-prédite avec les seules données disponibles avant, puis comparée aux résultats.
+- **Bilan** : d’abord le suivi réel (vainqueurs, buteurs et cotes signalées, figés au coup d’envoi, valeur de clôture contre la ligne nflverse), puis une simulation rétrospective de la saison.
 
 ## Fonctionnement
 
-1. **GitHub Actions** (deux fois par jour, 13 h 17 et 21 h 47 UTC, pour suivre cotes, blessures et QB annoncés) lance `python main.py --update`.
+1. **GitHub Actions** (quatre passages par jour et des passages en plus avant les matchs du jeudi, du dimanche et du lundi ; GitHub les démarre souvent avec retard) lance `python main.py --update`. En cas d’échec, rien n’est publié et une alerte Telegram part si les secrets sont renseignés.
 2. Le pipeline charge tous les calendriers depuis 2010 via `nflreadpy`, recalcule les Elo
    (marge de victoire, retour à la moyenne entre saisons, terrain neutre géré) et écrit
    `data/predictions.json`, `data/team_elos.csv`, `data/schedules.csv` (+ copie dans `web/data/`).
@@ -36,7 +39,7 @@ Parions Sport, NetBet) et repérer les cotes françaises au-dessus du juste prix
 1. Créer une clé gratuite sur https://the-odds-api.com (offre Starter, 500 crédits/mois, sans carte bancaire).
 2. GitHub → *Settings → Secrets and variables → Actions → New repository secret* : nom `ODDS_API_KEY`.
 
-Une mise à jour consomme 6 crédits (2 marchés × 3 régions) ; avec deux mises à jour par jour, environ 370 crédits par mois.
+Un appel consomme 6 crédits (2 marchés × 3 régions). Les cotes sont gardées en cache (`data/odds_cache.json`) : l’API n’est rappelée qu’une fois par jour, et toutes les 3 heures quand un match commence dans les 6 heures, soit environ 290 crédits par mois quel que soit le nombre de passages. Les matchs déjà commencés sont ignorés (cotes en direct).
 
 ## Alertes Telegram (facultatif, gratuit)
 
@@ -44,7 +47,7 @@ Une mise à jour consomme 6 crédits (2 marchés × 3 régions) ; avec deux mise
 2. Écrire un message au bot, puis ouvrir `https://api.telegram.org/bot<JETON>/getUpdates` pour lire le `chat.id`.
 3. GitHub → *Settings → Secrets and variables → Actions* : `TELEGRAM_BOT_TOKEN` et `TELEGRAM_CHAT_ID`.
 
-Une alerte part quand une cote française dépasse le juste prix d’au moins 2 % (une seule fois par occasion).
+Une alerte part quand une cote française dépasse le juste prix d’au moins 3 % (une seule fois par occasion).
 
 ## Fiabilité et contrôles
 

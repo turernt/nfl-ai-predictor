@@ -1,5 +1,5 @@
 # Hugging Face Spaces (SDK Docker) : le Space doit écouter sur le port 7860
-FROM python:3.11-slim
+FROM python:3.12-slim
 WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
