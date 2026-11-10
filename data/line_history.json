@@ -2,7 +2,7 @@
  "2026_10_WAS_NYG": [
   {
    "date": "2026-11-10",
-   "prob_home": 55.4,
+   "prob_home": 55.5,
    "spread": -2.5,
    "books": 28
   }
@@ -26,7 +26,7 @@
  "2026_10_HOU_CLE": [
   {
    "date": "2026-11-10",
-   "prob_home": 32.2,
+   "prob_home": 32.3,
    "spread": 5.0,
    "books": 29
   }
@@ -34,7 +34,7 @@
  "2026_10_MIN_GB": [
   {
    "date": "2026-11-10",
-   "prob_home": 62.3,
+   "prob_home": 62.4,
    "spread": -3.5,
    "books": 29
   }
@@ -42,7 +42,7 @@
  "2026_10_MIA_IND": [
   {
    "date": "2026-11-10",
-   "prob_home": 63.7,
+   "prob_home": 63.8,
    "spread": -3.5,
    "books": 29
   }
@@ -58,7 +58,7 @@
  "2026_10_BUF_NYJ": [
   {
    "date": "2026-11-10",
-   "prob_home": 20.5,
+   "prob_home": 20.2,
    "spread": 8.0,
    "books": 29
   }
@@ -66,7 +66,7 @@
  "2026_10_JAX_TEN": [
   {
    "date": "2026-11-10",
-   "prob_home": 16.4,
+   "prob_home": 16.8,
    "spread": 10.5,
    "books": 29
   }
@@ -74,7 +74,7 @@
  "2026_10_LA_ARI": [
   {
    "date": "2026-11-10",
-   "prob_home": 19.8,
+   "prob_home": 20.1,
    "spread": 9.5,
    "books": 29
   }
@@ -82,7 +82,7 @@
  "2026_10_SEA_LV": [
   {
    "date": "2026-11-10",
-   "prob_home": 27.7,
+   "prob_home": 28.2,
    "spread": 6.5,
    "books": 29
   }
@@ -90,7 +90,7 @@
  "2026_10_SF_DAL": [
   {
    "date": "2026-11-10",
-   "prob_home": 34.3,
+   "prob_home": 34.4,
    "spread": 4.0,
    "books": 29
   }
@@ -106,7 +106,7 @@
  "2026_10_LAC_BAL": [
   {
    "date": "2026-11-10",
-   "prob_home": 66.6,
+   "prob_home": 66.3,
    "spread": -4.5,
    "books": 28
   }
