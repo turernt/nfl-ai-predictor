@@ -101,7 +101,7 @@ export default function Bilan() {
             </div>
             <p className="fine">
               Trouver le bon vainqueur ne suffit pas : les favoris paient peu et la marge du bookmaker fait perdre de l’argent
-              sur la durée. Seules les cotes supérieures au juste prix (onglet Pronostics) peuvent être rentables.
+              sur la durée. Seules les cotes supérieures au juste prix (onglet Pronostics) peuvent être rentables. Ces résultats portent sur un petit nombre de paris : ils sont trop peu nombreux pour en tirer une conclusion et ne garantissent aucun gain futur.
             </p>
           </section>
         )}
