@@ -49,7 +49,19 @@ Un appel consomme 6 crédits (2 marchés × 3 régions). Les cotes sont gardées
 
 Une alerte part quand une cote française dépasse le juste prix d’au moins 3 % (une seule fois par occasion).
 
+## Études et vérifications
+
+- `src/studies.py` recalcule à chaque passage les chiffres affichés sur le site : écart-type points → probabilité, méthode de Shin contre méthode simple, effet du vent observé (nflverse, depuis 2012) et du vent prévu (archive gratuite Open-Meteo depuis 2022, mise en cache dans `data/wind_forecasts.json`). Le signal « moins de points » sur les matchs venteux n'apparaît que si la borne basse de l'intervalle de confiance dépasse 52,4 %.
+- `studies/playoff_backtest.py` rejoue la simulation des playoffs sur 2020-2025 (`data/playoff_backtest.json`, affiché sur /saison). À relancer une fois par an : `python -m studies.playoff_backtest`.
+- `data/sim_history.json` et `data/seasons.json` gardent l'évolution des chances de playoffs et le bilan de chaque saison (page /archives).
+
+## Alertes Telegram
+
+Avec les secrets `TELEGRAM_BOT_TOKEN` et `TELEGRAM_CHAT_ID` : cote française au-dessus du juste prix, changement de quarterback, ligne qui bouge de 2 points ou plus, et bilan de la semaine une fois tous ses matchs terminés. Un échec du workflow est aussi signalé.
+
 ## Fiabilité et contrôles
+
+- Un passage programmé qui démarre moins de 5 h 30 avant un match attend jusqu'à 75 minutes avant le coup d'envoi (`src/wait_kickoff.py`), pour compenser les retards de GitHub.
 
 - Chaque exécution valide les données (`python -m src.validate`) et construit le site avant de publier : en cas d’erreur, rien n’est mis en ligne.
 - Les pronostics publiés sont enregistrés dans `data/picks_log.json` (probabilité à la publication, à la clôture, résultat) : c’est le bilan en conditions réelles et la valeur de clôture (CLV) de la page Bilan.
