@@ -47,6 +47,13 @@ function RealTracking({ tr }) {
         </table>
       )}
 
+      {tr.wind_totals?.n > 0 && (
+        <p className="fine">
+          Matchs venteux (19 km/h ou plus prévus au coup d’envoi) : le total est passé sous la ligne dans {tr.wind_totals.under} cas
+          sur {tr.wind_totals.n} ({num((tr.wind_totals.under / tr.wind_totals.n) * 100)}&nbsp;%).
+        </p>
+      )}
+
       <h3 className="col-title sub-title">Cotes françaises signalées au-dessus du juste prix</h3>
       {v.n ? (
         <>
