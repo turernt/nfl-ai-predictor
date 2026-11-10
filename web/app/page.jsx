@@ -5,7 +5,7 @@ import { Topbar, Footer, Sparkline } from './ui';
 import { num, pct } from './lib';
 
 export default function Home() {
-  const { season, week, predictions, ranking, season_record: rec, generated_at, top_scorers = [], bilan } = data;
+  const { season, week, predictions, ranking, generated_at, top_scorers = [], bilan, tracking: tr, odds_source: src } = data;
   const updated = new Date(generated_at).toLocaleDateString('fr-FR', {
     day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Europe/Paris',
   });
@@ -21,9 +21,15 @@ export default function Home() {
           <div>
             <h1>Prédictions NFL, {(data.week_label || `semaine ${week}`).toLowerCase().replace(/^super bowl$/, 'Super Bowl')}</h1>
             <p>
-              Saison {season}. Probabilités de victoire tirées des cotes (les plus fiables sur 3 900 matchs),
+              Saison {season}. Probabilités de victoire tirées des cotes, marge retirée (bien calibrées sur 3 950 matchs depuis 2012),
               second avis de notre modèle (Elo, efficacité par jeu, quarterback, repos), scores projetés et buteurs probables.
-              {' '}<Link href="/pronostics">Voir les pronostics les plus sûrs</Link>.
+              {' '}<Link href="/pronostics">Voir les pronostics</Link>.
+            </p>
+            <p className="src">
+              {src?.type === 'consensus'
+                ? `Cotes de ${src.books} bookmakers${src.fetched_at ? `, relevées le ${new Date(src.fetched_at).toLocaleString('fr-FR', { day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Paris' })}` : ''}.`
+                : 'Cotes de référence nflverse (une seule source).'}
+              {' '}Un match est figé à son coup d’envoi.
             </p>
           </div>
           {last && (
@@ -34,7 +40,9 @@ export default function Home() {
                 {lastGames.map((b) => <i key={b.game_id} className={b.correct ? 'ok' : b.correct === false ? 'ko' : ''} />)}
               </span>
               <span className="recap-sub">
-                Saison : {rec.correct} sur {rec.games} ({num(rec.accuracy)}&nbsp;%). Voir le bilan
+                {tr?.settled
+                  ? `Suivi réel depuis le ${new Date(tr.since).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' }).replace(/^1 /, '1er ')} : ${tr.correct} sur ${tr.settled} (${num((tr.correct / tr.settled) * 100)}\u00a0%).`
+                  : 'Simulation rétrospective.'} Voir le bilan
               </span>
             </Link>
           )}

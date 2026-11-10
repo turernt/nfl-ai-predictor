@@ -12,6 +12,8 @@ export const metadata = {
   title: { default: 'Arthur Analytics, prédictions NFL', template: '%s | Arthur Analytics' },
   description: 'Probabilités de victoire, scores projetés et buteurs probables pour chaque match NFL, recalculés chaque semaine.',
   openGraph: { siteName: 'Arthur Analytics', locale: 'fr_FR', type: 'website' },
+  // Usage personnel : le site n'est pas proposé aux moteurs de recherche
+  robots: { index: false, follow: false },
 };
 
 export const viewport = { themeColor: '#0f1b2d' };

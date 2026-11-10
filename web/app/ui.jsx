@@ -71,7 +71,7 @@ export function Scorer({ s, showTeam = true, detail = false }) {
         {!detail && <FormDots form={form} />}
       </div>
       <div className="scorer-prob">
-        <b>{pct(s.prob)}</b>
+        <b>{s.scored === true && <span className="res-ok" aria-label="a marqué">✓ </span>}{pct(s.prob)}</b>
         <span className="meter"><span style={{ width: `${s.prob}%` }} /></span>
       </div>
       {detail && form.length > 0 && (
@@ -111,6 +111,13 @@ export function Lineup({ players }) {
       ))}
     </ul>
   );
+}
+
+// Un seul niveau de confiance sur tout le site : le palier de probabilité du favori
+const TIER_CLASS = { 'Très sûr': 't1', 'Sûr': 't2', 'Probable': 't3', 'Serré': 't4' };
+export function TierBadge({ tier }) {
+  if (!tier) return null;
+  return <span className={`badge ${TIER_CLASS[tier] || ''}`}>{tier}</span>;
 }
 
 export function Sparkline({ values, color = 'currentColor', width = 72, height = 22 }) {

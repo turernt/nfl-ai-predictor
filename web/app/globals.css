@@ -52,7 +52,7 @@ h1, h2, .brand, .team-name, .score, .win, .big-prob, .elo b, .recap-big, .sb-nam
 .topbar-in { max-width: 76rem; margin: 0 auto; padding: 0.7rem 1.25rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
 .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 1.35rem; text-decoration: none; }
 .links { display: flex; gap: 1.25rem; font-size: 0.95rem; }
-.links a { text-decoration: none; opacity: 0.75; padding: 0.25rem 0; border-bottom: 2px solid transparent; }
+.links a { text-decoration: none; opacity: 0.75; padding: 0.6rem 0.1rem; border-bottom: 2px solid transparent; }
 .links a:hover { opacity: 1; }
 .links a[aria-current="page"] { opacity: 1; border-bottom-color: #4fd1a1; }
 
@@ -364,3 +364,29 @@ h1, h2, .brand, .team-name, .score, .win, .big-prob, .elo b, .recap-big, .sb-nam
 .lineup li { display: grid; grid-template-columns: 2.6rem 1fr auto; align-items: baseline; gap: 0.5rem; padding: 0.3rem 0; border-top: 1px solid var(--line); font-size: 0.92rem; }
 .lineup .pos { font-size: 0.75rem; font-weight: 600; color: var(--muted); }
 .lineup li.off .lu-name { color: var(--muted); text-decoration: line-through; }
+
+/* Matchs en cours et terminés */
+.done { margin-top: 2.5rem; }
+.done-title { font-weight: 700; font-size: 1.5rem; margin-bottom: 1rem; }
+.card.is-final { opacity: 0.92; }
+.score.final { color: var(--ink); }
+.team-row:not(.is-fav) .score.final { color: var(--ink); }
+.res-ok { color: var(--accent); }
+.res-ko { color: var(--down); }
+.scorers summary { cursor: pointer; list-style: none; }
+.scorers summary::-webkit-details-marker { display: none; }
+.scorers summary h3 { display: inline; }
+.scorers:not([open]) summary h3::after { content: " ▸"; }
+.tabs button { min-height: 2.5rem; }
+.notice { background: var(--card); border: 1px solid var(--line); border-left: 3px solid var(--warn); border-radius: var(--radius); padding: 0.6rem 0.9rem; font-size: 0.88rem; color: var(--muted); margin-bottom: 1rem; }
+@media (max-width: 40rem) {
+  .card .note { display: none; }
+  .scorer { grid-template-columns: 2rem 1fr 4.5rem; }
+}
+.sub-title { margin-top: 1.75rem; }
+.week-detail > summary { cursor: pointer; list-style: none; }
+.week-detail > summary::-webkit-details-marker { display: none; }
+.week-detail > summary h2 { display: inline; }
+.week-detail > summary h2::after { content: " ▸"; color: var(--muted); font-size: 1.2rem; }
+.week-detail[open] > summary h2::after { content: " ▾"; }
+.week-detail[open] > summary { margin-bottom: 0.75rem; }
