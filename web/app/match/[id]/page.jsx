@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import data from '../../../data/predictions.json';
 import archive from '../../../data/archive.json';
 import { Topbar, Footer, Logo, Scorer, Lineup, ProbBar, tc } from '../../ui';
-import { kickoff, fmtLong, fmtHour, spreadLabel, edgeLabel, num, pct } from '../../lib';
+import { kickoff, fmtLong, fmtHour, spreadLabel, edgeLabel, num, pct, fr1, windNote } from '../../lib';
 
 // Matchs de la semaine (version complète) puis tous les matchs archivés de la saison (figés au coup d’envoi)
 const findGame = (id) => data.predictions.find((x) => x.game_id === id) || archive[id];
@@ -172,7 +172,15 @@ export default function MatchPage({ params }) {
                   : <>Météo prévue au coup d’envoi : <b>{g.weather.temp_c}&nbsp;°C</b>, vent <b>{g.weather.wind_kmh}&nbsp;km/h</b>
                       {g.weather.precip_prob != null ? <>, risque de pluie {g.weather.precip_prob}&nbsp;%</> : null}
                       {g.weather.roof === 'retractable' ? ' (toit rétractable, souvent fermé)' : ''}.</>}
-                {g.weather.windy && <span className="warn"> Vent fort : depuis 2012, le total de points est passé sous la ligne dans 58&nbsp;% de ces matchs (594 matchs).</span>}
+                {g.weather.windy && (() => {
+                  const wn = windNote(data.studies);
+                  return wn && (
+                    <span className="warn">
+                      {' '}Vent fort : depuis 2012, le total est passé sous la ligne dans {fr1(wn.observed.under)}&nbsp;% de ces matchs ({wn.observed.n} matchs).
+                      {wn.validated ? ` Signal retenu : moins de ${g.vegas_total != null ? num(g.vegas_total) : '—'} points.` : ' Effet suivi, pas encore assez net pour un pronostic.'}
+                    </span>
+                  );
+                })()}
               </p>
             )}
             {g.injuries && noInjuryReport && (
