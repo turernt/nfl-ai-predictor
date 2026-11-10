@@ -1,51 +1,113 @@
 {
- "2026_09_BUF_MIN": [
-  {
-   "date": "2026-11-03",
-   "prob_home": 37.9,
-   "spread": 3.5,
-   "books": null
-  },
-  {
-   "date": "2026-11-04",
-   "prob_home": 37.9,
-   "spread": 3.5,
-   "books": null
-  },
-  {
-   "date": "2026-11-05",
-   "prob_home": 39.2,
-   "spread": 3.0,
-   "books": null
-  },
-  {
-   "date": "2026-11-06",
-   "prob_home": 38.6,
-   "spread": 3.0,
-   "books": null
-  },
-  {
-   "date": "2026-11-07",
-   "prob_home": 39.2,
-   "spread": 3.0,
-   "books": null
-  },
-  {
-   "date": "2026-11-08",
-   "prob_home": 38.6,
-   "spread": 3.0,
-   "books": null
-  },
-  {
-   "date": "2026-11-09",
-   "prob_home": 36.4,
-   "spread": 3.5,
-   "books": null
-  },
+ "2026_10_WAS_NYG": [
   {
    "date": "2026-11-10",
-   "prob_home": 37.2,
-   "spread": 3.0,
+   "prob_home": 54.5,
+   "spread": -2.5,
+   "books": null
+  }
+ ],
+ "2026_10_NE_DET": [
+  {
+   "date": "2026-11-10",
+   "prob_home": 57.5,
+   "spread": -2.5,
+   "books": null
+  }
+ ],
+ "2026_10_KC_ATL": [
+  {
+   "date": "2026-11-10",
+   "prob_home": 37.9,
+   "spread": 3.5,
+   "books": null
+  }
+ ],
+ "2026_10_HOU_CLE": [
+  {
+   "date": "2026-11-10",
+   "prob_home": 32.9,
+   "spread": 4.5,
+   "books": null
+  }
+ ],
+ "2026_10_MIN_GB": [
+  {
+   "date": "2026-11-10",
+   "prob_home": 65.1,
+   "spread": -4.5,
+   "books": null
+  }
+ ],
+ "2026_10_MIA_IND": [
+  {
+   "date": "2026-11-10",
+   "prob_home": 55.4,
+   "spread": -2.5,
+   "books": null
+  }
+ ],
+ "2026_10_CAR_NO": [
+  {
+   "date": "2026-11-10",
+   "prob_home": 52.3,
+   "spread": -1.5,
+   "books": null
+  }
+ ],
+ "2026_10_BUF_NYJ": [
+  {
+   "date": "2026-11-10",
+   "prob_home": 18.3,
+   "spread": 8.5,
+   "books": null
+  }
+ ],
+ "2026_10_JAX_TEN": [
+  {
+   "date": "2026-11-10",
+   "prob_home": 15.9,
+   "spread": 10.5,
+   "books": null
+  }
+ ],
+ "2026_10_LA_ARI": [
+  {
+   "date": "2026-11-10",
+   "prob_home": 20.1,
+   "spread": 9.5,
+   "books": null
+  }
+ ],
+ "2026_10_SEA_LV": [
+  {
+   "date": "2026-11-10",
+   "prob_home": 37.9,
+   "spread": 3.5,
+   "books": null
+  }
+ ],
+ "2026_10_SF_DAL": [
+  {
+   "date": "2026-11-10",
+   "prob_home": 33.6,
+   "spread": 4.5,
+   "books": null
+  }
+ ],
+ "2026_10_PIT_CIN": [
+  {
+   "date": "2026-11-10",
+   "prob_home": 62.1,
+   "spread": -3.5,
+   "books": null
+  }
+ ],
+ "2026_10_LAC_BAL": [
+  {
+   "date": "2026-11-10",
+   "prob_home": 66.4,
+   "spread": -5.5,
    "books": null
   }
  ]
