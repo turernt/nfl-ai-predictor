@@ -11,7 +11,7 @@ import numpy as np
 import pandas as pd
 
 SIMS = 10000
-GAME_SD = 13.5          # écart-type du score final autour du spread
+GAME_SD = 11.2          # écart-type du score final autour du spread ; avec RATING_SD, l'écart total vaut ≈ 11,5 pts
 RATING_SD = 2.0         # incertitude sur la force réelle de chaque équipe, en points
 HFA_PTS = 1.7
 

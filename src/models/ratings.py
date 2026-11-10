@@ -15,6 +15,10 @@ QB_PRIOR_N = 200             # lissage : 200 dropbacks « fictifs »
 QB_PRIOR_EPA = -0.05         # niveau d'un remplaçant sans historique (EPA/dropback)
 REST_PT_PER_DAY = 0.15
 REST_CAP = 1.5
+# Écart-type du score final autour du spread. Calé sur 2016-2026 (2 885 matchs, lignes de clôture) : 11,5 minimise la
+# perte logarithmique et supprime le biais sur les gros favoris (7 pts et plus : 79,4 % annoncés, 80,5 % réels ;
+# l'ancienne valeur de 13,5 annonçait 75,9 %).
+SPREAD_SD = 11.5
 
 
 def _plays(pbp: pd.DataFrame, season: int, week: int) -> pd.DataFrame:
@@ -84,6 +88,6 @@ def rest_adjustment(home_rest, away_rest) -> float:
     return max(-REST_CAP, min(REST_CAP, (home_rest - away_rest) * REST_PT_PER_DAY))
 
 
-def win_prob(spread: float, sd: float = 13.5) -> float:
+def win_prob(spread: float, sd: float = SPREAD_SD) -> float:
     """Probabilité de victoire à domicile pour un spread (négatif = domicile favori)."""
     return 0.5 * (1 + math.erf((-spread / sd) / math.sqrt(2)))
