@@ -9,8 +9,11 @@ Prédictions NFL hebdomadaires (probabilités de victoire, scores projetés, but
   ajusté du quarterback annoncé (valeur EPA par dropback vs niveau habituel de l’équipe) et du repos.
 - **Probabilité retenue** = cotes des bookmakers, marge retirée (testées plus fiables que le modèle et que tout mélange, 899 matchs 2023-2026) ; le modèle maison sert de second avis.
 - **Pronostics** (`/pronostics`) : favoris à 70 % ou plus, buteurs à 40 % ou plus, matchs à éviter, avec la fiabilité historique de chaque palier (depuis 2012).
-- **Buteurs** : part des TD de l’équipe lissée vers la part d’opportunités (70 % zone rouge), TD attendus de l’équipe
-  selon le score projeté, loi de Poisson, puis recalibration logistique ajustée sur 2024-2025 (5 760 prédictions) et vérifiée sur 2026.
+- **Buteurs** : le modèle suit chaque joueur match par match (TD attendus selon la position de ses courses et de ses cibles,
+  temps de jeu, statut médical), répartit les TD attendus de l’équipe selon la composition du jour, puis applique une
+  régression logistique réajustée à chaque mise à jour sur les prédictions passées. Hors échantillon (2025-2026), son buteur
+  n°1 de chaque match a marqué 48,0 % du temps contre 42,9 % avec l’ancien calcul.
+- **Composition probable** : hiérarchie des postes, effectif actif et rapport de blessures (QB, coureurs, receveurs, tight end).
 - **Bilan** : chaque semaine passée est re-prédite avec les seules données disponibles avant, puis comparée aux résultats.
 
 ## Fonctionnement
