@@ -34,15 +34,15 @@
  "2026_10_MIN_GB": [
   {
    "date": "2026-11-10",
-   "prob_home": 65.1,
-   "spread": -4.5,
+   "prob_home": 60.8,
+   "spread": -3.5,
    "books": null
   }
  ],
  "2026_10_MIA_IND": [
   {
    "date": "2026-11-10",
-   "prob_home": 55.4,
+   "prob_home": 56.6,
    "spread": -2.5,
    "books": null
   }
@@ -50,7 +50,7 @@
  "2026_10_CAR_NO": [
   {
    "date": "2026-11-10",
-   "prob_home": 52.3,
+   "prob_home": 52.7,
    "spread": -1.5,
    "books": null
   }
@@ -58,7 +58,7 @@
  "2026_10_BUF_NYJ": [
   {
    "date": "2026-11-10",
-   "prob_home": 18.3,
+   "prob_home": 19.2,
    "spread": 8.5,
    "books": null
   }
@@ -66,7 +66,7 @@
  "2026_10_JAX_TEN": [
   {
    "date": "2026-11-10",
-   "prob_home": 15.9,
+   "prob_home": 16.4,
    "spread": 10.5,
    "books": null
   }
@@ -82,16 +82,16 @@
  "2026_10_SEA_LV": [
   {
    "date": "2026-11-10",
-   "prob_home": 37.9,
-   "spread": 3.5,
+   "prob_home": 28.1,
+   "spread": 6.0,
    "books": null
   }
  ],
  "2026_10_SF_DAL": [
   {
    "date": "2026-11-10",
-   "prob_home": 33.6,
-   "spread": 4.5,
+   "prob_home": 34.9,
+   "spread": 3.5,
    "books": null
   }
  ],

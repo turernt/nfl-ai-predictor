@@ -1,13 +1,13 @@
 abbr,name,elo
 JAX,Jacksonville Jaguars,1642.0
 BUF,Buffalo Bills,1686.0
-SF,San Francisco 49ers,1631.3
 LA,Los Angeles Rams,1596.7
+SF,San Francisco 49ers,1631.3
 SEA,Seattle Seahawks,1628.6
 KC,Kansas City Chiefs,1563.2
+CHI,Chicago Bears,1627.0
 DEN,Denver Broncos,1639.4
 DET,Detroit Lions,1588.4
-CHI,Chicago Bears,1627.0
 CIN,Cincinnati Bengals,1588.5
 HOU,Houston Texans,1535.2
 GB,Green Bay Packers,1578.4
@@ -23,11 +23,11 @@ ATL,Atlanta Falcons,1447.1
 NO,New Orleans Saints,1427.8
 WAS,Washington Commanders,1430.0
 CLE,Cleveland Browns,1448.8
-LV,Las Vegas Raiders,1417.9
 IND,Indianapolis Colts,1392.1
+LV,Las Vegas Raiders,1417.9
 LAC,Los Angeles Chargers,1372.9
-ARI,Arizona Cardinals,1395.3
 PHI,Philadelphia Eagles,1394.9
+ARI,Arizona Cardinals,1395.3
 NYJ,New York Jets,1346.4
 MIA,Miami Dolphins,1370.6
 TEN,Tennessee Titans,1323.3
