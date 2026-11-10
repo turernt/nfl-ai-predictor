@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import data from '../../data/predictions.json';
-import { Topbar, Footer, Logo } from '../ui';
+import { Topbar, Footer, Logo, Sparkline } from '../ui';
 import { num } from '../lib';
 
 export const metadata = {
@@ -28,7 +28,7 @@ function ConfTable({ conf, teams }) {
           <thead>
             <tr>
               <th className="t-left">Équipe</th><th>Bilan</th><th>Victoires projetées</th><th>Playoffs</th>
-              <th>Si victoire</th><th>Si défaite</th><th>Division</th><th>N°1</th><th>Super Bowl</th>
+              <th>Évolution</th><th>Si victoire</th><th>Si défaite</th><th>Division</th><th>N°1</th><th>Super Bowl</th>
             </tr>
           </thead>
           <tbody>
@@ -38,6 +38,7 @@ function ConfTable({ conf, teams }) {
                 <td>{t.record}</td>
                 <td>{num(t.sim.proj_wins)}</td>
                 <Cell v={t.sim.playoff} strong />
+                <td><Sparkline values={(t.sim_history || []).map((x) => x[1])} color="var(--accent)" width={64} height={20} /></td>
                 <td className="muted">{t.sim.if_win != null ? p(t.sim.if_win) : ''}</td>
                 <td className="muted">{t.sim.if_lose != null ? p(t.sim.if_lose) : ''}</td>
                 <Cell v={t.sim.division} />
@@ -93,6 +94,31 @@ export default function Saison() {
         )}
 
         {confs.map((c) => <ConfTable key={c} conf={c} teams={withSim} />)}
+
+        {data.studies?.playoff_backtest && (() => {
+          const pb = data.studies.playoff_backtest;
+          return (
+            <section className="panel">
+              <h2>Fiabilité vérifiée</h2>
+              <p className="lede">
+                La même simulation rejouée sur les saisons {pb.seasons[0]} à {pb.seasons[1]}, après les semaines {pb.weeks.join(', ')},
+                avec les seules informations alors disponibles ({pb.n} cas). Quand les deux colonnes sont proches, les chances annoncées sont fiables.
+              </p>
+              <table className="compare rel">
+                <thead><tr><th>Chances annoncées</th><th>Cas</th><th>Annoncé</th><th>Qualifiées</th></tr></thead>
+                <tbody>
+                  {pb.buckets.map((b) => (
+                    <tr key={b.label}><th scope="row">{b.label}</th><td>{b.n}</td><td>{num(b.predicted)}&nbsp;%</td><td><b>{num(b.actual)}&nbsp;%</b></td></tr>
+                  ))}
+                </tbody>
+              </table>
+              <p className="fine">
+                Score de Brier {num(pb.brier, 3)}, contre {num(pb.brier_base, 3)} en annonçant la même chance à toutes les équipes.
+                Il passe de {num(pb.by_week[0].brier, 3)} après la semaine {pb.by_week[0].week} à {num(pb.by_week.at(-1).brier, 3)} après la semaine {pb.by_week.at(-1).week}.
+              </p>
+            </section>
+          );
+        })()}
 
         {post.length > 0 && (
           <section className="panel">
