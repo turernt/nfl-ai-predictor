@@ -6,7 +6,7 @@ on:
     # nombreux et avancés. Les cotes restent en cache (data/odds_cache.json) et l'API n'est appelée qu'au besoin,
     # quel que soit le nombre de passages.
     - cron: "17 5,11,16,22 * * *"   # tous les jours
-    - cron: "7 8,13 * * 0"          # dimanche matin, avant les matchs de 19 h (heure de Paris)
+    - cron: "7 8,13,19 * * 0"       # dimanche, avant les matchs de 19 h, 22 h et 2 h 20 (heure de Paris)
     - cron: "37 15,19 * * 1,4"      # lundi et jeudi, avant les matchs du soir
   workflow_dispatch:
 
@@ -20,6 +20,7 @@ concurrency:
 jobs:
   update-data:
     runs-on: ubuntu-latest
+    timeout-minutes: 345
     steps:
       - uses: actions/checkout@v4
 
@@ -30,6 +31,11 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
+
+      - name: Wait for the next kickoff window
+        run: |
+          python -m src.wait_kickoff      # passage programmé : attend jusqu'à 75 min avant un match proche
+          git fetch --depth=1 origin main && git reset --hard origin/main   # reprend la dernière version après l'attente
 
       - name: Run data pipeline
         env:
@@ -61,18 +67,14 @@ jobs:
             exit 0
           fi
           git commit -m "Auto: mise à jour des données NFL"
-          # Une modification faite à la main pendant le passage ne doit pas bloquer la publication
+          # Une modification faite à la main pendant le passage (ou l'attente) ne doit pas bloquer la publication
           for i in 1 2 3; do
             git pull --rebase -X theirs origin main && git push && exit 0
             sleep 5
           done
           exit 1
 
-      - name: Trigger Vercel redeploy
-        env:
-          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
-        if: env.VERCEL_DEPLOY_HOOK != ''
-        run: curl -fsS -X POST "$VERCEL_DEPLOY_HOOK"
+      # Vercel redéploie déjà à chaque commit : pas de second déploiement par le hook
 
       - name: Alert on failure
         if: failure()
