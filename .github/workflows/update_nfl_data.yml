@@ -2,10 +2,12 @@ name: Update NFL Data & Elo
 
 on:
   schedule:
-    # Deux passages par jour, à des minutes décalées (GitHub saute souvent les tâches prévues pile à l'heure) :
-    # 13 h 17 UTC (rapports de blessures du jour) et 21 h 47 UTC (dernières cotes avant les matchs du soir)
-    - cron: "17 13 * * *"
-    - cron: "47 21 * * *"
+    # GitHub démarre souvent les tâches programmées avec plusieurs heures de retard : les créneaux sont donc
+    # nombreux et avancés. Les cotes restent en cache (data/odds_cache.json) et l'API n'est appelée qu'au besoin,
+    # quel que soit le nombre de passages.
+    - cron: "17 5,11,16,22 * * *"   # tous les jours
+    - cron: "7 8,13 * * 0"          # dimanche matin, avant les matchs de 19 h (heure de Paris)
+    - cron: "37 15,19 * * 1,4"      # lundi et jeudi, avant les matchs du soir
   workflow_dispatch:
 
 permissions:
@@ -23,7 +25,7 @@ jobs:
 
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.12"
           cache: pip
 
       - name: Install dependencies
@@ -42,10 +44,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
+          cache: npm
+          cache-dependency-path: web/package-lock.json
 
       - name: Build website (check before publishing)
         working-directory: web
-        run: npm install --no-audit --no-fund && npm run build
+        run: npm ci --no-audit --no-fund && npm run build
 
       - name: Commit and push updated data
         run: |
@@ -54,13 +58,31 @@ jobs:
           git add data/ web/data/
           if git diff --staged --quiet; then
             echo "Aucun changement."
-          else
-            git commit -m "Auto: mise à jour des données NFL"
-            git push
+            exit 0
           fi
+          git commit -m "Auto: mise à jour des données NFL"
+          # Une modification faite à la main pendant le passage ne doit pas bloquer la publication
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push && exit 0
+            sleep 5
+          done
+          exit 1
 
       - name: Trigger Vercel redeploy
         env:
           VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
         if: env.VERCEL_DEPLOY_HOOK != ''
         run: curl -fsS -X POST "$VERCEL_DEPLOY_HOOK"
+
+      - name: Alert on failure
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -n "$TELEGRAM_BOT_TOKEN" ] && [ -n "$TELEGRAM_CHAT_ID" ]; then
+            curl -fsS -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+              --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+              --data-urlencode "text=Arthur Analytics : la mise à jour a échoué, rien n'a été publié. ${RUN_URL}"
+          fi
