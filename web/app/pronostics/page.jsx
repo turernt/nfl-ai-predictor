@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import data from '../../data/predictions.json';
 import { Topbar, Footer, Logo } from '../ui';
-import { kickoff, fmtDay, fmtHour, num, pct } from '../lib';
+import { kickoff, fmtDay, fmtHour, num, pct, fr1, windNote } from '../lib';
 
 export const metadata = {
   title: 'Pronostics les plus fiables',
@@ -119,7 +119,8 @@ function ScorerPick({ s, rank }) {
 }
 
 export default function Pronostics() {
-  const { week, picks, bilan, odds_source: src, scorer_model: sm } = data;
+  const { week, picks, bilan, odds_source: src, scorer_model: sm, studies: st = {} } = data;
+  const dv = st.devig, wn = windNote(st);
   const consensus = src?.type === 'consensus';
   if (!picks) return null;
   const s = bilan.summary;
@@ -234,7 +235,12 @@ export default function Pronostics() {
           <ul className="findings">
             <li><b>Les cotes du marché sont le meilleur prédicteur disponible.</b> Elles intègrent déjà la forme, les blessures, l’avantage du terrain et la météo. Sur 899 matchs, aucun mélange avec notre modèle n’a fait mieux que les cotes seules (score de Brier 0,213 contre 0,215) : l’écart est faible, mais rien ne justifie de s’en écarter.</li>
             <li><b>La forme récente et l’historique des confrontations n’apportent rien de plus.</b> Utiles seuls, ils ne prédisent presque rien une fois les cotes connues (corrélation inférieure à 0,04 avec l’écart restant).</li>
-            <li><b>La marge des bookmakers est retirée par la méthode de Shin.</b> Avec deux issues, elle donne presque les mêmes probabilités que la méthode simple (0,1 point d’écart au plus). Sur 3 950 matchs, les outsiders sous 25&nbsp;% sont annoncés à 18,9&nbsp;% et gagnent 18,8&nbsp;% du temps : les probabilités sont bien calibrées.</li>
+            <li><b>La marge des bookmakers est retirée par la méthode de Shin.</b> Avec deux issues, elle donne presque les mêmes probabilités que la méthode simple.
+              {dv?.shin && ` Sur ${dv.games.toLocaleString('fr-FR')} matchs depuis 2012, les outsiders sous 25\u00a0% sont annoncés à ${fr1(dv.shin.dog_pred)}\u00a0% et gagnent ${fr1(dv.shin.dog_actual)}\u00a0% du temps (méthode simple : ${fr1(dv.prop.dog_pred)}\u00a0% annoncés, ${fr1(dv.prop.dog_actual)}\u00a0% réels).`}
+            </li>
+            {st.spread_sd && (
+              <li><b>Un écart de points se convertit en probabilité avec un écart-type d’environ {num(st.spread_sd.best_sd, 2)} points</b>, mesuré sur {st.spread_sd.games.toLocaleString('fr-FR')} matchs depuis 2016. Nous utilisons 11,5 pour le modèle maison et la simulation des playoffs.</li>
+            )}
             <li><b>Ne misez jamais beaucoup, même sur une bonne occasion.</b> La mise prudente indiquée correspond à un quart du critère de Kelly, plafonnée à 2&nbsp;% du budget : assez pour profiter d’un avantage, sans risquer de tout perdre sur une série défavorable.</li>
             <li><b>L’avantage du terrain ne vaut plus qu’environ 1,5 point</b>, contre 3 il y a quinze ans. Il est déjà pris en compte par les bookmakers.</li>
             <li><b>Le quarterback titulaire est le facteur individuel le plus important.</b> Un changement de dernière minute peut faire basculer un match : vérifiez toujours les annonces avant de jouer. Si le quarterback prévu est forfait, nous prenons le suivant dans la hiérarchie de l’équipe.</li>
@@ -251,7 +257,17 @@ export default function Pronostics() {
               il a eu raison dans 46,7&nbsp;% des cas sur 210 matchs depuis 2023, avec une marge d’erreur de 40 à 53&nbsp;%
               {s.ats_games ? ` (${s.ats_correct} sur ${s.ats_games} cette saison)` : ''}. Aucun avantage démontré, alors qu’il faut 52,4&nbsp;% pour gagner de l’argent.
             </li>
-            <li><b>Le vent fort réduit le nombre de points</b> : depuis 2012, avec un vent de 19 km/h ou plus au coup d’envoi, le total est passé sous la ligne 57,9&nbsp;% du temps (594 matchs, ±4 points), un effet stable sur trois périodes. Il est mesuré avec le vent observé et non avec la prévision : nous ne l’utilisons pas encore dans un pronostic.</li>
+            {wn && (
+              <li>
+                <b>Le vent fort réduit le nombre de points</b> : depuis 2012, avec un vent observé de 19 km/h ou plus, le total est passé sous la ligne {fr1(wn.observed.under)}&nbsp;% du temps ({wn.observed.n} matchs, ±{fr1(wn.observed.ci)} points ; {st.wind_observed.periods.map((x) => `${x.label} : ${fr1(x.under)}\u00a0%`).join(', ')}).
+                {wn.forecast
+                  ? ` Avec le vent prévu (archive Open-Meteo depuis ${wn.forecast.since}) : ${fr1(wn.forecast.windy.under)}\u00a0% sur ${wn.forecast.windy.n} matchs (±${fr1(wn.forecast.windy.ci)}).`
+                  : ' L’effet avec le vent prévu est en cours de mesure.'}
+                {wn.validated
+                  ? ' L’effet est assez net pour être signalé sur les matchs venteux.'
+                  : ' Il n’est pas encore assez net pour un pronostic : les matchs venteux sont signalés et suivis dans le bilan.'}
+              </li>
+            )}
           </ul>
         </section>
 
