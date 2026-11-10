@@ -51,7 +51,7 @@ export default function Home() {
         <section id="matchs" aria-label="Matchs de la semaine">
           {predictions.length === 0
             ? <div className="empty">Aucun match à venir pour l’instant. Les prédictions reviennent dès la publication du prochain calendrier.</div>
-            : <GamesBoard games={predictions} />}
+            : <GamesBoard games={predictions} windSignal={!!data.studies?.wind_forecast?.validated} />}
         </section>
 
         {top_scorers.length > 0 && (

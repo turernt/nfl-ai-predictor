@@ -33,7 +33,7 @@ export function Footer({ updated }) {
       <span>Arthur Analytics. Données nflverse{updated ? `, mises à jour le ${updated}` : ''}.</span>
       <span>
         Prédictions statistiques à titre informatif, pas des conseils de pari. Jouer comporte des risques : 09 74 75 13 13.
-        {' '}<Link href="/mentions-legales">Mentions légales</Link>
+        {' '}<Link href="/archives">Archives</Link> · <Link href="/mentions-legales">Mentions légales</Link>
       </span>
     </footer>
   );

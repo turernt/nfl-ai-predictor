@@ -390,3 +390,5 @@ h1, h2, .brand, .team-name, .score, .win, .big-prob, .elo b, .recap-big, .sb-nam
 .week-detail > summary h2::after { content: " ▸"; color: var(--muted); font-size: 1.2rem; }
 .week-detail[open] > summary h2::after { content: " ▾"; }
 .week-detail[open] > summary { margin-bottom: 0.75rem; }
+.spark-row { display: flex; align-items: center; gap: 0.5rem; margin-top: 0.3rem; }
+.season-card { margin-bottom: 2rem; }

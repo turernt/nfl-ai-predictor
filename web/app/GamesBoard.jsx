@@ -18,7 +18,7 @@ function TeamRow({ team, prob, score, favored, final }) {
   );
 }
 
-function GameCard({ g }) {
+function GameCard({ g, windSignal }) {
   const date = kickoff(g.gameday, g.gametime);
   const homeFav = g.prob_home_win >= 50;
   const scorers = g.scorers || [];
@@ -40,7 +40,11 @@ function GameCard({ g }) {
         <div className="flags">
           {g.flags.value && <span className="flag v">Cote française au-dessus du juste prix</span>}
           {g.flags.key_out > 0 && <span className="flag i">{g.flags.key_out} titulaire{g.flags.key_out > 1 ? 's' : ''} offensif{g.flags.key_out > 1 ? 's' : ''} absent{g.flags.key_out > 1 ? 's' : ''}</span>}
-          {g.flags.windy && <span className="flag w">Vent fort</span>}
+          {g.flags.windy && (
+            <span className="flag w">
+              {windSignal && g.vegas_total != null ? `Vent fort : moins de ${num(g.vegas_total)} points plus probable` : `Vent fort, ${g.weather.wind_kmh}\u00a0km/h`}
+            </span>
+          )}
           {!g.flags.windy && g.weather?.temp_c != null && <span className="flag">{g.weather.temp_c}&nbsp;°C, vent {g.weather.wind_kmh}&nbsp;km/h</span>}
         </div>
       )}
@@ -71,7 +75,7 @@ function GameCard({ g }) {
   );
 }
 
-export default function GamesBoard({ games }) {
+export default function GamesBoard({ games, windSignal = false }) {
   const enriched = useMemo(() => games.map((g) => {
     const date = kickoff(g.gameday, g.gametime);
     return { g, date, day: date ? fmtWeekday(date) : 'À confirmer', edge: Math.abs(g.prob_home_win - 50) };
@@ -109,7 +113,7 @@ export default function GamesBoard({ games }) {
               </select>
             </label>
           </div>
-          <div className="grid">{shown.map(({ g }) => <GameCard key={g.game_id} g={g} />)}</div>
+          <div className="grid">{shown.map(({ g }) => <GameCard key={g.game_id} g={g} windSignal={windSignal} />)}</div>
         </>
       )}
       {done.length > 0 && (

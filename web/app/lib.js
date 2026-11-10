@@ -37,3 +37,11 @@ export function edgeLabel(pts, home, away) {
 
 export const pct = (x) => `${Math.round(x)}\u00a0%`;
 export const statusFr = { Questionable: 'Incertain' };
+
+// Chiffres des études recalculées à chaque passage (src/studies.py), avec repli si une étude manque
+export const fr1 = (x) => (x == null ? '—' : num(x, 1));
+export function windNote(st) {
+  const o = st?.wind_observed?.all, f = st?.wind_forecast;
+  if (!o?.n) return null;
+  return { observed: o, forecast: f?.windy?.n ? f : null, validated: !!f?.validated };
+}
