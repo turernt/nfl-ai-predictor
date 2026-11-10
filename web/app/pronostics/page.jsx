@@ -95,14 +95,20 @@ function ScorerPick({ s, rank }) {
             <span className="pk-sub">{s.team} contre {s.opponent}, {s.position}, {s.season_tds} TD cette saison</span>
           </div>
         </div>
-        {s.hist && (
-          <div className="pk-facts">
+        <div className="pk-facts">
+          {s.form?.length > 0 && (
+            <span>
+              A marqué dans <b>{s.scored_last} de ses {s.form.length} derniers matchs</b>
+              {s.snap != null ? `, joue ${s.snap}\u00a0% des actions offensives` : ''}
+            </span>
+          )}
+          {s.hist && (
             <span>
               Cette saison, nos buteurs annoncés à {s.hist.label} ont marqué <b>{num(s.hist.actual)}&nbsp;%</b> du temps ({s.hist.n} cas)
             </span>
-            {s.status && <span className="warn">Statut incertain</span>}
-          </div>
-        )}
+          )}
+          {s.status && <span className="warn">Statut incertain</span>}
+        </div>
       </div>
       <div className="pk-side">
         <span className="pk-prob">{pct(s.prob)}</span>
@@ -113,7 +119,7 @@ function ScorerPick({ s, rank }) {
 }
 
 export default function Pronostics() {
-  const { week, picks, bilan, odds_source: src } = data;
+  const { week, picks, bilan, odds_source: src, scorer_model: sm } = data;
   const consensus = src?.type === 'consensus';
   if (!picks) return null;
   const s = bilan.summary;
@@ -230,7 +236,15 @@ export default function Pronostics() {
             <li><b>La marge des bookmakers pèse surtout sur les outsiders.</b> Nous la retirons par la méthode de Shin plutôt qu’à parts égales : sur 3 930 matchs, les outsiders sous 25&nbsp;% sont annoncés à 18,9&nbsp;% et gagnent 18,9&nbsp;% du temps, contre 19,2&nbsp;% annoncés avec la méthode simple.</li>
             <li><b>Ne misez jamais beaucoup, même sur une bonne occasion.</b> La mise prudente indiquée correspond à un quart du critère de Kelly, plafonnée à 2&nbsp;% du budget : assez pour profiter d’un avantage, sans risquer de tout perdre sur une série défavorable.</li>
             <li><b>L’avantage du terrain ne vaut plus qu’environ 1,5 point</b>, contre 3 il y a quinze ans. Il est déjà pris en compte par les bookmakers.</li>
-            <li><b>Le quarterback titulaire est le facteur individuel le plus important.</b> Un changement de dernière minute peut faire basculer un match : vérifiez toujours les annonces avant de jouer.</li>
+            <li><b>Le quarterback titulaire est le facteur individuel le plus important.</b> Un changement de dernière minute peut faire basculer un match : vérifiez toujours les annonces avant de jouer. Si le quarterback prévu est forfait, nous prenons le suivant dans la hiérarchie de l’équipe.</li>
+            <li>
+              <b>Buteurs : le modèle suit chaque joueur match par match.</b> Il regarde ses courses et ses cibles près de l’en-but,
+              son temps de jeu, ses touchdowns, son statut médical et la composition de l’équipe (la part d’un forfait est
+              redistribuée à ses coéquipiers du même poste). Il se réajuste à chaque mise à jour
+              {sm?.train_rows ? ` sur ${sm.train_rows.toLocaleString('fr-FR')} prédictions passées` : ''}.
+              Vérifié sur 375 matchs qu’il n’avait jamais vus (2025 et 2026), son buteur n°1 de chaque match a marqué 48,0&nbsp;% du temps,
+              contre 42,9&nbsp;% avec l’ancien calcul.
+            </li>
             <li>
               <b>Nous ne proposons pas de paris contre l’écart (handicap).</b> Quand notre modèle s’éloigne des bookmakers d’au moins 3 points,
               il a eu raison dans seulement 46,7&nbsp;% des cas sur 210 matchs depuis 2023
@@ -249,4 +263,3 @@ export default function Pronostics() {
     </>
   );
 }
-
