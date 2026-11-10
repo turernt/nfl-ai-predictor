@@ -19,6 +19,7 @@ from src.models import market_ratings
 from src.ingestion.loader import load_injury_details
 from src.ingestion.weather import forecast, kickoff_utc
 from src.tracking import update_log, summarize
+from src import studies as studies_mod
 
 ROUNDS = {"WC": "Wild Card", "DIV": "Tour de division", "CON": "Finale de conférence", "SB": "Super Bowl"}
 
@@ -569,6 +570,33 @@ def run_pipeline() -> dict:
         ranking.append(info)
     ranking.sort(key=lambda t: t["power"], reverse=True)   # classement de force (cotes + modèle)
 
+    # Historique des chances de playoffs (une valeur par semaine, la dernière du passage) et archive de la saison
+    hist_path = DATA_DIR / "sim_history.json"
+    try:
+        sim_hist = json.loads(hist_path.read_text())
+    except (FileNotFoundError, ValueError):
+        sim_hist = {}
+    if sim:
+        sim_hist.setdefault(str(season), {})[str(week)] = {t: v["playoff"] for t, v in sim.items()}
+        hist_path.write_text(json.dumps(sim_hist, separators=(",", ":")))
+    season_hist = sim_hist.get(str(season), {})
+    for info in ranking:
+        info["sim_history"] = [[int(w), season_hist[w].get(info["abbr"])] for w in sorted(season_hist, key=int)
+                               if info["abbr"] in season_hist[w]]
+    seasons_path = DATA_DIR / "seasons.json"
+    try:
+        seasons = json.loads(seasons_path.read_text())
+    except (FileNotFoundError, ValueError):
+        seasons = {}
+    seasons[str(season)] = {
+        "updated_at": now.isoformat(timespec="seconds"), "week": week,
+        "tracking": {k: v for k, v in tracking.items() if k != "recent"},
+        "simulation": {"games": summary["games"], "correct": summary["correct"], "brier": summary["brier"]},
+        "teams": [{"abbr": t["abbr"], "nick": t["nick"], "logo": t["logo"], "record": t["record"], "conf": t["conf"],
+                   "playoff": (t.get("sim") or {}).get("playoff"), "history": t["sim_history"]} for t in ranking],
+    }
+    seasons_path.write_text(json.dumps(seasons, ensure_ascii=False, separators=(",", ":")))
+
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "season": season, "week": week,
@@ -593,6 +621,7 @@ def run_pipeline() -> dict:
                          "coefs": dict(zip(["constante"] + FEATURES,
                                            (round(float(c), 3) for c in scorer_model.coefs(season, week))))},
         "ranking": ranking,
+        "studies": studies_mod.compute(sched),
     }
 
     (DATA_DIR / "predictions.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2, default=lambda o: o.item() if hasattr(o, "item") else str(o)))
@@ -601,6 +630,7 @@ def run_pipeline() -> dict:
     WEB_DATA_DIR.mkdir(parents=True, exist_ok=True)
     shutil.copy(DATA_DIR / "predictions.json", WEB_DATA_DIR / "predictions.json")
     shutil.copy(DATA_DIR / "archive.json", WEB_DATA_DIR / "archive.json")
+    shutil.copy(DATA_DIR / "seasons.json", WEB_DATA_DIR / "seasons.json")
     logger.info("Saison %s, semaine %s : %d prédictions ; bilan %s/%s (modèle seul %s)",
                 season, week, len(predictions), summary["correct"], summary["games"], summary["model_correct"])
     return payload

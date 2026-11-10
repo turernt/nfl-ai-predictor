@@ -46,6 +46,11 @@ def update_log(path, predictions: list, sched: pd.DataFrame, season: int, value:
         e["closed_at"] = now
         e["scorers"] = [{"id": s.get("player_id"), "name": s["name"], "team": s["team"], "prob": s["prob"]}
                         for s in p.get("scorers", [])]
+        wx = p.get("weather") or {}
+        if wx.get("windy") and p.get("vegas_total"):     # total de points d'un match venteux, suivi en conditions réelles
+            e["wind_total"] = {"line": p["vegas_total"], "wind": wx.get("wind_kmh")}
+        else:
+            e.pop("wind_total", None)
     for v in value or []:
         e = games.get(v["game_id"])
         if e is None:
@@ -74,6 +79,10 @@ def update_log(path, predictions: list, sched: pd.DataFrame, season: int, value:
                 for x in e.get("value", []):
                     side = p if x["home"] else 1 - p
                     x["clv"] = round((x["price"] * side - 1) * 100, 1)
+        wt = e.get("wind_total")
+        if wt and "under" not in wt:
+            tot = g.home_score + g.away_score
+            wt["under"] = None if tot == wt["line"] else bool(tot < wt["line"])
         for x in e.get("value", []):
             if "won" not in x and g.home_score != g.away_score:
                 x["won"] = (g.home_score > g.away_score) == x["home"]
@@ -115,5 +124,7 @@ def summarize(log: dict, season: int) -> dict:
                   "units": round(units, 2), "roi": round(units / len(vdone) * 100, 1) if vdone else None,
                   "clv_n": len(vclv), "clv_avg": round(sum(vclv) / len(vclv), 1) if vclv else None,
                   "clv_pos": sum(c > 0 for c in vclv)},
+        "wind_totals": {"n": len(wt := [e["wind_total"] for e in g if e.get("wind_total", {}).get("under") is not None]),
+                        "under": sum(w["under"] for w in wt)},
         "recent": sorted(done, key=lambda e: e.get("closed_at", ""), reverse=True)[:16],
     }
