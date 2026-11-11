@@ -9,6 +9,7 @@
 import json
 import logging
 import math
+import time
 from datetime import datetime, timezone
 
 import numpy as np
@@ -22,6 +23,7 @@ from src.models.devig import shin
 logger = logging.getLogger(__name__)
 HIST_URL = "https://historical-forecast-api.open-meteo.com/v1/forecast"
 FORECAST_FROM = 2022
+FETCH_BUDGET = 75        # secondes par passage : le cache se remplit sur plusieurs passages
 MPH_TO_KMH = 1.609
 
 
@@ -92,12 +94,17 @@ def _fetch_forecasts(sched: pd.DataFrame) -> dict:
     g = sched[(sched.season >= FORECAST_FROM) & sched.home_score.notna() & (sched.location != "Neutral")]
     g = g[g.home_team.map(lambda t: STADIUMS.get(t, (0, 0, "dome"))[2] == "open")]
     missing = g[~g.game_id.isin(cache)]
-    for team, grp in missing.groupby("home_team"):
+    deadline = time.monotonic() + FETCH_BUDGET
+    # une requête par stade et par saison (quelques mois de données horaires), dans la limite du budget de temps
+    for (team, _season), grp in missing.groupby(["home_team", "season"]):
+        if time.monotonic() > deadline:
+            logger.info("Archive des prévisions : budget de temps atteint, la suite au prochain passage")
+            break
         lat, lon, _ = STADIUMS[team]
         try:
             r = requests.get(HIST_URL, params={"latitude": lat, "longitude": lon, "timezone": "UTC",
                                                "hourly": "wind_speed_10m", "start_date": grp.gameday.min(),
-                                               "end_date": grp.gameday.max()}, timeout=60)
+                                               "end_date": grp.gameday.max()}, timeout=20)
             r.raise_for_status()
             h = r.json()["hourly"]
             idx = {t: i for i, t in enumerate(h["time"])}
