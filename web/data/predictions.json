@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T00:04:27+00:00",
+  "generated_at": "2026-11-11T12:43:45+00:00",
   "season": 2026,
   "week": 10,
   "week_label": "Semaine 10",
@@ -7023,7 +7023,7 @@
               "car": 0,
               "tgt": 7,
               "rec": 6,
-              "yds": 56,
+              "yds": 57,
               "td": 0,
               "snap": 74
             }
@@ -7239,10 +7239,10 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 11,
-        "wind_kmh": 14,
-        "precip_prob": 63,
-        "windy": false
+        "temp_c": 10,
+        "wind_kmh": 21,
+        "precip_prob": 64,
+        "windy": true
       },
       "round": null,
       "lineup": {
@@ -7367,7 +7367,7 @@
       "flags": {
         "value": false,
         "key_out": 0,
-        "windy": false,
+        "windy": true,
         "dome": false
       },
       "line_history": [
@@ -8927,7 +8927,7 @@
         "epa": -4.7,
         "qb": {
           "home": 0.3,
-          "away": 0.0,
+          "away": -0.0,
           "home_name": "Michael Penix Jr.",
           "away_name": "Patrick Mahomes"
         },
@@ -9752,7 +9752,7 @@
       "weather": {
         "roof": "retractable",
         "temp_c": 10,
-        "wind_kmh": 11,
+        "wind_kmh": 7,
         "precip_prob": 0,
         "windy": false
       },
@@ -11010,9 +11010,9 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 8,
-        "wind_kmh": 14,
-        "precip_prob": 8,
+        "temp_c": 7,
+        "wind_kmh": 18,
+        "precip_prob": 14,
         "windy": false
       },
       "round": null,
@@ -12250,8 +12250,8 @@
       "weather": {
         "roof": "open",
         "temp_c": 6,
-        "wind_kmh": 12,
-        "precip_prob": 1,
+        "wind_kmh": 10,
+        "precip_prob": 0,
         "windy": false
       },
       "round": null,
@@ -12919,7 +12919,7 @@
           "games": 9,
           "snap": 79,
           "xtd": 0.22,
-          "depth": "WR1",
+          "depth": null,
           "form": [
             {
               "week": 5,
@@ -13120,7 +13120,7 @@
           "games": 8,
           "snap": 100,
           "xtd": 0.24,
-          "depth": "QB1",
+          "depth": "QB2",
           "form": [
             {
               "week": 4,
@@ -13187,7 +13187,7 @@
           "games": 8,
           "snap": 56,
           "xtd": 0.3,
-          "depth": "WR2",
+          "depth": null,
           "form": [
             {
               "week": 5,
@@ -13518,9 +13518,9 @@
       },
       "weather": {
         "roof": "retractable",
-        "temp_c": 9,
-        "wind_kmh": 10,
-        "precip_prob": 1,
+        "temp_c": 8,
+        "wind_kmh": 11,
+        "precip_prob": 0,
         "windy": false
       },
       "round": null,
@@ -13551,24 +13551,24 @@
             "available": true
           },
           {
-            "player_id": "00-0038997",
-            "name": "Josh Downs",
+            "player_id": "00-0032951",
+            "name": "Laquon Treadwell",
             "pos": "WR",
             "rank": 1,
             "status": null,
             "available": true
           },
           {
-            "player_id": "00-0030279",
-            "name": "Keenan Allen",
+            "player_id": "00-0041132",
+            "name": "Deion Burks",
             "pos": "WR",
             "rank": 2,
             "status": null,
             "available": true
           },
           {
-            "player_id": "00-0032951",
-            "name": "Laquon Treadwell",
+            "player_id": "00-0035021",
+            "name": "Ashton Dulin",
             "pos": "WR",
             "rank": 3,
             "status": null,
@@ -13585,8 +13585,8 @@
         ],
         "away": [
           {
-            "player_id": "00-0038128",
-            "name": "Malik Willis",
+            "player_id": "00-0040014",
+            "name": "Kyle McCord",
             "pos": "QB",
             "rank": 1,
             "status": null,
@@ -15978,10 +15978,10 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 10,
-        "wind_kmh": 9,
-        "precip_prob": 1,
-        "windy": false
+        "temp_c": 9,
+        "wind_kmh": 22,
+        "precip_prob": 0,
+        "windy": true
       },
       "round": null,
       "lineup": {
@@ -16106,7 +16106,7 @@
       "flags": {
         "value": false,
         "key_out": 0,
-        "windy": false,
+        "windy": true,
         "dome": false
       },
       "line_history": [
@@ -17248,7 +17248,7 @@
       "weather": {
         "roof": "open",
         "temp_c": 10,
-        "wind_kmh": 11,
+        "wind_kmh": 9,
         "precip_prob": 0,
         "windy": false
       },
@@ -18486,17 +18486,17 @@
       },
       "weather": {
         "roof": "retractable",
-        "temp_c": 21,
-        "wind_kmh": 4,
-        "precip_prob": 3,
+        "temp_c": 22,
+        "wind_kmh": 5,
+        "precip_prob": 0,
         "windy": false
       },
       "round": null,
       "lineup": {
         "home": [
           {
-            "player_id": "00-0035289",
-            "name": "Gardner Minshew II",
+            "player_id": "00-0041561",
+            "name": "Carson Beck",
             "pos": "QB",
             "rank": 1,
             "status": null,
@@ -18585,16 +18585,16 @@
             "available": true
           },
           {
-            "player_id": "00-0036849",
-            "name": "Tutu Atwell",
+            "player_id": "00-0040590",
+            "name": "Konata Mumpfield",
             "pos": "WR",
             "rank": 2,
             "status": null,
             "available": true
           },
           {
-            "player_id": "00-0040590",
-            "name": "Konata Mumpfield",
+            "player_id": "00-0036849",
+            "name": "Tutu Atwell",
             "pos": "WR",
             "rank": 3,
             "status": null,
@@ -19528,7 +19528,7 @@
           "games": 9,
           "snap": 99,
           "xtd": 0.28,
-          "depth": "QB1",
+          "depth": null,
           "form": [
             {
               "week": 5,
@@ -19730,8 +19730,8 @@
       "lineup": {
         "home": [
           {
-            "player_id": "00-0029604",
-            "name": "Kirk Cousins",
+            "player_id": "00-0041562",
+            "name": "Fernando Mendoza",
             "pos": "QB",
             "rank": 1,
             "status": null,
@@ -20990,9 +20990,9 @@
       },
       "weather": {
         "roof": "retractable",
-        "temp_c": 16,
-        "wind_kmh": 19,
-        "precip_prob": 42,
+        "temp_c": 11,
+        "wind_kmh": 21,
+        "precip_prob": 54,
         "windy": false
       },
       "round": null,
@@ -22260,8 +22260,8 @@
       "weather": {
         "roof": "open",
         "temp_c": 4,
-        "wind_kmh": 6,
-        "precip_prob": 2,
+        "wind_kmh": 8,
+        "precip_prob": 1,
         "windy": false
       },
       "round": null,
@@ -23520,9 +23520,9 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 9,
+        "temp_c": 8,
         "wind_kmh": 6,
-        "precip_prob": 3,
+        "precip_prob": 1,
         "windy": false
       },
       "round": null,
@@ -34134,7 +34134,7 @@
     }
   ],
   "studies": {
-    "generated_at": "2026-11-11T00:04:27+00:00",
+    "generated_at": "2026-11-11T12:43:45+00:00",
     "spread_sd": {
       "best_sd": 11.25,
       "games": 2886
@@ -34188,16 +34188,16 @@
     },
     "wind_forecast": {
       "since": 2022,
-      "games": 88,
+      "games": 179,
       "windy": {
-        "n": 15,
-        "under": 40.0,
-        "ci": 24.8
+        "n": 28,
+        "under": 42.9,
+        "ci": 18.3
       },
       "calm": {
-        "n": 71,
-        "under": 46.5,
-        "ci": 11.6
+        "n": 148,
+        "under": 45.9,
+        "ci": 8.0
       },
       "validated": false
     },
