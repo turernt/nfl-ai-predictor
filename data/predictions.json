@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-11-13T02:39:33+00:00",
+  "generated_at": "2026-11-13T13:08:23+00:00",
   "season": 2026,
   "week": 10,
   "week_label": "Semaine 10",
   "tracking": {
     "since": "2026-11-01",
     "published": 34,
-    "settled": 20,
+    "settled": 21,
     "correct": 18,
-    "brier": 0.129,
+    "brier": 0.136,
     "safe": {
       "n": 9,
       "correct": 9
     },
     "scorers": {
-      "n": 0,
-      "hits": 0,
-      "expected": 0.0,
-      "top_n": 0,
+      "n": 12,
+      "hits": 4,
+      "expected": 2.6,
+      "top_n": 1,
       "top_hits": 0,
       "tiers": [
         {
@@ -34,15 +34,15 @@
         },
         {
           "label": "30 à 40 %",
-          "n": 0,
-          "predicted": null,
-          "actual": null
+          "n": 3,
+          "predicted": 31.8,
+          "actual": 33.3
         },
         {
           "label": "moins de 30 %",
-          "n": 0,
-          "predicted": null,
-          "actual": null
+          "n": 9,
+          "predicted": 18.8,
+          "actual": 33.3
         }
       ]
     },
@@ -61,6 +61,108 @@
       "under": 0
     },
     "recent": [
+      {
+        "season": 2026,
+        "week": 10,
+        "home": "NYG",
+        "away": "WAS",
+        "published_at": "2026-11-10T15:04+00:00",
+        "pick": "NYG",
+        "pick_home": true,
+        "open_prob": 54.5,
+        "open_fr": null,
+        "close_prob": 53.4,
+        "closed_at": "2026-11-13T00:05+00:00",
+        "scorers": [
+          {
+            "id": "00-0035250",
+            "name": "Devin Singletary",
+            "team": "NYG",
+            "prob": 32.5,
+            "scored": false
+          },
+          {
+            "id": "00-0037256",
+            "name": "Rachaad White",
+            "team": "WAS",
+            "prob": 31.5,
+            "scored": false
+          },
+          {
+            "id": "00-0037838",
+            "name": "Isaiah Likely",
+            "team": "NYG",
+            "prob": 31.4,
+            "scored": true
+          },
+          {
+            "id": "00-0040715",
+            "name": "Cam Skattebo",
+            "team": "NYG",
+            "prob": 29.1,
+            "scored": true
+          },
+          {
+            "id": "00-0039337",
+            "name": "Malik Nabers",
+            "team": "NYG",
+            "prob": 28.2,
+            "scored": false
+          },
+          {
+            "id": "00-0031588",
+            "name": "Stefon Diggs",
+            "team": "WAS",
+            "prob": 24.1,
+            "scored": true
+          },
+          {
+            "id": "00-0041042",
+            "name": "Malachi Fields",
+            "team": "NYG",
+            "prob": 19.9,
+            "scored": false
+          },
+          {
+            "id": "00-0037742",
+            "name": "Treylon Burks",
+            "team": "WAS",
+            "prob": 15.8,
+            "scored": false
+          },
+          {
+            "id": "00-0037809",
+            "name": "Chig Okonkwo",
+            "team": "WAS",
+            "prob": 15.1,
+            "scored": false
+          },
+          {
+            "id": "00-0041040",
+            "name": "Antonio Williams",
+            "team": "WAS",
+            "prob": 14.5,
+            "scored": true
+          },
+          {
+            "id": "00-0039910",
+            "name": "Jayden Daniels",
+            "team": "WAS",
+            "prob": 12.6,
+            "scored": false
+          },
+          {
+            "id": "00-0036309",
+            "name": "Darnell Mooney",
+            "team": "NYG",
+            "prob": 9.8,
+            "scored": false
+          }
+        ],
+        "result": "D",
+        "score": "24-21",
+        "close_mkt": 52.7
+      },
       {
         "season": 2026,
         "week": 9,
@@ -300,22 +402,6 @@
         "result": "V",
         "score": "33-10",
         "close_mkt": 79.9
-      },
-      {
-        "season": 2026,
-        "week": 8,
-        "home": "SEA",
-        "away": "CHI",
-        "published_at": "2026-11-01T22:28+00:00",
-        "pick": "SEA",
-        "pick_home": true,
-        "open_prob": 60.4,
-        "open_fr": null,
-        "close_prob": 60.4,
-        "closed_at": "2026-11-03T03:06+00:00",
-        "result": "D",
-        "score": "34-17",
-        "close_mkt": 60.4
       }
     ]
   },
@@ -326,9 +412,9 @@
     "hfa_elo": 35.0
   },
   "season_record": {
-    "games": 135,
+    "games": 136,
     "correct": 92,
-    "accuracy": 68.1
+    "accuracy": 67.6
   },
   "bilan": {
     "summary": {
@@ -337,29 +423,29 @@
         "correct": 33
       },
       "units_all": {
-        "bets": 135,
-        "units": 1.08,
-        "roi": 0.8
+        "bets": 136,
+        "units": 0.08,
+        "roi": 0.1
       },
       "units_safe": {
         "bets": 44,
         "units": -2.19,
         "roi": -5.0
       },
-      "games": 135,
+      "games": 136,
       "correct": 92,
-      "brier": 0.215,
+      "brier": 0.216,
       "model_correct": 83,
-      "model_brier": 0.221,
-      "market_games": 135,
+      "model_brier": 0.222,
+      "market_games": 136,
       "market_correct": 93,
-      "scorer_picks": 360,
-      "scorer_hits": 139,
-      "scorer_expected": 151.2,
-      "scorer_all_n": 1440,
-      "scorer_all_hits": 368,
-      "scorer_all_expected": 375.9,
-      "scorer_brier": 0.1767,
+      "scorer_picks": 363,
+      "scorer_hits": 140,
+      "scorer_expected": 152.1,
+      "scorer_all_n": 1452,
+      "scorer_all_hits": 372,
+      "scorer_all_expected": 378.5,
+      "scorer_brier": 0.1772,
       "weeks": [
         {
           "week": 1,
@@ -405,6 +491,11 @@
           "week": 9,
           "games": 15,
           "correct": 14
+        },
+        {
+          "week": 10,
+          "games": 1,
+          "correct": 0
         }
       ],
       "ats_games": 30,
@@ -427,16 +518,16 @@
         {
           "label": "30 à 40 %",
           "min": 30,
-          "n": 238,
-          "predicted": 34.2,
-          "actual": 29.8
+          "n": 241,
+          "predicted": 34.1,
+          "actual": 29.9
         },
         {
           "label": "moins de 30 %",
           "min": 0,
-          "n": 1011,
+          "n": 1020,
           "predicted": 19.6,
-          "actual": 19.8
+          "actual": 19.9
         }
       ]
     },
@@ -6120,6 +6211,50 @@
             "scored": false
           }
         ]
+      },
+      {
+        "game_id": "2026_10_WAS_NYG",
+        "week": 10,
+        "home": "NYG",
+        "away": "WAS",
+        "home_nick": "Giants",
+        "away_nick": "Commanders",
+        "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+        "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+        "score": {
+          "home": 21,
+          "away": 24
+        },
+        "pick": "NYG",
+        "pick_prob": 52.7,
+        "pick_odds": 1.82,
+        "correct": false,
+        "model_correct": false,
+        "market_correct": false,
+        "brier": 0.2777,
+        "ats_edge": -2.4,
+        "ats_cover": false,
+        "model_brier": 0.4007,
+        "scorers": [
+          {
+            "name": "Devin Singletary",
+            "team": "NYG",
+            "prob": 31.3,
+            "scored": false
+          },
+          {
+            "name": "Rachaad White",
+            "team": "WAS",
+            "prob": 30.8,
+            "scored": false
+          },
+          {
+            "name": "Isaiah Likely",
+            "team": "NYG",
+            "prob": 30.3,
+            "scored": true
+          }
+        ]
       }
     ]
   },
@@ -6440,7 +6575,8 @@
           "snap": 63,
           "xtd": 0.35,
           "depth": "RB2",
-          "scored_last": 2
+          "scored_last": 2,
+          "scored": false
         },
         {
           "player_id": "00-0037256",
@@ -6455,7 +6591,8 @@
           "snap": 55,
           "xtd": 0.45,
           "depth": "RB1",
-          "scored_last": 3
+          "scored_last": 3,
+          "scored": false
         },
         {
           "player_id": "00-0037838",
@@ -6470,7 +6607,8 @@
           "snap": 79,
           "xtd": 0.35,
           "depth": "TE1",
-          "scored_last": 3
+          "scored_last": 3,
+          "scored": true
         },
         {
           "player_id": "00-0040715",
@@ -6485,7 +6623,8 @@
           "snap": 61,
           "xtd": 0.3,
           "depth": "RB1",
-          "scored_last": 1
+          "scored_last": 1,
+          "scored": true
         },
         {
           "player_id": "00-0039337",
@@ -6500,7 +6639,8 @@
           "snap": 79,
           "xtd": 0.37,
           "depth": "WR1",
-          "scored_last": 2
+          "scored_last": 2,
+          "scored": false
         },
         {
           "player_id": "00-0031588",
@@ -6515,7 +6655,8 @@
           "snap": 62,
           "xtd": 0.32,
           "depth": "WR1",
-          "scored_last": 2
+          "scored_last": 2,
+          "scored": true
         },
         {
           "player_id": "00-0041042",
@@ -6530,7 +6671,8 @@
           "snap": 80,
           "xtd": 0.16,
           "depth": "WR2",
-          "scored_last": 1
+          "scored_last": 1,
+          "scored": false
         },
         {
           "player_id": "00-0037742",
@@ -6545,7 +6687,8 @@
           "snap": 61,
           "xtd": 0.18,
           "depth": "WR3",
-          "scored_last": 2
+          "scored_last": 2,
+          "scored": false
         },
         {
           "player_id": "00-0037809",
@@ -6560,7 +6703,8 @@
           "snap": 73,
           "xtd": 0.17,
           "depth": "TE1",
-          "scored_last": 0
+          "scored_last": 0,
+          "scored": false
         },
         {
           "player_id": "00-0041040",
@@ -6575,7 +6719,8 @@
           "snap": 75,
           "xtd": 0.11,
           "depth": "WR2",
-          "scored_last": 0
+          "scored_last": 0,
+          "scored": true
         },
         {
           "player_id": "00-0039910",
@@ -6590,7 +6735,8 @@
           "snap": 98,
           "xtd": 0.07,
           "depth": "QB1",
-          "scored_last": 1
+          "scored_last": 1,
+          "scored": false
         },
         {
           "player_id": "00-0036309",
@@ -6605,7 +6751,8 @@
           "snap": 53,
           "xtd": 0.09,
           "depth": "WR3",
-          "scored_last": 0
+          "scored_last": 0,
+          "scored": false
         }
       ],
       "commentary": "Avantage Giants (53 %), à domicile.",
@@ -6756,13 +6903,18 @@
           }
         ]
       },
-      "status": "live",
+      "status": "final",
       "flags": {
         "value": false,
         "key_out": 1,
         "windy": false,
         "dome": false
-      }
+      },
+      "score": {
+        "home": 21,
+        "away": 24
+      },
+      "pick_correct": false
     },
     {
       "game_id": "2026_10_NE_DET",
@@ -6801,7 +6953,7 @@
       "model_spread": -0.3,
       "model_prob_home": 51.0,
       "vegas_spread": -2.5,
-      "vegas_total": 50.5,
+      "vegas_total": 49.5,
       "odds": {
         "n_books": 29,
         "books": [
@@ -7081,7 +7233,7 @@
           "team": "DET",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cursejnmmp1i9hnxihkj",
-          "prob": 64.0,
+          "prob": 63.2,
           "season_tds": 11,
           "status": null,
           "games": 8,
@@ -7148,7 +7300,7 @@
           "team": "DET",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/byiptqggtglvy5qrw5wp",
-          "prob": 41.6,
+          "prob": 40.9,
           "season_tds": 5,
           "status": null,
           "games": 8,
@@ -7215,7 +7367,7 @@
           "team": "NE",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/x9dlpy3i5fciajd4w9ij",
-          "prob": 41.4,
+          "prob": 40.7,
           "season_tds": 4,
           "status": null,
           "games": 9,
@@ -7282,7 +7434,7 @@
           "team": "DET",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fd8nwhm6pvxfyzphzl6i",
-          "prob": 40.4,
+          "prob": 39.7,
           "season_tds": 5,
           "status": null,
           "games": 8,
@@ -7349,7 +7501,7 @@
           "team": "DET",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wxlk7ysg2nfq6h6ntdcu",
-          "prob": 36.9,
+          "prob": 36.2,
           "season_tds": 3,
           "status": null,
           "games": 8,
@@ -7416,7 +7568,7 @@
           "team": "NE",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qbz7whjzsittudcecezw",
-          "prob": 23.1,
+          "prob": 22.5,
           "season_tds": 1,
           "status": null,
           "games": 5,
@@ -7483,7 +7635,7 @@
           "team": "NE",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/m3fpxawsccoqsajtqlec",
-          "prob": 22.1,
+          "prob": 21.5,
           "season_tds": 4,
           "status": null,
           "games": 9,
@@ -7550,7 +7702,7 @@
           "team": "NE",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mkauzrg7vo8lfziigsbg",
-          "prob": 22.0,
+          "prob": 21.5,
           "season_tds": 3,
           "status": null,
           "games": 9,
@@ -7617,7 +7769,7 @@
           "team": "NE",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qfhvjyssf0lwsh0kienp",
-          "prob": 21.9,
+          "prob": 21.4,
           "season_tds": 0,
           "status": null,
           "games": 3,
@@ -7664,7 +7816,7 @@
           "team": "NE",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zbnf3ujmwprzgjnwdtlo",
-          "prob": 21.7,
+          "prob": 21.1,
           "season_tds": 2,
           "status": null,
           "games": 8,
@@ -7731,7 +7883,7 @@
           "team": "DET",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ducfhbiy2a8loytcjymn",
-          "prob": 16.8,
+          "prob": 16.4,
           "season_tds": 0,
           "status": null,
           "games": 7,
@@ -7798,7 +7950,7 @@
           "team": "DET",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/kaicbot8qhzrvddilbtp",
-          "prob": 15.0,
+          "prob": 14.7,
           "season_tds": 1,
           "status": null,
           "games": 8,
@@ -7862,7 +8014,26 @@
       ],
       "commentary": "Avantage Lions (58 %).",
       "injuries": {
-        "home": [],
+        "home": [
+          {
+            "name": "Cade Mays",
+            "position": "C",
+            "status": "Out",
+            "injury": "cheville"
+          },
+          {
+            "name": "D.J. Reed",
+            "position": "CB",
+            "status": "Out",
+            "injury": "hanche"
+          },
+          {
+            "name": "Kerby Joseph",
+            "position": "S",
+            "status": "Out",
+            "injury": "genou"
+          }
+        ],
         "away": [
           {
             "name": "TreVeyon Henderson",
@@ -8083,7 +8254,7 @@
       "model_spread": 3.7,
       "model_prob_home": 37.5,
       "vegas_spread": 3.5,
-      "vegas_total": 46.5,
+      "vegas_total": 47.5,
       "odds": {
         "n_books": 29,
         "books": [
@@ -8335,7 +8506,7 @@
       },
       "projected_score": {
         "home": 22,
-        "away": 25
+        "away": 26
       },
       "confidence_score": "Modérée",
       "tier": "Probable",
@@ -8363,7 +8534,7 @@
           "team": "KC",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vk6nruaqdewdglofcwwg",
-          "prob": 62.3,
+          "prob": 63.1,
           "season_tds": 11,
           "status": null,
           "games": 8,
@@ -8430,7 +8601,7 @@
           "team": "ATL",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zaxetgy0p0ul6evlsf63",
-          "prob": 48.6,
+          "prob": 49.5,
           "season_tds": 6,
           "status": null,
           "games": 9,
@@ -8497,7 +8668,7 @@
           "team": "ATL",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/y5mkxrljhsglpwl3ky94",
-          "prob": 28.5,
+          "prob": 29.2,
           "season_tds": 1,
           "status": null,
           "games": 9,
@@ -8564,7 +8735,7 @@
           "team": "KC",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dpxovcfku6ud2aohgf6a",
-          "prob": 27.9,
+          "prob": 28.5,
           "season_tds": 3,
           "status": null,
           "games": 8,
@@ -8631,7 +8802,7 @@
           "team": "KC",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/u6fmnffwteccoxn3uguq",
-          "prob": 27.2,
+          "prob": 27.8,
           "season_tds": 1,
           "status": null,
           "games": 8,
@@ -8698,7 +8869,7 @@
           "team": "KC",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zniq20yhnxjqajqcgfc5",
-          "prob": 26.7,
+          "prob": 27.3,
           "season_tds": 1,
           "status": null,
           "games": 9,
@@ -8765,7 +8936,7 @@
           "team": "KC",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qhkbqrydjeur8zvrrmfl",
-          "prob": 23.9,
+          "prob": 24.4,
           "season_tds": 2,
           "status": null,
           "games": 5,
@@ -8832,7 +9003,7 @@
           "team": "ATL",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xczipzxvytnmvgznhhb4",
-          "prob": 23.8,
+          "prob": 24.4,
           "season_tds": 4,
           "status": null,
           "games": 9,
@@ -8899,7 +9070,7 @@
           "team": "ATL",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mzzh72ip9p7gqhkpsn4u",
-          "prob": 21.1,
+          "prob": 21.7,
           "season_tds": 2,
           "status": null,
           "games": 9,
@@ -8966,7 +9137,7 @@
           "team": "KC",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/avdz4njz1slqn7ktqcuq",
-          "prob": 19.1,
+          "prob": 19.5,
           "season_tds": 2,
           "status": null,
           "games": 8,
@@ -9033,7 +9204,7 @@
           "team": "ATL",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wubpwkurzpoj7n5gkvga",
-          "prob": 17.9,
+          "prob": 18.5,
           "season_tds": 1,
           "status": null,
           "games": 6,
@@ -9100,7 +9271,7 @@
           "team": "ATL",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wxamgrryctedlz0coeyd",
-          "prob": 10.8,
+          "prob": 11.1,
           "season_tds": 0,
           "status": null,
           "games": 8,
@@ -9169,10 +9340,7 @@
       },
       "weather": {
         "roof": "retractable",
-        "temp_c": 13,
-        "wind_kmh": 3,
-        "precip_prob": 0,
-        "windy": false
+        "error": true
       },
       "round": null,
       "lineup": {
@@ -10440,10 +10608,7 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 8,
-        "wind_kmh": 20,
-        "precip_prob": 27,
-        "windy": true
+        "error": true
       },
       "round": null,
       "lineup": {
@@ -10568,7 +10733,7 @@
       "flags": {
         "value": false,
         "key_out": 0,
-        "windy": true,
+        "windy": false,
         "dome": false
       },
       "line_history": [
@@ -10635,7 +10800,7 @@
       "model_spread": -0.1,
       "model_prob_home": 50.2,
       "vegas_spread": -3.0,
-      "vegas_total": 41.5,
+      "vegas_total": 42.5,
       "odds": {
         "n_books": 29,
         "books": [
@@ -10886,8 +11051,8 @@
         "fair_away": 2.44
       },
       "projected_score": {
-        "home": 22,
-        "away": 19
+        "home": 23,
+        "away": 20
       },
       "confidence_score": "Faible",
       "tier": "Serré",
@@ -10915,7 +11080,7 @@
           "team": "GB",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/uceokxeo0uqrqms3e3vl",
-          "prob": 36.6,
+          "prob": 37.4,
           "season_tds": 3,
           "status": null,
           "games": 3,
@@ -10962,7 +11127,7 @@
           "team": "GB",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dbjki6b0swksr7mk17wk",
-          "prob": 36.2,
+          "prob": 36.9,
           "season_tds": 5,
           "status": null,
           "games": 9,
@@ -11029,7 +11194,7 @@
           "team": "MIN",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tzx1iqbxxa1807m6olwj",
-          "prob": 31.0,
+          "prob": 31.9,
           "season_tds": 4,
           "status": null,
           "games": 7,
@@ -11096,7 +11261,7 @@
           "team": "GB",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/n6vu44jbq31rydoaadaq",
-          "prob": 28.9,
+          "prob": 29.6,
           "season_tds": 3,
           "status": null,
           "games": 9,
@@ -11163,7 +11328,7 @@
           "team": "GB",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tumeg4d32sirkab2xzu5",
-          "prob": 28.5,
+          "prob": 29.2,
           "season_tds": 7,
           "status": null,
           "games": 9,
@@ -11230,7 +11395,7 @@
           "team": "MIN",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/rs8o65x0u0n9xzde0fd6",
-          "prob": 23.0,
+          "prob": 23.7,
           "season_tds": 3,
           "status": null,
           "games": 8,
@@ -11297,7 +11462,7 @@
           "team": "MIN",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/za7cynvpwlsro1tsaijk",
-          "prob": 21.1,
+          "prob": 21.8,
           "season_tds": 2,
           "status": null,
           "games": 9,
@@ -11364,7 +11529,7 @@
           "team": "MIN",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bktkfvgfwujkdbzkcfim",
-          "prob": 20.7,
+          "prob": 21.3,
           "season_tds": 2,
           "status": null,
           "games": 8,
@@ -11431,7 +11596,7 @@
           "team": "GB",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xp8sd4enimuk4zd0aqgu",
-          "prob": 20.3,
+          "prob": 20.8,
           "season_tds": 3,
           "status": null,
           "games": 8,
@@ -11498,7 +11663,7 @@
           "team": "MIN",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ty8e8iasniuuhto6qfdx",
-          "prob": 19.6,
+          "prob": 20.2,
           "season_tds": 1,
           "status": null,
           "games": 7,
@@ -11565,7 +11730,7 @@
           "team": "MIN",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xe3i1lsb3rsioqy61krt",
-          "prob": 17.4,
+          "prob": 18.0,
           "season_tds": 1,
           "status": null,
           "games": 4,
@@ -11622,7 +11787,7 @@
           "team": "GB",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vmfywjn8szdf8m3aqnkf",
-          "prob": 16.7,
+          "prob": 17.1,
           "season_tds": 1,
           "status": null,
           "games": 7,
@@ -11691,10 +11856,7 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 6,
-        "wind_kmh": 5,
-        "precip_prob": 0,
-        "windy": false
+        "error": true
       },
       "round": null,
       "lineup": {
@@ -12954,10 +13116,7 @@
       },
       "weather": {
         "roof": "retractable",
-        "temp_c": 10,
-        "wind_kmh": 7,
-        "precip_prob": 0,
-        "windy": false
+        "error": true
       },
       "round": null,
       "lineup": {
@@ -15454,10 +15613,7 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 8,
-        "wind_kmh": 24,
-        "precip_prob": 0,
-        "windy": true
+        "error": true
       },
       "round": null,
       "lineup": {
@@ -15582,7 +15738,7 @@
       "flags": {
         "value": false,
         "key_out": 0,
-        "windy": true,
+        "windy": false,
         "dome": false
       },
       "line_history": [
@@ -16538,7 +16694,7 @@
           "games": 8,
           "snap": 68,
           "xtd": 0.28,
-          "depth": "WR3",
+          "depth": "WR4",
           "form": [
             {
               "week": 4,
@@ -16735,10 +16891,7 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 12,
-        "wind_kmh": 8,
-        "precip_prob": 0,
-        "windy": false
+        "error": true
       },
       "round": null,
       "lineup": {
@@ -16784,8 +16937,8 @@
             "available": true
           },
           {
-            "player_id": "00-0040170",
-            "name": "Elic Ayomanor",
+            "player_id": "00-0040705",
+            "name": "Chimere Dike",
             "pos": "WR",
             "rank": 3,
             "status": null,
@@ -17283,7 +17436,7 @@
           "games": 7,
           "snap": 91,
           "xtd": 0.66,
-          "depth": "WR1",
+          "depth": "WR5",
           "form": [
             {
               "week": 5,
@@ -17966,10 +18119,7 @@
       },
       "weather": {
         "roof": "retractable",
-        "temp_c": 22,
-        "wind_kmh": 4,
-        "precip_prob": 0,
-        "windy": false
+        "error": true
       },
       "round": null,
       "lineup": {
@@ -18057,24 +18207,24 @@
             "available": true
           },
           {
-            "player_id": "00-0039075",
-            "name": "Puka Nacua",
+            "player_id": "00-0040590",
+            "name": "Konata Mumpfield",
             "pos": "WR",
             "rank": 1,
             "status": null,
             "available": true
           },
           {
-            "player_id": "00-0040590",
-            "name": "Konata Mumpfield",
+            "player_id": "00-0036849",
+            "name": "Tutu Atwell",
             "pos": "WR",
             "rank": 2,
             "status": null,
             "available": true
           },
           {
-            "player_id": "00-0036849",
-            "name": "Tutu Atwell",
+            "player_id": "00-0041399",
+            "name": "CJ Daniels",
             "pos": "WR",
             "rank": 3,
             "status": null,
@@ -20494,9 +20644,9 @@
       },
       "weather": {
         "roof": "retractable",
-        "temp_c": 9,
-        "wind_kmh": 21,
-        "precip_prob": 64,
+        "temp_c": 10,
+        "wind_kmh": 19,
+        "precip_prob": 67,
         "windy": false
       },
       "round": null,
@@ -21776,7 +21926,7 @@
       "weather": {
         "roof": "open",
         "temp_c": 8,
-        "wind_kmh": 6,
+        "wind_kmh": 5,
         "precip_prob": 0,
         "windy": false
       },
@@ -23056,8 +23206,8 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 8,
-        "wind_kmh": 9,
+        "temp_c": 9,
+        "wind_kmh": 7,
         "precip_prob": 0,
         "windy": false
       },
@@ -23453,7 +23603,7 @@
         "hist": {
           "tier": "Serré",
           "min": 0.5,
-          "games": 1217,
+          "games": 1218,
           "predicted": 55.5,
           "actual": 55.3
         },
@@ -23545,7 +23695,7 @@
         "team": "DET",
         "position": "RB",
         "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cursejnmmp1i9hnxihkj",
-        "prob": 64.0,
+        "prob": 63.2,
         "season_tds": 11,
         "status": null,
         "games": 8,
@@ -23607,7 +23757,7 @@
         "scored_last": 4,
         "game_id": "2026_10_NE_DET",
         "opponent": "NE",
-        "fair_odds": 1.56,
+        "fair_odds": 1.58,
         "hist": {
           "label": "50 % et plus",
           "min": 50,
@@ -23622,7 +23772,7 @@
         "team": "KC",
         "position": "RB",
         "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vk6nruaqdewdglofcwwg",
-        "prob": 62.3,
+        "prob": 63.1,
         "season_tds": 11,
         "status": null,
         "games": 8,
@@ -23684,7 +23834,7 @@
         "scored_last": 3,
         "game_id": "2026_10_KC_ATL",
         "opponent": "ATL",
-        "fair_odds": 1.61,
+        "fair_odds": 1.58,
         "hist": {
           "label": "50 % et plus",
           "min": 50,
@@ -24079,6 +24229,83 @@
         }
       },
       {
+        "player_id": "00-0038542",
+        "name": "Bijan Robinson",
+        "team": "ATL",
+        "position": "RB",
+        "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zaxetgy0p0ul6evlsf63",
+        "prob": 49.5,
+        "season_tds": 6,
+        "status": null,
+        "games": 9,
+        "snap": 79,
+        "xtd": 0.64,
+        "depth": "RB1",
+        "form": [
+          {
+            "week": 5,
+            "opp": "BAL",
+            "car": 17,
+            "tgt": 7,
+            "rec": 4,
+            "yds": 118,
+            "td": 0,
+            "snap": 81
+          },
+          {
+            "week": 6,
+            "opp": "CHI",
+            "car": 9,
+            "tgt": 2,
+            "rec": 2,
+            "yds": 53,
+            "td": 0,
+            "snap": 78
+          },
+          {
+            "week": 7,
+            "opp": "SF",
+            "car": 20,
+            "tgt": 5,
+            "rec": 5,
+            "yds": 122,
+            "td": 0,
+            "snap": 81
+          },
+          {
+            "week": 8,
+            "opp": "TB",
+            "car": 19,
+            "tgt": 1,
+            "rec": 0,
+            "yds": 76,
+            "td": 0,
+            "snap": 81
+          },
+          {
+            "week": 9,
+            "opp": "CIN",
+            "car": 19,
+            "tgt": 7,
+            "rec": 6,
+            "yds": 147,
+            "td": 1,
+            "snap": 82
+          }
+        ],
+        "scored_last": 1,
+        "game_id": "2026_10_KC_ATL",
+        "opponent": "KC",
+        "fair_odds": 2.02,
+        "hist": {
+          "label": "40 à 50 %",
+          "min": 40,
+          "n": 112,
+          "predicted": 44.8,
+          "actual": 43.8
+        }
+      },
+      {
         "player_id": "00-0040719",
         "name": "Bhayshul Tuten",
         "team": "JAX",
@@ -24156,83 +24383,6 @@
         }
       },
       {
-        "player_id": "00-0038542",
-        "name": "Bijan Robinson",
-        "team": "ATL",
-        "position": "RB",
-        "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zaxetgy0p0ul6evlsf63",
-        "prob": 48.6,
-        "season_tds": 6,
-        "status": null,
-        "games": 9,
-        "snap": 79,
-        "xtd": 0.64,
-        "depth": "RB1",
-        "form": [
-          {
-            "week": 5,
-            "opp": "BAL",
-            "car": 17,
-            "tgt": 7,
-            "rec": 4,
-            "yds": 118,
-            "td": 0,
-            "snap": 81
-          },
-          {
-            "week": 6,
-            "opp": "CHI",
-            "car": 9,
-            "tgt": 2,
-            "rec": 2,
-            "yds": 53,
-            "td": 0,
-            "snap": 78
-          },
-          {
-            "week": 7,
-            "opp": "SF",
-            "car": 20,
-            "tgt": 5,
-            "rec": 5,
-            "yds": 122,
-            "td": 0,
-            "snap": 81
-          },
-          {
-            "week": 8,
-            "opp": "TB",
-            "car": 19,
-            "tgt": 1,
-            "rec": 0,
-            "yds": 76,
-            "td": 0,
-            "snap": 81
-          },
-          {
-            "week": 9,
-            "opp": "CIN",
-            "car": 19,
-            "tgt": 7,
-            "rec": 6,
-            "yds": 147,
-            "td": 1,
-            "snap": 82
-          }
-        ],
-        "scored_last": 1,
-        "game_id": "2026_10_KC_ATL",
-        "opponent": "KC",
-        "fair_odds": 2.06,
-        "hist": {
-          "label": "40 à 50 %",
-          "min": 40,
-          "n": 112,
-          "predicted": 44.8,
-          "actual": 43.8
-        }
-      },
-      {
         "player_id": "00-0039075",
         "name": "Puka Nacua",
         "team": "LA",
@@ -24244,7 +24394,7 @@
         "games": 7,
         "snap": 91,
         "xtd": 0.66,
-        "depth": "WR1",
+        "depth": "WR5",
         "form": [
           {
             "week": 5,
@@ -24412,13 +24562,13 @@
       {
         "tier": "Serré",
         "min": 0.5,
-        "games": 1217,
+        "games": 1218,
         "predicted": 55.5,
         "actual": 55.3
       }
     ],
     "market_roi": {
-      "bets": 3950,
+      "bets": 3951,
       "roi": -2.8
     }
   },
@@ -24431,9 +24581,9 @@
     "credits": "476"
   },
   "sources": {
-    "injuries": 6,
+    "injuries": 9,
     "lineups": 32,
-    "weather_errors": 0
+    "weather_errors": 7
   },
   "archive_ids": [
     "2026_10_BUF_NYJ",
@@ -24527,7 +24677,7 @@
       "team": "DET",
       "position": "RB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cursejnmmp1i9hnxihkj",
-      "prob": 64.0,
+      "prob": 63.2,
       "season_tds": 11,
       "status": null,
       "games": 8,
@@ -24596,7 +24746,7 @@
       "team": "KC",
       "position": "RB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vk6nruaqdewdglofcwwg",
-      "prob": 62.3,
+      "prob": 63.1,
       "season_tds": 11,
       "status": null,
       "games": 8,
@@ -25005,6 +25155,75 @@
       "opponent": "MIA"
     },
     {
+      "player_id": "00-0038542",
+      "name": "Bijan Robinson",
+      "team": "ATL",
+      "position": "RB",
+      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zaxetgy0p0ul6evlsf63",
+      "prob": 49.5,
+      "season_tds": 6,
+      "status": null,
+      "games": 9,
+      "snap": 79,
+      "xtd": 0.64,
+      "depth": "RB1",
+      "form": [
+        {
+          "week": 5,
+          "opp": "BAL",
+          "car": 17,
+          "tgt": 7,
+          "rec": 4,
+          "yds": 118,
+          "td": 0,
+          "snap": 81
+        },
+        {
+          "week": 6,
+          "opp": "CHI",
+          "car": 9,
+          "tgt": 2,
+          "rec": 2,
+          "yds": 53,
+          "td": 0,
+          "snap": 78
+        },
+        {
+          "week": 7,
+          "opp": "SF",
+          "car": 20,
+          "tgt": 5,
+          "rec": 5,
+          "yds": 122,
+          "td": 0,
+          "snap": 81
+        },
+        {
+          "week": 8,
+          "opp": "TB",
+          "car": 19,
+          "tgt": 1,
+          "rec": 0,
+          "yds": 76,
+          "td": 0,
+          "snap": 81
+        },
+        {
+          "week": 9,
+          "opp": "CIN",
+          "car": 19,
+          "tgt": 7,
+          "rec": 6,
+          "yds": 147,
+          "td": 1,
+          "snap": 82
+        }
+      ],
+      "scored_last": 1,
+      "game_id": "2026_10_KC_ATL",
+      "opponent": "KC"
+    },
+    {
       "player_id": "00-0040719",
       "name": "Bhayshul Tuten",
       "team": "JAX",
@@ -25074,75 +25293,6 @@
       "opponent": "TEN"
     },
     {
-      "player_id": "00-0038542",
-      "name": "Bijan Robinson",
-      "team": "ATL",
-      "position": "RB",
-      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zaxetgy0p0ul6evlsf63",
-      "prob": 48.6,
-      "season_tds": 6,
-      "status": null,
-      "games": 9,
-      "snap": 79,
-      "xtd": 0.64,
-      "depth": "RB1",
-      "form": [
-        {
-          "week": 5,
-          "opp": "BAL",
-          "car": 17,
-          "tgt": 7,
-          "rec": 4,
-          "yds": 118,
-          "td": 0,
-          "snap": 81
-        },
-        {
-          "week": 6,
-          "opp": "CHI",
-          "car": 9,
-          "tgt": 2,
-          "rec": 2,
-          "yds": 53,
-          "td": 0,
-          "snap": 78
-        },
-        {
-          "week": 7,
-          "opp": "SF",
-          "car": 20,
-          "tgt": 5,
-          "rec": 5,
-          "yds": 122,
-          "td": 0,
-          "snap": 81
-        },
-        {
-          "week": 8,
-          "opp": "TB",
-          "car": 19,
-          "tgt": 1,
-          "rec": 0,
-          "yds": 76,
-          "td": 0,
-          "snap": 81
-        },
-        {
-          "week": 9,
-          "opp": "CIN",
-          "car": 19,
-          "tgt": 7,
-          "rec": 6,
-          "yds": 147,
-          "td": 1,
-          "snap": 82
-        }
-      ],
-      "scored_last": 1,
-      "game_id": "2026_10_KC_ATL",
-      "opponent": "KC"
-    },
-    {
       "player_id": "00-0039075",
       "name": "Puka Nacua",
       "team": "LA",
@@ -25154,7 +25304,7 @@
       "games": 7,
       "snap": 91,
       "xtd": 0.66,
-      "depth": "WR1",
+      "depth": "WR5",
       "form": [
         {
           "week": 5,
@@ -25333,12 +25483,12 @@
       "sim": {
         "proj_wins": 12.4,
         "playoff": 98.4,
-        "division": 93.1,
-        "seed1": 18.3,
-        "conf": 24.3,
-        "sb": 14.6,
-        "if_win": 99.0,
-        "if_lose": 95.4
+        "division": 93.6,
+        "seed1": 18.2,
+        "conf": 25.2,
+        "sb": 14.5,
+        "if_win": 99.1,
+        "if_lose": 94.9
       },
       "power": 5.8,
       "schedule": [
@@ -25448,7 +25598,7 @@
           "opp": "NYG",
           "opp_nick": "Giants",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-          "prob": 69.8
+          "prob": 70.2
         },
         {
           "week": 12,
@@ -25508,7 +25658,7 @@
           "opp": "WAS",
           "opp_nick": "Commanders",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-          "prob": 79.3
+          "prob": 78.9
         },
         {
           "week": 18,
@@ -25518,7 +25668,7 @@
           "opp": "IND",
           "opp_nick": "Colts",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-          "prob": 75.3
+          "prob": 75.2
         }
       ],
       "sim_history": [
@@ -25592,13 +25742,13 @@
       "division": "AFC East",
       "sim": {
         "proj_wins": 13.1,
-        "playoff": 99.2,
-        "division": 92.7,
-        "seed1": 40.8,
-        "conf": 25.6,
-        "sb": 14.6,
+        "playoff": 99.1,
+        "division": 92.9,
+        "seed1": 41.2,
+        "conf": 26.2,
+        "sb": 14.5,
         "if_win": 99.6,
-        "if_lose": 97.8
+        "if_lose": 97.5
       },
       "power": 5.1,
       "schedule": [
@@ -25820,7 +25970,7 @@
         ],
         [
           10,
-          99.2
+          99.1
         ]
       ]
     },
@@ -25852,13 +26002,13 @@
       "division": "NFC West",
       "sim": {
         "proj_wins": 9.8,
-        "playoff": 53.7,
-        "division": 6.8,
-        "seed1": 2.2,
-        "conf": 9.7,
-        "sb": 5.1,
-        "if_win": 57.8,
-        "if_lose": 36.1
+        "playoff": 53.4,
+        "division": 6.9,
+        "seed1": 2.4,
+        "conf": 9.6,
+        "sb": 5.2,
+        "if_win": 57.5,
+        "if_lose": 36.0
       },
       "power": 4.4,
       "schedule": [
@@ -25979,7 +26129,7 @@
           "opp": "GB",
           "opp_nick": "Packers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
-          "prob": 62.4
+          "prob": 62.5
         },
         {
           "week": 13,
@@ -25989,7 +26139,7 @@
           "opp": "KC",
           "opp_nick": "Chiefs",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-          "prob": 58.6
+          "prob": 58.7
         },
         {
           "week": 14,
@@ -26019,7 +26169,7 @@
           "opp": "SEA",
           "opp_nick": "Seahawks",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-          "prob": 46.1
+          "prob": 46.2
         },
         {
           "week": 17,
@@ -26081,7 +26231,7 @@
         ],
         [
           10,
-          53.7
+          53.4
         ]
       ]
     },
@@ -26113,13 +26263,13 @@
       "division": "NFC West",
       "sim": {
         "proj_wins": 12.8,
-        "playoff": 96.3,
-        "division": 83.8,
-        "seed1": 48.4,
-        "conf": 27.5,
-        "sb": 13.6,
-        "if_win": 97.9,
-        "if_lose": 93.2
+        "playoff": 96.2,
+        "division": 84.1,
+        "seed1": 48.1,
+        "conf": 27.1,
+        "sb": 13.3,
+        "if_win": 98.2,
+        "if_lose": 92.3
       },
       "power": 4.4,
       "schedule": [
@@ -26249,7 +26399,7 @@
           "opp": "NYG",
           "opp_nick": "Giants",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-          "prob": 65.3
+          "prob": 65.8
         },
         {
           "week": 14,
@@ -26279,7 +26429,7 @@
           "opp": "KC",
           "opp_nick": "Chiefs",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-          "prob": 49.1
+          "prob": 49.2
         },
         {
           "week": 17,
@@ -26299,7 +26449,7 @@
           "opp": "ARI",
           "opp_nick": "Cardinals",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-          "prob": 73.3
+          "prob": 73.4
         }
       ],
       "sim_history": [
@@ -26341,7 +26491,7 @@
         ],
         [
           10,
-          96.3
+          96.2
         ]
       ]
     },
@@ -26373,13 +26523,13 @@
       "division": "NFC West",
       "sim": {
         "proj_wins": 9.9,
-        "playoff": 47.3,
-        "division": 9.4,
+        "playoff": 48.1,
+        "division": 9.0,
         "seed1": 1.6,
-        "conf": 8.4,
-        "sb": 4.2,
-        "if_win": 51.3,
-        "if_lose": 36.5
+        "conf": 8.1,
+        "sb": 4.4,
+        "if_win": 52.3,
+        "if_lose": 36.7
       },
       "power": 4.1,
       "schedule": [
@@ -26520,7 +26670,7 @@
           "opp": "NYG",
           "opp_nick": "Giants",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-          "prob": 72.9
+          "prob": 73.3
         },
         {
           "week": 15,
@@ -26540,7 +26690,7 @@
           "opp": "LA",
           "opp_nick": "Rams",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
-          "prob": 53.9
+          "prob": 53.8
         },
         {
           "week": 17,
@@ -26550,7 +26700,7 @@
           "opp": "CAR",
           "opp_nick": "Panthers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png",
-          "prob": 64.4
+          "prob": 64.5
         },
         {
           "week": 18,
@@ -26602,7 +26752,7 @@
         ],
         [
           10,
-          47.3
+          48.1
         ]
       ]
     },
@@ -26634,12 +26784,12 @@
       "division": "AFC West",
       "sim": {
         "proj_wins": 11.2,
-        "playoff": 92.7,
-        "division": 39.0,
-        "seed1": 9.3,
-        "conf": 11.2,
+        "playoff": 92.6,
+        "division": 38.6,
+        "seed1": 8.6,
+        "conf": 11.5,
         "sb": 5.7,
-        "if_win": 95.3,
+        "if_win": 95.2,
         "if_lose": 88.3
       },
       "power": 3.2,
@@ -26770,7 +26920,7 @@
           "opp": "LA",
           "opp_nick": "Rams",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
-          "prob": 41.4
+          "prob": 41.3
         },
         {
           "week": 14,
@@ -26800,7 +26950,7 @@
           "opp": "SF",
           "opp_nick": "49ers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
-          "prob": 50.9
+          "prob": 50.8
         },
         {
           "week": 17,
@@ -26820,7 +26970,7 @@
           "opp": "LV",
           "opp_nick": "Raiders",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
-          "prob": 76.4
+          "prob": 76.3
         }
       ],
       "sim_history": [
@@ -26862,7 +27012,7 @@
         ],
         [
           10,
-          92.7
+          92.6
         ]
       ]
     },
@@ -26895,10 +27045,10 @@
       "sim": {
         "proj_wins": 11.4,
         "playoff": 83.7,
-        "division": 28.4,
-        "seed1": 14.0,
-        "conf": 13.2,
-        "sb": 6.1
+        "division": 28.6,
+        "seed1": 14.8,
+        "conf": 14.0,
+        "sb": 6.3
       },
       "power": 3.0,
       "schedule": [
@@ -27152,12 +27302,12 @@
       "conf": "AFC",
       "division": "AFC West",
       "sim": {
-        "proj_wins": 12.2,
+        "proj_wins": 12.1,
         "playoff": 95.5,
-        "division": 60.2,
-        "seed1": 18.4,
-        "conf": 13.6,
-        "sb": 6.9
+        "division": 60.8,
+        "seed1": 18.5,
+        "conf": 12.8,
+        "sb": 6.5
       },
       "power": 3.0,
       "schedule": [
@@ -27412,13 +27562,13 @@
       "division": "AFC North",
       "sim": {
         "proj_wins": 11.8,
-        "playoff": 93.4,
-        "division": 63.4,
-        "seed1": 9.2,
-        "conf": 11.4,
-        "sb": 5.9,
-        "if_win": 96.8,
-        "if_lose": 87.7
+        "playoff": 93.0,
+        "division": 63.9,
+        "seed1": 9.9,
+        "conf": 10.8,
+        "sb": 5.3,
+        "if_win": 96.5,
+        "if_lose": 86.8
       },
       "power": 2.9,
       "schedule": [
@@ -27528,7 +27678,7 @@
           "opp": "WAS",
           "opp_nick": "Commanders",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-          "prob": 62.7
+          "prob": 62.3
         },
         {
           "week": 12,
@@ -27640,7 +27790,7 @@
         ],
         [
           10,
-          93.4
+          93.0
         ]
       ]
     },
@@ -27672,13 +27822,13 @@
       "division": "NFC North",
       "sim": {
         "proj_wins": 11.4,
-        "playoff": 84.0,
-        "division": 41.2,
-        "seed1": 19.2,
-        "conf": 14.5,
-        "sb": 6.8,
-        "if_win": 87.9,
-        "if_lose": 78.6
+        "playoff": 83.9,
+        "division": 40.2,
+        "seed1": 19.5,
+        "conf": 14.6,
+        "sb": 7.0,
+        "if_win": 88.1,
+        "if_lose": 78.0
       },
       "power": 2.9,
       "schedule": [
@@ -27838,7 +27988,7 @@
           "opp": "NYG",
           "opp_nick": "Giants",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-          "prob": 69.4
+          "prob": 69.9
         },
         {
           "week": 17,
@@ -27900,7 +28050,7 @@
         ],
         [
           10,
-          84.0
+          83.9
         ]
       ]
     },
@@ -27932,12 +28082,12 @@
       "division": "AFC South",
       "sim": {
         "proj_wins": 8.6,
-        "playoff": 35.0,
-        "division": 6.8,
+        "playoff": 35.7,
+        "division": 6.3,
         "seed1": 0.0,
-        "conf": 3.1,
-        "sb": 1.6,
-        "if_win": 42.7,
+        "conf": 2.9,
+        "sb": 1.5,
+        "if_win": 44.4,
         "if_lose": 18.1
       },
       "power": 2.7,
@@ -28068,7 +28218,7 @@
           "opp": "PIT",
           "opp_nick": "Steelers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
-          "prob": 50.3
+          "prob": 50.2
         },
         {
           "week": 14,
@@ -28078,7 +28228,7 @@
           "opp": "WAS",
           "opp_nick": "Commanders",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-          "prob": 62.1
+          "prob": 61.6
         },
         {
           "week": 15,
@@ -28160,7 +28310,7 @@
         ],
         [
           10,
-          35.0
+          35.7
         ]
       ]
     },
@@ -28191,14 +28341,14 @@
       "conf": "NFC",
       "division": "NFC North",
       "sim": {
-        "proj_wins": 10.2,
-        "playoff": 55.3,
-        "division": 9.6,
-        "seed1": 3.0,
-        "conf": 6.0,
-        "sb": 2.7,
-        "if_win": 67.6,
-        "if_lose": 37.3
+        "proj_wins": 10.3,
+        "playoff": 56.9,
+        "division": 10.4,
+        "seed1": 3.3,
+        "conf": 6.3,
+        "sb": 2.8,
+        "if_win": 69.7,
+        "if_lose": 38.2
       },
       "power": 2.1,
       "schedule": [
@@ -28319,7 +28469,7 @@
           "opp": "LA",
           "opp_nick": "Rams",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
-          "prob": 37.6
+          "prob": 37.5
         },
         {
           "week": 13,
@@ -28329,7 +28479,7 @@
           "opp": "NO",
           "opp_nick": "Saints",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
-          "prob": 58.0
+          "prob": 58.1
         },
         {
           "week": 14,
@@ -28421,7 +28571,7 @@
         ],
         [
           10,
-          55.3
+          56.9
         ]
       ]
     },
@@ -28453,13 +28603,13 @@
       "division": "AFC East",
       "sim": {
         "proj_wins": 9.4,
-        "playoff": 65.4,
-        "division": 7.3,
-        "seed1": 0.8,
-        "conf": 4.4,
-        "sb": 2.2,
-        "if_win": 77.9,
-        "if_lose": 56.4
+        "playoff": 64.3,
+        "division": 7.1,
+        "seed1": 0.6,
+        "conf": 4.2,
+        "sb": 2.1,
+        "if_win": 76.1,
+        "if_lose": 55.9
       },
       "power": 1.9,
       "schedule": [
@@ -28682,7 +28832,7 @@
         ],
         [
           10,
-          65.4
+          64.3
         ]
       ]
     },
@@ -28714,13 +28864,13 @@
       "division": "AFC North",
       "sim": {
         "proj_wins": 10.8,
-        "playoff": 78.8,
-        "division": 31.6,
-        "seed1": 3.2,
+        "playoff": 78.0,
+        "division": 30.7,
+        "seed1": 3.0,
         "conf": 5.5,
-        "sb": 2.4,
+        "sb": 2.6,
         "if_win": 89.1,
-        "if_lose": 72.6
+        "if_lose": 71.7
       },
       "power": 1.2,
       "schedule": [
@@ -28830,7 +28980,7 @@
           "opp": "PHI",
           "opp_nick": "Eagles",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-          "prob": 63.6
+          "prob": 63.7
         },
         {
           "week": 12,
@@ -28850,7 +29000,7 @@
           "opp": "HOU",
           "opp_nick": "Texans",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
-          "prob": 49.7
+          "prob": 49.8
         },
         {
           "week": 14,
@@ -28942,7 +29092,7 @@
         ],
         [
           10,
-          78.8
+          78.0
         ]
       ]
     },
@@ -28973,14 +29123,14 @@
       "conf": "NFC",
       "division": "NFC North",
       "sim": {
-        "proj_wins": 10.8,
-        "playoff": 74.4,
-        "division": 20.9,
-        "seed1": 10.0,
-        "conf": 8.5,
-        "sb": 3.3,
-        "if_win": 88.1,
-        "if_lose": 65.0
+        "proj_wins": 10.7,
+        "playoff": 73.6,
+        "division": 20.8,
+        "seed1": 9.8,
+        "conf": 8.4,
+        "sb": 3.6,
+        "if_win": 87.8,
+        "if_lose": 63.9
       },
       "power": 1.1,
       "schedule": [
@@ -29140,7 +29290,7 @@
           "opp": "WAS",
           "opp_nick": "Commanders",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-          "prob": 65.7
+          "prob": 65.2
         },
         {
           "week": 17,
@@ -29202,7 +29352,7 @@
         ],
         [
           10,
-          74.4
+          73.6
         ]
       ]
     },
@@ -29234,13 +29384,13 @@
       "division": "NFC East",
       "sim": {
         "proj_wins": 8.0,
-        "playoff": 26.3,
-        "division": 24.4,
-        "seed1": 0.1,
-        "conf": 2.2,
-        "sb": 0.9,
-        "if_win": 37.0,
-        "if_lose": 20.7
+        "playoff": 31.7,
+        "division": 30.6,
+        "seed1": 0.0,
+        "conf": 2.7,
+        "sb": 1.0,
+        "if_win": 44.9,
+        "if_lose": 24.8
       },
       "power": 0.5,
       "schedule": [
@@ -29361,7 +29511,7 @@
           "opp": "TEN",
           "opp_nick": "Titans",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
-          "prob": 77.4
+          "prob": 77.5
         },
         {
           "week": 12,
@@ -29411,7 +29561,7 @@
           "opp": "NYG",
           "opp_nick": "Giants",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-          "prob": 61.6
+          "prob": 62.1
         },
         {
           "week": 18,
@@ -29421,7 +29571,7 @@
           "opp": "WAS",
           "opp_nick": "Commanders",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-          "prob": 54.6
+          "prob": 54.0
         }
       ],
       "sim_history": [
@@ -29463,7 +29613,7 @@
         ],
         [
           10,
-          26.3
+          31.7
         ]
       ]
     },
@@ -29495,11 +29645,11 @@
       "division": "NFC South",
       "sim": {
         "proj_wins": 6.9,
-        "playoff": 32.0,
-        "division": 31.8,
+        "playoff": 31.2,
+        "division": 31.0,
         "seed1": 0.0,
-        "conf": 2.4,
-        "sb": 0.8
+        "conf": 1.8,
+        "sb": 0.7
       },
       "power": -0.7,
       "schedule": [
@@ -29722,7 +29872,7 @@
         ],
         [
           10,
-          32.0
+          31.2
         ]
       ]
     },
@@ -29754,13 +29904,13 @@
       "division": "AFC North",
       "sim": {
         "proj_wins": 7.8,
-        "playoff": 13.2,
+        "playoff": 13.5,
         "division": 1.6,
         "seed1": 0.0,
         "conf": 0.4,
         "sb": 0.2,
-        "if_win": 16.9,
-        "if_lose": 5.8
+        "if_win": 17.4,
+        "if_lose": 5.9
       },
       "power": -0.9,
       "schedule": [
@@ -29983,7 +30133,7 @@
         ],
         [
           10,
-          13.2
+          13.5
         ]
       ]
     },
@@ -30015,13 +30165,13 @@
       "division": "NFC South",
       "sim": {
         "proj_wins": 6.6,
-        "playoff": 17.7,
-        "division": 17.3,
+        "playoff": 17.4,
+        "division": 17.0,
         "seed1": 0.0,
-        "conf": 0.9,
+        "conf": 0.8,
         "sb": 0.3,
-        "if_win": 25.4,
-        "if_lose": 13.2
+        "if_win": 24.1,
+        "if_lose": 13.3
       },
       "power": -1.5,
       "schedule": [
@@ -30172,7 +30322,7 @@
           "opp": "WAS",
           "opp_nick": "Commanders",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-          "prob": 47.8
+          "prob": 47.3
         },
         {
           "week": 16,
@@ -30244,7 +30394,7 @@
         ],
         [
           10,
-          17.7
+          17.4
         ]
       ]
     },
@@ -30276,13 +30426,13 @@
       "division": "NFC South",
       "sim": {
         "proj_wins": 7.0,
-        "playoff": 26.3,
-        "division": 26.1,
+        "playoff": 26.9,
+        "division": 26.7,
         "seed1": 0.0,
-        "conf": 1.4,
+        "conf": 1.3,
         "sb": 0.4,
-        "if_win": 39.1,
-        "if_lose": 16.0
+        "if_win": 40.6,
+        "if_lose": 16.2
       },
       "power": -1.5,
       "schedule": [
@@ -30452,7 +30602,7 @@
           "opp": "SEA",
           "opp_nick": "Seahawks",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-          "prob": 35.6
+          "prob": 35.5
         },
         {
           "week": 18,
@@ -30504,267 +30654,7 @@
         ],
         [
           10,
-          26.3
-        ]
-      ]
-    },
-    {
-      "abbr": "NYG",
-      "name": "New York Giants",
-      "nick": "Giants",
-      "color": "#0B2265",
-      "color_dark": "#A71930",
-      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-      "elo": 1492.8,
-      "record": "5-2-1",
-      "off_rank": 14,
-      "def_rank": 16,
-      "history": [
-        1438.7,
-        1460.0,
-        1441.6,
-        1452.3,
-        1472.7,
-        1472.3,
-        1444.3,
-        1472.4,
-        1472.4,
-        1492.8,
-        1492.8
-      ],
-      "conf": "NFC",
-      "division": "NFC East",
-      "sim": {
-        "proj_wins": 9.4,
-        "playoff": 70.1,
-        "division": 68.6,
-        "seed1": 1.6,
-        "conf": 3.8,
-        "sb": 1.2,
-        "if_win": 81.1,
-        "if_lose": 57.3
-      },
-      "power": -1.5,
-      "schedule": [
-        {
-          "week": 1,
-          "game_id": "2026_01_DAL_NYG",
-          "gameday": "2026-09-13",
-          "home": true,
-          "opp": "DAL",
-          "opp_nick": "Cowboys",
-          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
-          "score": "28-20",
-          "result": "V"
-        },
-        {
-          "week": 2,
-          "game_id": "2026_02_NYG_LA",
-          "gameday": "2026-09-21",
-          "home": false,
-          "opp": "LA",
-          "opp_nick": "Rams",
-          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
-          "score": "6-28",
-          "result": "D"
-        },
-        {
-          "week": 3,
-          "game_id": "2026_03_TEN_NYG",
-          "gameday": "2026-09-27",
-          "home": true,
-          "opp": "TEN",
-          "opp_nick": "Titans",
-          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
-          "score": "12-7",
-          "result": "V"
-        },
-        {
-          "week": 4,
-          "game_id": "2026_04_ARI_NYG",
-          "gameday": "2026-10-04",
-          "home": true,
-          "opp": "ARI",
-          "opp_nick": "Cardinals",
-          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-          "score": "36-24",
-          "result": "V"
-        },
-        {
-          "week": 5,
-          "game_id": "2026_05_NYG_WAS",
-          "gameday": "2026-10-11",
-          "home": false,
-          "opp": "WAS",
-          "opp_nick": "Commanders",
-          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-          "score": "27-27",
-          "result": "N"
-        },
-        {
-          "week": 6,
-          "game_id": "2026_06_NO_NYG",
-          "gameday": "2026-10-18",
-          "home": true,
-          "opp": "NO",
-          "opp_nick": "Saints",
-          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
-          "score": "27-34",
-          "result": "D"
-        },
-        {
-          "week": 7,
-          "game_id": "2026_07_NYG_HOU",
-          "gameday": "2026-10-25",
-          "home": false,
-          "opp": "HOU",
-          "opp_nick": "Texans",
-          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
-          "score": "27-21",
-          "result": "V"
-        },
-        {
-          "week": 9,
-          "game_id": "2026_09_NYG_PHI",
-          "gameday": "2026-11-08",
-          "home": false,
-          "opp": "PHI",
-          "opp_nick": "Eagles",
-          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-          "score": "19-11",
-          "result": "V"
-        },
-        {
-          "week": 10,
-          "game_id": "2026_10_WAS_NYG",
-          "gameday": "2026-11-12",
-          "home": true,
-          "opp": "WAS",
-          "opp_nick": "Commanders",
-          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-          "prob": 53.4
-        },
-        {
-          "week": 11,
-          "game_id": "2026_11_JAX_NYG",
-          "gameday": "2026-11-22",
-          "home": true,
-          "opp": "JAX",
-          "opp_nick": "Jaguars",
-          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
-          "prob": 30.2
-        },
-        {
-          "week": 12,
-          "game_id": "2026_12_NYG_IND",
-          "gameday": "2026-11-29",
-          "home": false,
-          "opp": "IND",
-          "opp_nick": "Colts",
-          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-          "prob": 51.8
-        },
-        {
-          "week": 13,
-          "game_id": "2026_13_SF_NYG",
-          "gameday": "2026-12-06",
-          "home": true,
-          "opp": "SF",
-          "opp_nick": "49ers",
-          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
-          "prob": 34.7
-        },
-        {
-          "week": 14,
-          "game_id": "2026_14_NYG_SEA",
-          "gameday": "2026-12-13",
-          "home": false,
-          "opp": "SEA",
-          "opp_nick": "Seahawks",
-          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-          "prob": 27.1
-        },
-        {
-          "week": 15,
-          "game_id": "2026_15_CLE_NYG",
-          "gameday": "2026-12-20",
-          "home": true,
-          "opp": "CLE",
-          "opp_nick": "Browns",
-          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
-          "prob": 60.0
-        },
-        {
-          "week": 16,
-          "game_id": "2026_16_NYG_DET",
-          "gameday": "2026-12-28",
-          "home": false,
-          "opp": "DET",
-          "opp_nick": "Lions",
-          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
-          "prob": 30.6
-        },
-        {
-          "week": 17,
-          "game_id": "2026_17_NYG_DAL",
-          "gameday": "2027-01-03",
-          "home": false,
-          "opp": "DAL",
-          "opp_nick": "Cowboys",
-          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
-          "prob": 38.4
-        },
-        {
-          "week": 18,
-          "game_id": "2026_18_PHI_NYG",
-          "gameday": "2027-01-10",
-          "home": true,
-          "opp": "PHI",
-          "opp_nick": "Eagles",
-          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-          "prob": 63.6
-        }
-      ],
-      "sim_history": [
-        [
-          1,
-          27.0
-        ],
-        [
-          2,
-          32.6
-        ],
-        [
-          3,
-          26.1
-        ],
-        [
-          4,
-          27.0
-        ],
-        [
-          5,
-          31.2
-        ],
-        [
-          6,
-          36.0
-        ],
-        [
-          7,
-          27.7
-        ],
-        [
-          8,
-          40.2
-        ],
-        [
-          9,
-          55.0
-        ],
-        [
-          10,
-          70.1
+          26.9
         ]
       ]
     },
@@ -30795,14 +30685,14 @@
       "conf": "NFC",
       "division": "NFC South",
       "sim": {
-        "proj_wins": 7.0,
-        "playoff": 25.1,
-        "division": 24.8,
+        "proj_wins": 7.1,
+        "playoff": 25.6,
+        "division": 25.3,
         "seed1": 0.0,
-        "conf": 1.4,
-        "sb": 0.5,
-        "if_win": 33.9,
-        "if_lose": 14.3
+        "conf": 1.5,
+        "sb": 0.6,
+        "if_win": 34.6,
+        "if_lose": 14.2
       },
       "power": -1.6,
       "schedule": [
@@ -30932,7 +30822,7 @@
           "opp": "GB",
           "opp_nick": "Packers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
-          "prob": 42.0
+          "prob": 41.9
         },
         {
           "week": 14,
@@ -31024,7 +30914,266 @@
         ],
         [
           10,
-          25.1
+          25.6
+        ]
+      ]
+    },
+    {
+      "abbr": "NYG",
+      "name": "New York Giants",
+      "nick": "Giants",
+      "color": "#0B2265",
+      "color_dark": "#A71930",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+      "elo": 1474.3,
+      "record": "5-3-1",
+      "off_rank": 14,
+      "def_rank": 16,
+      "history": [
+        1438.7,
+        1460.0,
+        1441.6,
+        1452.3,
+        1472.7,
+        1472.3,
+        1444.3,
+        1472.4,
+        1472.4,
+        1492.8,
+        1474.3
+      ],
+      "conf": "NFC",
+      "division": "NFC East",
+      "sim": {
+        "proj_wins": 8.8,
+        "playoff": 55.2,
+        "division": 54.1,
+        "seed1": 0.5,
+        "conf": 2.9,
+        "sb": 1.0
+      },
+      "power": -1.7,
+      "schedule": [
+        {
+          "week": 1,
+          "game_id": "2026_01_DAL_NYG",
+          "gameday": "2026-09-13",
+          "home": true,
+          "opp": "DAL",
+          "opp_nick": "Cowboys",
+          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+          "score": "28-20",
+          "result": "V"
+        },
+        {
+          "week": 2,
+          "game_id": "2026_02_NYG_LA",
+          "gameday": "2026-09-21",
+          "home": false,
+          "opp": "LA",
+          "opp_nick": "Rams",
+          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+          "score": "6-28",
+          "result": "D"
+        },
+        {
+          "week": 3,
+          "game_id": "2026_03_TEN_NYG",
+          "gameday": "2026-09-27",
+          "home": true,
+          "opp": "TEN",
+          "opp_nick": "Titans",
+          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+          "score": "12-7",
+          "result": "V"
+        },
+        {
+          "week": 4,
+          "game_id": "2026_04_ARI_NYG",
+          "gameday": "2026-10-04",
+          "home": true,
+          "opp": "ARI",
+          "opp_nick": "Cardinals",
+          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+          "score": "36-24",
+          "result": "V"
+        },
+        {
+          "week": 5,
+          "game_id": "2026_05_NYG_WAS",
+          "gameday": "2026-10-11",
+          "home": false,
+          "opp": "WAS",
+          "opp_nick": "Commanders",
+          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+          "score": "27-27",
+          "result": "N"
+        },
+        {
+          "week": 6,
+          "game_id": "2026_06_NO_NYG",
+          "gameday": "2026-10-18",
+          "home": true,
+          "opp": "NO",
+          "opp_nick": "Saints",
+          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+          "score": "27-34",
+          "result": "D"
+        },
+        {
+          "week": 7,
+          "game_id": "2026_07_NYG_HOU",
+          "gameday": "2026-10-25",
+          "home": false,
+          "opp": "HOU",
+          "opp_nick": "Texans",
+          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+          "score": "27-21",
+          "result": "V"
+        },
+        {
+          "week": 9,
+          "game_id": "2026_09_NYG_PHI",
+          "gameday": "2026-11-08",
+          "home": false,
+          "opp": "PHI",
+          "opp_nick": "Eagles",
+          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+          "score": "19-11",
+          "result": "V"
+        },
+        {
+          "week": 10,
+          "game_id": "2026_10_WAS_NYG",
+          "gameday": "2026-11-12",
+          "home": true,
+          "opp": "WAS",
+          "opp_nick": "Commanders",
+          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+          "score": "21-24",
+          "result": "D"
+        },
+        {
+          "week": 11,
+          "game_id": "2026_11_JAX_NYG",
+          "gameday": "2026-11-22",
+          "home": true,
+          "opp": "JAX",
+          "opp_nick": "Jaguars",
+          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+          "prob": 29.8
+        },
+        {
+          "week": 12,
+          "game_id": "2026_12_NYG_IND",
+          "gameday": "2026-11-29",
+          "home": false,
+          "opp": "IND",
+          "opp_nick": "Colts",
+          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+          "prob": 51.3
+        },
+        {
+          "week": 13,
+          "game_id": "2026_13_SF_NYG",
+          "gameday": "2026-12-06",
+          "home": true,
+          "opp": "SF",
+          "opp_nick": "49ers",
+          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+          "prob": 34.2
+        },
+        {
+          "week": 14,
+          "game_id": "2026_14_NYG_SEA",
+          "gameday": "2026-12-13",
+          "home": false,
+          "opp": "SEA",
+          "opp_nick": "Seahawks",
+          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+          "prob": 26.7
+        },
+        {
+          "week": 15,
+          "game_id": "2026_15_CLE_NYG",
+          "gameday": "2026-12-20",
+          "home": true,
+          "opp": "CLE",
+          "opp_nick": "Browns",
+          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+          "prob": 59.5
+        },
+        {
+          "week": 16,
+          "game_id": "2026_16_NYG_DET",
+          "gameday": "2026-12-28",
+          "home": false,
+          "opp": "DET",
+          "opp_nick": "Lions",
+          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+          "prob": 30.1
+        },
+        {
+          "week": 17,
+          "game_id": "2026_17_NYG_DAL",
+          "gameday": "2027-01-03",
+          "home": false,
+          "opp": "DAL",
+          "opp_nick": "Cowboys",
+          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+          "prob": 37.9
+        },
+        {
+          "week": 18,
+          "game_id": "2026_18_PHI_NYG",
+          "gameday": "2027-01-10",
+          "home": true,
+          "opp": "PHI",
+          "opp_nick": "Eagles",
+          "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+          "prob": 63.1
+        }
+      ],
+      "sim_history": [
+        [
+          1,
+          27.0
+        ],
+        [
+          2,
+          32.6
+        ],
+        [
+          3,
+          26.1
+        ],
+        [
+          4,
+          27.0
+        ],
+        [
+          5,
+          31.2
+        ],
+        [
+          6,
+          36.0
+        ],
+        [
+          7,
+          27.7
+        ],
+        [
+          8,
+          40.2
+        ],
+        [
+          9,
+          55.0
+        ],
+        [
+          10,
+          55.2
         ]
       ]
     },
@@ -31035,8 +31184,8 @@
       "color": "#5A1414",
       "color_dark": "#FFB612",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-      "elo": 1430.0,
-      "record": "2-5-1",
+      "elo": 1448.4,
+      "record": "3-5-1",
       "off_rank": 18,
       "def_rank": 25,
       "history": [
@@ -31050,21 +31199,19 @@
         1415.9,
         1444.1,
         1430.0,
-        1430.0
+        1448.4
       ],
       "conf": "NFC",
       "division": "NFC East",
       "sim": {
-        "proj_wins": 6.4,
-        "playoff": 6.9,
-        "division": 6.6,
+        "proj_wins": 7.0,
+        "playoff": 15.1,
+        "division": 14.6,
         "seed1": 0.0,
-        "conf": 0.3,
-        "sb": 0.1,
-        "if_win": 13.7,
-        "if_lose": 1.0
+        "conf": 0.8,
+        "sb": 0.3
       },
-      "power": -2.2,
+      "power": -2.1,
       "schedule": [
         {
           "week": 1,
@@ -31162,7 +31309,8 @@
           "opp": "NYG",
           "opp_nick": "Giants",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-          "prob": 46.6
+          "score": "24-21",
+          "result": "V"
         },
         {
           "week": 11,
@@ -31172,7 +31320,7 @@
           "opp": "CIN",
           "opp_nick": "Bengals",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
-          "prob": 37.3
+          "prob": 37.7
         },
         {
           "week": 12,
@@ -31182,7 +31330,7 @@
           "opp": "ARI",
           "opp_nick": "Cardinals",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-          "prob": 52.0
+          "prob": 52.5
         },
         {
           "week": 13,
@@ -31192,7 +31340,7 @@
           "opp": "TEN",
           "opp_nick": "Titans",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
-          "prob": 61.0
+          "prob": 61.5
         },
         {
           "week": 14,
@@ -31202,7 +31350,7 @@
           "opp": "HOU",
           "opp_nick": "Texans",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
-          "prob": 37.9
+          "prob": 38.4
         },
         {
           "week": 15,
@@ -31212,7 +31360,7 @@
           "opp": "ATL",
           "opp_nick": "Falcons",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
-          "prob": 52.2
+          "prob": 52.7
         },
         {
           "week": 16,
@@ -31222,7 +31370,7 @@
           "opp": "MIN",
           "opp_nick": "Vikings",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
-          "prob": 34.3
+          "prob": 34.8
         },
         {
           "week": 17,
@@ -31232,7 +31380,7 @@
           "opp": "JAX",
           "opp_nick": "Jaguars",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
-          "prob": 20.7
+          "prob": 21.1
         },
         {
           "week": 18,
@@ -31242,7 +31390,7 @@
           "opp": "DAL",
           "opp_nick": "Cowboys",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
-          "prob": 45.4
+          "prob": 46.0
         }
       ],
       "sim_history": [
@@ -31284,7 +31432,7 @@
         ],
         [
           10,
-          6.9
+          15.1
         ]
       ]
     },
@@ -31315,14 +31463,14 @@
       "conf": "AFC",
       "division": "AFC North",
       "sim": {
-        "proj_wins": 8.3,
-        "playoff": 20.5,
-        "division": 3.4,
-        "seed1": 0.0,
+        "proj_wins": 8.4,
+        "playoff": 22.2,
+        "division": 3.8,
+        "seed1": 0.1,
         "conf": 0.4,
         "sb": 0.1,
-        "if_win": 36.6,
-        "if_lose": 13.1
+        "if_win": 39.5,
+        "if_lose": 13.7
       },
       "power": -3.1,
       "schedule": [
@@ -31473,7 +31621,7 @@
           "opp": "NYG",
           "opp_nick": "Giants",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-          "prob": 40.0
+          "prob": 40.5
         },
         {
           "week": 16,
@@ -31545,7 +31693,7 @@
         ],
         [
           10,
-          20.5
+          22.2
         ]
       ]
     },
@@ -31578,7 +31726,7 @@
       "sim": {
         "proj_wins": 5.5,
         "playoff": 0.5,
-        "division": 0.1,
+        "division": 0.0,
         "seed1": 0.0,
         "conf": 0.0,
         "sb": 0.0,
@@ -31714,7 +31862,7 @@
           "opp": "NYG",
           "opp_nick": "Giants",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-          "prob": 48.2
+          "prob": 48.7
         },
         {
           "week": 14,
@@ -31734,7 +31882,7 @@
           "opp": "TEN",
           "opp_nick": "Titans",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
-          "prob": 56.9
+          "prob": 57.0
         },
         {
           "week": 16,
@@ -31764,7 +31912,7 @@
           "opp": "JAX",
           "opp_nick": "Jaguars",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
-          "prob": 24.7
+          "prob": 24.8
         }
       ],
       "sim_history": [
@@ -31838,13 +31986,13 @@
       "division": "AFC West",
       "sim": {
         "proj_wins": 7.2,
-        "playoff": 7.3,
+        "playoff": 7.1,
         "division": 0.7,
         "seed1": 0.0,
-        "conf": 0.1,
-        "sb": 0.0,
-        "if_win": 13.3,
-        "if_lose": 5.2
+        "conf": 0.2,
+        "sb": 0.1,
+        "if_win": 12.9,
+        "if_lose": 5.0
       },
       "power": -3.6,
       "schedule": [
@@ -32025,7 +32173,7 @@
           "opp": "KC",
           "opp_nick": "Chiefs",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-          "prob": 23.6
+          "prob": 23.7
         }
       ],
       "sim_history": [
@@ -32067,7 +32215,7 @@
         ],
         [
           10,
-          7.3
+          7.1
         ]
       ]
     },
@@ -32104,7 +32252,7 @@
         "seed1": 0.0,
         "conf": 0.0,
         "sb": 0.0,
-        "if_win": 0.0,
+        "if_win": 0.1,
         "if_lose": 0.0
       },
       "power": -3.7,
@@ -32359,8 +32507,8 @@
       "division": "NFC East",
       "sim": {
         "proj_wins": 4.8,
-        "playoff": 0.4,
-        "division": 0.4,
+        "playoff": 0.7,
+        "division": 0.7,
         "seed1": 0.0,
         "conf": 0.0,
         "sb": 0.0
@@ -32474,7 +32622,7 @@
           "opp": "PIT",
           "opp_nick": "Steelers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
-          "prob": 36.4
+          "prob": 36.3
         },
         {
           "week": 12,
@@ -32544,7 +32692,7 @@
           "opp": "NYG",
           "opp_nick": "Giants",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-          "prob": 36.4
+          "prob": 36.9
         }
       ],
       "sim_history": [
@@ -32586,7 +32734,7 @@
         ],
         [
           10,
-          0.4
+          0.7
         ]
       ]
     },
@@ -32617,14 +32765,14 @@
       "conf": "NFC",
       "division": "NFC West",
       "sim": {
-        "proj_wins": 6.1,
-        "playoff": 0.4,
+        "proj_wins": 6.2,
+        "playoff": 0.3,
         "division": 0.0,
         "seed1": 0.0,
         "conf": 0.0,
         "sb": 0.0,
-        "if_win": 1.6,
-        "if_lose": 0.1
+        "if_win": 1.4,
+        "if_lose": 0.0
       },
       "power": -4.2,
       "schedule": [
@@ -32755,7 +32903,7 @@
           "opp": "WAS",
           "opp_nick": "Commanders",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-          "prob": 48.0
+          "prob": 47.5
         },
         {
           "week": 13,
@@ -32805,7 +32953,7 @@
           "opp": "SF",
           "opp_nick": "49ers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
-          "prob": 26.7
+          "prob": 26.6
         }
       ],
       "sim_history": [
@@ -32847,7 +32995,7 @@
         ],
         [
           10,
-          0.4
+          0.3
         ]
       ]
     },
@@ -32878,14 +33026,14 @@
       "conf": "AFC",
       "division": "AFC East",
       "sim": {
-        "proj_wins": 4.8,
-        "playoff": 0.2,
+        "proj_wins": 4.7,
+        "playoff": 0.1,
         "division": 0.0,
         "seed1": 0.0,
         "conf": 0.0,
         "sb": 0.0,
-        "if_win": 0.6,
-        "if_lose": 0.1
+        "if_win": 0.4,
+        "if_lose": 0.0
       },
       "power": -4.4,
       "schedule": [
@@ -33108,7 +33256,7 @@
         ],
         [
           10,
-          0.2
+          0.1
         ]
       ]
     },
@@ -33145,7 +33293,7 @@
         "seed1": 0.0,
         "conf": 0.0,
         "sb": 0.0,
-        "if_win": 0.1,
+        "if_win": 0.0,
         "if_lose": 0.0
       },
       "power": -5.5,
@@ -33516,7 +33664,7 @@
           "opp": "DAL",
           "opp_nick": "Cowboys",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
-          "prob": 22.6
+          "prob": 22.5
         },
         {
           "week": 12,
@@ -33536,7 +33684,7 @@
           "opp": "WAS",
           "opp_nick": "Commanders",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-          "prob": 39.0
+          "prob": 38.5
         },
         {
           "week": 14,
@@ -33556,7 +33704,7 @@
           "opp": "IND",
           "opp_nick": "Colts",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-          "prob": 43.1
+          "prob": 43.0
         },
         {
           "week": 16,
@@ -33634,13 +33782,13 @@
     }
   ],
   "studies": {
-    "generated_at": "2026-11-13T02:39:33+00:00",
+    "generated_at": "2026-11-13T13:08:23+00:00",
     "spread_sd": {
       "best_sd": 11.25,
-      "games": 2886
+      "games": 2887
     },
     "devig": {
-      "games": 3950,
+      "games": 3951,
       "shin": {
         "brier": 0.211,
         "dogs": 908,
@@ -33661,7 +33809,7 @@
         "ci": 4.0
       },
       "base": {
-        "n": 3928,
+        "n": 3929,
         "under": 50.9,
         "ci": 1.6
       },
