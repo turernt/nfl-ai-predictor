@@ -434,7 +434,7 @@
    "open_prob": 57.5,
    "open_fr": null,
    "close_prob": 58.2,
-   "closed_at": "2026-11-13T13:08+00:00",
+   "closed_at": "2026-11-13T21:59+00:00",
    "scorers": [
     {
      "id": "00-0039139",
@@ -449,12 +449,6 @@
      "prob": 40.9
     },
     {
-     "id": "00-0036875",
-     "name": "Rhamondre Stevenson",
-     "team": "NE",
-     "prob": 40.7
-    },
-    {
      "id": "00-0036963",
      "name": "Amon-Ra St. Brown",
      "team": "DET",
@@ -465,6 +459,12 @@
      "name": "Sam LaPorta",
      "team": "DET",
      "prob": 36.2
+    },
+    {
+     "id": "00-0036875",
+     "name": "Rhamondre Stevenson",
+     "team": "NE",
+     "prob": 30.8
     },
     {
      "id": "00-0033555",
@@ -485,16 +485,16 @@
      "prob": 21.5
     },
     {
-     "id": "00-0035676",
-     "name": "A.J. Brown",
-     "team": "NE",
-     "prob": 21.4
-    },
-    {
      "id": "00-0040563",
      "name": "Efton Chism III",
      "team": "NE",
      "prob": 21.1
+    },
+    {
+     "id": "00-0041395",
+     "name": "Eli Raridon",
+     "team": "NE",
+     "prob": 20.0
     },
     {
      "id": "00-0040669",
@@ -521,7 +521,7 @@
    "open_prob": 62.1,
    "open_fr": null,
    "close_prob": 62.5,
-   "closed_at": "2026-11-13T13:08+00:00",
+   "closed_at": "2026-11-13T21:59+00:00",
    "scorers": [
     {
      "id": "00-0038134",
@@ -608,13 +608,13 @@
    "open_prob": 67.1,
    "open_fr": null,
    "close_prob": 67.7,
-   "closed_at": "2026-11-13T13:08+00:00",
+   "closed_at": "2026-11-13T21:59+00:00",
    "scorers": [
     {
      "id": "00-0040583",
      "name": "Woody Marks",
      "team": "HOU",
-     "prob": 39.2
+     "prob": 39.3
     },
     {
      "id": "00-0040784",
@@ -632,13 +632,13 @@
      "id": "00-0036554",
      "name": "Nico Collins",
      "team": "HOU",
-     "prob": 26.6
+     "prob": 26.7
     },
     {
      "id": "00-0035685",
      "name": "David Montgomery",
      "team": "HOU",
-     "prob": 26.0
+     "prob": 26.1
     },
     {
      "id": "00-0040663",
@@ -650,7 +650,7 @@
      "id": "00-0038618",
      "name": "Xavier Hutchinson",
      "team": "HOU",
-     "prob": 23.5
+     "prob": 23.6
     },
     {
      "id": "00-0034981",
@@ -682,7 +682,11 @@
      "team": "CLE",
      "prob": 11.6
     }
-   ]
+   ],
+   "wind_total": {
+    "line": 40.5,
+    "wind": 20
+   }
   },
   "2026_10_MIN_GB": {
    "season": 2026,
@@ -695,7 +699,7 @@
    "open_prob": 65.1,
    "open_fr": null,
    "close_prob": 59.1,
-   "closed_at": "2026-11-13T13:08+00:00",
+   "closed_at": "2026-11-13T21:59+00:00",
    "scorers": [
     {
      "id": "00-0035700",
@@ -782,7 +786,7 @@
    "open_prob": 55.4,
    "open_fr": null,
    "close_prob": 65.1,
-   "closed_at": "2026-11-13T13:08+00:00",
+   "closed_at": "2026-11-13T21:59+00:00",
    "scorers": [
     {
      "id": "00-0036223",
@@ -869,7 +873,7 @@
    "open_prob": 52.3,
    "open_fr": null,
    "close_prob": 55.5,
-   "closed_at": "2026-11-13T13:08+00:00",
+   "closed_at": "2026-11-13T21:59+00:00",
    "scorers": [
     {
      "id": "00-0036555",
@@ -956,7 +960,7 @@
    "open_prob": 81.7,
    "open_fr": null,
    "close_prob": 79.4,
-   "closed_at": "2026-11-13T13:08+00:00",
+   "closed_at": "2026-11-13T21:59+00:00",
    "scorers": [
     {
      "id": "00-0037248",
@@ -1030,7 +1034,11 @@
      "team": "NYJ",
      "prob": 18.2
     }
-   ]
+   ],
+   "wind_total": {
+    "line": 50.5,
+    "wind": 19
+   }
   },
   "2026_10_JAX_TEN": {
    "season": 2026,
@@ -1043,7 +1051,7 @@
    "open_prob": 84.1,
    "open_fr": null,
    "close_prob": 83.4,
-   "closed_at": "2026-11-13T13:08+00:00",
+   "closed_at": "2026-11-13T21:59+00:00",
    "scorers": [
     {
      "id": "00-0040719",
@@ -1130,25 +1138,19 @@
    "open_prob": 79.9,
    "open_fr": null,
    "close_prob": 80.7,
-   "closed_at": "2026-11-13T13:08+00:00",
+   "closed_at": "2026-11-13T21:59+00:00",
    "scorers": [
     {
      "id": "00-0037840",
      "name": "Kyren Williams",
      "team": "LA",
-     "prob": 53.0
-    },
-    {
-     "id": "00-0039075",
-     "name": "Puka Nacua",
-     "team": "LA",
-     "prob": 47.0
+     "prob": 56.0
     },
     {
      "id": "00-0039738",
      "name": "Blake Corum",
      "team": "LA",
-     "prob": 33.0
+     "prob": 35.3
     },
     {
      "id": "00-0037744",
@@ -1166,19 +1168,25 @@
      "id": "00-0036244",
      "name": "Colby Parkinson",
      "team": "LA",
-     "prob": 23.3
+     "prob": 25.0
     },
     {
      "id": "00-0039074",
      "name": "Davis Allen",
      "team": "LA",
-     "prob": 19.6
+     "prob": 21.1
     },
     {
      "id": "00-0033110",
      "name": "Tyler Higbee",
      "team": "LA",
-     "prob": 18.3
+     "prob": 19.8
+    },
+    {
+     "id": "00-0040590",
+     "name": "Konata Mumpfield",
+     "team": "LA",
+     "prob": 13.5
     },
     {
      "id": "00-0037157",
@@ -1217,7 +1225,7 @@
    "open_prob": 62.1,
    "open_fr": null,
    "close_prob": 72.4,
-   "closed_at": "2026-11-13T13:08+00:00",
+   "closed_at": "2026-11-13T21:59+00:00",
    "scorers": [
     {
      "id": "00-0038543",
@@ -1304,7 +1312,7 @@
    "open_prob": 66.4,
    "open_fr": null,
    "close_prob": 65.9,
-   "closed_at": "2026-11-13T13:08+00:00",
+   "closed_at": "2026-11-13T21:59+00:00",
    "scorers": [
     {
      "id": "00-0033280",
@@ -1391,7 +1399,7 @@
    "open_prob": 62.1,
    "open_fr": null,
    "close_prob": 63.1,
-   "closed_at": "2026-11-13T13:08+00:00",
+   "closed_at": "2026-11-13T21:59+00:00",
    "scorers": [
     {
      "id": "00-0036900",
@@ -1478,7 +1486,7 @@
    "open_prob": 66.4,
    "open_fr": null,
    "close_prob": 66.3,
-   "closed_at": "2026-11-13T13:08+00:00",
+   "closed_at": "2026-11-13T21:59+00:00",
    "scorers": [
     {
      "id": "00-0032764",

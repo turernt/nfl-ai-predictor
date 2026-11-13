@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T13:08:23+00:00",
+  "generated_at": "2026-11-13T21:59:28+00:00",
   "season": 2026,
   "week": 10,
   "week_label": "Semaine 10",
@@ -7362,73 +7362,6 @@
           "scored_last": 3
         },
         {
-          "player_id": "00-0036875",
-          "name": "Rhamondre Stevenson",
-          "team": "NE",
-          "position": "RB",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/x9dlpy3i5fciajd4w9ij",
-          "prob": 40.7,
-          "season_tds": 4,
-          "status": null,
-          "games": 9,
-          "snap": 66,
-          "xtd": 0.35,
-          "depth": "RB1",
-          "form": [
-            {
-              "week": 5,
-              "opp": "LV",
-              "car": 13,
-              "tgt": 3,
-              "rec": 3,
-              "yds": 85,
-              "td": 1,
-              "snap": 71
-            },
-            {
-              "week": 6,
-              "opp": "NYJ",
-              "car": 14,
-              "tgt": 0,
-              "rec": 0,
-              "yds": 36,
-              "td": 0,
-              "snap": 60
-            },
-            {
-              "week": 7,
-              "opp": "CHI",
-              "car": 6,
-              "tgt": 5,
-              "rec": 5,
-              "yds": 115,
-              "td": 1,
-              "snap": 69
-            },
-            {
-              "week": 8,
-              "opp": "MIA",
-              "car": 19,
-              "tgt": 3,
-              "rec": 3,
-              "yds": 90,
-              "td": 0,
-              "snap": 77
-            },
-            {
-              "week": 9,
-              "opp": "GB",
-              "car": 6,
-              "tgt": 4,
-              "rec": 3,
-              "yds": 78,
-              "td": 1,
-              "snap": 60
-            }
-          ],
-          "scored_last": 3
-        },
-        {
           "player_id": "00-0036963",
           "name": "Amon-Ra St. Brown",
           "team": "DET",
@@ -7561,6 +7494,73 @@
             }
           ],
           "scored_last": 2
+        },
+        {
+          "player_id": "00-0036875",
+          "name": "Rhamondre Stevenson",
+          "team": "NE",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/x9dlpy3i5fciajd4w9ij",
+          "prob": 30.8,
+          "season_tds": 4,
+          "status": "Questionable",
+          "games": 9,
+          "snap": 66,
+          "xtd": 0.35,
+          "depth": "RB1",
+          "form": [
+            {
+              "week": 5,
+              "opp": "LV",
+              "car": 13,
+              "tgt": 3,
+              "rec": 3,
+              "yds": 85,
+              "td": 1,
+              "snap": 71
+            },
+            {
+              "week": 6,
+              "opp": "NYJ",
+              "car": 14,
+              "tgt": 0,
+              "rec": 0,
+              "yds": 36,
+              "td": 0,
+              "snap": 60
+            },
+            {
+              "week": 7,
+              "opp": "CHI",
+              "car": 6,
+              "tgt": 5,
+              "rec": 5,
+              "yds": 115,
+              "td": 1,
+              "snap": 69
+            },
+            {
+              "week": 8,
+              "opp": "MIA",
+              "car": 19,
+              "tgt": 3,
+              "rec": 3,
+              "yds": 90,
+              "td": 0,
+              "snap": 77
+            },
+            {
+              "week": 9,
+              "opp": "GB",
+              "car": 6,
+              "tgt": 4,
+              "rec": 3,
+              "yds": 78,
+              "td": 1,
+              "snap": 60
+            }
+          ],
+          "scored_last": 3
         },
         {
           "player_id": "00-0033555",
@@ -7764,53 +7764,6 @@
           "scored_last": 3
         },
         {
-          "player_id": "00-0035676",
-          "name": "A.J. Brown",
-          "team": "NE",
-          "position": "WR",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qfhvjyssf0lwsh0kienp",
-          "prob": 21.4,
-          "season_tds": 0,
-          "status": null,
-          "games": 3,
-          "snap": 82,
-          "xtd": 0.27,
-          "depth": "WR1",
-          "form": [
-            {
-              "week": 1,
-              "opp": "SEA",
-              "car": 0,
-              "tgt": 4,
-              "rec": 3,
-              "yds": 26,
-              "td": 0,
-              "snap": 44
-            },
-            {
-              "week": 6,
-              "opp": "NYJ",
-              "car": 0,
-              "tgt": 10,
-              "rec": 3,
-              "yds": 27,
-              "td": 0,
-              "snap": 76
-            },
-            {
-              "week": 7,
-              "opp": "CHI",
-              "car": 0,
-              "tgt": 6,
-              "rec": 3,
-              "yds": 48,
-              "td": 0,
-              "snap": 91
-            }
-          ],
-          "scored_last": 0
-        },
-        {
           "player_id": "00-0040563",
           "name": "Efton Chism III",
           "team": "NE",
@@ -7873,6 +7826,73 @@
               "yds": 49,
               "td": 1,
               "snap": 51
+            }
+          ],
+          "scored_last": 1
+        },
+        {
+          "player_id": "00-0041395",
+          "name": "Eli Raridon",
+          "team": "NE",
+          "position": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/flj53cmijulfjxegejyc",
+          "prob": 20.0,
+          "season_tds": 2,
+          "status": null,
+          "games": 8,
+          "snap": 63,
+          "xtd": 0.27,
+          "depth": "TE2",
+          "form": [
+            {
+              "week": 5,
+              "opp": "LV",
+              "car": 0,
+              "tgt": 5,
+              "rec": 5,
+              "yds": 57,
+              "td": 0,
+              "snap": 57
+            },
+            {
+              "week": 6,
+              "opp": "NYJ",
+              "car": 0,
+              "tgt": 3,
+              "rec": 1,
+              "yds": 11,
+              "td": 0,
+              "snap": 57
+            },
+            {
+              "week": 7,
+              "opp": "CHI",
+              "car": 0,
+              "tgt": 4,
+              "rec": 3,
+              "yds": 56,
+              "td": 1,
+              "snap": 54
+            },
+            {
+              "week": 8,
+              "opp": "MIA",
+              "car": 0,
+              "tgt": 4,
+              "rec": 1,
+              "yds": 5,
+              "td": 0,
+              "snap": 92
+            },
+            {
+              "week": 9,
+              "opp": "GB",
+              "car": 0,
+              "tgt": 6,
+              "rec": 3,
+              "yds": 52,
+              "td": 0,
+              "snap": 57
             }
           ],
           "scored_last": 1
@@ -8052,6 +8072,48 @@
             "position": "CB",
             "status": "Out",
             "injury": "genou"
+          },
+          {
+            "name": "Rhamondre Stevenson",
+            "position": "RB",
+            "status": "Questionable",
+            "injury": "genou"
+          },
+          {
+            "name": "A.J. Brown",
+            "position": "WR",
+            "status": "Questionable",
+            "injury": "cheville"
+          },
+          {
+            "name": "Cameron Latu",
+            "position": "TE",
+            "status": "Questionable",
+            "injury": "dos"
+          },
+          {
+            "name": "Walter Rouse",
+            "position": "T",
+            "status": "Questionable",
+            "injury": "commotion"
+          },
+          {
+            "name": "Greg Van Roten",
+            "position": "G",
+            "status": "Questionable",
+            "injury": "ischio-jambiers"
+          },
+          {
+            "name": "Charles Woods",
+            "position": "CB",
+            "status": "Questionable",
+            "injury": "ischio-jambiers"
+          },
+          {
+            "name": "Kevin Byard",
+            "position": "S",
+            "status": "Questionable",
+            "injury": "thorax"
           }
         ]
       },
@@ -8130,7 +8192,7 @@
             "name": "Rhamondre Stevenson",
             "pos": "RB",
             "rank": 1,
-            "status": null,
+            "status": "Questionable",
             "available": true
           },
           {
@@ -8154,7 +8216,7 @@
             "name": "A.J. Brown",
             "pos": "WR",
             "rank": 1,
-            "status": null,
+            "status": "Questionable",
             "available": true
           },
           {
@@ -9340,7 +9402,10 @@
       },
       "weather": {
         "roof": "retractable",
-        "error": true
+        "temp_c": 12,
+        "wind_kmh": 4,
+        "precip_prob": 0,
+        "windy": false
       },
       "round": null,
       "lineup": {
@@ -9812,7 +9877,7 @@
           "team": "HOU",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ksk0fjj4bl9jvfh2s0rm",
-          "prob": 39.2,
+          "prob": 39.3,
           "season_tds": 2,
           "status": null,
           "games": 8,
@@ -10013,7 +10078,7 @@
           "team": "HOU",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pyevyueqikk1vbkh9ju1",
-          "prob": 26.6,
+          "prob": 26.7,
           "season_tds": 4,
           "status": null,
           "games": 6,
@@ -10080,7 +10145,7 @@
           "team": "HOU",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/npagyuku5zvrnu9q3jvn",
-          "prob": 26.0,
+          "prob": 26.1,
           "season_tds": 3,
           "status": null,
           "games": 5,
@@ -10214,7 +10279,7 @@
           "team": "HOU",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ozdgoi4ync5i38s1fpb7",
-          "prob": 23.5,
+          "prob": 23.6,
           "season_tds": 2,
           "status": null,
           "games": 8,
@@ -10608,7 +10673,10 @@
       },
       "weather": {
         "roof": "open",
-        "error": true
+        "temp_c": 8,
+        "wind_kmh": 20,
+        "precip_prob": 42,
+        "windy": true
       },
       "round": null,
       "lineup": {
@@ -10733,7 +10801,7 @@
       "flags": {
         "value": false,
         "key_out": 0,
-        "windy": false,
+        "windy": true,
         "dome": false
       },
       "line_history": [
@@ -11856,7 +11924,10 @@
       },
       "weather": {
         "roof": "open",
-        "error": true
+        "temp_c": 5,
+        "wind_kmh": 5,
+        "precip_prob": 0,
+        "windy": false
       },
       "round": null,
       "lineup": {
@@ -13116,7 +13187,10 @@
       },
       "weather": {
         "roof": "retractable",
-        "error": true
+        "temp_c": 9,
+        "wind_kmh": 7,
+        "precip_prob": 0,
+        "windy": false
       },
       "round": null,
       "lineup": {
@@ -15613,7 +15687,10 @@
       },
       "weather": {
         "roof": "open",
-        "error": true
+        "temp_c": 9,
+        "wind_kmh": 19,
+        "precip_prob": 0,
+        "windy": true
       },
       "round": null,
       "lineup": {
@@ -15738,7 +15815,7 @@
       "flags": {
         "value": false,
         "key_out": 0,
-        "windy": false,
+        "windy": true,
         "dome": false
       },
       "line_history": [
@@ -16891,7 +16968,10 @@
       },
       "weather": {
         "roof": "open",
-        "error": true
+        "temp_c": 11,
+        "wind_kmh": 8,
+        "precip_prob": 0,
+        "windy": false
       },
       "round": null,
       "lineup": {
@@ -17363,7 +17443,7 @@
           "team": "LA",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xti3pek6rmojqchakxpy",
-          "prob": 53.0,
+          "prob": 56.0,
           "season_tds": 7,
           "status": null,
           "games": 9,
@@ -17425,79 +17505,12 @@
           "scored_last": 3
         },
         {
-          "player_id": "00-0039075",
-          "name": "Puka Nacua",
-          "team": "LA",
-          "position": "WR",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ipy6qw7hdygdfc8k86ba",
-          "prob": 47.0,
-          "season_tds": 5,
-          "status": null,
-          "games": 7,
-          "snap": 91,
-          "xtd": 0.66,
-          "depth": "WR5",
-          "form": [
-            {
-              "week": 5,
-              "opp": "BUF",
-              "car": 2,
-              "tgt": 24,
-              "rec": 17,
-              "yds": 147,
-              "td": 1,
-              "snap": 85
-            },
-            {
-              "week": 6,
-              "opp": "ARI",
-              "car": 0,
-              "tgt": 7,
-              "rec": 6,
-              "yds": 80,
-              "td": 0,
-              "snap": 90
-            },
-            {
-              "week": 7,
-              "opp": "LV",
-              "car": 2,
-              "tgt": 10,
-              "rec": 8,
-              "yds": 78,
-              "td": 1,
-              "snap": 85
-            },
-            {
-              "week": 8,
-              "opp": "LAC",
-              "car": 0,
-              "tgt": 12,
-              "rec": 11,
-              "yds": 80,
-              "td": 1,
-              "snap": 96
-            },
-            {
-              "week": 9,
-              "opp": "WAS",
-              "car": 2,
-              "tgt": 19,
-              "rec": 14,
-              "yds": 170,
-              "td": 1,
-              "snap": 93
-            }
-          ],
-          "scored_last": 4
-        },
-        {
           "player_id": "00-0039738",
           "name": "Blake Corum",
           "team": "LA",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/axzqbqjkrbwfzodwwakq",
-          "prob": 33.0,
+          "prob": 35.3,
           "season_tds": 5,
           "status": null,
           "games": 9,
@@ -17698,7 +17711,7 @@
           "team": "LA",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qsyrgtfjj06wryahnxc9",
-          "prob": 23.3,
+          "prob": 25.0,
           "season_tds": 1,
           "status": null,
           "games": 7,
@@ -17765,7 +17778,7 @@
           "team": "LA",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/iweydtcrfchsl3mt6jtd",
-          "prob": 19.6,
+          "prob": 21.1,
           "season_tds": 2,
           "status": null,
           "games": 8,
@@ -17832,7 +17845,7 @@
           "team": "LA",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/x1d4osiefibd04df6gow",
-          "prob": 18.3,
+          "prob": 19.8,
           "season_tds": 1,
           "status": null,
           "games": 8,
@@ -17889,6 +17902,73 @@
               "yds": 13,
               "td": 0,
               "snap": 80
+            }
+          ],
+          "scored_last": 0
+        },
+        {
+          "player_id": "00-0040590",
+          "name": "Konata Mumpfield",
+          "team": "LA",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cehkowkvb4aujslmppbj",
+          "prob": 13.5,
+          "season_tds": 1,
+          "status": null,
+          "games": 8,
+          "snap": 46,
+          "xtd": 0.14,
+          "depth": "WR1",
+          "form": [
+            {
+              "week": 4,
+              "opp": "PHI",
+              "car": 0,
+              "tgt": 3,
+              "rec": 1,
+              "yds": 7,
+              "td": 0,
+              "snap": 27
+            },
+            {
+              "week": 6,
+              "opp": "ARI",
+              "car": 0,
+              "tgt": 3,
+              "rec": 2,
+              "yds": 15,
+              "td": 0,
+              "snap": 47
+            },
+            {
+              "week": 7,
+              "opp": "LV",
+              "car": 0,
+              "tgt": 2,
+              "rec": 1,
+              "yds": 15,
+              "td": 0,
+              "snap": 43
+            },
+            {
+              "week": 8,
+              "opp": "LAC",
+              "car": 0,
+              "tgt": 2,
+              "rec": 0,
+              "yds": 0,
+              "td": 0,
+              "snap": 50
+            },
+            {
+              "week": 9,
+              "opp": "WAS",
+              "car": 0,
+              "tgt": 2,
+              "rec": 2,
+              "yds": 20,
+              "td": 0,
+              "snap": 44
             }
           ],
           "scored_last": 0
@@ -18119,7 +18199,10 @@
       },
       "weather": {
         "roof": "retractable",
-        "error": true
+        "temp_c": 22,
+        "wind_kmh": 5,
+        "precip_prob": 0,
+        "windy": false
       },
       "round": null,
       "lineup": {
@@ -20644,9 +20727,9 @@
       },
       "weather": {
         "roof": "retractable",
-        "temp_c": 10,
-        "wind_kmh": 19,
-        "precip_prob": 67,
+        "temp_c": 11,
+        "wind_kmh": 16,
+        "precip_prob": 59,
         "windy": false
       },
       "round": null,
@@ -21926,7 +22009,7 @@
       "weather": {
         "roof": "open",
         "temp_c": 8,
-        "wind_kmh": 5,
+        "wind_kmh": 6,
         "precip_prob": 0,
         "windy": false
       },
@@ -23206,8 +23289,8 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 9,
-        "wind_kmh": 7,
+        "temp_c": 8,
+        "wind_kmh": 8,
         "precip_prob": 0,
         "windy": false
       },
@@ -24003,7 +24086,7 @@
         "team": "LA",
         "position": "RB",
         "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xti3pek6rmojqchakxpy",
-        "prob": 53.0,
+        "prob": 56.0,
         "season_tds": 7,
         "status": null,
         "games": 9,
@@ -24065,7 +24148,7 @@
         "scored_last": 3,
         "game_id": "2026_10_LA_ARI",
         "opponent": "ARI",
-        "fair_odds": 1.89,
+        "fair_odds": 1.79,
         "hist": {
           "label": "50 % et plus",
           "min": 50,
@@ -24383,83 +24466,6 @@
         }
       },
       {
-        "player_id": "00-0039075",
-        "name": "Puka Nacua",
-        "team": "LA",
-        "position": "WR",
-        "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ipy6qw7hdygdfc8k86ba",
-        "prob": 47.0,
-        "season_tds": 5,
-        "status": null,
-        "games": 7,
-        "snap": 91,
-        "xtd": 0.66,
-        "depth": "WR5",
-        "form": [
-          {
-            "week": 5,
-            "opp": "BUF",
-            "car": 2,
-            "tgt": 24,
-            "rec": 17,
-            "yds": 147,
-            "td": 1,
-            "snap": 85
-          },
-          {
-            "week": 6,
-            "opp": "ARI",
-            "car": 0,
-            "tgt": 7,
-            "rec": 6,
-            "yds": 80,
-            "td": 0,
-            "snap": 90
-          },
-          {
-            "week": 7,
-            "opp": "LV",
-            "car": 2,
-            "tgt": 10,
-            "rec": 8,
-            "yds": 78,
-            "td": 1,
-            "snap": 85
-          },
-          {
-            "week": 8,
-            "opp": "LAC",
-            "car": 0,
-            "tgt": 12,
-            "rec": 11,
-            "yds": 80,
-            "td": 1,
-            "snap": 96
-          },
-          {
-            "week": 9,
-            "opp": "WAS",
-            "car": 2,
-            "tgt": 19,
-            "rec": 14,
-            "yds": 170,
-            "td": 1,
-            "snap": 93
-          }
-        ],
-        "scored_last": 4,
-        "game_id": "2026_10_LA_ARI",
-        "opponent": "ARI",
-        "fair_odds": 2.13,
-        "hist": {
-          "label": "40 à 50 %",
-          "min": 40,
-          "n": 112,
-          "predicted": 44.8,
-          "actual": 43.8
-        }
-      },
-      {
         "player_id": "00-0036900",
         "name": "Ja'Marr Chase",
         "team": "CIN",
@@ -24535,6 +24541,83 @@
           "predicted": 44.8,
           "actual": 43.8
         }
+      },
+      {
+        "player_id": "00-0032764",
+        "name": "Derrick Henry",
+        "team": "BAL",
+        "position": "RB",
+        "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tm79x0iknqg6hms3ypyt",
+        "prob": 44.8,
+        "season_tds": 9,
+        "status": null,
+        "games": 9,
+        "snap": 52,
+        "xtd": 0.87,
+        "depth": "RB1",
+        "form": [
+          {
+            "week": 5,
+            "opp": "ATL",
+            "car": 24,
+            "tgt": 2,
+            "rec": 1,
+            "yds": 120,
+            "td": 1,
+            "snap": 55
+          },
+          {
+            "week": 6,
+            "opp": "CLE",
+            "car": 17,
+            "tgt": 1,
+            "rec": 1,
+            "yds": 60,
+            "td": 0,
+            "snap": 58
+          },
+          {
+            "week": 7,
+            "opp": "CIN",
+            "car": 17,
+            "tgt": 2,
+            "rec": 1,
+            "yds": 49,
+            "td": 0,
+            "snap": 51
+          },
+          {
+            "week": 8,
+            "opp": "BUF",
+            "car": 11,
+            "tgt": 2,
+            "rec": 2,
+            "yds": 60,
+            "td": 1,
+            "snap": 45
+          },
+          {
+            "week": 9,
+            "opp": "JAX",
+            "car": 17,
+            "tgt": 0,
+            "rec": 0,
+            "yds": 57,
+            "td": 0,
+            "snap": 50
+          }
+        ],
+        "scored_last": 2,
+        "game_id": "2026_10_LAC_BAL",
+        "opponent": "LAC",
+        "fair_odds": 2.23,
+        "hist": {
+          "label": "40 à 50 %",
+          "min": 40,
+          "n": 112,
+          "predicted": 44.8,
+          "actual": 43.8
+        }
       }
     ],
     "reliability": [
@@ -24581,9 +24664,9 @@
     "credits": "476"
   },
   "sources": {
-    "injuries": 9,
+    "injuries": 18,
     "lineups": 32,
-    "weather_errors": 7
+    "weather_errors": 0
   },
   "archive_ids": [
     "2026_10_BUF_NYJ",
@@ -24953,7 +25036,7 @@
       "team": "LA",
       "position": "RB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xti3pek6rmojqchakxpy",
-      "prob": 53.0,
+      "prob": 56.0,
       "season_tds": 7,
       "status": null,
       "games": 9,
@@ -25293,75 +25376,6 @@
       "opponent": "TEN"
     },
     {
-      "player_id": "00-0039075",
-      "name": "Puka Nacua",
-      "team": "LA",
-      "position": "WR",
-      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ipy6qw7hdygdfc8k86ba",
-      "prob": 47.0,
-      "season_tds": 5,
-      "status": null,
-      "games": 7,
-      "snap": 91,
-      "xtd": 0.66,
-      "depth": "WR5",
-      "form": [
-        {
-          "week": 5,
-          "opp": "BUF",
-          "car": 2,
-          "tgt": 24,
-          "rec": 17,
-          "yds": 147,
-          "td": 1,
-          "snap": 85
-        },
-        {
-          "week": 6,
-          "opp": "ARI",
-          "car": 0,
-          "tgt": 7,
-          "rec": 6,
-          "yds": 80,
-          "td": 0,
-          "snap": 90
-        },
-        {
-          "week": 7,
-          "opp": "LV",
-          "car": 2,
-          "tgt": 10,
-          "rec": 8,
-          "yds": 78,
-          "td": 1,
-          "snap": 85
-        },
-        {
-          "week": 8,
-          "opp": "LAC",
-          "car": 0,
-          "tgt": 12,
-          "rec": 11,
-          "yds": 80,
-          "td": 1,
-          "snap": 96
-        },
-        {
-          "week": 9,
-          "opp": "WAS",
-          "car": 2,
-          "tgt": 19,
-          "rec": 14,
-          "yds": 170,
-          "td": 1,
-          "snap": 93
-        }
-      ],
-      "scored_last": 4,
-      "game_id": "2026_10_LA_ARI",
-      "opponent": "ARI"
-    },
-    {
       "player_id": "00-0036900",
       "name": "Ja'Marr Chase",
       "team": "CIN",
@@ -25429,6 +25443,75 @@
       "scored_last": 4,
       "game_id": "2026_10_PIT_CIN",
       "opponent": "PIT"
+    },
+    {
+      "player_id": "00-0032764",
+      "name": "Derrick Henry",
+      "team": "BAL",
+      "position": "RB",
+      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tm79x0iknqg6hms3ypyt",
+      "prob": 44.8,
+      "season_tds": 9,
+      "status": null,
+      "games": 9,
+      "snap": 52,
+      "xtd": 0.87,
+      "depth": "RB1",
+      "form": [
+        {
+          "week": 5,
+          "opp": "ATL",
+          "car": 24,
+          "tgt": 2,
+          "rec": 1,
+          "yds": 120,
+          "td": 1,
+          "snap": 55
+        },
+        {
+          "week": 6,
+          "opp": "CLE",
+          "car": 17,
+          "tgt": 1,
+          "rec": 1,
+          "yds": 60,
+          "td": 0,
+          "snap": 58
+        },
+        {
+          "week": 7,
+          "opp": "CIN",
+          "car": 17,
+          "tgt": 2,
+          "rec": 1,
+          "yds": 49,
+          "td": 0,
+          "snap": 51
+        },
+        {
+          "week": 8,
+          "opp": "BUF",
+          "car": 11,
+          "tgt": 2,
+          "rec": 2,
+          "yds": 60,
+          "td": 1,
+          "snap": 45
+        },
+        {
+          "week": 9,
+          "opp": "JAX",
+          "car": 17,
+          "tgt": 0,
+          "rec": 0,
+          "yds": 57,
+          "td": 0,
+          "snap": 50
+        }
+      ],
+      "scored_last": 2,
+      "game_id": "2026_10_LAC_BAL",
+      "opponent": "LAC"
     }
   ],
   "scorer_model": {
@@ -33782,7 +33865,7 @@
     }
   ],
   "studies": {
-    "generated_at": "2026-11-13T13:08:23+00:00",
+    "generated_at": "2026-11-13T21:59:28+00:00",
     "spread_sd": {
       "best_sd": 11.25,
       "games": 2887
@@ -33836,15 +33919,15 @@
     },
     "wind_forecast": {
       "since": 2022,
-      "games": 788,
+      "games": 797,
       "windy": {
-        "n": 98,
-        "under": 56.1,
+        "n": 100,
+        "under": 55.0,
         "ci": 9.8
       },
       "calm": {
-        "n": 683,
-        "under": 50.4,
+        "n": 690,
+        "under": 50.3,
         "ci": 3.7
       },
       "validated": false
