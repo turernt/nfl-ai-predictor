@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T00:05:55+00:00",
+  "generated_at": "2026-11-13T02:39:33+00:00",
   "season": 2026,
   "week": 10,
   "week_label": "Semaine 10",
@@ -6440,58 +6440,6 @@
           "snap": 63,
           "xtd": 0.35,
           "depth": "RB2",
-          "form": [
-            {
-              "week": 1,
-              "opp": "DAL",
-              "car": 6,
-              "tgt": 4,
-              "rec": 4,
-              "yds": 38,
-              "td": 1,
-              "snap": 36
-            },
-            {
-              "week": 2,
-              "opp": "LA",
-              "car": 3,
-              "tgt": 1,
-              "rec": 0,
-              "yds": 9,
-              "td": 0,
-              "snap": 26
-            },
-            {
-              "week": 6,
-              "opp": "NO",
-              "car": 4,
-              "tgt": 1,
-              "rec": 1,
-              "yds": 33,
-              "td": 0,
-              "snap": 40
-            },
-            {
-              "week": 7,
-              "opp": "HOU",
-              "car": 5,
-              "tgt": 3,
-              "rec": 3,
-              "yds": 55,
-              "td": 1,
-              "snap": 29
-            },
-            {
-              "week": 9,
-              "opp": "PHI",
-              "car": 21,
-              "tgt": 3,
-              "rec": 2,
-              "yds": 39,
-              "td": 0,
-              "snap": 93
-            }
-          ],
           "scored_last": 2
         },
         {
@@ -6507,58 +6455,6 @@
           "snap": 55,
           "xtd": 0.45,
           "depth": "RB1",
-          "form": [
-            {
-              "week": 3,
-              "opp": "SEA",
-              "car": 8,
-              "tgt": 1,
-              "rec": 1,
-              "yds": 41,
-              "td": 1,
-              "snap": 43
-            },
-            {
-              "week": 5,
-              "opp": "NYG",
-              "car": 7,
-              "tgt": 1,
-              "rec": 1,
-              "yds": 20,
-              "td": 0,
-              "snap": 60
-            },
-            {
-              "week": 6,
-              "opp": "SF",
-              "car": 7,
-              "tgt": 5,
-              "rec": 4,
-              "yds": 57,
-              "td": 1,
-              "snap": 69
-            },
-            {
-              "week": 8,
-              "opp": "PHI",
-              "car": 11,
-              "tgt": 3,
-              "rec": 2,
-              "yds": 60,
-              "td": 1,
-              "snap": 47
-            },
-            {
-              "week": 9,
-              "opp": "LA",
-              "car": 7,
-              "tgt": 3,
-              "rec": 2,
-              "yds": 69,
-              "td": 0,
-              "snap": 56
-            }
-          ],
           "scored_last": 3
         },
         {
@@ -6574,58 +6470,6 @@
           "snap": 79,
           "xtd": 0.35,
           "depth": "TE1",
-          "form": [
-            {
-              "week": 4,
-              "opp": "ARI",
-              "car": 0,
-              "tgt": 12,
-              "rec": 7,
-              "yds": 66,
-              "td": 0,
-              "snap": 66
-            },
-            {
-              "week": 5,
-              "opp": "WAS",
-              "car": 0,
-              "tgt": 13,
-              "rec": 11,
-              "yds": 94,
-              "td": 2,
-              "snap": 80
-            },
-            {
-              "week": 6,
-              "opp": "NO",
-              "car": 0,
-              "tgt": 11,
-              "rec": 6,
-              "yds": 99,
-              "td": 1,
-              "snap": 91
-            },
-            {
-              "week": 7,
-              "opp": "HOU",
-              "car": 0,
-              "tgt": 4,
-              "rec": 2,
-              "yds": 12,
-              "td": 0,
-              "snap": 86
-            },
-            {
-              "week": 9,
-              "opp": "PHI",
-              "car": 0,
-              "tgt": 6,
-              "rec": 5,
-              "yds": 53,
-              "td": 1,
-              "snap": 75
-            }
-          ],
           "scored_last": 3
         },
         {
@@ -6641,58 +6485,6 @@
           "snap": 61,
           "xtd": 0.3,
           "depth": "RB1",
-          "form": [
-            {
-              "week": 2,
-              "opp": "LA",
-              "car": 12,
-              "tgt": 4,
-              "rec": 4,
-              "yds": 55,
-              "td": 0,
-              "snap": 59
-            },
-            {
-              "week": 3,
-              "opp": "TEN",
-              "car": 20,
-              "tgt": 4,
-              "rec": 3,
-              "yds": 100,
-              "td": 0,
-              "snap": 77
-            },
-            {
-              "week": 4,
-              "opp": "ARI",
-              "car": 18,
-              "tgt": 1,
-              "rec": 1,
-              "yds": 66,
-              "td": 0,
-              "snap": 64
-            },
-            {
-              "week": 5,
-              "opp": "WAS",
-              "car": 13,
-              "tgt": 3,
-              "rec": 2,
-              "yds": 71,
-              "td": 0,
-              "snap": 63
-            },
-            {
-              "week": 7,
-              "opp": "HOU",
-              "car": 17,
-              "tgt": 1,
-              "rec": 1,
-              "yds": 121,
-              "td": 1,
-              "snap": 56
-            }
-          ],
           "scored_last": 1
         },
         {
@@ -6708,58 +6500,6 @@
           "snap": 79,
           "xtd": 0.37,
           "depth": "WR1",
-          "form": [
-            {
-              "week": 4,
-              "opp": "ARI",
-              "car": 0,
-              "tgt": 7,
-              "rec": 6,
-              "yds": 112,
-              "td": 1,
-              "snap": 76
-            },
-            {
-              "week": 5,
-              "opp": "WAS",
-              "car": 0,
-              "tgt": 20,
-              "rec": 11,
-              "yds": 121,
-              "td": 1,
-              "snap": 90
-            },
-            {
-              "week": 6,
-              "opp": "NO",
-              "car": 0,
-              "tgt": 15,
-              "rec": 12,
-              "yds": 165,
-              "td": 0,
-              "snap": 86
-            },
-            {
-              "week": 7,
-              "opp": "HOU",
-              "car": 0,
-              "tgt": 9,
-              "rec": 7,
-              "yds": 111,
-              "td": 0,
-              "snap": 73
-            },
-            {
-              "week": 9,
-              "opp": "PHI",
-              "car": 0,
-              "tgt": 8,
-              "rec": 5,
-              "yds": 43,
-              "td": 0,
-              "snap": 79
-            }
-          ],
           "scored_last": 2
         },
         {
@@ -6775,58 +6515,6 @@
           "snap": 62,
           "xtd": 0.32,
           "depth": "WR1",
-          "form": [
-            {
-              "week": 3,
-              "opp": "SEA",
-              "car": 0,
-              "tgt": 7,
-              "rec": 4,
-              "yds": 33,
-              "td": 0,
-              "snap": 59
-            },
-            {
-              "week": 4,
-              "opp": "IND",
-              "car": 0,
-              "tgt": 9,
-              "rec": 5,
-              "yds": 35,
-              "td": 0,
-              "snap": 66
-            },
-            {
-              "week": 6,
-              "opp": "SF",
-              "car": 0,
-              "tgt": 7,
-              "rec": 6,
-              "yds": 44,
-              "td": 1,
-              "snap": 61
-            },
-            {
-              "week": 8,
-              "opp": "PHI",
-              "car": 0,
-              "tgt": 6,
-              "rec": 3,
-              "yds": 38,
-              "td": 1,
-              "snap": 65
-            },
-            {
-              "week": 9,
-              "opp": "LA",
-              "car": 0,
-              "tgt": 5,
-              "rec": 3,
-              "yds": 51,
-              "td": 0,
-              "snap": 61
-            }
-          ],
           "scored_last": 2
         },
         {
@@ -6842,58 +6530,6 @@
           "snap": 80,
           "xtd": 0.16,
           "depth": "WR2",
-          "form": [
-            {
-              "week": 4,
-              "opp": "ARI",
-              "car": 0,
-              "tgt": 3,
-              "rec": 2,
-              "yds": 52,
-              "td": 1,
-              "snap": 66
-            },
-            {
-              "week": 5,
-              "opp": "WAS",
-              "car": 0,
-              "tgt": 2,
-              "rec": 2,
-              "yds": 20,
-              "td": 0,
-              "snap": 72
-            },
-            {
-              "week": 6,
-              "opp": "NO",
-              "car": 0,
-              "tgt": 8,
-              "rec": 2,
-              "yds": 19,
-              "td": 0,
-              "snap": 94
-            },
-            {
-              "week": 7,
-              "opp": "HOU",
-              "car": 0,
-              "tgt": 5,
-              "rec": 4,
-              "yds": 83,
-              "td": 0,
-              "snap": 74
-            },
-            {
-              "week": 9,
-              "opp": "PHI",
-              "car": 0,
-              "tgt": 5,
-              "rec": 3,
-              "yds": 40,
-              "td": 0,
-              "snap": 84
-            }
-          ],
           "scored_last": 1
         },
         {
@@ -6909,58 +6545,6 @@
           "snap": 61,
           "xtd": 0.18,
           "depth": "WR3",
-          "form": [
-            {
-              "week": 3,
-              "opp": "SEA",
-              "car": 0,
-              "tgt": 2,
-              "rec": 2,
-              "yds": 13,
-              "td": 1,
-              "snap": 36
-            },
-            {
-              "week": 4,
-              "opp": "IND",
-              "car": 0,
-              "tgt": 3,
-              "rec": 1,
-              "yds": 47,
-              "td": 1,
-              "snap": 59
-            },
-            {
-              "week": 5,
-              "opp": "NYG",
-              "car": 0,
-              "tgt": 5,
-              "rec": 2,
-              "yds": 26,
-              "td": 0,
-              "snap": 73
-            },
-            {
-              "week": 6,
-              "opp": "SF",
-              "car": 0,
-              "tgt": 6,
-              "rec": 4,
-              "yds": 66,
-              "td": 0,
-              "snap": 55
-            },
-            {
-              "week": 8,
-              "opp": "PHI",
-              "car": 0,
-              "tgt": 5,
-              "rec": 3,
-              "yds": 81,
-              "td": 0,
-              "snap": 67
-            }
-          ],
           "scored_last": 2
         },
         {
@@ -6976,58 +6560,6 @@
           "snap": 73,
           "xtd": 0.17,
           "depth": "TE1",
-          "form": [
-            {
-              "week": 4,
-              "opp": "IND",
-              "car": 0,
-              "tgt": 4,
-              "rec": 2,
-              "yds": 5,
-              "td": 0,
-              "snap": 58
-            },
-            {
-              "week": 5,
-              "opp": "NYG",
-              "car": 0,
-              "tgt": 6,
-              "rec": 4,
-              "yds": 60,
-              "td": 0,
-              "snap": 71
-            },
-            {
-              "week": 6,
-              "opp": "SF",
-              "car": 0,
-              "tgt": 7,
-              "rec": 7,
-              "yds": 69,
-              "td": 0,
-              "snap": 76
-            },
-            {
-              "week": 8,
-              "opp": "PHI",
-              "car": 0,
-              "tgt": 4,
-              "rec": 2,
-              "yds": 32,
-              "td": 0,
-              "snap": 77
-            },
-            {
-              "week": 9,
-              "opp": "LA",
-              "car": 0,
-              "tgt": 7,
-              "rec": 6,
-              "yds": 57,
-              "td": 0,
-              "snap": 74
-            }
-          ],
           "scored_last": 0
         },
         {
@@ -7043,58 +6575,6 @@
           "snap": 75,
           "xtd": 0.11,
           "depth": "WR2",
-          "form": [
-            {
-              "week": 4,
-              "opp": "IND",
-              "car": 0,
-              "tgt": 8,
-              "rec": 3,
-              "yds": 21,
-              "td": 0,
-              "snap": 69
-            },
-            {
-              "week": 5,
-              "opp": "NYG",
-              "car": 0,
-              "tgt": 3,
-              "rec": 3,
-              "yds": 31,
-              "td": 0,
-              "snap": 68
-            },
-            {
-              "week": 6,
-              "opp": "SF",
-              "car": 0,
-              "tgt": 4,
-              "rec": 3,
-              "yds": 50,
-              "td": 0,
-              "snap": 67
-            },
-            {
-              "week": 8,
-              "opp": "PHI",
-              "car": 0,
-              "tgt": 7,
-              "rec": 5,
-              "yds": 54,
-              "td": 0,
-              "snap": 83
-            },
-            {
-              "week": 9,
-              "opp": "LA",
-              "car": 0,
-              "tgt": 6,
-              "rec": 3,
-              "yds": 25,
-              "td": 0,
-              "snap": 84
-            }
-          ],
           "scored_last": 0
         },
         {
@@ -7110,58 +6590,6 @@
           "snap": 98,
           "xtd": 0.07,
           "depth": "QB1",
-          "form": [
-            {
-              "week": 2,
-              "opp": "DAL",
-              "car": 7,
-              "tgt": 0,
-              "rec": 0,
-              "yds": 69,
-              "td": 0,
-              "snap": 55
-            },
-            {
-              "week": 5,
-              "opp": "NYG",
-              "car": 9,
-              "tgt": 0,
-              "rec": 0,
-              "yds": 103,
-              "td": 2,
-              "snap": 100
-            },
-            {
-              "week": 6,
-              "opp": "SF",
-              "car": 4,
-              "tgt": 0,
-              "rec": 0,
-              "yds": 10,
-              "td": 0,
-              "snap": 100
-            },
-            {
-              "week": 8,
-              "opp": "PHI",
-              "car": 2,
-              "tgt": 0,
-              "rec": 0,
-              "yds": 23,
-              "td": 0,
-              "snap": 100
-            },
-            {
-              "week": 9,
-              "opp": "LA",
-              "car": 4,
-              "tgt": 0,
-              "rec": 0,
-              "yds": 16,
-              "td": 0,
-              "snap": 100
-            }
-          ],
           "scored_last": 1
         },
         {
@@ -7177,58 +6605,6 @@
           "snap": 53,
           "xtd": 0.09,
           "depth": "WR3",
-          "form": [
-            {
-              "week": 4,
-              "opp": "ARI",
-              "car": 0,
-              "tgt": 2,
-              "rec": 0,
-              "yds": 0,
-              "td": 0,
-              "snap": 55
-            },
-            {
-              "week": 5,
-              "opp": "WAS",
-              "car": 0,
-              "tgt": 7,
-              "rec": 2,
-              "yds": 14,
-              "td": 0,
-              "snap": 65
-            },
-            {
-              "week": 6,
-              "opp": "NO",
-              "car": 1,
-              "tgt": 2,
-              "rec": 0,
-              "yds": 20,
-              "td": 0,
-              "snap": 36
-            },
-            {
-              "week": 7,
-              "opp": "HOU",
-              "car": 1,
-              "tgt": 3,
-              "rec": 1,
-              "yds": 7,
-              "td": 0,
-              "snap": 55
-            },
-            {
-              "week": 9,
-              "opp": "PHI",
-              "car": 1,
-              "tgt": 4,
-              "rec": 3,
-              "yds": 50,
-              "td": 0,
-              "snap": 55
-            }
-          ],
           "scored_last": 0
         }
       ],
@@ -7380,39 +6756,13 @@
           }
         ]
       },
-      "status": "upcoming",
+      "status": "live",
       "flags": {
         "value": false,
         "key_out": 1,
         "windy": false,
         "dome": false
-      },
-      "line_history": [
-        {
-          "date": "2026-11-10",
-          "prob_home": 55.5,
-          "spread": -2.5,
-          "books": 28
-        },
-        {
-          "date": "2026-11-11",
-          "prob_home": 55.5,
-          "spread": -2.5,
-          "books": 28
-        },
-        {
-          "date": "2026-11-12",
-          "prob_home": 55.1,
-          "spread": -2.0,
-          "books": 28
-        },
-        {
-          "date": "2026-11-13",
-          "prob_home": 53.4,
-          "spread": -1.5,
-          "books": 28
-        }
-      ]
+      }
     },
     {
       "game_id": "2026_10_NE_DET",
@@ -7451,7 +6801,7 @@
       "model_spread": -0.3,
       "model_prob_home": 51.0,
       "vegas_spread": -2.5,
-      "vegas_total": 51.5,
+      "vegas_total": 50.5,
       "odds": {
         "n_books": 29,
         "books": [
@@ -7702,7 +7052,7 @@
         "fair_away": 2.39
       },
       "projected_score": {
-        "home": 27,
+        "home": 26,
         "away": 24
       },
       "confidence_score": "Faible",
@@ -7731,7 +7081,7 @@
           "team": "DET",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cursejnmmp1i9hnxihkj",
-          "prob": 64.7,
+          "prob": 64.0,
           "season_tds": 11,
           "status": null,
           "games": 8,
@@ -7798,7 +7148,7 @@
           "team": "DET",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/byiptqggtglvy5qrw5wp",
-          "prob": 42.3,
+          "prob": 41.6,
           "season_tds": 5,
           "status": null,
           "games": 8,
@@ -7865,7 +7215,7 @@
           "team": "NE",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/x9dlpy3i5fciajd4w9ij",
-          "prob": 42.2,
+          "prob": 41.4,
           "season_tds": 4,
           "status": null,
           "games": 9,
@@ -7932,7 +7282,7 @@
           "team": "DET",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fd8nwhm6pvxfyzphzl6i",
-          "prob": 41.1,
+          "prob": 40.4,
           "season_tds": 5,
           "status": null,
           "games": 8,
@@ -7999,7 +7349,7 @@
           "team": "DET",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wxlk7ysg2nfq6h6ntdcu",
-          "prob": 37.6,
+          "prob": 36.9,
           "season_tds": 3,
           "status": null,
           "games": 8,
@@ -8066,7 +7416,7 @@
           "team": "NE",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qbz7whjzsittudcecezw",
-          "prob": 23.6,
+          "prob": 23.1,
           "season_tds": 1,
           "status": null,
           "games": 5,
@@ -8133,7 +7483,7 @@
           "team": "NE",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/m3fpxawsccoqsajtqlec",
-          "prob": 22.6,
+          "prob": 22.1,
           "season_tds": 4,
           "status": null,
           "games": 9,
@@ -8200,7 +7550,7 @@
           "team": "NE",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mkauzrg7vo8lfziigsbg",
-          "prob": 22.5,
+          "prob": 22.0,
           "season_tds": 3,
           "status": null,
           "games": 9,
@@ -8267,7 +7617,7 @@
           "team": "NE",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qfhvjyssf0lwsh0kienp",
-          "prob": 22.4,
+          "prob": 21.9,
           "season_tds": 0,
           "status": null,
           "games": 3,
@@ -8314,7 +7664,7 @@
           "team": "NE",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zbnf3ujmwprzgjnwdtlo",
-          "prob": 22.2,
+          "prob": 21.7,
           "season_tds": 2,
           "status": null,
           "games": 8,
@@ -8381,7 +7731,7 @@
           "team": "DET",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ducfhbiy2a8loytcjymn",
-          "prob": 17.1,
+          "prob": 16.8,
           "season_tds": 0,
           "status": null,
           "games": 7,
@@ -8448,7 +7798,7 @@
           "team": "DET",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/kaicbot8qhzrvddilbtp",
-          "prob": 15.4,
+          "prob": 15.0,
           "season_tds": 1,
           "status": null,
           "games": 8,
@@ -9819,7 +9169,10 @@
       },
       "weather": {
         "roof": "retractable",
-        "error": true
+        "temp_c": 13,
+        "wind_kmh": 3,
+        "precip_prob": 0,
+        "windy": false
       },
       "round": null,
       "lineup": {
@@ -11087,7 +10440,10 @@
       },
       "weather": {
         "roof": "open",
-        "error": true
+        "temp_c": 8,
+        "wind_kmh": 20,
+        "precip_prob": 27,
+        "windy": true
       },
       "round": null,
       "lineup": {
@@ -11212,7 +10568,7 @@
       "flags": {
         "value": false,
         "key_out": 0,
-        "windy": false,
+        "windy": true,
         "dome": false
       },
       "line_history": [
@@ -11279,7 +10635,7 @@
       "model_spread": -0.1,
       "model_prob_home": 50.2,
       "vegas_spread": -3.0,
-      "vegas_total": 42.5,
+      "vegas_total": 41.5,
       "odds": {
         "n_books": 29,
         "books": [
@@ -11530,8 +10886,8 @@
         "fair_away": 2.44
       },
       "projected_score": {
-        "home": 23,
-        "away": 20
+        "home": 22,
+        "away": 19
       },
       "confidence_score": "Faible",
       "tier": "Serré",
@@ -11559,7 +10915,7 @@
           "team": "GB",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/uceokxeo0uqrqms3e3vl",
-          "prob": 37.4,
+          "prob": 36.6,
           "season_tds": 3,
           "status": null,
           "games": 3,
@@ -11606,7 +10962,7 @@
           "team": "GB",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dbjki6b0swksr7mk17wk",
-          "prob": 36.9,
+          "prob": 36.2,
           "season_tds": 5,
           "status": null,
           "games": 9,
@@ -11673,7 +11029,7 @@
           "team": "MIN",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tzx1iqbxxa1807m6olwj",
-          "prob": 31.9,
+          "prob": 31.0,
           "season_tds": 4,
           "status": null,
           "games": 7,
@@ -11740,7 +11096,7 @@
           "team": "GB",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/n6vu44jbq31rydoaadaq",
-          "prob": 29.6,
+          "prob": 28.9,
           "season_tds": 3,
           "status": null,
           "games": 9,
@@ -11807,7 +11163,7 @@
           "team": "GB",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tumeg4d32sirkab2xzu5",
-          "prob": 29.2,
+          "prob": 28.5,
           "season_tds": 7,
           "status": null,
           "games": 9,
@@ -11874,7 +11230,7 @@
           "team": "MIN",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/rs8o65x0u0n9xzde0fd6",
-          "prob": 23.7,
+          "prob": 23.0,
           "season_tds": 3,
           "status": null,
           "games": 8,
@@ -11941,7 +11297,7 @@
           "team": "MIN",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/za7cynvpwlsro1tsaijk",
-          "prob": 21.8,
+          "prob": 21.1,
           "season_tds": 2,
           "status": null,
           "games": 9,
@@ -12008,7 +11364,7 @@
           "team": "MIN",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bktkfvgfwujkdbzkcfim",
-          "prob": 21.3,
+          "prob": 20.7,
           "season_tds": 2,
           "status": null,
           "games": 8,
@@ -12075,7 +11431,7 @@
           "team": "GB",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xp8sd4enimuk4zd0aqgu",
-          "prob": 20.8,
+          "prob": 20.3,
           "season_tds": 3,
           "status": null,
           "games": 8,
@@ -12142,7 +11498,7 @@
           "team": "MIN",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ty8e8iasniuuhto6qfdx",
-          "prob": 20.2,
+          "prob": 19.6,
           "season_tds": 1,
           "status": null,
           "games": 7,
@@ -12209,7 +11565,7 @@
           "team": "MIN",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xe3i1lsb3rsioqy61krt",
-          "prob": 18.0,
+          "prob": 17.4,
           "season_tds": 1,
           "status": null,
           "games": 4,
@@ -12266,7 +11622,7 @@
           "team": "GB",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vmfywjn8szdf8m3aqnkf",
-          "prob": 17.1,
+          "prob": 16.7,
           "season_tds": 1,
           "status": null,
           "games": 7,
@@ -12335,7 +11691,10 @@
       },
       "weather": {
         "roof": "open",
-        "error": true
+        "temp_c": 6,
+        "wind_kmh": 5,
+        "precip_prob": 0,
+        "windy": false
       },
       "round": null,
       "lineup": {
@@ -13595,7 +12954,10 @@
       },
       "weather": {
         "roof": "retractable",
-        "error": true
+        "temp_c": 10,
+        "wind_kmh": 7,
+        "precip_prob": 0,
+        "windy": false
       },
       "round": null,
       "lineup": {
@@ -16092,7 +15454,10 @@
       },
       "weather": {
         "roof": "open",
-        "error": true
+        "temp_c": 8,
+        "wind_kmh": 24,
+        "precip_prob": 0,
+        "windy": true
       },
       "round": null,
       "lineup": {
@@ -16217,7 +15582,7 @@
       "flags": {
         "value": false,
         "key_out": 0,
-        "windy": false,
+        "windy": true,
         "dome": false
       },
       "line_history": [
@@ -17370,7 +16735,10 @@
       },
       "weather": {
         "roof": "open",
-        "error": true
+        "temp_c": 12,
+        "wind_kmh": 8,
+        "precip_prob": 0,
+        "windy": false
       },
       "round": null,
       "lineup": {
@@ -18598,7 +17966,10 @@
       },
       "weather": {
         "roof": "retractable",
-        "error": true
+        "temp_c": 22,
+        "wind_kmh": 4,
+        "precip_prob": 0,
+        "windy": false
       },
       "round": null,
       "lineup": {
@@ -21123,7 +20494,10 @@
       },
       "weather": {
         "roof": "retractable",
-        "error": true
+        "temp_c": 9,
+        "wind_kmh": 21,
+        "precip_prob": 64,
+        "windy": false
       },
       "round": null,
       "lineup": {
@@ -22401,7 +21775,10 @@
       },
       "weather": {
         "roof": "open",
-        "error": true
+        "temp_c": 8,
+        "wind_kmh": 6,
+        "precip_prob": 0,
+        "windy": false
       },
       "round": null,
       "lineup": {
@@ -23679,7 +23056,10 @@
       },
       "weather": {
         "roof": "open",
-        "error": true
+        "temp_c": 8,
+        "wind_kmh": 9,
+        "precip_prob": 0,
+        "windy": false
       },
       "round": null,
       "lineup": {
@@ -24079,54 +23459,6 @@
         },
         "model_agrees": true,
         "model_prob": 54.0
-      },
-      {
-        "best_fr": {
-          "price": 1.75,
-          "book": "Betclic (FR)"
-        },
-        "ev": -6.6,
-        "source": "moyenne de 28 bookmakers",
-        "game_id": "2026_10_WAS_NYG",
-        "gameday": "2026-11-12",
-        "gametime": "20:15",
-        "team": {
-          "abbr": "NYG",
-          "name": "New York Giants",
-          "nick": "Giants",
-          "color": "#0B2265",
-          "color_dark": "#A71930",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-          "elo": 1492.8,
-          "record": "5-2-1",
-          "off_rank": 14,
-          "def_rank": 16
-        },
-        "opponent": {
-          "abbr": "WAS",
-          "name": "Washington Commanders",
-          "nick": "Commanders",
-          "color": "#5A1414",
-          "color_dark": "#FFB612",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-          "elo": 1430.0,
-          "record": "2-5-1",
-          "off_rank": 18,
-          "def_rank": 25
-        },
-        "home": true,
-        "prob": 53.4,
-        "tier": "Serré",
-        "fair_odds": 1.87,
-        "hist": {
-          "tier": "Serré",
-          "min": 0.5,
-          "games": 1217,
-          "predicted": 55.5,
-          "actual": 55.3
-        },
-        "model_agrees": true,
-        "model_prob": 63.3
       }
     ],
     "scorers": [
@@ -24213,7 +23545,7 @@
         "team": "DET",
         "position": "RB",
         "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cursejnmmp1i9hnxihkj",
-        "prob": 64.7,
+        "prob": 64.0,
         "season_tds": 11,
         "status": null,
         "games": 8,
@@ -24275,7 +23607,7 @@
         "scored_last": 4,
         "game_id": "2026_10_NE_DET",
         "opponent": "NE",
-        "fair_odds": 1.55,
+        "fair_odds": 1.56,
         "hist": {
           "label": "50 % et plus",
           "min": 50,
@@ -25092,7 +24424,7 @@
   },
   "odds_source": {
     "type": "consensus",
-    "games": 14,
+    "games": 13,
     "books": 29,
     "status": "cache",
     "fetched_at": "2026-11-13T00:00:16+00:00",
@@ -25101,7 +24433,7 @@
   "sources": {
     "injuries": 6,
     "lineups": 32,
-    "weather_errors": 11
+    "weather_errors": 0
   },
   "archive_ids": [
     "2026_10_BUF_NYJ",
@@ -25195,7 +24527,7 @@
       "team": "DET",
       "position": "RB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cursejnmmp1i9hnxihkj",
-      "prob": 64.7,
+      "prob": 64.0,
       "season_tds": 11,
       "status": null,
       "games": 8,
@@ -34302,7 +33634,7 @@
     }
   ],
   "studies": {
-    "generated_at": "2026-11-13T00:05:55+00:00",
+    "generated_at": "2026-11-13T02:39:33+00:00",
     "spread_sd": {
       "best_sd": 11.25,
       "games": 2886

@@ -419,79 +419,79 @@
    "open_prob": 57.5,
    "open_fr": null,
    "close_prob": 58.2,
-   "closed_at": "2026-11-13T00:05+00:00",
+   "closed_at": "2026-11-13T02:39+00:00",
    "scorers": [
     {
      "id": "00-0039139",
      "name": "Jahmyr Gibbs",
      "team": "DET",
-     "prob": 64.7
+     "prob": 64.0
     },
     {
      "id": "00-0037240",
      "name": "Jameson Williams",
      "team": "DET",
-     "prob": 42.3
+     "prob": 41.6
     },
     {
      "id": "00-0036875",
      "name": "Rhamondre Stevenson",
      "team": "NE",
-     "prob": 42.2
+     "prob": 41.4
     },
     {
      "id": "00-0036963",
      "name": "Amon-Ra St. Brown",
      "team": "DET",
-     "prob": 41.1
+     "prob": 40.4
     },
     {
      "id": "00-0039065",
      "name": "Sam LaPorta",
      "team": "DET",
-     "prob": 37.6
+     "prob": 36.9
     },
     {
      "id": "00-0033555",
      "name": "Mack Hollins",
      "team": "NE",
-     "prob": 23.6
+     "prob": 23.1
     },
     {
      "id": "00-0038621",
      "name": "DeMario Douglas",
      "team": "NE",
-     "prob": 22.6
+     "prob": 22.1
     },
     {
      "id": "00-0039851",
      "name": "Drake Maye",
      "team": "NE",
-     "prob": 22.5
+     "prob": 22.0
     },
     {
      "id": "00-0035676",
      "name": "A.J. Brown",
      "team": "NE",
-     "prob": 22.4
+     "prob": 21.9
     },
     {
      "id": "00-0040563",
      "name": "Efton Chism III",
      "team": "NE",
-     "prob": 22.2
+     "prob": 21.7
     },
     {
      "id": "00-0040669",
      "name": "Isaac TeSlaa",
      "team": "DET",
-     "prob": 17.1
+     "prob": 16.8
     },
     {
      "id": "00-0033106",
      "name": "Jared Goff",
      "team": "DET",
-     "prob": 15.4
+     "prob": 15.0
     }
    ]
   },
@@ -506,7 +506,7 @@
    "open_prob": 62.1,
    "open_fr": null,
    "close_prob": 62.5,
-   "closed_at": "2026-11-13T00:05+00:00",
+   "closed_at": "2026-11-13T02:39+00:00",
    "scorers": [
     {
      "id": "00-0038134",
@@ -593,7 +593,7 @@
    "open_prob": 67.1,
    "open_fr": null,
    "close_prob": 67.7,
-   "closed_at": "2026-11-13T00:05+00:00",
+   "closed_at": "2026-11-13T02:39+00:00",
    "scorers": [
     {
      "id": "00-0040583",
@@ -667,7 +667,11 @@
      "team": "CLE",
      "prob": 11.6
     }
-   ]
+   ],
+   "wind_total": {
+    "line": 40.5,
+    "wind": 20
+   }
   },
   "2026_10_MIN_GB": {
    "season": 2026,
@@ -680,79 +684,79 @@
    "open_prob": 65.1,
    "open_fr": null,
    "close_prob": 59.1,
-   "closed_at": "2026-11-13T00:05+00:00",
+   "closed_at": "2026-11-13T02:39+00:00",
    "scorers": [
     {
      "id": "00-0035700",
      "name": "Josh Jacobs",
      "team": "GB",
-     "prob": 37.4
+     "prob": 36.6
     },
     {
      "id": "00-0040667",
      "name": "Matthew Golden",
      "team": "GB",
-     "prob": 36.9
+     "prob": 36.2
     },
     {
      "id": "00-0036322",
      "name": "Justin Jefferson",
      "team": "MIN",
-     "prob": 31.9
+     "prob": 31.0
     },
     {
      "id": "00-0038996",
      "name": "Tucker Kraft",
      "team": "GB",
-     "prob": 29.6
+     "prob": 28.9
     },
     {
      "id": "00-0038124",
      "name": "Christian Watson",
      "team": "GB",
-     "prob": 29.2
+     "prob": 28.5
     },
     {
      "id": "00-0035229",
      "name": "T.J. Hockenson",
      "team": "MIN",
-     "prob": 23.7
+     "prob": 23.0
     },
     {
      "id": "00-0029604",
      "name": "Kirk Cousins",
      "team": "MIN",
-     "prob": 21.8
+     "prob": 21.1
     },
     {
      "id": "00-0033293",
      "name": "Aaron Jones",
      "team": "MIN",
-     "prob": 21.3
+     "prob": 20.7
     },
     {
      "id": "00-0039811",
      "name": "MarShawn Lloyd",
      "team": "GB",
-     "prob": 20.8
+     "prob": 20.3
     },
     {
      "id": "00-0038994",
      "name": "Jordan Addison",
      "team": "MIN",
-     "prob": 20.2
+     "prob": 19.6
     },
     {
      "id": "00-0037525",
      "name": "Jordan Mason",
      "team": "MIN",
-     "prob": 18.0
+     "prob": 17.4
     },
     {
      "id": "00-0040142",
      "name": "Kaleb Johnson",
      "team": "GB",
-     "prob": 17.1
+     "prob": 16.7
     }
    ]
   },
@@ -767,7 +771,7 @@
    "open_prob": 55.4,
    "open_fr": null,
    "close_prob": 65.1,
-   "closed_at": "2026-11-13T00:05+00:00",
+   "closed_at": "2026-11-13T02:39+00:00",
    "scorers": [
     {
      "id": "00-0036223",
@@ -854,7 +858,7 @@
    "open_prob": 52.3,
    "open_fr": null,
    "close_prob": 55.5,
-   "closed_at": "2026-11-13T00:05+00:00",
+   "closed_at": "2026-11-13T02:39+00:00",
    "scorers": [
     {
      "id": "00-0036555",
@@ -941,7 +945,7 @@
    "open_prob": 81.7,
    "open_fr": null,
    "close_prob": 79.4,
-   "closed_at": "2026-11-13T00:05+00:00",
+   "closed_at": "2026-11-13T02:39+00:00",
    "scorers": [
     {
      "id": "00-0037248",
@@ -1015,7 +1019,11 @@
      "team": "NYJ",
      "prob": 18.2
     }
-   ]
+   ],
+   "wind_total": {
+    "line": 50.5,
+    "wind": 24
+   }
   },
   "2026_10_JAX_TEN": {
    "season": 2026,
@@ -1028,7 +1036,7 @@
    "open_prob": 84.1,
    "open_fr": null,
    "close_prob": 83.4,
-   "closed_at": "2026-11-13T00:05+00:00",
+   "closed_at": "2026-11-13T02:39+00:00",
    "scorers": [
     {
      "id": "00-0040719",
@@ -1115,7 +1123,7 @@
    "open_prob": 79.9,
    "open_fr": null,
    "close_prob": 80.7,
-   "closed_at": "2026-11-13T00:05+00:00",
+   "closed_at": "2026-11-13T02:39+00:00",
    "scorers": [
     {
      "id": "00-0037840",
@@ -1202,7 +1210,7 @@
    "open_prob": 62.1,
    "open_fr": null,
    "close_prob": 72.4,
-   "closed_at": "2026-11-13T00:05+00:00",
+   "closed_at": "2026-11-13T02:39+00:00",
    "scorers": [
     {
      "id": "00-0038543",
@@ -1289,7 +1297,7 @@
    "open_prob": 66.4,
    "open_fr": null,
    "close_prob": 65.9,
-   "closed_at": "2026-11-13T00:05+00:00",
+   "closed_at": "2026-11-13T02:39+00:00",
    "scorers": [
     {
      "id": "00-0033280",
@@ -1376,7 +1384,7 @@
    "open_prob": 62.1,
    "open_fr": null,
    "close_prob": 63.1,
-   "closed_at": "2026-11-13T00:05+00:00",
+   "closed_at": "2026-11-13T02:39+00:00",
    "scorers": [
     {
      "id": "00-0036900",
@@ -1463,7 +1471,7 @@
    "open_prob": 66.4,
    "open_fr": null,
    "close_prob": 66.3,
-   "closed_at": "2026-11-13T00:05+00:00",
+   "closed_at": "2026-11-13T02:39+00:00",
    "scorers": [
     {
      "id": "00-0032764",
