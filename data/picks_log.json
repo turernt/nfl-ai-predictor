@@ -332,7 +332,7 @@
    "open_prob": 54.5,
    "open_fr": null,
    "close_prob": 53.4,
-   "closed_at": "2026-11-13T00:00+00:00",
+   "closed_at": "2026-11-13T00:05+00:00",
    "scorers": [
     {
      "id": "00-0035250",
@@ -419,7 +419,7 @@
    "open_prob": 57.5,
    "open_fr": null,
    "close_prob": 58.2,
-   "closed_at": "2026-11-13T00:00+00:00",
+   "closed_at": "2026-11-13T00:05+00:00",
    "scorers": [
     {
      "id": "00-0039139",
@@ -506,7 +506,7 @@
    "open_prob": 62.1,
    "open_fr": null,
    "close_prob": 62.5,
-   "closed_at": "2026-11-13T00:00+00:00",
+   "closed_at": "2026-11-13T00:05+00:00",
    "scorers": [
     {
      "id": "00-0038134",
@@ -593,7 +593,7 @@
    "open_prob": 67.1,
    "open_fr": null,
    "close_prob": 67.7,
-   "closed_at": "2026-11-13T00:00+00:00",
+   "closed_at": "2026-11-13T00:05+00:00",
    "scorers": [
     {
      "id": "00-0040583",
@@ -667,11 +667,7 @@
      "team": "CLE",
      "prob": 11.6
     }
-   ],
-   "wind_total": {
-    "line": 40.5,
-    "wind": 20
-   }
+   ]
   },
   "2026_10_MIN_GB": {
    "season": 2026,
@@ -684,7 +680,7 @@
    "open_prob": 65.1,
    "open_fr": null,
    "close_prob": 59.1,
-   "closed_at": "2026-11-13T00:00+00:00",
+   "closed_at": "2026-11-13T00:05+00:00",
    "scorers": [
     {
      "id": "00-0035700",
@@ -771,7 +767,7 @@
    "open_prob": 55.4,
    "open_fr": null,
    "close_prob": 65.1,
-   "closed_at": "2026-11-13T00:00+00:00",
+   "closed_at": "2026-11-13T00:05+00:00",
    "scorers": [
     {
      "id": "00-0036223",
@@ -858,7 +854,7 @@
    "open_prob": 52.3,
    "open_fr": null,
    "close_prob": 55.5,
-   "closed_at": "2026-11-13T00:00+00:00",
+   "closed_at": "2026-11-13T00:05+00:00",
    "scorers": [
     {
      "id": "00-0036555",
@@ -945,7 +941,7 @@
    "open_prob": 81.7,
    "open_fr": null,
    "close_prob": 79.4,
-   "closed_at": "2026-11-13T00:00+00:00",
+   "closed_at": "2026-11-13T00:05+00:00",
    "scorers": [
     {
      "id": "00-0037248",
@@ -1019,11 +1015,7 @@
      "team": "NYJ",
      "prob": 18.2
     }
-   ],
-   "wind_total": {
-    "line": 50.5,
-    "wind": 24
-   }
+   ]
   },
   "2026_10_JAX_TEN": {
    "season": 2026,
@@ -1036,7 +1028,7 @@
    "open_prob": 84.1,
    "open_fr": null,
    "close_prob": 83.4,
-   "closed_at": "2026-11-13T00:00+00:00",
+   "closed_at": "2026-11-13T00:05+00:00",
    "scorers": [
     {
      "id": "00-0040719",
@@ -1123,7 +1115,7 @@
    "open_prob": 79.9,
    "open_fr": null,
    "close_prob": 80.7,
-   "closed_at": "2026-11-13T00:00+00:00",
+   "closed_at": "2026-11-13T00:05+00:00",
    "scorers": [
     {
      "id": "00-0037840",
@@ -1210,7 +1202,7 @@
    "open_prob": 62.1,
    "open_fr": null,
    "close_prob": 72.4,
-   "closed_at": "2026-11-13T00:00+00:00",
+   "closed_at": "2026-11-13T00:05+00:00",
    "scorers": [
     {
      "id": "00-0038543",
@@ -1297,7 +1289,7 @@
    "open_prob": 66.4,
    "open_fr": null,
    "close_prob": 65.9,
-   "closed_at": "2026-11-13T00:00+00:00",
+   "closed_at": "2026-11-13T00:05+00:00",
    "scorers": [
     {
      "id": "00-0033280",
@@ -1384,7 +1376,7 @@
    "open_prob": 62.1,
    "open_fr": null,
    "close_prob": 63.1,
-   "closed_at": "2026-11-13T00:00+00:00",
+   "closed_at": "2026-11-13T00:05+00:00",
    "scorers": [
     {
      "id": "00-0036900",
@@ -1471,7 +1463,7 @@
    "open_prob": 66.4,
    "open_fr": null,
    "close_prob": 66.3,
-   "closed_at": "2026-11-13T00:00+00:00",
+   "closed_at": "2026-11-13T00:05+00:00",
    "scorers": [
     {
      "id": "00-0032764",

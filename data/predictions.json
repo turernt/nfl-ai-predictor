@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T00:00:22+00:00",
+  "generated_at": "2026-11-13T00:05:55+00:00",
   "season": 2026,
   "week": 10,
   "week_label": "Semaine 10",
@@ -7259,10 +7259,7 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 10,
-        "wind_kmh": 15,
-        "precip_prob": 73,
-        "windy": false
+        "error": true
       },
       "round": null,
       "lineup": {
@@ -9822,10 +9819,7 @@
       },
       "weather": {
         "roof": "retractable",
-        "temp_c": 13,
-        "wind_kmh": 3,
-        "precip_prob": 0,
-        "windy": false
+        "error": true
       },
       "round": null,
       "lineup": {
@@ -11093,10 +11087,7 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 8,
-        "wind_kmh": 20,
-        "precip_prob": 27,
-        "windy": true
+        "error": true
       },
       "round": null,
       "lineup": {
@@ -11221,7 +11212,7 @@
       "flags": {
         "value": false,
         "key_out": 0,
-        "windy": true,
+        "windy": false,
         "dome": false
       },
       "line_history": [
@@ -12344,10 +12335,7 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 6,
-        "wind_kmh": 5,
-        "precip_prob": 0,
-        "windy": false
+        "error": true
       },
       "round": null,
       "lineup": {
@@ -13607,10 +13595,7 @@
       },
       "weather": {
         "roof": "retractable",
-        "temp_c": 10,
-        "wind_kmh": 7,
-        "precip_prob": 0,
-        "windy": false
+        "error": true
       },
       "round": null,
       "lineup": {
@@ -16107,10 +16092,7 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 8,
-        "wind_kmh": 24,
-        "precip_prob": 0,
-        "windy": true
+        "error": true
       },
       "round": null,
       "lineup": {
@@ -16235,7 +16217,7 @@
       "flags": {
         "value": false,
         "key_out": 0,
-        "windy": true,
+        "windy": false,
         "dome": false
       },
       "line_history": [
@@ -17388,10 +17370,7 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 12,
-        "wind_kmh": 8,
-        "precip_prob": 0,
-        "windy": false
+        "error": true
       },
       "round": null,
       "lineup": {
@@ -18619,10 +18598,7 @@
       },
       "weather": {
         "roof": "retractable",
-        "temp_c": 22,
-        "wind_kmh": 4,
-        "precip_prob": 0,
-        "windy": false
+        "error": true
       },
       "round": null,
       "lineup": {
@@ -21147,10 +21123,7 @@
       },
       "weather": {
         "roof": "retractable",
-        "temp_c": 9,
-        "wind_kmh": 21,
-        "precip_prob": 64,
-        "windy": false
+        "error": true
       },
       "round": null,
       "lineup": {
@@ -22428,10 +22401,7 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 8,
-        "wind_kmh": 6,
-        "precip_prob": 0,
-        "windy": false
+        "error": true
       },
       "round": null,
       "lineup": {
@@ -23709,10 +23679,7 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 8,
-        "wind_kmh": 9,
-        "precip_prob": 0,
-        "windy": false
+        "error": true
       },
       "round": null,
       "lineup": {
@@ -25127,14 +25094,14 @@
     "type": "consensus",
     "games": 14,
     "books": 29,
-    "status": "live",
+    "status": "cache",
     "fetched_at": "2026-11-13T00:00:16+00:00",
     "credits": "476"
   },
   "sources": {
     "injuries": 6,
     "lineups": 32,
-    "weather_errors": 0
+    "weather_errors": 11
   },
   "archive_ids": [
     "2026_10_BUF_NYJ",
@@ -34335,7 +34302,7 @@
     }
   ],
   "studies": {
-    "generated_at": "2026-11-13T00:00:22+00:00",
+    "generated_at": "2026-11-13T00:05:55+00:00",
     "spread_sd": {
       "best_sd": 11.25,
       "games": 2886
