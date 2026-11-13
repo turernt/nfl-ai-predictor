@@ -331,80 +331,80 @@
    "pick_home": true,
    "open_prob": 54.5,
    "open_fr": null,
-   "close_prob": 55.1,
-   "closed_at": "2026-11-12T13:46+00:00",
+   "close_prob": 53.4,
+   "closed_at": "2026-11-13T00:00+00:00",
    "scorers": [
     {
      "id": "00-0035250",
      "name": "Devin Singletary",
      "team": "NYG",
-     "prob": 33.0
-    },
-    {
-     "id": "00-0037838",
-     "name": "Isaiah Likely",
-     "team": "NYG",
-     "prob": 31.8
+     "prob": 32.5
     },
     {
      "id": "00-0037256",
      "name": "Rachaad White",
      "team": "WAS",
-     "prob": 31.0
+     "prob": 31.5
+    },
+    {
+     "id": "00-0037838",
+     "name": "Isaiah Likely",
+     "team": "NYG",
+     "prob": 31.4
     },
     {
      "id": "00-0040715",
      "name": "Cam Skattebo",
      "team": "NYG",
-     "prob": 29.6
+     "prob": 29.1
     },
     {
      "id": "00-0039337",
      "name": "Malik Nabers",
      "team": "NYG",
-     "prob": 28.5
+     "prob": 28.2
     },
     {
      "id": "00-0031588",
      "name": "Stefon Diggs",
      "team": "WAS",
-     "prob": 23.7
+     "prob": 24.1
     },
     {
      "id": "00-0041042",
      "name": "Malachi Fields",
      "team": "NYG",
-     "prob": 20.1
+     "prob": 19.9
     },
     {
      "id": "00-0037742",
      "name": "Treylon Burks",
      "team": "WAS",
-     "prob": 15.6
+     "prob": 15.8
     },
     {
      "id": "00-0037809",
      "name": "Chig Okonkwo",
      "team": "WAS",
-     "prob": 14.9
+     "prob": 15.1
     },
     {
      "id": "00-0041040",
      "name": "Antonio Williams",
      "team": "WAS",
-     "prob": 14.2
+     "prob": 14.5
     },
     {
      "id": "00-0039910",
      "name": "Jayden Daniels",
      "team": "WAS",
-     "prob": 12.4
+     "prob": 12.6
     },
     {
      "id": "00-0036309",
      "name": "Darnell Mooney",
      "team": "NYG",
-     "prob": 9.9
+     "prob": 9.8
     }
    ]
   },
@@ -418,8 +418,8 @@
    "pick_home": true,
    "open_prob": 57.5,
    "open_fr": null,
-   "close_prob": 58.6,
-   "closed_at": "2026-11-12T13:46+00:00",
+   "close_prob": 58.2,
+   "closed_at": "2026-11-13T00:00+00:00",
    "scorers": [
     {
      "id": "00-0039139",
@@ -505,8 +505,8 @@
    "pick_home": false,
    "open_prob": 62.1,
    "open_fr": null,
-   "close_prob": 62.7,
-   "closed_at": "2026-11-12T13:46+00:00",
+   "close_prob": 62.5,
+   "closed_at": "2026-11-13T00:00+00:00",
    "scorers": [
     {
      "id": "00-0038134",
@@ -592,85 +592,85 @@
    "pick_home": false,
    "open_prob": 67.1,
    "open_fr": null,
-   "close_prob": 67.8,
-   "closed_at": "2026-11-12T13:46+00:00",
+   "close_prob": 67.7,
+   "closed_at": "2026-11-13T00:00+00:00",
    "scorers": [
     {
      "id": "00-0040583",
      "name": "Woody Marks",
      "team": "HOU",
-     "prob": 40.5
+     "prob": 39.2
     },
     {
      "id": "00-0040784",
      "name": "Quinshon Judkins",
      "team": "CLE",
-     "prob": 29.6
+     "prob": 29.3
     },
     {
      "id": "00-0041037",
      "name": "Denzel Boston",
      "team": "CLE",
-     "prob": 27.9
+     "prob": 27.4
     },
     {
      "id": "00-0036554",
      "name": "Nico Collins",
      "team": "HOU",
-     "prob": 27.6
+     "prob": 26.6
     },
     {
      "id": "00-0035685",
      "name": "David Montgomery",
      "team": "HOU",
-     "prob": 27.1
+     "prob": 26.0
     },
     {
      "id": "00-0040663",
      "name": "Harold Fannin Jr.",
      "team": "CLE",
-     "prob": 25.9
+     "prob": 25.5
     },
     {
      "id": "00-0038618",
      "name": "Xavier Hutchinson",
      "team": "HOU",
-     "prob": 24.4
+     "prob": 23.5
     },
     {
      "id": "00-0034981",
      "name": "Foster Moreau",
      "team": "HOU",
-     "prob": 18.5
+     "prob": 17.8
     },
     {
      "id": "00-0041547",
      "name": "KC Concepcion",
      "team": "CLE",
-     "prob": 17.5
+     "prob": 17.2
     },
     {
      "id": "00-0038608",
      "name": "Kayshon Boutte",
      "team": "HOU",
-     "prob": 15.8
+     "prob": 15.1
     },
     {
      "id": "00-0040162",
      "name": "Dylan Sampson",
      "team": "CLE",
-     "prob": 12.2
+     "prob": 12.1
     },
     {
      "id": "00-0033537",
      "name": "Deshaun Watson",
      "team": "CLE",
-     "prob": 11.9
+     "prob": 11.6
     }
    ],
    "wind_total": {
-    "line": 41.5,
-    "wind": 19
+    "line": 40.5,
+    "wind": 20
    }
   },
   "2026_10_MIN_GB": {
@@ -683,8 +683,8 @@
    "pick_home": true,
    "open_prob": 65.1,
    "open_fr": null,
-   "close_prob": 60.3,
-   "closed_at": "2026-11-12T13:46+00:00",
+   "close_prob": 59.1,
+   "closed_at": "2026-11-13T00:00+00:00",
    "scorers": [
     {
      "id": "00-0035700",
@@ -770,80 +770,80 @@
    "pick_home": true,
    "open_prob": 55.4,
    "open_fr": null,
-   "close_prob": 64.9,
-   "closed_at": "2026-11-12T13:46+00:00",
+   "close_prob": 65.1,
+   "closed_at": "2026-11-13T00:00+00:00",
    "scorers": [
     {
      "id": "00-0036223",
      "name": "Jonathan Taylor",
      "team": "IND",
-     "prob": 50.6
+     "prob": 51.2
     },
     {
      "id": "00-0040198",
      "name": "Ollie Gordon II",
      "team": "MIA",
-     "prob": 42.0
+     "prob": 41.3
     },
     {
      "id": "00-0040128",
      "name": "Tyler Warren",
      "team": "IND",
-     "prob": 27.8
+     "prob": 28.1
     },
     {
      "id": "00-0039880",
      "name": "Malik Washington",
      "team": "MIA",
-     "prob": 21.9
+     "prob": 21.6
     },
     {
      "id": "00-0041523",
      "name": "Caleb Douglas",
      "team": "MIA",
-     "prob": 18.9
+     "prob": 18.6
     },
     {
      "id": "00-0041125",
      "name": "Seth McGowan",
      "team": "IND",
-     "prob": 17.0
+     "prob": 17.3
     },
     {
      "id": "00-0032951",
      "name": "Laquon Treadwell",
      "team": "IND",
-     "prob": 13.6
+     "prob": 13.8
     },
     {
      "id": "00-0035710",
      "name": "Daniel Jones",
      "team": "IND",
-     "prob": 13.1
+     "prob": 13.3
     },
     {
      "id": "00-0033217",
      "name": "Mo Alie-Cox",
      "team": "IND",
-     "prob": 12.5
+     "prob": 12.7
     },
     {
      "id": "00-0037252",
      "name": "Greg Dulcich",
      "team": "MIA",
-     "prob": 11.0
+     "prob": 10.8
     },
     {
      "id": "00-0041529",
      "name": "Kevin Coleman Jr.",
      "team": "MIA",
-     "prob": 10.2
+     "prob": 10.0
     },
     {
-     "id": "00-0039874",
-     "name": "Jaylen Wright",
+     "id": "00-0041525",
+     "name": "Chris Bell",
      "team": "MIA",
-     "prob": 7.1
+     "prob": 7.0
     }
    ]
   },
@@ -858,7 +858,7 @@
    "open_prob": 52.3,
    "open_fr": null,
    "close_prob": 55.5,
-   "closed_at": "2026-11-12T13:46+00:00",
+   "closed_at": "2026-11-13T00:00+00:00",
    "scorers": [
     {
      "id": "00-0036555",
@@ -874,7 +874,7 @@
     },
     {
      "id": "00-0039373",
-     "name": "Audric Estimé",
+     "name": "Audric Estime",
      "team": "NO",
      "prob": 35.4
     },
@@ -945,7 +945,7 @@
    "open_prob": 81.7,
    "open_fr": null,
    "close_prob": 79.4,
-   "closed_at": "2026-11-12T13:46+00:00",
+   "closed_at": "2026-11-13T00:00+00:00",
    "scorers": [
     {
      "id": "00-0037248",
@@ -1022,7 +1022,7 @@
    ],
    "wind_total": {
     "line": 50.5,
-    "wind": 23
+    "wind": 24
    }
   },
   "2026_10_JAX_TEN": {
@@ -1035,8 +1035,8 @@
    "pick_home": false,
    "open_prob": 84.1,
    "open_fr": null,
-   "close_prob": 83.6,
-   "closed_at": "2026-11-12T13:46+00:00",
+   "close_prob": 83.4,
+   "closed_at": "2026-11-13T00:00+00:00",
    "scorers": [
     {
      "id": "00-0040719",
@@ -1122,8 +1122,8 @@
    "pick_home": false,
    "open_prob": 79.9,
    "open_fr": null,
-   "close_prob": 80.6,
-   "closed_at": "2026-11-12T13:46+00:00",
+   "close_prob": 80.7,
+   "closed_at": "2026-11-13T00:00+00:00",
    "scorers": [
     {
      "id": "00-0037840",
@@ -1210,7 +1210,7 @@
    "open_prob": 62.1,
    "open_fr": null,
    "close_prob": 72.4,
-   "closed_at": "2026-11-12T13:46+00:00",
+   "closed_at": "2026-11-13T00:00+00:00",
    "scorers": [
     {
      "id": "00-0038543",
@@ -1296,8 +1296,8 @@
    "pick_home": false,
    "open_prob": 66.4,
    "open_fr": null,
-   "close_prob": 65.7,
-   "closed_at": "2026-11-12T13:46+00:00",
+   "close_prob": 65.9,
+   "closed_at": "2026-11-13T00:00+00:00",
    "scorers": [
     {
      "id": "00-0033280",
@@ -1383,8 +1383,8 @@
    "pick_home": true,
    "open_prob": 62.1,
    "open_fr": null,
-   "close_prob": 63.4,
-   "closed_at": "2026-11-12T13:46+00:00",
+   "close_prob": 63.1,
+   "closed_at": "2026-11-13T00:00+00:00",
    "scorers": [
     {
      "id": "00-0036900",
@@ -1470,8 +1470,8 @@
    "pick_home": true,
    "open_prob": 66.4,
    "open_fr": null,
-   "close_prob": 66.1,
-   "closed_at": "2026-11-12T13:46+00:00",
+   "close_prob": 66.3,
+   "closed_at": "2026-11-13T00:00+00:00",
    "scorers": [
     {
      "id": "00-0032764",
