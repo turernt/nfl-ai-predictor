@@ -49,6 +49,12 @@
    "prob_home": 58.2,
    "spread": -2.5,
    "books": 29
+  },
+  {
+   "date": "2026-11-14",
+   "prob_home": 58.1,
+   "spread": -2.5,
+   "books": 29
   }
  ],
  "2026_10_KC_ATL": [
@@ -75,6 +81,12 @@
    "prob_home": 37.5,
    "spread": 3.5,
    "books": 29
+  },
+  {
+   "date": "2026-11-14",
+   "prob_home": 37.6,
+   "spread": 3.5,
+   "books": 29
   }
  ],
  "2026_10_HOU_CLE": [
@@ -98,6 +110,12 @@
   },
   {
    "date": "2026-11-13",
+   "prob_home": 32.3,
+   "spread": 4.5,
+   "books": 29
+  },
+  {
+   "date": "2026-11-14",
    "prob_home": 32.3,
    "spread": 4.5,
    "books": 29
@@ -127,6 +145,12 @@
    "prob_home": 59.1,
    "spread": -3.0,
    "books": 29
+  },
+  {
+   "date": "2026-11-14",
+   "prob_home": 58.6,
+   "spread": -3.0,
+   "books": 29
   }
  ],
  "2026_10_MIA_IND": [
@@ -153,6 +177,12 @@
    "prob_home": 65.1,
    "spread": -4.0,
    "books": 28
+  },
+  {
+   "date": "2026-11-14",
+   "prob_home": 65.9,
+   "spread": -4.0,
+   "books": 29
   }
  ],
  "2026_10_CAR_NO": [
@@ -179,6 +209,12 @@
    "prob_home": 55.5,
    "spread": -2.5,
    "books": 28
+  },
+  {
+   "date": "2026-11-14",
+   "prob_home": 56.1,
+   "spread": -2.5,
+   "books": 28
   }
  ],
  "2026_10_BUF_NYJ": [
@@ -202,6 +238,12 @@
   },
   {
    "date": "2026-11-13",
+   "prob_home": 20.6,
+   "spread": 8.0,
+   "books": 29
+  },
+  {
+   "date": "2026-11-14",
    "prob_home": 20.6,
    "spread": 8.0,
    "books": 29
@@ -231,6 +273,12 @@
    "prob_home": 16.6,
    "spread": 10.5,
    "books": 29
+  },
+  {
+   "date": "2026-11-14",
+   "prob_home": 15.8,
+   "spread": 10.5,
+   "books": 29
   }
  ],
  "2026_10_LA_ARI": [
@@ -255,6 +303,12 @@
   {
    "date": "2026-11-13",
    "prob_home": 19.3,
+   "spread": 9.5,
+   "books": 29
+  },
+  {
+   "date": "2026-11-14",
+   "prob_home": 19.5,
    "spread": 9.5,
    "books": 29
   }
@@ -283,6 +337,12 @@
    "prob_home": 27.6,
    "spread": 6.5,
    "books": 29
+  },
+  {
+   "date": "2026-11-14",
+   "prob_home": 27.4,
+   "spread": 6.5,
+   "books": 29
   }
  ],
  "2026_10_SF_DAL": [
@@ -307,6 +367,12 @@
   {
    "date": "2026-11-13",
    "prob_home": 34.1,
+   "spread": 4.0,
+   "books": 29
+  },
+  {
+   "date": "2026-11-14",
+   "prob_home": 33.8,
    "spread": 4.0,
    "books": 29
   }
@@ -335,6 +401,12 @@
    "prob_home": 63.1,
    "spread": -3.5,
    "books": 29
+  },
+  {
+   "date": "2026-11-14",
+   "prob_home": 63.1,
+   "spread": -3.5,
+   "books": 29
   }
  ],
  "2026_10_LAC_BAL": [
@@ -358,6 +430,12 @@
   },
   {
    "date": "2026-11-13",
+   "prob_home": 66.3,
+   "spread": -4.5,
+   "books": 29
+  },
+  {
+   "date": "2026-11-14",
    "prob_home": 66.3,
    "spread": -4.5,
    "books": 29

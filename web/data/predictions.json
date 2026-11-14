@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T21:59:28+00:00",
+  "generated_at": "2026-11-14T02:26:46+00:00",
   "season": 2026,
   "week": 10,
   "week_label": "Semaine 10",
@@ -6947,8 +6947,8 @@
         "off_rank": 10,
         "def_rank": 18
       },
-      "prob_home_win": 58.2,
-      "prob_away_win": 41.8,
+      "prob_home_win": 58.1,
+      "prob_away_win": 41.9,
       "predicted_spread": -2.5,
       "model_spread": -0.3,
       "model_prob_home": 51.0,
@@ -6960,25 +6960,25 @@
           {
             "key": "betclic_fr",
             "title": "Betclic (FR)",
-            "home": 1.6,
-            "away": 2.2,
-            "margin": 8.0,
+            "home": 1.62,
+            "away": 2.15,
+            "margin": 8.2,
             "fr": true
           },
           {
             "key": "netbet_fr",
             "title": "NetBet",
-            "home": 1.55,
+            "home": 1.57,
             "away": 2.17,
-            "margin": 10.6,
+            "margin": 9.8,
             "fr": true
           },
           {
             "key": "pmu_fr",
             "title": "PMU (FR)",
             "home": 1.47,
-            "away": 2.07,
-            "margin": 16.3,
+            "away": 2.08,
+            "margin": 16.1,
             "fr": true
           },
           {
@@ -7000,9 +7000,9 @@
           {
             "key": "betmgm",
             "title": "BetMGM",
-            "home": 1.65,
-            "away": 2.3,
-            "margin": 4.1,
+            "home": 1.69,
+            "away": 2.25,
+            "margin": 3.6,
             "fr": false
           },
           {
@@ -7016,8 +7016,8 @@
           {
             "key": "betrivers",
             "title": "BetRivers",
-            "home": 1.63,
-            "away": 2.28,
+            "home": 1.62,
+            "away": 2.3,
             "margin": 5.2,
             "fr": false
           },
@@ -7040,49 +7040,49 @@
           {
             "key": "betsson",
             "title": "Betsson",
-            "home": 1.64,
-            "away": 2.25,
-            "margin": 5.4,
+            "home": 1.65,
+            "away": 2.24,
+            "margin": 5.2,
             "fr": false
           },
           {
             "key": "bovada",
             "title": "Bovada",
-            "home": 1.68,
-            "away": 2.27,
-            "margin": 3.6,
+            "home": 1.67,
+            "away": 2.3,
+            "margin": 3.4,
             "fr": false
           },
           {
             "key": "codere_it",
             "title": "Codere (IT)",
-            "home": 1.63,
-            "away": 2.24,
+            "home": 1.64,
+            "away": 2.22,
             "margin": 6.0,
             "fr": false
           },
           {
             "key": "coolbet",
             "title": "Coolbet",
-            "home": 1.65,
-            "away": 2.3,
-            "margin": 4.1,
+            "home": 1.68,
+            "away": 2.25,
+            "margin": 4.0,
             "fr": false
           },
           {
             "key": "draftkings",
             "title": "DraftKings",
-            "home": 1.65,
-            "away": 2.3,
-            "margin": 4.1,
+            "home": 1.68,
+            "away": 2.24,
+            "margin": 4.2,
             "fr": false
           },
           {
             "key": "everygame",
             "title": "Everygame",
-            "home": 1.65,
-            "away": 2.35,
-            "margin": 3.2,
+            "home": 1.67,
+            "away": 2.3,
+            "margin": 3.4,
             "fr": false
           },
           {
@@ -7104,8 +7104,8 @@
           {
             "key": "leovegas_se",
             "title": "LeoVegas (SE)",
-            "home": 1.63,
-            "away": 2.28,
+            "home": 1.62,
+            "away": 2.3,
             "margin": 5.2,
             "fr": false
           },
@@ -7137,47 +7137,47 @@
             "key": "mybookieag",
             "title": "MyBookie.ag",
             "home": 1.65,
-            "away": 2.26,
-            "margin": 4.9,
+            "away": 2.25,
+            "margin": 5.1,
             "fr": false
           },
           {
             "key": "nordicbet",
             "title": "Nordic Bet",
-            "home": 1.64,
-            "away": 2.25,
-            "margin": 5.4,
+            "home": 1.65,
+            "away": 2.24,
+            "margin": 5.2,
             "fr": false
           },
           {
             "key": "pinnacle",
             "title": "Pinnacle",
             "home": 1.68,
-            "away": 2.29,
-            "margin": 3.2,
+            "away": 2.3,
+            "margin": 3.0,
             "fr": false
           },
           {
             "key": "tipico_de",
             "title": "Tipico",
-            "home": 1.62,
-            "away": 2.25,
-            "margin": 6.2,
+            "home": 1.7,
+            "away": 2.1,
+            "margin": 6.4,
             "fr": false
           },
           {
             "key": "unibet_nl",
             "title": "Unibet (NL)",
-            "home": 1.63,
-            "away": 2.28,
+            "home": 1.62,
+            "away": 2.3,
             "margin": 5.2,
             "fr": false
           },
           {
             "key": "unibet_se",
             "title": "Unibet (SE)",
-            "home": 1.63,
-            "away": 2.28,
+            "home": 1.62,
+            "away": 2.3,
             "margin": 5.2,
             "fr": false
           },
@@ -7192,12 +7192,12 @@
         ],
         "best_fr": {
           "home": {
-            "price": 1.6,
+            "price": 1.62,
             "book": "Betclic (FR)"
           },
           "away": {
-            "price": 2.2,
-            "book": "Betclic (FR)"
+            "price": 2.17,
+            "book": "NetBet"
           }
         },
         "fair_home": 1.72,
@@ -8276,6 +8276,12 @@
           "prob_home": 58.2,
           "spread": -2.5,
           "books": 29
+        },
+        {
+          "date": "2026-11-14",
+          "prob_home": 58.1,
+          "spread": -2.5,
+          "books": 29
         }
       ]
     },
@@ -8310,8 +8316,8 @@
         "off_rank": 6,
         "def_rank": 7
       },
-      "prob_home_win": 37.5,
-      "prob_away_win": 62.5,
+      "prob_home_win": 37.6,
+      "prob_away_win": 62.4,
       "predicted_spread": 3.5,
       "model_spread": 3.7,
       "model_prob_home": 37.5,
@@ -8323,17 +8329,17 @@
           {
             "key": "betclic_fr",
             "title": "Betclic (FR)",
-            "home": 2.4,
+            "home": 2.35,
             "away": 1.52,
-            "margin": 7.5,
+            "margin": 8.3,
             "fr": true
           },
           {
             "key": "netbet_fr",
             "title": "NetBet",
-            "home": 2.37,
-            "away": 1.47,
-            "margin": 10.2,
+            "home": 2.35,
+            "away": 1.48,
+            "margin": 10.1,
             "fr": true
           },
           {
@@ -8363,9 +8369,9 @@
           {
             "key": "betmgm",
             "title": "BetMGM",
-            "home": 2.5,
-            "away": 1.54,
-            "margin": 4.9,
+            "home": 2.45,
+            "away": 1.57,
+            "margin": 4.5,
             "fr": false
           },
           {
@@ -8395,9 +8401,9 @@
           {
             "key": "betfair_ex_eu",
             "title": "Betfair",
-            "home": 2.64,
-            "away": 1.59,
-            "margin": 0.8,
+            "home": 2.6,
+            "away": 1.6,
+            "margin": 1.0,
             "fr": false
           },
           {
@@ -8411,17 +8417,17 @@
           {
             "key": "bovada",
             "title": "Bovada",
-            "home": 2.53,
-            "away": 1.56,
+            "home": 2.48,
+            "away": 1.58,
             "margin": 3.6,
             "fr": false
           },
           {
             "key": "codere_it",
             "title": "Codere (IT)",
-            "home": 2.45,
-            "away": 1.53,
-            "margin": 6.2,
+            "home": 2.41,
+            "away": 1.55,
+            "margin": 6.0,
             "fr": false
           },
           {
@@ -8435,24 +8441,24 @@
           {
             "key": "draftkings",
             "title": "DraftKings",
-            "home": 2.5,
-            "away": 1.56,
-            "margin": 4.1,
+            "home": 2.45,
+            "away": 1.57,
+            "margin": 4.5,
             "fr": false
           },
           {
             "key": "everygame",
             "title": "Everygame",
-            "home": 2.6,
-            "away": 1.56,
-            "margin": 2.6,
+            "home": 2.55,
+            "away": 1.57,
+            "margin": 2.9,
             "fr": false
           },
           {
             "key": "fanduel",
             "title": "FanDuel",
-            "home": 2.46,
-            "away": 1.57,
+            "home": 2.44,
+            "away": 1.58,
             "margin": 4.3,
             "fr": false
           },
@@ -8483,25 +8489,25 @@
           {
             "key": "marathonbet",
             "title": "Marathon Bet",
-            "home": 2.42,
-            "away": 1.55,
-            "margin": 5.8,
+            "home": 2.38,
+            "away": 1.57,
+            "margin": 5.7,
             "fr": false
           },
           {
             "key": "matchbook",
             "title": "Matchbook",
-            "home": 2.64,
+            "home": 2.6,
             "away": 1.6,
-            "margin": 0.4,
+            "margin": 1.0,
             "fr": false
           },
           {
             "key": "mybookieag",
             "title": "MyBookie.ag",
-            "home": 2.48,
-            "away": 1.55,
-            "margin": 4.8,
+            "home": 2.44,
+            "away": 1.56,
+            "margin": 5.1,
             "fr": false
           },
           {
@@ -8515,17 +8521,17 @@
           {
             "key": "pinnacle",
             "title": "Pinnacle",
-            "home": 2.54,
-            "away": 1.57,
+            "home": 2.49,
+            "away": 1.59,
             "margin": 3.1,
             "fr": false
           },
           {
             "key": "tipico_de",
             "title": "Tipico",
-            "home": 2.55,
-            "away": 1.5,
-            "margin": 5.9,
+            "home": 2.4,
+            "away": 1.55,
+            "margin": 6.2,
             "fr": false
           },
           {
@@ -8555,7 +8561,7 @@
         ],
         "best_fr": {
           "home": {
-            "price": 2.4,
+            "price": 2.35,
             "book": "Betclic (FR)"
           },
           "away": {
@@ -8563,7 +8569,7 @@
             "book": "Betclic (FR)"
           }
         },
-        "fair_home": 2.67,
+        "fair_home": 2.66,
         "fair_away": 1.6
       },
       "projected_score": {
@@ -9395,7 +9401,7 @@
           "scored_last": 0
         }
       ],
-      "commentary": "Avantage Chiefs (63 %), à l’extérieur.",
+      "commentary": "Avantage Chiefs (62 %), à l’extérieur.",
       "injuries": {
         "home": [],
         "away": []
@@ -9403,7 +9409,7 @@
       "weather": {
         "roof": "retractable",
         "temp_c": 12,
-        "wind_kmh": 4,
+        "wind_kmh": 7,
         "precip_prob": 0,
         "windy": false
       },
@@ -9557,6 +9563,12 @@
           "prob_home": 37.5,
           "spread": 3.5,
           "books": 29
+        },
+        {
+          "date": "2026-11-14",
+          "prob_home": 37.6,
+          "spread": 3.5,
+          "books": 29
         }
       ]
     },
@@ -9605,8 +9617,8 @@
             "key": "betclic_fr",
             "title": "Betclic (FR)",
             "home": 2.7,
-            "away": 1.42,
-            "margin": 7.5,
+            "away": 1.4,
+            "margin": 8.5,
             "fr": true
           },
           {
@@ -9692,17 +9704,17 @@
           {
             "key": "bovada",
             "title": "Bovada",
-            "home": 2.85,
-            "away": 1.44,
-            "margin": 4.5,
+            "home": 2.95,
+            "away": 1.43,
+            "margin": 3.8,
             "fr": false
           },
           {
             "key": "codere_it",
             "title": "Codere (IT)",
-            "home": 2.75,
+            "home": 2.8,
             "away": 1.43,
-            "margin": 6.3,
+            "margin": 5.6,
             "fr": false
           },
           {
@@ -9716,9 +9728,9 @@
           {
             "key": "draftkings",
             "title": "DraftKings",
-            "home": 2.85,
-            "away": 1.44,
-            "margin": 4.5,
+            "home": 2.9,
+            "away": 1.43,
+            "margin": 4.4,
             "fr": false
           },
           {
@@ -9732,17 +9744,17 @@
           {
             "key": "fanduel",
             "title": "FanDuel",
-            "home": 2.94,
-            "away": 1.43,
-            "margin": 3.9,
+            "home": 2.98,
+            "away": 1.42,
+            "margin": 4.0,
             "fr": false
           },
           {
             "key": "gtbets",
             "title": "GTbets",
-            "home": 2.85,
-            "away": 1.44,
-            "margin": 4.5,
+            "home": 2.9,
+            "away": 1.43,
+            "margin": 4.4,
             "fr": false
           },
           {
@@ -9764,8 +9776,8 @@
           {
             "key": "marathonbet",
             "title": "Marathon Bet",
-            "home": 2.64,
-            "away": 1.47,
+            "home": 2.78,
+            "away": 1.43,
             "margin": 5.9,
             "fr": false
           },
@@ -9780,9 +9792,9 @@
           {
             "key": "mybookieag",
             "title": "MyBookie.ag",
-            "home": 2.88,
-            "away": 1.42,
-            "margin": 5.1,
+            "home": 2.82,
+            "away": 1.44,
+            "margin": 4.9,
             "fr": false
           },
           {
@@ -9796,9 +9808,9 @@
           {
             "key": "pinnacle",
             "title": "Pinnacle",
-            "home": 2.9,
-            "away": 1.45,
-            "margin": 3.4,
+            "home": 2.96,
+            "away": 1.44,
+            "margin": 3.2,
             "fr": false
           },
           {
@@ -9840,7 +9852,7 @@
             "book": "NetBet"
           },
           "away": {
-            "price": 1.42,
+            "price": 1.4,
             "book": "Betclic (FR)"
           }
         },
@@ -10828,6 +10840,12 @@
           "prob_home": 32.3,
           "spread": 4.5,
           "books": 29
+        },
+        {
+          "date": "2026-11-14",
+          "prob_home": 32.3,
+          "spread": 4.5,
+          "books": 29
         }
       ]
     },
@@ -10862,8 +10880,8 @@
         "off_rank": 31,
         "def_rank": 3
       },
-      "prob_home_win": 59.1,
-      "prob_away_win": 40.9,
+      "prob_home_win": 58.6,
+      "prob_away_win": 41.4,
       "predicted_spread": -3.0,
       "model_spread": -0.1,
       "model_prob_home": 50.2,
@@ -10883,17 +10901,17 @@
           {
             "key": "netbet_fr",
             "title": "NetBet",
-            "home": 1.53,
-            "away": 2.22,
-            "margin": 10.4,
+            "home": 1.55,
+            "away": 2.2,
+            "margin": 10.0,
             "fr": true
           },
           {
             "key": "pmu_fr",
             "title": "PMU (FR)",
             "home": 1.48,
-            "away": 2.05,
-            "margin": 16.3,
+            "away": 2.06,
+            "margin": 16.1,
             "fr": true
           },
           {
@@ -10907,25 +10925,25 @@
           {
             "key": "betanysports",
             "title": "BetAnything",
-            "home": 1.65,
-            "away": 2.35,
-            "margin": 3.2,
+            "home": 1.67,
+            "away": 2.3,
+            "margin": 3.4,
             "fr": false
           },
           {
             "key": "betmgm",
             "title": "BetMGM",
-            "home": 1.62,
+            "home": 1.65,
             "away": 2.3,
-            "margin": 5.2,
+            "margin": 4.1,
             "fr": false
           },
           {
             "key": "betonlineag",
             "title": "BetOnline.ag",
-            "home": 1.65,
-            "away": 2.35,
-            "margin": 3.2,
+            "home": 1.67,
+            "away": 2.3,
+            "margin": 3.4,
             "fr": false
           },
           {
@@ -10947,41 +10965,41 @@
           {
             "key": "betfair_ex_eu",
             "title": "Betfair",
-            "home": 1.68,
-            "away": 2.42,
-            "margin": 0.8,
+            "home": 1.7,
+            "away": 2.4,
+            "margin": 0.5,
             "fr": false
           },
           {
             "key": "betsson",
             "title": "Betsson",
-            "home": 1.62,
-            "away": 2.3,
-            "margin": 5.2,
+            "home": 1.64,
+            "away": 2.25,
+            "margin": 5.4,
             "fr": false
           },
           {
             "key": "bovada",
             "title": "Bovada",
-            "home": 1.62,
-            "away": 2.35,
-            "margin": 4.3,
+            "home": 1.65,
+            "away": 2.32,
+            "margin": 3.7,
             "fr": false
           },
           {
             "key": "codere_it",
             "title": "Codere (IT)",
-            "home": 1.62,
-            "away": 2.25,
-            "margin": 6.2,
+            "home": 1.63,
+            "away": 2.24,
+            "margin": 6.0,
             "fr": false
           },
           {
             "key": "coolbet",
             "title": "Coolbet",
-            "home": 1.63,
-            "away": 2.35,
-            "margin": 3.9,
+            "home": 1.65,
+            "away": 2.3,
+            "margin": 4.1,
             "fr": false
           },
           {
@@ -10995,25 +11013,25 @@
           {
             "key": "everygame",
             "title": "Everygame",
-            "home": 1.65,
-            "away": 2.35,
-            "margin": 3.2,
+            "home": 1.67,
+            "away": 2.3,
+            "margin": 3.4,
             "fr": false
           },
           {
             "key": "fanduel",
             "title": "FanDuel",
-            "home": 1.61,
-            "away": 2.38,
+            "home": 1.65,
+            "away": 2.3,
             "margin": 4.1,
             "fr": false
           },
           {
             "key": "gtbets",
             "title": "GTbets",
-            "home": 1.62,
-            "away": 2.35,
-            "margin": 4.3,
+            "home": 1.67,
+            "away": 2.3,
+            "margin": 3.4,
             "fr": false
           },
           {
@@ -11027,49 +11045,49 @@
           {
             "key": "lowvig",
             "title": "LowVig.ag",
-            "home": 1.65,
-            "away": 2.35,
-            "margin": 3.2,
+            "home": 1.67,
+            "away": 2.3,
+            "margin": 3.4,
             "fr": false
           },
           {
             "key": "marathonbet",
             "title": "Marathon Bet",
-            "home": 1.66,
-            "away": 2.19,
-            "margin": 5.9,
+            "home": 1.68,
+            "away": 2.16,
+            "margin": 5.8,
             "fr": false
           },
           {
             "key": "matchbook",
             "title": "Matchbook",
-            "home": 1.68,
-            "away": 2.42,
-            "margin": 0.8,
+            "home": 1.7,
+            "away": 2.4,
+            "margin": 0.5,
             "fr": false
           },
           {
             "key": "mybookieag",
             "title": "MyBookie.ag",
             "home": 1.64,
-            "away": 2.28,
-            "margin": 4.8,
+            "away": 2.27,
+            "margin": 5.0,
             "fr": false
           },
           {
             "key": "nordicbet",
             "title": "Nordic Bet",
-            "home": 1.62,
-            "away": 2.3,
-            "margin": 5.2,
+            "home": 1.64,
+            "away": 2.25,
+            "margin": 5.4,
             "fr": false
           },
           {
             "key": "pinnacle",
             "title": "Pinnacle",
-            "home": 1.64,
-            "away": 2.37,
-            "margin": 3.2,
+            "home": 1.66,
+            "away": 2.34,
+            "margin": 3.0,
             "fr": false
           },
           {
@@ -11083,17 +11101,17 @@
           {
             "key": "unibet_nl",
             "title": "Unibet (NL)",
-            "home": 1.67,
-            "away": 2.32,
-            "margin": 3.0,
+            "home": 1.66,
+            "away": 2.33,
+            "margin": 3.2,
             "fr": false
           },
           {
             "key": "unibet_se",
             "title": "Unibet (SE)",
-            "home": 1.67,
-            "away": 2.32,
-            "margin": 3.0,
+            "home": 1.66,
+            "away": 2.33,
+            "margin": 3.2,
             "fr": false
           },
           {
@@ -11111,12 +11129,12 @@
             "book": "Betclic (FR)"
           },
           "away": {
-            "price": 2.22,
-            "book": "NetBet"
+            "price": 2.2,
+            "book": "Betclic (FR)"
           }
         },
-        "fair_home": 1.69,
-        "fair_away": 2.44
+        "fair_home": 1.71,
+        "fair_away": 2.42
       },
       "projected_score": {
         "home": 23,
@@ -11924,7 +11942,7 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 5,
+        "temp_c": 3,
         "wind_kmh": 5,
         "precip_prob": 0,
         "windy": false
@@ -12079,6 +12097,12 @@
           "prob_home": 59.1,
           "spread": -3.0,
           "books": 29
+        },
+        {
+          "date": "2026-11-14",
+          "prob_home": 58.6,
+          "spread": -3.0,
+          "books": 29
         }
       ]
     },
@@ -12113,38 +12137,38 @@
         "off_rank": 21,
         "def_rank": 32
       },
-      "prob_home_win": 65.1,
-      "prob_away_win": 34.9,
+      "prob_home_win": 65.9,
+      "prob_away_win": 34.1,
       "predicted_spread": -4.0,
       "model_spread": -2.0,
       "model_prob_home": 56.9,
       "vegas_spread": -4.0,
       "vegas_total": 38.5,
       "odds": {
-        "n_books": 28,
+        "n_books": 29,
         "books": [
           {
             "key": "betclic_fr",
             "title": "Betclic (FR)",
-            "home": 1.45,
+            "home": 1.42,
             "away": 2.6,
-            "margin": 7.4,
+            "margin": 8.9,
             "fr": true
           },
           {
             "key": "netbet_fr",
             "title": "NetBet",
-            "home": 1.4,
-            "away": 2.6,
-            "margin": 9.9,
+            "home": 1.39,
+            "away": 2.62,
+            "margin": 10.1,
             "fr": true
           },
           {
             "key": "pmu_fr",
             "title": "PMU (FR)",
-            "home": 1.34,
-            "away": 2.4,
-            "margin": 16.3,
+            "home": 1.36,
+            "away": 2.35,
+            "margin": 16.1,
             "fr": true
           },
           {
@@ -12167,8 +12191,8 @@
             "key": "betmgm",
             "title": "BetMGM",
             "home": 1.48,
-            "away": 2.7,
-            "margin": 4.6,
+            "away": 2.75,
+            "margin": 3.9,
             "fr": false
           },
           {
@@ -12182,89 +12206,97 @@
           {
             "key": "betrivers",
             "title": "BetRivers",
+            "home": 1.5,
+            "away": 2.6,
+            "margin": 5.1,
+            "fr": false
+          },
+          {
+            "key": "betus",
+            "title": "BetUS",
             "home": 1.48,
-            "away": 2.65,
-            "margin": 5.3,
+            "away": 2.8,
+            "margin": 3.3,
             "fr": false
           },
           {
             "key": "betfair_ex_eu",
             "title": "Betfair",
             "home": 1.51,
-            "away": 2.88,
-            "margin": 0.9,
+            "away": 2.9,
+            "margin": 0.7,
             "fr": false
           },
           {
             "key": "betsson",
             "title": "Betsson",
-            "home": 1.48,
-            "away": 2.65,
+            "home": 1.45,
+            "away": 2.75,
             "margin": 5.3,
             "fr": false
           },
           {
             "key": "bovada",
             "title": "Bovada",
-            "home": 1.49,
-            "away": 2.72,
-            "margin": 3.9,
-            "fr": false
-          },
-          {
-            "key": "codere_it",
-            "title": "Codere (IT)",
-            "home": 1.46,
-            "away": 2.65,
-            "margin": 6.2,
-            "fr": false
-          },
-          {
-            "key": "coolbet",
-            "title": "Coolbet",
-            "home": 1.5,
-            "away": 2.7,
-            "margin": 3.7,
-            "fr": false
-          },
-          {
-            "key": "draftkings",
-            "title": "DraftKings",
-            "home": 1.49,
-            "away": 2.7,
-            "margin": 4.2,
-            "fr": false
-          },
-          {
-            "key": "everygame",
-            "title": "Everygame",
-            "home": 1.5,
-            "away": 2.7,
-            "margin": 3.7,
-            "fr": false
-          },
-          {
-            "key": "fanduel",
-            "title": "FanDuel",
-            "home": 1.47,
-            "away": 2.8,
-            "margin": 3.7,
-            "fr": false
-          },
-          {
-            "key": "gtbets",
-            "title": "GTbets",
             "home": 1.48,
             "away": 2.75,
             "margin": 3.9,
             "fr": false
           },
           {
+            "key": "codere_it",
+            "title": "Codere (IT)",
+            "home": 1.45,
+            "away": 2.7,
+            "margin": 6.0,
+            "fr": false
+          },
+          {
+            "key": "coolbet",
+            "title": "Coolbet",
+            "home": 1.46,
+            "away": 2.82,
+            "margin": 4.0,
+            "fr": false
+          },
+          {
+            "key": "draftkings",
+            "title": "DraftKings",
+            "home": 1.46,
+            "away": 2.8,
+            "margin": 4.2,
+            "fr": false
+          },
+          {
+            "key": "everygame",
+            "title": "Everygame",
+            "home": 1.49,
+            "away": 2.75,
+            "margin": 3.5,
+            "fr": false
+          },
+          {
+            "key": "fanduel",
+            "title": "FanDuel",
+            "home": 1.48,
+            "away": 2.76,
+            "margin": 3.8,
+            "fr": false
+          },
+          {
+            "key": "gtbets",
+            "title": "GTbets",
+            "home": 1.45,
+            "away": 2.8,
+            "margin": 4.7,
+            "fr": false
+          },
+          {
             "key": "leovegas_se",
             "title": "LeoVegas (SE)",
-            "home": 1.48,
-            "away": 2.65,
-            "margin": 5.3,
+            "home": 1.5,
+            "away": 2.6,
+            "margin": 5.1,
             "fr": false
           },
           {
@@ -12278,8 +12310,8 @@
           {
             "key": "marathonbet",
             "title": "Marathon Bet",
-            "home": 1.48,
-            "away": 2.61,
+            "home": 1.41,
+            "away": 2.86,
             "margin": 5.9,
             "fr": false
           },
@@ -12287,8 +12319,8 @@
             "key": "matchbook",
             "title": "Matchbook",
             "home": 1.51,
-            "away": 2.88,
-            "margin": 0.9,
+            "away": 2.9,
+            "margin": 0.7,
             "fr": false
           },
           {
@@ -12302,17 +12334,17 @@
           {
             "key": "nordicbet",
             "title": "Nordic Bet",
-            "home": 1.48,
-            "away": 2.65,
+            "home": 1.45,
+            "away": 2.75,
             "margin": 5.3,
             "fr": false
           },
           {
             "key": "pinnacle",
             "title": "Pinnacle",
-            "home": 1.5,
-            "away": 2.73,
-            "margin": 3.3,
+            "home": 1.49,
+            "away": 2.78,
+            "margin": 3.1,
             "fr": false
           },
           {
@@ -12326,17 +12358,17 @@
           {
             "key": "unibet_nl",
             "title": "Unibet (NL)",
-            "home": 1.48,
-            "away": 2.65,
-            "margin": 5.3,
+            "home": 1.5,
+            "away": 2.6,
+            "margin": 5.1,
             "fr": false
           },
           {
             "key": "unibet_se",
             "title": "Unibet (SE)",
-            "home": 1.48,
-            "away": 2.65,
-            "margin": 5.3,
+            "home": 1.5,
+            "away": 2.6,
+            "margin": 5.1,
             "fr": false
           },
           {
@@ -12350,16 +12382,16 @@
         ],
         "best_fr": {
           "home": {
-            "price": 1.45,
+            "price": 1.42,
             "book": "Betclic (FR)"
           },
           "away": {
-            "price": 2.6,
-            "book": "Betclic (FR)"
+            "price": 2.62,
+            "book": "NetBet"
           }
         },
-        "fair_home": 1.54,
-        "fair_away": 2.87
+        "fair_home": 1.52,
+        "fair_away": 2.93
       },
       "projected_score": {
         "home": 21,
@@ -12367,7 +12399,7 @@
       },
       "confidence_score": "Modérée",
       "tier": "Probable",
-      "prob_source": "moyenne de 28 bookmakers",
+      "prob_source": "moyenne de 29 bookmakers",
       "factors": {
         "elo": 2.3,
         "epa": 2.2,
@@ -13180,15 +13212,15 @@
           "scored_last": 0
         }
       ],
-      "commentary": "Avantage Colts (65 %), à domicile. QB titulaire indisponible chez les Dolphins : Kyle McCord attendu.",
+      "commentary": "Avantage Colts (66 %), à domicile. QB titulaire indisponible chez les Dolphins : Kyle McCord attendu.",
       "injuries": {
         "home": [],
         "away": []
       },
       "weather": {
         "roof": "retractable",
-        "temp_c": 9,
-        "wind_kmh": 7,
+        "temp_c": 8,
+        "wind_kmh": 6,
         "precip_prob": 0,
         "windy": false
       },
@@ -13342,6 +13374,12 @@
           "prob_home": 65.1,
           "spread": -4.0,
           "books": 28
+        },
+        {
+          "date": "2026-11-14",
+          "prob_home": 65.9,
+          "spread": -4.0,
+          "books": 29
         }
       ]
     },
@@ -13376,8 +13414,8 @@
         "off_rank": 15,
         "def_rank": 24
       },
-      "prob_home_win": 55.5,
-      "prob_away_win": 44.5,
+      "prob_home_win": 56.1,
+      "prob_away_win": 43.9,
       "predicted_spread": -2.5,
       "model_spread": -1.2,
       "model_prob_home": 54.0,
@@ -13405,9 +13443,9 @@
           {
             "key": "pmu_fr",
             "title": "PMU (FR)",
-            "home": 1.6,
-            "away": 1.88,
-            "margin": 15.7,
+            "home": 1.51,
+            "away": 2.0,
+            "margin": 16.2,
             "fr": true
           },
           {
@@ -13429,9 +13467,9 @@
           {
             "key": "betmgm",
             "title": "BetMGM",
-            "home": 1.74,
+            "home": 1.71,
             "away": 2.15,
-            "margin": 4.0,
+            "margin": 5.0,
             "fr": false
           },
           {
@@ -13445,9 +13483,9 @@
           {
             "key": "betrivers",
             "title": "BetRivers",
-            "home": 1.76,
-            "away": 2.07,
-            "margin": 5.1,
+            "home": 1.67,
+            "away": 2.2,
+            "margin": 5.3,
             "fr": false
           },
           {
@@ -13461,9 +13499,9 @@
           {
             "key": "betfair_ex_eu",
             "title": "Betfair",
-            "home": 1.79,
-            "away": 2.22,
-            "margin": 0.9,
+            "home": 1.82,
+            "away": 2.2,
+            "margin": 0.4,
             "fr": false
           },
           {
@@ -13477,8 +13515,8 @@
           {
             "key": "bovada",
             "title": "Bovada",
-            "home": 1.71,
-            "away": 2.2,
+            "home": 1.73,
+            "away": 2.17,
             "margin": 3.9,
             "fr": false
           },
@@ -13486,8 +13524,8 @@
             "key": "codere_it",
             "title": "Codere (IT)",
             "home": 1.7,
-            "away": 2.12,
-            "margin": 6.0,
+            "away": 2.13,
+            "margin": 5.8,
             "fr": false
           },
           {
@@ -13501,9 +13539,9 @@
           {
             "key": "draftkings",
             "title": "DraftKings",
-            "home": 1.77,
-            "away": 2.1,
-            "margin": 4.1,
+            "home": 1.74,
+            "away": 2.14,
+            "margin": 4.2,
             "fr": false
           },
           {
@@ -13517,8 +13555,8 @@
           {
             "key": "fanduel",
             "title": "FanDuel",
-            "home": 1.76,
-            "away": 2.12,
+            "home": 1.72,
+            "away": 2.18,
             "margin": 4.0,
             "fr": false
           },
@@ -13533,9 +13571,9 @@
           {
             "key": "leovegas_se",
             "title": "LeoVegas (SE)",
-            "home": 1.76,
-            "away": 2.07,
-            "margin": 5.1,
+            "home": 1.67,
+            "away": 2.2,
+            "margin": 5.3,
             "fr": false
           },
           {
@@ -13549,9 +13587,9 @@
           {
             "key": "marathonbet",
             "title": "Marathon Bet",
-            "home": 1.76,
-            "away": 2.04,
-            "margin": 5.8,
+            "home": 1.78,
+            "away": 2.01,
+            "margin": 5.9,
             "fr": false
           },
           {
@@ -13573,9 +13611,9 @@
           {
             "key": "pinnacle",
             "title": "Pinnacle",
-            "home": 1.73,
-            "away": 2.21,
-            "margin": 3.1,
+            "home": 1.75,
+            "away": 2.19,
+            "margin": 2.8,
             "fr": false
           },
           {
@@ -13589,17 +13627,17 @@
           {
             "key": "unibet_nl",
             "title": "Unibet (NL)",
-            "home": 1.76,
-            "away": 2.07,
-            "margin": 5.1,
+            "home": 1.67,
+            "away": 2.2,
+            "margin": 5.3,
             "fr": false
           },
           {
             "key": "unibet_se",
             "title": "Unibet (SE)",
-            "home": 1.76,
-            "away": 2.07,
-            "margin": 5.1,
+            "home": 1.67,
+            "away": 2.2,
+            "margin": 5.3,
             "fr": false
           },
           {
@@ -13621,8 +13659,8 @@
             "book": "Betclic (FR)"
           }
         },
-        "fair_home": 1.8,
-        "fair_away": 2.25
+        "fair_home": 1.78,
+        "fair_away": 2.28
       },
       "projected_score": {
         "home": 26,
@@ -14581,6 +14619,12 @@
           "prob_home": 55.5,
           "spread": -2.5,
           "books": 28
+        },
+        {
+          "date": "2026-11-14",
+          "prob_home": 56.1,
+          "spread": -2.5,
+          "books": 28
         }
       ]
     },
@@ -14660,17 +14704,17 @@
           {
             "key": "betanysports",
             "title": "BetAnything",
-            "home": 4.75,
-            "away": 1.21,
-            "margin": 3.7,
+            "home": 4.5,
+            "away": 1.22,
+            "margin": 4.2,
             "fr": false
           },
           {
             "key": "betmgm",
             "title": "BetMGM",
-            "home": 4.6,
+            "home": 4.5,
             "away": 1.22,
-            "margin": 3.7,
+            "margin": 4.2,
             "fr": false
           },
           {
@@ -14700,9 +14744,9 @@
           {
             "key": "betfair_ex_eu",
             "title": "Betfair",
-            "home": 4.7,
-            "away": 1.26,
-            "margin": 0.6,
+            "home": 4.8,
+            "away": 1.25,
+            "margin": 0.8,
             "fr": false
           },
           {
@@ -14724,9 +14768,9 @@
           {
             "key": "codere_it",
             "title": "Codere (IT)",
-            "home": 3.9,
+            "home": 3.85,
             "away": 1.25,
-            "margin": 5.6,
+            "margin": 6.0,
             "fr": false
           },
           {
@@ -14740,9 +14784,9 @@
           {
             "key": "draftkings",
             "title": "DraftKings",
-            "home": 4.4,
-            "away": 1.23,
-            "margin": 4.0,
+            "home": 4.3,
+            "away": 1.24,
+            "margin": 3.9,
             "fr": false
           },
           {
@@ -14756,17 +14800,17 @@
           {
             "key": "fanduel",
             "title": "FanDuel",
-            "home": 4.7,
-            "away": 1.21,
-            "margin": 3.9,
+            "home": 4.5,
+            "away": 1.22,
+            "margin": 4.2,
             "fr": false
           },
           {
             "key": "gtbets",
             "title": "GTbets",
-            "home": 4.45,
-            "away": 1.22,
-            "margin": 4.4,
+            "home": 4.4,
+            "away": 1.23,
+            "margin": 4.0,
             "fr": false
           },
           {
@@ -14796,9 +14840,9 @@
           {
             "key": "matchbook",
             "title": "Matchbook",
-            "home": 4.7,
-            "away": 1.26,
-            "margin": 0.6,
+            "home": 4.8,
+            "away": 1.25,
+            "margin": 0.8,
             "fr": false
           },
           {
@@ -14820,17 +14864,17 @@
           {
             "key": "pinnacle",
             "title": "Pinnacle",
-            "home": 4.36,
+            "home": 4.37,
             "away": 1.24,
-            "margin": 3.6,
+            "margin": 3.5,
             "fr": false
           },
           {
             "key": "tipico_de",
             "title": "Tipico",
-            "home": 4.1,
-            "away": 1.22,
-            "margin": 6.4,
+            "home": 3.8,
+            "away": 1.25,
+            "margin": 6.3,
             "fr": false
           },
           {
@@ -15687,10 +15731,10 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 9,
-        "wind_kmh": 19,
+        "temp_c": 8,
+        "wind_kmh": 17,
         "precip_prob": 0,
-        "windy": true
+        "windy": false
       },
       "round": null,
       "lineup": {
@@ -15815,7 +15859,7 @@
       "flags": {
         "value": false,
         "key_out": 0,
-        "windy": true,
+        "windy": false,
         "dome": false
       },
       "line_history": [
@@ -15839,6 +15883,12 @@
         },
         {
           "date": "2026-11-13",
+          "prob_home": 20.6,
+          "spread": 8.0,
+          "books": 29
+        },
+        {
+          "date": "2026-11-14",
           "prob_home": 20.6,
           "spread": 8.0,
           "books": 29
@@ -15876,8 +15926,8 @@
         "off_rank": 4,
         "def_rank": 1
       },
-      "prob_home_win": 16.6,
-      "prob_away_win": 83.4,
+      "prob_home_win": 15.8,
+      "prob_away_win": 84.2,
       "predicted_spread": 10.5,
       "model_spread": 10.7,
       "model_prob_home": 17.7,
@@ -15897,17 +15947,17 @@
           {
             "key": "netbet_fr",
             "title": "NetBet",
-            "home": 5.1,
-            "away": 1.11,
-            "margin": 9.7,
+            "home": 5.2,
+            "away": 1.1,
+            "margin": 10.1,
             "fr": true
           },
           {
             "key": "pmu_fr",
             "title": "PMU (FR)",
-            "home": 4.4,
-            "away": 1.07,
-            "margin": 16.2,
+            "home": 4.7,
+            "away": 1.05,
+            "margin": 16.5,
             "fr": true
           },
           {
@@ -15929,48 +15979,48 @@
           {
             "key": "betmgm",
             "title": "BetMGM",
-            "home": 5.5,
-            "away": 1.17,
-            "margin": 3.7,
+            "home": 6.0,
+            "away": 1.15,
+            "margin": 3.6,
             "fr": false
           },
           {
             "key": "betonlineag",
             "title": "BetOnline.ag",
-            "home": 5.25,
+            "home": 5.28,
             "away": 1.18,
-            "margin": 3.8,
+            "margin": 3.7,
             "fr": false
           },
           {
             "key": "betrivers",
             "title": "BetRivers",
-            "home": 5.1,
-            "away": 1.17,
-            "margin": 5.1,
+            "home": 5.4,
+            "away": 1.15,
+            "margin": 5.5,
             "fr": false
           },
           {
             "key": "betus",
             "title": "BetUS",
-            "home": 5.25,
-            "away": 1.18,
-            "margin": 3.8,
+            "home": 5.4,
+            "away": 1.17,
+            "margin": 4.0,
             "fr": false
           },
           {
             "key": "betfair_ex_eu",
             "title": "Betfair",
             "home": 6.2,
-            "away": 1.19,
-            "margin": 0.2,
+            "away": 1.18,
+            "margin": 0.9,
             "fr": false
           },
           {
             "key": "betsson",
             "title": "Betsson",
-            "home": 5.26,
-            "away": 1.16,
+            "home": 5.49,
+            "away": 1.15,
             "margin": 5.2,
             "fr": false
           },
@@ -15993,73 +16043,73 @@
           {
             "key": "coolbet",
             "title": "Coolbet",
-            "home": 5.4,
-            "away": 1.17,
-            "margin": 4.0,
+            "home": 5.6,
+            "away": 1.16,
+            "margin": 4.1,
             "fr": false
           },
           {
             "key": "draftkings",
             "title": "DraftKings",
-            "home": 5.4,
-            "away": 1.17,
-            "margin": 4.0,
-            "fr": false
-          },
-          {
-            "key": "everygame",
-            "title": "Everygame",
-            "home": 5.1,
-            "away": 1.18,
-            "margin": 4.4,
-            "fr": false
-          },
-          {
-            "key": "fanduel",
-            "title": "FanDuel",
             "home": 6.0,
             "away": 1.14,
             "margin": 4.4,
             "fr": false
           },
           {
+            "key": "everygame",
+            "title": "Everygame",
+            "home": 5.4,
+            "away": 1.17,
+            "margin": 4.0,
+            "fr": false
+          },
+          {
+            "key": "fanduel",
+            "title": "FanDuel",
+            "home": 5.9,
+            "away": 1.15,
+            "margin": 3.9,
+            "fr": false
+          },
+          {
             "key": "gtbets",
             "title": "GTbets",
-            "home": 5.25,
+            "home": 5.4,
             "away": 1.17,
-            "margin": 4.5,
+            "margin": 4.0,
             "fr": false
           },
           {
             "key": "leovegas_se",
             "title": "LeoVegas (SE)",
-            "home": 5.1,
-            "away": 1.17,
-            "margin": 5.1,
+            "home": 5.4,
+            "away": 1.15,
+            "margin": 5.5,
             "fr": false
           },
           {
             "key": "lowvig",
             "title": "LowVig.ag",
-            "home": 5.25,
+            "home": 5.28,
             "away": 1.18,
-            "margin": 3.8,
+            "margin": 3.7,
             "fr": false
           },
           {
             "key": "marathonbet",
             "title": "Marathon Bet",
-            "home": 5.2,
-            "away": 1.16,
-            "margin": 5.4,
+            "home": 5.25,
+            "away": 1.15,
+            "margin": 6.0,
             "fr": false
           },
           {
             "key": "matchbook",
             "title": "Matchbook",
             "home": 6.2,
-            "away": 1.19,
-            "margin": 0.2,
+            "away": 1.18,
+            "margin": 0.9,
             "fr": false
           },
           {
@@ -16073,8 +16123,8 @@
           {
             "key": "nordicbet",
             "title": "Nordic Bet",
-            "home": 5.26,
-            "away": 1.16,
+            "home": 5.49,
+            "away": 1.15,
             "margin": 5.2,
             "fr": false
           },
@@ -16097,17 +16147,17 @@
           {
             "key": "unibet_nl",
             "title": "Unibet (NL)",
-            "home": 5.1,
-            "away": 1.17,
-            "margin": 5.1,
+            "home": 5.4,
+            "away": 1.15,
+            "margin": 5.5,
             "fr": false
           },
           {
             "key": "unibet_se",
             "title": "Unibet (SE)",
-            "home": 5.1,
-            "away": 1.17,
-            "margin": 5.1,
+            "home": 5.4,
+            "away": 1.15,
+            "margin": 5.5,
             "fr": false
           },
           {
@@ -16121,7 +16171,7 @@
         ],
         "best_fr": {
           "home": {
-            "price": 5.1,
+            "price": 5.2,
             "book": "NetBet"
           },
           "away": {
@@ -16129,8 +16179,8 @@
             "book": "Betclic (FR)"
           }
         },
-        "fair_home": 6.02,
-        "fair_away": 1.2
+        "fair_home": 6.33,
+        "fair_away": 1.19
       },
       "projected_score": {
         "home": 18,
@@ -16961,7 +17011,7 @@
           "scored_last": 0
         }
       ],
-      "commentary": "Avantage Jaguars (83 %), à l’extérieur.",
+      "commentary": "Avantage Jaguars (84 %), à l’extérieur.",
       "injuries": {
         "home": [],
         "away": []
@@ -16969,7 +17019,7 @@
       "weather": {
         "roof": "open",
         "temp_c": 11,
-        "wind_kmh": 8,
+        "wind_kmh": 12,
         "precip_prob": 0,
         "windy": false
       },
@@ -17123,6 +17173,12 @@
           "prob_home": 16.6,
           "spread": 10.5,
           "books": 29
+        },
+        {
+          "date": "2026-11-14",
+          "prob_home": 15.8,
+          "spread": 10.5,
+          "books": 29
         }
       ]
     },
@@ -17157,8 +17213,8 @@
         "off_rank": 9,
         "def_rank": 5
       },
-      "prob_home_win": 19.3,
-      "prob_away_win": 80.7,
+      "prob_home_win": 19.5,
+      "prob_away_win": 80.5,
       "predicted_spread": 9.5,
       "model_spread": 6.8,
       "model_prob_home": 27.6,
@@ -17170,25 +17226,25 @@
           {
             "key": "betclic_fr",
             "title": "Betclic (FR)",
-            "home": 4.5,
-            "away": 1.17,
-            "margin": 7.7,
+            "home": 4.4,
+            "away": 1.18,
+            "margin": 7.5,
             "fr": true
           },
           {
             "key": "netbet_fr",
             "title": "NetBet",
-            "home": 4.5,
-            "away": 1.14,
-            "margin": 9.9,
+            "home": 4.4,
+            "away": 1.15,
+            "margin": 9.7,
             "fr": true
           },
           {
             "key": "pmu_fr",
             "title": "PMU (FR)",
-            "home": 3.95,
+            "home": 4.0,
             "away": 1.1,
-            "margin": 16.2,
+            "margin": 15.9,
             "fr": true
           },
           {
@@ -17210,9 +17266,9 @@
           {
             "key": "betmgm",
             "title": "BetMGM",
-            "home": 4.75,
+            "home": 4.6,
             "away": 1.21,
-            "margin": 3.7,
+            "margin": 4.4,
             "fr": false
           },
           {
@@ -17227,8 +17283,8 @@
             "key": "betrivers",
             "title": "BetRivers",
             "home": 4.5,
-            "away": 1.2,
-            "margin": 5.6,
+            "away": 1.21,
+            "margin": 4.9,
             "fr": false
           },
           {
@@ -17243,8 +17299,8 @@
             "key": "betfair_ex_eu",
             "title": "Betfair",
             "home": 5.0,
-            "away": 1.23,
-            "margin": 1.3,
+            "away": 1.24,
+            "margin": 0.6,
             "fr": false
           },
           {
@@ -17266,9 +17322,9 @@
           {
             "key": "codere_it",
             "title": "Codere (IT)",
-            "home": 4.7,
-            "away": 1.18,
-            "margin": 6.0,
+            "home": 4.6,
+            "away": 1.19,
+            "margin": 5.8,
             "fr": false
           },
           {
@@ -17290,24 +17346,24 @@
           {
             "key": "everygame",
             "title": "Everygame",
-            "home": 4.75,
-            "away": 1.2,
-            "margin": 4.4,
+            "home": 4.65,
+            "away": 1.21,
+            "margin": 4.2,
             "fr": false
           },
           {
             "key": "fanduel",
             "title": "FanDuel",
-            "home": 5.1,
-            "away": 1.18,
-            "margin": 4.4,
+            "home": 4.85,
+            "away": 1.2,
+            "margin": 4.0,
             "fr": false
           },
           {
             "key": "gtbets",
             "title": "GTbets",
-            "home": 4.75,
-            "away": 1.2,
+            "home": 4.6,
+            "away": 1.21,
             "margin": 4.4,
             "fr": false
           },
@@ -17315,8 +17371,8 @@
             "key": "leovegas_se",
             "title": "LeoVegas (SE)",
             "home": 4.5,
-            "away": 1.2,
-            "margin": 5.6,
+            "away": 1.21,
+            "margin": 4.9,
             "fr": false
           },
           {
@@ -17339,8 +17395,8 @@
             "key": "matchbook",
             "title": "Matchbook",
             "home": 5.0,
-            "away": 1.23,
-            "margin": 1.3,
+            "away": 1.24,
+            "margin": 0.6,
             "fr": false
           },
           {
@@ -17379,16 +17435,16 @@
             "key": "unibet_nl",
             "title": "Unibet (NL)",
             "home": 4.5,
-            "away": 1.2,
-            "margin": 5.6,
+            "away": 1.21,
+            "margin": 4.9,
             "fr": false
           },
           {
             "key": "unibet_se",
             "title": "Unibet (SE)",
             "home": 4.5,
-            "away": 1.2,
-            "margin": 5.6,
+            "away": 1.21,
+            "margin": 4.9,
             "fr": false
           },
           {
@@ -17402,15 +17458,15 @@
         ],
         "best_fr": {
           "home": {
-            "price": 4.5,
+            "price": 4.4,
             "book": "Betclic (FR)"
           },
           "away": {
-            "price": 1.17,
+            "price": 1.18,
             "book": "Betclic (FR)"
           }
         },
-        "fair_home": 5.18,
+        "fair_home": 5.13,
         "fair_away": 1.24
       },
       "projected_score": {
@@ -18199,8 +18255,8 @@
       },
       "weather": {
         "roof": "retractable",
-        "temp_c": 22,
-        "wind_kmh": 5,
+        "temp_c": 23,
+        "wind_kmh": 1,
         "precip_prob": 0,
         "windy": false
       },
@@ -18354,6 +18410,12 @@
           "prob_home": 19.3,
           "spread": 9.5,
           "books": 29
+        },
+        {
+          "date": "2026-11-14",
+          "prob_home": 19.5,
+          "spread": 9.5,
+          "books": 29
         }
       ]
     },
@@ -18388,8 +18450,8 @@
         "off_rank": 17,
         "def_rank": 4
       },
-      "prob_home_win": 27.6,
-      "prob_away_win": 72.4,
+      "prob_home_win": 27.4,
+      "prob_away_win": 72.6,
       "predicted_spread": 6.5,
       "model_spread": 10.0,
       "model_prob_home": 19.3,
@@ -18409,24 +18471,24 @@
           {
             "key": "netbet_fr",
             "title": "NetBet",
-            "home": 3.15,
-            "away": 1.28,
-            "margin": 9.9,
+            "home": 3.25,
+            "away": 1.27,
+            "margin": 9.5,
             "fr": true
           },
           {
             "key": "pmu_fr",
             "title": "PMU (FR)",
             "home": 2.95,
-            "away": 1.22,
-            "margin": 15.9,
+            "away": 1.21,
+            "margin": 16.5,
             "fr": true
           },
           {
             "key": "sport888",
             "title": "888sport",
-            "home": 3.3,
-            "away": 1.33,
+            "home": 3.5,
+            "away": 1.3,
             "margin": 5.5,
             "fr": false
           },
@@ -18441,9 +18503,9 @@
           {
             "key": "betmgm",
             "title": "BetMGM",
-            "home": 3.3,
-            "away": 1.35,
-            "margin": 4.4,
+            "home": 3.4,
+            "away": 1.34,
+            "margin": 4.0,
             "fr": false
           },
           {
@@ -18457,9 +18519,9 @@
           {
             "key": "betrivers",
             "title": "BetRivers",
-            "home": 3.25,
+            "home": 3.3,
             "away": 1.34,
-            "margin": 5.4,
+            "margin": 4.9,
             "fr": false
           },
           {
@@ -18481,9 +18543,9 @@
           {
             "key": "betsson",
             "title": "Betsson",
-            "home": 3.2,
-            "away": 1.35,
-            "margin": 5.3,
+            "home": 3.33,
+            "away": 1.33,
+            "margin": 5.2,
             "fr": false
           },
           {
@@ -18497,25 +18559,25 @@
           {
             "key": "codere_it",
             "title": "Codere (IT)",
-            "home": 3.3,
+            "home": 3.35,
             "away": 1.32,
-            "margin": 6.1,
+            "margin": 5.6,
             "fr": false
           },
           {
             "key": "coolbet",
             "title": "Coolbet",
-            "home": 3.3,
-            "away": 1.36,
-            "margin": 3.8,
+            "home": 3.4,
+            "away": 1.34,
+            "margin": 4.0,
             "fr": false
           },
           {
             "key": "draftkings",
             "title": "DraftKings",
-            "home": 3.4,
-            "away": 1.34,
-            "margin": 4.0,
+            "home": 3.45,
+            "away": 1.33,
+            "margin": 4.2,
             "fr": false
           },
           {
@@ -18529,9 +18591,9 @@
           {
             "key": "fanduel",
             "title": "FanDuel",
-            "home": 3.35,
-            "away": 1.34,
-            "margin": 4.5,
+            "home": 3.5,
+            "away": 1.32,
+            "margin": 4.3,
             "fr": false
           },
           {
@@ -18545,9 +18607,9 @@
           {
             "key": "leovegas_se",
             "title": "LeoVegas (SE)",
-            "home": 3.3,
+            "home": 3.35,
             "away": 1.34,
-            "margin": 4.9,
+            "margin": 4.5,
             "fr": false
           },
           {
@@ -18561,8 +18623,8 @@
           {
             "key": "marathonbet",
             "title": "Marathon Bet",
-            "home": 3.68,
-            "away": 1.27,
+            "home": 3.38,
+            "away": 1.31,
             "margin": 5.9,
             "fr": false
           },
@@ -18570,32 +18632,32 @@
             "key": "matchbook",
             "title": "Matchbook",
             "home": 3.6,
-            "away": 1.37,
-            "margin": 0.8,
+            "away": 1.38,
+            "margin": 0.2,
             "fr": false
           },
           {
             "key": "mybookieag",
             "title": "MyBookie.ag",
-            "home": 3.36,
-            "away": 1.33,
-            "margin": 4.9,
+            "home": 3.38,
+            "away": 1.32,
+            "margin": 5.3,
             "fr": false
           },
           {
             "key": "nordicbet",
             "title": "Nordic Bet",
-            "home": 3.2,
-            "away": 1.35,
-            "margin": 5.3,
+            "home": 3.33,
+            "away": 1.33,
+            "margin": 5.2,
             "fr": false
           },
           {
             "key": "pinnacle",
             "title": "Pinnacle",
             "home": 3.37,
-            "away": 1.36,
-            "margin": 3.2,
+            "away": 1.35,
+            "margin": 3.7,
             "fr": false
           },
           {
@@ -18609,39 +18671,39 @@
           {
             "key": "unibet_nl",
             "title": "Unibet (NL)",
-            "home": 3.45,
+            "home": 3.5,
             "away": 1.34,
-            "margin": 3.6,
+            "margin": 3.2,
             "fr": false
           },
           {
             "key": "unibet_se",
             "title": "Unibet (SE)",
-            "home": 3.45,
+            "home": 3.5,
             "away": 1.34,
-            "margin": 3.6,
+            "margin": 3.2,
             "fr": false
           },
           {
             "key": "williamhill",
             "title": "William Hill",
-            "home": 3.3,
-            "away": 1.33,
+            "home": 3.5,
+            "away": 1.3,
             "margin": 5.5,
             "fr": false
           }
         ],
         "best_fr": {
           "home": {
-            "price": 3.2,
-            "book": "Betclic (FR)"
+            "price": 3.25,
+            "book": "NetBet"
           },
           "away": {
             "price": 1.3,
             "book": "Betclic (FR)"
           }
         },
-        "fair_home": 3.62,
+        "fair_home": 3.65,
         "fair_away": 1.38
       },
       "projected_score": {
@@ -19443,7 +19505,7 @@
           "scored_last": 0
         }
       ],
-      "commentary": "Avantage Seahawks (72 %), à l’extérieur. Le modèle maison (+10,0) s’écarte des bookmakers (+6,5). QB annoncé chez les Raiders (Fernando Mendoza) : −3,4 pt par rapport à leur niveau habituel.",
+      "commentary": "Avantage Seahawks (73 %), à l’extérieur. Le modèle maison (+10,0) s’écarte des bookmakers (+6,5). QB annoncé chez les Raiders (Fernando Mendoza) : −3,4 pt par rapport à leur niveau habituel.",
       "injuries": {
         "home": [],
         "away": []
@@ -19601,6 +19663,12 @@
           "prob_home": 27.6,
           "spread": 6.5,
           "books": 29
+        },
+        {
+          "date": "2026-11-14",
+          "prob_home": 27.4,
+          "spread": 6.5,
+          "books": 29
         }
       ]
     },
@@ -19635,8 +19703,8 @@
         "off_rank": 2,
         "def_rank": 14
       },
-      "prob_home_win": 34.1,
-      "prob_away_win": 65.9,
+      "prob_home_win": 33.8,
+      "prob_away_win": 66.2,
       "predicted_spread": 4.0,
       "model_spread": 4.0,
       "model_prob_home": 36.3,
@@ -19648,17 +19716,17 @@
           {
             "key": "betclic_fr",
             "title": "Betclic (FR)",
-            "home": 2.6,
-            "away": 1.45,
-            "margin": 7.4,
+            "home": 2.7,
+            "away": 1.48,
+            "margin": 4.6,
             "fr": true
           },
           {
             "key": "netbet_fr",
             "title": "NetBet",
-            "home": 2.6,
-            "away": 1.4,
-            "margin": 9.9,
+            "home": 2.65,
+            "away": 1.39,
+            "margin": 9.7,
             "fr": true
           },
           {
@@ -19672,25 +19740,25 @@
           {
             "key": "sport888",
             "title": "888sport",
-            "home": 2.75,
-            "away": 1.44,
-            "margin": 5.8,
+            "home": 2.9,
+            "away": 1.4,
+            "margin": 5.9,
             "fr": false
           },
           {
             "key": "betanysports",
             "title": "BetAnything",
-            "home": 2.75,
-            "away": 1.47,
-            "margin": 4.4,
+            "home": 2.8,
+            "away": 1.45,
+            "margin": 4.7,
             "fr": false
           },
           {
             "key": "betmgm",
             "title": "BetMGM",
-            "home": 2.85,
-            "away": 1.44,
-            "margin": 4.5,
+            "home": 2.8,
+            "away": 1.45,
+            "margin": 4.7,
             "fr": false
           },
           {
@@ -19712,17 +19780,17 @@
           {
             "key": "betus",
             "title": "BetUS",
-            "home": 2.8,
-            "away": 1.48,
-            "margin": 3.3,
+            "home": 2.85,
+            "away": 1.45,
+            "margin": 4.1,
             "fr": false
           },
           {
             "key": "betfair_ex_eu",
             "title": "Betfair",
-            "home": 2.9,
+            "home": 2.88,
             "away": 1.51,
-            "margin": 0.7,
+            "margin": 0.9,
             "fr": false
           },
           {
@@ -19744,24 +19812,24 @@
           {
             "key": "codere_it",
             "title": "Codere (IT)",
-            "home": 2.65,
-            "away": 1.46,
-            "margin": 6.2,
+            "home": 2.75,
+            "away": 1.43,
+            "margin": 6.3,
             "fr": false
           },
           {
             "key": "coolbet",
             "title": "Coolbet",
-            "home": 2.78,
-            "away": 1.47,
+            "home": 2.82,
+            "away": 1.46,
             "margin": 4.0,
             "fr": false
           },
           {
             "key": "draftkings",
             "title": "DraftKings",
-            "home": 2.7,
-            "away": 1.49,
+            "home": 2.8,
+            "away": 1.46,
             "margin": 4.2,
             "fr": false
           },
@@ -19776,17 +19844,17 @@
           {
             "key": "fanduel",
             "title": "FanDuel",
-            "home": 2.76,
-            "away": 1.48,
-            "margin": 3.8,
+            "home": 2.8,
+            "away": 1.47,
+            "margin": 3.7,
             "fr": false
           },
           {
             "key": "gtbets",
             "title": "GTbets",
-            "home": 2.75,
-            "away": 1.48,
-            "margin": 3.9,
+            "home": 2.8,
+            "away": 1.45,
+            "margin": 4.7,
             "fr": false
           },
           {
@@ -19808,8 +19876,8 @@
           {
             "key": "marathonbet",
             "title": "Marathon Bet",
-            "home": 2.58,
-            "away": 1.49,
+            "home": 2.64,
+            "away": 1.47,
             "margin": 5.9,
             "fr": false
           },
@@ -19824,9 +19892,9 @@
           {
             "key": "mybookieag",
             "title": "MyBookie.ag",
-            "home": 2.7,
-            "away": 1.47,
-            "margin": 5.1,
+            "home": 2.81,
+            "away": 1.44,
+            "margin": 5.0,
             "fr": false
           },
           {
@@ -19848,9 +19916,9 @@
           {
             "key": "tipico_de",
             "title": "Tipico",
-            "home": 2.7,
-            "away": 1.45,
-            "margin": 6.0,
+            "home": 2.9,
+            "away": 1.4,
+            "margin": 5.9,
             "fr": false
           },
           {
@@ -19872,24 +19940,24 @@
           {
             "key": "williamhill",
             "title": "William Hill",
-            "home": 2.75,
-            "away": 1.44,
-            "margin": 5.8,
+            "home": 2.9,
+            "away": 1.4,
+            "margin": 5.9,
             "fr": false
           }
         ],
         "best_fr": {
           "home": {
-            "price": 2.6,
+            "price": 2.7,
             "book": "Betclic (FR)"
           },
           "away": {
-            "price": 1.45,
+            "price": 1.48,
             "book": "Betclic (FR)"
           }
         },
-        "fair_home": 2.93,
-        "fair_away": 1.52
+        "fair_home": 2.96,
+        "fair_away": 1.51
       },
       "projected_score": {
         "home": 26,
@@ -20727,8 +20795,8 @@
       },
       "weather": {
         "roof": "retractable",
-        "temp_c": 11,
-        "wind_kmh": 16,
+        "temp_c": 10,
+        "wind_kmh": 17,
         "precip_prob": 59,
         "windy": false
       },
@@ -20882,6 +20950,12 @@
           "prob_home": 34.1,
           "spread": 4.0,
           "books": 29
+        },
+        {
+          "date": "2026-11-14",
+          "prob_home": 33.8,
+          "spread": 4.0,
+          "books": 29
         }
       ]
     },
@@ -20930,16 +21004,16 @@
             "key": "betclic_fr",
             "title": "Betclic (FR)",
             "home": 1.5,
-            "away": 2.45,
-            "margin": 7.5,
+            "away": 2.4,
+            "margin": 8.3,
             "fr": true
           },
           {
             "key": "netbet_fr",
             "title": "NetBet",
             "home": 1.45,
-            "away": 2.42,
-            "margin": 10.3,
+            "away": 2.4,
+            "margin": 10.6,
             "fr": true
           },
           {
@@ -21002,8 +21076,8 @@
             "key": "betfair_ex_eu",
             "title": "Betfair",
             "home": 1.58,
-            "away": 2.68,
-            "margin": 0.6,
+            "away": 2.66,
+            "margin": 0.9,
             "fr": false
           },
           {
@@ -21026,8 +21100,8 @@
             "key": "codere_it",
             "title": "Codere (IT)",
             "home": 1.52,
-            "away": 2.49,
-            "margin": 6.0,
+            "away": 2.48,
+            "margin": 6.1,
             "fr": false
           },
           {
@@ -21041,9 +21115,9 @@
           {
             "key": "draftkings",
             "title": "DraftKings",
-            "home": 1.56,
-            "away": 2.5,
-            "margin": 4.1,
+            "home": 1.54,
+            "away": 2.54,
+            "margin": 4.3,
             "fr": false
           },
           {
@@ -21057,9 +21131,9 @@
           {
             "key": "fanduel",
             "title": "FanDuel",
-            "home": 1.54,
-            "away": 2.54,
-            "margin": 4.3,
+            "home": 1.56,
+            "away": 2.5,
+            "margin": 4.1,
             "fr": false
           },
           {
@@ -21098,16 +21172,16 @@
             "key": "matchbook",
             "title": "Matchbook",
             "home": 1.58,
-            "away": 2.68,
-            "margin": 0.6,
+            "away": 2.66,
+            "margin": 0.9,
             "fr": false
           },
           {
             "key": "mybookieag",
             "title": "MyBookie.ag",
             "home": 1.53,
-            "away": 2.53,
-            "margin": 4.9,
+            "away": 2.51,
+            "margin": 5.2,
             "fr": false
           },
           {
@@ -21165,7 +21239,7 @@
             "book": "Betclic (FR)"
           },
           "away": {
-            "price": 2.45,
+            "price": 2.4,
             "book": "Betclic (FR)"
           }
         },
@@ -22008,8 +22082,8 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 8,
-        "wind_kmh": 6,
+        "temp_c": 5,
+        "wind_kmh": 5,
         "precip_prob": 0,
         "windy": false
       },
@@ -22163,6 +22237,12 @@
           "prob_home": 63.1,
           "spread": -3.5,
           "books": 29
+        },
+        {
+          "date": "2026-11-14",
+          "prob_home": 63.1,
+          "spread": -3.5,
+          "books": 29
         }
       ]
     },
@@ -22250,9 +22330,9 @@
           {
             "key": "betmgm",
             "title": "BetMGM",
-            "home": 1.44,
-            "away": 2.88,
-            "margin": 4.2,
+            "home": 1.45,
+            "away": 2.8,
+            "margin": 4.7,
             "fr": false
           },
           {
@@ -22282,17 +22362,17 @@
           {
             "key": "betfair_ex_eu",
             "title": "Betfair",
-            "home": 1.49,
-            "away": 2.9,
-            "margin": 1.6,
+            "home": 1.5,
+            "away": 2.88,
+            "margin": 1.4,
             "fr": false
           },
           {
             "key": "betsson",
             "title": "Betsson",
-            "home": 1.44,
-            "away": 2.8,
-            "margin": 5.2,
+            "home": 1.45,
+            "away": 2.75,
+            "margin": 5.3,
             "fr": false
           },
           {
@@ -22322,9 +22402,9 @@
           {
             "key": "draftkings",
             "title": "DraftKings",
-            "home": 1.43,
-            "away": 2.9,
-            "margin": 4.4,
+            "home": 1.44,
+            "away": 2.85,
+            "margin": 4.5,
             "fr": false
           },
           {
@@ -22338,9 +22418,9 @@
           {
             "key": "fanduel",
             "title": "FanDuel",
-            "home": 1.45,
+            "home": 1.44,
             "away": 2.88,
-            "margin": 3.7,
+            "margin": 4.2,
             "fr": false
           },
           {
@@ -22378,9 +22458,9 @@
           {
             "key": "matchbook",
             "title": "Matchbook",
-            "home": 1.49,
+            "home": 1.5,
             "away": 2.9,
-            "margin": 1.6,
+            "margin": 1.1,
             "fr": false
           },
           {
@@ -22394,9 +22474,9 @@
           {
             "key": "nordicbet",
             "title": "Nordic Bet",
-            "home": 1.44,
-            "away": 2.8,
-            "margin": 5.2,
+            "home": 1.45,
+            "away": 2.75,
+            "margin": 5.3,
             "fr": false
           },
           {
@@ -23444,6 +23524,12 @@
           "prob_home": 66.3,
           "spread": -4.5,
           "books": 29
+        },
+        {
+          "date": "2026-11-14",
+          "prob_home": 66.3,
+          "spread": -4.5,
+          "books": 29
         }
       ]
     }
@@ -23456,7 +23542,7 @@
           "price": 1.13,
           "book": "Betclic (FR)"
         },
-        "ev": -5.8,
+        "ev": -4.9,
         "source": "moyenne de 29 bookmakers",
         "game_id": "2026_10_JAX_TEN",
         "gameday": "2026-11-15",
@@ -23486,9 +23572,9 @@
           "def_rank": 28
         },
         "home": false,
-        "prob": 83.4,
+        "prob": 84.2,
         "tier": "Très sûr",
-        "fair_odds": 1.2,
+        "fair_odds": 1.19,
         "hist": {
           "tier": "Très sûr",
           "min": 0.8,
@@ -23501,10 +23587,10 @@
       },
       {
         "best_fr": {
-          "price": 1.17,
+          "price": 1.18,
           "book": "Betclic (FR)"
         },
-        "ev": -5.6,
+        "ev": -5.0,
         "source": "moyenne de 29 bookmakers",
         "game_id": "2026_10_LA_ARI",
         "gameday": "2026-11-15",
@@ -23534,7 +23620,7 @@
           "def_rank": 27
         },
         "home": false,
-        "prob": 80.7,
+        "prob": 80.5,
         "tier": "Très sûr",
         "fair_odds": 1.24,
         "hist": {
@@ -23600,7 +23686,7 @@
           "price": 1.3,
           "book": "Betclic (FR)"
         },
-        "ev": -5.9,
+        "ev": -5.6,
         "source": "moyenne de 29 bookmakers",
         "game_id": "2026_10_SEA_LV",
         "gameday": "2026-11-15",
@@ -23630,7 +23716,7 @@
           "def_rank": 30
         },
         "home": false,
-        "prob": 72.4,
+        "prob": 72.6,
         "tier": "Sûr",
         "fair_odds": 1.38,
         "hist": {
@@ -23650,7 +23736,7 @@
           "price": 1.68,
           "book": "Betclic (FR)"
         },
-        "ev": -6.8,
+        "ev": -5.8,
         "source": "moyenne de 28 bookmakers",
         "game_id": "2026_10_CAR_NO",
         "gameday": "2026-11-15",
@@ -23680,9 +23766,9 @@
           "def_rank": 24
         },
         "home": true,
-        "prob": 55.5,
+        "prob": 56.1,
         "tier": "Serré",
-        "fair_odds": 1.8,
+        "fair_odds": 1.78,
         "hist": {
           "tier": "Serré",
           "min": 0.5,
@@ -24659,9 +24745,9 @@
     "type": "consensus",
     "games": 13,
     "books": 29,
-    "status": "cache",
-    "fetched_at": "2026-11-13T00:00:16+00:00",
-    "credits": "476"
+    "status": "live",
+    "fetched_at": "2026-11-14T02:26:41+00:00",
+    "credits": "470"
   },
   "sources": {
     "injuries": 18,
@@ -25566,12 +25652,12 @@
       "sim": {
         "proj_wins": 12.4,
         "playoff": 98.4,
-        "division": 93.6,
-        "seed1": 18.2,
+        "division": 93.7,
+        "seed1": 18.3,
         "conf": 25.2,
-        "sb": 14.5,
+        "sb": 14.6,
         "if_win": 99.1,
-        "if_lose": 94.9
+        "if_lose": 94.8
       },
       "power": 5.8,
       "schedule": [
@@ -25671,7 +25757,7 @@
           "opp": "TEN",
           "opp_nick": "Titans",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
-          "prob": 83.4
+          "prob": 84.2
         },
         {
           "week": 11,
@@ -25827,7 +25913,7 @@
         "proj_wins": 13.1,
         "playoff": 99.1,
         "division": 92.9,
-        "seed1": 41.2,
+        "seed1": 41.1,
         "conf": 26.2,
         "sb": 14.5,
         "if_win": 99.6,
@@ -26091,7 +26177,7 @@
         "conf": 9.6,
         "sb": 5.2,
         "if_win": 57.5,
-        "if_lose": 36.0
+        "if_lose": 36.1
       },
       "power": 4.4,
       "schedule": [
@@ -26202,7 +26288,7 @@
           "opp": "ARI",
           "opp_nick": "Cardinals",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-          "prob": 80.7
+          "prob": 80.5
         },
         {
           "week": 12,
@@ -26347,9 +26433,9 @@
       "sim": {
         "proj_wins": 12.8,
         "playoff": 96.2,
-        "division": 84.1,
-        "seed1": 48.1,
-        "conf": 27.1,
+        "division": 84.2,
+        "seed1": 48.2,
+        "conf": 27.2,
         "sb": 13.3,
         "if_win": 98.2,
         "if_lose": 92.3
@@ -26452,7 +26538,7 @@
           "opp": "DAL",
           "opp_nick": "Cowboys",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
-          "prob": 65.9
+          "prob": 66.2
         },
         {
           "week": 11,
@@ -26606,11 +26692,11 @@
       "division": "NFC West",
       "sim": {
         "proj_wins": 9.9,
-        "playoff": 48.1,
+        "playoff": 48.2,
         "division": 9.0,
         "seed1": 1.6,
         "conf": 8.1,
-        "sb": 4.4,
+        "sb": 4.5,
         "if_win": 52.3,
         "if_lose": 36.7
       },
@@ -26723,7 +26809,7 @@
           "opp": "LV",
           "opp_nick": "Raiders",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
-          "prob": 72.4
+          "prob": 72.6
         },
         {
           "week": 12,
@@ -26835,7 +26921,7 @@
         ],
         [
           10,
-          48.1
+          48.2
         ]
       ]
     },
@@ -26868,10 +26954,10 @@
       "sim": {
         "proj_wins": 11.2,
         "playoff": 92.6,
-        "division": 38.6,
+        "division": 38.5,
         "seed1": 8.6,
         "conf": 11.5,
-        "sb": 5.7,
+        "sb": 5.6,
         "if_win": 95.2,
         "if_lose": 88.3
       },
@@ -26973,7 +27059,7 @@
           "opp": "ATL",
           "opp_nick": "Falcons",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
-          "prob": 62.5
+          "prob": 62.4
         },
         {
           "week": 11,
@@ -27388,7 +27474,7 @@
         "proj_wins": 12.1,
         "playoff": 95.5,
         "division": 60.8,
-        "seed1": 18.5,
+        "seed1": 18.4,
         "conf": 12.8,
         "sb": 6.5
       },
@@ -27648,8 +27734,8 @@
         "playoff": 93.0,
         "division": 63.9,
         "seed1": 9.9,
-        "conf": 10.8,
-        "sb": 5.3,
+        "conf": 10.7,
+        "sb": 5.2,
         "if_win": 96.5,
         "if_lose": 86.8
       },
@@ -28011,7 +28097,7 @@
           "opp": "NE",
           "opp_nick": "Patriots",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
-          "prob": 58.2
+          "prob": 58.1
         },
         {
           "week": 11,
@@ -28165,12 +28251,12 @@
       "division": "AFC South",
       "sim": {
         "proj_wins": 8.6,
-        "playoff": 35.7,
-        "division": 6.3,
+        "playoff": 35.6,
+        "division": 6.2,
         "seed1": 0.0,
         "conf": 2.9,
         "sb": 1.5,
-        "if_win": 44.4,
+        "if_win": 44.3,
         "if_lose": 18.1
       },
       "power": 2.7,
@@ -28393,7 +28479,7 @@
         ],
         [
           10,
-          35.7
+          35.6
         ]
       ]
     },
@@ -28424,14 +28510,14 @@
       "conf": "NFC",
       "division": "NFC North",
       "sim": {
-        "proj_wins": 10.3,
-        "playoff": 56.9,
-        "division": 10.4,
+        "proj_wins": 10.2,
+        "playoff": 56.6,
+        "division": 10.3,
         "seed1": 3.3,
         "conf": 6.3,
         "sb": 2.8,
-        "if_win": 69.7,
-        "if_lose": 38.2
+        "if_win": 69.6,
+        "if_lose": 38.1
       },
       "power": 2.1,
       "schedule": [
@@ -28542,7 +28628,7 @@
           "opp": "MIN",
           "opp_nick": "Vikings",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
-          "prob": 59.1
+          "prob": 58.6
         },
         {
           "week": 12,
@@ -28654,7 +28740,7 @@
         ],
         [
           10,
-          56.9
+          56.6
         ]
       ]
     },
@@ -28803,7 +28889,7 @@
           "opp": "DET",
           "opp_nick": "Lions",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
-          "prob": 41.8
+          "prob": 41.9
         },
         {
           "week": 12,
@@ -29207,13 +29293,13 @@
       "division": "NFC North",
       "sim": {
         "proj_wins": 10.7,
-        "playoff": 73.6,
-        "division": 20.8,
+        "playoff": 73.8,
+        "division": 20.9,
         "seed1": 9.8,
         "conf": 8.4,
         "sb": 3.6,
         "if_win": 87.8,
-        "if_lose": 63.9
+        "if_lose": 64.0
       },
       "power": 1.1,
       "schedule": [
@@ -29313,7 +29399,7 @@
           "opp": "GB",
           "opp_nick": "Packers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
-          "prob": 40.9
+          "prob": 41.4
         },
         {
           "week": 11,
@@ -29435,7 +29521,7 @@
         ],
         [
           10,
-          73.6
+          73.8
         ]
       ]
     },
@@ -29467,12 +29553,12 @@
       "division": "NFC East",
       "sim": {
         "proj_wins": 8.0,
-        "playoff": 31.7,
-        "division": 30.6,
+        "playoff": 31.6,
+        "division": 30.5,
         "seed1": 0.0,
         "conf": 2.7,
         "sb": 1.0,
-        "if_win": 44.9,
+        "if_win": 44.8,
         "if_lose": 24.8
       },
       "power": 0.5,
@@ -29584,7 +29670,7 @@
           "opp": "SF",
           "opp_nick": "49ers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
-          "prob": 34.1
+          "prob": 33.8
         },
         {
           "week": 11,
@@ -29696,7 +29782,7 @@
         ],
         [
           10,
-          31.7
+          31.6
         ]
       ]
     },
@@ -29992,7 +30078,7 @@
         "seed1": 0.0,
         "conf": 0.4,
         "sb": 0.2,
-        "if_win": 17.4,
+        "if_win": 17.3,
         "if_lose": 5.9
       },
       "power": -0.9,
@@ -30365,7 +30451,7 @@
           "opp": "KC",
           "opp_nick": "Chiefs",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-          "prob": 37.5
+          "prob": 37.6
         },
         {
           "week": 12,
@@ -30509,8 +30595,8 @@
       "division": "NFC South",
       "sim": {
         "proj_wins": 7.0,
-        "playoff": 26.9,
-        "division": 26.7,
+        "playoff": 26.8,
+        "division": 26.6,
         "seed1": 0.0,
         "conf": 1.3,
         "sb": 0.4,
@@ -30615,7 +30701,7 @@
           "opp": "NO",
           "opp_nick": "Saints",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
-          "prob": 44.5
+          "prob": 43.9
         },
         {
           "week": 11,
@@ -30737,7 +30823,7 @@
         ],
         [
           10,
-          26.9
+          26.8
         ]
       ]
     },
@@ -30769,8 +30855,8 @@
       "division": "NFC South",
       "sim": {
         "proj_wins": 7.1,
-        "playoff": 25.6,
-        "division": 25.3,
+        "playoff": 25.7,
+        "division": 25.4,
         "seed1": 0.0,
         "conf": 1.5,
         "sb": 0.6,
@@ -30875,7 +30961,7 @@
           "opp": "CAR",
           "opp_nick": "Panthers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png",
-          "prob": 55.5
+          "prob": 56.1
         },
         {
           "week": 11,
@@ -30997,7 +31083,7 @@
         ],
         [
           10,
-          25.6
+          25.7
         ]
       ]
     },
@@ -31029,8 +31115,8 @@
       "division": "NFC East",
       "sim": {
         "proj_wins": 8.8,
-        "playoff": 55.2,
-        "division": 54.1,
+        "playoff": 55.3,
+        "division": 54.2,
         "seed1": 0.5,
         "conf": 2.9,
         "sb": 1.0
@@ -31256,7 +31342,7 @@
         ],
         [
           10,
-          55.2
+          55.3
         ]
       ]
     },
@@ -31925,7 +32011,7 @@
           "opp": "MIA",
           "opp_nick": "Dolphins",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
-          "prob": 65.1
+          "prob": 65.9
         },
         {
           "week": 11,
@@ -32074,7 +32160,7 @@
         "seed1": 0.0,
         "conf": 0.2,
         "sb": 0.1,
-        "if_win": 12.9,
+        "if_win": 13.0,
         "if_lose": 5.0
       },
       "power": -3.6,
@@ -32186,7 +32272,7 @@
           "opp": "SEA",
           "opp_nick": "Seahawks",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-          "prob": 27.6
+          "prob": 27.4
         },
         {
           "week": 11,
@@ -32854,7 +32940,7 @@
         "seed1": 0.0,
         "conf": 0.0,
         "sb": 0.0,
-        "if_win": 1.4,
+        "if_win": 1.5,
         "if_lose": 0.0
       },
       "power": -4.2,
@@ -32966,7 +33052,7 @@
           "opp": "LA",
           "opp_nick": "Rams",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
-          "prob": 19.3
+          "prob": 19.5
         },
         {
           "week": 11,
@@ -33477,7 +33563,7 @@
           "opp": "IND",
           "opp_nick": "Colts",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-          "prob": 34.9
+          "prob": 34.1
         },
         {
           "week": 11,
@@ -33737,7 +33823,7 @@
           "opp": "JAX",
           "opp_nick": "Jaguars",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
-          "prob": 16.6
+          "prob": 15.8
         },
         {
           "week": 11,
@@ -33865,7 +33951,7 @@
     }
   ],
   "studies": {
-    "generated_at": "2026-11-13T21:59:28+00:00",
+    "generated_at": "2026-11-14T02:26:46+00:00",
     "spread_sd": {
       "best_sd": 11.25,
       "games": 2887
