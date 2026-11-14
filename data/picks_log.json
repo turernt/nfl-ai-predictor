@@ -434,7 +434,7 @@
    "open_prob": 57.5,
    "open_fr": null,
    "close_prob": 58.1,
-   "closed_at": "2026-11-14T12:11+00:00",
+   "closed_at": "2026-11-14T20:43+00:00",
    "scorers": [
     {
      "id": "00-0039139",
@@ -521,7 +521,7 @@
    "open_prob": 62.1,
    "open_fr": null,
    "close_prob": 62.4,
-   "closed_at": "2026-11-14T12:11+00:00",
+   "closed_at": "2026-11-14T20:43+00:00",
    "scorers": [
     {
      "id": "00-0038134",
@@ -608,7 +608,7 @@
    "open_prob": 67.1,
    "open_fr": null,
    "close_prob": 67.7,
-   "closed_at": "2026-11-14T12:11+00:00",
+   "closed_at": "2026-11-14T20:43+00:00",
    "scorers": [
     {
      "id": "00-0040583",
@@ -685,7 +685,7 @@
    ],
    "wind_total": {
     "line": 40.5,
-    "wind": 21
+    "wind": 20
    }
   },
   "2026_10_MIN_GB": {
@@ -699,7 +699,7 @@
    "open_prob": 65.1,
    "open_fr": null,
    "close_prob": 58.6,
-   "closed_at": "2026-11-14T12:11+00:00",
+   "closed_at": "2026-11-14T20:43+00:00",
    "scorers": [
     {
      "id": "00-0036322",
@@ -786,79 +786,79 @@
    "open_prob": 55.4,
    "open_fr": null,
    "close_prob": 65.9,
-   "closed_at": "2026-11-14T12:11+00:00",
+   "closed_at": "2026-11-14T20:43+00:00",
    "scorers": [
     {
      "id": "00-0036223",
      "name": "Jonathan Taylor",
      "team": "IND",
-     "prob": 51.2
+     "prob": 50.3
     },
     {
      "id": "00-0040198",
      "name": "Ollie Gordon II",
      "team": "MIA",
-     "prob": 41.3
+     "prob": 40.2
     },
     {
      "id": "00-0040128",
      "name": "Tyler Warren",
      "team": "IND",
-     "prob": 29.6
+     "prob": 28.9
     },
     {
      "id": "00-0039880",
      "name": "Malik Washington",
      "team": "MIA",
-     "prob": 21.8
+     "prob": 21.0
     },
     {
      "id": "00-0041523",
      "name": "Caleb Douglas",
      "team": "MIA",
-     "prob": 18.8
+     "prob": 18.1
     },
     {
      "id": "00-0041125",
      "name": "Seth McGowan",
      "team": "IND",
-     "prob": 17.3
+     "prob": 16.8
     },
     {
      "id": "00-0032951",
      "name": "Laquon Treadwell",
      "team": "IND",
-     "prob": 14.6
+     "prob": 14.2
     },
     {
      "id": "00-0035710",
      "name": "Daniel Jones",
      "team": "IND",
-     "prob": 13.3
+     "prob": 12.9
     },
     {
      "id": "00-0037252",
      "name": "Greg Dulcich",
      "team": "MIA",
-     "prob": 10.9
+     "prob": 10.5
     },
     {
      "id": "00-0041529",
      "name": "Kevin Coleman Jr.",
      "team": "MIA",
-     "prob": 10.1
+     "prob": 9.7
     },
     {
      "id": "00-0039874",
      "name": "Jaylen Wright",
      "team": "MIA",
-     "prob": 7.0
+     "prob": 6.7
     },
     {
      "id": "00-0035021",
      "name": "Ashton Dulin",
      "team": "IND",
-     "prob": 6.9
+     "prob": 6.7
     }
    ]
   },
@@ -873,7 +873,7 @@
    "open_prob": 52.3,
    "open_fr": null,
    "close_prob": 56.1,
-   "closed_at": "2026-11-14T12:11+00:00",
+   "closed_at": "2026-11-14T20:43+00:00",
    "scorers": [
     {
      "id": "00-0036555",
@@ -960,7 +960,7 @@
    "open_prob": 81.7,
    "open_fr": null,
    "close_prob": 79.4,
-   "closed_at": "2026-11-14T12:11+00:00",
+   "closed_at": "2026-11-14T20:43+00:00",
    "scorers": [
     {
      "id": "00-0037248",
@@ -1047,7 +1047,7 @@
    "open_prob": 84.1,
    "open_fr": null,
    "close_prob": 84.2,
-   "closed_at": "2026-11-14T12:11+00:00",
+   "closed_at": "2026-11-14T20:43+00:00",
    "scorers": [
     {
      "id": "00-0040719",
@@ -1134,7 +1134,7 @@
    "open_prob": 79.9,
    "open_fr": null,
    "close_prob": 80.5,
-   "closed_at": "2026-11-14T12:11+00:00",
+   "closed_at": "2026-11-14T20:43+00:00",
    "scorers": [
     {
      "id": "00-0037840",
@@ -1221,7 +1221,7 @@
    "open_prob": 62.1,
    "open_fr": null,
    "close_prob": 72.6,
-   "closed_at": "2026-11-14T12:11+00:00",
+   "closed_at": "2026-11-14T20:43+00:00",
    "scorers": [
     {
      "id": "00-0038543",
@@ -1308,7 +1308,7 @@
    "open_prob": 66.4,
    "open_fr": null,
    "close_prob": 66.2,
-   "closed_at": "2026-11-14T12:11+00:00",
+   "closed_at": "2026-11-14T20:43+00:00",
    "scorers": [
     {
      "id": "00-0033280",
@@ -1395,7 +1395,7 @@
    "open_prob": 62.1,
    "open_fr": null,
    "close_prob": 63.1,
-   "closed_at": "2026-11-14T12:11+00:00",
+   "closed_at": "2026-11-14T20:43+00:00",
    "scorers": [
     {
      "id": "00-0036900",
@@ -1482,7 +1482,7 @@
    "open_prob": 66.4,
    "open_fr": null,
    "close_prob": 66.3,
-   "closed_at": "2026-11-14T12:11+00:00",
+   "closed_at": "2026-11-14T20:43+00:00",
    "scorers": [
     {
      "id": "00-0032764",

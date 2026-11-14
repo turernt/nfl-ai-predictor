@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T12:11:15+00:00",
+  "generated_at": "2026-11-14T20:43:15+00:00",
   "season": 2026,
   "week": 10,
   "week_label": "Semaine 10",
@@ -9489,7 +9489,7 @@
       "weather": {
         "roof": "retractable",
         "temp_c": 12,
-        "wind_kmh": 4,
+        "wind_kmh": 7,
         "precip_prob": 0,
         "windy": false
       },
@@ -10845,9 +10845,9 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 8,
-        "wind_kmh": 21,
-        "precip_prob": 5,
+        "temp_c": 7,
+        "wind_kmh": 20,
+        "precip_prob": 6,
         "windy": true
       },
       "round": null,
@@ -12202,8 +12202,8 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 2,
-        "wind_kmh": 2,
+        "temp_c": 6,
+        "wind_kmh": 4,
         "precip_prob": 0,
         "windy": false
       },
@@ -12427,7 +12427,7 @@
       "model_spread": -2.0,
       "model_prob_home": 56.9,
       "vegas_spread": -4.0,
-      "vegas_total": 38.5,
+      "vegas_total": 37.5,
       "odds": {
         "n_books": 29,
         "books": [
@@ -12707,7 +12707,7 @@
           "team": "IND",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/d7pmatz5wylijbsplnkg",
-          "prob": 51.2,
+          "prob": 50.3,
           "season_tds": 8,
           "status": null,
           "games": 9,
@@ -12774,7 +12774,7 @@
           "team": "MIA",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bv33rgypaauv7sealwkr",
-          "prob": 41.3,
+          "prob": 40.2,
           "season_tds": 4,
           "status": null,
           "games": 7,
@@ -12841,7 +12841,7 @@
           "team": "IND",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ggbgv9okpladwqzth5l5",
-          "prob": 29.6,
+          "prob": 28.9,
           "season_tds": 3,
           "status": null,
           "games": 7,
@@ -12908,7 +12908,7 @@
           "team": "MIA",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/uainpdjrwkwk9zjdxpem",
-          "prob": 21.8,
+          "prob": 21.0,
           "season_tds": 1,
           "status": null,
           "games": 8,
@@ -12975,7 +12975,7 @@
           "team": "MIA",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/h0ds6lir4svszjcpc3hr",
-          "prob": 18.8,
+          "prob": 18.1,
           "season_tds": 2,
           "status": null,
           "games": 5,
@@ -13042,7 +13042,7 @@
           "team": "IND",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/f4h7kmayu7kqncha3f6v",
-          "prob": 17.3,
+          "prob": 16.8,
           "season_tds": 1,
           "status": null,
           "games": 9,
@@ -13109,7 +13109,7 @@
           "team": "IND",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zptuxjil3y3ajnrw1las",
-          "prob": 14.6,
+          "prob": 14.2,
           "season_tds": 0,
           "status": null,
           "games": 9,
@@ -13176,7 +13176,7 @@
           "team": "IND",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yslz8jcyiekbmm7iguxm",
-          "prob": 13.3,
+          "prob": 12.9,
           "season_tds": 1,
           "status": null,
           "games": 9,
@@ -13243,7 +13243,7 @@
           "team": "MIA",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/nzqdkcpzcnspgfpflxcu",
-          "prob": 10.9,
+          "prob": 10.5,
           "season_tds": 0,
           "status": null,
           "games": 7,
@@ -13310,7 +13310,7 @@
           "team": "MIA",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/nqqd4zjnxephjb4qziww",
-          "prob": 10.1,
+          "prob": 9.7,
           "season_tds": 2,
           "status": null,
           "games": 7,
@@ -13377,7 +13377,7 @@
           "team": "MIA",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/sqj7ywvb2lymgykhzr7r",
-          "prob": 7.0,
+          "prob": 6.7,
           "season_tds": 0,
           "status": null,
           "games": 6,
@@ -13444,7 +13444,7 @@
           "team": "IND",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/m3kvcazbtr2h47ik4ivg",
-          "prob": 6.9,
+          "prob": 6.7,
           "season_tds": 1,
           "status": null,
           "games": 5,
@@ -13587,8 +13587,8 @@
       },
       "weather": {
         "roof": "retractable",
-        "temp_c": 7,
-        "wind_kmh": 6,
+        "temp_c": 9,
+        "wind_kmh": 7,
         "precip_prob": 0,
         "windy": false
       },
@@ -17623,7 +17623,7 @@
       "weather": {
         "roof": "open",
         "temp_c": 11,
-        "wind_kmh": 9,
+        "wind_kmh": 10,
         "precip_prob": 0,
         "windy": false
       },
@@ -18966,7 +18966,7 @@
       "weather": {
         "roof": "retractable",
         "temp_c": 23,
-        "wind_kmh": 5,
+        "wind_kmh": 2,
         "precip_prob": 0,
         "windy": false
       },
@@ -21661,9 +21661,9 @@
       },
       "weather": {
         "roof": "retractable",
-        "temp_c": 10,
-        "wind_kmh": 14,
-        "precip_prob": 12,
+        "temp_c": 9,
+        "wind_kmh": 12,
+        "precip_prob": 34,
         "windy": false
       },
       "round": null,
@@ -22997,8 +22997,8 @@
       "weather": {
         "roof": "open",
         "temp_c": 6,
-        "wind_kmh": 3,
-        "precip_prob": 0,
+        "wind_kmh": 6,
+        "precip_prob": 1,
         "windy": false
       },
       "round": null,
@@ -25240,7 +25240,7 @@
         "team": "IND",
         "position": "RB",
         "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/d7pmatz5wylijbsplnkg",
-        "prob": 51.2,
+        "prob": 50.3,
         "season_tds": 8,
         "status": null,
         "games": 9,
@@ -25302,7 +25302,7 @@
         "scored_last": 2,
         "game_id": "2026_10_MIA_IND",
         "opponent": "MIA",
-        "fair_odds": 1.95,
+        "fair_odds": 1.99,
         "hist": {
           "label": "50 % et plus",
           "min": 50,
@@ -26174,7 +26174,7 @@
       "team": "IND",
       "position": "RB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/d7pmatz5wylijbsplnkg",
-      "prob": 51.2,
+      "prob": 50.3,
       "season_tds": 8,
       "status": null,
       "games": 9,
@@ -34865,7 +34865,7 @@
     }
   ],
   "studies": {
-    "generated_at": "2026-11-14T12:11:15+00:00",
+    "generated_at": "2026-11-14T20:43:15+00:00",
     "spread_sd": {
       "best_sd": 11.25,
       "games": 2887
