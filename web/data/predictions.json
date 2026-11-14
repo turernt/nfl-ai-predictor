@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T02:26:46+00:00",
+  "generated_at": "2026-11-14T12:11:15+00:00",
   "season": 2026,
   "week": 10,
   "week_label": "Semaine 10",
@@ -7362,73 +7362,6 @@
           "scored_last": 3
         },
         {
-          "player_id": "00-0036963",
-          "name": "Amon-Ra St. Brown",
-          "team": "DET",
-          "position": "WR",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fd8nwhm6pvxfyzphzl6i",
-          "prob": 39.7,
-          "season_tds": 5,
-          "status": null,
-          "games": 8,
-          "snap": 78,
-          "xtd": 0.67,
-          "depth": "WR1",
-          "form": [
-            {
-              "week": 4,
-              "opp": "CAR",
-              "car": 0,
-              "tgt": 11,
-              "rec": 8,
-              "yds": 75,
-              "td": 0,
-              "snap": 96
-            },
-            {
-              "week": 5,
-              "opp": "ARI",
-              "car": 0,
-              "tgt": 11,
-              "rec": 6,
-              "yds": 69,
-              "td": 0,
-              "snap": 86
-            },
-            {
-              "week": 7,
-              "opp": "GB",
-              "car": 1,
-              "tgt": 11,
-              "rec": 9,
-              "yds": 152,
-              "td": 0,
-              "snap": 78
-            },
-            {
-              "week": 8,
-              "opp": "MIN",
-              "car": 1,
-              "tgt": 8,
-              "rec": 7,
-              "yds": 56,
-              "td": 0,
-              "snap": 72
-            },
-            {
-              "week": 9,
-              "opp": "MIA",
-              "car": 0,
-              "tgt": 10,
-              "rec": 8,
-              "yds": 86,
-              "td": 0,
-              "snap": 75
-            }
-          ],
-          "scored_last": 0
-        },
-        {
           "player_id": "00-0039065",
           "name": "Sam LaPorta",
           "team": "DET",
@@ -7561,6 +7494,73 @@
             }
           ],
           "scored_last": 3
+        },
+        {
+          "player_id": "00-0036963",
+          "name": "Amon-Ra St. Brown",
+          "team": "DET",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fd8nwhm6pvxfyzphzl6i",
+          "prob": 30.0,
+          "season_tds": 5,
+          "status": "Questionable",
+          "games": 8,
+          "snap": 78,
+          "xtd": 0.67,
+          "depth": "WR1",
+          "form": [
+            {
+              "week": 4,
+              "opp": "CAR",
+              "car": 0,
+              "tgt": 11,
+              "rec": 8,
+              "yds": 75,
+              "td": 0,
+              "snap": 96
+            },
+            {
+              "week": 5,
+              "opp": "ARI",
+              "car": 0,
+              "tgt": 11,
+              "rec": 6,
+              "yds": 69,
+              "td": 0,
+              "snap": 86
+            },
+            {
+              "week": 7,
+              "opp": "GB",
+              "car": 1,
+              "tgt": 11,
+              "rec": 9,
+              "yds": 152,
+              "td": 0,
+              "snap": 78
+            },
+            {
+              "week": 8,
+              "opp": "MIN",
+              "car": 1,
+              "tgt": 8,
+              "rec": 7,
+              "yds": 56,
+              "td": 0,
+              "snap": 72
+            },
+            {
+              "week": 9,
+              "opp": "MIA",
+              "car": 0,
+              "tgt": 10,
+              "rec": 8,
+              "yds": 86,
+              "td": 0,
+              "snap": 75
+            }
+          ],
+          "scored_last": 0
         },
         {
           "player_id": "00-0033555",
@@ -8052,6 +8052,18 @@
             "position": "S",
             "status": "Out",
             "injury": "genou"
+          },
+          {
+            "name": "Sione Vaki",
+            "position": "RB",
+            "status": "Questionable",
+            "injury": "cheville"
+          },
+          {
+            "name": "Amon-Ra St. Brown",
+            "position": "WR",
+            "status": "Questionable",
+            "injury": "rib"
           }
         ],
         "away": [
@@ -8142,7 +8154,7 @@
             "name": "Sione Vaki",
             "pos": "RB",
             "rank": 2,
-            "status": null,
+            "status": "Questionable",
             "available": true
           },
           {
@@ -8150,7 +8162,7 @@
             "name": "Amon-Ra St. Brown",
             "pos": "WR",
             "rank": 1,
-            "status": null,
+            "status": "Questionable",
             "available": true
           },
           {
@@ -8602,9 +8614,9 @@
           "team": "KC",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vk6nruaqdewdglofcwwg",
-          "prob": 63.1,
+          "prob": 52.6,
           "season_tds": 11,
-          "status": null,
+          "status": "Questionable",
           "games": 8,
           "snap": 73,
           "xtd": 1.17,
@@ -8736,7 +8748,7 @@
           "team": "ATL",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/y5mkxrljhsglpwl3ky94",
-          "prob": 29.2,
+          "prob": 29.3,
           "season_tds": 1,
           "status": null,
           "games": 9,
@@ -8999,6 +9011,73 @@
           "scored_last": 1
         },
         {
+          "player_id": "00-0036970",
+          "name": "Kyle Pitts",
+          "team": "ATL",
+          "position": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xczipzxvytnmvgznhhb4",
+          "prob": 24.5,
+          "season_tds": 4,
+          "status": null,
+          "games": 9,
+          "snap": 62,
+          "xtd": 0.3,
+          "depth": "TE1",
+          "form": [
+            {
+              "week": 5,
+              "opp": "BAL",
+              "car": 0,
+              "tgt": 6,
+              "rec": 5,
+              "yds": 42,
+              "td": 1,
+              "snap": 67
+            },
+            {
+              "week": 6,
+              "opp": "CHI",
+              "car": 0,
+              "tgt": 7,
+              "rec": 5,
+              "yds": 60,
+              "td": 2,
+              "snap": 78
+            },
+            {
+              "week": 7,
+              "opp": "SF",
+              "car": 0,
+              "tgt": 5,
+              "rec": 5,
+              "yds": 22,
+              "td": 1,
+              "snap": 56
+            },
+            {
+              "week": 8,
+              "opp": "TB",
+              "car": 0,
+              "tgt": 5,
+              "rec": 2,
+              "yds": 6,
+              "td": 0,
+              "snap": 55
+            },
+            {
+              "week": 9,
+              "opp": "CIN",
+              "car": 0,
+              "tgt": 5,
+              "rec": 3,
+              "yds": 23,
+              "td": 0,
+              "snap": 68
+            }
+          ],
+          "scored_last": 3
+        },
+        {
           "player_id": "00-0039067",
           "name": "Rashee Rice",
           "team": "KC",
@@ -9064,73 +9143,6 @@
             }
           ],
           "scored_last": 2
-        },
-        {
-          "player_id": "00-0036970",
-          "name": "Kyle Pitts",
-          "team": "ATL",
-          "position": "TE",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xczipzxvytnmvgznhhb4",
-          "prob": 24.4,
-          "season_tds": 4,
-          "status": null,
-          "games": 9,
-          "snap": 62,
-          "xtd": 0.3,
-          "depth": "TE1",
-          "form": [
-            {
-              "week": 5,
-              "opp": "BAL",
-              "car": 0,
-              "tgt": 6,
-              "rec": 5,
-              "yds": 42,
-              "td": 1,
-              "snap": 67
-            },
-            {
-              "week": 6,
-              "opp": "CHI",
-              "car": 0,
-              "tgt": 7,
-              "rec": 5,
-              "yds": 60,
-              "td": 2,
-              "snap": 78
-            },
-            {
-              "week": 7,
-              "opp": "SF",
-              "car": 0,
-              "tgt": 5,
-              "rec": 5,
-              "yds": 22,
-              "td": 1,
-              "snap": 56
-            },
-            {
-              "week": 8,
-              "opp": "TB",
-              "car": 0,
-              "tgt": 5,
-              "rec": 2,
-              "yds": 6,
-              "td": 0,
-              "snap": 55
-            },
-            {
-              "week": 9,
-              "opp": "CIN",
-              "car": 0,
-              "tgt": 5,
-              "rec": 3,
-              "yds": 23,
-              "td": 0,
-              "snap": 68
-            }
-          ],
-          "scored_last": 3
         },
         {
           "player_id": "00-0037741",
@@ -9403,13 +9415,81 @@
       ],
       "commentary": "Avantage Chiefs (62 %), à l’extérieur.",
       "injuries": {
-        "home": [],
-        "away": []
+        "home": [
+          {
+            "name": "Zachariah Branch",
+            "position": "WR",
+            "status": "Out",
+            "injury": "ischio-jambiers"
+          },
+          {
+            "name": "Divine Deablo",
+            "position": "LB",
+            "status": "Doubtful",
+            "injury": "forearm"
+          },
+          {
+            "name": "Gervon Dexter Sr.",
+            "position": "DT",
+            "status": "Questionable",
+            "injury": "maladie"
+          },
+          {
+            "name": "James Pearce Jr.",
+            "position": "DE",
+            "status": "Questionable",
+            "injury": "dos"
+          },
+          {
+            "name": "Josh Woods",
+            "position": "LB",
+            "status": "Questionable",
+            "injury": "cheville"
+          }
+        ],
+        "away": [
+          {
+            "name": "Jaylon Moore",
+            "position": "T",
+            "status": "Out",
+            "injury": "cheville"
+          },
+          {
+            "name": "Omarr Norman-Lott",
+            "position": "DT",
+            "status": "Out",
+            "injury": "genou"
+          },
+          {
+            "name": "Peter Woods",
+            "position": "DT",
+            "status": "Out",
+            "injury": "cou"
+          },
+          {
+            "name": "Kenneth Walker III",
+            "position": "RB",
+            "status": "Questionable",
+            "injury": "aine"
+          },
+          {
+            "name": "Jaydn Ott",
+            "position": "RB",
+            "status": "Questionable",
+            "injury": "ischio-jambiers"
+          },
+          {
+            "name": "Mansoor Delane",
+            "position": "CB",
+            "status": "Questionable",
+            "injury": "épaule"
+          }
+        ]
       },
       "weather": {
         "roof": "retractable",
         "temp_c": 12,
-        "wind_kmh": 7,
+        "wind_kmh": 4,
         "precip_prob": 0,
         "windy": false
       },
@@ -9487,7 +9567,7 @@
             "name": "Kenneth Walker III",
             "pos": "RB",
             "rank": 1,
-            "status": null,
+            "status": "Questionable",
             "available": true
           },
           {
@@ -9535,7 +9615,7 @@
       "status": "upcoming",
       "flags": {
         "value": false,
-        "key_out": 0,
+        "key_out": 1,
         "windy": false,
         "dome": false
       },
@@ -10018,79 +10098,12 @@
           "scored_last": 2
         },
         {
-          "player_id": "00-0041037",
-          "name": "Denzel Boston",
-          "team": "CLE",
-          "position": "WR",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/loaz6dx5hkl1r5nxi4sg",
-          "prob": 27.4,
-          "season_tds": 3,
-          "status": null,
-          "games": 9,
-          "snap": 90,
-          "xtd": 0.38,
-          "depth": "WR1",
-          "form": [
-            {
-              "week": 5,
-              "opp": "NYJ",
-              "car": 0,
-              "tgt": 7,
-              "rec": 3,
-              "yds": 46,
-              "td": 1,
-              "snap": 91
-            },
-            {
-              "week": 6,
-              "opp": "BAL",
-              "car": 0,
-              "tgt": 5,
-              "rec": 1,
-              "yds": 15,
-              "td": 0,
-              "snap": 92
-            },
-            {
-              "week": 7,
-              "opp": "TEN",
-              "car": 0,
-              "tgt": 8,
-              "rec": 3,
-              "yds": 27,
-              "td": 0,
-              "snap": 87
-            },
-            {
-              "week": 8,
-              "opp": "PIT",
-              "car": 0,
-              "tgt": 11,
-              "rec": 6,
-              "yds": 37,
-              "td": 0,
-              "snap": 83
-            },
-            {
-              "week": 9,
-              "opp": "NO",
-              "car": 0,
-              "tgt": 7,
-              "rec": 6,
-              "yds": 98,
-              "td": 0,
-              "snap": 93
-            }
-          ],
-          "scored_last": 1
-        },
-        {
           "player_id": "00-0036554",
           "name": "Nico Collins",
           "team": "HOU",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pyevyueqikk1vbkh9ju1",
-          "prob": 26.7,
+          "prob": 27.5,
           "season_tds": 4,
           "status": null,
           "games": 6,
@@ -10150,73 +10163,6 @@
             }
           ],
           "scored_last": 2
-        },
-        {
-          "player_id": "00-0035685",
-          "name": "David Montgomery",
-          "team": "HOU",
-          "position": "RB",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/npagyuku5zvrnu9q3jvn",
-          "prob": 26.1,
-          "season_tds": 3,
-          "status": null,
-          "games": 5,
-          "snap": 41,
-          "xtd": 0.46,
-          "depth": "RB2",
-          "form": [
-            {
-              "week": 1,
-              "opp": "BUF",
-              "car": 20,
-              "tgt": 3,
-              "rec": 3,
-              "yds": 79,
-              "td": 3,
-              "snap": 49
-            },
-            {
-              "week": 2,
-              "opp": "CIN",
-              "car": 6,
-              "tgt": 2,
-              "rec": 2,
-              "yds": 24,
-              "td": 0,
-              "snap": 52
-            },
-            {
-              "week": 3,
-              "opp": "IND",
-              "car": 11,
-              "tgt": 2,
-              "rec": 2,
-              "yds": 48,
-              "td": 0,
-              "snap": 63
-            },
-            {
-              "week": 4,
-              "opp": "DAL",
-              "car": 10,
-              "tgt": 0,
-              "rec": 0,
-              "yds": 43,
-              "td": 0,
-              "snap": 56
-            },
-            {
-              "week": 5,
-              "opp": "TEN",
-              "car": 5,
-              "tgt": 0,
-              "rec": 0,
-              "yds": 11,
-              "td": 0,
-              "snap": 14
-            }
-          ],
-          "scored_last": 1
         },
         {
           "player_id": "00-0040663",
@@ -10291,7 +10237,7 @@
           "team": "HOU",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ozdgoi4ync5i38s1fpb7",
-          "prob": 23.6,
+          "prob": 24.3,
           "season_tds": 2,
           "status": null,
           "games": 8,
@@ -10353,12 +10299,146 @@
           "scored_last": 2
         },
         {
+          "player_id": "00-0041037",
+          "name": "Denzel Boston",
+          "team": "CLE",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/loaz6dx5hkl1r5nxi4sg",
+          "prob": 19.7,
+          "season_tds": 3,
+          "status": "Questionable",
+          "games": 9,
+          "snap": 90,
+          "xtd": 0.38,
+          "depth": "WR1",
+          "form": [
+            {
+              "week": 5,
+              "opp": "NYJ",
+              "car": 0,
+              "tgt": 7,
+              "rec": 3,
+              "yds": 46,
+              "td": 1,
+              "snap": 91
+            },
+            {
+              "week": 6,
+              "opp": "BAL",
+              "car": 0,
+              "tgt": 5,
+              "rec": 1,
+              "yds": 15,
+              "td": 0,
+              "snap": 92
+            },
+            {
+              "week": 7,
+              "opp": "TEN",
+              "car": 0,
+              "tgt": 8,
+              "rec": 3,
+              "yds": 27,
+              "td": 0,
+              "snap": 87
+            },
+            {
+              "week": 8,
+              "opp": "PIT",
+              "car": 0,
+              "tgt": 11,
+              "rec": 6,
+              "yds": 37,
+              "td": 0,
+              "snap": 83
+            },
+            {
+              "week": 9,
+              "opp": "NO",
+              "car": 0,
+              "tgt": 7,
+              "rec": 6,
+              "yds": 98,
+              "td": 0,
+              "snap": 93
+            }
+          ],
+          "scored_last": 1
+        },
+        {
+          "player_id": "00-0035685",
+          "name": "David Montgomery",
+          "team": "HOU",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/npagyuku5zvrnu9q3jvn",
+          "prob": 18.7,
+          "season_tds": 3,
+          "status": "Questionable",
+          "games": 5,
+          "snap": 41,
+          "xtd": 0.46,
+          "depth": "RB2",
+          "form": [
+            {
+              "week": 1,
+              "opp": "BUF",
+              "car": 20,
+              "tgt": 3,
+              "rec": 3,
+              "yds": 79,
+              "td": 3,
+              "snap": 49
+            },
+            {
+              "week": 2,
+              "opp": "CIN",
+              "car": 6,
+              "tgt": 2,
+              "rec": 2,
+              "yds": 24,
+              "td": 0,
+              "snap": 52
+            },
+            {
+              "week": 3,
+              "opp": "IND",
+              "car": 11,
+              "tgt": 2,
+              "rec": 2,
+              "yds": 48,
+              "td": 0,
+              "snap": 63
+            },
+            {
+              "week": 4,
+              "opp": "DAL",
+              "car": 10,
+              "tgt": 0,
+              "rec": 0,
+              "yds": 43,
+              "td": 0,
+              "snap": 56
+            },
+            {
+              "week": 5,
+              "opp": "TEN",
+              "car": 5,
+              "tgt": 0,
+              "rec": 0,
+              "yds": 11,
+              "td": 0,
+              "snap": 14
+            }
+          ],
+          "scored_last": 1
+        },
+        {
           "player_id": "00-0034981",
           "name": "Foster Moreau",
           "team": "HOU",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/strg9nzj8mw9xnzwbfcv",
-          "prob": 17.8,
+          "prob": 18.4,
           "season_tds": 3,
           "status": null,
           "games": 6,
@@ -10492,7 +10572,7 @@
           "team": "HOU",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/afjemks6p7md28t57f0g",
-          "prob": 15.1,
+          "prob": 15.7,
           "season_tds": 2,
           "status": null,
           "games": 8,
@@ -10680,14 +10760,94 @@
       ],
       "commentary": "Avantage Texans (68 %), à l’extérieur.",
       "injuries": {
-        "home": [],
-        "away": []
+        "home": [
+          {
+            "name": "Ronnie Hickman Jr.",
+            "position": "S",
+            "status": "Out",
+            "injury": "commotion"
+          },
+          {
+            "name": "Michael Burton",
+            "position": "FB",
+            "status": "Out",
+            "injury": "mollet"
+          },
+          {
+            "name": "Denzel Boston",
+            "position": "WR",
+            "status": "Questionable",
+            "injury": "orteil"
+          }
+        ],
+        "away": [
+          {
+            "name": "Marvin Harrison Jr.",
+            "position": "WR",
+            "status": "Out",
+            "injury": "ischio-jambiers"
+          },
+          {
+            "name": "Brevin Jordan",
+            "position": "TE",
+            "status": "Out",
+            "injury": "doigt"
+          },
+          {
+            "name": "Keylan Rutledge",
+            "position": "G",
+            "status": "Out",
+            "injury": "cou"
+          },
+          {
+            "name": "Danielle Hunter",
+            "position": "DE",
+            "status": "Out",
+            "injury": "ischio-jambiers"
+          },
+          {
+            "name": "Azeez Al-Shaair",
+            "position": "LB",
+            "status": "Out",
+            "injury": "aine"
+          },
+          {
+            "name": "David Montgomery",
+            "position": "RB",
+            "status": "Questionable",
+            "injury": "aine"
+          },
+          {
+            "name": "Trent Brown",
+            "position": "T",
+            "status": "Questionable",
+            "injury": "poignet"
+          },
+          {
+            "name": "Wyatt Teller",
+            "position": "G",
+            "status": "Questionable",
+            "injury": "maladie"
+          },
+          {
+            "name": "Will Anderson Jr.",
+            "position": "DE",
+            "status": "Questionable",
+            "injury": "cheville"
+          },
+          {
+            "name": "Jacob Hummel",
+            "position": "LB",
+            "status": "Questionable",
+            "injury": "aine"
+          }
+        ]
       },
       "weather": {
         "roof": "open",
         "temp_c": 8,
-        "wind_kmh": 20,
-        "precip_prob": 42,
+        "wind_kmh": 21,
+        "precip_prob": 5,
         "windy": true
       },
       "round": null,
@@ -10722,7 +10882,7 @@
             "name": "Denzel Boston",
             "pos": "WR",
             "rank": 1,
-            "status": null,
+            "status": "Questionable",
             "available": true
           },
           {
@@ -10772,7 +10932,7 @@
             "name": "David Montgomery",
             "pos": "RB",
             "rank": 2,
-            "status": null,
+            "status": "Questionable",
             "available": true
           },
           {
@@ -10812,7 +10972,7 @@
       "status": "upcoming",
       "flags": {
         "value": false,
-        "key_out": 0,
+        "key_out": 2,
         "windy": true,
         "dome": false
       },
@@ -11161,48 +11321,68 @@
       },
       "scorers": [
         {
-          "player_id": "00-0035700",
-          "name": "Josh Jacobs",
-          "team": "GB",
-          "position": "RB",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/uceokxeo0uqrqms3e3vl",
-          "prob": 37.4,
-          "season_tds": 3,
+          "player_id": "00-0036322",
+          "name": "Justin Jefferson",
+          "team": "MIN",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tzx1iqbxxa1807m6olwj",
+          "prob": 36.9,
+          "season_tds": 4,
           "status": null,
-          "games": 3,
-          "snap": 41,
-          "xtd": 1.17,
-          "depth": "RB1",
+          "games": 7,
+          "snap": 92,
+          "xtd": 0.32,
+          "depth": "WR1",
           "form": [
             {
-              "week": 7,
-              "opp": "DET",
-              "car": 11,
+              "week": 3,
+              "opp": "TB",
+              "car": 0,
+              "tgt": 2,
+              "rec": 2,
+              "yds": 32,
+              "td": 0,
+              "snap": 12
+            },
+            {
+              "week": 5,
+              "opp": "NO",
+              "car": 1,
               "tgt": 7,
-              "rec": 5,
-              "yds": 91,
+              "rec": 6,
+              "yds": 68,
               "td": 1,
-              "snap": 52
+              "snap": 89
+            },
+            {
+              "week": 7,
+              "opp": "IND",
+              "car": 0,
+              "tgt": 7,
+              "rec": 4,
+              "yds": 44,
+              "td": 0,
+              "snap": 93
             },
             {
               "week": 8,
-              "opp": "CAR",
-              "car": 21,
-              "tgt": 6,
-              "rec": 6,
-              "yds": 52,
-              "td": 2,
-              "snap": 71
+              "opp": "DET",
+              "car": 0,
+              "tgt": 9,
+              "rec": 5,
+              "yds": 33,
+              "td": 1,
+              "snap": 96
             },
             {
               "week": 9,
-              "opp": "NE",
-              "car": 4,
-              "tgt": 0,
-              "rec": 0,
-              "yds": 5,
+              "opp": "BUF",
+              "car": 0,
+              "tgt": 11,
+              "rec": 3,
+              "yds": 58,
               "td": 0,
-              "snap": 15
+              "snap": 98
             }
           ],
           "scored_last": 2
@@ -11273,73 +11453,6 @@
             }
           ],
           "scored_last": 3
-        },
-        {
-          "player_id": "00-0036322",
-          "name": "Justin Jefferson",
-          "team": "MIN",
-          "position": "WR",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tzx1iqbxxa1807m6olwj",
-          "prob": 31.9,
-          "season_tds": 4,
-          "status": null,
-          "games": 7,
-          "snap": 92,
-          "xtd": 0.32,
-          "depth": "WR1",
-          "form": [
-            {
-              "week": 3,
-              "opp": "TB",
-              "car": 0,
-              "tgt": 2,
-              "rec": 2,
-              "yds": 32,
-              "td": 0,
-              "snap": 12
-            },
-            {
-              "week": 5,
-              "opp": "NO",
-              "car": 1,
-              "tgt": 7,
-              "rec": 6,
-              "yds": 68,
-              "td": 1,
-              "snap": 89
-            },
-            {
-              "week": 7,
-              "opp": "IND",
-              "car": 0,
-              "tgt": 7,
-              "rec": 4,
-              "yds": 44,
-              "td": 0,
-              "snap": 93
-            },
-            {
-              "week": 8,
-              "opp": "DET",
-              "car": 0,
-              "tgt": 9,
-              "rec": 5,
-              "yds": 33,
-              "td": 1,
-              "snap": 96
-            },
-            {
-              "week": 9,
-              "opp": "BUF",
-              "car": 0,
-              "tgt": 11,
-              "rec": 3,
-              "yds": 58,
-              "td": 0,
-              "snap": 98
-            }
-          ],
-          "scored_last": 2
         },
         {
           "player_id": "00-0038996",
@@ -11476,71 +11589,71 @@
           "scored_last": 2
         },
         {
-          "player_id": "00-0035229",
-          "name": "T.J. Hockenson",
-          "team": "MIN",
-          "position": "TE",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/rs8o65x0u0n9xzde0fd6",
-          "prob": 23.7,
+          "player_id": "00-0039811",
+          "name": "MarShawn Lloyd",
+          "team": "GB",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xp8sd4enimuk4zd0aqgu",
+          "prob": 25.3,
           "season_tds": 3,
           "status": null,
           "games": 8,
-          "snap": 74,
-          "xtd": 0.29,
-          "depth": "TE1",
+          "snap": 32,
+          "xtd": 0.3,
+          "depth": "RB2",
           "form": [
             {
               "week": 4,
-              "opp": "MIA",
-              "car": 0,
-              "tgt": 13,
-              "rec": 13,
-              "yds": 119,
+              "opp": "TB",
+              "car": 7,
+              "tgt": 5,
+              "rec": 5,
+              "yds": 49,
               "td": 0,
-              "snap": 83
+              "snap": 55
             },
             {
               "week": 5,
-              "opp": "NO",
-              "car": 0,
-              "tgt": 1,
+              "opp": "CHI",
+              "car": 10,
+              "tgt": 2,
               "rec": 1,
-              "yds": 7,
+              "yds": 37,
+              "td": 2,
+              "snap": 44
+            },
+            {
+              "week": 6,
+              "opp": "DAL",
+              "car": 8,
+              "tgt": 1,
+              "rec": 0,
+              "yds": 10,
               "td": 0,
-              "snap": 3
+              "snap": 40
             },
             {
               "week": 7,
-              "opp": "IND",
-              "car": 0,
-              "tgt": 5,
-              "rec": 4,
+              "opp": "DET",
+              "car": 6,
+              "tgt": 2,
+              "rec": 2,
               "yds": 35,
-              "td": 1,
-              "snap": 76
+              "td": 0,
+              "snap": 36
             },
             {
               "week": 8,
-              "opp": "DET",
-              "car": 0,
-              "tgt": 5,
-              "rec": 4,
-              "yds": 58,
-              "td": 1,
-              "snap": 83
-            },
-            {
-              "week": 9,
-              "opp": "BUF",
-              "car": 0,
-              "tgt": 7,
-              "rec": 4,
-              "yds": 33,
+              "opp": "CAR",
+              "car": 3,
+              "tgt": 1,
+              "rec": 1,
+              "yds": 16,
               "td": 0,
-              "snap": 81
+              "snap": 16
             }
           ],
-          "scored_last": 2
+          "scored_last": 1
         },
         {
           "player_id": "00-0029604",
@@ -11548,7 +11661,7 @@
           "team": "MIN",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/za7cynvpwlsro1tsaijk",
-          "prob": 21.8,
+          "prob": 21.9,
           "season_tds": 2,
           "status": null,
           "games": 9,
@@ -11677,203 +11790,12 @@
           "scored_last": 1
         },
         {
-          "player_id": "00-0039811",
-          "name": "MarShawn Lloyd",
-          "team": "GB",
-          "position": "RB",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xp8sd4enimuk4zd0aqgu",
-          "prob": 20.8,
-          "season_tds": 3,
-          "status": null,
-          "games": 8,
-          "snap": 32,
-          "xtd": 0.3,
-          "depth": "RB2",
-          "form": [
-            {
-              "week": 4,
-              "opp": "TB",
-              "car": 7,
-              "tgt": 5,
-              "rec": 5,
-              "yds": 49,
-              "td": 0,
-              "snap": 55
-            },
-            {
-              "week": 5,
-              "opp": "CHI",
-              "car": 10,
-              "tgt": 2,
-              "rec": 1,
-              "yds": 37,
-              "td": 2,
-              "snap": 44
-            },
-            {
-              "week": 6,
-              "opp": "DAL",
-              "car": 8,
-              "tgt": 1,
-              "rec": 0,
-              "yds": 10,
-              "td": 0,
-              "snap": 40
-            },
-            {
-              "week": 7,
-              "opp": "DET",
-              "car": 6,
-              "tgt": 2,
-              "rec": 2,
-              "yds": 35,
-              "td": 0,
-              "snap": 36
-            },
-            {
-              "week": 8,
-              "opp": "CAR",
-              "car": 3,
-              "tgt": 1,
-              "rec": 1,
-              "yds": 16,
-              "td": 0,
-              "snap": 16
-            }
-          ],
-          "scored_last": 1
-        },
-        {
-          "player_id": "00-0038994",
-          "name": "Jordan Addison",
-          "team": "MIN",
-          "position": "WR",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ty8e8iasniuuhto6qfdx",
-          "prob": 20.2,
-          "season_tds": 1,
-          "status": null,
-          "games": 7,
-          "snap": 94,
-          "xtd": 0.11,
-          "depth": "WR2",
-          "form": [
-            {
-              "week": 3,
-              "opp": "TB",
-              "car": 0,
-              "tgt": 9,
-              "rec": 5,
-              "yds": 90,
-              "td": 1,
-              "snap": 98
-            },
-            {
-              "week": 4,
-              "opp": "MIA",
-              "car": 1,
-              "tgt": 6,
-              "rec": 4,
-              "yds": 51,
-              "td": 0,
-              "snap": 96
-            },
-            {
-              "week": 7,
-              "opp": "IND",
-              "car": 1,
-              "tgt": 3,
-              "rec": 2,
-              "yds": 23,
-              "td": 0,
-              "snap": 83
-            },
-            {
-              "week": 8,
-              "opp": "DET",
-              "car": 0,
-              "tgt": 8,
-              "rec": 3,
-              "yds": 66,
-              "td": 0,
-              "snap": 98
-            },
-            {
-              "week": 9,
-              "opp": "BUF",
-              "car": 0,
-              "tgt": 3,
-              "rec": 2,
-              "yds": 28,
-              "td": 0,
-              "snap": 96
-            }
-          ],
-          "scored_last": 1
-        },
-        {
-          "player_id": "00-0037525",
-          "name": "Jordan Mason",
-          "team": "MIN",
-          "position": "RB",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xe3i1lsb3rsioqy61krt",
-          "prob": 18.0,
-          "season_tds": 1,
-          "status": null,
-          "games": 4,
-          "snap": 45,
-          "xtd": 0.25,
-          "depth": "RB1",
-          "form": [
-            {
-              "week": 1,
-              "opp": "GB",
-              "car": 15,
-              "tgt": 0,
-              "rec": 0,
-              "yds": 59,
-              "td": 1,
-              "snap": 45
-            },
-            {
-              "week": 7,
-              "opp": "IND",
-              "car": 15,
-              "tgt": 2,
-              "rec": 0,
-              "yds": 68,
-              "td": 0,
-              "snap": 64
-            },
-            {
-              "week": 8,
-              "opp": "DET",
-              "car": 8,
-              "tgt": 0,
-              "rec": 0,
-              "yds": 20,
-              "td": 0,
-              "snap": 28
-            },
-            {
-              "week": 9,
-              "opp": "BUF",
-              "car": 6,
-              "tgt": 3,
-              "rec": 2,
-              "yds": 42,
-              "td": 0,
-              "snap": 48
-            }
-          ],
-          "scored_last": 1
-        },
-        {
           "player_id": "00-0040142",
           "name": "Kaleb Johnson",
           "team": "GB",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vmfywjn8szdf8m3aqnkf",
-          "prob": 17.1,
+          "prob": 20.9,
           "season_tds": 1,
           "status": null,
           "games": 7,
@@ -11933,17 +11855,355 @@
             }
           ],
           "scored_last": 1
+        },
+        {
+          "player_id": "00-0038098",
+          "name": "Pierre Strong",
+          "team": "GB",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/aa0nufst85vutgor1fqv",
+          "prob": 18.9,
+          "season_tds": 0,
+          "status": null,
+          "games": 4,
+          "snap": 36,
+          "xtd": 0.33,
+          "depth": "RB4",
+          "form": [
+            {
+              "week": 5,
+              "opp": "CHI",
+              "car": 5,
+              "tgt": 4,
+              "rec": 3,
+              "yds": 18,
+              "td": 0,
+              "snap": 41
+            },
+            {
+              "week": 6,
+              "opp": "DAL",
+              "car": 11,
+              "tgt": 6,
+              "rec": 5,
+              "yds": 67,
+              "td": 0,
+              "snap": 55
+            },
+            {
+              "week": 8,
+              "opp": "CAR",
+              "car": 1,
+              "tgt": 0,
+              "rec": 0,
+              "yds": 2,
+              "td": 0,
+              "snap": 13
+            },
+            {
+              "week": 9,
+              "opp": "NE",
+              "car": 8,
+              "tgt": 2,
+              "rec": 2,
+              "yds": 33,
+              "td": 0,
+              "snap": 45
+            }
+          ],
+          "scored_last": 0
+        },
+        {
+          "player_id": "00-0037525",
+          "name": "Jordan Mason",
+          "team": "MIN",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xe3i1lsb3rsioqy61krt",
+          "prob": 18.0,
+          "season_tds": 1,
+          "status": null,
+          "games": 4,
+          "snap": 45,
+          "xtd": 0.25,
+          "depth": "RB1",
+          "form": [
+            {
+              "week": 1,
+              "opp": "GB",
+              "car": 15,
+              "tgt": 0,
+              "rec": 0,
+              "yds": 59,
+              "td": 1,
+              "snap": 45
+            },
+            {
+              "week": 7,
+              "opp": "IND",
+              "car": 15,
+              "tgt": 2,
+              "rec": 0,
+              "yds": 68,
+              "td": 0,
+              "snap": 64
+            },
+            {
+              "week": 8,
+              "opp": "DET",
+              "car": 8,
+              "tgt": 0,
+              "rec": 0,
+              "yds": 20,
+              "td": 0,
+              "snap": 28
+            },
+            {
+              "week": 9,
+              "opp": "BUF",
+              "car": 6,
+              "tgt": 3,
+              "rec": 2,
+              "yds": 42,
+              "td": 0,
+              "snap": 48
+            }
+          ],
+          "scored_last": 1
+        },
+        {
+          "player_id": "00-0038994",
+          "name": "Jordan Addison",
+          "team": "MIN",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ty8e8iasniuuhto6qfdx",
+          "prob": 16.6,
+          "season_tds": 1,
+          "status": "Questionable",
+          "games": 7,
+          "snap": 94,
+          "xtd": 0.11,
+          "depth": "WR2",
+          "form": [
+            {
+              "week": 3,
+              "opp": "TB",
+              "car": 0,
+              "tgt": 9,
+              "rec": 5,
+              "yds": 90,
+              "td": 1,
+              "snap": 98
+            },
+            {
+              "week": 4,
+              "opp": "MIA",
+              "car": 1,
+              "tgt": 6,
+              "rec": 4,
+              "yds": 51,
+              "td": 0,
+              "snap": 96
+            },
+            {
+              "week": 7,
+              "opp": "IND",
+              "car": 1,
+              "tgt": 3,
+              "rec": 2,
+              "yds": 23,
+              "td": 0,
+              "snap": 83
+            },
+            {
+              "week": 8,
+              "opp": "DET",
+              "car": 0,
+              "tgt": 8,
+              "rec": 3,
+              "yds": 66,
+              "td": 0,
+              "snap": 98
+            },
+            {
+              "week": 9,
+              "opp": "BUF",
+              "car": 0,
+              "tgt": 3,
+              "rec": 2,
+              "yds": 28,
+              "td": 0,
+              "snap": 96
+            }
+          ],
+          "scored_last": 1
+        },
+        {
+          "player_id": "00-0040215",
+          "name": "Gavin Bartholomew",
+          "team": "MIN",
+          "position": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/amlveslginvwifpkih1q",
+          "prob": 5.4,
+          "season_tds": 0,
+          "status": null,
+          "games": 3,
+          "snap": 27,
+          "xtd": 0.13,
+          "depth": "TE3",
+          "form": [
+            {
+              "week": 4,
+              "opp": "MIA",
+              "car": 0,
+              "tgt": 1,
+              "rec": 1,
+              "yds": 4,
+              "td": 0,
+              "snap": 22
+            },
+            {
+              "week": 5,
+              "opp": "NO",
+              "car": 0,
+              "tgt": 6,
+              "rec": 5,
+              "yds": 33,
+              "td": 0,
+              "snap": 62
+            },
+            {
+              "week": 7,
+              "opp": "IND",
+              "car": 0,
+              "tgt": 1,
+              "rec": 1,
+              "yds": 17,
+              "td": 0,
+              "snap": 12
+            }
+          ],
+          "scored_last": 0
         }
       ],
       "commentary": "Avantage Packers (59 %), à domicile. QB annoncé chez les Vikings (Kirk Cousins) : +4,1 pt par rapport à leur niveau habituel.",
       "injuries": {
-        "home": [],
-        "away": []
+        "home": [
+          {
+            "name": "Josh Jacobs",
+            "position": "RB",
+            "status": "Out",
+            "injury": "doigt"
+          },
+          {
+            "name": "Josh Whyle",
+            "position": "TE",
+            "status": "Out",
+            "injury": "commotion"
+          },
+          {
+            "name": "Sean Rhyan",
+            "position": "C",
+            "status": "Out",
+            "injury": "cheville"
+          },
+          {
+            "name": "Micah Parsons",
+            "position": "LB",
+            "status": "Out",
+            "injury": "genou"
+          },
+          {
+            "name": "Zaire Franklin",
+            "position": "LB",
+            "status": "Doubtful",
+            "injury": "tibia"
+          },
+          {
+            "name": "Chris Brooks",
+            "position": "RB",
+            "status": "Questionable",
+            "injury": "cheville"
+          },
+          {
+            "name": "Skyy Moore",
+            "position": "WR",
+            "status": "Questionable",
+            "injury": "cheville"
+          },
+          {
+            "name": "Kevin Zeitler",
+            "position": "G",
+            "status": "Questionable",
+            "injury": "cheville"
+          },
+          {
+            "name": "Travis Glover",
+            "position": "G",
+            "status": "Questionable",
+            "injury": "genou"
+          },
+          {
+            "name": "Lukas Van Ness",
+            "position": "LB",
+            "status": "Questionable",
+            "injury": "dos"
+          }
+        ],
+        "away": [
+          {
+            "name": "Kyler Murray",
+            "position": "QB",
+            "status": "Out",
+            "injury": "ischio-jambiers"
+          },
+          {
+            "name": "Jauan Jennings",
+            "position": "WR",
+            "status": "Out",
+            "injury": "mollet"
+          },
+          {
+            "name": "T.J. Hockenson",
+            "position": "TE",
+            "status": "Out",
+            "injury": "poignet"
+          },
+          {
+            "name": "Tyrion Ingram-Dawkins",
+            "position": "DT",
+            "status": "Out",
+            "injury": "cheville"
+          },
+          {
+            "name": "Blake Cashman",
+            "position": "LB",
+            "status": "Out",
+            "injury": "commotion"
+          },
+          {
+            "name": "Jordan Addison",
+            "position": "WR",
+            "status": "Questionable",
+            "injury": "pouce"
+          },
+          {
+            "name": "Kyle Van Noy",
+            "position": "LB",
+            "status": "Questionable",
+            "injury": "mollet"
+          },
+          {
+            "name": "Josh Metellus",
+            "position": "S",
+            "status": "Questionable",
+            "injury": "épaule"
+          }
+        ]
       },
       "weather": {
         "roof": "open",
-        "temp_c": 3,
-        "wind_kmh": 5,
+        "temp_c": 2,
+        "wind_kmh": 2,
         "precip_prob": 0,
         "windy": false
       },
@@ -11963,14 +12223,22 @@
             "name": "Josh Jacobs",
             "pos": "RB",
             "rank": 1,
-            "status": null,
-            "available": true
+            "status": "Out",
+            "available": false
           },
           {
             "player_id": "00-0039811",
             "name": "MarShawn Lloyd",
             "pos": "RB",
             "rank": 2,
+            "status": null,
+            "available": true
+          },
+          {
+            "player_id": "00-0040142",
+            "name": "Kaleb Johnson",
+            "pos": "RB",
+            "rank": 3,
             "status": null,
             "available": true
           },
@@ -12045,7 +12313,7 @@
             "name": "Jordan Addison",
             "pos": "WR",
             "rank": 2,
-            "status": null,
+            "status": "Questionable",
             "available": true
           },
           {
@@ -12053,6 +12321,14 @@
             "name": "Jauan Jennings",
             "pos": "WR",
             "rank": 3,
+            "status": "Out",
+            "available": false
+          },
+          {
+            "player_id": "00-0040506",
+            "name": "Myles Price",
+            "pos": "WR",
+            "rank": 4,
             "status": null,
             "available": true
           },
@@ -12061,6 +12337,14 @@
             "name": "T.J. Hockenson",
             "pos": "TE",
             "rank": 1,
+            "status": "Out",
+            "available": false
+          },
+          {
+            "player_id": "00-0040509",
+            "name": "Ben Yurosek",
+            "pos": "TE",
+            "rank": 2,
             "status": null,
             "available": true
           }
@@ -12069,7 +12353,7 @@
       "status": "upcoming",
       "flags": {
         "value": false,
-        "key_out": 0,
+        "key_out": 5,
         "windy": false,
         "dome": false
       },
@@ -12557,7 +12841,7 @@
           "team": "IND",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ggbgv9okpladwqzth5l5",
-          "prob": 28.1,
+          "prob": 29.6,
           "season_tds": 3,
           "status": null,
           "games": 7,
@@ -12624,7 +12908,7 @@
           "team": "MIA",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/uainpdjrwkwk9zjdxpem",
-          "prob": 21.6,
+          "prob": 21.8,
           "season_tds": 1,
           "status": null,
           "games": 8,
@@ -12691,7 +12975,7 @@
           "team": "MIA",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/h0ds6lir4svszjcpc3hr",
-          "prob": 18.6,
+          "prob": 18.8,
           "season_tds": 2,
           "status": null,
           "games": 5,
@@ -12825,7 +13109,7 @@
           "team": "IND",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zptuxjil3y3ajnrw1las",
-          "prob": 13.8,
+          "prob": 14.6,
           "season_tds": 0,
           "status": null,
           "games": 9,
@@ -12954,69 +13238,12 @@
           "scored_last": 0
         },
         {
-          "player_id": "00-0033217",
-          "name": "Mo Alie-Cox",
-          "team": "IND",
-          "position": "TE",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/y7kf6jf3moyydyf69y4y",
-          "prob": 12.7,
-          "season_tds": 1,
-          "status": null,
-          "games": 4,
-          "snap": 49,
-          "xtd": 0.17,
-          "depth": "TE3",
-          "form": [
-            {
-              "week": 3,
-              "opp": "HOU",
-              "car": 0,
-              "tgt": 1,
-              "rec": 1,
-              "yds": 16,
-              "td": 0,
-              "snap": 38
-            },
-            {
-              "week": 5,
-              "opp": "PIT",
-              "car": 0,
-              "tgt": 2,
-              "rec": 2,
-              "yds": 14,
-              "td": 0,
-              "snap": 42
-            },
-            {
-              "week": 6,
-              "opp": "TEN",
-              "car": 0,
-              "tgt": 1,
-              "rec": 1,
-              "yds": 1,
-              "td": 1,
-              "snap": 37
-            },
-            {
-              "week": 7,
-              "opp": "MIN",
-              "car": 0,
-              "tgt": 2,
-              "rec": 0,
-              "yds": 0,
-              "td": 0,
-              "snap": 64
-            }
-          ],
-          "scored_last": 1
-        },
-        {
           "player_id": "00-0037252",
           "name": "Greg Dulcich",
           "team": "MIA",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/nzqdkcpzcnspgfpflxcu",
-          "prob": 10.8,
+          "prob": 10.9,
           "season_tds": 0,
           "status": null,
           "games": 7,
@@ -13083,7 +13310,7 @@
           "team": "MIA",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/nqqd4zjnxephjb4qziww",
-          "prob": 10.0,
+          "prob": 10.1,
           "season_tds": 2,
           "status": null,
           "games": 7,
@@ -13145,81 +13372,222 @@
           "scored_last": 2
         },
         {
-          "player_id": "00-0041525",
-          "name": "Chris Bell",
+          "player_id": "00-0039874",
+          "name": "Jaylen Wright",
           "team": "MIA",
-          "position": "WR",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fm5rlhfcjhiiaaf1y5ss",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/sqj7ywvb2lymgykhzr7r",
           "prob": 7.0,
           "season_tds": 0,
           "status": null,
-          "games": 8,
-          "snap": 63,
-          "xtd": 0.06,
-          "depth": "WR3",
+          "games": 6,
+          "snap": 14,
+          "xtd": 0.12,
+          "depth": "RB2",
           "form": [
+            {
+              "week": 2,
+              "opp": "SF",
+              "car": 2,
+              "tgt": 0,
+              "rec": 0,
+              "yds": 11,
+              "td": 0,
+              "snap": 5
+            },
             {
               "week": 4,
               "opp": "MIN",
-              "car": 0,
-              "tgt": 3,
+              "car": 5,
+              "tgt": 0,
               "rec": 0,
-              "yds": 0,
+              "yds": 7,
               "td": 0,
-              "snap": 82
+              "snap": 31
             },
             {
               "week": 5,
               "opp": "CIN",
-              "car": 1,
-              "tgt": 2,
+              "car": 6,
+              "tgt": 0,
               "rec": 0,
-              "yds": 26,
+              "yds": 11,
               "td": 0,
-              "snap": 71
+              "snap": 14
             },
             {
               "week": 7,
               "opp": "NYJ",
-              "car": 0,
-              "tgt": 4,
-              "rec": 3,
-              "yds": 25,
+              "car": 6,
+              "tgt": 1,
+              "rec": 0,
+              "yds": 8,
               "td": 0,
-              "snap": 48
+              "snap": 12
             },
             {
               "week": 8,
               "opp": "NE",
-              "car": 1,
-              "tgt": 5,
-              "rec": 4,
-              "yds": 29,
+              "car": 2,
+              "tgt": 1,
+              "rec": 0,
+              "yds": 5,
               "td": 0,
-              "snap": 69
-            },
+              "snap": 12
+            }
+          ],
+          "scored_last": 0
+        },
+        {
+          "player_id": "00-0035021",
+          "name": "Ashton Dulin",
+          "team": "IND",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/m3kvcazbtr2h47ik4ivg",
+          "prob": 6.9,
+          "season_tds": 1,
+          "status": null,
+          "games": 5,
+          "snap": 21,
+          "xtd": 0.03,
+          "depth": "WR2",
+          "form": [
             {
-              "week": 9,
-              "opp": "DET",
+              "week": 1,
+              "opp": "BAL",
               "car": 0,
               "tgt": 1,
               "rec": 0,
               "yds": 0,
               "td": 0,
-              "snap": 63
+              "snap": 19
+            },
+            {
+              "week": 4,
+              "opp": "WAS",
+              "car": 0,
+              "tgt": 6,
+              "rec": 3,
+              "yds": 29,
+              "td": 0,
+              "snap": 35
+            },
+            {
+              "week": 7,
+              "opp": "MIN",
+              "car": 0,
+              "tgt": 0,
+              "rec": 0,
+              "yds": 0,
+              "td": 0,
+              "snap": 2
+            },
+            {
+              "week": 8,
+              "opp": "JAX",
+              "car": 1,
+              "tgt": 0,
+              "rec": 0,
+              "yds": 3,
+              "td": 0,
+              "snap": 31
+            },
+            {
+              "week": 9,
+              "opp": "DAL",
+              "car": 1,
+              "tgt": 2,
+              "rec": 1,
+              "yds": 58,
+              "td": 1,
+              "snap": 22
             }
           ],
-          "scored_last": 0
+          "scored_last": 1
         }
       ],
       "commentary": "Avantage Colts (66 %), à domicile. QB titulaire indisponible chez les Dolphins : Kyle McCord attendu.",
       "injuries": {
-        "home": [],
-        "away": []
+        "home": [
+          {
+            "name": "Mo Alie-Cox",
+            "position": "TE",
+            "status": "Out",
+            "injury": "aine"
+          },
+          {
+            "name": "Jalen Travis",
+            "position": "T",
+            "status": "Out",
+            "injury": "genou"
+          },
+          {
+            "name": "Jerry Tillery",
+            "position": "DT",
+            "status": "Out",
+            "injury": "mollet"
+          },
+          {
+            "name": "Akeem Davis-Gaither",
+            "position": "LB",
+            "status": "Out",
+            "injury": "genou"
+          },
+          {
+            "name": "Jaylon Carlies",
+            "position": "LB",
+            "status": "Out",
+            "injury": "cou"
+          },
+          {
+            "name": "Luke Rhodes",
+            "position": "LS",
+            "status": "Out",
+            "injury": "ischio-jambiers"
+          },
+          {
+            "name": "Will Mallory",
+            "position": "TE",
+            "status": "Questionable",
+            "injury": "ischio-jambiers"
+          },
+          {
+            "name": "Arden Key",
+            "position": "DE",
+            "status": "Questionable",
+            "injury": "ischio-jambiers"
+          }
+        ],
+        "away": [
+          {
+            "name": "Jared Wayne",
+            "position": "WR",
+            "status": "Out",
+            "injury": "quadriceps"
+          },
+          {
+            "name": "Aaron Brewer",
+            "position": "C",
+            "status": "Out",
+            "injury": "commotion"
+          },
+          {
+            "name": "Chris Bell",
+            "position": "WR",
+            "status": "Doubtful",
+            "injury": "genou"
+          },
+          {
+            "name": "Darrell Baker Jr.",
+            "position": "CB",
+            "status": "Questionable",
+            "injury": "genou"
+          }
+        ]
       },
       "weather": {
         "roof": "retractable",
-        "temp_c": 8,
+        "temp_c": 7,
         "wind_kmh": 6,
         "precip_prob": 0,
         "windy": false
@@ -13330,6 +13698,14 @@
             "name": "Chris Bell",
             "pos": "WR",
             "rank": 3,
+            "status": "Doubtful",
+            "available": false
+          },
+          {
+            "player_id": "00-0041529",
+            "name": "Kevin Coleman Jr.",
+            "pos": "WR",
+            "rank": 4,
             "status": null,
             "available": true
           },
@@ -13346,7 +13722,7 @@
       "status": "upcoming",
       "flags": {
         "value": false,
-        "key_out": 0,
+        "key_out": 3,
         "windy": false,
         "dome": false
       },
@@ -13826,7 +14202,7 @@
           "team": "NO",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lcoend1mysjfhl8f4rrt",
-          "prob": 35.4,
+          "prob": 35.8,
           "season_tds": 2,
           "status": null,
           "games": 2,
@@ -13997,7 +14373,7 @@
           "team": "NO",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hedvtdbdgdyf4lo5e12p",
-          "prob": 29.2,
+          "prob": 29.6,
           "season_tds": 3,
           "status": null,
           "games": 7,
@@ -14463,8 +14839,88 @@
       ],
       "commentary": "Avantage Saints (56 %), à domicile.",
       "injuries": {
-        "home": [],
-        "away": []
+        "home": [
+          {
+            "name": "CJ Donaldson",
+            "position": "RB",
+            "status": "Out",
+            "injury": "épaule"
+          },
+          {
+            "name": "Taliese Fuaga",
+            "position": "T",
+            "status": "Out",
+            "injury": "genou"
+          },
+          {
+            "name": "Erik McCoy",
+            "position": "C",
+            "status": "Out",
+            "injury": "biceps"
+          },
+          {
+            "name": "Christen Miller",
+            "position": "DT",
+            "status": "Out",
+            "injury": "genou"
+          },
+          {
+            "name": "Travis Etienne",
+            "position": "RB",
+            "status": "Questionable",
+            "injury": "ischio-jambiers"
+          },
+          {
+            "name": "Martin Emerson",
+            "position": "CB",
+            "status": "Questionable",
+            "injury": "tibia"
+          }
+        ],
+        "away": [
+          {
+            "name": "Bobby Okereke",
+            "position": "LB",
+            "status": "Out",
+            "injury": "pied"
+          },
+          {
+            "name": "Jonathon Brooks",
+            "position": "RB",
+            "status": "Doubtful",
+            "injury": "aine"
+          },
+          {
+            "name": "Mike Jackson",
+            "position": "CB",
+            "status": "Doubtful",
+            "injury": "aine"
+          },
+          {
+            "name": "Xavier Legette",
+            "position": "WR",
+            "status": "Questionable",
+            "injury": "genou"
+          },
+          {
+            "name": "Brady Christensen",
+            "position": "G",
+            "status": "Questionable",
+            "injury": "ischio-jambiers"
+          },
+          {
+            "name": "Jaelan Phillips",
+            "position": "LB",
+            "status": "Questionable",
+            "injury": "ischio-jambiers"
+          },
+          {
+            "name": "Will Lee III",
+            "position": "CB",
+            "status": "Questionable",
+            "injury": "ischio-jambiers"
+          }
+        ]
       },
       "weather": {
         "roof": "dome"
@@ -14591,7 +15047,7 @@
       "status": "upcoming",
       "flags": {
         "value": false,
-        "key_out": 0,
+        "key_out": 2,
         "windy": false,
         "dome": true
       },
@@ -15208,73 +15664,6 @@
           "scored_last": 3
         },
         {
-          "player_id": "00-0037740",
-          "name": "Garrett Wilson",
-          "team": "NYJ",
-          "position": "WR",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bo2gf1ohffbzo0rd71kp",
-          "prob": 30.4,
-          "season_tds": 3,
-          "status": null,
-          "games": 8,
-          "snap": 88,
-          "xtd": 0.35,
-          "depth": "WR1",
-          "form": [
-            {
-              "week": 4,
-              "opp": "CHI",
-              "car": 0,
-              "tgt": 4,
-              "rec": 3,
-              "yds": 27,
-              "td": 0,
-              "snap": 100
-            },
-            {
-              "week": 5,
-              "opp": "CLE",
-              "car": 0,
-              "tgt": 11,
-              "rec": 7,
-              "yds": 104,
-              "td": 1,
-              "snap": 93
-            },
-            {
-              "week": 6,
-              "opp": "NE",
-              "car": 0,
-              "tgt": 6,
-              "rec": 4,
-              "yds": 44,
-              "td": 0,
-              "snap": 98
-            },
-            {
-              "week": 7,
-              "opp": "MIA",
-              "car": 0,
-              "tgt": 3,
-              "rec": 2,
-              "yds": 26,
-              "td": 0,
-              "snap": 85
-            },
-            {
-              "week": 8,
-              "opp": "LV",
-              "car": 0,
-              "tgt": 12,
-              "rec": 6,
-              "yds": 83,
-              "td": 0,
-              "snap": 81
-            }
-          ],
-          "scored_last": 1
-        },
-        {
           "player_id": "00-0034827",
           "name": "DJ Moore",
           "team": "BUF",
@@ -15409,130 +15798,6 @@
           "scored_last": 1
         },
         {
-          "player_id": "00-0041511",
-          "name": "Omar Cooper Jr.",
-          "team": "NYJ",
-          "position": "WR",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lmua2lbg0m77ibvydvaq",
-          "prob": 24.7,
-          "season_tds": 2,
-          "status": null,
-          "games": 4,
-          "snap": 77,
-          "xtd": 0.29,
-          "depth": "WR2",
-          "form": [
-            {
-              "week": 1,
-              "opp": "TEN",
-              "car": 0,
-              "tgt": 1,
-              "rec": 1,
-              "yds": 30,
-              "td": 0,
-              "snap": 7
-            },
-            {
-              "week": 6,
-              "opp": "NE",
-              "car": 0,
-              "tgt": 7,
-              "rec": 6,
-              "yds": 103,
-              "td": 1,
-              "snap": 82
-            },
-            {
-              "week": 7,
-              "opp": "MIA",
-              "car": 0,
-              "tgt": 5,
-              "rec": 5,
-              "yds": 115,
-              "td": 1,
-              "snap": 64
-            },
-            {
-              "week": 9,
-              "opp": "KC",
-              "car": 0,
-              "tgt": 11,
-              "rec": 8,
-              "yds": 58,
-              "td": 0,
-              "snap": 86
-            }
-          ],
-          "scored_last": 2
-        },
-        {
-          "player_id": "00-0039890",
-          "name": "Adonai Mitchell",
-          "team": "NYJ",
-          "position": "WR",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hwwacoa3pqapd7pgahfx",
-          "prob": 24.6,
-          "season_tds": 1,
-          "status": null,
-          "games": 5,
-          "snap": 70,
-          "xtd": 0.4,
-          "depth": "WR3",
-          "form": [
-            {
-              "week": 1,
-              "opp": "TEN",
-              "car": 0,
-              "tgt": 3,
-              "rec": 3,
-              "yds": 60,
-              "td": 0,
-              "snap": 69
-            },
-            {
-              "week": 2,
-              "opp": "GB",
-              "car": 0,
-              "tgt": 12,
-              "rec": 6,
-              "yds": 63,
-              "td": 0,
-              "snap": 82
-            },
-            {
-              "week": 7,
-              "opp": "MIA",
-              "car": 0,
-              "tgt": 3,
-              "rec": 0,
-              "yds": 0,
-              "td": 0,
-              "snap": 44
-            },
-            {
-              "week": 8,
-              "opp": "LV",
-              "car": 0,
-              "tgt": 9,
-              "rec": 7,
-              "yds": 142,
-              "td": 1,
-              "snap": 61
-            },
-            {
-              "week": 9,
-              "opp": "KC",
-              "car": 0,
-              "tgt": 7,
-              "rec": 0,
-              "yds": 0,
-              "td": 0,
-              "snap": 89
-            }
-          ],
-          "scored_last": 1
-        },
-        {
           "player_id": "00-0035689",
           "name": "Dawson Knox",
           "team": "BUF",
@@ -15598,6 +15863,73 @@
             }
           ],
           "scored_last": 0
+        },
+        {
+          "player_id": "00-0037740",
+          "name": "Garrett Wilson",
+          "team": "NYJ",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bo2gf1ohffbzo0rd71kp",
+          "prob": 22.1,
+          "season_tds": 3,
+          "status": "Questionable",
+          "games": 8,
+          "snap": 88,
+          "xtd": 0.35,
+          "depth": "WR1",
+          "form": [
+            {
+              "week": 4,
+              "opp": "CHI",
+              "car": 0,
+              "tgt": 4,
+              "rec": 3,
+              "yds": 27,
+              "td": 0,
+              "snap": 100
+            },
+            {
+              "week": 5,
+              "opp": "CLE",
+              "car": 0,
+              "tgt": 11,
+              "rec": 7,
+              "yds": 104,
+              "td": 1,
+              "snap": 93
+            },
+            {
+              "week": 6,
+              "opp": "NE",
+              "car": 0,
+              "tgt": 6,
+              "rec": 4,
+              "yds": 44,
+              "td": 0,
+              "snap": 98
+            },
+            {
+              "week": 7,
+              "opp": "MIA",
+              "car": 0,
+              "tgt": 3,
+              "rec": 2,
+              "yds": 26,
+              "td": 0,
+              "snap": 85
+            },
+            {
+              "week": 8,
+              "opp": "LV",
+              "car": 0,
+              "tgt": 12,
+              "rec": 6,
+              "yds": 83,
+              "td": 0,
+              "snap": 81
+            }
+          ],
+          "scored_last": 1
         },
         {
           "player_id": "00-0038120",
@@ -15722,18 +16054,228 @@
             }
           ],
           "scored_last": 1
+        },
+        {
+          "player_id": "00-0041511",
+          "name": "Omar Cooper Jr.",
+          "team": "NYJ",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lmua2lbg0m77ibvydvaq",
+          "prob": 17.5,
+          "season_tds": 2,
+          "status": "Questionable",
+          "games": 4,
+          "snap": 77,
+          "xtd": 0.29,
+          "depth": "WR2",
+          "form": [
+            {
+              "week": 1,
+              "opp": "TEN",
+              "car": 0,
+              "tgt": 1,
+              "rec": 1,
+              "yds": 30,
+              "td": 0,
+              "snap": 7
+            },
+            {
+              "week": 6,
+              "opp": "NE",
+              "car": 0,
+              "tgt": 7,
+              "rec": 6,
+              "yds": 103,
+              "td": 1,
+              "snap": 82
+            },
+            {
+              "week": 7,
+              "opp": "MIA",
+              "car": 0,
+              "tgt": 5,
+              "rec": 5,
+              "yds": 115,
+              "td": 1,
+              "snap": 64
+            },
+            {
+              "week": 9,
+              "opp": "KC",
+              "car": 0,
+              "tgt": 11,
+              "rec": 8,
+              "yds": 58,
+              "td": 0,
+              "snap": 86
+            }
+          ],
+          "scored_last": 2
+        },
+        {
+          "player_id": "00-0039890",
+          "name": "Adonai Mitchell",
+          "team": "NYJ",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hwwacoa3pqapd7pgahfx",
+          "prob": 17.5,
+          "season_tds": 1,
+          "status": "Questionable",
+          "games": 5,
+          "snap": 70,
+          "xtd": 0.4,
+          "depth": "WR3",
+          "form": [
+            {
+              "week": 1,
+              "opp": "TEN",
+              "car": 0,
+              "tgt": 3,
+              "rec": 3,
+              "yds": 60,
+              "td": 0,
+              "snap": 69
+            },
+            {
+              "week": 2,
+              "opp": "GB",
+              "car": 0,
+              "tgt": 12,
+              "rec": 6,
+              "yds": 63,
+              "td": 0,
+              "snap": 82
+            },
+            {
+              "week": 7,
+              "opp": "MIA",
+              "car": 0,
+              "tgt": 3,
+              "rec": 0,
+              "yds": 0,
+              "td": 0,
+              "snap": 44
+            },
+            {
+              "week": 8,
+              "opp": "LV",
+              "car": 0,
+              "tgt": 9,
+              "rec": 7,
+              "yds": 142,
+              "td": 1,
+              "snap": 61
+            },
+            {
+              "week": 9,
+              "opp": "KC",
+              "car": 0,
+              "tgt": 7,
+              "rec": 0,
+              "yds": 0,
+              "td": 0,
+              "snap": 89
+            }
+          ],
+          "scored_last": 1
         }
       ],
       "commentary": "Avantage Bills (79 %), à l’extérieur.",
       "injuries": {
-        "home": [],
-        "away": []
+        "home": [
+          {
+            "name": "Trevin Wallace",
+            "position": "LB",
+            "status": "Out",
+            "injury": "aine"
+          },
+          {
+            "name": "Garrett Wilson",
+            "position": "WR",
+            "status": "Questionable",
+            "injury": "commotion"
+          },
+          {
+            "name": "Adonai Mitchell",
+            "position": "WR",
+            "status": "Questionable",
+            "injury": "genou"
+          },
+          {
+            "name": "Omar Cooper Jr.",
+            "position": "WR",
+            "status": "Questionable",
+            "injury": "cheville"
+          },
+          {
+            "name": "Harrison Phillips",
+            "position": "DT",
+            "status": "Questionable",
+            "injury": "cheville"
+          },
+          {
+            "name": "Joseph Ossai",
+            "position": "DE",
+            "status": "Questionable",
+            "injury": "cheville"
+          },
+          {
+            "name": "Nahshon Wright",
+            "position": "CB",
+            "status": "Questionable",
+            "injury": "dos"
+          },
+          {
+            "name": "Jarvis Brownlee Jr.",
+            "position": "CB",
+            "status": "Questionable",
+            "injury": "maladie"
+          },
+          {
+            "name": "VJ Payne",
+            "position": "S",
+            "status": "Questionable",
+            "injury": "genou"
+          }
+        ],
+        "away": [
+          {
+            "name": "Spencer Brown",
+            "position": "T",
+            "status": "Doubtful",
+            "injury": "cheville"
+          },
+          {
+            "name": "Tyrell Shavers",
+            "position": "WR",
+            "status": "Questionable",
+            "injury": "genou"
+          },
+          {
+            "name": "Christian Benford",
+            "position": "CB",
+            "status": "Questionable",
+            "injury": "poignet"
+          },
+          {
+            "name": "Jordan Hancock",
+            "position": "CB",
+            "status": "Questionable",
+            "injury": "ischio-jambiers"
+          },
+          {
+            "name": "Sam Franklin Jr.",
+            "position": "S",
+            "status": "Questionable",
+            "injury": "épaule"
+          }
+        ]
       },
       "weather": {
         "roof": "open",
         "temp_c": 8,
         "wind_kmh": 17,
-        "precip_prob": 0,
+        "precip_prob": 1,
         "windy": false
       },
       "round": null,
@@ -15768,7 +16310,7 @@
             "name": "Garrett Wilson",
             "pos": "WR",
             "rank": 1,
-            "status": null,
+            "status": "Questionable",
             "available": true
           },
           {
@@ -15776,7 +16318,7 @@
             "name": "Omar Cooper Jr.",
             "pos": "WR",
             "rank": 2,
-            "status": null,
+            "status": "Questionable",
             "available": true
           },
           {
@@ -15784,7 +16326,7 @@
             "name": "Adonai Mitchell",
             "pos": "WR",
             "rank": 3,
-            "status": null,
+            "status": "Questionable",
             "available": true
           },
           {
@@ -16547,7 +17089,7 @@
           "team": "TEN",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/e4fazi7xfvo5c7aquenn",
-          "prob": 23.0,
+          "prob": 23.9,
           "season_tds": 3,
           "status": null,
           "games": 8,
@@ -16743,79 +17285,12 @@
           "scored_last": 2
         },
         {
-          "player_id": "00-0041438",
-          "name": "Carnell Tate",
-          "team": "TEN",
-          "position": "WR",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xlva68qwhtm0n36pwyad",
-          "prob": 17.9,
-          "season_tds": 1,
-          "status": null,
-          "games": 7,
-          "snap": 82,
-          "xtd": 0.21,
-          "depth": "WR1",
-          "form": [
-            {
-              "week": 3,
-              "opp": "NYG",
-              "car": 0,
-              "tgt": 9,
-              "rec": 6,
-              "yds": 58,
-              "td": 0,
-              "snap": 88
-            },
-            {
-              "week": 4,
-              "opp": "BAL",
-              "car": 0,
-              "tgt": 12,
-              "rec": 9,
-              "yds": 145,
-              "td": 0,
-              "snap": 84
-            },
-            {
-              "week": 5,
-              "opp": "HOU",
-              "car": 0,
-              "tgt": 5,
-              "rec": 1,
-              "yds": 6,
-              "td": 0,
-              "snap": 76
-            },
-            {
-              "week": 6,
-              "opp": "IND",
-              "car": 0,
-              "tgt": 7,
-              "rec": 6,
-              "yds": 70,
-              "td": 1,
-              "snap": 74
-            },
-            {
-              "week": 7,
-              "opp": "CLE",
-              "car": 0,
-              "tgt": 7,
-              "rec": 5,
-              "yds": 69,
-              "td": 0,
-              "snap": 89
-            }
-          ],
-          "scored_last": 1
-        },
-        {
           "player_id": "00-0040170",
           "name": "Elic Ayomanor",
           "team": "TEN",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xozpynzjbuorn6ixdjh3",
-          "prob": 16.6,
+          "prob": 17.2,
           "season_tds": 1,
           "status": null,
           "games": 8,
@@ -16949,7 +17424,7 @@
           "team": "TEN",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vxm3tzziboxezsb9thjm",
-          "prob": 10.6,
+          "prob": 11.0,
           "season_tds": 0,
           "status": null,
           "games": 7,
@@ -17009,17 +17484,146 @@
             }
           ],
           "scored_last": 0
+        },
+        {
+          "player_id": "00-0040705",
+          "name": "Chimere Dike",
+          "team": "TEN",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jcxkarajirurpxlxl1rj",
+          "prob": 9.1,
+          "season_tds": 1,
+          "status": null,
+          "games": 8,
+          "snap": 37,
+          "xtd": 0.1,
+          "depth": "WR3",
+          "form": [
+            {
+              "week": 4,
+              "opp": "BAL",
+              "car": 0,
+              "tgt": 1,
+              "rec": 1,
+              "yds": 15,
+              "td": 0,
+              "snap": 12
+            },
+            {
+              "week": 5,
+              "opp": "HOU",
+              "car": 0,
+              "tgt": 4,
+              "rec": 3,
+              "yds": 28,
+              "td": 0,
+              "snap": 17
+            },
+            {
+              "week": 6,
+              "opp": "IND",
+              "car": 0,
+              "tgt": 0,
+              "rec": 0,
+              "yds": 0,
+              "td": 0,
+              "snap": 17
+            },
+            {
+              "week": 7,
+              "opp": "CLE",
+              "car": 0,
+              "tgt": 0,
+              "rec": 0,
+              "yds": 0,
+              "td": 0,
+              "snap": 21
+            },
+            {
+              "week": 8,
+              "opp": "CIN",
+              "car": 0,
+              "tgt": 6,
+              "rec": 5,
+              "yds": 71,
+              "td": 1,
+              "snap": 82
+            }
+          ],
+          "scored_last": 1
         }
       ],
       "commentary": "Avantage Jaguars (84 %), à l’extérieur.",
       "injuries": {
-        "home": [],
-        "away": []
+        "home": [
+          {
+            "name": "Carnell Tate",
+            "position": "WR",
+            "status": "Out",
+            "injury": "épaule"
+          },
+          {
+            "name": "Peter Skoronski",
+            "position": "G",
+            "status": "Out",
+            "injury": "ischio-jambiers"
+          },
+          {
+            "name": "Cody Barton",
+            "position": "LB",
+            "status": "Out",
+            "injury": "commotion"
+          },
+          {
+            "name": "Anthony Hill Jr.",
+            "position": "LB",
+            "status": "Out",
+            "injury": "cou"
+          },
+          {
+            "name": "Tommy Townsend",
+            "position": "P",
+            "status": "Out",
+            "injury": "genou"
+          },
+          {
+            "name": "Tyjae Spears",
+            "position": "RB",
+            "status": "Questionable",
+            "injury": "genou"
+          }
+        ],
+        "away": [
+          {
+            "name": "Jordan Davis",
+            "position": "DT",
+            "status": "Out",
+            "injury": "not injury related - resting player"
+          },
+          {
+            "name": "BJ Green II",
+            "position": "DE",
+            "status": "Out",
+            "injury": "forearm"
+          },
+          {
+            "name": "Jessie Bates",
+            "position": "S",
+            "status": "Out",
+            "injury": "not injury related - resting player"
+          },
+          {
+            "name": "Robert Hainsey",
+            "position": "C",
+            "status": "Questionable",
+            "injury": "commotion"
+          }
+        ]
       },
       "weather": {
         "roof": "open",
         "temp_c": 11,
-        "wind_kmh": 12,
+        "wind_kmh": 9,
         "precip_prob": 0,
         "windy": false
       },
@@ -17047,7 +17651,7 @@
             "name": "Tyjae Spears",
             "pos": "RB",
             "rank": 2,
-            "status": null,
+            "status": "Questionable",
             "available": true
           },
           {
@@ -17055,8 +17659,8 @@
             "name": "Carnell Tate",
             "pos": "WR",
             "rank": 1,
-            "status": null,
-            "available": true
+            "status": "Out",
+            "available": false
           },
           {
             "player_id": "00-0038117",
@@ -17071,6 +17675,14 @@
             "name": "Chimere Dike",
             "pos": "WR",
             "rank": 3,
+            "status": null,
+            "available": true
+          },
+          {
+            "player_id": "00-0040170",
+            "name": "Elic Ayomanor",
+            "pos": "WR",
+            "rank": 4,
             "status": null,
             "available": true
           },
@@ -17145,7 +17757,7 @@
       "status": "upcoming",
       "flags": {
         "value": false,
-        "key_out": 0,
+        "key_out": 1,
         "windy": false,
         "dome": false
       },
@@ -17829,73 +18441,6 @@
           "scored_last": 1
         },
         {
-          "player_id": "00-0039074",
-          "name": "Davis Allen",
-          "team": "LA",
-          "position": "TE",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/iweydtcrfchsl3mt6jtd",
-          "prob": 21.1,
-          "season_tds": 2,
-          "status": null,
-          "games": 8,
-          "snap": 58,
-          "xtd": 0.23,
-          "depth": "TE3",
-          "form": [
-            {
-              "week": 4,
-              "opp": "PHI",
-              "car": 0,
-              "tgt": 2,
-              "rec": 0,
-              "yds": 0,
-              "td": 0,
-              "snap": 48
-            },
-            {
-              "week": 5,
-              "opp": "BUF",
-              "car": 0,
-              "tgt": 2,
-              "rec": 2,
-              "yds": 24,
-              "td": 0,
-              "snap": 50
-            },
-            {
-              "week": 6,
-              "opp": "ARI",
-              "car": 1,
-              "tgt": 0,
-              "rec": 0,
-              "yds": 0,
-              "td": 0,
-              "snap": 31
-            },
-            {
-              "week": 7,
-              "opp": "LV",
-              "car": 0,
-              "tgt": 5,
-              "rec": 4,
-              "yds": 20,
-              "td": 2,
-              "snap": 69
-            },
-            {
-              "week": 8,
-              "opp": "LAC",
-              "car": 0,
-              "tgt": 2,
-              "rec": 2,
-              "yds": 8,
-              "td": 0,
-              "snap": 74
-            }
-          ],
-          "scored_last": 1
-        },
-        {
           "player_id": "00-0033110",
           "name": "Tyler Higbee",
           "team": "LA",
@@ -17961,6 +18506,73 @@
             }
           ],
           "scored_last": 0
+        },
+        {
+          "player_id": "00-0039074",
+          "name": "Davis Allen",
+          "team": "LA",
+          "position": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/iweydtcrfchsl3mt6jtd",
+          "prob": 14.8,
+          "season_tds": 2,
+          "status": "Questionable",
+          "games": 8,
+          "snap": 58,
+          "xtd": 0.23,
+          "depth": "TE3",
+          "form": [
+            {
+              "week": 4,
+              "opp": "PHI",
+              "car": 0,
+              "tgt": 2,
+              "rec": 0,
+              "yds": 0,
+              "td": 0,
+              "snap": 48
+            },
+            {
+              "week": 5,
+              "opp": "BUF",
+              "car": 0,
+              "tgt": 2,
+              "rec": 2,
+              "yds": 24,
+              "td": 0,
+              "snap": 50
+            },
+            {
+              "week": 6,
+              "opp": "ARI",
+              "car": 1,
+              "tgt": 0,
+              "rec": 0,
+              "yds": 0,
+              "td": 0,
+              "snap": 31
+            },
+            {
+              "week": 7,
+              "opp": "LV",
+              "car": 0,
+              "tgt": 5,
+              "rec": 4,
+              "yds": 20,
+              "td": 2,
+              "snap": 69
+            },
+            {
+              "week": 8,
+              "opp": "LAC",
+              "car": 0,
+              "tgt": 2,
+              "rec": 2,
+              "yds": 8,
+              "td": 0,
+              "snap": 74
+            }
+          ],
+          "scored_last": 1
         },
         {
           "player_id": "00-0040590",
@@ -18250,13 +18862,111 @@
       ],
       "commentary": "Avantage Rams (81 %), à l’extérieur. QB titulaire indisponible chez les Cardinals : Carson Beck attendu.",
       "injuries": {
-        "home": [],
-        "away": []
+        "home": [
+          {
+            "name": "Hjalte Froholdt",
+            "position": "C",
+            "status": "Out",
+            "injury": "commotion"
+          },
+          {
+            "name": "Jon Gaines II",
+            "position": "G",
+            "status": "Out",
+            "injury": "cheville"
+          },
+          {
+            "name": "Zachary Carter",
+            "position": "DT",
+            "status": "Out",
+            "injury": "genou"
+          },
+          {
+            "name": "Hunter Long",
+            "position": "TE",
+            "status": "Questionable",
+            "injury": "genou"
+          },
+          {
+            "name": "Jayden Williams",
+            "position": "T",
+            "status": "Questionable",
+            "injury": "genou"
+          },
+          {
+            "name": "Roy Lopez",
+            "position": "DT",
+            "status": "Questionable",
+            "injury": "orteil"
+          },
+          {
+            "name": "Darius Robinson",
+            "position": "DT",
+            "status": "Questionable",
+            "injury": "poignet"
+          },
+          {
+            "name": "Max Melton",
+            "position": "CB",
+            "status": "Questionable",
+            "injury": "genou"
+          },
+          {
+            "name": "Andrew Wingard",
+            "position": "S",
+            "status": "Questionable",
+            "injury": "aine"
+          }
+        ],
+        "away": [
+          {
+            "name": "Terrance Ferguson",
+            "position": "TE",
+            "status": "Out",
+            "injury": "cheville"
+          },
+          {
+            "name": "Steve Avila",
+            "position": "G",
+            "status": "Out",
+            "injury": "ischio-jambiers"
+          },
+          {
+            "name": "Davis Allen",
+            "position": "TE",
+            "status": "Questionable",
+            "injury": "oblique"
+          },
+          {
+            "name": "Myles Garrett",
+            "position": "LB",
+            "status": "Questionable",
+            "injury": "genou"
+          },
+          {
+            "name": "Trent McDuffie",
+            "position": "CB",
+            "status": "Questionable",
+            "injury": "dos"
+          },
+          {
+            "name": "Kam Curl",
+            "position": "S",
+            "status": "Questionable",
+            "injury": "orteil"
+          },
+          {
+            "name": "Joe Cardona",
+            "position": "LS",
+            "status": "Questionable",
+            "injury": "cheville"
+          }
+        ]
       },
       "weather": {
         "roof": "retractable",
         "temp_c": 23,
-        "wind_kmh": 1,
+        "wind_kmh": 5,
         "precip_prob": 0,
         "windy": false
       },
@@ -18382,7 +19092,7 @@
       "status": "upcoming",
       "flags": {
         "value": false,
-        "key_out": 0,
+        "key_out": 1,
         "windy": false,
         "dome": false
       },
@@ -18453,8 +19163,8 @@
       "prob_home_win": 27.4,
       "prob_away_win": 72.6,
       "predicted_spread": 6.5,
-      "model_spread": 10.0,
-      "model_prob_home": 19.3,
+      "model_spread": 10.9,
+      "model_prob_home": 17.2,
       "vegas_spread": 6.5,
       "vegas_total": 40.5,
       "odds": {
@@ -18718,9 +19428,9 @@
         "epa": -6.6,
         "qb": {
           "home": -3.4,
-          "away": -0.2,
+          "away": 0.7,
           "home_name": "Fernando Mendoza",
-          "away_name": "Sam Darnold"
+          "away_name": "Drew Lock"
         },
         "rest": {
           "pts": 0.0,
@@ -19505,10 +20215,48 @@
           "scored_last": 0
         }
       ],
-      "commentary": "Avantage Seahawks (73 %), à l’extérieur. Le modèle maison (+10,0) s’écarte des bookmakers (+6,5). QB annoncé chez les Raiders (Fernando Mendoza) : −3,4 pt par rapport à leur niveau habituel.",
+      "commentary": "Avantage Seahawks (73 %), à l’extérieur. Le modèle maison (+10,9) s’écarte des bookmakers (+6,5). QB titulaire indisponible chez les Seahawks : Drew Lock attendu. QB annoncé chez les Raiders (Fernando Mendoza) : −3,4 pt par rapport à leur niveau habituel.",
       "injuries": {
-        "home": [],
-        "away": []
+        "home": [
+          {
+            "name": "Dont'e Thornton Jr.",
+            "position": "WR",
+            "status": "Questionable",
+            "injury": "dos"
+          },
+          {
+            "name": "Thomas Booker",
+            "position": "DT",
+            "status": "Questionable",
+            "injury": "cheville"
+          }
+        ],
+        "away": [
+          {
+            "name": "Sam Darnold",
+            "position": "QB",
+            "status": "Out",
+            "injury": "côtes"
+          },
+          {
+            "name": "Charles Cross",
+            "position": "T",
+            "status": "Out",
+            "injury": "cheville"
+          },
+          {
+            "name": "Quenton Nelson",
+            "position": "G",
+            "status": "Out",
+            "injury": "genou"
+          },
+          {
+            "name": "Leonard Williams",
+            "position": "DT",
+            "status": "Out",
+            "injury": "stinger"
+          }
+        ]
       },
       "weather": {
         "roof": "dome"
@@ -19579,6 +20327,14 @@
             "name": "Sam Darnold",
             "pos": "QB",
             "rank": 1,
+            "status": "Out",
+            "available": false
+          },
+          {
+            "player_id": "00-0035704",
+            "name": "Drew Lock",
+            "pos": "QB",
+            "rank": 2,
             "status": null,
             "available": true
           },
@@ -19635,7 +20391,7 @@
       "status": "upcoming",
       "flags": {
         "value": false,
-        "key_out": 0,
+        "key_out": 1,
         "windy": false,
         "dome": true
       },
@@ -20056,7 +20812,7 @@
           "team": "DAL",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xvwroirev2kie6oiphtz",
-          "prob": 58.7,
+          "prob": 59.1,
           "season_tds": 10,
           "status": null,
           "games": 9,
@@ -20123,7 +20879,7 @@
           "team": "DAL",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mbblzwtynxr15ovzkevi",
-          "prob": 43.4,
+          "prob": 45.6,
           "season_tds": 7,
           "status": null,
           "games": 9,
@@ -20190,7 +20946,7 @@
           "team": "SF",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vkicdglglkyukgyxtmpx",
-          "prob": 40.3,
+          "prob": 41.9,
           "season_tds": 5,
           "status": null,
           "games": 8,
@@ -20257,7 +21013,7 @@
           "team": "DAL",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tqwq3cgpqu7j9hzoyicx",
-          "prob": 32.6,
+          "prob": 34.3,
           "season_tds": 2,
           "status": null,
           "games": 9,
@@ -20391,7 +21147,7 @@
           "team": "DAL",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cbpyykoguf7rsxezqzvk",
-          "prob": 29.0,
+          "prob": 30.5,
           "season_tds": 2,
           "status": null,
           "games": 8,
@@ -20458,7 +21214,7 @@
           "team": "SF",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ntgyhqg6hq7fanhhsqiw",
-          "prob": 26.5,
+          "prob": 27.7,
           "season_tds": 3,
           "status": null,
           "games": 5,
@@ -20654,73 +21410,6 @@
           "scored_last": 1
         },
         {
-          "player_id": "00-0038041",
-          "name": "Jake Ferguson",
-          "team": "DAL",
-          "position": "TE",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xpykb0tbosfwsn6dqstb",
-          "prob": 21.3,
-          "season_tds": 4,
-          "status": null,
-          "games": 8,
-          "snap": 52,
-          "xtd": 0.26,
-          "depth": "TE1",
-          "form": [
-            {
-              "week": 4,
-              "opp": "HOU",
-              "car": 0,
-              "tgt": 4,
-              "rec": 3,
-              "yds": 11,
-              "td": 0,
-              "snap": 71
-            },
-            {
-              "week": 5,
-              "opp": "TB",
-              "car": 0,
-              "tgt": 6,
-              "rec": 3,
-              "yds": 19,
-              "td": 0,
-              "snap": 83
-            },
-            {
-              "week": 6,
-              "opp": "GB",
-              "car": 0,
-              "tgt": 3,
-              "rec": 2,
-              "yds": 13,
-              "td": 0,
-              "snap": 54
-            },
-            {
-              "week": 7,
-              "opp": "PHI",
-              "car": 0,
-              "tgt": 1,
-              "rec": 0,
-              "yds": 0,
-              "td": 0,
-              "snap": 56
-            },
-            {
-              "week": 9,
-              "opp": "IND",
-              "car": 0,
-              "tgt": 2,
-              "rec": 2,
-              "yds": 21,
-              "td": 1,
-              "snap": 34
-            }
-          ],
-          "scored_last": 1
-        },
-        {
           "player_id": "00-0033077",
           "name": "Dak Prescott",
           "team": "DAL",
@@ -20786,18 +21475,195 @@
             }
           ],
           "scored_last": 1
+        },
+        {
+          "player_id": "00-0039530",
+          "name": "Brevyn Spann-Ford",
+          "team": "DAL",
+          "position": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/sko2pmuqociwa92ep1ad",
+          "prob": 8.9,
+          "season_tds": 0,
+          "status": null,
+          "games": 9,
+          "snap": 62,
+          "xtd": 0.05,
+          "depth": "TE2",
+          "form": [
+            {
+              "week": 5,
+              "opp": "TB",
+              "car": 0,
+              "tgt": 2,
+              "rec": 0,
+              "yds": 0,
+              "td": 0,
+              "snap": 33
+            },
+            {
+              "week": 6,
+              "opp": "GB",
+              "car": 0,
+              "tgt": 5,
+              "rec": 4,
+              "yds": 35,
+              "td": 0,
+              "snap": 46
+            },
+            {
+              "week": 7,
+              "opp": "PHI",
+              "car": 0,
+              "tgt": 2,
+              "rec": 2,
+              "yds": 11,
+              "td": 0,
+              "snap": 53
+            },
+            {
+              "week": 8,
+              "opp": "ARI",
+              "car": 0,
+              "tgt": 5,
+              "rec": 4,
+              "yds": 31,
+              "td": 0,
+              "snap": 88
+            },
+            {
+              "week": 9,
+              "opp": "IND",
+              "car": 0,
+              "tgt": 3,
+              "rec": 2,
+              "yds": 20,
+              "td": 0,
+              "snap": 70
+            }
+          ],
+          "scored_last": 0
         }
       ],
       "commentary": "Avantage 49ers (66 %), à l’extérieur.",
       "injuries": {
-        "home": [],
-        "away": []
+        "home": [
+          {
+            "name": "Tyler Goodson",
+            "position": "RB",
+            "status": "Out",
+            "injury": "cheville"
+          },
+          {
+            "name": "Jonathan Mingo",
+            "position": "WR",
+            "status": "Out",
+            "injury": "cheville"
+          },
+          {
+            "name": "Jake Ferguson",
+            "position": "TE",
+            "status": "Out",
+            "injury": "genou"
+          },
+          {
+            "name": "Donovan Ezeiruaku",
+            "position": "LB",
+            "status": "Out",
+            "injury": "cheville"
+          },
+          {
+            "name": "P.J. Locke",
+            "position": "S",
+            "status": "Out",
+            "injury": "commotion"
+          },
+          {
+            "name": "Juanyeh Thomas",
+            "position": "S",
+            "status": "Doubtful",
+            "injury": "ischio-jambiers"
+          },
+          {
+            "name": "Jonathan Bullard",
+            "position": "DT",
+            "status": "Questionable",
+            "injury": "mollet"
+          },
+          {
+            "name": "DaRon Bland",
+            "position": "CB",
+            "status": "Questionable",
+            "injury": "cheville"
+          },
+          {
+            "name": "Joey Porter Jr.",
+            "position": "CB",
+            "status": "Questionable",
+            "injury": "cheville"
+          },
+          {
+            "name": "Devin Moore",
+            "position": "CB",
+            "status": "Questionable",
+            "injury": "hanche"
+          }
+        ],
+        "away": [
+          {
+            "name": "Mike Evans",
+            "position": "WR",
+            "status": "Out",
+            "injury": "tendon d’Achille"
+          },
+          {
+            "name": "Trent Williams",
+            "position": "T",
+            "status": "Questionable",
+            "injury": "épaule"
+          },
+          {
+            "name": "C.J. West",
+            "position": "DT",
+            "status": "Questionable",
+            "injury": "genou"
+          },
+          {
+            "name": "Dre Greenlaw",
+            "position": "LB",
+            "status": "Questionable",
+            "injury": "genou"
+          },
+          {
+            "name": "Deommodore Lenoir",
+            "position": "CB",
+            "status": "Questionable",
+            "injury": "pied"
+          },
+          {
+            "name": "Nate Hobbs",
+            "position": "CB",
+            "status": "Questionable",
+            "injury": "aine"
+          },
+          {
+            "name": "Renardo Green",
+            "position": "CB",
+            "status": "Questionable",
+            "injury": "dos"
+          },
+          {
+            "name": "Upton Stout",
+            "position": "CB",
+            "status": "Questionable",
+            "injury": "épaule"
+          }
+        ]
       },
       "weather": {
         "roof": "retractable",
         "temp_c": 10,
-        "wind_kmh": 17,
-        "precip_prob": 59,
+        "wind_kmh": 14,
+        "precip_prob": 12,
         "windy": false
       },
       "round": null,
@@ -20824,8 +21690,8 @@
             "name": "Tyler Goodson",
             "pos": "RB",
             "rank": 2,
-            "status": null,
-            "available": true
+            "status": "Out",
+            "available": false
           },
           {
             "player_id": "00-0036358",
@@ -20856,6 +21722,14 @@
             "name": "Jake Ferguson",
             "pos": "TE",
             "rank": 1,
+            "status": "Out",
+            "available": false
+          },
+          {
+            "player_id": "00-0039530",
+            "name": "Brevyn Spann-Ford",
+            "pos": "TE",
+            "rank": 2,
             "status": null,
             "available": true
           }
@@ -20890,8 +21764,8 @@
             "name": "Mike Evans",
             "pos": "WR",
             "rank": 1,
-            "status": null,
-            "available": true
+            "status": "Out",
+            "available": false
           },
           {
             "player_id": "00-0035719",
@@ -20910,6 +21784,14 @@
             "available": true
           },
           {
+            "player_id": "00-0032775",
+            "name": "Demarcus Robinson",
+            "pos": "WR",
+            "rank": 4,
+            "status": null,
+            "available": true
+          },
+          {
             "player_id": "00-0033288",
             "name": "George Kittle",
             "pos": "TE",
@@ -20922,7 +21804,7 @@
       "status": "upcoming",
       "flags": {
         "value": false,
-        "key_out": 0,
+        "key_out": 4,
         "windy": false,
         "dome": false
       },
@@ -22077,13 +22959,45 @@
       ],
       "commentary": "Avantage Bengals (63 %), à domicile.",
       "injuries": {
-        "home": [],
-        "away": []
+        "home": [
+          {
+            "name": "Kyle Dugger",
+            "position": "S",
+            "status": "Out",
+            "injury": "quadriceps"
+          },
+          {
+            "name": "Andrei Iosivas",
+            "position": "WR",
+            "status": "Doubtful",
+            "injury": "pouce"
+          },
+          {
+            "name": "Brian Parker II",
+            "position": "G",
+            "status": "Doubtful",
+            "injury": "genou"
+          },
+          {
+            "name": "Jalen Davis",
+            "position": "CB",
+            "status": "Doubtful",
+            "injury": "ischio-jambiers"
+          }
+        ],
+        "away": [
+          {
+            "name": "Derrick Harmon",
+            "position": "DT",
+            "status": "Questionable",
+            "injury": "pied"
+          }
+        ]
       },
       "weather": {
         "roof": "open",
-        "temp_c": 5,
-        "wind_kmh": 5,
+        "temp_c": 6,
+        "wind_kmh": 3,
         "precip_prob": 0,
         "windy": false
       },
@@ -22209,7 +23123,7 @@
       "status": "upcoming",
       "flags": {
         "value": false,
-        "key_out": 0,
+        "key_out": 1,
         "windy": false,
         "dome": false
       },
@@ -23369,8 +24283,8 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 8,
-        "wind_kmh": 8,
+        "temp_c": 9,
+        "wind_kmh": 6,
         "precip_prob": 0,
         "windy": false
       },
@@ -23727,7 +24641,7 @@
           "actual": 76.0
         },
         "model_agrees": true,
-        "model_prob": 80.7
+        "model_prob": 82.8
       }
     ],
     "coin_flips": [
@@ -23936,89 +24850,12 @@
         }
       },
       {
-        "player_id": "00-0038134",
-        "name": "Kenneth Walker III",
-        "team": "KC",
-        "position": "RB",
-        "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vk6nruaqdewdglofcwwg",
-        "prob": 63.1,
-        "season_tds": 11,
-        "status": null,
-        "games": 8,
-        "snap": 73,
-        "xtd": 1.17,
-        "depth": "RB1",
-        "form": [
-          {
-            "week": 4,
-            "opp": "LV",
-            "car": 22,
-            "tgt": 1,
-            "rec": 1,
-            "yds": 179,
-            "td": 2,
-            "snap": 75
-          },
-          {
-            "week": 6,
-            "opp": "LAC",
-            "car": 19,
-            "tgt": 3,
-            "rec": 2,
-            "yds": 139,
-            "td": 2,
-            "snap": 74
-          },
-          {
-            "week": 7,
-            "opp": "SEA",
-            "car": 14,
-            "tgt": 5,
-            "rec": 4,
-            "yds": 57,
-            "td": 0,
-            "snap": 74
-          },
-          {
-            "week": 8,
-            "opp": "DEN",
-            "car": 21,
-            "tgt": 5,
-            "rec": 4,
-            "yds": 84,
-            "td": 0,
-            "snap": 81
-          },
-          {
-            "week": 9,
-            "opp": "NYJ",
-            "car": 18,
-            "tgt": 4,
-            "rec": 4,
-            "yds": 143,
-            "td": 3,
-            "snap": 65
-          }
-        ],
-        "scored_last": 3,
-        "game_id": "2026_10_KC_ATL",
-        "opponent": "ATL",
-        "fair_odds": 1.58,
-        "hist": {
-          "label": "50 % et plus",
-          "min": 50,
-          "n": 79,
-          "predicted": 58.6,
-          "actual": 60.8
-        }
-      },
-      {
         "player_id": "00-0036997",
         "name": "Javonte Williams",
         "team": "DAL",
         "position": "RB",
         "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xvwroirev2kie6oiphtz",
-        "prob": 58.7,
+        "prob": 59.1,
         "season_tds": 10,
         "status": null,
         "games": 9,
@@ -24080,7 +24917,7 @@
         "scored_last": 4,
         "game_id": "2026_10_SF_DAL",
         "opponent": "SF",
-        "fair_odds": 1.7,
+        "fair_odds": 1.69,
         "hist": {
           "label": "50 % et plus",
           "min": 50,
@@ -24321,6 +25158,83 @@
         }
       },
       {
+        "player_id": "00-0038134",
+        "name": "Kenneth Walker III",
+        "team": "KC",
+        "position": "RB",
+        "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vk6nruaqdewdglofcwwg",
+        "prob": 52.6,
+        "season_tds": 11,
+        "status": "Questionable",
+        "games": 8,
+        "snap": 73,
+        "xtd": 1.17,
+        "depth": "RB1",
+        "form": [
+          {
+            "week": 4,
+            "opp": "LV",
+            "car": 22,
+            "tgt": 1,
+            "rec": 1,
+            "yds": 179,
+            "td": 2,
+            "snap": 75
+          },
+          {
+            "week": 6,
+            "opp": "LAC",
+            "car": 19,
+            "tgt": 3,
+            "rec": 2,
+            "yds": 139,
+            "td": 2,
+            "snap": 74
+          },
+          {
+            "week": 7,
+            "opp": "SEA",
+            "car": 14,
+            "tgt": 5,
+            "rec": 4,
+            "yds": 57,
+            "td": 0,
+            "snap": 74
+          },
+          {
+            "week": 8,
+            "opp": "DEN",
+            "car": 21,
+            "tgt": 5,
+            "rec": 4,
+            "yds": 84,
+            "td": 0,
+            "snap": 81
+          },
+          {
+            "week": 9,
+            "opp": "NYJ",
+            "car": 18,
+            "tgt": 4,
+            "rec": 4,
+            "yds": 143,
+            "td": 3,
+            "snap": 65
+          }
+        ],
+        "scored_last": 3,
+        "game_id": "2026_10_KC_ATL",
+        "opponent": "ATL",
+        "fair_odds": 1.9,
+        "hist": {
+          "label": "50 % et plus",
+          "min": 50,
+          "n": 79,
+          "predicted": 58.6,
+          "actual": 60.8
+        }
+      },
+      {
         "player_id": "00-0036223",
         "name": "Jonathan Taylor",
         "team": "IND",
@@ -24552,6 +25466,83 @@
         }
       },
       {
+        "player_id": "00-0036358",
+        "name": "CeeDee Lamb",
+        "team": "DAL",
+        "position": "WR",
+        "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mbblzwtynxr15ovzkevi",
+        "prob": 45.6,
+        "season_tds": 7,
+        "status": null,
+        "games": 9,
+        "snap": 83,
+        "xtd": 0.6,
+        "depth": "WR1",
+        "form": [
+          {
+            "week": 5,
+            "opp": "TB",
+            "car": 0,
+            "tgt": 5,
+            "rec": 2,
+            "yds": 9,
+            "td": 0,
+            "snap": 57
+          },
+          {
+            "week": 6,
+            "opp": "GB",
+            "car": 0,
+            "tgt": 18,
+            "rec": 9,
+            "yds": 70,
+            "td": 0,
+            "snap": 88
+          },
+          {
+            "week": 7,
+            "opp": "PHI",
+            "car": 0,
+            "tgt": 12,
+            "rec": 5,
+            "yds": 74,
+            "td": 2,
+            "snap": 81
+          },
+          {
+            "week": 8,
+            "opp": "ARI",
+            "car": 0,
+            "tgt": 11,
+            "rec": 7,
+            "yds": 58,
+            "td": 0,
+            "snap": 76
+          },
+          {
+            "week": 9,
+            "opp": "IND",
+            "car": 0,
+            "tgt": 16,
+            "rec": 10,
+            "yds": 195,
+            "td": 1,
+            "snap": 94
+          }
+        ],
+        "scored_last": 2,
+        "game_id": "2026_10_SF_DAL",
+        "opponent": "SF",
+        "fair_odds": 2.19,
+        "hist": {
+          "label": "40 à 50 %",
+          "min": 40,
+          "n": 112,
+          "predicted": 44.8,
+          "actual": 43.8
+        }
+      },
+      {
         "player_id": "00-0036900",
         "name": "Ja'Marr Chase",
         "team": "CIN",
@@ -24627,83 +25618,6 @@
           "predicted": 44.8,
           "actual": 43.8
         }
-      },
-      {
-        "player_id": "00-0032764",
-        "name": "Derrick Henry",
-        "team": "BAL",
-        "position": "RB",
-        "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tm79x0iknqg6hms3ypyt",
-        "prob": 44.8,
-        "season_tds": 9,
-        "status": null,
-        "games": 9,
-        "snap": 52,
-        "xtd": 0.87,
-        "depth": "RB1",
-        "form": [
-          {
-            "week": 5,
-            "opp": "ATL",
-            "car": 24,
-            "tgt": 2,
-            "rec": 1,
-            "yds": 120,
-            "td": 1,
-            "snap": 55
-          },
-          {
-            "week": 6,
-            "opp": "CLE",
-            "car": 17,
-            "tgt": 1,
-            "rec": 1,
-            "yds": 60,
-            "td": 0,
-            "snap": 58
-          },
-          {
-            "week": 7,
-            "opp": "CIN",
-            "car": 17,
-            "tgt": 2,
-            "rec": 1,
-            "yds": 49,
-            "td": 0,
-            "snap": 51
-          },
-          {
-            "week": 8,
-            "opp": "BUF",
-            "car": 11,
-            "tgt": 2,
-            "rec": 2,
-            "yds": 60,
-            "td": 1,
-            "snap": 45
-          },
-          {
-            "week": 9,
-            "opp": "JAX",
-            "car": 17,
-            "tgt": 0,
-            "rec": 0,
-            "yds": 57,
-            "td": 0,
-            "snap": 50
-          }
-        ],
-        "scored_last": 2,
-        "game_id": "2026_10_LAC_BAL",
-        "opponent": "LAC",
-        "fair_odds": 2.23,
-        "hist": {
-          "label": "40 à 50 %",
-          "min": 40,
-          "n": 112,
-          "predicted": 44.8,
-          "actual": 43.8
-        }
       }
     ],
     "reliability": [
@@ -24745,12 +25659,12 @@
     "type": "consensus",
     "games": 13,
     "books": 29,
-    "status": "live",
+    "status": "cache",
     "fetched_at": "2026-11-14T02:26:41+00:00",
     "credits": "470"
   },
   "sources": {
-    "injuries": 18,
+    "injuries": 160,
     "lineups": 32,
     "weather_errors": 0
   },
@@ -24910,81 +25824,12 @@
       "opponent": "NE"
     },
     {
-      "player_id": "00-0038134",
-      "name": "Kenneth Walker III",
-      "team": "KC",
-      "position": "RB",
-      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vk6nruaqdewdglofcwwg",
-      "prob": 63.1,
-      "season_tds": 11,
-      "status": null,
-      "games": 8,
-      "snap": 73,
-      "xtd": 1.17,
-      "depth": "RB1",
-      "form": [
-        {
-          "week": 4,
-          "opp": "LV",
-          "car": 22,
-          "tgt": 1,
-          "rec": 1,
-          "yds": 179,
-          "td": 2,
-          "snap": 75
-        },
-        {
-          "week": 6,
-          "opp": "LAC",
-          "car": 19,
-          "tgt": 3,
-          "rec": 2,
-          "yds": 139,
-          "td": 2,
-          "snap": 74
-        },
-        {
-          "week": 7,
-          "opp": "SEA",
-          "car": 14,
-          "tgt": 5,
-          "rec": 4,
-          "yds": 57,
-          "td": 0,
-          "snap": 74
-        },
-        {
-          "week": 8,
-          "opp": "DEN",
-          "car": 21,
-          "tgt": 5,
-          "rec": 4,
-          "yds": 84,
-          "td": 0,
-          "snap": 81
-        },
-        {
-          "week": 9,
-          "opp": "NYJ",
-          "car": 18,
-          "tgt": 4,
-          "rec": 4,
-          "yds": 143,
-          "td": 3,
-          "snap": 65
-        }
-      ],
-      "scored_last": 3,
-      "game_id": "2026_10_KC_ATL",
-      "opponent": "ATL"
-    },
-    {
       "player_id": "00-0036997",
       "name": "Javonte Williams",
       "team": "DAL",
       "position": "RB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xvwroirev2kie6oiphtz",
-      "prob": 58.7,
+      "prob": 59.1,
       "season_tds": 10,
       "status": null,
       "games": 9,
@@ -25255,6 +26100,75 @@
       "opponent": "NO"
     },
     {
+      "player_id": "00-0038134",
+      "name": "Kenneth Walker III",
+      "team": "KC",
+      "position": "RB",
+      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vk6nruaqdewdglofcwwg",
+      "prob": 52.6,
+      "season_tds": 11,
+      "status": "Questionable",
+      "games": 8,
+      "snap": 73,
+      "xtd": 1.17,
+      "depth": "RB1",
+      "form": [
+        {
+          "week": 4,
+          "opp": "LV",
+          "car": 22,
+          "tgt": 1,
+          "rec": 1,
+          "yds": 179,
+          "td": 2,
+          "snap": 75
+        },
+        {
+          "week": 6,
+          "opp": "LAC",
+          "car": 19,
+          "tgt": 3,
+          "rec": 2,
+          "yds": 139,
+          "td": 2,
+          "snap": 74
+        },
+        {
+          "week": 7,
+          "opp": "SEA",
+          "car": 14,
+          "tgt": 5,
+          "rec": 4,
+          "yds": 57,
+          "td": 0,
+          "snap": 74
+        },
+        {
+          "week": 8,
+          "opp": "DEN",
+          "car": 21,
+          "tgt": 5,
+          "rec": 4,
+          "yds": 84,
+          "td": 0,
+          "snap": 81
+        },
+        {
+          "week": 9,
+          "opp": "NYJ",
+          "car": 18,
+          "tgt": 4,
+          "rec": 4,
+          "yds": 143,
+          "td": 3,
+          "snap": 65
+        }
+      ],
+      "scored_last": 3,
+      "game_id": "2026_10_KC_ATL",
+      "opponent": "ATL"
+    },
+    {
       "player_id": "00-0036223",
       "name": "Jonathan Taylor",
       "team": "IND",
@@ -25462,6 +26376,75 @@
       "opponent": "TEN"
     },
     {
+      "player_id": "00-0036358",
+      "name": "CeeDee Lamb",
+      "team": "DAL",
+      "position": "WR",
+      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mbblzwtynxr15ovzkevi",
+      "prob": 45.6,
+      "season_tds": 7,
+      "status": null,
+      "games": 9,
+      "snap": 83,
+      "xtd": 0.6,
+      "depth": "WR1",
+      "form": [
+        {
+          "week": 5,
+          "opp": "TB",
+          "car": 0,
+          "tgt": 5,
+          "rec": 2,
+          "yds": 9,
+          "td": 0,
+          "snap": 57
+        },
+        {
+          "week": 6,
+          "opp": "GB",
+          "car": 0,
+          "tgt": 18,
+          "rec": 9,
+          "yds": 70,
+          "td": 0,
+          "snap": 88
+        },
+        {
+          "week": 7,
+          "opp": "PHI",
+          "car": 0,
+          "tgt": 12,
+          "rec": 5,
+          "yds": 74,
+          "td": 2,
+          "snap": 81
+        },
+        {
+          "week": 8,
+          "opp": "ARI",
+          "car": 0,
+          "tgt": 11,
+          "rec": 7,
+          "yds": 58,
+          "td": 0,
+          "snap": 76
+        },
+        {
+          "week": 9,
+          "opp": "IND",
+          "car": 0,
+          "tgt": 16,
+          "rec": 10,
+          "yds": 195,
+          "td": 1,
+          "snap": 94
+        }
+      ],
+      "scored_last": 2,
+      "game_id": "2026_10_SF_DAL",
+      "opponent": "SF"
+    },
+    {
       "player_id": "00-0036900",
       "name": "Ja'Marr Chase",
       "team": "CIN",
@@ -25529,75 +26512,6 @@
       "scored_last": 4,
       "game_id": "2026_10_PIT_CIN",
       "opponent": "PIT"
-    },
-    {
-      "player_id": "00-0032764",
-      "name": "Derrick Henry",
-      "team": "BAL",
-      "position": "RB",
-      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tm79x0iknqg6hms3ypyt",
-      "prob": 44.8,
-      "season_tds": 9,
-      "status": null,
-      "games": 9,
-      "snap": 52,
-      "xtd": 0.87,
-      "depth": "RB1",
-      "form": [
-        {
-          "week": 5,
-          "opp": "ATL",
-          "car": 24,
-          "tgt": 2,
-          "rec": 1,
-          "yds": 120,
-          "td": 1,
-          "snap": 55
-        },
-        {
-          "week": 6,
-          "opp": "CLE",
-          "car": 17,
-          "tgt": 1,
-          "rec": 1,
-          "yds": 60,
-          "td": 0,
-          "snap": 58
-        },
-        {
-          "week": 7,
-          "opp": "CIN",
-          "car": 17,
-          "tgt": 2,
-          "rec": 1,
-          "yds": 49,
-          "td": 0,
-          "snap": 51
-        },
-        {
-          "week": 8,
-          "opp": "BUF",
-          "car": 11,
-          "tgt": 2,
-          "rec": 2,
-          "yds": 60,
-          "td": 1,
-          "snap": 45
-        },
-        {
-          "week": 9,
-          "opp": "JAX",
-          "car": 17,
-          "tgt": 0,
-          "rec": 0,
-          "yds": 57,
-          "td": 0,
-          "snap": 50
-        }
-      ],
-      "scored_last": 2,
-      "game_id": "2026_10_LAC_BAL",
-      "opponent": "LAC"
     }
   ],
   "scorer_model": {
@@ -33951,7 +34865,7 @@
     }
   ],
   "studies": {
-    "generated_at": "2026-11-14T02:26:46+00:00",
+    "generated_at": "2026-11-14T12:11:15+00:00",
     "spread_sd": {
       "best_sd": 11.25,
       "games": 2887
