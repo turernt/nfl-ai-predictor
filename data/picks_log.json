@@ -508,7 +508,10 @@
      "team": "DET",
      "prob": 15.0
     }
-   ]
+   ],
+   "result": "V",
+   "score": "10-35",
+   "close_mkt": 57.5
   },
   "2026_10_KC_ATL": {
    "season": 2026,
@@ -1133,80 +1136,80 @@
    "pick_home": false,
    "open_prob": 79.9,
    "open_fr": null,
-   "close_prob": 81.0,
-   "closed_at": "2026-11-15T16:45+00:00",
+   "close_prob": 81.5,
+   "closed_at": "2026-11-15T21:02+00:00",
    "scorers": [
     {
      "id": "00-0037840",
      "name": "Kyren Williams",
      "team": "LA",
-     "prob": 55.2
+     "prob": 55.8
     },
     {
      "id": "00-0039738",
      "name": "Blake Corum",
      "team": "LA",
-     "prob": 34.6
+     "prob": 35.0
     },
     {
      "id": "00-0037744",
      "name": "Trey McBride",
      "team": "ARI",
-     "prob": 29.3
+     "prob": 28.7
     },
     {
      "id": "00-0037263",
      "name": "Tyler Allgeier",
      "team": "ARI",
-     "prob": 26.7
+     "prob": 26.1
     },
     {
      "id": "00-0036244",
      "name": "Colby Parkinson",
      "team": "LA",
-     "prob": 24.4
+     "prob": 24.7
     },
     {
      "id": "00-0033110",
      "name": "Tyler Higbee",
      "team": "LA",
-     "prob": 19.3
+     "prob": 19.5
     },
     {
      "id": "00-0039074",
      "name": "Davis Allen",
      "team": "LA",
-     "prob": 14.4
+     "prob": 14.6
     },
     {
      "id": "00-0040590",
      "name": "Konata Mumpfield",
      "team": "LA",
-     "prob": 13.2
+     "prob": 13.4
     },
     {
      "id": "00-0037157",
      "name": "Bam Knight",
      "team": "ARI",
-     "prob": 10.4
+     "prob": 10.1
     },
     {
      "id": "00-0037277",
      "name": "Teagan Quitoriano",
      "team": "ARI",
-     "prob": 7.4
+     "prob": 7.2
     },
     {
      "id": "00-0039041",
      "name": "Elijah Higgins",
      "team": "ARI",
-     "prob": 6.9
+     "prob": 6.7
     },
     {
      "id": "00-0041070",
      "name": "Reggie Virgil",
      "team": "ARI",
-     "prob": 5.2
+     "prob": 5.1
     }
    ]
   },
@@ -1220,8 +1223,8 @@
    "pick_home": false,
    "open_prob": 62.1,
    "open_fr": null,
-   "close_prob": 71.7,
-   "closed_at": "2026-11-15T16:45+00:00",
+   "close_prob": 72.4,
+   "closed_at": "2026-11-15T21:02+00:00",
    "scorers": [
     {
      "id": "00-0038543",
@@ -1307,80 +1310,80 @@
    "pick_home": false,
    "open_prob": 66.4,
    "open_fr": null,
-   "close_prob": 66.3,
-   "closed_at": "2026-11-15T16:45+00:00",
+   "close_prob": 64.4,
+   "closed_at": "2026-11-15T21:02+00:00",
    "scorers": [
     {
      "id": "00-0033280",
      "name": "Christian McCaffrey",
      "team": "SF",
-     "prob": 66.4
+     "prob": 66.0
     },
     {
      "id": "00-0036997",
      "name": "Javonte Williams",
      "team": "DAL",
-     "prob": 58.9
+     "prob": 59.4
     },
     {
      "id": "00-0036358",
      "name": "CeeDee Lamb",
      "team": "DAL",
-     "prob": 45.7
+     "prob": 46.1
     },
     {
      "id": "00-0033288",
      "name": "George Kittle",
      "team": "SF",
-     "prob": 41.9
+     "prob": 41.6
     },
     {
      "id": "00-0039410",
      "name": "Ryan Flournoy",
      "team": "DAL",
-     "prob": 34.4
+     "prob": 34.7
     },
     {
      "id": "00-0029892",
      "name": "Kyle Juszczyk",
      "team": "SF",
-     "prob": 32.2
+     "prob": 31.8
     },
     {
      "id": "00-0037247",
      "name": "George Pickens",
      "team": "DAL",
-     "prob": 30.6
+     "prob": 30.9
     },
     {
      "id": "00-0035719",
      "name": "Deebo Samuel Sr.",
      "team": "SF",
-     "prob": 27.7
+     "prob": 27.4
     },
     {
      "id": "00-0041052",
      "name": "Kaelon Black",
      "team": "SF",
-     "prob": 26.4
+     "prob": 26.1
     },
     {
      "id": "00-0037834",
      "name": "Brock Purdy",
      "team": "SF",
-     "prob": 26.1
+     "prob": 25.9
     },
     {
      "id": "00-0033077",
      "name": "Dak Prescott",
      "team": "DAL",
-     "prob": 17.0
+     "prob": 17.1
     },
     {
      "id": "00-0039530",
      "name": "Brevyn Spann-Ford",
      "team": "DAL",
-     "prob": 9.0
+     "prob": 9.1
     }
    ]
   },
@@ -1394,8 +1397,8 @@
    "pick_home": true,
    "open_prob": 62.1,
    "open_fr": null,
-   "close_prob": 63.7,
-   "closed_at": "2026-11-15T16:45+00:00",
+   "close_prob": 63.8,
+   "closed_at": "2026-11-15T21:02+00:00",
    "scorers": [
     {
      "id": "00-0036900",
@@ -1481,8 +1484,8 @@
    "pick_home": true,
    "open_prob": 66.4,
    "open_fr": null,
-   "close_prob": 66.5,
-   "closed_at": "2026-11-15T16:45+00:00",
+   "close_prob": 67.2,
+   "closed_at": "2026-11-15T21:02+00:00",
    "scorers": [
     {
      "id": "00-0032764",
