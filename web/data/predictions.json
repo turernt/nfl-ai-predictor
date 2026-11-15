@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T20:43:15+00:00",
+  "generated_at": "2026-11-15T01:55:04+00:00",
   "season": 2026,
   "week": 10,
   "week_label": "Semaine 10",
@@ -8294,6 +8294,12 @@
           "prob_home": 58.1,
           "spread": -2.5,
           "books": 29
+        },
+        {
+          "date": "2026-11-15",
+          "prob_home": 58.1,
+          "spread": -2.5,
+          "books": 29
         }
       ]
     },
@@ -9646,6 +9652,12 @@
         },
         {
           "date": "2026-11-14",
+          "prob_home": 37.6,
+          "spread": 3.5,
+          "books": 29
+        },
+        {
+          "date": "2026-11-15",
           "prob_home": 37.6,
           "spread": 3.5,
           "books": 29
@@ -11003,6 +11015,12 @@
         },
         {
           "date": "2026-11-14",
+          "prob_home": 32.3,
+          "spread": 4.5,
+          "books": 29
+        },
+        {
+          "date": "2026-11-15",
           "prob_home": 32.3,
           "spread": 4.5,
           "books": 29
@@ -12387,6 +12405,12 @@
           "prob_home": 58.6,
           "spread": -3.0,
           "books": 29
+        },
+        {
+          "date": "2026-11-15",
+          "prob_home": 58.6,
+          "spread": -3.0,
+          "books": 29
         }
       ]
     },
@@ -13756,6 +13780,12 @@
           "prob_home": 65.9,
           "spread": -4.0,
           "books": 29
+        },
+        {
+          "date": "2026-11-15",
+          "prob_home": 65.9,
+          "spread": -4.0,
+          "books": 29
         }
       ]
     },
@@ -15078,6 +15108,12 @@
         },
         {
           "date": "2026-11-14",
+          "prob_home": 56.1,
+          "spread": -2.5,
+          "books": 28
+        },
+        {
+          "date": "2026-11-15",
           "prob_home": 56.1,
           "spread": -2.5,
           "books": 28
@@ -16431,6 +16467,12 @@
         },
         {
           "date": "2026-11-14",
+          "prob_home": 20.6,
+          "spread": 8.0,
+          "books": 29
+        },
+        {
+          "date": "2026-11-15",
           "prob_home": 20.6,
           "spread": 8.0,
           "books": 29
@@ -17791,6 +17833,12 @@
           "prob_home": 15.8,
           "spread": 10.5,
           "books": 29
+        },
+        {
+          "date": "2026-11-15",
+          "prob_home": 15.8,
+          "spread": 10.5,
+          "books": 29
         }
       ]
     },
@@ -19126,6 +19174,12 @@
           "prob_home": 19.5,
           "spread": 9.5,
           "books": 29
+        },
+        {
+          "date": "2026-11-15",
+          "prob_home": 19.5,
+          "spread": 9.5,
+          "books": 29
         }
       ]
     },
@@ -20425,6 +20479,12 @@
           "prob_home": 27.4,
           "spread": 6.5,
           "books": 29
+        },
+        {
+          "date": "2026-11-15",
+          "prob_home": 27.4,
+          "spread": 6.5,
+          "books": 29
         }
       ]
     },
@@ -21663,7 +21723,7 @@
         "roof": "retractable",
         "temp_c": 9,
         "wind_kmh": 12,
-        "precip_prob": 34,
+        "precip_prob": 21,
         "windy": false
       },
       "round": null,
@@ -21835,6 +21895,12 @@
         },
         {
           "date": "2026-11-14",
+          "prob_home": 33.8,
+          "spread": 4.0,
+          "books": 29
+        },
+        {
+          "date": "2026-11-15",
           "prob_home": 33.8,
           "spread": 4.0,
           "books": 29
@@ -23157,6 +23223,12 @@
           "prob_home": 63.1,
           "spread": -3.5,
           "books": 29
+        },
+        {
+          "date": "2026-11-15",
+          "prob_home": 63.1,
+          "spread": -3.5,
+          "books": 29
         }
       ]
     },
@@ -24284,7 +24356,7 @@
       "weather": {
         "roof": "open",
         "temp_c": 9,
-        "wind_kmh": 6,
+        "wind_kmh": 7,
         "precip_prob": 0,
         "windy": false
       },
@@ -24441,6 +24513,12 @@
         },
         {
           "date": "2026-11-14",
+          "prob_home": 66.3,
+          "spread": -4.5,
+          "books": 29
+        },
+        {
+          "date": "2026-11-15",
           "prob_home": 66.3,
           "spread": -4.5,
           "books": 29
@@ -34865,7 +34943,7 @@
     }
   ],
   "studies": {
-    "generated_at": "2026-11-14T20:43:15+00:00",
+    "generated_at": "2026-11-15T01:55:04+00:00",
     "spread_sd": {
       "best_sd": 11.25,
       "games": 2887
