@@ -1567,75 +1567,90 @@
      "id": "00-0036900",
      "name": "Ja'Marr Chase",
      "team": "CIN",
-     "prob": 45.2
+     "prob": 45.2,
+     "scored": false
     },
     {
      "id": "00-0037228",
      "name": "Jaylen Warren",
      "team": "PIT",
-     "prob": 43.3
+     "prob": 43.3,
+     "scored": false
     },
     {
      "id": "00-0038597",
      "name": "Chase Brown",
      "team": "CIN",
-     "prob": 42.2
+     "prob": 42.2,
+     "scored": true
     },
     {
      "id": "00-0036410",
      "name": "Tee Higgins",
      "team": "CIN",
-     "prob": 40.2
+     "prob": 40.2,
+     "scored": false
     },
     {
      "id": "00-0035640",
      "name": "DK Metcalf",
      "team": "PIT",
-     "prob": 33.8
+     "prob": 33.8,
+     "scored": true
     },
     {
      "id": "00-0033526",
      "name": "Samaje Perine",
      "team": "CIN",
-     "prob": 27.0
+     "prob": 27.0,
+     "scored": true
     },
     {
      "id": "00-0036894",
      "name": "Pat Freiermuth",
      "team": "PIT",
-     "prob": 26.1
+     "prob": 26.1,
+     "scored": true
     },
     {
      "id": "00-0036442",
      "name": "Joe Burrow",
      "team": "CIN",
-     "prob": 25.9
+     "prob": 25.9,
+     "scored": false
     },
     {
      "id": "00-0041489",
      "name": "Germie Bernard",
      "team": "PIT",
-     "prob": 25.7
+     "prob": 25.7,
+     "scored": false
     },
     {
      "id": "00-0038558",
      "name": "Darnell Washington",
      "team": "PIT",
-     "prob": 25.1
+     "prob": 25.1,
+     "scored": false
     },
     {
      "id": "00-0036139",
      "name": "Rico Dowdle",
      "team": "PIT",
-     "prob": 24.4
+     "prob": 24.4,
+     "scored": false
     },
     {
      "id": "00-0034829",
      "name": "Mike Gesicki",
      "team": "CIN",
-     "prob": 23.4
+     "prob": 23.4,
+     "scored": false
     }
-   ]
+   ],
+   "result": "V",
+   "score": "18-38",
+   "close_mkt": 66.4
   },
   "2026_10_LAC_BAL": {
    "season": 2026,
@@ -1648,7 +1663,7 @@
    "open_prob": 66.4,
    "open_fr": null,
    "close_prob": 67.2,
-   "closed_at": "2026-11-16T02:06+00:00",
+   "closed_at": "2026-11-16T11:58+00:00",
    "scorers": [
     {
      "id": "00-0032764",
