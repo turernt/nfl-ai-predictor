@@ -1261,73 +1261,85 @@
      "id": "00-0037840",
      "name": "Kyren Williams",
      "team": "LA",
-     "prob": 55.8
+     "prob": 55.8,
+     "scored": false
     },
     {
      "id": "00-0039738",
      "name": "Blake Corum",
      "team": "LA",
-     "prob": 35.0
+     "prob": 35.0,
+     "scored": true
     },
     {
      "id": "00-0037744",
      "name": "Trey McBride",
      "team": "ARI",
-     "prob": 28.7
+     "prob": 28.7,
+     "scored": false
     },
     {
      "id": "00-0037263",
      "name": "Tyler Allgeier",
      "team": "ARI",
-     "prob": 26.1
+     "prob": 26.1,
+     "scored": false
     },
     {
      "id": "00-0036244",
      "name": "Colby Parkinson",
      "team": "LA",
-     "prob": 24.7
+     "prob": 24.7,
+     "scored": false
     },
     {
      "id": "00-0033110",
      "name": "Tyler Higbee",
      "team": "LA",
-     "prob": 19.5
+     "prob": 19.5,
+     "scored": true
     },
     {
      "id": "00-0039074",
      "name": "Davis Allen",
      "team": "LA",
-     "prob": 14.6
+     "prob": 14.6,
+     "scored": true
     },
     {
      "id": "00-0040590",
      "name": "Konata Mumpfield",
      "team": "LA",
-     "prob": 13.4
+     "prob": 13.4,
+     "scored": false
     },
     {
      "id": "00-0037157",
      "name": "Bam Knight",
      "team": "ARI",
-     "prob": 10.1
+     "prob": 10.1,
+     "scored": false
     },
     {
      "id": "00-0037277",
      "name": "Teagan Quitoriano",
      "team": "ARI",
-     "prob": 7.2
+     "prob": 7.2,
+     "scored": false
     },
     {
      "id": "00-0039041",
      "name": "Elijah Higgins",
      "team": "ARI",
-     "prob": 6.7
+     "prob": 6.7,
+     "scored": false
     },
     {
      "id": "00-0041070",
      "name": "Reggie Virgil",
      "team": "ARI",
-     "prob": 5.1
+     "prob": 5.1,
+     "scored": false
     }
    ],
    "result": "V",
@@ -1351,75 +1363,90 @@
      "id": "00-0038543",
      "name": "Jaxon Smith-Njigba",
      "team": "SEA",
-     "prob": 41.0
+     "prob": 41.0,
+     "scored": true
     },
     {
      "id": "00-0039793",
      "name": "AJ Barner",
      "team": "SEA",
-     "prob": 36.2
+     "prob": 36.2,
+     "scored": false
     },
     {
      "id": "00-0038797",
      "name": "Emanuel Wilson",
      "team": "SEA",
-     "prob": 33.8
+     "prob": 33.8,
+     "scored": false
     },
     {
      "id": "00-0039338",
      "name": "Brock Bowers",
      "team": "LV",
-     "prob": 30.4
+     "prob": 30.4,
+     "scored": false
     },
     {
      "id": "00-0039165",
      "name": "Zach Charbonnet",
      "team": "SEA",
-     "prob": 28.8
+     "prob": 28.8,
+     "scored": false
     },
     {
      "id": "00-0040122",
      "name": "Ashton Jeanty",
      "team": "LV",
-     "prob": 28.5
+     "prob": 28.5,
+     "scored": false
     },
     {
      "id": "00-0033908",
      "name": "Cooper Kupp",
      "team": "SEA",
-     "prob": 26.2
+     "prob": 26.2,
+     "scored": true
     },
     {
      "id": "00-0039299",
      "name": "George Holani",
      "team": "SEA",
-     "prob": 19.2
+     "prob": 19.2,
+     "scored": false
     },
     {
      "id": "00-0038563",
      "name": "Tre Tucker",
      "team": "LV",
-     "prob": 17.4
+     "prob": 17.4,
+     "scored": false
     },
     {
      "id": "00-0040878",
      "name": "Mike Washington Jr.",
      "team": "LV",
-     "prob": 15.7
+     "prob": 15.7,
+     "scored": false
     },
     {
      "id": "00-0037291",
      "name": "Jalen Nailor",
      "team": "LV",
-     "prob": 14.3
+     "prob": 14.3,
+     "scored": false
     },
     {
      "id": "00-0039066",
      "name": "Michael Mayer",
      "team": "LV",
-     "prob": 13.0
+     "prob": 13.0,
+     "scored": false
     }
-   ]
+   ],
+   "result": "V",
+   "score": "21-13",
+   "close_mkt": 72.7
   },
   "2026_10_SF_DAL": {
    "season": 2026,
@@ -1438,75 +1465,90 @@
      "id": "00-0033280",
      "name": "Christian McCaffrey",
      "team": "SF",
-     "prob": 66.0
+     "prob": 66.0,
+     "scored": true
     },
     {
      "id": "00-0036997",
      "name": "Javonte Williams",
      "team": "DAL",
-     "prob": 59.4
+     "prob": 59.4,
+     "scored": false
     },
     {
      "id": "00-0036358",
      "name": "CeeDee Lamb",
      "team": "DAL",
-     "prob": 46.1
+     "prob": 46.1,
+     "scored": true
     },
     {
      "id": "00-0033288",
      "name": "George Kittle",
      "team": "SF",
-     "prob": 41.6
+     "prob": 41.6,
+     "scored": false
     },
     {
      "id": "00-0039410",
      "name": "Ryan Flournoy",
      "team": "DAL",
-     "prob": 34.7
+     "prob": 34.7,
+     "scored": true
     },
     {
      "id": "00-0029892",
      "name": "Kyle Juszczyk",
      "team": "SF",
-     "prob": 31.8
+     "prob": 31.8,
+     "scored": false
     },
     {
      "id": "00-0037247",
      "name": "George Pickens",
      "team": "DAL",
-     "prob": 30.9
+     "prob": 30.9,
+     "scored": true
     },
     {
      "id": "00-0035719",
      "name": "Deebo Samuel Sr.",
      "team": "SF",
-     "prob": 27.4
+     "prob": 27.4,
+     "scored": true
     },
     {
      "id": "00-0041052",
      "name": "Kaelon Black",
      "team": "SF",
-     "prob": 26.1
+     "prob": 26.1,
+     "scored": true
     },
     {
      "id": "00-0037834",
      "name": "Brock Purdy",
      "team": "SF",
-     "prob": 25.9
+     "prob": 25.9,
+     "scored": false
     },
     {
      "id": "00-0033077",
      "name": "Dak Prescott",
      "team": "DAL",
-     "prob": 17.1
+     "prob": 17.1,
+     "scored": false
     },
     {
      "id": "00-0039530",
      "name": "Brevyn Spann-Ford",
      "team": "DAL",
-     "prob": 9.1
+     "prob": 9.1,
+     "scored": false
     }
-   ]
+   ],
+   "result": "V",
+   "score": "46-40",
+   "close_mkt": 65.1
   },
   "2026_10_PIT_CIN": {
    "season": 2026,
@@ -1606,7 +1648,7 @@
    "open_prob": 66.4,
    "open_fr": null,
    "close_prob": 67.2,
-   "closed_at": "2026-11-16T00:05+00:00",
+   "closed_at": "2026-11-16T02:06+00:00",
    "scorers": [
     {
      "id": "00-0032764",
