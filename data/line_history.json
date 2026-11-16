@@ -479,6 +479,12 @@
    "prob_home": 63.8,
    "spread": -3.5,
    "books": 29
+  },
+  {
+   "date": "2026-11-16",
+   "prob_home": 65.1,
+   "spread": -3.5,
+   "books": 29
   }
  ],
  "2026_10_LAC_BAL": [
@@ -514,6 +520,12 @@
   },
   {
    "date": "2026-11-15",
+   "prob_home": 67.2,
+   "spread": -4.5,
+   "books": 29
+  },
+  {
+   "date": "2026-11-16",
    "prob_home": 67.2,
    "spread": -4.5,
    "books": 29
