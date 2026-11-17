@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T00:00:18+00:00",
+  "generated_at": "2026-11-17T00:15:52+00:00",
   "season": 2026,
   "week": 10,
   "week_label": "Semaine 10",
@@ -18379,10 +18379,7 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 7,
-        "wind_kmh": 8,
-        "precip_prob": 0,
-        "windy": false
+        "error": true
       },
       "round": null,
       "lineup": {
@@ -18684,14 +18681,14 @@
     "type": "consensus",
     "games": 1,
     "books": 29,
-    "status": "live",
+    "status": "cache",
     "fetched_at": "2026-11-17T00:00:15+00:00",
     "credits": "440"
   },
   "sources": {
     "injuries": 171,
     "lineups": 32,
-    "weather_errors": 0
+    "weather_errors": 1
   },
   "archive_ids": [
     "2026_10_BUF_NYJ",
@@ -27866,7 +27863,7 @@
     }
   ],
   "studies": {
-    "generated_at": "2026-11-17T00:00:18+00:00",
+    "generated_at": "2026-11-17T00:15:52+00:00",
     "spread_sd": {
       "best_sd": 11.0,
       "games": 2899
