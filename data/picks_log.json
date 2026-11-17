@@ -1662,80 +1662,80 @@
    "pick_home": true,
    "open_prob": 66.4,
    "open_fr": null,
-   "close_prob": 67.2,
-   "closed_at": "2026-11-16T13:38+00:00",
+   "close_prob": 67.1,
+   "closed_at": "2026-11-17T00:00+00:00",
    "scorers": [
     {
      "id": "00-0032764",
      "name": "Derrick Henry",
      "team": "BAL",
-     "prob": 44.8
+     "prob": 45.7
     },
     {
      "id": "00-0039064",
      "name": "Zay Flowers",
      "team": "BAL",
-     "prob": 24.0
+     "prob": 24.6
     },
     {
      "id": "00-0034975",
      "name": "Justice Hill",
      "team": "BAL",
-     "prob": 20.2
+     "prob": 20.8
     },
     {
      "id": "00-0040666",
      "name": "Omarion Hampton",
      "team": "LAC",
-     "prob": 19.8
+     "prob": 20.5
     },
     {
      "id": "00-0034753",
      "name": "Mark Andrews",
      "team": "BAL",
-     "prob": 16.5
+     "prob": 17.0
     },
     {
      "id": "00-0038544",
      "name": "Quentin Johnston",
      "team": "LAC",
-     "prob": 16.3
+     "prob": 16.9
     },
     {
      "id": "00-0039391",
      "name": "Kimani Vidal",
      "team": "LAC",
-     "prob": 15.0
+     "prob": 15.6
     },
     {
      "id": "00-0033119",
      "name": "Jacoby Brissett",
      "team": "BAL",
-     "prob": 14.4
+     "prob": 14.9
     },
     {
      "id": "00-0036550",
      "name": "Rashod Bateman",
      "team": "BAL",
-     "prob": 14.2
+     "prob": 14.6
     },
     {
      "id": "00-0040727",
      "name": "Tre Harris",
      "team": "LAC",
-     "prob": 12.7
+     "prob": 13.2
     },
     {
      "id": "00-0038454",
      "name": "Keaton Mitchell",
      "team": "LAC",
-     "prob": 11.7
+     "prob": 12.1
     },
     {
      "id": "00-0040189",
      "name": "Oronde Gadsden II",
      "team": "LAC",
-     "prob": 10.4
+     "prob": 10.8
     }
    ]
   }

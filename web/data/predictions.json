@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T13:38:45+00:00",
+  "generated_at": "2026-11-17T00:00:18+00:00",
   "season": 2026,
   "week": 10,
   "week_label": "Semaine 10",
@@ -17213,13 +17213,13 @@
         "off_rank": 32,
         "def_rank": 15
       },
-      "prob_home_win": 67.2,
-      "prob_away_win": 32.8,
+      "prob_home_win": 67.1,
+      "prob_away_win": 32.9,
       "predicted_spread": -4.5,
       "model_spread": -4.4,
       "model_prob_home": 65.0,
       "vegas_spread": -4.5,
-      "vegas_total": 38.5,
+      "vegas_total": 39.5,
       "odds": {
         "n_books": 29,
         "books": [
@@ -17242,9 +17242,9 @@
           {
             "key": "pmu_fr",
             "title": "PMU (FR)",
-            "home": 1.3,
-            "away": 2.55,
-            "margin": 16.1,
+            "home": 1.28,
+            "away": 2.6,
+            "margin": 16.6,
             "fr": true
           },
           {
@@ -17258,9 +17258,9 @@
           {
             "key": "betanysports",
             "title": "BetAnything",
-            "home": 1.44,
-            "away": 2.85,
-            "margin": 4.5,
+            "home": 1.43,
+            "away": 2.9,
+            "margin": 4.4,
             "fr": false
           },
           {
@@ -17274,25 +17274,25 @@
           {
             "key": "betonlineag",
             "title": "BetOnline.ag",
-            "home": 1.45,
-            "away": 2.86,
-            "margin": 3.9,
+            "home": 1.48,
+            "away": 2.8,
+            "margin": 3.3,
             "fr": false
           },
           {
             "key": "betrivers",
             "title": "BetRivers",
-            "home": 1.43,
-            "away": 2.8,
-            "margin": 5.6,
+            "home": 1.42,
+            "away": 2.9,
+            "margin": 4.9,
             "fr": false
           },
           {
             "key": "betus",
             "title": "BetUS",
-            "home": 1.44,
-            "away": 2.9,
-            "margin": 3.9,
+            "home": 1.47,
+            "away": 2.83,
+            "margin": 3.4,
             "fr": false
           },
           {
@@ -17314,9 +17314,9 @@
           {
             "key": "bovada",
             "title": "Bovada",
-            "home": 1.44,
-            "away": 2.85,
-            "margin": 4.5,
+            "home": 1.45,
+            "away": 2.8,
+            "margin": 4.7,
             "fr": false
           },
           {
@@ -17330,9 +17330,9 @@
           {
             "key": "coolbet",
             "title": "Coolbet",
-            "home": 1.44,
-            "away": 2.9,
-            "margin": 3.9,
+            "home": 1.48,
+            "away": 2.92,
+            "margin": 1.8,
             "fr": false
           },
           {
@@ -17362,25 +17362,25 @@
           {
             "key": "gtbets",
             "title": "GTbets",
-            "home": 1.44,
-            "away": 2.85,
-            "margin": 4.5,
+            "home": 1.45,
+            "away": 2.8,
+            "margin": 4.7,
             "fr": false
           },
           {
             "key": "leovegas_se",
             "title": "LeoVegas (SE)",
-            "home": 1.44,
-            "away": 2.85,
-            "margin": 4.5,
+            "home": 1.43,
+            "away": 2.9,
+            "margin": 4.4,
             "fr": false
           },
           {
             "key": "lowvig",
             "title": "LowVig.ag",
-            "home": 1.45,
-            "away": 2.86,
-            "margin": 3.9,
+            "home": 1.47,
+            "away": 2.82,
+            "margin": 3.5,
             "fr": false
           },
           {
@@ -17395,16 +17395,16 @@
             "key": "matchbook",
             "title": "Matchbook",
             "home": 1.48,
-            "away": 3.0,
-            "margin": 0.9,
+            "away": 3.05,
+            "margin": 0.4,
             "fr": false
           },
           {
             "key": "mybookieag",
             "title": "MyBookie.ag",
-            "home": 1.42,
-            "away": 2.88,
-            "margin": 5.1,
+            "home": 1.45,
+            "away": 2.87,
+            "margin": 3.8,
             "fr": false
           },
           {
@@ -17418,9 +17418,9 @@
           {
             "key": "pinnacle",
             "title": "Pinnacle",
-            "home": 1.46,
-            "away": 2.87,
-            "margin": 3.3,
+            "home": 1.47,
+            "away": 2.9,
+            "margin": 2.5,
             "fr": false
           },
           {
@@ -17434,17 +17434,17 @@
           {
             "key": "unibet_nl",
             "title": "Unibet (NL)",
-            "home": 1.45,
-            "away": 2.88,
-            "margin": 3.7,
+            "home": 1.43,
+            "away": 2.95,
+            "margin": 3.8,
             "fr": false
           },
           {
             "key": "unibet_se",
             "title": "Unibet (SE)",
-            "home": 1.45,
-            "away": 2.88,
-            "margin": 3.7,
+            "home": 1.43,
+            "away": 2.95,
+            "margin": 3.8,
             "fr": false
           },
           {
@@ -17467,11 +17467,11 @@
           }
         },
         "fair_home": 1.49,
-        "fair_away": 3.05
+        "fair_away": 3.04
       },
       "projected_score": {
         "home": 22,
-        "away": 17
+        "away": 18
       },
       "confidence_score": "Modérée",
       "tier": "Probable",
@@ -17499,7 +17499,7 @@
           "team": "BAL",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tm79x0iknqg6hms3ypyt",
-          "prob": 44.8,
+          "prob": 45.7,
           "season_tds": 9,
           "status": null,
           "games": 9,
@@ -17566,7 +17566,7 @@
           "team": "BAL",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xzhto2dejy2pflkfx40c",
-          "prob": 24.0,
+          "prob": 24.6,
           "season_tds": 3,
           "status": null,
           "games": 8,
@@ -17633,7 +17633,7 @@
           "team": "BAL",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fuodbrwvianete2gy5ag",
-          "prob": 20.2,
+          "prob": 20.8,
           "season_tds": 1,
           "status": null,
           "games": 9,
@@ -17700,7 +17700,7 @@
           "team": "LAC",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lf2jxvxnbexlinoydbej",
-          "prob": 19.8,
+          "prob": 20.5,
           "season_tds": 3,
           "status": null,
           "games": 8,
@@ -17767,7 +17767,7 @@
           "team": "BAL",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/u4xzz7tclch0tpzm9hhz",
-          "prob": 16.5,
+          "prob": 17.0,
           "season_tds": 1,
           "status": null,
           "games": 9,
@@ -17834,7 +17834,7 @@
           "team": "LAC",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lyvsrjh4mjb4dqwp6shm",
-          "prob": 16.3,
+          "prob": 16.9,
           "season_tds": 1,
           "status": null,
           "games": 7,
@@ -17901,7 +17901,7 @@
           "team": "LAC",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tqdctdun0bv60d5ziwtl",
-          "prob": 15.0,
+          "prob": 15.6,
           "season_tds": 2,
           "status": null,
           "games": 7,
@@ -17968,7 +17968,7 @@
           "team": "BAL",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qjswiunczrn5xmdiqhlz",
-          "prob": 14.4,
+          "prob": 14.9,
           "season_tds": 1,
           "status": null,
           "games": 8,
@@ -18035,7 +18035,7 @@
           "team": "BAL",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gtktmsfcxc1eijwpwzyq",
-          "prob": 14.2,
+          "prob": 14.6,
           "season_tds": 1,
           "status": null,
           "games": 9,
@@ -18102,7 +18102,7 @@
           "team": "LAC",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/v5ofh8jggzo8rygtpwl7",
-          "prob": 12.7,
+          "prob": 13.2,
           "season_tds": 0,
           "status": null,
           "games": 7,
@@ -18169,7 +18169,7 @@
           "team": "LAC",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ztciwwpbyaffmckwrzdk",
-          "prob": 11.7,
+          "prob": 12.1,
           "season_tds": 1,
           "status": null,
           "games": 8,
@@ -18236,7 +18236,7 @@
           "team": "LAC",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/r8b4oghjwhw8x9nv1wbs",
-          "prob": 10.4,
+          "prob": 10.8,
           "season_tds": 1,
           "status": null,
           "games": 8,
@@ -18379,7 +18379,7 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 6,
+        "temp_c": 7,
         "wind_kmh": 8,
         "precip_prob": 0,
         "windy": false
@@ -18552,6 +18552,12 @@
           "prob_home": 67.2,
           "spread": -4.5,
           "books": 29
+        },
+        {
+          "date": "2026-11-17",
+          "prob_home": 67.1,
+          "spread": -4.5,
+          "books": 29
         }
       ]
     }
@@ -18567,7 +18573,7 @@
         "team": "BAL",
         "position": "RB",
         "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tm79x0iknqg6hms3ypyt",
-        "prob": 44.8,
+        "prob": 45.7,
         "season_tds": 9,
         "status": null,
         "games": 9,
@@ -18629,7 +18635,7 @@
         "scored_last": 2,
         "game_id": "2026_10_LAC_BAL",
         "opponent": "LAC",
-        "fair_odds": 2.23,
+        "fair_odds": 2.19,
         "hist": {
           "label": "40 à 50 %",
           "min": 40,
@@ -18678,9 +18684,9 @@
     "type": "consensus",
     "games": 1,
     "books": 29,
-    "status": "cache",
-    "fetched_at": "2026-11-16T00:05:25+00:00",
-    "credits": "446"
+    "status": "live",
+    "fetched_at": "2026-11-17T00:00:15+00:00",
+    "credits": "440"
   },
   "sources": {
     "injuries": 171,
@@ -18710,7 +18716,7 @@
       "team": "BAL",
       "position": "RB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tm79x0iknqg6hms3ypyt",
-      "prob": 44.8,
+      "prob": 45.7,
       "season_tds": 9,
       "status": null,
       "games": 9,
@@ -18779,7 +18785,7 @@
       "team": "BAL",
       "position": "WR",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xzhto2dejy2pflkfx40c",
-      "prob": 24.0,
+      "prob": 24.6,
       "season_tds": 3,
       "status": null,
       "games": 8,
@@ -18848,7 +18854,7 @@
       "team": "BAL",
       "position": "RB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fuodbrwvianete2gy5ag",
-      "prob": 20.2,
+      "prob": 20.8,
       "season_tds": 1,
       "status": null,
       "games": 9,
@@ -18917,7 +18923,7 @@
       "team": "LAC",
       "position": "RB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lf2jxvxnbexlinoydbej",
-      "prob": 19.8,
+      "prob": 20.5,
       "season_tds": 3,
       "status": null,
       "games": 8,
@@ -18986,7 +18992,7 @@
       "team": "BAL",
       "position": "TE",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/u4xzz7tclch0tpzm9hhz",
-      "prob": 16.5,
+      "prob": 17.0,
       "season_tds": 1,
       "status": null,
       "games": 9,
@@ -19055,7 +19061,7 @@
       "team": "LAC",
       "position": "WR",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lyvsrjh4mjb4dqwp6shm",
-      "prob": 16.3,
+      "prob": 16.9,
       "season_tds": 1,
       "status": null,
       "games": 7,
@@ -19124,7 +19130,7 @@
       "team": "LAC",
       "position": "RB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tqdctdun0bv60d5ziwtl",
-      "prob": 15.0,
+      "prob": 15.6,
       "season_tds": 2,
       "status": null,
       "games": 7,
@@ -19193,7 +19199,7 @@
       "team": "BAL",
       "position": "QB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qjswiunczrn5xmdiqhlz",
-      "prob": 14.4,
+      "prob": 14.9,
       "season_tds": 1,
       "status": null,
       "games": 8,
@@ -19262,7 +19268,7 @@
       "team": "BAL",
       "position": "WR",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gtktmsfcxc1eijwpwzyq",
-      "prob": 14.2,
+      "prob": 14.6,
       "season_tds": 1,
       "status": null,
       "games": 9,
@@ -19331,7 +19337,7 @@
       "team": "LAC",
       "position": "WR",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/v5ofh8jggzo8rygtpwl7",
-      "prob": 12.7,
+      "prob": 13.2,
       "season_tds": 0,
       "status": null,
       "games": 7,
@@ -19400,7 +19406,7 @@
       "team": "LAC",
       "position": "RB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ztciwwpbyaffmckwrzdk",
-      "prob": 11.7,
+      "prob": 12.1,
       "season_tds": 1,
       "status": null,
       "games": 8,
@@ -19469,7 +19475,7 @@
       "team": "LAC",
       "position": "TE",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/r8b4oghjwhw8x9nv1wbs",
-      "prob": 10.4,
+      "prob": 10.8,
       "season_tds": 1,
       "status": null,
       "games": 8,
@@ -23850,7 +23856,7 @@
           "opp": "LAC",
           "opp_nick": "Chargers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-          "prob": 67.2
+          "prob": 67.1
         },
         {
           "week": 11,
@@ -26175,7 +26181,7 @@
           "opp": "BAL",
           "opp_nick": "Ravens",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
-          "prob": 32.8
+          "prob": 32.9
         },
         {
           "week": 11,
@@ -27860,7 +27866,7 @@
     }
   ],
   "studies": {
-    "generated_at": "2026-11-16T13:38:45+00:00",
+    "generated_at": "2026-11-17T00:00:18+00:00",
     "spread_sd": {
       "best_sd": 11.0,
       "games": 2899
