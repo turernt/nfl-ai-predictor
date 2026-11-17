@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T10:08:52+00:00",
+  "generated_at": "2026-11-17T14:25:06+00:00",
   "season": 2026,
   "week": 11,
   "week_label": "Semaine 11",
@@ -9039,10 +9039,7 @@
       },
       "weather": {
         "roof": "retractable",
-        "temp_c": 21,
-        "wind_kmh": 7,
-        "precip_prob": 1,
-        "windy": false
+        "error": true
       },
       "round": null,
       "lineup": {
@@ -10246,10 +10243,7 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 16,
-        "wind_kmh": 15,
-        "precip_prob": 22,
-        "windy": false
+        "error": true
       },
       "round": null,
       "lineup": {
@@ -10690,11 +10684,11 @@
           "team": "BAL",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tm79x0iknqg6hms3ypyt",
-          "prob": 42.8,
+          "prob": 43.2,
           "season_tds": 11,
           "status": null,
           "games": 10,
-          "snap": 52,
+          "snap": 53,
           "xtd": 0.96,
           "depth": "RB1",
           "form": [
@@ -10746,7 +10740,7 @@
               "rec": 5,
               "yds": 20,
               "td": 2,
-              "snap": null
+              "snap": 55
             }
           ],
           "scored_last": 2
@@ -10958,11 +10952,11 @@
           "team": "BAL",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xzhto2dejy2pflkfx40c",
-          "prob": 21.4,
+          "prob": 22.6,
           "season_tds": 3,
           "status": null,
           "games": 9,
-          "snap": 75,
+          "snap": 79,
           "xtd": 0.17,
           "depth": "WR1",
           "form": [
@@ -11014,7 +11008,7 @@
               "rec": 6,
               "yds": 74,
               "td": 0,
-              "snap": null
+              "snap": 88
             }
           ],
           "scored_last": 1
@@ -11081,7 +11075,7 @@
               "rec": 5,
               "yds": 38,
               "td": 0,
-              "snap": null
+              "snap": 48
             }
           ],
           "scored_last": 1
@@ -11159,7 +11153,7 @@
           "team": "BAL",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/u4xzz7tclch0tpzm9hhz",
-          "prob": 14.8,
+          "prob": 14.6,
           "season_tds": 1,
           "status": null,
           "games": 10,
@@ -11215,67 +11209,10 @@
               "rec": 8,
               "yds": 82,
               "td": 0,
-              "snap": null
+              "snap": 58
             }
           ],
           "scored_last": 0
-        },
-        {
-          "player_id": "00-0032398",
-          "name": "Chris Moore",
-          "team": "BAL",
-          "position": "WR",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jk8wvsobvj6jggnc4rdq",
-          "prob": 12.9,
-          "season_tds": 1,
-          "status": null,
-          "games": 4,
-          "snap": 50,
-          "xtd": 0.3,
-          "depth": "WR6",
-          "form": [
-            {
-              "week": 1,
-              "opp": "IND",
-              "car": 0,
-              "tgt": 2,
-              "rec": 1,
-              "yds": 53,
-              "td": 0,
-              "snap": 37
-            },
-            {
-              "week": 2,
-              "opp": "NO",
-              "car": 0,
-              "tgt": 3,
-              "rec": 1,
-              "yds": 6,
-              "td": 0,
-              "snap": 55
-            },
-            {
-              "week": 3,
-              "opp": "DAL",
-              "car": 0,
-              "tgt": 1,
-              "rec": 1,
-              "yds": 4,
-              "td": 1,
-              "snap": 52
-            },
-            {
-              "week": 10,
-              "opp": "LAC",
-              "car": 0,
-              "tgt": 1,
-              "rec": 0,
-              "yds": 0,
-              "td": 0,
-              "snap": null
-            }
-          ],
-          "scored_last": 1
         },
         {
           "player_id": "00-0036550",
@@ -11283,11 +11220,11 @@
           "team": "BAL",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gtktmsfcxc1eijwpwzyq",
-          "prob": 12.7,
+          "prob": 14.1,
           "season_tds": 1,
           "status": null,
           "games": 10,
-          "snap": 66,
+          "snap": 74,
           "xtd": 0.11,
           "depth": "WR2",
           "form": [
@@ -11339,7 +11276,74 @@
               "rec": 3,
               "yds": 42,
               "td": 0,
-              "snap": null
+              "snap": 91
+            }
+          ],
+          "scored_last": 0
+        },
+        {
+          "player_id": "00-0033119",
+          "name": "Jacoby Brissett",
+          "team": "BAL",
+          "position": "QB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qjswiunczrn5xmdiqhlz",
+          "prob": 13.5,
+          "season_tds": 1,
+          "status": null,
+          "games": 9,
+          "snap": 92,
+          "xtd": 0.21,
+          "depth": "QB1",
+          "form": [
+            {
+              "week": 5,
+              "opp": "DET",
+              "car": 2,
+              "tgt": 1,
+              "rec": 1,
+              "yds": 26,
+              "td": 0,
+              "snap": 100
+            },
+            {
+              "week": 6,
+              "opp": "LA",
+              "car": 2,
+              "tgt": 0,
+              "rec": 0,
+              "yds": 2,
+              "td": 0,
+              "snap": 100
+            },
+            {
+              "week": 7,
+              "opp": "DEN",
+              "car": 7,
+              "tgt": 0,
+              "rec": 0,
+              "yds": 16,
+              "td": 0,
+              "snap": 100
+            },
+            {
+              "week": 8,
+              "opp": "DAL",
+              "car": 3,
+              "tgt": 0,
+              "rec": 0,
+              "yds": 7,
+              "td": 0,
+              "snap": 58
+            },
+            {
+              "week": 10,
+              "opp": "LAC",
+              "car": 2,
+              "tgt": 0,
+              "rec": 0,
+              "yds": 2,
+              "td": 0,
+              "snap": 100
             }
           ],
           "scored_last": 0
@@ -11419,10 +11423,7 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 20,
-        "wind_kmh": 12,
-        "precip_prob": 20,
-        "windy": false
+        "error": true
       },
       "round": null,
       "lineup": {
@@ -12636,10 +12637,7 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 9,
-        "wind_kmh": 25,
-        "precip_prob": 23,
-        "windy": true
+        "error": true
       },
       "round": null,
       "lineup": {
@@ -12764,7 +12762,7 @@
       "flags": {
         "value": false,
         "key_out": 0,
-        "windy": true,
+        "windy": false,
         "dome": false
       },
       "line_history": [
@@ -13891,8 +13889,8 @@
       },
       "weather": {
         "roof": "retractable",
-        "temp_c": 21,
-        "wind_kmh": 13,
+        "temp_c": 17,
+        "wind_kmh": 22,
         "precip_prob": 9,
         "windy": false
       },
@@ -16331,10 +16329,10 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 12,
-        "wind_kmh": 16,
+        "temp_c": 10,
+        "wind_kmh": 26,
         "precip_prob": 0,
-        "windy": false
+        "windy": true
       },
       "round": null,
       "lineup": {
@@ -16459,7 +16457,7 @@
       "flags": {
         "value": false,
         "key_out": 0,
-        "windy": false,
+        "windy": true,
         "dome": false
       },
       "line_history": [
@@ -17578,8 +17576,8 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 16,
-        "wind_kmh": 8,
+        "temp_c": 13,
+        "wind_kmh": 12,
         "precip_prob": 17,
         "windy": false
       },
@@ -17955,11 +17953,11 @@
           "team": "LAC",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lf2jxvxnbexlinoydbej",
-          "prob": 32.1,
+          "prob": 35.1,
           "season_tds": 4,
           "status": null,
           "games": 9,
-          "snap": 39,
+          "snap": 47,
           "xtd": 0.48,
           "depth": "RB1",
           "form": [
@@ -18011,7 +18009,7 @@
               "rec": 1,
               "yds": 105,
               "td": 1,
-              "snap": null
+              "snap": 63
             }
           ],
           "scored_last": 1
@@ -18223,11 +18221,11 @@
           "team": "LAC",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lyvsrjh4mjb4dqwp6shm",
-          "prob": 21.1,
+          "prob": 20.7,
           "season_tds": 1,
           "status": null,
           "games": 8,
-          "snap": 82,
+          "snap": 80,
           "xtd": 0.09,
           "depth": "WR2",
           "form": [
@@ -18279,74 +18277,7 @@
               "rec": 1,
               "yds": 6,
               "td": 0,
-              "snap": null
-            }
-          ],
-          "scored_last": 1
-        },
-        {
-          "player_id": "00-0039391",
-          "name": "Kimani Vidal",
-          "team": "LAC",
-          "position": "RB",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tqdctdun0bv60d5ziwtl",
-          "prob": 20.9,
-          "season_tds": 2,
-          "status": null,
-          "games": 8,
-          "snap": 39,
-          "xtd": 0.17,
-          "depth": "RB2",
-          "form": [
-            {
-              "week": 5,
-              "opp": "DEN",
-              "car": 8,
-              "tgt": 2,
-              "rec": 1,
-              "yds": 56,
-              "td": 1,
-              "snap": 42
-            },
-            {
-              "week": 6,
-              "opp": "KC",
-              "car": 7,
-              "tgt": 4,
-              "rec": 3,
-              "yds": 40,
-              "td": 0,
-              "snap": 37
-            },
-            {
-              "week": 8,
-              "opp": "LA",
-              "car": 8,
-              "tgt": 2,
-              "rec": 2,
-              "yds": 30,
-              "td": 0,
-              "snap": 46
-            },
-            {
-              "week": 9,
-              "opp": "HOU",
-              "car": 7,
-              "tgt": 3,
-              "rec": 1,
-              "yds": 36,
-              "td": 0,
-              "snap": 39
-            },
-            {
-              "week": 10,
-              "opp": "BAL",
-              "car": 2,
-              "tgt": 2,
-              "rec": 2,
-              "yds": 14,
-              "td": 0,
-              "snap": null
+              "snap": 77
             }
           ],
           "scored_last": 1
@@ -18407,6 +18338,73 @@
             }
           ],
           "scored_last": 2
+        },
+        {
+          "player_id": "00-0039391",
+          "name": "Kimani Vidal",
+          "team": "LAC",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tqdctdun0bv60d5ziwtl",
+          "prob": 19.7,
+          "season_tds": 2,
+          "status": null,
+          "games": 8,
+          "snap": 35,
+          "xtd": 0.17,
+          "depth": "RB2",
+          "form": [
+            {
+              "week": 5,
+              "opp": "DEN",
+              "car": 8,
+              "tgt": 2,
+              "rec": 1,
+              "yds": 56,
+              "td": 1,
+              "snap": 42
+            },
+            {
+              "week": 6,
+              "opp": "KC",
+              "car": 7,
+              "tgt": 4,
+              "rec": 3,
+              "yds": 40,
+              "td": 0,
+              "snap": 37
+            },
+            {
+              "week": 8,
+              "opp": "LA",
+              "car": 8,
+              "tgt": 2,
+              "rec": 2,
+              "yds": 30,
+              "td": 0,
+              "snap": 46
+            },
+            {
+              "week": 9,
+              "opp": "HOU",
+              "car": 7,
+              "tgt": 3,
+              "rec": 1,
+              "yds": 36,
+              "td": 0,
+              "snap": 39
+            },
+            {
+              "week": 10,
+              "opp": "BAL",
+              "car": 2,
+              "tgt": 2,
+              "rec": 2,
+              "yds": 14,
+              "td": 0,
+              "snap": 26
+            }
+          ],
+          "scored_last": 1
         },
         {
           "player_id": "00-0038120",
@@ -18481,11 +18479,11 @@
           "team": "LAC",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/v5ofh8jggzo8rygtpwl7",
-          "prob": 16.3,
+          "prob": 18.8,
           "season_tds": 0,
           "status": null,
           "games": 8,
-          "snap": 69,
+          "snap": 80,
           "xtd": 0.16,
           "depth": "WR3",
           "form": [
@@ -18537,74 +18535,7 @@
               "rec": 5,
               "yds": 86,
               "td": 0,
-              "snap": null
-            }
-          ],
-          "scored_last": 0
-        },
-        {
-          "player_id": "00-0038454",
-          "name": "Keaton Mitchell",
-          "team": "LAC",
-          "position": "RB",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ztciwwpbyaffmckwrzdk",
-          "prob": 16.1,
-          "season_tds": 1,
-          "status": null,
-          "games": 9,
-          "snap": 29,
-          "xtd": 0.16,
-          "depth": "RB3",
-          "form": [
-            {
-              "week": 5,
-              "opp": "DEN",
-              "car": 6,
-              "tgt": 4,
-              "rec": 3,
-              "yds": 29,
-              "td": 0,
-              "snap": 34
-            },
-            {
-              "week": 6,
-              "opp": "KC",
-              "car": 2,
-              "tgt": 1,
-              "rec": 0,
-              "yds": 4,
-              "td": 0,
-              "snap": 25
-            },
-            {
-              "week": 8,
-              "opp": "LA",
-              "car": 4,
-              "tgt": 3,
-              "rec": 3,
-              "yds": 23,
-              "td": 0,
-              "snap": 31
-            },
-            {
-              "week": 9,
-              "opp": "HOU",
-              "car": 7,
-              "tgt": 4,
-              "rec": 3,
-              "yds": 67,
-              "td": 0,
-              "snap": 25
-            },
-            {
-              "week": 10,
-              "opp": "BAL",
-              "car": 3,
-              "tgt": 1,
-              "rec": 0,
-              "yds": 4,
-              "td": 0,
-              "snap": null
+              "snap": 98
             }
           ],
           "scored_last": 0
@@ -18615,11 +18546,11 @@
           "team": "LAC",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jnkspnntgebegzp4ghve",
-          "prob": 16.0,
+          "prob": 16.6,
           "season_tds": 1,
           "status": null,
           "games": 9,
-          "snap": 92,
+          "snap": 95,
           "xtd": 0.14,
           "depth": "QB1",
           "form": [
@@ -18671,10 +18602,77 @@
               "rec": 0,
               "yds": 51,
               "td": 1,
-              "snap": null
+              "snap": 100
             }
           ],
           "scored_last": 1
+        },
+        {
+          "player_id": "00-0038454",
+          "name": "Keaton Mitchell",
+          "team": "LAC",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ztciwwpbyaffmckwrzdk",
+          "prob": 15.7,
+          "season_tds": 1,
+          "status": null,
+          "games": 9,
+          "snap": 27,
+          "xtd": 0.16,
+          "depth": "RB3",
+          "form": [
+            {
+              "week": 5,
+              "opp": "DEN",
+              "car": 6,
+              "tgt": 4,
+              "rec": 3,
+              "yds": 29,
+              "td": 0,
+              "snap": 34
+            },
+            {
+              "week": 6,
+              "opp": "KC",
+              "car": 2,
+              "tgt": 1,
+              "rec": 0,
+              "yds": 4,
+              "td": 0,
+              "snap": 25
+            },
+            {
+              "week": 8,
+              "opp": "LA",
+              "car": 4,
+              "tgt": 3,
+              "rec": 3,
+              "yds": 23,
+              "td": 0,
+              "snap": 31
+            },
+            {
+              "week": 9,
+              "opp": "HOU",
+              "car": 7,
+              "tgt": 4,
+              "rec": 3,
+              "yds": 67,
+              "td": 0,
+              "snap": 25
+            },
+            {
+              "week": 10,
+              "opp": "BAL",
+              "car": 3,
+              "tgt": 1,
+              "rec": 0,
+              "yds": 4,
+              "td": 0,
+              "snap": 23
+            }
+          ],
+          "scored_last": 0
         },
         {
           "player_id": "00-0040736",
@@ -20002,8 +20000,8 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 11,
-        "wind_kmh": 4,
+        "temp_c": 10,
+        "wind_kmh": 7,
         "precip_prob": 0,
         "windy": false
       },
@@ -21247,8 +21245,8 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 14,
-        "wind_kmh": 16,
+        "temp_c": 13,
+        "wind_kmh": 12,
         "precip_prob": 35,
         "windy": false
       },
@@ -23735,8 +23733,8 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 8,
-        "wind_kmh": 13,
+        "temp_c": 16,
+        "wind_kmh": 14,
         "precip_prob": 2,
         "windy": false
       },
@@ -25334,7 +25332,7 @@
   "sources": {
     "injuries": 0,
     "lineups": 32,
-    "weather_errors": 0
+    "weather_errors": 4
   },
   "archive_ids": [
     "2026_10_BUF_NYJ",
@@ -34732,7 +34730,7 @@
     }
   ],
   "studies": {
-    "generated_at": "2026-11-17T10:08:52+00:00",
+    "generated_at": "2026-11-17T14:25:06+00:00",
     "spread_sd": {
       "best_sd": 11.0,
       "games": 2900
