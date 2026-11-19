@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T22:57:25+00:00",
+  "generated_at": "2026-11-19T14:26:26+00:00",
   "season": 2026,
   "week": 11,
   "week_label": "Semaine 11",
@@ -7993,7 +7993,7 @@
       "vegas_spread": -12.5,
       "vegas_total": 43.5,
       "odds": {
-        "n_books": 29,
+        "n_books": 28,
         "books": [
           {
             "key": "betclic_fr",
@@ -8001,14 +8001,6 @@
             "home": 1.12,
             "away": 5.5,
             "margin": 7.5,
-            "fr": true
-          },
-          {
-            "key": "netbet_fr",
-            "title": "NetBet",
-            "home": 1.08,
-            "away": 5.7,
-            "margin": 10.1,
             "fr": true
           },
           {
@@ -8038,17 +8030,17 @@
           {
             "key": "betmgm",
             "title": "BetMGM",
-            "home": 1.14,
-            "away": 6.25,
-            "margin": 3.7,
+            "home": 1.13,
+            "away": 6.75,
+            "margin": 3.3,
             "fr": false
           },
           {
             "key": "betonlineag",
             "title": "BetOnline.ag",
             "home": 1.14,
-            "away": 6.17,
-            "margin": 3.9,
+            "away": 6.26,
+            "margin": 3.7,
             "fr": false
           },
           {
@@ -8071,8 +8063,8 @@
             "key": "betfair_ex_eu",
             "title": "Betfair",
             "home": 1.17,
-            "away": 6.4,
-            "margin": 1.1,
+            "away": 6.8,
+            "margin": 0.2,
             "fr": false
           },
           {
@@ -8086,9 +8078,9 @@
           {
             "key": "bovada",
             "title": "Bovada",
-            "home": 1.13,
-            "away": 6.25,
-            "margin": 4.5,
+            "home": 1.14,
+            "away": 6.0,
+            "margin": 4.4,
             "fr": false
           },
           {
@@ -8118,17 +8110,17 @@
           {
             "key": "everygame",
             "title": "Everygame",
-            "home": 1.14,
-            "away": 6.2,
-            "margin": 3.8,
+            "home": 1.13,
+            "away": 6.25,
+            "margin": 4.5,
             "fr": false
           },
           {
             "key": "fanduel",
             "title": "FanDuel",
-            "home": 1.13,
-            "away": 6.4,
-            "margin": 4.1,
+            "home": 1.12,
+            "away": 6.7,
+            "margin": 4.2,
             "fr": false
           },
           {
@@ -8151,16 +8143,16 @@
             "key": "lowvig",
             "title": "LowVig.ag",
             "home": 1.14,
-            "away": 6.17,
-            "margin": 3.9,
+            "away": 6.26,
+            "margin": 3.7,
             "fr": false
           },
           {
             "key": "marathonbet",
             "title": "Marathon Bet",
             "home": 1.12,
-            "away": 6.0,
-            "margin": 6.0,
+            "away": 5.95,
+            "margin": 6.1,
             "fr": false
           },
           {
@@ -8174,9 +8166,9 @@
           {
             "key": "mybookieag",
             "title": "MyBookie.ag",
-            "home": 1.12,
-            "away": 6.4,
-            "margin": 4.9,
+            "home": 1.14,
+            "away": 6.0,
+            "margin": 4.4,
             "fr": false
           },
           {
@@ -8191,16 +8183,16 @@
             "key": "pinnacle",
             "title": "Pinnacle",
             "home": 1.14,
-            "away": 6.27,
-            "margin": 3.7,
+            "away": 6.41,
+            "margin": 3.3,
             "fr": false
           },
           {
             "key": "tipico_de",
             "title": "Tipico",
-            "home": 1.12,
-            "away": 6.0,
-            "margin": 6.0,
+            "home": 1.11,
+            "away": 6.2,
+            "margin": 6.2,
             "fr": false
           },
           {
@@ -8234,8 +8226,8 @@
             "book": "Betclic (FR)"
           },
           "away": {
-            "price": 5.7,
-            "book": "NetBet"
+            "price": 5.5,
+            "book": "Betclic (FR)"
           }
         },
         "fair_home": 1.16,
@@ -8247,7 +8239,7 @@
       },
       "confidence_score": "Élevée",
       "tier": "Très sûr",
-      "prob_source": "moyenne de 29 bookmakers",
+      "prob_source": "moyenne de 28 bookmakers",
       "factors": {
         "elo": 6.1,
         "epa": 6.1,
@@ -8266,146 +8258,12 @@
       },
       "scorers": [
         {
-          "player_id": "00-0040583",
-          "name": "Woody Marks",
-          "team": "HOU",
-          "position": "RB",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ksk0fjj4bl9jvfh2s0rm",
-          "prob": 44.3,
-          "season_tds": 2,
-          "status": null,
-          "games": 9,
-          "snap": 61,
-          "xtd": 0.45,
-          "depth": "RB2",
-          "form": [
-            {
-              "week": 5,
-              "opp": "TEN",
-              "car": 15,
-              "tgt": 4,
-              "rec": 4,
-              "yds": 85,
-              "td": 0,
-              "snap": 85
-            },
-            {
-              "week": 6,
-              "opp": "JAX",
-              "car": 15,
-              "tgt": 3,
-              "rec": 2,
-              "yds": 81,
-              "td": 0,
-              "snap": 78
-            },
-            {
-              "week": 7,
-              "opp": "NYG",
-              "car": 19,
-              "tgt": 1,
-              "rec": 1,
-              "yds": 81,
-              "td": 0,
-              "snap": 89
-            },
-            {
-              "week": 9,
-              "opp": "LAC",
-              "car": 18,
-              "tgt": 4,
-              "rec": 1,
-              "yds": 74,
-              "td": 0,
-              "snap": 66
-            },
-            {
-              "week": 10,
-              "opp": "CLE",
-              "car": 12,
-              "tgt": 1,
-              "rec": 1,
-              "yds": 65,
-              "td": 0,
-              "snap": 45
-            }
-          ],
-          "scored_last": 0
-        },
-        {
-          "player_id": "00-0036554",
-          "name": "Nico Collins",
-          "team": "HOU",
-          "position": "WR",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pyevyueqikk1vbkh9ju1",
-          "prob": 38.0,
-          "season_tds": 5,
-          "status": null,
-          "games": 7,
-          "snap": 76,
-          "xtd": 0.3,
-          "depth": "WR1",
-          "form": [
-            {
-              "week": 5,
-              "opp": "TEN",
-              "car": 0,
-              "tgt": 7,
-              "rec": 5,
-              "yds": 56,
-              "td": 0,
-              "snap": 71
-            },
-            {
-              "week": 6,
-              "opp": "JAX",
-              "car": 1,
-              "tgt": 5,
-              "rec": 3,
-              "yds": 79,
-              "td": 0,
-              "snap": 73
-            },
-            {
-              "week": 7,
-              "opp": "NYG",
-              "car": 0,
-              "tgt": 5,
-              "rec": 2,
-              "yds": 6,
-              "td": 0,
-              "snap": 67
-            },
-            {
-              "week": 9,
-              "opp": "LAC",
-              "car": 0,
-              "tgt": 4,
-              "rec": 4,
-              "yds": 55,
-              "td": 1,
-              "snap": 73
-            },
-            {
-              "week": 10,
-              "opp": "CLE",
-              "car": 0,
-              "tgt": 16,
-              "rec": 9,
-              "yds": 94,
-              "td": 1,
-              "snap": 85
-            }
-          ],
-          "scored_last": 2
-        },
-        {
           "player_id": "00-0035685",
           "name": "David Montgomery",
           "team": "HOU",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/npagyuku5zvrnu9q3jvn",
-          "prob": 33.9,
+          "prob": 40.1,
           "season_tds": 3,
           "status": null,
           "games": 5,
@@ -8467,12 +8325,79 @@
           "scored_last": 1
         },
         {
+          "player_id": "00-0036554",
+          "name": "Nico Collins",
+          "team": "HOU",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pyevyueqikk1vbkh9ju1",
+          "prob": 38.8,
+          "season_tds": 5,
+          "status": null,
+          "games": 7,
+          "snap": 76,
+          "xtd": 0.3,
+          "depth": "WR1",
+          "form": [
+            {
+              "week": 5,
+              "opp": "TEN",
+              "car": 0,
+              "tgt": 7,
+              "rec": 5,
+              "yds": 56,
+              "td": 0,
+              "snap": 71
+            },
+            {
+              "week": 6,
+              "opp": "JAX",
+              "car": 1,
+              "tgt": 5,
+              "rec": 3,
+              "yds": 79,
+              "td": 0,
+              "snap": 73
+            },
+            {
+              "week": 7,
+              "opp": "NYG",
+              "car": 0,
+              "tgt": 5,
+              "rec": 2,
+              "yds": 6,
+              "td": 0,
+              "snap": 67
+            },
+            {
+              "week": 9,
+              "opp": "LAC",
+              "car": 0,
+              "tgt": 4,
+              "rec": 4,
+              "yds": 55,
+              "td": 1,
+              "snap": 73
+            },
+            {
+              "week": 10,
+              "opp": "CLE",
+              "car": 0,
+              "tgt": 16,
+              "rec": 9,
+              "yds": 94,
+              "td": 1,
+              "snap": 85
+            }
+          ],
+          "scored_last": 2
+        },
+        {
           "player_id": "00-0038618",
           "name": "Xavier Hutchinson",
           "team": "HOU",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ozdgoi4ync5i38s1fpb7",
-          "prob": 33.5,
+          "prob": 34.2,
           "season_tds": 3,
           "status": null,
           "games": 9,
@@ -8606,7 +8531,7 @@
           "team": "HOU",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hikxxqqislrmtqirbua5",
-          "prob": 22.3,
+          "prob": 22.8,
           "season_tds": 1,
           "status": null,
           "games": 9,
@@ -8673,7 +8598,7 @@
           "team": "HOU",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/strg9nzj8mw9xnzwbfcv",
-          "prob": 22.2,
+          "prob": 22.7,
           "season_tds": 3,
           "status": null,
           "games": 6,
@@ -8735,12 +8660,79 @@
           "scored_last": 2
         },
         {
+          "player_id": "00-0038608",
+          "name": "Kayshon Boutte",
+          "team": "HOU",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/afjemks6p7md28t57f0g",
+          "prob": 21.6,
+          "season_tds": 2,
+          "status": null,
+          "games": 9,
+          "snap": 52,
+          "xtd": 0.11,
+          "depth": "WR5",
+          "form": [
+            {
+              "week": 5,
+              "opp": "TEN",
+              "car": 0,
+              "tgt": 5,
+              "rec": 3,
+              "yds": 38,
+              "td": 0,
+              "snap": 59
+            },
+            {
+              "week": 6,
+              "opp": "JAX",
+              "car": 0,
+              "tgt": 3,
+              "rec": 2,
+              "yds": 16,
+              "td": 0,
+              "snap": 41
+            },
+            {
+              "week": 7,
+              "opp": "NYG",
+              "car": 0,
+              "tgt": 2,
+              "rec": 1,
+              "yds": 25,
+              "td": 0,
+              "snap": 31
+            },
+            {
+              "week": 9,
+              "opp": "LAC",
+              "car": 0,
+              "tgt": 5,
+              "rec": 4,
+              "yds": 125,
+              "td": 2,
+              "snap": 33
+            },
+            {
+              "week": 10,
+              "opp": "CLE",
+              "car": 0,
+              "tgt": 1,
+              "rec": 0,
+              "yds": 0,
+              "td": 0,
+              "snap": 70
+            }
+          ],
+          "scored_last": 1
+        },
+        {
           "player_id": "00-0040128",
           "name": "Tyler Warren",
           "team": "IND",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ggbgv9okpladwqzth5l5",
-          "prob": 18.1,
+          "prob": 18.2,
           "season_tds": 3,
           "status": null,
           "games": 8,
@@ -8807,7 +8799,7 @@
           "team": "IND",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zptuxjil3y3ajnrw1las",
-          "prob": 15.5,
+          "prob": 15.6,
           "season_tds": 1,
           "status": null,
           "games": 10,
@@ -9003,52 +8995,180 @@
           "scored_last": 0
         },
         {
-          "player_id": "00-0038394",
-          "name": "Will Mallory",
+          "player_id": "00-0035021",
+          "name": "Ashton Dulin",
           "team": "IND",
-          "position": "TE",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/eti1fo2pwyhiihzpxiqo",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/m3kvcazbtr2h47ik4ivg",
           "prob": 3.9,
-          "season_tds": 0,
+          "season_tds": 1,
           "status": null,
-          "games": 2,
-          "snap": 41,
-          "xtd": 0.14,
-          "depth": "TE2",
+          "games": 6,
+          "snap": 22,
+          "xtd": 0.03,
+          "depth": "WR4",
           "form": [
             {
-              "week": 6,
-              "opp": "TEN",
+              "week": 4,
+              "opp": "WAS",
               "car": 0,
               "tgt": 6,
-              "rec": 2,
-              "yds": 20,
+              "rec": 3,
+              "yds": 29,
               "td": 0,
-              "snap": 52
+              "snap": 35
             },
             {
               "week": 7,
               "opp": "MIN",
               "car": 0,
-              "tgt": 3,
+              "tgt": 0,
               "rec": 0,
               "yds": 0,
               "td": 0,
-              "snap": 34
+              "snap": 2
+            },
+            {
+              "week": 8,
+              "opp": "JAX",
+              "car": 1,
+              "tgt": 0,
+              "rec": 0,
+              "yds": 3,
+              "td": 0,
+              "snap": 31
+            },
+            {
+              "week": 9,
+              "opp": "DAL",
+              "car": 1,
+              "tgt": 2,
+              "rec": 1,
+              "yds": 58,
+              "td": 1,
+              "snap": 22
+            },
+            {
+              "week": 10,
+              "opp": "MIA",
+              "car": 0,
+              "tgt": 2,
+              "rec": 1,
+              "yds": 30,
+              "td": 0,
+              "snap": 22
             }
           ],
-          "scored_last": 0
+          "scored_last": 1
         }
       ],
       "commentary": "Avantage Texans (86 %), à domicile. Le modèle maison (−6,2) s’écarte des bookmakers (−12,5).",
       "injuries": {
-        "home": [],
-        "away": []
+        "home": [
+          {
+            "name": "Woody Marks",
+            "position": "RB",
+            "status": "Out",
+            "injury": "commotion"
+          },
+          {
+            "name": "Marvin Harrison Jr.",
+            "position": "WR",
+            "status": "Out",
+            "injury": "ischio-jambiers"
+          },
+          {
+            "name": "Brevin Jordan",
+            "position": "TE",
+            "status": "Out",
+            "injury": "pied"
+          },
+          {
+            "name": "Danielle Hunter",
+            "position": "DE",
+            "status": "Out",
+            "injury": "ischio-jambiers"
+          },
+          {
+            "name": "Wyatt Teller",
+            "position": "G",
+            "status": "Questionable",
+            "injury": "dos"
+          },
+          {
+            "name": "Jacob Hummel",
+            "position": "LB",
+            "status": "Questionable",
+            "injury": "aine"
+          },
+          {
+            "name": "Jaylin Smith",
+            "position": "CB",
+            "status": "Questionable",
+            "injury": "ischio-jambiers"
+          }
+        ],
+        "away": [
+          {
+            "name": "Will Mallory",
+            "position": "TE",
+            "status": "Out",
+            "injury": "ischio-jambiers"
+          },
+          {
+            "name": "Bernhard Raimann",
+            "position": "T",
+            "status": "Out",
+            "injury": "commotion"
+          },
+          {
+            "name": "Jalen Travis",
+            "position": "T",
+            "status": "Out",
+            "injury": "genou"
+          },
+          {
+            "name": "Jerry Tillery",
+            "position": "DT",
+            "status": "Out",
+            "injury": "mollet"
+          },
+          {
+            "name": "Charvarius Ward",
+            "position": "CB",
+            "status": "Out",
+            "injury": "genou"
+          },
+          {
+            "name": "Anthony Gould",
+            "position": "WR",
+            "status": "Questionable",
+            "injury": "orteil"
+          },
+          {
+            "name": "Charlie Heck",
+            "position": "T",
+            "status": "Questionable",
+            "injury": "not injury related - personal matter"
+          },
+          {
+            "name": "Sauce Gardner",
+            "position": "CB",
+            "status": "Questionable",
+            "injury": "mollet"
+          },
+          {
+            "name": "Luke Rhodes",
+            "position": "LS",
+            "status": "Questionable",
+            "injury": "ischio-jambiers"
+          }
+        ]
       },
       "weather": {
         "roof": "retractable",
-        "temp_c": 19,
-        "wind_kmh": 7,
+        "temp_c": 20,
+        "wind_kmh": 6,
         "precip_prob": 0,
         "windy": false
       },
@@ -9076,6 +9196,14 @@
             "name": "Woody Marks",
             "pos": "RB",
             "rank": 2,
+            "status": "Out",
+            "available": false
+          },
+          {
+            "player_id": "00-0038705",
+            "name": "Emari Demercado",
+            "pos": "RB",
+            "rank": 3,
             "status": null,
             "available": true
           },
@@ -9158,7 +9286,7 @@
             "name": "Anthony Gould",
             "pos": "WR",
             "rank": 3,
-            "status": null,
+            "status": "Questionable",
             "available": true
           },
           {
@@ -9174,7 +9302,7 @@
       "status": "upcoming",
       "flags": {
         "value": false,
-        "key_out": 0,
+        "key_out": 4,
         "windy": false,
         "dome": false
       },
@@ -9190,6 +9318,12 @@
           "prob_home": 86.1,
           "spread": -12.5,
           "books": 29
+        },
+        {
+          "date": "2026-11-19",
+          "prob_home": 86.1,
+          "spread": -12.5,
+          "books": 28
         }
       ]
     },
@@ -9224,30 +9358,22 @@
         "off_rank": 20,
         "def_rank": 27
       },
-      "prob_home_win": 92.1,
-      "prob_away_win": 7.9,
+      "prob_home_win": 91.9,
+      "prob_away_win": 8.1,
       "predicted_spread": -16.5,
       "model_spread": -13.4,
       "model_prob_home": 87.8,
       "vegas_spread": -16.5,
       "vegas_total": 45.5,
       "odds": {
-        "n_books": 28,
+        "n_books": 27,
         "books": [
           {
             "key": "betclic_fr",
             "title": "Betclic (FR)",
-            "home": 1.04,
-            "away": 8.25,
-            "margin": 8.3,
-            "fr": true
-          },
-          {
-            "key": "netbet_fr",
-            "title": "NetBet",
-            "home": 1.01,
-            "away": 9.0,
-            "margin": 10.1,
+            "home": 1.05,
+            "away": 8.0,
+            "margin": 7.7,
             "fr": true
           },
           {
@@ -9286,8 +9412,8 @@
             "key": "betrivers",
             "title": "BetRivers",
             "home": 1.05,
-            "away": 9.5,
-            "margin": 5.8,
+            "away": 10.5,
+            "margin": 4.8,
             "fr": false
           },
           {
@@ -9301,9 +9427,9 @@
           {
             "key": "betfair_ex_eu",
             "title": "Betfair",
-            "home": 1.08,
-            "away": 11.5,
-            "margin": 1.3,
+            "home": 1.09,
+            "away": 11.0,
+            "margin": 0.8,
             "fr": false
           },
           {
@@ -9325,17 +9451,17 @@
           {
             "key": "codere_it",
             "title": "Codere (IT)",
-            "home": 1.05,
-            "away": 9.4,
-            "margin": 5.9,
+            "home": 1.06,
+            "away": 8.8,
+            "margin": 5.7,
             "fr": false
           },
           {
             "key": "coolbet",
             "title": "Coolbet",
-            "home": 1.07,
-            "away": 9.5,
-            "margin": 4.0,
+            "home": 1.06,
+            "away": 10.0,
+            "margin": 4.3,
             "fr": false
           },
           {
@@ -9357,9 +9483,9 @@
           {
             "key": "fanduel",
             "title": "FanDuel",
-            "home": 1.06,
-            "away": 10.0,
-            "margin": 4.3,
+            "home": 1.07,
+            "away": 9.7,
+            "margin": 3.8,
             "fr": false
           },
           {
@@ -9374,8 +9500,8 @@
             "key": "leovegas_se",
             "title": "LeoVegas (SE)",
             "home": 1.05,
-            "away": 9.5,
-            "margin": 5.8,
+            "away": 10.5,
+            "margin": 4.8,
             "fr": false
           },
           {
@@ -9390,23 +9516,23 @@
             "key": "marathonbet",
             "title": "Marathon Bet",
             "home": 1.06,
-            "away": 8.8,
-            "margin": 5.7,
+            "away": 8.7,
+            "margin": 5.8,
             "fr": false
           },
           {
             "key": "matchbook",
             "title": "Matchbook",
-            "home": 1.08,
-            "away": 12.0,
-            "margin": 0.9,
+            "home": 1.09,
+            "away": 11.5,
+            "margin": 0.4,
             "fr": false
           },
           {
             "key": "mybookieag",
             "title": "MyBookie.ag",
-            "home": 1.05,
-            "away": 10.1,
+            "home": 1.06,
+            "away": 9.3,
             "margin": 5.1,
             "fr": false
           },
@@ -9422,7 +9548,7 @@
             "key": "pinnacle",
             "title": "Pinnacle",
             "home": 1.07,
-            "away": 9.86,
+            "away": 9.82,
             "margin": 3.6,
             "fr": false
           },
@@ -9438,16 +9564,16 @@
             "key": "unibet_nl",
             "title": "Unibet (NL)",
             "home": 1.05,
-            "away": 9.5,
-            "margin": 5.8,
+            "away": 10.5,
+            "margin": 4.8,
             "fr": false
           },
           {
             "key": "unibet_se",
             "title": "Unibet (SE)",
             "home": 1.05,
-            "away": 9.5,
-            "margin": 5.8,
+            "away": 10.5,
+            "margin": 4.8,
             "fr": false
           },
           {
@@ -9461,16 +9587,16 @@
         ],
         "best_fr": {
           "home": {
-            "price": 1.04,
+            "price": 1.05,
             "book": "Betclic (FR)"
           },
           "away": {
-            "price": 9.0,
-            "book": "NetBet"
+            "price": 8.0,
+            "book": "Betclic (FR)"
           }
         },
         "fair_home": 1.09,
-        "fair_away": 12.66
+        "fair_away": 12.35
       },
       "projected_score": {
         "home": 31,
@@ -9478,7 +9604,7 @@
       },
       "confidence_score": "Élevée",
       "tier": "Très sûr",
-      "prob_source": "moyenne de 28 bookmakers",
+      "prob_source": "moyenne de 27 bookmakers",
       "factors": {
         "elo": 14.7,
         "epa": 9.4,
@@ -10268,9 +10394,9 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 16,
-        "wind_kmh": 8,
-        "precip_prob": 4,
+        "temp_c": 18,
+        "wind_kmh": 16,
+        "precip_prob": 0,
         "windy": false
       },
       "round": null,
@@ -10411,6 +10537,12 @@
           "prob_home": 92.1,
           "spread": -16.5,
           "books": 28
+        },
+        {
+          "date": "2026-11-19",
+          "prob_home": 91.9,
+          "spread": -16.5,
+          "books": 27
         }
       ]
     },
@@ -10453,30 +10585,22 @@
       "vegas_spread": -2.5,
       "vegas_total": 43.5,
       "odds": {
-        "n_books": 29,
+        "n_books": 28,
         "books": [
           {
             "key": "betclic_fr",
             "title": "Betclic (FR)",
-            "home": 1.65,
+            "home": 1.68,
             "away": 2.1,
-            "margin": 8.2,
-            "fr": true
-          },
-          {
-            "key": "netbet_fr",
-            "title": "NetBet",
-            "home": 1.62,
-            "away": 2.07,
-            "margin": 10.0,
+            "margin": 7.1,
             "fr": true
           },
           {
             "key": "pmu_fr",
             "title": "PMU (FR)",
-            "home": 1.49,
-            "away": 2.02,
-            "margin": 16.6,
+            "home": 1.5,
+            "away": 2.0,
+            "margin": 16.7,
             "fr": true
           },
           {
@@ -10514,9 +10638,9 @@
           {
             "key": "betrivers",
             "title": "BetRivers",
-            "home": 1.65,
-            "away": 2.25,
-            "margin": 5.1,
+            "home": 1.67,
+            "away": 2.2,
+            "margin": 5.3,
             "fr": false
           },
           {
@@ -10555,8 +10679,8 @@
             "key": "codere_it",
             "title": "Codere (IT)",
             "home": 1.69,
-            "away": 2.14,
-            "margin": 5.9,
+            "away": 2.13,
+            "margin": 6.1,
             "fr": false
           },
           {
@@ -10570,9 +10694,9 @@
           {
             "key": "draftkings",
             "title": "DraftKings",
-            "home": 1.7,
-            "away": 2.2,
-            "margin": 4.3,
+            "home": 1.74,
+            "away": 2.14,
+            "margin": 4.2,
             "fr": false
           },
           {
@@ -10586,9 +10710,9 @@
           {
             "key": "fanduel",
             "title": "FanDuel",
-            "home": 1.75,
-            "away": 2.14,
-            "margin": 3.9,
+            "home": 1.74,
+            "away": 2.16,
+            "margin": 3.8,
             "fr": false
           },
           {
@@ -10602,9 +10726,9 @@
           {
             "key": "leovegas_se",
             "title": "LeoVegas (SE)",
-            "home": 1.65,
-            "away": 2.25,
-            "margin": 5.1,
+            "home": 1.67,
+            "away": 2.2,
+            "margin": 5.3,
             "fr": false
           },
           {
@@ -10619,24 +10743,24 @@
             "key": "marathonbet",
             "title": "Marathon Bet",
             "home": 1.73,
-            "away": 2.08,
-            "margin": 5.9,
+            "away": 2.09,
+            "margin": 5.7,
             "fr": false
           },
           {
             "key": "matchbook",
             "title": "Matchbook",
-            "home": 1.76,
-            "away": 2.26,
-            "margin": 1.1,
+            "home": 1.77,
+            "away": 2.28,
+            "margin": 0.4,
             "fr": false
           },
           {
             "key": "mybookieag",
             "title": "MyBookie.ag",
-            "home": 1.7,
-            "away": 2.16,
-            "margin": 5.1,
+            "home": 1.71,
+            "away": 2.15,
+            "margin": 5.0,
             "fr": false
           },
           {
@@ -10651,8 +10775,8 @@
             "key": "pinnacle",
             "title": "Pinnacle",
             "home": 1.71,
-            "away": 2.24,
-            "margin": 3.1,
+            "away": 2.25,
+            "margin": 2.9,
             "fr": false
           },
           {
@@ -10666,17 +10790,17 @@
           {
             "key": "unibet_nl",
             "title": "Unibet (NL)",
-            "home": 1.65,
-            "away": 2.25,
-            "margin": 5.1,
+            "home": 1.67,
+            "away": 2.2,
+            "margin": 5.3,
             "fr": false
           },
           {
             "key": "unibet_se",
             "title": "Unibet (SE)",
-            "home": 1.65,
-            "away": 2.25,
-            "margin": 5.1,
+            "home": 1.67,
+            "away": 2.2,
+            "margin": 5.3,
             "fr": false
           },
           {
@@ -10690,7 +10814,7 @@
         ],
         "best_fr": {
           "home": {
-            "price": 1.65,
+            "price": 1.68,
             "book": "Betclic (FR)"
           },
           "away": {
@@ -10707,7 +10831,7 @@
       },
       "confidence_score": "Faible",
       "tier": "Serré",
-      "prob_source": "moyenne de 29 bookmakers",
+      "prob_source": "moyenne de 28 bookmakers",
       "factors": {
         "elo": 1.2,
         "epa": 2.2,
@@ -11537,9 +11661,9 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 15,
-        "wind_kmh": 9,
-        "precip_prob": 28,
+        "temp_c": 13,
+        "wind_kmh": 17,
+        "precip_prob": 18,
         "windy": false
       },
       "round": null,
@@ -11680,6 +11804,12 @@
           "prob_home": 56.5,
           "spread": -2.5,
           "books": 29
+        },
+        {
+          "date": "2026-11-19",
+          "prob_home": 56.5,
+          "spread": -2.5,
+          "books": 28
         }
       ]
     },
@@ -11714,30 +11844,22 @@
         "off_rank": 24,
         "def_rank": 13
       },
-      "prob_home_win": 84.6,
-      "prob_away_win": 15.4,
+      "prob_home_win": 84.4,
+      "prob_away_win": 15.6,
       "predicted_spread": -11.5,
       "model_spread": -9.3,
       "model_prob_home": 79.1,
       "vegas_spread": -11.5,
       "vegas_total": 48.5,
       "odds": {
-        "n_books": 28,
+        "n_books": 27,
         "books": [
           {
             "key": "betclic_fr",
             "title": "Betclic (FR)",
-            "home": 1.12,
+            "home": 1.13,
             "away": 5.25,
-            "margin": 8.3,
-            "fr": true
-          },
-          {
-            "key": "netbet_fr",
-            "title": "NetBet",
-            "home": 1.1,
-            "away": 5.4,
-            "margin": 9.4,
+            "margin": 7.5,
             "fr": true
           },
           {
@@ -11760,8 +11882,8 @@
             "key": "betanysports",
             "title": "BetAnything",
             "home": 1.15,
-            "away": 5.7,
-            "margin": 4.5,
+            "away": 5.6,
+            "margin": 4.8,
             "fr": false
           },
           {
@@ -11791,8 +11913,8 @@
           {
             "key": "betus",
             "title": "BetUS",
-            "home": 1.15,
-            "away": 5.9,
+            "home": 1.16,
+            "away": 5.65,
             "margin": 3.9,
             "fr": false
           },
@@ -11823,9 +11945,9 @@
           {
             "key": "codere_it",
             "title": "Codere (IT)",
-            "home": 1.13,
-            "away": 5.8,
-            "margin": 5.7,
+            "home": 1.14,
+            "away": 5.6,
+            "margin": 5.6,
             "fr": false
           },
           {
@@ -11888,16 +12010,16 @@
             "key": "marathonbet",
             "title": "Marathon Bet",
             "home": 1.15,
-            "away": 5.25,
-            "margin": 6.0,
+            "away": 5.3,
+            "margin": 5.8,
             "fr": false
           },
           {
             "key": "mybookieag",
             "title": "MyBookie.ag",
-            "home": 1.13,
-            "away": 5.9,
-            "margin": 5.4,
+            "home": 1.14,
+            "away": 5.7,
+            "margin": 5.3,
             "fr": false
           },
           {
@@ -11912,8 +12034,8 @@
             "key": "pinnacle",
             "title": "Pinnacle",
             "home": 1.17,
-            "away": 5.38,
-            "margin": 4.1,
+            "away": 5.41,
+            "margin": 4.0,
             "fr": false
           },
           {
@@ -11951,16 +12073,16 @@
         ],
         "best_fr": {
           "home": {
-            "price": 1.12,
+            "price": 1.13,
             "book": "Betclic (FR)"
           },
           "away": {
-            "price": 5.4,
-            "book": "NetBet"
+            "price": 5.25,
+            "book": "Betclic (FR)"
           }
         },
         "fair_home": 1.18,
-        "fair_away": 6.49
+        "fair_away": 6.41
       },
       "projected_score": {
         "home": 30,
@@ -11968,7 +12090,7 @@
       },
       "confidence_score": "Élevée",
       "tier": "Très sûr",
-      "prob_source": "moyenne de 28 bookmakers",
+      "prob_source": "moyenne de 27 bookmakers",
       "factors": {
         "elo": 10.0,
         "epa": 4.6,
@@ -12761,16 +12883,16 @@
           "scored_last": 1
         }
       ],
-      "commentary": "Avantage Bears (85 %), à domicile.",
+      "commentary": "Avantage Bears (84 %), à domicile.",
       "injuries": {
         "home": [],
         "away": []
       },
       "weather": {
         "roof": "open",
-        "temp_c": 14,
-        "wind_kmh": 17,
-        "precip_prob": 54,
+        "temp_c": 12,
+        "wind_kmh": 18,
+        "precip_prob": 71,
         "windy": false
       },
       "round": null,
@@ -12911,6 +13033,12 @@
           "prob_home": 84.6,
           "spread": -11.5,
           "books": 28
+        },
+        {
+          "date": "2026-11-19",
+          "prob_home": 84.4,
+          "spread": -11.5,
+          "books": 27
         }
       ]
     },
@@ -12945,38 +13073,30 @@
         "off_rank": 29,
         "def_rank": 30
       },
-      "prob_home_win": 78.1,
-      "prob_away_win": 21.9,
+      "prob_home_win": 78.0,
+      "prob_away_win": 22.0,
       "predicted_spread": -8.0,
       "model_spread": -6.4,
       "model_prob_home": 71.2,
       "vegas_spread": -8.0,
-      "vegas_total": 55.5,
+      "vegas_total": 54.5,
       "odds": {
-        "n_books": 29,
+        "n_books": 28,
         "books": [
           {
             "key": "betclic_fr",
             "title": "Betclic (FR)",
-            "home": 1.24,
+            "home": 1.23,
             "away": 3.7,
-            "margin": 7.7,
-            "fr": true
-          },
-          {
-            "key": "netbet_fr",
-            "title": "NetBet",
-            "home": 1.19,
-            "away": 3.9,
-            "margin": 9.7,
+            "margin": 8.3,
             "fr": true
           },
           {
             "key": "pmu_fr",
             "title": "PMU (FR)",
-            "home": 1.11,
-            "away": 3.8,
-            "margin": 16.4,
+            "home": 1.12,
+            "away": 3.75,
+            "margin": 16.0,
             "fr": true
           },
           {
@@ -12991,32 +13111,32 @@
             "key": "betanysports",
             "title": "BetAnything",
             "home": 1.25,
-            "away": 4.15,
-            "margin": 4.1,
+            "away": 4.2,
+            "margin": 3.8,
             "fr": false
           },
           {
             "key": "betmgm",
             "title": "BetMGM",
-            "home": 1.24,
-            "away": 4.33,
-            "margin": 3.7,
+            "home": 1.25,
+            "away": 4.2,
+            "margin": 3.8,
             "fr": false
           },
           {
             "key": "betonlineag",
             "title": "BetOnline.ag",
-            "home": 1.24,
-            "away": 4.3,
-            "margin": 3.9,
+            "home": 1.25,
+            "away": 4.16,
+            "margin": 4.0,
             "fr": false
           },
           {
             "key": "betrivers",
             "title": "BetRivers",
-            "home": 1.22,
-            "away": 4.3,
-            "margin": 5.2,
+            "home": 1.23,
+            "away": 4.2,
+            "margin": 5.1,
             "fr": false
           },
           {
@@ -13031,23 +13151,23 @@
             "key": "betfair_ex_eu",
             "title": "Betfair",
             "home": 1.28,
-            "away": 4.4,
-            "margin": 0.9,
+            "away": 4.5,
+            "margin": 0.3,
             "fr": false
           },
           {
             "key": "betsson",
             "title": "Betsson",
-            "home": 1.23,
-            "away": 4.16,
-            "margin": 5.3,
+            "home": 1.24,
+            "away": 4.03,
+            "margin": 5.5,
             "fr": false
           },
           {
             "key": "bovada",
             "title": "Bovada",
-            "home": 1.26,
-            "away": 4.0,
+            "home": 1.25,
+            "away": 4.1,
             "margin": 4.4,
             "fr": false
           },
@@ -13055,8 +13175,8 @@
             "key": "codere_it",
             "title": "Codere (IT)",
             "home": 1.25,
-            "away": 3.85,
-            "margin": 6.0,
+            "away": 3.9,
+            "margin": 5.6,
             "fr": false
           },
           {
@@ -13078,17 +13198,17 @@
           {
             "key": "everygame",
             "title": "Everygame",
-            "home": 1.24,
-            "away": 4.3,
-            "margin": 3.9,
+            "home": 1.25,
+            "away": 4.15,
+            "margin": 4.1,
             "fr": false
           },
           {
             "key": "fanduel",
             "title": "FanDuel",
-            "home": 1.22,
-            "away": 4.5,
-            "margin": 4.2,
+            "home": 1.24,
+            "away": 4.3,
+            "margin": 3.9,
             "fr": false
           },
           {
@@ -13102,9 +13222,9 @@
           {
             "key": "leovegas_se",
             "title": "LeoVegas (SE)",
-            "home": 1.22,
-            "away": 4.3,
-            "margin": 5.2,
+            "home": 1.23,
+            "away": 4.2,
+            "margin": 5.1,
             "fr": false
           },
           {
@@ -13135,24 +13255,24 @@
             "key": "mybookieag",
             "title": "MyBookie.ag",
             "home": 1.24,
-            "away": 4.13,
-            "margin": 4.9,
+            "away": 4.1,
+            "margin": 5.0,
             "fr": false
           },
           {
             "key": "nordicbet",
             "title": "Nordic Bet",
-            "home": 1.23,
-            "away": 4.16,
-            "margin": 5.3,
+            "home": 1.24,
+            "away": 4.03,
+            "margin": 5.5,
             "fr": false
           },
           {
             "key": "pinnacle",
             "title": "Pinnacle",
             "home": 1.26,
-            "away": 4.1,
-            "margin": 3.8,
+            "away": 4.12,
+            "margin": 3.6,
             "fr": false
           },
           {
@@ -13166,17 +13286,17 @@
           {
             "key": "unibet_nl",
             "title": "Unibet (NL)",
-            "home": 1.22,
-            "away": 4.3,
-            "margin": 5.2,
+            "home": 1.23,
+            "away": 4.2,
+            "margin": 5.1,
             "fr": false
           },
           {
             "key": "unibet_se",
             "title": "Unibet (SE)",
-            "home": 1.22,
-            "away": 4.3,
-            "margin": 5.2,
+            "home": 1.23,
+            "away": 4.2,
+            "margin": 5.1,
             "fr": false
           },
           {
@@ -13190,24 +13310,24 @@
         ],
         "best_fr": {
           "home": {
-            "price": 1.24,
+            "price": 1.23,
             "book": "Betclic (FR)"
           },
           "away": {
-            "price": 3.9,
-            "book": "NetBet"
+            "price": 3.75,
+            "book": "PMU (FR)"
           }
         },
         "fair_home": 1.28,
-        "fair_away": 4.57
+        "fair_away": 4.55
       },
       "projected_score": {
-        "home": 32,
-        "away": 24
+        "home": 31,
+        "away": 23
       },
       "confidence_score": "Élevée",
       "tier": "Sûr",
-      "prob_source": "moyenne de 29 bookmakers",
+      "prob_source": "moyenne de 28 bookmakers",
       "factors": {
         "elo": 7.0,
         "epa": 5.8,
@@ -13231,7 +13351,7 @@
           "team": "DAL",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xvwroirev2kie6oiphtz",
-          "prob": 65.8,
+          "prob": 65.2,
           "season_tds": 10,
           "status": null,
           "games": 10,
@@ -13298,7 +13418,7 @@
           "team": "DAL",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mbblzwtynxr15ovzkevi",
-          "prob": 52.2,
+          "prob": 51.6,
           "season_tds": 8,
           "status": null,
           "games": 10,
@@ -13365,7 +13485,7 @@
           "team": "TEN",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/u4poetcrbxffcuyglmj8",
-          "prob": 52.1,
+          "prob": 51.3,
           "season_tds": 7,
           "status": null,
           "games": 9,
@@ -13432,7 +13552,7 @@
           "team": "DAL",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cbpyykoguf7rsxezqzvk",
-          "prob": 46.1,
+          "prob": 45.5,
           "season_tds": 5,
           "status": null,
           "games": 9,
@@ -13499,7 +13619,7 @@
           "team": "DAL",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tqwq3cgpqu7j9hzoyicx",
-          "prob": 42.6,
+          "prob": 42.0,
           "season_tds": 3,
           "status": null,
           "games": 10,
@@ -13566,7 +13686,7 @@
           "team": "TEN",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xozpynzjbuorn6ixdjh3",
-          "prob": 26.5,
+          "prob": 25.9,
           "season_tds": 1,
           "status": null,
           "games": 9,
@@ -13633,7 +13753,7 @@
           "team": "DAL",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xpykb0tbosfwsn6dqstb",
-          "prob": 25.5,
+          "prob": 25.1,
           "season_tds": 4,
           "status": null,
           "games": 8,
@@ -13700,7 +13820,7 @@
           "team": "TEN",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xlva68qwhtm0n36pwyad",
-          "prob": 24.3,
+          "prob": 23.7,
           "season_tds": 1,
           "status": null,
           "games": 7,
@@ -13767,7 +13887,7 @@
           "team": "TEN",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/l7iuimdeqgmmhdzdhl67",
-          "prob": 20.5,
+          "prob": 20.0,
           "season_tds": 2,
           "status": null,
           "games": 9,
@@ -13834,7 +13954,7 @@
           "team": "DAL",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yvscmqq1qki8zfsemmcd",
-          "prob": 19.9,
+          "prob": 19.5,
           "season_tds": 1,
           "status": null,
           "games": 10,
@@ -13901,7 +14021,7 @@
           "team": "TEN",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jcxkarajirurpxlxl1rj",
-          "prob": 16.7,
+          "prob": 16.3,
           "season_tds": 1,
           "status": null,
           "games": 9,
@@ -13968,7 +14088,7 @@
           "team": "TEN",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/r9ra5zgmycey0rsohbmh",
-          "prob": 15.4,
+          "prob": 15.0,
           "season_tds": 1,
           "status": null,
           "games": 9,
@@ -14037,9 +14157,9 @@
       },
       "weather": {
         "roof": "retractable",
-        "temp_c": 19,
-        "wind_kmh": 19,
-        "precip_prob": 1,
+        "temp_c": 18,
+        "wind_kmh": 20,
+        "precip_prob": 0,
         "windy": false
       },
       "round": null,
@@ -14172,6 +14292,12 @@
           "prob_home": 78.1,
           "spread": -8.0,
           "books": 29
+        },
+        {
+          "date": "2026-11-19",
+          "prob_home": 78.0,
+          "spread": -8.0,
+          "books": 28
         }
       ]
     },
@@ -14206,62 +14332,54 @@
         "off_rank": 22,
         "def_rank": 5
       },
-      "prob_home_win": 75.3,
-      "prob_away_win": 24.7,
+      "prob_home_win": 74.7,
+      "prob_away_win": 25.3,
       "predicted_spread": -7.0,
       "model_spread": -3.7,
       "model_prob_home": 62.6,
       "vegas_spread": -7.0,
       "vegas_total": 43.5,
       "odds": {
-        "n_books": 29,
+        "n_books": 28,
         "books": [
           {
             "key": "betclic_fr",
             "title": "Betclic (FR)",
-            "home": 1.25,
-            "away": 3.5,
-            "margin": 8.6,
-            "fr": true
-          },
-          {
-            "key": "netbet_fr",
-            "title": "NetBet",
-            "home": 1.23,
-            "away": 3.55,
-            "margin": 9.5,
+            "home": 1.27,
+            "away": 3.4,
+            "margin": 8.2,
             "fr": true
           },
           {
             "key": "pmu_fr",
             "title": "PMU (FR)",
-            "home": 1.17,
-            "away": 3.25,
-            "margin": 16.2,
+            "home": 1.18,
+            "away": 3.2,
+            "margin": 16.0,
             "fr": true
           },
           {
             "key": "sport888",
             "title": "888sport",
-            "home": 1.25,
-            "away": 4.0,
-            "margin": 5.0,
+            "home": 1.29,
+            "away": 3.6,
+            "margin": 5.3,
             "fr": false
           },
           {
             "key": "betanysports",
             "title": "BetAnything",
-            "home": 1.29,
-            "away": 3.8,
-            "margin": 3.8,
+            "home": 1.3,
+            "away": 3.6,
+            "margin": 4.7,
             "fr": false
           },
           {
             "key": "betmgm",
             "title": "BetMGM",
-            "home": 1.29,
-            "away": 3.75,
-            "margin": 4.2,
+            "home": 1.31,
+            "away": 3.7,
+            "margin": 3.4,
             "fr": false
           },
           {
@@ -14275,17 +14393,17 @@
           {
             "key": "betrivers",
             "title": "BetRivers",
-            "home": 1.29,
-            "away": 3.7,
-            "margin": 4.5,
+            "home": 1.3,
+            "away": 3.6,
+            "margin": 4.7,
             "fr": false
           },
           {
             "key": "betus",
             "title": "BetUS",
-            "home": 1.29,
-            "away": 3.8,
-            "margin": 3.8,
+            "home": 1.3,
+            "away": 3.7,
+            "margin": 4.0,
             "fr": false
           },
           {
@@ -14307,17 +14425,17 @@
           {
             "key": "bovada",
             "title": "Bovada",
-            "home": 1.31,
-            "away": 3.6,
-            "margin": 4.1,
+            "home": 1.33,
+            "away": 3.5,
+            "margin": 3.8,
             "fr": false
           },
           {
             "key": "codere_it",
             "title": "Codere (IT)",
-            "home": 1.27,
-            "away": 3.7,
-            "margin": 5.8,
+            "home": 1.29,
+            "away": 3.55,
+            "margin": 5.7,
             "fr": false
           },
           {
@@ -14332,23 +14450,23 @@
             "key": "draftkings",
             "title": "DraftKings",
             "home": 1.29,
-            "away": 3.75,
-            "margin": 4.2,
+            "away": 3.7,
+            "margin": 4.5,
             "fr": false
           },
           {
             "key": "everygame",
             "title": "Everygame",
-            "home": 1.29,
-            "away": 3.75,
-            "margin": 4.2,
+            "home": 1.31,
+            "away": 3.6,
+            "margin": 4.1,
             "fr": false
           },
           {
             "key": "fanduel",
             "title": "FanDuel",
-            "home": 1.29,
-            "away": 3.8,
+            "home": 1.28,
+            "away": 3.9,
             "margin": 3.8,
             "fr": false
           },
@@ -14356,16 +14474,16 @@
             "key": "gtbets",
             "title": "GTbets",
             "home": 1.29,
-            "away": 3.75,
-            "margin": 4.2,
+            "away": 3.7,
+            "margin": 4.5,
             "fr": false
           },
           {
             "key": "leovegas_se",
             "title": "LeoVegas (SE)",
             "home": 1.3,
-            "away": 3.7,
-            "margin": 4.0,
+            "away": 3.6,
+            "margin": 4.7,
             "fr": false
           },
           {
@@ -14379,8 +14497,8 @@
           {
             "key": "marathonbet",
             "title": "Marathon Bet",
-            "home": 1.28,
-            "away": 3.6,
+            "home": 1.31,
+            "away": 3.38,
             "margin": 5.9,
             "fr": false
           },
@@ -14395,9 +14513,9 @@
           {
             "key": "mybookieag",
             "title": "MyBookie.ag",
-            "home": 1.28,
-            "away": 3.75,
-            "margin": 4.8,
+            "home": 1.29,
+            "away": 3.6,
+            "margin": 5.3,
             "fr": false
           },
           {
@@ -14411,9 +14529,9 @@
           {
             "key": "pinnacle",
             "title": "Pinnacle",
-            "home": 1.32,
-            "away": 3.61,
-            "margin": 3.5,
+            "home": 1.33,
+            "away": 3.5,
+            "margin": 3.8,
             "fr": false
           },
           {
@@ -14428,39 +14546,39 @@
             "key": "unibet_nl",
             "title": "Unibet (NL)",
             "home": 1.3,
-            "away": 3.8,
-            "margin": 3.2,
+            "away": 3.75,
+            "margin": 3.6,
             "fr": false
           },
           {
             "key": "unibet_se",
             "title": "Unibet (SE)",
             "home": 1.3,
-            "away": 3.8,
-            "margin": 3.2,
+            "away": 3.75,
+            "margin": 3.6,
             "fr": false
           },
           {
             "key": "williamhill",
             "title": "William Hill",
-            "home": 1.25,
-            "away": 4.0,
-            "margin": 5.0,
+            "home": 1.29,
+            "away": 3.6,
+            "margin": 5.3,
             "fr": false
           }
         ],
         "best_fr": {
           "home": {
-            "price": 1.25,
+            "price": 1.27,
             "book": "Betclic (FR)"
           },
           "away": {
-            "price": 3.55,
-            "book": "NetBet"
+            "price": 3.4,
+            "book": "Betclic (FR)"
           }
         },
-        "fair_home": 1.33,
-        "fair_away": 4.05
+        "fair_home": 1.34,
+        "fair_away": 3.95
       },
       "projected_score": {
         "home": 25,
@@ -14468,7 +14586,7 @@
       },
       "confidence_score": "Élevée",
       "tier": "Sûr",
-      "prob_source": "moyenne de 29 bookmakers",
+      "prob_source": "moyenne de 28 bookmakers",
       "factors": {
         "elo": 6.3,
         "epa": 3.3,
@@ -15437,6 +15555,12 @@
           "prob_home": 75.3,
           "spread": -7.0,
           "books": 29
+        },
+        {
+          "date": "2026-11-19",
+          "prob_home": 74.7,
+          "spread": -7.0,
+          "books": 28
         }
       ]
     },
@@ -15479,7 +15603,7 @@
       "vegas_spread": -16.0,
       "vegas_total": 40.5,
       "odds": {
-        "n_books": 28,
+        "n_books": 27,
         "books": [
           {
             "key": "betclic_fr",
@@ -15487,14 +15611,6 @@
             "home": 1.04,
             "away": 8.25,
             "margin": 8.3,
-            "fr": true
-          },
-          {
-            "key": "netbet_fr",
-            "title": "NetBet",
-            "home": 1.01,
-            "away": 9.0,
-            "margin": 10.1,
             "fr": true
           },
           {
@@ -15508,8 +15624,8 @@
           {
             "key": "betanysports",
             "title": "BetAnything",
-            "home": 1.06,
-            "away": 10.0,
+            "home": 1.07,
+            "away": 9.25,
             "margin": 4.3,
             "fr": false
           },
@@ -15549,8 +15665,8 @@
             "key": "betfair_ex_eu",
             "title": "Betfair",
             "home": 1.08,
-            "away": 12.0,
-            "margin": 0.9,
+            "away": 11.5,
+            "margin": 1.3,
             "fr": false
           },
           {
@@ -15588,25 +15704,25 @@
           {
             "key": "draftkings",
             "title": "DraftKings",
-            "home": 1.06,
-            "away": 10.0,
-            "margin": 4.3,
+            "home": 1.07,
+            "away": 9.0,
+            "margin": 4.6,
             "fr": false
           },
           {
             "key": "everygame",
             "title": "Everygame",
-            "home": 1.05,
-            "away": 9.75,
-            "margin": 5.5,
+            "home": 1.06,
+            "away": 9.5,
+            "margin": 4.9,
             "fr": false
           },
           {
             "key": "fanduel",
             "title": "FanDuel",
             "home": 1.07,
-            "away": 9.7,
-            "margin": 3.8,
+            "away": 9.3,
+            "margin": 4.2,
             "fr": false
           },
           {
@@ -15637,24 +15753,24 @@
             "key": "marathonbet",
             "title": "Marathon Bet",
             "home": 1.06,
-            "away": 8.8,
-            "margin": 5.7,
+            "away": 8.5,
+            "margin": 6.1,
             "fr": false
           },
           {
             "key": "matchbook",
             "title": "Matchbook",
             "home": 1.08,
-            "away": 12.0,
-            "margin": 0.9,
+            "away": 11.5,
+            "margin": 1.3,
             "fr": false
           },
           {
             "key": "mybookieag",
             "title": "MyBookie.ag",
-            "home": 1.05,
+            "home": 1.06,
             "away": 9.8,
-            "margin": 5.4,
+            "margin": 4.5,
             "fr": false
           },
           {
@@ -15669,8 +15785,8 @@
             "key": "pinnacle",
             "title": "Pinnacle",
             "home": 1.07,
-            "away": 9.55,
-            "margin": 3.9,
+            "away": 9.47,
+            "margin": 4.0,
             "fr": false
           },
           {
@@ -15712,8 +15828,8 @@
             "book": "Betclic (FR)"
           },
           "away": {
-            "price": 9.0,
-            "book": "NetBet"
+            "price": 8.25,
+            "book": "Betclic (FR)"
           }
         },
         "fair_home": 1.09,
@@ -15725,7 +15841,7 @@
       },
       "confidence_score": "Élevée",
       "tier": "Très sûr",
-      "prob_source": "moyenne de 28 bookmakers",
+      "prob_source": "moyenne de 27 bookmakers",
       "factors": {
         "elo": 9.7,
         "epa": 10.6,
@@ -16505,7 +16621,7 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 10,
+        "temp_c": 11,
         "wind_kmh": 23,
         "precip_prob": 10,
         "windy": true
@@ -16648,6 +16764,12 @@
           "prob_home": 91.7,
           "spread": -16.0,
           "books": 28
+        },
+        {
+          "date": "2026-11-19",
+          "prob_home": 91.7,
+          "spread": -16.0,
+          "books": 27
         }
       ]
     },
@@ -16682,15 +16804,15 @@
         "off_rank": 4,
         "def_rank": 3
       },
-      "prob_home_win": 29.2,
-      "prob_away_win": 70.8,
+      "prob_home_win": 29.0,
+      "prob_away_win": 71.0,
       "predicted_spread": 6.0,
       "model_spread": 4.3,
       "model_prob_home": 35.3,
       "vegas_spread": 6.0,
       "vegas_total": 46.5,
       "odds": {
-        "n_books": 28,
+        "n_books": 27,
         "books": [
           {
             "key": "betclic_fr",
@@ -16698,14 +16820,6 @@
             "home": 2.9,
             "away": 1.35,
             "margin": 8.6,
-            "fr": true
-          },
-          {
-            "key": "netbet_fr",
-            "title": "NetBet",
-            "home": 2.95,
-            "away": 1.32,
-            "margin": 9.7,
             "fr": true
           },
           {
@@ -16719,9 +16833,9 @@
           {
             "key": "sport888",
             "title": "888sport",
-            "home": 2.9,
-            "away": 1.4,
-            "margin": 5.9,
+            "home": 3.1,
+            "away": 1.36,
+            "margin": 5.8,
             "fr": false
           },
           {
@@ -16735,17 +16849,17 @@
           {
             "key": "betmgm",
             "title": "BetMGM",
-            "home": 3.25,
+            "home": 3.2,
             "away": 1.36,
-            "margin": 4.3,
+            "margin": 4.8,
             "fr": false
           },
           {
             "key": "betonlineag",
             "title": "BetOnline.ag",
-            "home": 3.22,
-            "away": 1.37,
-            "margin": 4.0,
+            "home": 3.26,
+            "away": 1.36,
+            "margin": 4.2,
             "fr": false
           },
           {
@@ -16759,33 +16873,33 @@
           {
             "key": "betus",
             "title": "BetUS",
-            "home": 3.25,
-            "away": 1.37,
+            "home": 3.3,
+            "away": 1.36,
             "margin": 3.8,
             "fr": false
           },
           {
             "key": "betfair_ex_eu",
             "title": "Betfair",
-            "home": 3.25,
-            "away": 1.41,
-            "margin": 1.7,
+            "home": 3.35,
+            "away": 1.4,
+            "margin": 1.3,
             "fr": false
           },
           {
             "key": "betsson",
             "title": "Betsson",
-            "home": 3.05,
-            "away": 1.38,
+            "home": 3.15,
+            "away": 1.36,
             "margin": 5.3,
             "fr": false
           },
           {
             "key": "bovada",
             "title": "Bovada",
-            "home": 3.2,
-            "away": 1.37,
-            "margin": 4.2,
+            "home": 3.25,
+            "away": 1.36,
+            "margin": 4.3,
             "fr": false
           },
           {
@@ -16799,8 +16913,8 @@
           {
             "key": "coolbet",
             "title": "Coolbet",
-            "home": 3.15,
-            "away": 1.38,
+            "home": 3.2,
+            "away": 1.37,
             "margin": 4.2,
             "fr": false
           },
@@ -16815,25 +16929,25 @@
           {
             "key": "everygame",
             "title": "Everygame",
-            "home": 3.25,
-            "away": 1.38,
-            "margin": 3.2,
+            "home": 3.3,
+            "away": 1.37,
+            "margin": 3.3,
             "fr": false
           },
           {
             "key": "fanduel",
             "title": "FanDuel",
-            "home": 3.0,
-            "away": 1.41,
-            "margin": 4.3,
+            "home": 3.15,
+            "away": 1.38,
+            "margin": 4.2,
             "fr": false
           },
           {
             "key": "gtbets",
             "title": "GTbets",
-            "home": 3.2,
-            "away": 1.37,
-            "margin": 4.2,
+            "home": 3.25,
+            "away": 1.36,
+            "margin": 4.3,
             "fr": false
           },
           {
@@ -16847,17 +16961,17 @@
           {
             "key": "lowvig",
             "title": "LowVig.ag",
-            "home": 3.22,
-            "away": 1.37,
-            "margin": 4.0,
+            "home": 3.26,
+            "away": 1.36,
+            "margin": 4.2,
             "fr": false
           },
           {
             "key": "marathonbet",
             "title": "Marathon Bet",
-            "home": 2.73,
-            "away": 1.44,
-            "margin": 6.1,
+            "home": 2.82,
+            "away": 1.42,
+            "margin": 5.9,
             "fr": false
           },
           {
@@ -16871,17 +16985,17 @@
           {
             "key": "nordicbet",
             "title": "Nordic Bet",
-            "home": 3.05,
-            "away": 1.38,
+            "home": 3.15,
+            "away": 1.36,
             "margin": 5.3,
             "fr": false
           },
           {
             "key": "pinnacle",
             "title": "Pinnacle",
-            "home": 3.24,
+            "home": 3.25,
             "away": 1.38,
-            "margin": 3.3,
+            "margin": 3.2,
             "fr": false
           },
           {
@@ -16911,9 +17025,9 @@
           {
             "key": "williamhill",
             "title": "William Hill",
-            "home": 2.9,
-            "away": 1.4,
-            "margin": 5.9,
+            "home": 3.1,
+            "away": 1.36,
+            "margin": 5.8,
             "fr": false
           }
         ],
@@ -16927,7 +17041,7 @@
             "book": "Betclic (FR)"
           }
         },
-        "fair_home": 3.42,
+        "fair_home": 3.45,
         "fair_away": 1.41
       },
       "projected_score": {
@@ -16936,7 +17050,7 @@
       },
       "confidence_score": "Élevée",
       "tier": "Sûr",
-      "prob_source": "moyenne de 28 bookmakers",
+      "prob_source": "moyenne de 27 bookmakers",
       "factors": {
         "elo": -5.6,
         "epa": -4.1,
@@ -17766,10 +17880,10 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 12,
-        "wind_kmh": 21,
-        "precip_prob": 15,
-        "windy": true
+        "temp_c": 15,
+        "wind_kmh": 10,
+        "precip_prob": 8,
+        "windy": false
       },
       "round": null,
       "lineup": {
@@ -17894,7 +18008,7 @@
       "flags": {
         "value": false,
         "key_out": 0,
-        "windy": true,
+        "windy": false,
         "dome": false
       },
       "line_history": [
@@ -17909,6 +18023,12 @@
           "prob_home": 29.2,
           "spread": 6.0,
           "books": 28
+        },
+        {
+          "date": "2026-11-19",
+          "prob_home": 29.0,
+          "spread": 6.0,
+          "books": 27
         }
       ]
     },
@@ -17943,269 +18063,261 @@
         "off_rank": 21,
         "def_rank": 31
       },
-      "prob_home_win": 62.7,
-      "prob_away_win": 37.3,
-      "predicted_spread": -3.5,
+      "prob_home_win": 59.7,
+      "prob_away_win": 40.3,
+      "predicted_spread": -3.0,
       "model_spread": -2.9,
       "model_prob_home": 59.9,
-      "vegas_spread": -3.5,
+      "vegas_spread": -3.0,
       "vegas_total": 41.5,
       "odds": {
-        "n_books": 29,
+        "n_books": 28,
         "books": [
           {
             "key": "betclic_fr",
             "title": "Betclic (FR)",
-            "home": 1.5,
-            "away": 2.4,
-            "margin": 8.3,
-            "fr": true
-          },
-          {
-            "key": "netbet_fr",
-            "title": "NetBet",
-            "home": 1.45,
-            "away": 2.4,
-            "margin": 10.6,
+            "home": 1.58,
+            "away": 2.25,
+            "margin": 7.7,
             "fr": true
           },
           {
             "key": "pmu_fr",
             "title": "PMU (FR)",
-            "home": 1.38,
-            "away": 2.28,
-            "margin": 16.3,
+            "home": 1.48,
+            "away": 2.06,
+            "margin": 16.1,
             "fr": true
           },
           {
             "key": "sport888",
             "title": "888sport",
-            "home": 1.53,
-            "away": 2.5,
-            "margin": 5.4,
+            "home": 1.61,
+            "away": 2.3,
+            "margin": 5.6,
             "fr": false
           },
           {
             "key": "betanysports",
             "title": "BetAnything",
-            "home": 1.56,
-            "away": 2.55,
-            "margin": 3.3,
+            "home": 1.65,
+            "away": 2.35,
+            "margin": 3.2,
             "fr": false
           },
           {
             "key": "betmgm",
             "title": "BetMGM",
-            "home": 1.54,
-            "away": 2.5,
-            "margin": 4.9,
+            "home": 1.61,
+            "away": 2.35,
+            "margin": 4.7,
             "fr": false
           },
           {
             "key": "betonlineag",
             "title": "BetOnline.ag",
-            "home": 1.56,
-            "away": 2.55,
-            "margin": 3.3,
+            "home": 1.63,
+            "away": 2.39,
+            "margin": 3.2,
             "fr": false
           },
           {
             "key": "betrivers",
             "title": "BetRivers",
-            "home": 1.53,
-            "away": 2.5,
-            "margin": 5.4,
+            "home": 1.64,
+            "away": 2.28,
+            "margin": 4.8,
             "fr": false
           },
           {
             "key": "betus",
             "title": "BetUS",
-            "home": 1.57,
-            "away": 2.5,
+            "home": 1.62,
+            "away": 2.38,
             "margin": 3.7,
             "fr": false
           },
           {
             "key": "betfair_ex_eu",
             "title": "Betfair",
-            "home": 1.57,
-            "away": 2.68,
-            "margin": 1.0,
+            "home": 1.66,
+            "away": 2.46,
+            "margin": 0.9,
             "fr": false
           },
           {
             "key": "betsson",
             "title": "Betsson",
-            "home": 1.53,
-            "away": 2.5,
+            "home": 1.6,
+            "away": 2.33,
             "margin": 5.4,
             "fr": false
           },
           {
             "key": "bovada",
             "title": "Bovada",
-            "home": 1.54,
-            "away": 2.6,
-            "margin": 3.4,
+            "home": 1.61,
+            "away": 2.38,
+            "margin": 4.1,
             "fr": false
           },
           {
             "key": "codere_it",
             "title": "Codere (IT)",
-            "home": 1.52,
-            "away": 2.48,
-            "margin": 6.1,
+            "home": 1.6,
+            "away": 2.29,
+            "margin": 6.2,
             "fr": false
           },
           {
             "key": "coolbet",
             "title": "Coolbet",
-            "home": 1.55,
-            "away": 2.53,
-            "margin": 4.0,
+            "home": 1.61,
+            "away": 2.4,
+            "margin": 3.8,
             "fr": false
           },
           {
             "key": "draftkings",
             "title": "DraftKings",
-            "home": 1.54,
-            "away": 2.54,
-            "margin": 4.3,
+            "home": 1.62,
+            "away": 2.36,
+            "margin": 4.1,
             "fr": false
           },
           {
             "key": "everygame",
             "title": "Everygame",
-            "home": 1.56,
-            "away": 2.6,
-            "margin": 2.6,
+            "home": 1.62,
+            "away": 2.4,
+            "margin": 3.4,
             "fr": false
           },
           {
             "key": "fanduel",
             "title": "FanDuel",
-            "home": 1.54,
-            "away": 2.54,
-            "margin": 4.3,
+            "home": 1.62,
+            "away": 2.36,
+            "margin": 4.1,
             "fr": false
           },
           {
             "key": "gtbets",
             "title": "GTbets",
-            "home": 1.54,
-            "away": 2.55,
-            "margin": 4.2,
+            "home": 1.62,
+            "away": 2.35,
+            "margin": 4.3,
             "fr": false
           },
           {
             "key": "leovegas_se",
             "title": "LeoVegas (SE)",
-            "home": 1.53,
-            "away": 2.5,
-            "margin": 5.4,
+            "home": 1.64,
+            "away": 2.28,
+            "margin": 4.8,
             "fr": false
           },
           {
             "key": "lowvig",
             "title": "LowVig.ag",
-            "home": 1.56,
-            "away": 2.55,
-            "margin": 3.3,
+            "home": 1.63,
+            "away": 2.39,
+            "margin": 3.2,
             "fr": false
           },
           {
             "key": "marathonbet",
             "title": "Marathon Bet",
-            "home": 1.64,
-            "away": 2.23,
-            "margin": 5.8,
+            "home": 1.71,
+            "away": 2.11,
+            "margin": 5.9,
             "fr": false
           },
           {
             "key": "matchbook",
             "title": "Matchbook",
-            "home": 1.57,
-            "away": 2.68,
-            "margin": 1.0,
+            "home": 1.67,
+            "away": 2.46,
+            "margin": 0.5,
             "fr": false
           },
           {
             "key": "mybookieag",
             "title": "MyBookie.ag",
-            "home": 1.53,
-            "away": 2.51,
+            "home": 1.61,
+            "away": 2.32,
             "margin": 5.2,
             "fr": false
           },
           {
             "key": "nordicbet",
             "title": "Nordic Bet",
-            "home": 1.53,
-            "away": 2.5,
+            "home": 1.6,
+            "away": 2.33,
             "margin": 5.4,
             "fr": false
           },
           {
             "key": "pinnacle",
             "title": "Pinnacle",
-            "home": 1.55,
-            "away": 2.6,
+            "home": 1.63,
+            "away": 2.4,
             "margin": 3.0,
             "fr": false
           },
           {
             "key": "tipico_de",
             "title": "Tipico",
-            "home": 1.5,
-            "away": 2.55,
-            "margin": 5.9,
+            "home": 1.6,
+            "away": 2.3,
+            "margin": 6.0,
             "fr": false
           },
           {
             "key": "unibet_nl",
             "title": "Unibet (NL)",
-            "home": 1.53,
-            "away": 2.5,
-            "margin": 5.4,
+            "home": 1.64,
+            "away": 2.28,
+            "margin": 4.8,
             "fr": false
           },
           {
             "key": "unibet_se",
             "title": "Unibet (SE)",
-            "home": 1.53,
-            "away": 2.5,
-            "margin": 5.4,
+            "home": 1.64,
+            "away": 2.28,
+            "margin": 4.8,
             "fr": false
           },
           {
             "key": "williamhill",
             "title": "William Hill",
-            "home": 1.53,
-            "away": 2.5,
-            "margin": 5.4,
+            "home": 1.62,
+            "away": 2.3,
+            "margin": 5.2,
             "fr": false
           }
         ],
         "best_fr": {
           "home": {
-            "price": 1.5,
+            "price": 1.58,
             "book": "Betclic (FR)"
           },
           "away": {
-            "price": 2.4,
+            "price": 2.25,
             "book": "Betclic (FR)"
           }
         },
-        "fair_home": 1.59,
-        "fair_away": 2.68
+        "fair_home": 1.68,
+        "fair_away": 2.48
       },
       "projected_score": {
         "home": 22,
         "away": 19
       },
-      "confidence_score": "Modérée",
-      "tier": "Probable",
-      "prob_source": "moyenne de 29 bookmakers",
+      "confidence_score": "Faible",
+      "tier": "Serré",
+      "prob_source": "moyenne de 28 bookmakers",
       "factors": {
         "elo": 3.6,
         "epa": 2.9,
@@ -18229,7 +18341,7 @@
           "team": "LAC",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lf2jxvxnbexlinoydbej",
-          "prob": 35.9,
+          "prob": 35.4,
           "season_tds": 4,
           "status": null,
           "games": 9,
@@ -18296,7 +18408,7 @@
           "team": "NYJ",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/x78ebxfvyyuemrxyank1",
-          "prob": 29.7,
+          "prob": 30.2,
           "season_tds": 3,
           "status": null,
           "games": 10,
@@ -18363,7 +18475,7 @@
           "team": "NYJ",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bo2gf1ohffbzo0rd71kp",
-          "prob": 29.1,
+          "prob": 29.5,
           "season_tds": 3,
           "status": null,
           "games": 9,
@@ -18430,7 +18542,7 @@
           "team": "NYJ",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hwwacoa3pqapd7pgahfx",
-          "prob": 21.8,
+          "prob": 22.2,
           "season_tds": 1,
           "status": null,
           "games": 6,
@@ -18497,7 +18609,7 @@
           "team": "NYJ",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lmua2lbg0m77ibvydvaq",
-          "prob": 21.2,
+          "prob": 21.5,
           "season_tds": 2,
           "status": null,
           "games": 4,
@@ -18554,7 +18666,7 @@
           "team": "LAC",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lyvsrjh4mjb4dqwp6shm",
-          "prob": 21.2,
+          "prob": 20.9,
           "season_tds": 1,
           "status": null,
           "games": 8,
@@ -18616,79 +18728,12 @@
           "scored_last": 1
         },
         {
-          "player_id": "00-0039391",
-          "name": "Kimani Vidal",
-          "team": "LAC",
-          "position": "RB",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tqdctdun0bv60d5ziwtl",
-          "prob": 20.2,
-          "season_tds": 2,
-          "status": null,
-          "games": 8,
-          "snap": 35,
-          "xtd": 0.17,
-          "depth": "RB3",
-          "form": [
-            {
-              "week": 5,
-              "opp": "DEN",
-              "car": 8,
-              "tgt": 2,
-              "rec": 1,
-              "yds": 56,
-              "td": 1,
-              "snap": 42
-            },
-            {
-              "week": 6,
-              "opp": "KC",
-              "car": 7,
-              "tgt": 4,
-              "rec": 3,
-              "yds": 40,
-              "td": 0,
-              "snap": 37
-            },
-            {
-              "week": 8,
-              "opp": "LA",
-              "car": 8,
-              "tgt": 2,
-              "rec": 2,
-              "yds": 30,
-              "td": 0,
-              "snap": 46
-            },
-            {
-              "week": 9,
-              "opp": "HOU",
-              "car": 7,
-              "tgt": 3,
-              "rec": 1,
-              "yds": 36,
-              "td": 0,
-              "snap": 39
-            },
-            {
-              "week": 10,
-              "opp": "BAL",
-              "car": 2,
-              "tgt": 2,
-              "rec": 2,
-              "yds": 14,
-              "td": 0,
-              "snap": 26
-            }
-          ],
-          "scored_last": 1
-        },
-        {
           "player_id": "00-0038120",
           "name": "Breece Hall",
           "team": "NYJ",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pb9i8clrmkhwwjs7jndy",
-          "prob": 19.8,
+          "prob": 20.2,
           "season_tds": 1,
           "status": null,
           "games": 5,
@@ -18750,12 +18795,79 @@
           "scored_last": 1
         },
         {
+          "player_id": "00-0039391",
+          "name": "Kimani Vidal",
+          "team": "LAC",
+          "position": "RB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tqdctdun0bv60d5ziwtl",
+          "prob": 19.9,
+          "season_tds": 2,
+          "status": null,
+          "games": 8,
+          "snap": 35,
+          "xtd": 0.17,
+          "depth": "RB3",
+          "form": [
+            {
+              "week": 5,
+              "opp": "DEN",
+              "car": 8,
+              "tgt": 2,
+              "rec": 1,
+              "yds": 56,
+              "td": 1,
+              "snap": 42
+            },
+            {
+              "week": 6,
+              "opp": "KC",
+              "car": 7,
+              "tgt": 4,
+              "rec": 3,
+              "yds": 40,
+              "td": 0,
+              "snap": 37
+            },
+            {
+              "week": 8,
+              "opp": "LA",
+              "car": 8,
+              "tgt": 2,
+              "rec": 2,
+              "yds": 30,
+              "td": 0,
+              "snap": 46
+            },
+            {
+              "week": 9,
+              "opp": "HOU",
+              "car": 7,
+              "tgt": 3,
+              "rec": 1,
+              "yds": 36,
+              "td": 0,
+              "snap": 39
+            },
+            {
+              "week": 10,
+              "opp": "BAL",
+              "car": 2,
+              "tgt": 2,
+              "rec": 2,
+              "yds": 14,
+              "td": 0,
+              "snap": 26
+            }
+          ],
+          "scored_last": 1
+        },
+        {
           "player_id": "00-0040727",
           "name": "Tre Harris",
           "team": "LAC",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/v5ofh8jggzo8rygtpwl7",
-          "prob": 19.3,
+          "prob": 19.1,
           "season_tds": 0,
           "status": null,
           "games": 8,
@@ -18822,7 +18934,7 @@
           "team": "LAC",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jnkspnntgebegzp4ghve",
-          "prob": 17.0,
+          "prob": 16.9,
           "season_tds": 1,
           "status": null,
           "games": 9,
@@ -18889,7 +19001,7 @@
           "team": "NYJ",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lejmnygqgkeu7ujr7x36",
-          "prob": 16.2,
+          "prob": 16.4,
           "season_tds": 2,
           "status": null,
           "games": 7,
@@ -18956,7 +19068,7 @@
           "team": "LAC",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ztciwwpbyaffmckwrzdk",
-          "prob": 16.1,
+          "prob": 15.8,
           "season_tds": 1,
           "status": null,
           "games": 9,
@@ -19018,7 +19130,7 @@
           "scored_last": 0
         }
       ],
-      "commentary": "Avantage Chargers (63 %), à domicile.",
+      "commentary": "Avantage Chargers (60 %), à domicile.",
       "injuries": {
         "home": [],
         "away": []
@@ -19164,6 +19276,12 @@
           "prob_home": 62.7,
           "spread": -3.5,
           "books": 29
+        },
+        {
+          "date": "2026-11-19",
+          "prob_home": 59.7,
+          "spread": -3.0,
+          "books": 28
         }
       ]
     },
@@ -19198,38 +19316,30 @@
         "off_rank": 28,
         "def_rank": 28
       },
-      "prob_home_win": 83.1,
-      "prob_away_win": 16.9,
+      "prob_home_win": 82.8,
+      "prob_away_win": 17.2,
       "predicted_spread": -10.0,
       "model_spread": -13.8,
       "model_prob_home": 88.5,
       "vegas_spread": -10.0,
       "vegas_total": 40.5,
       "odds": {
-        "n_books": 29,
+        "n_books": 28,
         "books": [
           {
             "key": "betclic_fr",
             "title": "Betclic (FR)",
-            "home": 1.15,
-            "away": 4.8,
-            "margin": 7.8,
-            "fr": true
-          },
-          {
-            "key": "netbet_fr",
-            "title": "NetBet",
-            "home": 1.11,
-            "away": 5.0,
-            "margin": 10.1,
+            "home": 1.14,
+            "away": 4.9,
+            "margin": 8.1,
             "fr": true
           },
           {
             "key": "pmu_fr",
             "title": "PMU (FR)",
-            "home": 1.06,
-            "away": 4.6,
-            "margin": 16.1,
+            "home": 1.07,
+            "away": 4.4,
+            "margin": 16.2,
             "fr": true
           },
           {
@@ -19267,9 +19377,9 @@
           {
             "key": "betrivers",
             "title": "BetRivers",
-            "home": 1.16,
-            "away": 5.3,
-            "margin": 5.1,
+            "home": 1.17,
+            "away": 5.0,
+            "margin": 5.5,
             "fr": false
           },
           {
@@ -19283,9 +19393,9 @@
           {
             "key": "betfair_ex_eu",
             "title": "Betfair",
-            "home": 1.2,
-            "away": 5.6,
-            "margin": 1.2,
+            "home": 1.19,
+            "away": 5.7,
+            "margin": 1.6,
             "fr": false
           },
           {
@@ -19307,16 +19417,16 @@
           {
             "key": "codere_it",
             "title": "Codere (IT)",
-            "home": 1.16,
+            "home": 1.15,
             "away": 5.2,
-            "margin": 5.4,
+            "margin": 6.2,
             "fr": false
           },
           {
             "key": "coolbet",
             "title": "Coolbet",
-            "home": 1.18,
-            "away": 5.2,
+            "home": 1.17,
+            "away": 5.4,
             "margin": 4.0,
             "fr": false
           },
@@ -19339,9 +19449,9 @@
           {
             "key": "fanduel",
             "title": "FanDuel",
-            "home": 1.17,
-            "away": 5.4,
-            "margin": 4.0,
+            "home": 1.16,
+            "away": 5.6,
+            "margin": 4.1,
             "fr": false
           },
           {
@@ -19355,9 +19465,9 @@
           {
             "key": "leovegas_se",
             "title": "LeoVegas (SE)",
-            "home": 1.16,
-            "away": 5.3,
-            "margin": 5.1,
+            "home": 1.17,
+            "away": 5.0,
+            "margin": 5.5,
             "fr": false
           },
           {
@@ -19372,23 +19482,23 @@
             "key": "marathonbet",
             "title": "Marathon Bet",
             "home": 1.16,
-            "away": 5.15,
-            "margin": 5.6,
+            "away": 5.2,
+            "margin": 5.4,
             "fr": false
           },
           {
             "key": "matchbook",
             "title": "Matchbook",
-            "home": 1.2,
+            "home": 1.19,
             "away": 5.7,
-            "margin": 0.9,
+            "margin": 1.6,
             "fr": false
           },
           {
             "key": "mybookieag",
             "title": "MyBookie.ag",
-            "home": 1.16,
-            "away": 5.3,
+            "home": 1.17,
+            "away": 5.1,
             "margin": 5.1,
             "fr": false
           },
@@ -19403,9 +19513,9 @@
           {
             "key": "pinnacle",
             "title": "Pinnacle",
-            "home": 1.19,
-            "away": 5.12,
-            "margin": 3.6,
+            "home": 1.18,
+            "away": 5.16,
+            "margin": 4.1,
             "fr": false
           },
           {
@@ -19419,17 +19529,17 @@
           {
             "key": "unibet_nl",
             "title": "Unibet (NL)",
-            "home": 1.16,
-            "away": 5.3,
-            "margin": 5.1,
+            "home": 1.17,
+            "away": 5.0,
+            "margin": 5.5,
             "fr": false
           },
           {
             "key": "unibet_se",
             "title": "Unibet (SE)",
-            "home": 1.16,
-            "away": 5.3,
-            "margin": 5.1,
+            "home": 1.17,
+            "away": 5.0,
+            "margin": 5.5,
             "fr": false
           },
           {
@@ -19443,16 +19553,16 @@
         ],
         "best_fr": {
           "home": {
-            "price": 1.15,
+            "price": 1.14,
             "book": "Betclic (FR)"
           },
           "away": {
-            "price": 5.0,
-            "book": "NetBet"
+            "price": 4.9,
+            "book": "Betclic (FR)"
           }
         },
-        "fair_home": 1.2,
-        "fair_away": 5.92
+        "fair_home": 1.21,
+        "fair_away": 5.81
       },
       "projected_score": {
         "home": 25,
@@ -19460,7 +19570,7 @@
       },
       "confidence_score": "Élevée",
       "tier": "Très sûr",
-      "prob_source": "moyenne de 29 bookmakers",
+      "prob_source": "moyenne de 28 bookmakers",
       "factors": {
         "elo": 10.7,
         "epa": 7.6,
@@ -20290,7 +20400,7 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 7,
+        "temp_c": 9,
         "wind_kmh": 6,
         "precip_prob": 0,
         "windy": false
@@ -20433,6 +20543,12 @@
           "prob_home": 83.1,
           "spread": -10.0,
           "books": 29
+        },
+        {
+          "date": "2026-11-19",
+          "prob_home": 82.8,
+          "spread": -10.0,
+          "books": 28
         }
       ]
     },
@@ -20467,46 +20583,38 @@
         "off_rank": 16,
         "def_rank": 17
       },
-      "prob_home_win": 33.5,
-      "prob_away_win": 66.5,
+      "prob_home_win": 33.1,
+      "prob_away_win": 66.9,
       "predicted_spread": 4.5,
       "model_spread": 3.2,
       "model_prob_home": 39.0,
       "vegas_spread": 4.5,
       "vegas_total": 37.5,
       "odds": {
-        "n_books": 29,
+        "n_books": 28,
         "books": [
           {
             "key": "betclic_fr",
             "title": "Betclic (FR)",
-            "home": 2.65,
+            "home": 2.7,
             "away": 1.42,
-            "margin": 8.2,
-            "fr": true
-          },
-          {
-            "key": "netbet_fr",
-            "title": "NetBet",
-            "home": 2.65,
-            "away": 1.39,
-            "margin": 9.7,
+            "margin": 7.5,
             "fr": true
           },
           {
             "key": "pmu_fr",
             "title": "PMU (FR)",
-            "home": 2.48,
-            "away": 1.32,
+            "home": 2.55,
+            "away": 1.3,
             "margin": 16.1,
             "fr": true
           },
           {
             "key": "sport888",
             "title": "888sport",
-            "home": 2.75,
-            "away": 1.44,
-            "margin": 5.8,
+            "home": 2.9,
+            "away": 1.4,
+            "margin": 5.9,
             "fr": false
           },
           {
@@ -20520,9 +20628,9 @@
           {
             "key": "betmgm",
             "title": "BetMGM",
-            "home": 2.8,
-            "away": 1.45,
-            "margin": 4.7,
+            "home": 2.85,
+            "away": 1.44,
+            "margin": 4.5,
             "fr": false
           },
           {
@@ -20536,9 +20644,9 @@
           {
             "key": "betrivers",
             "title": "BetRivers",
-            "home": 2.75,
-            "away": 1.47,
-            "margin": 4.4,
+            "home": 2.8,
+            "away": 1.44,
+            "margin": 5.2,
             "fr": false
           },
           {
@@ -20552,9 +20660,9 @@
           {
             "key": "betfair_ex_eu",
             "title": "Betfair",
-            "home": 3.0,
+            "home": 2.96,
             "away": 1.49,
-            "margin": 0.4,
+            "margin": 0.9,
             "fr": false
           },
           {
@@ -20577,15 +20685,15 @@
             "key": "codere_it",
             "title": "Codere (IT)",
             "home": 2.75,
-            "away": 1.44,
-            "margin": 5.8,
+            "away": 1.43,
+            "margin": 6.3,
             "fr": false
           },
           {
             "key": "coolbet",
             "title": "Coolbet",
-            "home": 2.78,
-            "away": 1.47,
+            "home": 2.82,
+            "away": 1.46,
             "margin": 4.0,
             "fr": false
           },
@@ -20608,25 +20716,25 @@
           {
             "key": "fanduel",
             "title": "FanDuel",
-            "home": 2.76,
-            "away": 1.48,
-            "margin": 3.8,
+            "home": 2.9,
+            "away": 1.43,
+            "margin": 4.4,
             "fr": false
           },
           {
             "key": "gtbets",
             "title": "GTbets",
-            "home": 2.8,
-            "away": 1.45,
-            "margin": 4.7,
+            "home": 2.85,
+            "away": 1.44,
+            "margin": 4.5,
             "fr": false
           },
           {
             "key": "leovegas_se",
             "title": "LeoVegas (SE)",
-            "home": 2.75,
-            "away": 1.47,
-            "margin": 4.4,
+            "home": 2.85,
+            "away": 1.45,
+            "margin": 4.1,
             "fr": false
           },
           {
@@ -20648,17 +20756,17 @@
           {
             "key": "matchbook",
             "title": "Matchbook",
-            "home": 3.0,
-            "away": 1.49,
-            "margin": 0.4,
+            "home": 2.96,
+            "away": 1.51,
+            "margin": 0.0,
             "fr": false
           },
           {
             "key": "mybookieag",
             "title": "MyBookie.ag",
-            "home": 2.78,
-            "away": 1.45,
-            "margin": 4.9,
+            "home": 2.81,
+            "away": 1.44,
+            "margin": 5.0,
             "fr": false
           },
           {
@@ -20680,39 +20788,39 @@
           {
             "key": "tipico_de",
             "title": "Tipico",
-            "home": 2.7,
-            "away": 1.45,
-            "margin": 6.0,
+            "home": 2.9,
+            "away": 1.4,
+            "margin": 5.9,
             "fr": false
           },
           {
             "key": "unibet_nl",
             "title": "Unibet (NL)",
-            "home": 2.8,
-            "away": 1.49,
-            "margin": 2.8,
+            "home": 2.88,
+            "away": 1.47,
+            "margin": 2.7,
             "fr": false
           },
           {
             "key": "unibet_se",
             "title": "Unibet (SE)",
-            "home": 2.8,
-            "away": 1.49,
-            "margin": 2.8,
+            "home": 2.88,
+            "away": 1.47,
+            "margin": 2.7,
             "fr": false
           },
           {
             "key": "williamhill",
             "title": "William Hill",
-            "home": 2.75,
-            "away": 1.44,
-            "margin": 5.8,
+            "home": 2.9,
+            "away": 1.4,
+            "margin": 5.9,
             "fr": false
           }
         ],
         "best_fr": {
           "home": {
-            "price": 2.65,
+            "price": 2.7,
             "book": "Betclic (FR)"
           },
           "away": {
@@ -20720,8 +20828,8 @@
             "book": "Betclic (FR)"
           }
         },
-        "fair_home": 2.99,
-        "fair_away": 1.5
+        "fair_home": 3.02,
+        "fair_away": 1.49
       },
       "projected_score": {
         "home": 16,
@@ -20729,7 +20837,7 @@
       },
       "confidence_score": "Modérée",
       "tier": "Probable",
-      "prob_source": "moyenne de 29 bookmakers",
+      "prob_source": "moyenne de 28 bookmakers",
       "factors": {
         "elo": -4.9,
         "epa": -1.2,
@@ -21549,9 +21657,9 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 16,
-        "wind_kmh": 9,
-        "precip_prob": 37,
+        "temp_c": 14,
+        "wind_kmh": 13,
+        "precip_prob": 52,
         "windy": false
       },
       "round": null,
@@ -21692,6 +21800,12 @@
           "prob_home": 33.5,
           "spread": 4.5,
           "books": 29
+        },
+        {
+          "date": "2026-11-19",
+          "prob_home": 33.1,
+          "spread": 4.5,
+          "books": 28
         }
       ]
     },
@@ -21732,24 +21846,16 @@
       "model_spread": 0.6,
       "model_prob_home": 48.0,
       "vegas_spread": -3.0,
-      "vegas_total": 45.5,
+      "vegas_total": 46.5,
       "odds": {
-        "n_books": 29,
+        "n_books": 28,
         "books": [
           {
             "key": "betclic_fr",
             "title": "Betclic (FR)",
-            "home": 1.58,
-            "away": 2.25,
-            "margin": 7.7,
-            "fr": true
-          },
-          {
-            "key": "netbet_fr",
-            "title": "NetBet",
-            "home": 1.52,
-            "away": 2.27,
-            "margin": 9.8,
+            "home": 1.55,
+            "away": 2.3,
+            "margin": 8.0,
             "fr": true
           },
           {
@@ -21780,16 +21886,16 @@
             "key": "betmgm",
             "title": "BetMGM",
             "home": 1.61,
-            "away": 2.4,
-            "margin": 3.8,
+            "away": 2.38,
+            "margin": 4.1,
             "fr": false
           },
           {
             "key": "betonlineag",
             "title": "BetOnline.ag",
-            "home": 1.61,
-            "away": 2.44,
-            "margin": 3.1,
+            "home": 1.62,
+            "away": 2.4,
+            "margin": 3.4,
             "fr": false
           },
           {
@@ -21803,17 +21909,17 @@
           {
             "key": "betus",
             "title": "BetUS",
-            "home": 1.61,
-            "away": 2.42,
-            "margin": 3.4,
+            "home": 1.62,
+            "away": 2.38,
+            "margin": 3.7,
             "fr": false
           },
           {
             "key": "betfair_ex_eu",
             "title": "Betfair",
             "home": 1.66,
-            "away": 2.44,
-            "margin": 1.2,
+            "away": 2.46,
+            "margin": 0.9,
             "fr": false
           },
           {
@@ -21827,17 +21933,17 @@
           {
             "key": "bovada",
             "title": "Bovada",
-            "home": 1.6,
-            "away": 2.43,
-            "margin": 3.7,
+            "home": 1.61,
+            "away": 2.4,
+            "margin": 3.8,
             "fr": false
           },
           {
             "key": "codere_it",
             "title": "Codere (IT)",
-            "home": 1.59,
-            "away": 2.32,
-            "margin": 6.0,
+            "home": 1.58,
+            "away": 2.33,
+            "margin": 6.2,
             "fr": false
           },
           {
@@ -21867,9 +21973,9 @@
           {
             "key": "fanduel",
             "title": "FanDuel",
-            "home": 1.61,
-            "away": 2.38,
-            "margin": 4.1,
+            "home": 1.6,
+            "away": 2.42,
+            "margin": 3.8,
             "fr": false
           },
           {
@@ -21891,24 +21997,24 @@
           {
             "key": "lowvig",
             "title": "LowVig.ag",
-            "home": 1.61,
-            "away": 2.44,
-            "margin": 3.1,
+            "home": 1.62,
+            "away": 2.4,
+            "margin": 3.4,
             "fr": false
           },
           {
             "key": "marathonbet",
             "title": "Marathon Bet",
-            "home": 1.64,
-            "away": 2.23,
-            "margin": 5.8,
+            "home": 1.66,
+            "away": 2.19,
+            "margin": 5.9,
             "fr": false
           },
           {
             "key": "matchbook",
             "title": "Matchbook",
-            "home": 1.67,
-            "away": 2.44,
+            "home": 1.66,
+            "away": 2.46,
             "margin": 0.9,
             "fr": false
           },
@@ -21916,8 +22022,8 @@
             "key": "mybookieag",
             "title": "MyBookie.ag",
             "home": 1.6,
-            "away": 2.35,
-            "margin": 5.1,
+            "away": 2.36,
+            "margin": 4.9,
             "fr": false
           },
           {
@@ -21932,8 +22038,8 @@
             "key": "pinnacle",
             "title": "Pinnacle",
             "home": 1.61,
-            "away": 2.45,
-            "margin": 2.9,
+            "away": 2.43,
+            "margin": 3.3,
             "fr": false
           },
           {
@@ -21971,24 +22077,24 @@
         ],
         "best_fr": {
           "home": {
-            "price": 1.58,
+            "price": 1.55,
             "book": "Betclic (FR)"
           },
           "away": {
-            "price": 2.27,
-            "book": "NetBet"
+            "price": 2.3,
+            "book": "Betclic (FR)"
           }
         },
         "fair_home": 1.66,
         "fair_away": 2.51
       },
       "projected_score": {
-        "home": 24,
-        "away": 21
+        "home": 25,
+        "away": 22
       },
       "confidence_score": "Modérée",
       "tier": "Probable",
-      "prob_source": "moyenne de 29 bookmakers",
+      "prob_source": "moyenne de 28 bookmakers",
       "factors": {
         "elo": 1.0,
         "epa": 3.7,
@@ -22012,7 +22118,7 @@
           "team": "SF",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/st82s2ytyzanatcmkqck",
-          "prob": 56.6,
+          "prob": 57.4,
           "season_tds": 13,
           "status": null,
           "games": 9,
@@ -22079,7 +22185,7 @@
           "team": "MIN",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tzx1iqbxxa1807m6olwj",
-          "prob": 35.9,
+          "prob": 36.7,
           "season_tds": 4,
           "status": null,
           "games": 8,
@@ -22146,7 +22252,7 @@
           "team": "SF",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vkicdglglkyukgyxtmpx",
-          "prob": 32.0,
+          "prob": 32.7,
           "season_tds": 5,
           "status": null,
           "games": 9,
@@ -22213,7 +22319,7 @@
           "team": "MIN",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bktkfvgfwujkdbzkcfim",
-          "prob": 28.7,
+          "prob": 29.5,
           "season_tds": 3,
           "status": null,
           "games": 9,
@@ -22280,7 +22386,7 @@
           "team": "SF",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ntgyhqg6hq7fanhhsqiw",
-          "prob": 26.7,
+          "prob": 27.3,
           "season_tds": 5,
           "status": null,
           "games": 6,
@@ -22347,7 +22453,7 @@
           "team": "SF",
           "position": "FB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tsejiiddtouukwyyqr9q",
-          "prob": 24.6,
+          "prob": 25.1,
           "season_tds": 2,
           "status": null,
           "games": 6,
@@ -22414,7 +22520,7 @@
           "team": "MIN",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/rs8o65x0u0n9xzde0fd6",
-          "prob": 23.6,
+          "prob": 24.2,
           "season_tds": 3,
           "status": null,
           "games": 8,
@@ -22481,7 +22587,7 @@
           "team": "SF",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/nwgkzr1ysr32jc79zfnt",
-          "prob": 23.5,
+          "prob": 24.0,
           "season_tds": 2,
           "status": null,
           "games": 9,
@@ -22548,7 +22654,7 @@
           "team": "MIN",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/za7cynvpwlsro1tsaijk",
-          "prob": 20.8,
+          "prob": 21.4,
           "season_tds": 2,
           "status": null,
           "games": 10,
@@ -22615,7 +22721,7 @@
           "team": "MIN",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ty8e8iasniuuhto6qfdx",
-          "prob": 20.4,
+          "prob": 20.9,
           "season_tds": 1,
           "status": null,
           "games": 7,
@@ -22682,7 +22788,7 @@
           "team": "SF",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zc4ujpmndyxrbiyyjomz",
-          "prob": 19.5,
+          "prob": 20.0,
           "season_tds": 3,
           "status": null,
           "games": 6,
@@ -22749,7 +22855,7 @@
           "team": "MIN",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xe3i1lsb3rsioqy61krt",
-          "prob": 18.9,
+          "prob": 19.5,
           "season_tds": 1,
           "status": null,
           "games": 5,
@@ -22955,6 +23061,12 @@
           "prob_home": 60.2,
           "spread": -3.0,
           "books": 29
+        },
+        {
+          "date": "2026-11-19",
+          "prob_home": 60.2,
+          "spread": -3.0,
+          "books": 28
         }
       ]
     },
@@ -22995,32 +23107,24 @@
       "model_spread": 3.3,
       "model_prob_home": 38.8,
       "vegas_spread": 6.5,
-      "vegas_total": 54.5,
+      "vegas_total": 53.5,
       "odds": {
-        "n_books": 29,
+        "n_books": 28,
         "books": [
           {
             "key": "betclic_fr",
             "title": "Betclic (FR)",
-            "home": 2.9,
+            "home": 2.95,
             "away": 1.35,
-            "margin": 8.6,
-            "fr": true
-          },
-          {
-            "key": "netbet_fr",
-            "title": "NetBet",
-            "home": 3.1,
-            "away": 1.29,
-            "margin": 9.8,
+            "margin": 8.0,
             "fr": true
           },
           {
             "key": "pmu_fr",
             "title": "PMU (FR)",
-            "home": 3.0,
+            "home": 3.05,
             "away": 1.2,
-            "margin": 16.7,
+            "margin": 16.1,
             "fr": true
           },
           {
@@ -23058,9 +23162,9 @@
           {
             "key": "betrivers",
             "title": "BetRivers",
-            "home": 3.35,
+            "home": 3.4,
             "away": 1.33,
-            "margin": 5.0,
+            "margin": 4.6,
             "fr": false
           },
           {
@@ -23074,9 +23178,9 @@
           {
             "key": "betfair_ex_eu",
             "title": "Betfair",
-            "home": 3.4,
-            "away": 1.39,
-            "margin": 1.4,
+            "home": 3.55,
+            "away": 1.38,
+            "margin": 0.6,
             "fr": false
           },
           {
@@ -23090,16 +23194,16 @@
           {
             "key": "bovada",
             "title": "Bovada",
-            "home": 3.35,
-            "away": 1.35,
-            "margin": 3.9,
+            "home": 3.45,
+            "away": 1.34,
+            "margin": 3.6,
             "fr": false
           },
           {
             "key": "codere_it",
             "title": "Codere (IT)",
-            "home": 3.0,
-            "away": 1.37,
+            "home": 3.05,
+            "away": 1.36,
             "margin": 6.3,
             "fr": false
           },
@@ -23114,9 +23218,9 @@
           {
             "key": "draftkings",
             "title": "DraftKings",
-            "home": 3.4,
-            "away": 1.34,
-            "margin": 4.0,
+            "home": 3.5,
+            "away": 1.32,
+            "margin": 4.3,
             "fr": false
           },
           {
@@ -23130,9 +23234,9 @@
           {
             "key": "fanduel",
             "title": "FanDuel",
-            "home": 3.4,
-            "away": 1.34,
-            "margin": 4.0,
+            "home": 3.2,
+            "away": 1.37,
+            "margin": 4.2,
             "fr": false
           },
           {
@@ -23162,25 +23266,25 @@
           {
             "key": "marathonbet",
             "title": "Marathon Bet",
-            "home": 3.38,
-            "away": 1.31,
+            "home": 3.45,
+            "away": 1.3,
             "margin": 5.9,
             "fr": false
           },
           {
             "key": "matchbook",
             "title": "Matchbook",
-            "home": 3.4,
+            "home": 3.55,
             "away": 1.38,
-            "margin": 1.9,
+            "margin": 0.6,
             "fr": false
           },
           {
             "key": "mybookieag",
             "title": "MyBookie.ag",
-            "home": 3.12,
-            "away": 1.37,
-            "margin": 5.0,
+            "home": 3.19,
+            "away": 1.36,
+            "margin": 4.9,
             "fr": false
           },
           {
@@ -23194,16 +23298,16 @@
           {
             "key": "pinnacle",
             "title": "Pinnacle",
-            "home": 3.35,
-            "away": 1.36,
+            "home": 3.47,
+            "away": 1.34,
             "margin": 3.4,
             "fr": false
           },
           {
             "key": "tipico_de",
             "title": "Tipico",
-            "home": 3.1,
-            "away": 1.35,
+            "home": 3.0,
+            "away": 1.37,
             "margin": 6.3,
             "fr": false
           },
@@ -23234,8 +23338,8 @@
         ],
         "best_fr": {
           "home": {
-            "price": 3.1,
-            "book": "NetBet"
+            "price": 3.05,
+            "book": "PMU (FR)"
           },
           "away": {
             "price": 1.35,
@@ -23251,7 +23355,7 @@
       },
       "confidence_score": "Élevée",
       "tier": "Sûr",
-      "prob_source": "moyenne de 29 bookmakers",
+      "prob_source": "moyenne de 28 bookmakers",
       "factors": {
         "elo": -5.2,
         "epa": -2.6,
@@ -23275,7 +23379,7 @@
           "team": "CIN",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tch3y6jlj7khvyi9jg0c",
-          "prob": 55.4,
+          "prob": 54.8,
           "season_tds": 3,
           "status": null,
           "games": 9,
@@ -23342,7 +23446,7 @@
           "team": "CIN",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qya3dtjb5kgofcuj2tuw",
-          "prob": 49.1,
+          "prob": 48.4,
           "season_tds": 7,
           "status": null,
           "games": 9,
@@ -23409,7 +23513,7 @@
           "team": "CIN",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gpwtyv3viwy9q4ewderl",
-          "prob": 42.6,
+          "prob": 42.0,
           "season_tds": 6,
           "status": null,
           "games": 9,
@@ -23476,7 +23580,7 @@
           "team": "CIN",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fllwhcdovol5i7xxahf6",
-          "prob": 36.0,
+          "prob": 35.5,
           "season_tds": 3,
           "status": null,
           "games": 9,
@@ -23543,7 +23647,7 @@
           "team": "WAS",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wtdhs50gcl2p6vngsnre",
-          "prob": 33.9,
+          "prob": 33.2,
           "season_tds": 3,
           "status": null,
           "games": 8,
@@ -23610,7 +23714,7 @@
           "team": "WAS",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dpmpctgbwlvgyzg3opli",
-          "prob": 32.3,
+          "prob": 31.6,
           "season_tds": 6,
           "status": null,
           "games": 8,
@@ -23677,7 +23781,7 @@
           "team": "CIN",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gnnvcgui1cijybukk2w7",
-          "prob": 26.1,
+          "prob": 25.6,
           "season_tds": 3,
           "status": null,
           "games": 9,
@@ -23744,7 +23848,7 @@
           "team": "CIN",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dykckg6we3cnw9yhpggi",
-          "prob": 25.5,
+          "prob": 25.0,
           "season_tds": 6,
           "status": null,
           "games": 8,
@@ -23811,7 +23915,7 @@
           "team": "WAS",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/noywrsgaqoqlv64c12yw",
-          "prob": 22.6,
+          "prob": 22.1,
           "season_tds": 2,
           "status": null,
           "games": 9,
@@ -23878,7 +23982,7 @@
           "team": "WAS",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gfz8k5onuqjrche9ogqc",
-          "prob": 21.2,
+          "prob": 20.7,
           "season_tds": 2,
           "status": null,
           "games": 7,
@@ -23945,7 +24049,7 @@
           "team": "WAS",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bmozbzdxgnnwdniuvgnn",
-          "prob": 17.8,
+          "prob": 17.4,
           "season_tds": 2,
           "status": null,
           "games": 7,
@@ -24012,7 +24116,7 @@
           "team": "WAS",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pzcez6pi9tpdqkmjjnzk",
-          "prob": 17.3,
+          "prob": 16.9,
           "season_tds": 0,
           "status": null,
           "games": 7,
@@ -24081,10 +24185,10 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 8,
-        "wind_kmh": 18,
-        "precip_prob": 2,
-        "windy": false
+        "temp_c": 10,
+        "wind_kmh": 20,
+        "precip_prob": 1,
+        "windy": true
       },
       "round": null,
       "lineup": {
@@ -24209,7 +24313,7 @@
       "flags": {
         "value": false,
         "key_out": 0,
-        "windy": false,
+        "windy": true,
         "dome": false
       },
       "line_history": [
@@ -24224,6 +24328,12 @@
           "prob_home": 27.9,
           "spread": 6.5,
           "books": 29
+        },
+        {
+          "date": "2026-11-19",
+          "prob_home": 27.9,
+          "spread": 6.5,
+          "books": 28
         }
       ]
     }
@@ -24233,11 +24343,11 @@
     "safest": [
       {
         "best_fr": {
-          "price": 1.04,
+          "price": 1.05,
           "book": "Betclic (FR)"
         },
-        "ev": -4.2,
-        "source": "moyenne de 28 bookmakers",
+        "ev": -3.5,
+        "source": "moyenne de 27 bookmakers",
         "game_id": "2026_11_MIA_BUF",
         "gameday": "2026-11-22",
         "gametime": "13:00",
@@ -24266,7 +24376,7 @@
           "def_rank": 27
         },
         "home": true,
-        "prob": 92.1,
+        "prob": 91.9,
         "tier": "Très sûr",
         "fair_odds": 1.09,
         "hist": {
@@ -24285,7 +24395,7 @@
           "book": "Betclic (FR)"
         },
         "ev": -4.6,
-        "source": "moyenne de 28 bookmakers",
+        "source": "moyenne de 27 bookmakers",
         "game_id": "2026_11_ARI_KC",
         "gameday": "2026-11-22",
         "gametime": "13:00",
@@ -24333,7 +24443,7 @@
           "book": "Betclic (FR)"
         },
         "ev": -3.6,
-        "source": "moyenne de 29 bookmakers",
+        "source": "moyenne de 28 bookmakers",
         "game_id": "2026_11_IND_HOU",
         "gameday": "2026-11-19",
         "gametime": "20:15",
@@ -24377,11 +24487,11 @@
       },
       {
         "best_fr": {
-          "price": 1.12,
+          "price": 1.13,
           "book": "Betclic (FR)"
         },
-        "ev": -5.2,
-        "source": "moyenne de 28 bookmakers",
+        "ev": -4.6,
+        "source": "moyenne de 27 bookmakers",
         "game_id": "2026_11_NO_CHI",
         "gameday": "2026-11-22",
         "gametime": "13:00",
@@ -24410,7 +24520,7 @@
           "def_rank": 13
         },
         "home": true,
-        "prob": 84.6,
+        "prob": 84.4,
         "tier": "Très sûr",
         "fair_odds": 1.18,
         "hist": {
@@ -24425,11 +24535,11 @@
       },
       {
         "best_fr": {
-          "price": 1.15,
+          "price": 1.14,
           "book": "Betclic (FR)"
         },
-        "ev": -4.4,
-        "source": "moyenne de 29 bookmakers",
+        "ev": -5.6,
+        "source": "moyenne de 28 bookmakers",
         "game_id": "2026_11_LV_DEN",
         "gameday": "2026-11-22",
         "gametime": "16:25",
@@ -24458,9 +24568,9 @@
           "def_rank": 28
         },
         "home": true,
-        "prob": 83.1,
+        "prob": 82.8,
         "tier": "Très sûr",
-        "fair_odds": 1.2,
+        "fair_odds": 1.21,
         "hist": {
           "tier": "Très sûr",
           "min": 0.8,
@@ -24473,11 +24583,11 @@
       },
       {
         "best_fr": {
-          "price": 1.24,
+          "price": 1.23,
           "book": "Betclic (FR)"
         },
-        "ev": -3.2,
-        "source": "moyenne de 29 bookmakers",
+        "ev": -4.1,
+        "source": "moyenne de 28 bookmakers",
         "game_id": "2026_11_TEN_DAL",
         "gameday": "2026-11-22",
         "gametime": "13:00",
@@ -24506,7 +24616,7 @@
           "def_rank": 30
         },
         "home": true,
-        "prob": 78.1,
+        "prob": 78.0,
         "tier": "Sûr",
         "fair_odds": 1.28,
         "hist": {
@@ -24521,11 +24631,11 @@
       },
       {
         "best_fr": {
-          "price": 1.25,
+          "price": 1.27,
           "book": "Betclic (FR)"
         },
-        "ev": -5.9,
-        "source": "moyenne de 29 bookmakers",
+        "ev": -5.1,
+        "source": "moyenne de 28 bookmakers",
         "game_id": "2026_11_TB_DET",
         "gameday": "2026-11-22",
         "gametime": "13:00",
@@ -24554,9 +24664,9 @@
           "def_rank": 5
         },
         "home": true,
-        "prob": 75.3,
+        "prob": 74.7,
         "tier": "Sûr",
-        "fair_odds": 1.33,
+        "fair_odds": 1.34,
         "hist": {
           "tier": "Sûr",
           "min": 0.7,
@@ -24573,7 +24683,7 @@
           "book": "Betclic (FR)"
         },
         "ev": -2.7,
-        "source": "moyenne de 29 bookmakers",
+        "source": "moyenne de 28 bookmakers",
         "game_id": "2026_11_CIN_WAS",
         "gameday": "2026-11-23",
         "gametime": "20:15",
@@ -24620,8 +24730,8 @@
           "price": 1.35,
           "book": "Betclic (FR)"
         },
-        "ev": -4.4,
-        "source": "moyenne de 28 bookmakers",
+        "ev": -4.1,
+        "source": "moyenne de 27 bookmakers",
         "game_id": "2026_11_JAX_NYG",
         "gameday": "2026-11-22",
         "gametime": "13:00",
@@ -24650,7 +24760,7 @@
           "def_rank": 16
         },
         "home": false,
-        "prob": 70.8,
+        "prob": 71.0,
         "tier": "Sûr",
         "fair_odds": 1.41,
         "hist": {
@@ -24667,11 +24777,11 @@
     "coin_flips": [
       {
         "best_fr": {
-          "price": 1.65,
+          "price": 1.68,
           "book": "Betclic (FR)"
         },
-        "ev": -6.8,
-        "source": "moyenne de 29 bookmakers",
+        "ev": -5.1,
+        "source": "moyenne de 28 bookmakers",
         "game_id": "2026_11_BAL_CAR",
         "gameday": "2026-11-22",
         "gametime": "13:00",
@@ -24875,7 +24985,7 @@
         "team": "DAL",
         "position": "RB",
         "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xvwroirev2kie6oiphtz",
-        "prob": 65.8,
+        "prob": 65.2,
         "season_tds": 10,
         "status": null,
         "games": 10,
@@ -24937,7 +25047,7 @@
         "scored_last": 3,
         "game_id": "2026_11_TEN_DAL",
         "opponent": "TEN",
-        "fair_odds": 1.52,
+        "fair_odds": 1.53,
         "hist": {
           "label": "50 % et plus",
           "min": 50,
@@ -25183,7 +25293,7 @@
         "team": "SF",
         "position": "RB",
         "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/st82s2ytyzanatcmkqck",
-        "prob": 56.6,
+        "prob": 57.4,
         "season_tds": 13,
         "status": null,
         "games": 9,
@@ -25245,7 +25355,7 @@
         "scored_last": 5,
         "game_id": "2026_11_MIN_SF",
         "opponent": "MIN",
-        "fair_odds": 1.77,
+        "fair_odds": 1.74,
         "hist": {
           "label": "50 % et plus",
           "min": 50,
@@ -25260,7 +25370,7 @@
         "team": "CIN",
         "position": "RB",
         "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tch3y6jlj7khvyi9jg0c",
-        "prob": 55.4,
+        "prob": 54.8,
         "season_tds": 3,
         "status": null,
         "games": 9,
@@ -25322,7 +25432,7 @@
         "scored_last": 1,
         "game_id": "2026_11_CIN_WAS",
         "opponent": "WAS",
-        "fair_odds": 1.81,
+        "fair_odds": 1.82,
         "hist": {
           "label": "50 % et plus",
           "min": 50,
@@ -25337,7 +25447,7 @@
         "team": "DAL",
         "position": "WR",
         "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mbblzwtynxr15ovzkevi",
-        "prob": 52.2,
+        "prob": 51.6,
         "season_tds": 8,
         "status": null,
         "games": 10,
@@ -25399,7 +25509,7 @@
         "scored_last": 3,
         "game_id": "2026_11_TEN_DAL",
         "opponent": "TEN",
-        "fair_odds": 1.92,
+        "fair_odds": 1.94,
         "hist": {
           "label": "50 % et plus",
           "min": 50,
@@ -25414,7 +25524,7 @@
         "team": "TEN",
         "position": "RB",
         "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/u4poetcrbxffcuyglmj8",
-        "prob": 52.1,
+        "prob": 51.3,
         "season_tds": 7,
         "status": null,
         "games": 9,
@@ -25476,7 +25586,7 @@
         "scored_last": 3,
         "game_id": "2026_11_TEN_DAL",
         "opponent": "DAL",
-        "fair_odds": 1.92,
+        "fair_odds": 1.95,
         "hist": {
           "label": "50 % et plus",
           "min": 50,
@@ -25678,13 +25788,13 @@
   "odds_source": {
     "type": "consensus",
     "games": 13,
-    "books": 29,
-    "status": "cache",
-    "fetched_at": "2026-11-18T13:57:47+00:00",
-    "credits": "434"
+    "books": 28,
+    "status": "live",
+    "fetched_at": "2026-11-19T14:26:20+00:00",
+    "credits": "428"
   },
   "sources": {
-    "injuries": 0,
+    "injuries": 16,
     "lineups": 32,
     "weather_errors": 0
   },
@@ -25862,7 +25972,7 @@
       "team": "DAL",
       "position": "RB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xvwroirev2kie6oiphtz",
-      "prob": 65.8,
+      "prob": 65.2,
       "season_tds": 10,
       "status": null,
       "games": 10,
@@ -26138,7 +26248,7 @@
       "team": "SF",
       "position": "RB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/st82s2ytyzanatcmkqck",
-      "prob": 56.6,
+      "prob": 57.4,
       "season_tds": 13,
       "status": null,
       "games": 9,
@@ -26207,7 +26317,7 @@
       "team": "CIN",
       "position": "RB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tch3y6jlj7khvyi9jg0c",
-      "prob": 55.4,
+      "prob": 54.8,
       "season_tds": 3,
       "status": null,
       "games": 9,
@@ -26276,7 +26386,7 @@
       "team": "DAL",
       "position": "WR",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mbblzwtynxr15ovzkevi",
-      "prob": 52.2,
+      "prob": 51.6,
       "season_tds": 8,
       "status": null,
       "games": 10,
@@ -26345,7 +26455,7 @@
       "team": "TEN",
       "position": "RB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/u4poetcrbxffcuyglmj8",
-      "prob": 52.1,
+      "prob": 51.3,
       "season_tds": 7,
       "status": null,
       "games": 9,
@@ -26601,7 +26711,7 @@
         "proj_wins": 13.6,
         "playoff": 99.9,
         "division": 98.4,
-        "seed1": 45.9,
+        "seed1": 45.8,
         "conf": 29.6,
         "sb": 17.7,
         "if_win": 100.0,
@@ -26716,7 +26826,7 @@
           "opp": "MIA",
           "opp_nick": "Dolphins",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
-          "prob": 92.1
+          "prob": 91.9
         },
         {
           "week": 12,
@@ -26726,7 +26836,7 @@
           "opp": "KC",
           "opp_nick": "Chiefs",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-          "prob": 61.8
+          "prob": 61.7
         },
         {
           "week": 13,
@@ -26746,7 +26856,7 @@
           "opp": "GB",
           "opp_nick": "Packers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
-          "prob": 59.3
+          "prob": 59.4
         },
         {
           "week": 15,
@@ -26766,7 +26876,7 @@
           "opp": "DEN",
           "opp_nick": "Broncos",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
-          "prob": 52.7
+          "prob": 52.8
         },
         {
           "week": 17,
@@ -26776,7 +26886,7 @@
           "opp": "MIA",
           "opp_nick": "Dolphins",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
-          "prob": 80.4
+          "prob": 80.5
         },
         {
           "week": 18,
@@ -26786,7 +26896,7 @@
           "opp": "NYJ",
           "opp_nick": "Jets",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
-          "prob": 86.1
+          "prob": 86.0
         }
       ],
       "sim_history": [
@@ -26982,7 +27092,7 @@
           "opp": "NYG",
           "opp_nick": "Giants",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-          "prob": 70.8
+          "prob": 71.0
         },
         {
           "week": 12,
@@ -27042,7 +27152,7 @@
           "opp": "WAS",
           "opp_nick": "Commanders",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-          "prob": 80.9
+          "prob": 80.8
         },
         {
           "week": 18,
@@ -27257,7 +27367,7 @@
           "opp": "GB",
           "opp_nick": "Packers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
-          "prob": 67.4
+          "prob": 67.3
         },
         {
           "week": 13,
@@ -27307,7 +27417,7 @@
           "opp": "TB",
           "opp_nick": "Buccaneers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-          "prob": 62.4
+          "prob": 62.5
         },
         {
           "week": 18,
@@ -27396,11 +27506,11 @@
       "division": "AFC West",
       "sim": {
         "proj_wins": 11.9,
-        "playoff": 98.1,
-        "division": 48.4,
-        "seed1": 11.5,
+        "playoff": 98.2,
+        "division": 48.5,
+        "seed1": 11.6,
         "conf": 14.4,
-        "sb": 7.5,
+        "sb": 7.6,
         "if_win": 98.4,
         "if_lose": 95.2
       },
@@ -27523,7 +27633,7 @@
           "opp": "BUF",
           "opp_nick": "Bills",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-          "prob": 38.2
+          "prob": 38.3
         },
         {
           "week": 13,
@@ -27543,7 +27653,7 @@
           "opp": "CIN",
           "opp_nick": "Bengals",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
-          "prob": 45.7
+          "prob": 45.8
         },
         {
           "week": 15,
@@ -27553,7 +27663,7 @@
           "opp": "NE",
           "opp_nick": "Patriots",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
-          "prob": 66.9
+          "prob": 66.8
         },
         {
           "week": 16,
@@ -27573,7 +27683,7 @@
           "opp": "LAC",
           "opp_nick": "Chargers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-          "prob": 68.8
+          "prob": 69.0
         },
         {
           "week": 18,
@@ -27629,7 +27739,7 @@
         ],
         [
           11,
-          98.1
+          98.2
         ]
       ]
     },
@@ -27664,9 +27774,9 @@
         "proj_wins": 13.0,
         "playoff": 97.9,
         "division": 86.0,
-        "seed1": 48.9,
+        "seed1": 49.0,
         "conf": 27.7,
-        "sb": 13.1,
+        "sb": 13.0,
         "if_win": 99.3,
         "if_lose": 95.8
       },
@@ -27789,7 +27899,7 @@
           "opp": "SEA",
           "opp_nick": "Seahawks",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-          "prob": 57.0
+          "prob": 56.9
         },
         {
           "week": 13,
@@ -27799,7 +27909,7 @@
           "opp": "NYG",
           "opp_nick": "Giants",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-          "prob": 64.2
+          "prob": 64.3
         },
         {
           "week": 14,
@@ -27819,7 +27929,7 @@
           "opp": "LAC",
           "opp_nick": "Chargers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-          "prob": 68.5
+          "prob": 68.7
         },
         {
           "week": 16,
@@ -27928,10 +28038,10 @@
       "division": "NFC West",
       "sim": {
         "proj_wins": 10.2,
-        "playoff": 49.6,
+        "playoff": 49.7,
         "division": 7.6,
         "seed1": 1.0,
-        "conf": 8.1,
+        "conf": 8.2,
         "sb": 4.1
       },
       "power": 4.1,
@@ -28054,7 +28164,7 @@
           "opp": "SF",
           "opp_nick": "49ers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
-          "prob": 43.0
+          "prob": 43.1
         },
         {
           "week": 13,
@@ -28064,7 +28174,7 @@
           "opp": "DAL",
           "opp_nick": "Cowboys",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
-          "prob": 70.5
+          "prob": 70.4
         },
         {
           "week": 14,
@@ -28160,7 +28270,7 @@
         ],
         [
           11,
-          49.6
+          49.7
         ]
       ]
     },
@@ -28194,12 +28304,12 @@
       "sim": {
         "proj_wins": 12.5,
         "playoff": 98.2,
-        "division": 83.4,
+        "division": 83.3,
         "seed1": 12.1,
         "conf": 14.0,
         "sb": 7.2,
         "if_win": 99.0,
-        "if_lose": 96.3
+        "if_lose": 96.2
       },
       "power": 3.7,
       "schedule": [
@@ -28320,7 +28430,7 @@
           "opp": "NO",
           "opp_nick": "Saints",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
-          "prob": 76.5
+          "prob": 76.4
         },
         {
           "week": 13,
@@ -28340,7 +28450,7 @@
           "opp": "KC",
           "opp_nick": "Chiefs",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-          "prob": 54.3
+          "prob": 54.2
         },
         {
           "week": 15,
@@ -28459,13 +28569,13 @@
       "division": "NFC North",
       "sim": {
         "proj_wins": 12.0,
-        "playoff": 90.3,
+        "playoff": 90.2,
         "division": 43.4,
-        "seed1": 21.2,
+        "seed1": 21.1,
         "conf": 17.3,
         "sb": 7.9,
         "if_win": 93.4,
-        "if_lose": 80.7
+        "if_lose": 80.8
       },
       "power": 3.5,
       "schedule": [
@@ -28576,7 +28686,7 @@
           "opp": "TB",
           "opp_nick": "Buccaneers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-          "prob": 75.3
+          "prob": 74.7
         },
         {
           "week": 12,
@@ -28692,7 +28802,7 @@
         ],
         [
           11,
-          90.3
+          90.2
         ]
       ]
     },
@@ -28726,12 +28836,12 @@
       "sim": {
         "proj_wins": 11.5,
         "playoff": 85.2,
-        "division": 23.6,
-        "seed1": 11.3,
+        "division": 23.7,
+        "seed1": 11.2,
         "conf": 13.8,
-        "sb": 6.4,
+        "sb": 6.3,
         "if_win": 87.8,
-        "if_lose": 70.4
+        "if_lose": 70.6
       },
       "power": 3.4,
       "schedule": [
@@ -28842,7 +28952,7 @@
           "opp": "NO",
           "opp_nick": "Saints",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
-          "prob": 84.6
+          "prob": 84.4
         },
         {
           "week": 12,
@@ -28872,7 +28982,7 @@
           "opp": "MIA",
           "opp_nick": "Dolphins",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
-          "prob": 73.8
+          "prob": 73.9
         },
         {
           "week": 15,
@@ -28892,7 +29002,7 @@
           "opp": "GB",
           "opp_nick": "Packers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
-          "prob": 63.4
+          "prob": 63.3
         },
         {
           "week": 17,
@@ -28991,13 +29101,13 @@
       "division": "AFC West",
       "sim": {
         "proj_wins": 12.3,
-        "playoff": 97.3,
-        "division": 51.5,
+        "playoff": 97.2,
+        "division": 51.4,
         "seed1": 15.4,
-        "conf": 12.4,
+        "conf": 12.3,
         "sb": 6.2,
-        "if_win": 98.5,
-        "if_lose": 91.7
+        "if_win": 98.4,
+        "if_lose": 91.5
       },
       "power": 3.3,
       "schedule": [
@@ -29108,7 +29218,7 @@
           "opp": "LV",
           "opp_nick": "Raiders",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
-          "prob": 83.1
+          "prob": 82.8
         },
         {
           "week": 12,
@@ -29138,7 +29248,7 @@
           "opp": "NYJ",
           "opp_nick": "Jets",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
-          "prob": 70.3
+          "prob": 70.1
         },
         {
           "week": 15,
@@ -29158,7 +29268,7 @@
           "opp": "BUF",
           "opp_nick": "Bills",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-          "prob": 47.3
+          "prob": 47.2
         },
         {
           "week": 17,
@@ -29168,7 +29278,7 @@
           "opp": "NE",
           "opp_nick": "Patriots",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
-          "prob": 50.8
+          "prob": 50.9
         },
         {
           "week": 18,
@@ -29178,7 +29288,7 @@
           "opp": "LAC",
           "opp_nick": "Chargers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-          "prob": 76.4
+          "prob": 76.6
         }
       ],
       "sim_history": [
@@ -29224,7 +29334,7 @@
         ],
         [
           11,
-          97.3
+          97.2
         ]
       ]
     },
@@ -29262,7 +29372,7 @@
         "seed1": 0.0,
         "conf": 1.9,
         "sb": 0.8,
-        "if_win": 26.1,
+        "if_win": 26.0,
         "if_lose": 9.1
       },
       "power": 3.1,
@@ -29524,9 +29634,9 @@
       "sim": {
         "proj_wins": 11.6,
         "playoff": 89.8,
-        "division": 31.8,
-        "seed1": 15.4,
-        "conf": 10.7,
+        "division": 31.7,
+        "seed1": 15.3,
+        "conf": 10.8,
         "sb": 4.4,
         "if_win": 96.5,
         "if_lose": 85.4
@@ -29670,7 +29780,7 @@
           "opp": "NE",
           "opp_nick": "Patriots",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
-          "prob": 45.5
+          "prob": 45.6
         },
         {
           "week": 15,
@@ -29700,7 +29810,7 @@
           "opp": "NYJ",
           "opp_nick": "Jets",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
-          "prob": 65.5
+          "prob": 65.3
         },
         {
           "week": 18,
@@ -29915,7 +30025,7 @@
           "opp": "LA",
           "opp_nick": "Rams",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
-          "prob": 32.6
+          "prob": 32.7
         },
         {
           "week": 13,
@@ -29925,7 +30035,7 @@
           "opp": "NO",
           "opp_nick": "Saints",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
-          "prob": 57.6
+          "prob": 57.7
         },
         {
           "week": 14,
@@ -29935,7 +30045,7 @@
           "opp": "BUF",
           "opp_nick": "Bills",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-          "prob": 40.7
+          "prob": 40.6
         },
         {
           "week": 15,
@@ -29955,7 +30065,7 @@
           "opp": "CHI",
           "opp_nick": "Bears",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
-          "prob": 36.6
+          "prob": 36.7
         },
         {
           "week": 17,
@@ -30054,11 +30164,11 @@
       "division": "AFC East",
       "sim": {
         "proj_wins": 8.7,
-        "playoff": 49.9,
+        "playoff": 49.8,
         "division": 1.6,
         "seed1": 0.0,
         "conf": 2.0,
-        "sb": 0.9
+        "sb": 0.8
       },
       "power": 1.2,
       "schedule": [
@@ -30180,7 +30290,7 @@
           "opp": "LAC",
           "opp_nick": "Chargers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-          "prob": 58.5
+          "prob": 58.8
         },
         {
           "week": 13,
@@ -30200,7 +30310,7 @@
           "opp": "MIN",
           "opp_nick": "Vikings",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
-          "prob": 54.5
+          "prob": 54.4
         },
         {
           "week": 15,
@@ -30210,7 +30320,7 @@
           "opp": "KC",
           "opp_nick": "Chiefs",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-          "prob": 33.1
+          "prob": 33.2
         },
         {
           "week": 16,
@@ -30220,7 +30330,7 @@
           "opp": "NYJ",
           "opp_nick": "Jets",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
-          "prob": 63.7
+          "prob": 63.5
         },
         {
           "week": 17,
@@ -30230,7 +30340,7 @@
           "opp": "DEN",
           "opp_nick": "Broncos",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
-          "prob": 49.2
+          "prob": 49.1
         },
         {
           "week": 18,
@@ -30286,7 +30396,7 @@
         ],
         [
           11,
-          49.9
+          49.8
         ]
       ]
     },
@@ -30319,12 +30429,12 @@
       "division": "AFC North",
       "sim": {
         "proj_wins": 10.4,
-        "playoff": 74.5,
-        "division": 10.3,
+        "playoff": 74.6,
+        "division": 10.4,
         "seed1": 0.5,
         "conf": 3.1,
         "sb": 1.3,
-        "if_win": 80.9,
+        "if_win": 81.0,
         "if_lose": 61.8
       },
       "power": 0.9,
@@ -30436,7 +30546,7 @@
           "opp": "PHI",
           "opp_nick": "Eagles",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-          "prob": 66.5
+          "prob": 66.9
         },
         {
           "week": 12,
@@ -30486,7 +30596,7 @@
           "opp": "CAR",
           "opp_nick": "Panthers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png",
-          "prob": 63.1
+          "prob": 63.0
         },
         {
           "week": 17,
@@ -30506,7 +30616,7 @@
           "opp": "BAL",
           "opp_nick": "Ravens",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
-          "prob": 50.2
+          "prob": 50.3
         }
       ],
       "sim_history": [
@@ -30552,7 +30662,7 @@
         ],
         [
           11,
-          74.5
+          74.6
         ]
       ]
     },
@@ -30586,12 +30696,12 @@
       "sim": {
         "proj_wins": 7.5,
         "playoff": 24.1,
-        "division": 23.6,
+        "division": 23.7,
         "seed1": 0.0,
         "conf": 1.7,
         "sb": 0.6,
         "if_win": 27.2,
-        "if_lose": 12.8
+        "if_lose": 12.9
       },
       "power": -0.2,
       "schedule": [
@@ -30713,7 +30823,7 @@
           "opp": "TEN",
           "opp_nick": "Titans",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
-          "prob": 78.1
+          "prob": 78.0
         },
         {
           "week": 12,
@@ -30723,7 +30833,7 @@
           "opp": "PHI",
           "opp_nick": "Eagles",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-          "prob": 69.6
+          "prob": 69.5
         },
         {
           "week": 13,
@@ -30733,7 +30843,7 @@
           "opp": "SEA",
           "opp_nick": "Seahawks",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-          "prob": 29.5
+          "prob": 29.6
         },
         {
           "week": 15,
@@ -30852,7 +30962,7 @@
       "division": "NFC South",
       "sim": {
         "proj_wins": 6.9,
-        "playoff": 31.8,
+        "playoff": 31.9,
         "division": 31.7,
         "seed1": 0.0,
         "conf": 1.6,
@@ -30969,7 +31079,7 @@
           "opp": "DET",
           "opp_nick": "Lions",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
-          "prob": 24.7
+          "prob": 25.3
         },
         {
           "week": 12,
@@ -30989,7 +31099,7 @@
           "opp": "LAC",
           "opp_nick": "Chargers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-          "prob": 64.1
+          "prob": 64.3
         },
         {
           "week": 14,
@@ -31009,7 +31119,7 @@
           "opp": "NO",
           "opp_nick": "Saints",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
-          "prob": 62.8
+          "prob": 62.7
         },
         {
           "week": 16,
@@ -31019,7 +31129,7 @@
           "opp": "ATL",
           "opp_nick": "Falcons",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
-          "prob": 47.2
+          "prob": 47.3
         },
         {
           "week": 17,
@@ -31029,7 +31139,7 @@
           "opp": "LA",
           "opp_nick": "Rams",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
-          "prob": 37.6
+          "prob": 37.5
         },
         {
           "week": 18,
@@ -31085,7 +31195,7 @@
         ],
         [
           11,
-          31.8
+          31.9
         ]
       ]
     },
@@ -31286,7 +31396,7 @@
           "opp": "CLE",
           "opp_nick": "Browns",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
-          "prob": 61.8
+          "prob": 61.7
         },
         {
           "week": 17,
@@ -31306,7 +31416,7 @@
           "opp": "PIT",
           "opp_nick": "Steelers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
-          "prob": 49.8
+          "prob": 49.7
         }
       ],
       "sim_history": [
@@ -31385,13 +31495,13 @@
       "division": "NFC South",
       "sim": {
         "proj_wins": 7.7,
-        "playoff": 47.3,
-        "division": 47.0,
+        "playoff": 47.2,
+        "division": 46.9,
         "seed1": 0.0,
         "conf": 2.5,
         "sb": 0.8,
         "if_win": 54.0,
-        "if_lose": 38.3
+        "if_lose": 38.2
       },
       "power": -1.1,
       "schedule": [
@@ -31552,7 +31662,7 @@
           "opp": "PIT",
           "opp_nick": "Steelers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
-          "prob": 36.9
+          "prob": 37.0
         },
         {
           "week": 17,
@@ -31572,7 +31682,7 @@
           "opp": "ATL",
           "opp_nick": "Falcons",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
-          "prob": 59.1
+          "prob": 59.0
         }
       ],
       "sim_history": [
@@ -31618,7 +31728,7 @@
         ],
         [
           11,
-          47.3
+          47.2
         ]
       ]
     },
@@ -31656,8 +31766,8 @@
         "seed1": 0.2,
         "conf": 2.8,
         "sb": 0.8,
-        "if_win": 75.6,
-        "if_lose": 55.2
+        "if_win": 75.5,
+        "if_lose": 55.3
       },
       "power": -1.8,
       "schedule": [
@@ -31768,7 +31878,7 @@
           "opp": "JAX",
           "opp_nick": "Jaguars",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
-          "prob": 29.2
+          "prob": 29.0
         },
         {
           "week": 12,
@@ -31778,7 +31888,7 @@
           "opp": "IND",
           "opp_nick": "Colts",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-          "prob": 50.6
+          "prob": 50.7
         },
         {
           "week": 13,
@@ -31788,7 +31898,7 @@
           "opp": "SF",
           "opp_nick": "49ers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
-          "prob": 35.8
+          "prob": 35.7
         },
         {
           "week": 14,
@@ -32073,7 +32183,7 @@
           "opp": "WAS",
           "opp_nick": "Commanders",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-          "prob": 45.3
+          "prob": 45.4
         },
         {
           "week": 16,
@@ -32083,7 +32193,7 @@
           "opp": "TB",
           "opp_nick": "Buccaneers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-          "prob": 52.8
+          "prob": 52.7
         },
         {
           "week": 17,
@@ -32103,7 +32213,7 @@
           "opp": "CAR",
           "opp_nick": "Panthers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png",
-          "prob": 40.9
+          "prob": 41.0
         }
       ],
       "sim_history": [
@@ -32319,7 +32429,7 @@
           "opp": "TEN",
           "opp_nick": "Titans",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
-          "prob": 58.2
+          "prob": 58.3
         },
         {
           "week": 14,
@@ -32339,7 +32449,7 @@
           "opp": "ATL",
           "opp_nick": "Falcons",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
-          "prob": 54.7
+          "prob": 54.6
         },
         {
           "week": 16,
@@ -32359,7 +32469,7 @@
           "opp": "JAX",
           "opp_nick": "Jaguars",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
-          "prob": 19.1
+          "prob": 19.2
         },
         {
           "week": 18,
@@ -32451,7 +32561,7 @@
         "playoff": 47.4,
         "division": 6.0,
         "seed1": 0.0,
-        "conf": 0.5,
+        "conf": 0.6,
         "sb": 0.2
       },
       "power": -2.6,
@@ -32574,7 +32684,7 @@
           "opp": "LV",
           "opp_nick": "Raiders",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
-          "prob": 60.7
+          "prob": 60.6
         },
         {
           "week": 13,
@@ -32614,7 +32724,7 @@
           "opp": "BAL",
           "opp_nick": "Ravens",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
-          "prob": 38.2
+          "prob": 38.3
         },
         {
           "week": 17,
@@ -32830,7 +32940,7 @@
           "opp": "CHI",
           "opp_nick": "Bears",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
-          "prob": 15.4
+          "prob": 15.6
         },
         {
           "week": 12,
@@ -32840,7 +32950,7 @@
           "opp": "CIN",
           "opp_nick": "Bengals",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
-          "prob": 23.5
+          "prob": 23.6
         },
         {
           "week": 13,
@@ -32850,7 +32960,7 @@
           "opp": "GB",
           "opp_nick": "Packers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
-          "prob": 42.4
+          "prob": 42.3
         },
         {
           "week": 14,
@@ -32870,7 +32980,7 @@
           "opp": "TB",
           "opp_nick": "Buccaneers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-          "prob": 37.2
+          "prob": 37.3
         },
         {
           "week": 16,
@@ -32978,7 +33088,7 @@
       "conf": "AFC",
       "division": "AFC West",
       "sim": {
-        "proj_wins": 4.3,
+        "proj_wins": 4.2,
         "playoff": 0.0,
         "division": 0.0,
         "seed1": 0.0,
@@ -32987,7 +33097,7 @@
         "if_win": 0.1,
         "if_lose": 0.0
       },
-      "power": -3.1,
+      "power": -3.2,
       "schedule": [
         {
           "week": 1,
@@ -33096,7 +33206,7 @@
           "opp": "NYJ",
           "opp_nick": "Jets",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
-          "prob": 62.7
+          "prob": 59.7
         },
         {
           "week": 12,
@@ -33106,7 +33216,7 @@
           "opp": "NE",
           "opp_nick": "Patriots",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
-          "prob": 41.5
+          "prob": 41.2
         },
         {
           "week": 13,
@@ -33116,7 +33226,7 @@
           "opp": "TB",
           "opp_nick": "Buccaneers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-          "prob": 35.9
+          "prob": 35.7
         },
         {
           "week": 14,
@@ -33126,7 +33236,7 @@
           "opp": "LV",
           "opp_nick": "Raiders",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
-          "prob": 46.2
+          "prob": 46.0
         },
         {
           "week": 15,
@@ -33136,7 +33246,7 @@
           "opp": "SF",
           "opp_nick": "49ers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
-          "prob": 31.5
+          "prob": 31.3
         },
         {
           "week": 16,
@@ -33146,7 +33256,7 @@
           "opp": "MIA",
           "opp_nick": "Dolphins",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
-          "prob": 52.7
+          "prob": 52.5
         },
         {
           "week": 17,
@@ -33156,7 +33266,7 @@
           "opp": "KC",
           "opp_nick": "Chiefs",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-          "prob": 31.2
+          "prob": 31.0
         },
         {
           "week": 18,
@@ -33166,7 +33276,7 @@
           "opp": "DEN",
           "opp_nick": "Broncos",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
-          "prob": 23.6
+          "prob": 23.4
         }
       ],
       "sim_history": [
@@ -33383,7 +33493,7 @@
           "opp": "NYG",
           "opp_nick": "Giants",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-          "prob": 49.4
+          "prob": 49.3
         },
         {
           "week": 14,
@@ -33640,7 +33750,7 @@
           "opp": "DEN",
           "opp_nick": "Broncos",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
-          "prob": 16.9
+          "prob": 17.2
         },
         {
           "week": 12,
@@ -33650,7 +33760,7 @@
           "opp": "CLE",
           "opp_nick": "Browns",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
-          "prob": 39.3
+          "prob": 39.4
         },
         {
           "week": 14,
@@ -33660,7 +33770,7 @@
           "opp": "LAC",
           "opp_nick": "Chargers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-          "prob": 53.8
+          "prob": 54.0
         },
         {
           "week": 15,
@@ -33896,7 +34006,7 @@
           "opp": "PIT",
           "opp_nick": "Steelers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
-          "prob": 33.5
+          "prob": 33.1
         },
         {
           "week": 12,
@@ -33906,7 +34016,7 @@
           "opp": "DAL",
           "opp_nick": "Cowboys",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
-          "prob": 30.4
+          "prob": 30.5
         },
         {
           "week": 13,
@@ -33916,7 +34026,7 @@
           "opp": "ARI",
           "opp_nick": "Cardinals",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-          "prob": 47.4
+          "prob": 47.5
         },
         {
           "week": 14,
@@ -34053,7 +34163,7 @@
         "if_win": 0.1,
         "if_lose": 0.0
       },
-      "power": -4.7,
+      "power": -4.6,
       "schedule": [
         {
           "week": 1,
@@ -34173,7 +34283,7 @@
           "opp": "LAC",
           "opp_nick": "Chargers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-          "prob": 37.3
+          "prob": 40.3
         },
         {
           "week": 12,
@@ -34183,7 +34293,7 @@
           "opp": "MIA",
           "opp_nick": "Dolphins",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
-          "prob": 47.4
+          "prob": 47.6
         },
         {
           "week": 14,
@@ -34193,7 +34303,7 @@
           "opp": "DEN",
           "opp_nick": "Broncos",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
-          "prob": 29.7
+          "prob": 29.9
         },
         {
           "week": 15,
@@ -34203,7 +34313,7 @@
           "opp": "ARI",
           "opp_nick": "Cardinals",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-          "prob": 45.9
+          "prob": 46.1
         },
         {
           "week": 16,
@@ -34213,7 +34323,7 @@
           "opp": "NE",
           "opp_nick": "Patriots",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
-          "prob": 36.3
+          "prob": 36.5
         },
         {
           "week": 17,
@@ -34223,7 +34333,7 @@
           "opp": "MIN",
           "opp_nick": "Vikings",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
-          "prob": 34.5
+          "prob": 34.7
         },
         {
           "week": 18,
@@ -34233,7 +34343,7 @@
           "opp": "BUF",
           "opp_nick": "Bills",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-          "prob": 13.9
+          "prob": 14.0
         }
       ],
       "sim_history": [
@@ -34460,7 +34570,7 @@
           "opp": "PHI",
           "opp_nick": "Eagles",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-          "prob": 52.6
+          "prob": 52.5
         },
         {
           "week": 15,
@@ -34470,7 +34580,7 @@
           "opp": "NYJ",
           "opp_nick": "Jets",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
-          "prob": 54.1
+          "prob": 53.9
         },
         {
           "week": 16,
@@ -34696,7 +34806,7 @@
           "opp": "BUF",
           "opp_nick": "Bills",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-          "prob": 7.9
+          "prob": 8.1
         },
         {
           "week": 12,
@@ -34706,7 +34816,7 @@
           "opp": "NYJ",
           "opp_nick": "Jets",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
-          "prob": 52.6
+          "prob": 52.4
         },
         {
           "week": 13,
@@ -34726,7 +34836,7 @@
           "opp": "CHI",
           "opp_nick": "Bears",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
-          "prob": 26.2
+          "prob": 26.1
         },
         {
           "week": 15,
@@ -34746,7 +34856,7 @@
           "opp": "LAC",
           "opp_nick": "Chargers",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-          "prob": 47.3
+          "prob": 47.5
         },
         {
           "week": 17,
@@ -34756,7 +34866,7 @@
           "opp": "BUF",
           "opp_nick": "Bills",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-          "prob": 19.6
+          "prob": 19.5
         },
         {
           "week": 18,
@@ -34962,7 +35072,7 @@
           "opp": "DAL",
           "opp_nick": "Cowboys",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
-          "prob": 21.9
+          "prob": 22.0
         },
         {
           "week": 12,
@@ -34982,7 +35092,7 @@
           "opp": "WAS",
           "opp_nick": "Commanders",
           "opp_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-          "prob": 41.8
+          "prob": 41.7
         },
         {
           "week": 14,
@@ -35084,7 +35194,7 @@
     }
   ],
   "studies": {
-    "generated_at": "2026-11-18T22:57:25+00:00",
+    "generated_at": "2026-11-19T14:26:26+00:00",
     "spread_sd": {
       "best_sd": 11.0,
       "games": 2900
