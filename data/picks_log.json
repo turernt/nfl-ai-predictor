@@ -1774,75 +1774,90 @@
      "id": "00-0035685",
      "name": "David Montgomery",
      "team": "HOU",
-     "prob": 40.8
+     "prob": 40.8,
+     "scored": false
     },
     {
      "id": "00-0036554",
      "name": "Nico Collins",
      "team": "HOU",
-     "prob": 39.4
+     "prob": 39.4,
+     "scored": true
     },
     {
      "id": "00-0038618",
      "name": "Xavier Hutchinson",
      "team": "HOU",
-     "prob": 34.8
+     "prob": 34.8,
+     "scored": false
     },
     {
      "id": "00-0036223",
      "name": "Jonathan Taylor",
      "team": "IND",
-     "prob": 34.5
+     "prob": 34.5,
+     "scored": false
     },
     {
      "id": "00-0034383",
      "name": "Dalton Schultz",
      "team": "HOU",
-     "prob": 23.3
+     "prob": 23.3,
+     "scored": false
     },
     {
      "id": "00-0034981",
      "name": "Foster Moreau",
      "team": "HOU",
-     "prob": 23.2
+     "prob": 23.2,
+     "scored": false
     },
     {
      "id": "00-0038608",
      "name": "Kayshon Boutte",
      "team": "HOU",
-     "prob": 22.1
+     "prob": 22.1,
+     "scored": true
     },
     {
      "id": "00-0040128",
      "name": "Tyler Warren",
      "team": "IND",
-     "prob": 18.9
+     "prob": 18.9,
+     "scored": false
     },
     {
      "id": "00-0032951",
      "name": "Laquon Treadwell",
      "team": "IND",
-     "prob": 16.2
+     "prob": 16.2,
+     "scored": false
     },
     {
      "id": "00-0041125",
      "name": "Seth McGowan",
      "team": "IND",
-     "prob": 12.4
+     "prob": 12.4,
+     "scored": false
     },
     {
      "id": "00-0035710",
      "name": "Daniel Jones",
      "team": "IND",
-     "prob": 9.6
+     "prob": 9.6,
+     "scored": false
     },
     {
      "id": "00-0035021",
      "name": "Ashton Dulin",
      "team": "IND",
-     "prob": 4.1
+     "prob": 4.1,
+     "scored": false
     }
-   ]
+   ],
+   "result": "V",
+   "score": "3-26",
+   "close_mkt": 86.2
   },
   "2026_11_MIA_BUF": {
    "season": 2026,
@@ -1858,7 +1873,7 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 91.9,
-   "closed_at": "2026-11-20T00:04+00:00",
+   "closed_at": "2026-11-20T14:00+00:00",
    "scorers": [
     {
      "id": "00-0037248",
@@ -1948,7 +1963,7 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 57.4,
-   "closed_at": "2026-11-20T00:04+00:00",
+   "closed_at": "2026-11-20T14:00+00:00",
    "scorers": [
     {
      "id": "00-0036555",
@@ -2038,7 +2053,7 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 84.4,
-   "closed_at": "2026-11-20T00:04+00:00",
+   "closed_at": "2026-11-20T14:00+00:00",
    "scorers": [
     {
      "id": "00-0036275",
@@ -2128,79 +2143,79 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 77.5,
-   "closed_at": "2026-11-20T00:04+00:00",
+   "closed_at": "2026-11-20T14:00+00:00",
    "scorers": [
     {
      "id": "00-0036997",
      "name": "Javonte Williams",
      "team": "DAL",
-     "prob": 65.8
+     "prob": 65.2
     },
     {
      "id": "00-0036358",
      "name": "CeeDee Lamb",
      "team": "DAL",
-     "prob": 52.2
+     "prob": 51.6
     },
     {
      "id": "00-0035261",
      "name": "Tony Pollard",
      "team": "TEN",
-     "prob": 52.1
+     "prob": 51.3
     },
     {
      "id": "00-0037247",
      "name": "George Pickens",
      "team": "DAL",
-     "prob": 46.1
+     "prob": 45.5
     },
     {
      "id": "00-0039410",
      "name": "Ryan Flournoy",
      "team": "DAL",
-     "prob": 42.6
+     "prob": 42.0
     },
     {
      "id": "00-0040170",
      "name": "Elic Ayomanor",
      "team": "TEN",
-     "prob": 26.5
+     "prob": 25.9
     },
     {
      "id": "00-0038041",
      "name": "Jake Ferguson",
      "team": "DAL",
-     "prob": 25.5
+     "prob": 25.1
     },
     {
      "id": "00-0041438",
      "name": "Carnell Tate",
      "team": "TEN",
-     "prob": 24.3
+     "prob": 23.7
     },
     {
      "id": "00-0040676",
      "name": "Cam Ward",
      "team": "TEN",
-     "prob": 20.5
+     "prob": 20.0
     },
     {
      "id": "00-0033077",
      "name": "Dak Prescott",
      "team": "DAL",
-     "prob": 19.9
+     "prob": 19.5
     },
     {
      "id": "00-0040705",
      "name": "Chimere Dike",
      "team": "TEN",
-     "prob": 16.7
+     "prob": 16.3
     },
     {
      "id": "00-0038115",
      "name": "Daniel Bellinger",
      "team": "TEN",
-     "prob": 15.4
+     "prob": 15.0
     }
    ]
   },
@@ -2218,7 +2233,7 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 71.5,
-   "closed_at": "2026-11-20T00:04+00:00",
+   "closed_at": "2026-11-20T14:00+00:00",
    "scorers": [
     {
      "id": "00-0039139",
@@ -2308,7 +2323,7 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 91.7,
-   "closed_at": "2026-11-20T00:04+00:00",
+   "closed_at": "2026-11-20T14:00+00:00",
    "scorers": [
     {
      "id": "00-0038134",
@@ -2385,7 +2400,7 @@
    ],
    "wind_total": {
     "line": 40.5,
-    "wind": 24
+    "wind": 22
    }
   },
   "2026_11_JAX_NYG": {
@@ -2402,7 +2417,7 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 70.9,
-   "closed_at": "2026-11-20T00:04+00:00",
+   "closed_at": "2026-11-20T14:00+00:00",
    "scorers": [
     {
      "id": "00-0040719",
@@ -2492,7 +2507,7 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 60.9,
-   "closed_at": "2026-11-20T00:04+00:00",
+   "closed_at": "2026-11-20T14:00+00:00",
    "scorers": [
     {
      "id": "00-0040666",
@@ -2582,7 +2597,7 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 82.7,
-   "closed_at": "2026-11-20T00:04+00:00",
+   "closed_at": "2026-11-20T14:00+00:00",
    "scorers": [
     {
      "id": "00-0041496",
@@ -2672,7 +2687,7 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 66.3,
-   "closed_at": "2026-11-20T00:04+00:00",
+   "closed_at": "2026-11-20T14:00+00:00",
    "scorers": [
     {
      "id": "00-0037228",
@@ -2762,7 +2777,7 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 61.0,
-   "closed_at": "2026-11-20T00:04+00:00",
+   "closed_at": "2026-11-20T14:00+00:00",
    "scorers": [
     {
      "id": "00-0033280",
@@ -2852,7 +2867,7 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 72.1,
-   "closed_at": "2026-11-20T00:04+00:00",
+   "closed_at": "2026-11-20T14:00+00:00",
    "scorers": [
     {
      "id": "00-0038597",
