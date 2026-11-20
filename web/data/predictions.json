@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T14:00:41+00:00",
+  "generated_at": "2026-11-20T22:40:54+00:00",
   "season": 2026,
   "week": 11,
   "week_label": "Semaine 11",
@@ -9916,9 +9916,9 @@
       "weather": {
         "roof": "open",
         "temp_c": 18,
-        "wind_kmh": 14,
+        "wind_kmh": 19,
         "precip_prob": 1,
-        "windy": false
+        "windy": true
       },
       "round": null,
       "lineup": {
@@ -10043,7 +10043,7 @@
       "flags": {
         "value": false,
         "key_out": 0,
-        "windy": false,
+        "windy": true,
         "dome": false
       },
       "line_history": [
@@ -11196,9 +11196,9 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 12,
-        "wind_kmh": 14,
-        "precip_prob": 53,
+        "temp_c": 14,
+        "wind_kmh": 10,
+        "precip_prob": 45,
         "windy": false
       },
       "round": null,
@@ -12440,8 +12440,8 @@
       "weather": {
         "roof": "open",
         "temp_c": 13,
-        "wind_kmh": 17,
-        "precip_prob": 48,
+        "wind_kmh": 18,
+        "precip_prob": 31,
         "windy": false
       },
       "round": null,
@@ -13720,9 +13720,9 @@
       },
       "weather": {
         "roof": "retractable",
-        "temp_c": 20,
-        "wind_kmh": 20,
-        "precip_prob": 0,
+        "temp_c": 19,
+        "wind_kmh": 23,
+        "precip_prob": 1,
         "windy": false
       },
       "round": null,
@@ -16212,9 +16212,9 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 11,
-        "wind_kmh": 22,
-        "precip_prob": 21,
+        "temp_c": 10,
+        "wind_kmh": 24,
+        "precip_prob": 36,
         "windy": true
       },
       "round": null,
@@ -17485,9 +17485,9 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 15,
-        "wind_kmh": 14,
-        "precip_prob": 17,
+        "temp_c": 14,
+        "wind_kmh": 12,
+        "precip_prob": 11,
         "windy": false
       },
       "round": null,
@@ -20033,8 +20033,8 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 8,
-        "wind_kmh": 3,
+        "temp_c": 7,
+        "wind_kmh": 6,
         "precip_prob": 0,
         "windy": false
       },
@@ -20228,7 +20228,7 @@
       "model_spread": 3.2,
       "model_prob_home": 39.0,
       "vegas_spread": 4.5,
-      "vegas_total": 38.5,
+      "vegas_total": 37.5,
       "odds": {
         "n_books": 29,
         "books": [
@@ -20479,8 +20479,8 @@
         "fair_away": 1.51
       },
       "projected_score": {
-        "home": 17,
-        "away": 22
+        "home": 16,
+        "away": 21
       },
       "confidence_score": "Modérée",
       "tier": "Probable",
@@ -20508,7 +20508,7 @@
           "team": "PIT",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dkiteytgnxar1mpaxcxv",
-          "prob": 35.9,
+          "prob": 35.1,
           "season_tds": 3,
           "status": null,
           "games": 9,
@@ -20575,7 +20575,7 @@
           "team": "PIT",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/kxql4sjfelubhxawu2zh",
-          "prob": 32.0,
+          "prob": 31.3,
           "season_tds": 2,
           "status": null,
           "games": 9,
@@ -20642,7 +20642,7 @@
           "team": "PHI",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qcayrzjpura2zydszonh",
-          "prob": 26.0,
+          "prob": 25.2,
           "season_tds": 3,
           "status": null,
           "games": 7,
@@ -20709,7 +20709,7 @@
           "team": "PIT",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mx2bxccuzmdvzbksypws",
-          "prob": 24.5,
+          "prob": 23.9,
           "season_tds": 1,
           "status": null,
           "games": 6,
@@ -20776,7 +20776,7 @@
           "team": "PIT",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/rsbtypbsvxux94vokb5q",
-          "prob": 23.5,
+          "prob": 23.0,
           "season_tds": 1,
           "status": null,
           "games": 8,
@@ -20843,7 +20843,7 @@
           "team": "PIT",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pyrdsypgggjshiaygkr7",
-          "prob": 23.3,
+          "prob": 22.7,
           "season_tds": 6,
           "status": null,
           "games": 9,
@@ -20910,7 +20910,7 @@
           "team": "PHI",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pe71oe4eoyyfnq80fkxc",
-          "prob": 20.3,
+          "prob": 19.6,
           "season_tds": 4,
           "status": null,
           "games": 9,
@@ -20972,69 +20972,12 @@
           "scored_last": 1
         },
         {
-          "player_id": "00-0036912",
-          "name": "DeVonta Smith",
-          "team": "PHI",
-          "position": "WR",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/k724kq3hyv7jc0y9s03x",
-          "prob": 20.0,
-          "season_tds": 2,
-          "status": null,
-          "games": 4,
-          "snap": 78,
-          "xtd": 0.29,
-          "depth": "WR1",
-          "form": [
-            {
-              "week": 1,
-              "opp": "WAS",
-              "car": 0,
-              "tgt": 6,
-              "rec": 3,
-              "yds": 53,
-              "td": 0,
-              "snap": 95
-            },
-            {
-              "week": 2,
-              "opp": "TEN",
-              "car": 0,
-              "tgt": 13,
-              "rec": 10,
-              "yds": 117,
-              "td": 1,
-              "snap": 88
-            },
-            {
-              "week": 3,
-              "opp": "CHI",
-              "car": 0,
-              "tgt": 8,
-              "rec": 6,
-              "yds": 65,
-              "td": 0,
-              "snap": 100
-            },
-            {
-              "week": 6,
-              "opp": "CAR",
-              "car": 0,
-              "tgt": 14,
-              "rec": 7,
-              "yds": 75,
-              "td": 1,
-              "snap": 66
-            }
-          ],
-          "scored_last": 2
-        },
-        {
           "player_id": "00-0038558",
           "name": "Darnell Washington",
           "team": "PIT",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/inwx7uipfktapaump5pj",
-          "prob": 19.8,
+          "prob": 19.3,
           "season_tds": 3,
           "status": null,
           "games": 9,
@@ -21096,12 +21039,69 @@
           "scored_last": 2
         },
         {
+          "player_id": "00-0036912",
+          "name": "DeVonta Smith",
+          "team": "PHI",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/k724kq3hyv7jc0y9s03x",
+          "prob": 19.3,
+          "season_tds": 2,
+          "status": null,
+          "games": 4,
+          "snap": 78,
+          "xtd": 0.29,
+          "depth": "WR1",
+          "form": [
+            {
+              "week": 1,
+              "opp": "WAS",
+              "car": 0,
+              "tgt": 6,
+              "rec": 3,
+              "yds": 53,
+              "td": 0,
+              "snap": 95
+            },
+            {
+              "week": 2,
+              "opp": "TEN",
+              "car": 0,
+              "tgt": 13,
+              "rec": 10,
+              "yds": 117,
+              "td": 1,
+              "snap": 88
+            },
+            {
+              "week": 3,
+              "opp": "CHI",
+              "car": 0,
+              "tgt": 8,
+              "rec": 6,
+              "yds": 65,
+              "td": 0,
+              "snap": 100
+            },
+            {
+              "week": 6,
+              "opp": "CAR",
+              "car": 0,
+              "tgt": 14,
+              "rec": 7,
+              "yds": 75,
+              "td": 1,
+              "snap": 66
+            }
+          ],
+          "scored_last": 2
+        },
+        {
           "player_id": "00-0040867",
           "name": "Makai Lemon",
           "team": "PHI",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ys2i2o7c0bl36xvlrojz",
-          "prob": 18.4,
+          "prob": 17.7,
           "season_tds": 1,
           "status": null,
           "games": 9,
@@ -21168,7 +21168,7 @@
           "team": "PHI",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bafepstxu7vvxb9v5vua",
-          "prob": 16.9,
+          "prob": 16.3,
           "season_tds": 2,
           "status": null,
           "games": 7,
@@ -21235,7 +21235,7 @@
           "team": "PHI",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/v1lt8kpvkn0qw5elyaoz",
-          "prob": 15.7,
+          "prob": 15.1,
           "season_tds": 1,
           "status": null,
           "games": 6,
@@ -21304,9 +21304,9 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 16,
-        "wind_kmh": 16,
-        "precip_prob": 80,
+        "temp_c": 15,
+        "wind_kmh": 13,
+        "precip_prob": 67,
         "windy": false
       },
       "round": null,
@@ -23860,9 +23860,9 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 11,
-        "wind_kmh": 11,
-        "precip_prob": 1,
+        "temp_c": 13,
+        "wind_kmh": 14,
+        "precip_prob": 5,
         "windy": false
       },
       "round": null,
@@ -34776,7 +34776,7 @@
     }
   ],
   "studies": {
-    "generated_at": "2026-11-20T14:00:41+00:00",
+    "generated_at": "2026-11-20T22:40:54+00:00",
     "spread_sd": {
       "best_sd": 11.0,
       "games": 2901

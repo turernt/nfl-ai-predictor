@@ -1873,7 +1873,7 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 91.9,
-   "closed_at": "2026-11-20T14:00+00:00",
+   "closed_at": "2026-11-20T22:40+00:00",
    "scorers": [
     {
      "id": "00-0037248",
@@ -1947,7 +1947,11 @@
      "team": "MIA",
      "prob": 7.8
     }
-   ]
+   ],
+   "wind_total": {
+    "line": 44.5,
+    "wind": 19
+   }
   },
   "2026_11_BAL_CAR": {
    "season": 2026,
@@ -1963,7 +1967,7 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 57.4,
-   "closed_at": "2026-11-20T14:00+00:00",
+   "closed_at": "2026-11-20T22:40+00:00",
    "scorers": [
     {
      "id": "00-0036555",
@@ -2053,7 +2057,7 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 84.4,
-   "closed_at": "2026-11-20T14:00+00:00",
+   "closed_at": "2026-11-20T22:40+00:00",
    "scorers": [
     {
      "id": "00-0036275",
@@ -2143,7 +2147,7 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 77.5,
-   "closed_at": "2026-11-20T14:00+00:00",
+   "closed_at": "2026-11-20T22:40+00:00",
    "scorers": [
     {
      "id": "00-0036997",
@@ -2233,7 +2237,7 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 71.5,
-   "closed_at": "2026-11-20T14:00+00:00",
+   "closed_at": "2026-11-20T22:40+00:00",
    "scorers": [
     {
      "id": "00-0039139",
@@ -2323,7 +2327,7 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 91.7,
-   "closed_at": "2026-11-20T14:00+00:00",
+   "closed_at": "2026-11-20T22:40+00:00",
    "scorers": [
     {
      "id": "00-0038134",
@@ -2400,7 +2404,7 @@
    ],
    "wind_total": {
     "line": 40.5,
-    "wind": 22
+    "wind": 24
    }
   },
   "2026_11_JAX_NYG": {
@@ -2417,7 +2421,7 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 70.9,
-   "closed_at": "2026-11-20T14:00+00:00",
+   "closed_at": "2026-11-20T22:40+00:00",
    "scorers": [
     {
      "id": "00-0040719",
@@ -2507,7 +2511,7 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 60.9,
-   "closed_at": "2026-11-20T14:00+00:00",
+   "closed_at": "2026-11-20T22:40+00:00",
    "scorers": [
     {
      "id": "00-0040666",
@@ -2597,7 +2601,7 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 82.7,
-   "closed_at": "2026-11-20T14:00+00:00",
+   "closed_at": "2026-11-20T22:40+00:00",
    "scorers": [
     {
      "id": "00-0041496",
@@ -2687,79 +2691,79 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 66.3,
-   "closed_at": "2026-11-20T14:00+00:00",
+   "closed_at": "2026-11-20T22:40+00:00",
    "scorers": [
     {
      "id": "00-0037228",
      "name": "Jaylen Warren",
      "team": "PIT",
-     "prob": 35.9
+     "prob": 35.1
     },
     {
      "id": "00-0035640",
      "name": "DK Metcalf",
      "team": "PIT",
-     "prob": 32.0
+     "prob": 31.3
     },
     {
      "id": "00-0034844",
      "name": "Saquon Barkley",
      "team": "PHI",
-     "prob": 26.0
+     "prob": 25.2
     },
     {
      "id": "00-0036139",
      "name": "Rico Dowdle",
      "team": "PIT",
-     "prob": 24.5
+     "prob": 23.9
     },
     {
      "id": "00-0041489",
      "name": "Germie Bernard",
      "team": "PIT",
-     "prob": 23.5
+     "prob": 23.0
     },
     {
      "id": "00-0036894",
      "name": "Pat Freiermuth",
      "team": "PIT",
-     "prob": 23.3
+     "prob": 22.7
     },
     {
      "id": "00-0040024",
      "name": "Darius Cooper",
      "team": "PHI",
-     "prob": 20.3
-    },
-    {
-     "id": "00-0036912",
-     "name": "DeVonta Smith",
-     "team": "PHI",
-     "prob": 20.0
+     "prob": 19.6
     },
     {
      "id": "00-0038558",
      "name": "Darnell Washington",
      "team": "PIT",
-     "prob": 19.8
+     "prob": 19.3
+    },
+    {
+     "id": "00-0036912",
+     "name": "DeVonta Smith",
+     "team": "PHI",
+     "prob": 19.3
     },
     {
      "id": "00-0040867",
      "name": "Makai Lemon",
      "team": "PHI",
-     "prob": 18.4
+     "prob": 17.7
     },
     {
      "id": "00-0034351",
      "name": "Dallas Goedert",
      "team": "PHI",
-     "prob": 16.9
+     "prob": 16.3
     },
     {
      "id": "00-0038393",
      "name": "Dontayvion Wicks",
      "team": "PHI",
-     "prob": 15.7
+     "prob": 15.1
     }
    ]
   },
@@ -2777,7 +2781,7 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 61.0,
-   "closed_at": "2026-11-20T14:00+00:00",
+   "closed_at": "2026-11-20T22:40+00:00",
    "scorers": [
     {
      "id": "00-0033280",
@@ -2867,7 +2871,7 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 72.1,
-   "closed_at": "2026-11-20T14:00+00:00",
+   "closed_at": "2026-11-20T22:40+00:00",
    "scorers": [
     {
      "id": "00-0038597",
