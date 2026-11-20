@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T00:01:33+00:00",
+  "generated_at": "2026-11-20T00:04:12+00:00",
   "season": 2026,
   "week": 11,
   "week_label": "Semaine 11",
@@ -9169,7 +9169,10 @@
       },
       "weather": {
         "roof": "retractable",
-        "error": true
+        "temp_c": 19,
+        "wind_kmh": 7,
+        "precip_prob": 0,
+        "windy": false
       },
       "round": null,
       "lineup": {
@@ -10407,7 +10410,10 @@
       },
       "weather": {
         "roof": "open",
-        "error": true
+        "temp_c": 17,
+        "wind_kmh": 17,
+        "precip_prob": 1,
+        "windy": false
       },
       "round": null,
       "lineup": {
@@ -11685,7 +11691,10 @@
       },
       "weather": {
         "roof": "open",
-        "error": true
+        "temp_c": 13,
+        "wind_kmh": 16,
+        "precip_prob": 41,
+        "windy": false
       },
       "round": null,
       "lineup": {
@@ -12925,7 +12934,10 @@
       },
       "weather": {
         "roof": "open",
-        "error": true
+        "temp_c": 14,
+        "wind_kmh": 13,
+        "precip_prob": 71,
+        "windy": false
       },
       "round": null,
       "lineup": {
@@ -25904,14 +25916,14 @@
     "type": "consensus",
     "games": 13,
     "books": 29,
-    "status": "live",
+    "status": "cache",
     "fetched_at": "2026-11-20T00:00:25+00:00",
     "credits": "422"
   },
   "sources": {
     "injuries": 15,
     "lineups": 32,
-    "weather_errors": 4
+    "weather_errors": 0
   },
   "archive_ids": [
     "2026_10_BUF_NYJ",
@@ -35309,7 +35321,7 @@
     }
   ],
   "studies": {
-    "generated_at": "2026-11-20T00:01:33+00:00",
+    "generated_at": "2026-11-20T00:04:12+00:00",
     "spread_sd": {
       "best_sd": 11.0,
       "games": 2900
