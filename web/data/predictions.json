@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T13:28:23+00:00",
+  "generated_at": "2026-11-21T21:39:17+00:00",
   "season": 2026,
   "week": 11,
   "week_label": "Semaine 11",
@@ -9996,8 +9996,8 @@
       "weather": {
         "roof": "open",
         "temp_c": 19,
-        "wind_kmh": 20,
-        "precip_prob": 0,
+        "wind_kmh": 22,
+        "precip_prob": 1,
         "windy": true
       },
       "round": null,
@@ -11353,8 +11353,8 @@
       "weather": {
         "roof": "open",
         "temp_c": 15,
-        "wind_kmh": 12,
-        "precip_prob": 35,
+        "wind_kmh": 14,
+        "precip_prob": 28,
         "windy": false
       },
       "round": null,
@@ -12657,9 +12657,9 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 11,
-        "wind_kmh": 19,
-        "precip_prob": 76,
+        "temp_c": 12,
+        "wind_kmh": 20,
+        "precip_prob": 95,
         "windy": true
       },
       "round": null,
@@ -14036,8 +14036,8 @@
       },
       "weather": {
         "roof": "retractable",
-        "temp_c": 17,
-        "wind_kmh": 23,
+        "temp_c": 18,
+        "wind_kmh": 24,
         "precip_prob": 0,
         "windy": false
       },
@@ -14237,7 +14237,7 @@
       "model_spread": -3.7,
       "model_prob_home": 62.6,
       "vegas_spread": -5.0,
-      "vegas_total": 45.5,
+      "vegas_total": 46.5,
       "odds": {
         "n_books": 29,
         "books": [
@@ -14488,8 +14488,8 @@
         "fair_away": 3.17
       },
       "projected_score": {
-        "home": 25,
-        "away": 20
+        "home": 26,
+        "away": 21
       },
       "confidence_score": "Modérée",
       "tier": "Probable",
@@ -14517,7 +14517,7 @@
           "team": "DET",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cursejnmmp1i9hnxihkj",
-          "prob": 61.2,
+          "prob": 61.9,
           "season_tds": 13,
           "status": null,
           "games": 9,
@@ -14584,7 +14584,7 @@
           "team": "TB",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vkc00rvnix3f2b96vkwo",
-          "prob": 43.4,
+          "prob": 44.4,
           "season_tds": 8,
           "status": null,
           "games": 9,
@@ -14651,7 +14651,7 @@
           "team": "DET",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/byiptqggtglvy5qrw5wp",
-          "prob": 38.3,
+          "prob": 39.0,
           "season_tds": 5,
           "status": null,
           "games": 9,
@@ -14718,7 +14718,7 @@
           "team": "DET",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fd8nwhm6pvxfyzphzl6i",
-          "prob": 38.3,
+          "prob": 39.0,
           "season_tds": 7,
           "status": null,
           "games": 9,
@@ -14785,7 +14785,7 @@
           "team": "DET",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wxlk7ysg2nfq6h6ntdcu",
-          "prob": 32.8,
+          "prob": 33.5,
           "season_tds": 3,
           "status": null,
           "games": 9,
@@ -14852,7 +14852,7 @@
           "team": "TB",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/z224kbzs62rjuykc0vha",
-          "prob": 26.7,
+          "prob": 27.4,
           "season_tds": 3,
           "status": null,
           "games": 7,
@@ -14914,79 +14914,12 @@
           "scored_last": 2
         },
         {
-          "player_id": "00-0040669",
-          "name": "Isaac TeSlaa",
-          "team": "DET",
-          "position": "WR",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ducfhbiy2a8loytcjymn",
-          "prob": 22.8,
-          "season_tds": 1,
-          "status": null,
-          "games": 8,
-          "snap": 58,
-          "xtd": 0.3,
-          "depth": "WR3",
-          "form": [
-            {
-              "week": 4,
-              "opp": "CAR",
-              "car": 0,
-              "tgt": 8,
-              "rec": 4,
-              "yds": 95,
-              "td": 0,
-              "snap": 82
-            },
-            {
-              "week": 5,
-              "opp": "ARI",
-              "car": 0,
-              "tgt": 2,
-              "rec": 0,
-              "yds": 0,
-              "td": 0,
-              "snap": 39
-            },
-            {
-              "week": 7,
-              "opp": "GB",
-              "car": 0,
-              "tgt": 2,
-              "rec": 1,
-              "yds": 10,
-              "td": 0,
-              "snap": 49
-            },
-            {
-              "week": 9,
-              "opp": "MIA",
-              "car": 0,
-              "tgt": 2,
-              "rec": 1,
-              "yds": 9,
-              "td": 0,
-              "snap": 53
-            },
-            {
-              "week": 10,
-              "opp": "NE",
-              "car": 0,
-              "tgt": 5,
-              "rec": 2,
-              "yds": 19,
-              "td": 1,
-              "snap": 65
-            }
-          ],
-          "scored_last": 1
-        },
-        {
           "player_id": "00-0038129",
           "name": "Cade Otton",
           "team": "TB",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yanr6h9aplae3jyzimf7",
-          "prob": 22.7,
+          "prob": 23.3,
           "season_tds": 0,
           "status": null,
           "games": 8,
@@ -15048,12 +14981,79 @@
           "scored_last": 0
         },
         {
+          "player_id": "00-0040669",
+          "name": "Isaac TeSlaa",
+          "team": "DET",
+          "position": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ducfhbiy2a8loytcjymn",
+          "prob": 23.3,
+          "season_tds": 1,
+          "status": null,
+          "games": 8,
+          "snap": 58,
+          "xtd": 0.3,
+          "depth": "WR3",
+          "form": [
+            {
+              "week": 4,
+              "opp": "CAR",
+              "car": 0,
+              "tgt": 8,
+              "rec": 4,
+              "yds": 95,
+              "td": 0,
+              "snap": 82
+            },
+            {
+              "week": 5,
+              "opp": "ARI",
+              "car": 0,
+              "tgt": 2,
+              "rec": 0,
+              "yds": 0,
+              "td": 0,
+              "snap": 39
+            },
+            {
+              "week": 7,
+              "opp": "GB",
+              "car": 0,
+              "tgt": 2,
+              "rec": 1,
+              "yds": 10,
+              "td": 0,
+              "snap": 49
+            },
+            {
+              "week": 9,
+              "opp": "MIA",
+              "car": 0,
+              "tgt": 2,
+              "rec": 1,
+              "yds": 9,
+              "td": 0,
+              "snap": 53
+            },
+            {
+              "week": 10,
+              "opp": "NE",
+              "car": 0,
+              "tgt": 5,
+              "rec": 2,
+              "yds": 19,
+              "td": 1,
+              "snap": 65
+            }
+          ],
+          "scored_last": 1
+        },
+        {
           "player_id": "00-0036919",
           "name": "Kenny Gainwell",
           "team": "TB",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/eo62l8ec8e3lzt86ihth",
-          "prob": 19.0,
+          "prob": 19.5,
           "season_tds": 1,
           "status": null,
           "games": 9,
@@ -15120,7 +15120,7 @@
           "team": "TB",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ilkheljdx4hbjpisulke",
-          "prob": 16.5,
+          "prob": 17.0,
           "season_tds": 0,
           "status": null,
           "games": 9,
@@ -15187,7 +15187,7 @@
           "team": "TB",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wiarwjvy8p6bojlratp4",
-          "prob": 12.2,
+          "prob": 12.6,
           "season_tds": 2,
           "status": null,
           "games": 5,
@@ -15254,7 +15254,7 @@
           "team": "DET",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/kaicbot8qhzrvddilbtp",
-          "prob": 11.7,
+          "prob": 12.0,
           "season_tds": 1,
           "status": null,
           "games": 9,
@@ -15585,8 +15585,8 @@
       "prob_home_win": 92.0,
       "prob_away_win": 8.0,
       "predicted_spread": -16.5,
-      "model_spread": -12.4,
-      "model_prob_home": 86.0,
+      "model_spread": -10.3,
+      "model_prob_home": 81.5,
       "vegas_spread": -16.5,
       "vegas_total": 40.5,
       "odds": {
@@ -15842,9 +15842,9 @@
         "epa": 10.6,
         "qb": {
           "home": 0.0,
-          "away": -2.3,
+          "away": -0.1,
           "home_name": "Patrick Mahomes",
-          "away_name": "Carson Beck"
+          "away_name": "Josh Johnson"
         },
         "rest": {
           "pts": 0.0,
@@ -16609,7 +16609,7 @@
           "scored_last": 0
         }
       ],
-      "commentary": "Avantage Chiefs (92 %), à domicile. Le modèle maison (−12,4) s’écarte des bookmakers (−16,5). QB titulaire indisponible chez les Cardinals : Carson Beck attendu. QB annoncé chez les Cardinals (Carson Beck) : −2,3 pt par rapport à leur niveau habituel.",
+      "commentary": "Avantage Chiefs (92 %), à domicile. Le modèle maison (−10,3) s’écarte des bookmakers (−16,5).",
       "injuries": {
         "home": [
           {
@@ -16666,7 +16666,7 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 7,
+        "temp_c": 8,
         "wind_kmh": 24,
         "precip_prob": 0,
         "windy": true
@@ -17978,9 +17978,9 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 13,
-        "wind_kmh": 6,
-        "precip_prob": 33,
+        "temp_c": 14,
+        "wind_kmh": 9,
+        "precip_prob": 36,
         "windy": false
       },
       "round": null,
@@ -20700,8 +20700,8 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 7,
-        "wind_kmh": 11,
+        "temp_c": 8,
+        "wind_kmh": 10,
         "precip_prob": 0,
         "windy": false
       },
@@ -21999,8 +21999,8 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 16,
-        "wind_kmh": 9,
+        "temp_c": 15,
+        "wind_kmh": 10,
         "precip_prob": 48,
         "windy": false
       },
@@ -23567,7 +23567,7 @@
       "model_spread": 3.3,
       "model_prob_home": 38.8,
       "vegas_spread": 6.0,
-      "vegas_total": 53.5,
+      "vegas_total": 54.5,
       "odds": {
         "n_books": 29,
         "books": [
@@ -23847,7 +23847,7 @@
           "team": "CIN",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tch3y6jlj7khvyi9jg0c",
-          "prob": 54.3,
+          "prob": 55.0,
           "season_tds": 3,
           "status": null,
           "games": 9,
@@ -23914,7 +23914,7 @@
           "team": "CIN",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qya3dtjb5kgofcuj2tuw",
-          "prob": 48.1,
+          "prob": 48.7,
           "season_tds": 7,
           "status": null,
           "games": 9,
@@ -23981,7 +23981,7 @@
           "team": "CIN",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gpwtyv3viwy9q4ewderl",
-          "prob": 41.7,
+          "prob": 42.3,
           "season_tds": 6,
           "status": null,
           "games": 9,
@@ -24048,7 +24048,7 @@
           "team": "CIN",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fllwhcdovol5i7xxahf6",
-          "prob": 35.1,
+          "prob": 35.6,
           "season_tds": 3,
           "status": null,
           "games": 9,
@@ -24115,7 +24115,7 @@
           "team": "WAS",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wtdhs50gcl2p6vngsnre",
-          "prob": 33.7,
+          "prob": 34.4,
           "season_tds": 3,
           "status": null,
           "games": 8,
@@ -24182,7 +24182,7 @@
           "team": "WAS",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dpmpctgbwlvgyzg3opli",
-          "prob": 31.9,
+          "prob": 32.6,
           "season_tds": 6,
           "status": null,
           "games": 8,
@@ -24249,7 +24249,7 @@
           "team": "CIN",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gnnvcgui1cijybukk2w7",
-          "prob": 25.4,
+          "prob": 25.9,
           "season_tds": 3,
           "status": null,
           "games": 9,
@@ -24316,7 +24316,7 @@
           "team": "CIN",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dykckg6we3cnw9yhpggi",
-          "prob": 24.7,
+          "prob": 25.2,
           "season_tds": 6,
           "status": null,
           "games": 8,
@@ -24383,7 +24383,7 @@
           "team": "WAS",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/noywrsgaqoqlv64c12yw",
-          "prob": 22.4,
+          "prob": 22.9,
           "season_tds": 2,
           "status": null,
           "games": 9,
@@ -24450,7 +24450,7 @@
           "team": "WAS",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gfz8k5onuqjrche9ogqc",
-          "prob": 20.9,
+          "prob": 21.4,
           "season_tds": 2,
           "status": null,
           "games": 7,
@@ -24517,7 +24517,7 @@
           "team": "WAS",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bmozbzdxgnnwdniuvgnn",
-          "prob": 17.6,
+          "prob": 18.1,
           "season_tds": 2,
           "status": null,
           "games": 7,
@@ -24584,7 +24584,7 @@
           "team": "WAS",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pzcez6pi9tpdqkmjjnzk",
-          "prob": 17.1,
+          "prob": 17.6,
           "season_tds": 0,
           "status": null,
           "games": 7,
@@ -24915,7 +24915,7 @@
           "actual": 85.7
         },
         "model_agrees": true,
-        "model_prob": 86.0
+        "model_prob": 81.5
       },
       {
         "best_fr": {
@@ -25315,6 +25315,83 @@
         }
       },
       {
+        "player_id": "00-0039139",
+        "name": "Jahmyr Gibbs",
+        "team": "DET",
+        "position": "RB",
+        "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cursejnmmp1i9hnxihkj",
+        "prob": 61.9,
+        "season_tds": 13,
+        "status": null,
+        "games": 9,
+        "snap": 73,
+        "xtd": 1.06,
+        "depth": "RB1",
+        "form": [
+          {
+            "week": 5,
+            "opp": "ARI",
+            "car": 25,
+            "tgt": 6,
+            "rec": 5,
+            "yds": 207,
+            "td": 2,
+            "snap": 70
+          },
+          {
+            "week": 7,
+            "opp": "GB",
+            "car": 29,
+            "tgt": 6,
+            "rec": 5,
+            "yds": 143,
+            "td": 0,
+            "snap": 90
+          },
+          {
+            "week": 8,
+            "opp": "MIN",
+            "car": 23,
+            "tgt": 4,
+            "rec": 2,
+            "yds": 168,
+            "td": 1,
+            "snap": 76
+          },
+          {
+            "week": 9,
+            "opp": "MIA",
+            "car": 20,
+            "tgt": 1,
+            "rec": 0,
+            "yds": 74,
+            "td": 1,
+            "snap": 68
+          },
+          {
+            "week": 10,
+            "opp": "NE",
+            "car": 22,
+            "tgt": 8,
+            "rec": 7,
+            "yds": 252,
+            "td": 2,
+            "snap": 69
+          }
+        ],
+        "scored_last": 4,
+        "game_id": "2026_11_TB_DET",
+        "opponent": "TB",
+        "fair_odds": 1.62,
+        "hist": {
+          "label": "50 % et plus",
+          "min": 50,
+          "n": 87,
+          "predicted": 58.4,
+          "actual": 60.9
+        }
+      },
+      {
         "player_id": "00-0037248",
         "name": "James Cook",
         "team": "BUF",
@@ -25382,83 +25459,6 @@
         "scored_last": 5,
         "game_id": "2026_11_MIA_BUF",
         "opponent": "MIA",
-        "fair_odds": 1.63,
-        "hist": {
-          "label": "50 % et plus",
-          "min": 50,
-          "n": 87,
-          "predicted": 58.4,
-          "actual": 60.9
-        }
-      },
-      {
-        "player_id": "00-0039139",
-        "name": "Jahmyr Gibbs",
-        "team": "DET",
-        "position": "RB",
-        "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cursejnmmp1i9hnxihkj",
-        "prob": 61.2,
-        "season_tds": 13,
-        "status": null,
-        "games": 9,
-        "snap": 73,
-        "xtd": 1.06,
-        "depth": "RB1",
-        "form": [
-          {
-            "week": 5,
-            "opp": "ARI",
-            "car": 25,
-            "tgt": 6,
-            "rec": 5,
-            "yds": 207,
-            "td": 2,
-            "snap": 70
-          },
-          {
-            "week": 7,
-            "opp": "GB",
-            "car": 29,
-            "tgt": 6,
-            "rec": 5,
-            "yds": 143,
-            "td": 0,
-            "snap": 90
-          },
-          {
-            "week": 8,
-            "opp": "MIN",
-            "car": 23,
-            "tgt": 4,
-            "rec": 2,
-            "yds": 168,
-            "td": 1,
-            "snap": 76
-          },
-          {
-            "week": 9,
-            "opp": "MIA",
-            "car": 20,
-            "tgt": 1,
-            "rec": 0,
-            "yds": 74,
-            "td": 1,
-            "snap": 68
-          },
-          {
-            "week": 10,
-            "opp": "NE",
-            "car": 22,
-            "tgt": 8,
-            "rec": 7,
-            "yds": 252,
-            "td": 2,
-            "snap": 69
-          }
-        ],
-        "scored_last": 4,
-        "game_id": "2026_11_TB_DET",
-        "opponent": "TB",
         "fair_odds": 1.63,
         "hist": {
           "label": "50 % et plus",
@@ -25628,7 +25628,7 @@
         "team": "CIN",
         "position": "RB",
         "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tch3y6jlj7khvyi9jg0c",
-        "prob": 54.3,
+        "prob": 55.0,
         "season_tds": 3,
         "status": null,
         "games": 9,
@@ -25690,7 +25690,7 @@
         "scored_last": 1,
         "game_id": "2026_11_CIN_WAS",
         "opponent": "WAS",
-        "fair_odds": 1.84,
+        "fair_odds": 1.82,
         "hist": {
           "label": "50 % et plus",
           "min": 50,
@@ -26124,7 +26124,7 @@
     "type": "consensus",
     "games": 12,
     "books": 29,
-    "status": "live",
+    "status": "cache",
     "fetched_at": "2026-11-21T13:28:19+00:00",
     "credits": "416"
   },
@@ -26302,6 +26302,75 @@
       "opponent": "TEN"
     },
     {
+      "player_id": "00-0039139",
+      "name": "Jahmyr Gibbs",
+      "team": "DET",
+      "position": "RB",
+      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cursejnmmp1i9hnxihkj",
+      "prob": 61.9,
+      "season_tds": 13,
+      "status": null,
+      "games": 9,
+      "snap": 73,
+      "xtd": 1.06,
+      "depth": "RB1",
+      "form": [
+        {
+          "week": 5,
+          "opp": "ARI",
+          "car": 25,
+          "tgt": 6,
+          "rec": 5,
+          "yds": 207,
+          "td": 2,
+          "snap": 70
+        },
+        {
+          "week": 7,
+          "opp": "GB",
+          "car": 29,
+          "tgt": 6,
+          "rec": 5,
+          "yds": 143,
+          "td": 0,
+          "snap": 90
+        },
+        {
+          "week": 8,
+          "opp": "MIN",
+          "car": 23,
+          "tgt": 4,
+          "rec": 2,
+          "yds": 168,
+          "td": 1,
+          "snap": 76
+        },
+        {
+          "week": 9,
+          "opp": "MIA",
+          "car": 20,
+          "tgt": 1,
+          "rec": 0,
+          "yds": 74,
+          "td": 1,
+          "snap": 68
+        },
+        {
+          "week": 10,
+          "opp": "NE",
+          "car": 22,
+          "tgt": 8,
+          "rec": 7,
+          "yds": 252,
+          "td": 2,
+          "snap": 69
+        }
+      ],
+      "scored_last": 4,
+      "game_id": "2026_11_TB_DET",
+      "opponent": "TB"
+    },
+    {
       "player_id": "00-0037248",
       "name": "James Cook",
       "team": "BUF",
@@ -26369,75 +26438,6 @@
       "scored_last": 5,
       "game_id": "2026_11_MIA_BUF",
       "opponent": "MIA"
-    },
-    {
-      "player_id": "00-0039139",
-      "name": "Jahmyr Gibbs",
-      "team": "DET",
-      "position": "RB",
-      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cursejnmmp1i9hnxihkj",
-      "prob": 61.2,
-      "season_tds": 13,
-      "status": null,
-      "games": 9,
-      "snap": 73,
-      "xtd": 1.06,
-      "depth": "RB1",
-      "form": [
-        {
-          "week": 5,
-          "opp": "ARI",
-          "car": 25,
-          "tgt": 6,
-          "rec": 5,
-          "yds": 207,
-          "td": 2,
-          "snap": 70
-        },
-        {
-          "week": 7,
-          "opp": "GB",
-          "car": 29,
-          "tgt": 6,
-          "rec": 5,
-          "yds": 143,
-          "td": 0,
-          "snap": 90
-        },
-        {
-          "week": 8,
-          "opp": "MIN",
-          "car": 23,
-          "tgt": 4,
-          "rec": 2,
-          "yds": 168,
-          "td": 1,
-          "snap": 76
-        },
-        {
-          "week": 9,
-          "opp": "MIA",
-          "car": 20,
-          "tgt": 1,
-          "rec": 0,
-          "yds": 74,
-          "td": 1,
-          "snap": 68
-        },
-        {
-          "week": 10,
-          "opp": "NE",
-          "car": 22,
-          "tgt": 8,
-          "rec": 7,
-          "yds": 252,
-          "td": 2,
-          "snap": 69
-        }
-      ],
-      "scored_last": 4,
-      "game_id": "2026_11_TB_DET",
-      "opponent": "TB"
     },
     {
       "player_id": "00-0036555",
@@ -26583,7 +26583,7 @@
       "team": "CIN",
       "position": "RB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tch3y6jlj7khvyi9jg0c",
-      "prob": 54.3,
+      "prob": 55.0,
       "season_tds": 3,
       "status": null,
       "games": 9,
@@ -35527,7 +35527,7 @@
     }
   ],
   "studies": {
-    "generated_at": "2026-11-21T13:28:23+00:00",
+    "generated_at": "2026-11-21T21:39:17+00:00",
     "spread_sd": {
       "best_sd": 11.0,
       "games": 2901
