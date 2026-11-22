@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T21:39:17+00:00",
+  "generated_at": "2026-11-22T02:14:40+00:00",
   "season": 2026,
   "week": 11,
   "week_label": "Semaine 11",
@@ -9996,8 +9996,8 @@
       "weather": {
         "roof": "open",
         "temp_c": 19,
-        "wind_kmh": 22,
-        "precip_prob": 1,
+        "wind_kmh": 21,
+        "precip_prob": 2,
         "windy": true
       },
       "round": null,
@@ -10161,6 +10161,12 @@
         },
         {
           "date": "2026-11-21",
+          "prob_home": 92.2,
+          "spread": -16.5,
+          "books": 28
+        },
+        {
+          "date": "2026-11-22",
           "prob_home": 92.2,
           "spread": -16.5,
           "books": 28
@@ -11352,9 +11358,9 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 15,
-        "wind_kmh": 14,
-        "precip_prob": 28,
+        "temp_c": 14,
+        "wind_kmh": 12,
+        "precip_prob": 23,
         "windy": false
       },
       "round": null,
@@ -11510,6 +11516,12 @@
         },
         {
           "date": "2026-11-21",
+          "prob_home": 57.8,
+          "spread": -2.5,
+          "books": 29
+        },
+        {
+          "date": "2026-11-22",
           "prob_home": 57.8,
           "spread": -2.5,
           "books": 29
@@ -12657,10 +12669,10 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 12,
-        "wind_kmh": 20,
-        "precip_prob": 95,
-        "windy": true
+        "temp_c": 13,
+        "wind_kmh": 14,
+        "precip_prob": 70,
+        "windy": false
       },
       "round": null,
       "lineup": {
@@ -12785,7 +12797,7 @@
       "flags": {
         "value": false,
         "key_out": 0,
-        "windy": true,
+        "windy": false,
         "dome": false
       },
       "line_history": [
@@ -12815,6 +12827,12 @@
         },
         {
           "date": "2026-11-21",
+          "prob_home": 84.4,
+          "spread": -11.5,
+          "books": 28
+        },
+        {
+          "date": "2026-11-22",
           "prob_home": 84.4,
           "spread": -11.5,
           "books": 28
@@ -14036,8 +14054,8 @@
       },
       "weather": {
         "roof": "retractable",
-        "temp_c": 18,
-        "wind_kmh": 24,
+        "temp_c": 16,
+        "wind_kmh": 25,
         "precip_prob": 0,
         "windy": false
       },
@@ -14197,6 +14215,12 @@
           "prob_home": 77.5,
           "spread": -8.0,
           "books": 29
+        },
+        {
+          "date": "2026-11-22",
+          "prob_home": 77.5,
+          "spread": -8.0,
+          "books": 29
         }
       ]
     },
@@ -14237,7 +14261,7 @@
       "model_spread": -3.7,
       "model_prob_home": 62.6,
       "vegas_spread": -5.0,
-      "vegas_total": 46.5,
+      "vegas_total": 47.5,
       "odds": {
         "n_books": 29,
         "books": [
@@ -14517,7 +14541,7 @@
           "team": "DET",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cursejnmmp1i9hnxihkj",
-          "prob": 61.9,
+          "prob": 62.7,
           "season_tds": 13,
           "status": null,
           "games": 9,
@@ -14584,7 +14608,7 @@
           "team": "TB",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vkc00rvnix3f2b96vkwo",
-          "prob": 44.4,
+          "prob": 45.3,
           "season_tds": 8,
           "status": null,
           "games": 9,
@@ -14651,7 +14675,7 @@
           "team": "DET",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/byiptqggtglvy5qrw5wp",
-          "prob": 39.0,
+          "prob": 39.7,
           "season_tds": 5,
           "status": null,
           "games": 9,
@@ -14718,7 +14742,7 @@
           "team": "DET",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fd8nwhm6pvxfyzphzl6i",
-          "prob": 39.0,
+          "prob": 39.7,
           "season_tds": 7,
           "status": null,
           "games": 9,
@@ -14785,7 +14809,7 @@
           "team": "DET",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wxlk7ysg2nfq6h6ntdcu",
-          "prob": 33.5,
+          "prob": 34.1,
           "season_tds": 3,
           "status": null,
           "games": 9,
@@ -14852,7 +14876,7 @@
           "team": "TB",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/z224kbzs62rjuykc0vha",
-          "prob": 27.4,
+          "prob": 28.1,
           "season_tds": 3,
           "status": null,
           "games": 7,
@@ -14919,7 +14943,7 @@
           "team": "TB",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yanr6h9aplae3jyzimf7",
-          "prob": 23.3,
+          "prob": 24.0,
           "season_tds": 0,
           "status": null,
           "games": 8,
@@ -14986,7 +15010,7 @@
           "team": "DET",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ducfhbiy2a8loytcjymn",
-          "prob": 23.3,
+          "prob": 23.8,
           "season_tds": 1,
           "status": null,
           "games": 8,
@@ -15053,7 +15077,7 @@
           "team": "TB",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/eo62l8ec8e3lzt86ihth",
-          "prob": 19.5,
+          "prob": 20.1,
           "season_tds": 1,
           "status": null,
           "games": 9,
@@ -15120,7 +15144,7 @@
           "team": "TB",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ilkheljdx4hbjpisulke",
-          "prob": 17.0,
+          "prob": 17.5,
           "season_tds": 0,
           "status": null,
           "games": 9,
@@ -15187,7 +15211,7 @@
           "team": "TB",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wiarwjvy8p6bojlratp4",
-          "prob": 12.6,
+          "prob": 13.0,
           "season_tds": 2,
           "status": null,
           "games": 5,
@@ -15254,7 +15278,7 @@
           "team": "DET",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/kaicbot8qhzrvddilbtp",
-          "prob": 12.0,
+          "prob": 12.3,
           "season_tds": 1,
           "status": null,
           "games": 9,
@@ -15545,6 +15569,12 @@
         },
         {
           "date": "2026-11-21",
+          "prob_home": 68.5,
+          "spread": -5.0,
+          "books": 29
+        },
+        {
+          "date": "2026-11-22",
           "prob_home": 68.5,
           "spread": -5.0,
           "books": 29
@@ -16666,7 +16696,7 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 8,
+        "temp_c": 7,
         "wind_kmh": 24,
         "precip_prob": 0,
         "windy": true
@@ -16832,6 +16862,12 @@
         },
         {
           "date": "2026-11-21",
+          "prob_home": 92.0,
+          "spread": -16.5,
+          "books": 28
+        },
+        {
+          "date": "2026-11-22",
           "prob_home": 92.0,
           "spread": -16.5,
           "books": 28
@@ -17978,9 +18014,9 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 14,
-        "wind_kmh": 9,
-        "precip_prob": 36,
+        "temp_c": 17,
+        "wind_kmh": 12,
+        "precip_prob": 14,
         "windy": false
       },
       "round": null,
@@ -18136,6 +18172,12 @@
         },
         {
           "date": "2026-11-21",
+          "prob_home": 29.6,
+          "spread": 6.0,
+          "books": 28
+        },
+        {
+          "date": "2026-11-22",
           "prob_home": 29.6,
           "spread": 6.0,
           "books": 28
@@ -19536,6 +19578,12 @@
           "prob_home": 60.9,
           "spread": -3.0,
           "books": 29
+        },
+        {
+          "date": "2026-11-22",
+          "prob_home": 60.9,
+          "spread": -3.0,
+          "books": 29
         }
       ]
     },
@@ -20700,7 +20748,7 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 8,
+        "temp_c": 6,
         "wind_kmh": 10,
         "precip_prob": 0,
         "windy": false
@@ -20858,6 +20906,12 @@
         },
         {
           "date": "2026-11-21",
+          "prob_home": 83.0,
+          "spread": -10.5,
+          "books": 29
+        },
+        {
+          "date": "2026-11-22",
           "prob_home": 83.0,
           "spread": -10.5,
           "books": 29
@@ -21999,9 +22053,9 @@
       },
       "weather": {
         "roof": "open",
-        "temp_c": 15,
-        "wind_kmh": 10,
-        "precip_prob": 48,
+        "temp_c": 16,
+        "wind_kmh": 12,
+        "precip_prob": 17,
         "windy": false
       },
       "round": null,
@@ -22165,6 +22219,12 @@
         },
         {
           "date": "2026-11-21",
+          "prob_home": 35.2,
+          "spread": 4.0,
+          "books": 29
+        },
+        {
+          "date": "2026-11-22",
           "prob_home": 35.2,
           "spread": 4.0,
           "books": 29
@@ -23527,6 +23587,12 @@
           "prob_home": 61.4,
           "spread": -3.5,
           "books": 29
+        },
+        {
+          "date": "2026-11-22",
+          "prob_home": 61.4,
+          "spread": -3.5,
+          "books": 29
         }
       ]
     },
@@ -24654,7 +24720,7 @@
       "weather": {
         "roof": "open",
         "temp_c": 12,
-        "wind_kmh": 15,
+        "wind_kmh": 18,
         "precip_prob": 0,
         "windy": false
       },
@@ -24811,6 +24877,12 @@
         },
         {
           "date": "2026-11-21",
+          "prob_home": 27.7,
+          "spread": 6.0,
+          "books": 29
+        },
+        {
+          "date": "2026-11-22",
           "prob_home": 27.7,
           "spread": 6.0,
           "books": 29
@@ -25320,7 +25392,7 @@
         "team": "DET",
         "position": "RB",
         "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cursejnmmp1i9hnxihkj",
-        "prob": 61.9,
+        "prob": 62.7,
         "season_tds": 13,
         "status": null,
         "games": 9,
@@ -25382,7 +25454,7 @@
         "scored_last": 4,
         "game_id": "2026_11_TB_DET",
         "opponent": "TB",
-        "fair_odds": 1.62,
+        "fair_odds": 1.59,
         "hist": {
           "label": "50 % et plus",
           "min": 50,
@@ -26307,7 +26379,7 @@
       "team": "DET",
       "position": "RB",
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cursejnmmp1i9hnxihkj",
-      "prob": 61.9,
+      "prob": 62.7,
       "season_tds": 13,
       "status": null,
       "games": 9,
@@ -35527,7 +35599,7 @@
     }
   ],
   "studies": {
-    "generated_at": "2026-11-21T21:39:17+00:00",
+    "generated_at": "2026-11-22T02:14:40+00:00",
     "spread_sd": {
       "best_sd": 11.0,
       "games": 2901
