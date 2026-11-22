@@ -58,7 +58,7 @@
   },
   {
    "date": "2026-11-22",
-   "prob_home": 92.2,
+   "prob_home": 92.6,
    "spread": -16.5,
    "books": 28
   }
@@ -96,7 +96,7 @@
   },
   {
    "date": "2026-11-22",
-   "prob_home": 57.8,
+   "prob_home": 56.8,
    "spread": -2.5,
    "books": 29
   }
@@ -134,7 +134,7 @@
   },
   {
    "date": "2026-11-22",
-   "prob_home": 84.4,
+   "prob_home": 84.9,
    "spread": -11.5,
    "books": 28
   }
@@ -172,8 +172,8 @@
   },
   {
    "date": "2026-11-22",
-   "prob_home": 77.5,
-   "spread": -8.0,
+   "prob_home": 76.7,
+   "spread": -7.5,
    "books": 29
   }
  ],
@@ -210,8 +210,8 @@
   },
   {
    "date": "2026-11-22",
-   "prob_home": 68.5,
-   "spread": -5.0,
+   "prob_home": 66.2,
+   "spread": -3.5,
    "books": 29
   }
  ],
@@ -248,8 +248,8 @@
   },
   {
    "date": "2026-11-22",
-   "prob_home": 92.0,
-   "spread": -16.5,
+   "prob_home": 91.8,
+   "spread": -15.0,
    "books": 28
   }
  ],
@@ -286,7 +286,7 @@
   },
   {
    "date": "2026-11-22",
-   "prob_home": 29.6,
+   "prob_home": 28.1,
    "spread": 6.0,
    "books": 28
   }
@@ -324,7 +324,7 @@
   },
   {
    "date": "2026-11-22",
-   "prob_home": 60.9,
+   "prob_home": 61.4,
    "spread": -3.0,
    "books": 29
   }
@@ -362,7 +362,7 @@
   },
   {
    "date": "2026-11-22",
-   "prob_home": 83.0,
+   "prob_home": 84.3,
    "spread": -10.5,
    "books": 29
   }
@@ -400,8 +400,8 @@
   },
   {
    "date": "2026-11-22",
-   "prob_home": 35.2,
-   "spread": 4.0,
+   "prob_home": 34.8,
+   "spread": 3.5,
    "books": 29
   }
  ],
@@ -438,7 +438,7 @@
   },
   {
    "date": "2026-11-22",
-   "prob_home": 61.4,
+   "prob_home": 62.1,
    "spread": -3.5,
    "books": 29
   }
@@ -476,7 +476,7 @@
   },
   {
    "date": "2026-11-22",
-   "prob_home": 27.7,
+   "prob_home": 27.6,
    "spread": 6.0,
    "books": 29
   }
