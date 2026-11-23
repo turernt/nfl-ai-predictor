@@ -2519,75 +2519,90 @@
      "id": "00-0040719",
      "name": "Bhayshul Tuten",
      "team": "JAX",
-     "prob": 50.3
+     "prob": 50.3,
+     "scored": false
     },
     {
      "id": "00-0040715",
      "name": "Cam Skattebo",
      "team": "NYG",
-     "prob": 40.0
+     "prob": 40.0,
+     "scored": false
     },
     {
      "id": "00-0038606",
      "name": "Parker Washington",
      "team": "JAX",
-     "prob": 35.7
+     "prob": 35.7,
+     "scored": false
     },
     {
      "id": "00-0037838",
      "name": "Isaiah Likely",
      "team": "NYG",
-     "prob": 29.9
+     "prob": 29.9,
+     "scored": false
     },
     {
      "id": "00-0038611",
      "name": "Chris Rodriguez Jr.",
      "team": "JAX",
-     "prob": 28.3
+     "prob": 28.3,
+     "scored": false
     },
     {
      "id": "00-0034960",
      "name": "Jakobi Meyers",
      "team": "JAX",
-     "prob": 26.3
+     "prob": 26.3,
+     "scored": false
     },
     {
      "id": "00-0039337",
      "name": "Malik Nabers",
      "team": "NYG",
-     "prob": 24.9
+     "prob": 24.9,
+     "scored": true
     },
     {
      "id": "00-0038935",
      "name": "Brenton Strange",
      "team": "JAX",
-     "prob": 24.2
+     "prob": 24.2,
+     "scored": false
     },
     {
      "id": "00-0035250",
      "name": "Devin Singletary",
      "team": "NYG",
-     "prob": 19.2
+     "prob": 19.2,
+     "scored": false
     },
     {
      "id": "00-0039893",
      "name": "Brian Thomas Jr.",
      "team": "JAX",
-     "prob": 17.9
+     "prob": 17.9,
+     "scored": true
     },
     {
      "id": "00-0041042",
      "name": "Malachi Fields",
      "team": "NYG",
-     "prob": 17.7
+     "prob": 17.7,
+     "scored": false
     },
     {
      "id": "00-0036309",
      "name": "Darnell Mooney",
      "team": "NYG",
-     "prob": 10.0
+     "prob": 10.0,
+     "scored": false
     }
-   ]
+   ],
+   "result": "D",
+   "score": "18-23",
+   "close_mkt": 70.3
   },
   "2026_11_NYJ_LAC": {
    "season": 2026,
@@ -2609,73 +2624,85 @@
      "id": "00-0040666",
      "name": "Omarion Hampton",
      "team": "LAC",
-     "prob": 36.9
+     "prob": 36.9,
+     "scored": false
     },
     {
      "id": "00-0037740",
      "name": "Garrett Wilson",
      "team": "NYJ",
-     "prob": 33.3
+     "prob": 33.3,
+     "scored": false
     },
     {
      "id": "00-0039794",
      "name": "Braelon Allen",
      "team": "NYJ",
-     "prob": 31.8
+     "prob": 31.8,
+     "scored": false
     },
     {
      "id": "00-0039890",
      "name": "Adonai Mitchell",
      "team": "NYJ",
-     "prob": 25.3
+     "prob": 25.3,
+     "scored": false
     },
     {
      "id": "00-0038544",
      "name": "Quentin Johnston",
      "team": "LAC",
-     "prob": 22.0
+     "prob": 22.0,
+     "scored": false
     },
     {
      "id": "00-0038120",
      "name": "Breece Hall",
      "team": "NYJ",
-     "prob": 21.4
+     "prob": 21.4,
+     "scored": true
     },
     {
      "id": "00-0039391",
      "name": "Kimani Vidal",
      "team": "LAC",
-     "prob": 20.9
+     "prob": 20.9,
+     "scored": false
     },
     {
      "id": "00-0040727",
      "name": "Tre Harris",
      "team": "LAC",
-     "prob": 20.1
+     "prob": 20.1,
+     "scored": false
     },
     {
      "id": "00-0040736",
      "name": "Mason Taylor",
      "team": "NYJ",
-     "prob": 19.0
+     "prob": 19.0,
+     "scored": false
     },
     {
      "id": "00-0036355",
      "name": "Justin Herbert",
      "team": "LAC",
-     "prob": 17.8
+     "prob": 17.8,
+     "scored": true
     },
     {
      "id": "00-0038454",
      "name": "Keaton Mitchell",
      "team": "LAC",
-     "prob": 16.7
+     "prob": 16.7,
+     "scored": false
     },
     {
      "id": "00-0041032",
      "name": "Kenyon Sadiq",
      "team": "NYJ",
-     "prob": 13.3
+     "prob": 13.3,
+     "scored": false
     }
    ],
    "result": "D",
@@ -2702,75 +2729,90 @@
      "id": "00-0041496",
      "name": "Jonah Coleman",
      "team": "DEN",
-     "prob": 50.5
+     "prob": 50.5,
+     "scored": true
     },
     {
      "id": "00-0034348",
      "name": "Courtland Sutton",
      "team": "DEN",
-     "prob": 35.0
+     "prob": 35.0,
+     "scored": false
     },
     {
      "id": "00-0036158",
      "name": "J.K. Dobbins",
      "team": "DEN",
-     "prob": 30.3
+     "prob": 30.3,
+     "scored": false
     },
     {
      "id": "00-0040134",
      "name": "Pat Bryant",
      "team": "DEN",
-     "prob": 25.2
+     "prob": 25.2,
+     "scored": false
     },
     {
      "id": "00-0040122",
      "name": "Ashton Jeanty",
      "team": "LV",
-     "prob": 24.4
+     "prob": 24.4,
+     "scored": true
     },
     {
      "id": "00-0039732",
      "name": "Bo Nix",
      "team": "DEN",
-     "prob": 21.8
+     "prob": 21.8,
+     "scored": false
     },
     {
      "id": "00-0036613",
      "name": "Jaylen Waddle",
      "team": "DEN",
-     "prob": 19.8
+     "prob": 19.8,
+     "scored": false
     },
     {
      "id": "00-0038563",
      "name": "Tre Tucker",
      "team": "LV",
-     "prob": 15.3
+     "prob": 15.3,
+     "scored": false
     },
     {
      "id": "00-0037291",
      "name": "Jalen Nailor",
      "team": "LV",
-     "prob": 13.1
+     "prob": 13.1,
+     "scored": false
     },
     {
      "id": "00-0039338",
      "name": "Brock Bowers",
      "team": "LV",
-     "prob": 12.8
+     "prob": 12.8,
+     "scored": false
     },
     {
      "id": "00-0040878",
      "name": "Mike Washington Jr.",
      "team": "LV",
-     "prob": 12.0
+     "prob": 12.0,
+     "scored": false
     },
     {
      "id": "00-0039066",
      "name": "Michael Mayer",
      "team": "LV",
-     "prob": 10.7
+     "prob": 10.7,
+     "scored": false
     }
-   ]
+   ],
+   "result": "V",
+   "score": "24-38",
+   "close_mkt": 84.6
   },
   "2026_11_PIT_PHI": {
    "season": 2026,
@@ -2981,7 +3023,7 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 72.4,
-   "closed_at": "2026-11-23T00:07+00:00",
+   "closed_at": "2026-11-23T02:45+00:00",
    "scorers": [
     {
      "id": "00-0038597",
@@ -3055,11 +3097,7 @@
      "team": "WAS",
      "prob": 17.6
     }
-   ],
-   "wind_total": {
-    "line": 54.5,
-    "wind": 22
-   }
+   ]
   }
  }
 }
