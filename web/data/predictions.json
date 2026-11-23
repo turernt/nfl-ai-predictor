@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T00:05:28+00:00",
+  "generated_at": "2026-11-23T00:07:57+00:00",
   "season": 2026,
   "week": 11,
   "week_label": "Semaine 11",
@@ -19510,7 +19510,7 @@
     "type": "consensus",
     "games": 2,
     "books": 29,
-    "status": "live",
+    "status": "cache",
     "fetched_at": "2026-11-23T00:05:25+00:00",
     "credits": "404"
   },
@@ -28897,7 +28897,7 @@
     }
   ],
   "studies": {
-    "generated_at": "2026-11-23T00:05:28+00:00",
+    "generated_at": "2026-11-23T00:07:57+00:00",
     "spread_sd": {
       "best_sd": 11.0,
       "games": 2909
