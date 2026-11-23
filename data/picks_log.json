@@ -2939,75 +2939,90 @@
      "id": "00-0033280",
      "name": "Christian McCaffrey",
      "team": "SF",
-     "prob": 56.9
+     "prob": 56.9,
+     "scored": true
     },
     {
      "id": "00-0036322",
      "name": "Justin Jefferson",
      "team": "MIN",
-     "prob": 34.8
+     "prob": 34.8,
+     "scored": false
     },
     {
      "id": "00-0033288",
      "name": "George Kittle",
      "team": "SF",
-     "prob": 32.0
+     "prob": 32.0,
+     "scored": true
     },
     {
      "id": "00-0033293",
      "name": "Aaron Jones",
      "team": "MIN",
-     "prob": 27.1
+     "prob": 27.1,
+     "scored": true
     },
     {
      "id": "00-0035719",
      "name": "Deebo Samuel Sr.",
      "team": "SF",
-     "prob": 26.7
+     "prob": 26.7,
+     "scored": false
     },
     {
      "id": "00-0029892",
      "name": "Kyle Juszczyk",
      "team": "SF",
-     "prob": 24.8
+     "prob": 24.8,
+     "scored": false
     },
     {
      "id": "00-0041052",
      "name": "Kaelon Black",
      "team": "SF",
-     "prob": 23.7
+     "prob": 23.7,
+     "scored": false
     },
     {
      "id": "00-0035229",
      "name": "T.J. Hockenson",
      "team": "MIN",
-     "prob": 22.8
+     "prob": 22.8,
+     "scored": false
     },
     {
      "id": "00-0029604",
      "name": "Kirk Cousins",
      "team": "MIN",
-     "prob": 19.9
+     "prob": 19.9,
+     "scored": false
     },
     {
      "id": "00-0037834",
      "name": "Brock Purdy",
      "team": "SF",
-     "prob": 18.8
+     "prob": 18.8,
+     "scored": false
     },
     {
      "id": "00-0037525",
      "name": "Jordan Mason",
      "team": "MIN",
-     "prob": 17.7
+     "prob": 17.7,
+     "scored": false
     },
     {
      "id": "00-0040215",
      "name": "Gavin Bartholomew",
      "team": "MIN",
-     "prob": 12.8
+     "prob": 12.8,
+     "scored": false
     }
-   ]
+   ],
+   "result": "V",
+   "score": "10-35",
+   "close_mkt": 65.0
   },
   "2026_11_CIN_WAS": {
    "season": 2026,
@@ -3023,7 +3038,7 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 72.4,
-   "closed_at": "2026-11-23T02:45+00:00",
+   "closed_at": "2026-11-23T15:58+00:00",
    "scorers": [
     {
      "id": "00-0038597",
@@ -3097,7 +3112,11 @@
      "team": "WAS",
      "prob": 17.6
     }
-   ]
+   ],
+   "wind_total": {
+    "line": 54.5,
+    "wind": 19
+   }
   }
  }
 }
