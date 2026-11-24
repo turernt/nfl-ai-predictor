@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T02:34:39+00:00",
+  "generated_at": "2026-11-24T02:54:18+00:00",
   "season": 2026,
   "week": 11,
   "week_label": "Semaine 11",
@@ -18037,7 +18037,7 @@
     "type": "nflverse",
     "games": 0,
     "books": 0,
-    "status": "live",
+    "status": "cache",
     "fetched_at": "2026-11-24T02:34:36+00:00",
     "credits": "398"
   },
@@ -26589,7 +26589,7 @@
     }
   ],
   "studies": {
-    "generated_at": "2026-11-24T02:34:39+00:00",
+    "generated_at": "2026-11-24T02:54:18+00:00",
     "spread_sd": {
       "best_sd": 11.0,
       "games": 2912
