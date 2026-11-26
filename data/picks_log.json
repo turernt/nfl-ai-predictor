@@ -3147,80 +3147,80 @@
     "price": 1.65,
     "book": "Betclic (FR)"
    },
-   "close_prob": 55.8,
-   "closed_at": "2026-11-25T15:36+00:00",
+   "close_prob": 56.5,
+   "closed_at": "2026-11-26T00:20+00:00",
    "scorers": [
     {
      "id": "00-0037840",
      "name": "Kyren Williams",
      "team": "LA",
-     "prob": 46.9
+     "prob": 46.0
     },
     {
      "id": "00-0039738",
      "name": "Blake Corum",
      "team": "LA",
-     "prob": 36.5
+     "prob": 35.7
     },
     {
      "id": "00-0040667",
      "name": "Matthew Golden",
      "team": "GB",
-     "prob": 32.9
+     "prob": 32.1
     },
     {
      "id": "00-0038996",
      "name": "Tucker Kraft",
      "team": "GB",
-     "prob": 26.7
+     "prob": 26.0
     },
     {
      "id": "00-0038124",
      "name": "Christian Watson",
      "team": "GB",
-     "prob": 26.7
+     "prob": 26.0
     },
     {
      "id": "00-0035700",
      "name": "Josh Jacobs",
      "team": "GB",
-     "prob": 24.2
+     "prob": 23.6
     },
     {
      "id": "00-0033110",
      "name": "Tyler Higbee",
      "team": "LA",
-     "prob": 23.7
+     "prob": 23.2
     },
     {
      "id": "00-0036244",
      "name": "Colby Parkinson",
      "team": "LA",
-     "prob": 22.3
+     "prob": 21.7
     },
     {
      "id": "00-0039074",
      "name": "Davis Allen",
      "team": "LA",
-     "prob": 21.3
+     "prob": 20.8
     },
     {
      "id": "00-0039811",
      "name": "MarShawn Lloyd",
      "team": "GB",
-     "prob": 16.3
+     "prob": 15.8
     },
     {
      "id": "00-0040142",
      "name": "Kaleb Johnson",
      "team": "GB",
-     "prob": 13.9
+     "prob": 13.5
     },
     {
      "id": "00-0041399",
      "name": "CJ Daniels",
      "team": "LA",
-     "prob": 13.5
+     "prob": 13.2
     }
    ]
   },
@@ -3237,8 +3237,8 @@
     "price": 1.65,
     "book": "Betclic (FR)"
    },
-   "close_prob": 52.7,
-   "closed_at": "2026-11-25T15:36+00:00",
+   "close_prob": 52.4,
+   "closed_at": "2026-11-26T00:20+00:00",
    "scorers": [
     {
      "id": "00-0039139",
@@ -3328,79 +3328,79 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 79.7,
-   "closed_at": "2026-11-25T15:36+00:00",
+   "closed_at": "2026-11-26T00:20+00:00",
    "scorers": [
     {
      "id": "00-0036997",
      "name": "Javonte Williams",
      "team": "DAL",
-     "prob": 62.8
+     "prob": 62.2
     },
     {
      "id": "00-0036358",
      "name": "CeeDee Lamb",
      "team": "DAL",
-     "prob": 49.2
+     "prob": 48.5
     },
     {
      "id": "00-0037247",
      "name": "George Pickens",
      "team": "DAL",
-     "prob": 42.9
+     "prob": 42.2
     },
     {
      "id": "00-0034844",
      "name": "Saquon Barkley",
      "team": "PHI",
-     "prob": 33.1
+     "prob": 32.3
     },
     {
      "id": "00-0039410",
      "name": "Ryan Flournoy",
      "team": "DAL",
-     "prob": 32.5
+     "prob": 31.9
     },
     {
      "id": "00-0040024",
      "name": "Darius Cooper",
      "team": "PHI",
-     "prob": 23.5
-    },
-    {
-     "id": "00-0036912",
-     "name": "DeVonta Smith",
-     "team": "PHI",
-     "prob": 23.0
+     "prob": 22.8
     },
     {
      "id": "00-0033077",
      "name": "Dak Prescott",
      "team": "DAL",
-     "prob": 22.9
+     "prob": 22.5
+    },
+    {
+     "id": "00-0036912",
+     "name": "DeVonta Smith",
+     "team": "PHI",
+     "prob": 22.3
     },
     {
      "id": "00-0040867",
      "name": "Makai Lemon",
      "team": "PHI",
-     "prob": 22.2
+     "prob": 21.6
     },
     {
      "id": "00-0038041",
      "name": "Jake Ferguson",
      "team": "DAL",
-     "prob": 21.1
+     "prob": 20.6
     },
     {
      "id": "00-0034351",
      "name": "Dallas Goedert",
      "team": "PHI",
-     "prob": 19.3
+     "prob": 18.7
     },
     {
      "id": "00-0039746",
      "name": "Will Shipley",
      "team": "PHI",
-     "prob": 14.4
+     "prob": 13.9
     }
    ]
   },
@@ -3418,7 +3418,7 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 58.0,
-   "closed_at": "2026-11-25T15:36+00:00",
+   "closed_at": "2026-11-26T00:20+00:00",
    "scorers": [
     {
      "id": "00-0038134",
@@ -3492,7 +3492,11 @@
      "team": "KC",
      "prob": 15.7
     }
-   ]
+   ],
+   "wind_total": {
+    "line": 46.5,
+    "wind": 36
+   }
   },
   "2026_12_DEN_PIT": {
    "season": 2026,
@@ -3507,8 +3511,8 @@
     "price": 1.62,
     "book": "Betclic (FR)"
    },
-   "close_prob": 64.4,
-   "closed_at": "2026-11-25T15:36+00:00",
+   "close_prob": 65.5,
+   "closed_at": "2026-11-26T00:20+00:00",
    "scorers": [
     {
      "id": "00-0041496",
@@ -3582,7 +3586,11 @@
      "team": "PIT",
      "prob": 12.8
     }
-   ]
+   ],
+   "wind_total": {
+    "line": 36.5,
+    "wind": 20
+   }
   },
   "2026_12_NO_CIN": {
    "season": 2026,
@@ -3595,79 +3603,79 @@
    "open_prob": 84.2,
    "open_fr": null,
    "close_prob": 82.8,
-   "closed_at": "2026-11-25T15:36+00:00",
+   "closed_at": "2026-11-26T00:20+00:00",
    "scorers": [
     {
      "id": "00-0038597",
      "name": "Chase Brown",
      "team": "CIN",
-     "prob": 53.0
+     "prob": 52.4
     },
     {
      "id": "00-0036900",
      "name": "Ja'Marr Chase",
      "team": "CIN",
-     "prob": 48.6
+     "prob": 48.0
     },
     {
      "id": "00-0036410",
      "name": "Tee Higgins",
      "team": "CIN",
-     "prob": 45.0
+     "prob": 44.4
     },
     {
      "id": "00-0033526",
      "name": "Samaje Perine",
      "team": "CIN",
-     "prob": 36.8
+     "prob": 36.2
     },
     {
      "id": "00-0039424",
      "name": "Devaughn Vele",
      "team": "NO",
-     "prob": 25.8
+     "prob": 25.1
     },
     {
      "id": "00-0034829",
      "name": "Mike Gesicki",
      "team": "CIN",
-     "prob": 24.8
+     "prob": 24.3
     },
     {
      "id": "00-0037239",
      "name": "Chris Olave",
      "team": "NO",
-     "prob": 24.3
+     "prob": 23.6
     },
     {
      "id": "00-0036442",
      "name": "Joe Burrow",
      "team": "CIN",
-     "prob": 23.9
+     "prob": 23.4
     },
     {
      "id": "00-0039373",
      "name": "Audric Estime",
      "team": "NO",
-     "prob": 23.2
+     "prob": 22.5
     },
     {
      "id": "00-0033906",
      "name": "Alvin Kamara",
      "team": "NO",
-     "prob": 23.0
+     "prob": 22.3
     },
     {
      "id": "00-0040743",
      "name": "Tyler Shough",
      "team": "NO",
-     "prob": 20.4
+     "prob": 19.8
     },
     {
      "id": "00-0036973",
      "name": "Travis Etienne",
      "team": "NO",
-     "prob": 18.8
+     "prob": 18.2
     }
    ]
   },
@@ -3684,80 +3692,80 @@
     "price": 1.3,
     "book": "Betclic (FR)"
    },
-   "close_prob": 73.9,
-   "closed_at": "2026-11-25T15:36+00:00",
+   "close_prob": 73.7,
+   "closed_at": "2026-11-26T00:20+00:00",
    "scorers": [
+    {
+     "id": "00-0032764",
+     "name": "Derrick Henry",
+     "team": "BAL",
+     "prob": 40.5
+    },
     {
      "id": "00-0035685",
      "name": "David Montgomery",
      "team": "HOU",
-     "prob": 40.8
+     "prob": 40.3
     },
     {
      "id": "00-0040583",
      "name": "Woody Marks",
      "team": "HOU",
-     "prob": 40.2
-    },
-    {
-     "id": "00-0032764",
-     "name": "Derrick Henry",
-     "team": "BAL",
-     "prob": 39.9
+     "prob": 39.7
     },
     {
      "id": "00-0036554",
      "name": "Nico Collins",
      "team": "HOU",
-     "prob": 38.3
+     "prob": 38.0
     },
     {
      "id": "00-0038618",
      "name": "Xavier Hutchinson",
      "team": "HOU",
-     "prob": 31.9
+     "prob": 31.6
     },
     {
      "id": "00-0039064",
      "name": "Zay Flowers",
      "team": "BAL",
-     "prob": 23.0
+     "prob": 23.4
     },
     {
      "id": "00-0038608",
      "name": "Kayshon Boutte",
      "team": "HOU",
-     "prob": 21.9
+     "prob": 21.7
     },
     {
      "id": "00-0034975",
      "name": "Justice Hill",
      "team": "BAL",
-     "prob": 20.9
+     "prob": 21.3
     },
     {
      "id": "00-0034383",
      "name": "Dalton Schultz",
      "team": "HOU",
-     "prob": 19.7
+     "prob": 19.4
     },
     {
      "id": "00-0036550",
      "name": "Rashod Bateman",
      "team": "BAL",
-     "prob": 18.5
+     "prob": 18.8
     },
     {
      "id": "00-0034753",
      "name": "Mark Andrews",
      "team": "BAL",
-     "prob": 13.3
+     "prob": 13.5
     },
     {
      "id": "00-0033119",
      "name": "Jacoby Brissett",
      "team": "BAL",
-     "prob": 13.1
+     "prob": 13.3
     }
    ]
   },
@@ -3774,8 +3782,8 @@
     "price": 1.28,
     "book": "Betclic (FR)"
    },
-   "close_prob": 73.7,
-   "closed_at": "2026-11-25T15:36+00:00",
+   "close_prob": 73.0,
+   "closed_at": "2026-11-26T00:20+00:00",
    "scorers": [
     {
      "id": "00-0040715",
@@ -3864,80 +3872,80 @@
     "price": 1.45,
     "book": "Betclic (FR)"
    },
-   "close_prob": 65.2,
-   "closed_at": "2026-11-25T15:36+00:00",
+   "close_prob": 67.4,
+   "closed_at": "2026-11-26T00:20+00:00",
    "scorers": [
     {
      "id": "00-0040198",
      "name": "Ollie Gordon II",
      "team": "MIA",
-     "prob": 38.7
+     "prob": 37.4
     },
     {
      "id": "00-0038120",
      "name": "Breece Hall",
      "team": "NYJ",
-     "prob": 34.5
+     "prob": 35.5
     },
     {
      "id": "00-0037740",
      "name": "Garrett Wilson",
      "team": "NYJ",
-     "prob": 33.8
+     "prob": 34.6
     },
     {
      "id": "00-0039794",
      "name": "Braelon Allen",
      "team": "NYJ",
-     "prob": 32.6
+     "prob": 33.6
     },
     {
      "id": "00-0041511",
      "name": "Omar Cooper Jr.",
      "team": "NYJ",
-     "prob": 24.3
-    },
-    {
-     "id": "00-0041523",
-     "name": "Caleb Douglas",
-     "team": "MIA",
-     "prob": 23.6
+     "prob": 25.0
     },
     {
      "id": "00-0039890",
      "name": "Adonai Mitchell",
      "team": "NYJ",
-     "prob": 22.6
+     "prob": 23.2
+    },
+    {
+     "id": "00-0041523",
+     "name": "Caleb Douglas",
+     "team": "MIA",
+     "prob": 22.8
     },
     {
      "id": "00-0039880",
      "name": "Malik Washington",
      "team": "MIA",
-     "prob": 22.1
+     "prob": 21.4
     },
     {
      "id": "00-0040736",
      "name": "Mason Taylor",
      "team": "NYJ",
-     "prob": 19.2
+     "prob": 19.7
     },
     {
      "id": "00-0040014",
      "name": "Kyle McCord",
      "team": "MIA",
-     "prob": 14.5
+     "prob": 14.1
     },
     {
      "id": "00-0037252",
      "name": "Greg Dulcich",
      "team": "MIA",
-     "prob": 11.7
+     "prob": 11.3
     },
     {
      "id": "00-0041529",
      "name": "Kevin Coleman Jr.",
      "team": "MIA",
-     "prob": 10.0
+     "prob": 9.6
     }
    ]
   },
@@ -3955,79 +3963,79 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 74.2,
-   "closed_at": "2026-11-25T15:36+00:00",
+   "closed_at": "2026-11-26T00:20+00:00",
    "scorers": [
     {
      "id": "00-0038542",
      "name": "Bijan Robinson",
      "team": "ATL",
-     "prob": 39.4
+     "prob": 40.0
     },
     {
      "id": "00-0036322",
      "name": "Justin Jefferson",
      "team": "MIN",
-     "prob": 38.3
+     "prob": 37.9
     },
     {
      "id": "00-0033293",
      "name": "Aaron Jones",
      "team": "MIN",
-     "prob": 35.8
+     "prob": 35.3
     },
     {
      "id": "00-0035229",
      "name": "T.J. Hockenson",
      "team": "MIN",
-     "prob": 24.4
+     "prob": 24.1
     },
     {
      "id": "00-0038994",
      "name": "Jordan Addison",
      "team": "MIN",
-     "prob": 23.2
+     "prob": 22.9
     },
     {
      "id": "00-0037525",
      "name": "Jordan Mason",
      "team": "MIN",
-     "prob": 22.3
-    },
-    {
-     "id": "00-0029604",
-     "name": "Kirk Cousins",
-     "team": "MIN",
-     "prob": 20.7
+     "prob": 21.9
     },
     {
      "id": "00-0037238",
      "name": "Drake London",
      "team": "ATL",
-     "prob": 20.4
+     "prob": 20.8
+    },
+    {
+     "id": "00-0029604",
+     "name": "Kirk Cousins",
+     "team": "MIN",
+     "prob": 20.5
     },
     {
      "id": "00-0036970",
      "name": "Kyle Pitts",
      "team": "ATL",
-     "prob": 17.3
+     "prob": 17.6
     },
     {
      "id": "00-0037741",
      "name": "Jahan Dotson",
      "team": "ATL",
-     "prob": 15.4
+     "prob": 15.7
     },
     {
      "id": "00-0036429",
      "name": "Charlie Woerner",
      "team": "ATL",
-     "prob": 11.3
+     "prob": 11.5
     },
     {
      "id": "00-0035208",
      "name": "Olamide Zaccheaus",
      "team": "ATL",
-     "prob": 8.2
+     "prob": 8.4
     }
    ]
   },
@@ -4045,7 +4053,7 @@
     "book": "Betclic (FR)"
    },
    "close_prob": 90.0,
-   "closed_at": "2026-11-25T15:36+00:00",
+   "closed_at": "2026-11-26T00:20+00:00",
    "scorers": [
     {
      "id": "00-0040719",
@@ -4134,80 +4142,80 @@
     "price": 1.8,
     "book": "Betclic (FR)"
    },
-   "close_prob": 50.6,
-   "closed_at": "2026-11-25T15:36+00:00",
+   "close_prob": 48.5,
+   "closed_at": "2026-11-26T00:20+00:00",
    "scorers": [
-    {
-     "id": "00-0040666",
-     "name": "Omarion Hampton",
-     "team": "LAC",
-     "prob": 26.9
-    },
     {
      "id": "00-0036875",
      "name": "Rhamondre Stevenson",
      "team": "NE",
-     "prob": 26.2
+     "prob": 28.3
+    },
+    {
+     "id": "00-0040666",
+     "name": "Omarion Hampton",
+     "team": "LAC",
+     "prob": 24.8
     },
     {
      "id": "00-0039915",
      "name": "Ladd McConkey",
      "team": "LAC",
-     "prob": 22.4
+     "prob": 20.8
     },
     {
      "id": "00-0033555",
      "name": "Mack Hollins",
      "team": "NE",
-     "prob": 18.4
-    },
-    {
-     "id": "00-0038544",
-     "name": "Quentin Johnston",
-     "team": "LAC",
-     "prob": 16.4
-    },
-    {
-     "id": "00-0036355",
-     "name": "Justin Herbert",
-     "team": "LAC",
-     "prob": 15.7
-    },
-    {
-     "id": "00-0039391",
-     "name": "Kimani Vidal",
-     "team": "LAC",
-     "prob": 15.0
+     "prob": 19.8
     },
     {
      "id": "00-0038621",
      "name": "DeMario Douglas",
      "team": "NE",
-     "prob": 14.1
+     "prob": 15.2
     },
     {
-     "id": "00-0040727",
-     "name": "Tre Harris",
+     "id": "00-0038544",
+     "name": "Quentin Johnston",
      "team": "LAC",
-     "prob": 12.9
+     "prob": 15.2
+    },
+    {
+     "id": "00-0036355",
+     "name": "Justin Herbert",
+     "team": "LAC",
+     "prob": 14.8
     },
     {
      "id": "00-0041395",
      "name": "Eli Raridon",
      "team": "NE",
-     "prob": 12.8
+     "prob": 13.8
+    },
+    {
+     "id": "00-0039391",
+     "name": "Kimani Vidal",
+     "team": "LAC",
+     "prob": 13.7
     },
     {
      "id": "00-0033090",
      "name": "Hunter Henry",
      "team": "NE",
-     "prob": 11.5
+     "prob": 12.4
     },
     {
      "id": "00-0040563",
      "name": "Efton Chism III",
      "team": "NE",
-     "prob": 11.1
+     "prob": 12.0
+    },
+    {
+     "id": "00-0040727",
+     "name": "Tre Harris",
+     "team": "LAC",
+     "prob": 12.0
     }
    ]
   },
@@ -4222,7 +4230,7 @@
    "open_prob": 78.4,
    "open_fr": null,
    "close_prob": 75.6,
-   "closed_at": "2026-11-25T15:36+00:00",
+   "closed_at": "2026-11-26T00:20+00:00",
    "scorers": [
     {
      "id": "00-0040242",
@@ -4311,80 +4319,80 @@
     "price": 1.52,
     "book": "Betclic (FR)"
    },
-   "close_prob": 61.1,
-   "closed_at": "2026-11-25T15:36+00:00",
+   "close_prob": 57.1,
+   "closed_at": "2026-11-26T00:20+00:00",
    "scorers": [
     {
      "id": "00-0033280",
      "name": "Christian McCaffrey",
      "team": "SF",
-     "prob": 55.4
+     "prob": 54.0
     },
     {
      "id": "00-0038543",
      "name": "Jaxon Smith-Njigba",
      "team": "SEA",
-     "prob": 35.5
+     "prob": 35.1
     },
     {
      "id": "00-0033288",
      "name": "George Kittle",
      "team": "SF",
-     "prob": 33.8
+     "prob": 32.7
     },
     {
      "id": "00-0039793",
      "name": "AJ Barner",
      "team": "SEA",
-     "prob": 31.1
+     "prob": 30.8
     },
     {
      "id": "00-0038797",
      "name": "Emanuel Wilson",
      "team": "SEA",
-     "prob": 27.7
+     "prob": 27.5
     },
     {
      "id": "00-0039165",
      "name": "Zach Charbonnet",
      "team": "SEA",
-     "prob": 25.9
+     "prob": 25.7
     },
     {
      "id": "00-0033908",
      "name": "Cooper Kupp",
      "team": "SEA",
-     "prob": 23.1
+     "prob": 22.8
     },
     {
      "id": "00-0035719",
      "name": "Deebo Samuel Sr.",
      "team": "SF",
-     "prob": 22.6
+     "prob": 21.8
     },
     {
      "id": "00-0041052",
      "name": "Kaelon Black",
      "team": "SF",
-     "prob": 21.4
+     "prob": 20.5
     },
     {
      "id": "00-0029892",
      "name": "Kyle Juszczyk",
      "team": "SF",
-     "prob": 21.3
+     "prob": 20.4
     },
     {
      "id": "00-0031408",
      "name": "Mike Evans",
      "team": "SF",
-     "prob": 20.9
+     "prob": 20.2
     },
     {
      "id": "00-0041512",
      "name": "Jadarian Price",
      "team": "SEA",
-     "prob": 15.9
+     "prob": 15.7
     }
    ]
   },
@@ -4401,80 +4409,80 @@
     "price": 1.4,
     "book": "Betclic (FR)"
    },
-   "close_prob": 67.7,
-   "closed_at": "2026-11-25T15:36+00:00",
+   "close_prob": 68.0,
+   "closed_at": "2026-11-26T00:20+00:00",
    "scorers": [
     {
      "id": "00-0040784",
      "name": "Quinshon Judkins",
      "team": "CLE",
-     "prob": 39.0
+     "prob": 38.2
     },
     {
      "id": "00-0040122",
      "name": "Ashton Jeanty",
      "team": "LV",
-     "prob": 34.2
+     "prob": 33.3
     },
     {
      "id": "00-0041037",
      "name": "Denzel Boston",
      "team": "CLE",
-     "prob": 32.6
+     "prob": 31.8
     },
     {
      "id": "00-0040663",
      "name": "Harold Fannin Jr.",
      "team": "CLE",
-     "prob": 30.3
+     "prob": 29.6
     },
     {
      "id": "00-0041547",
      "name": "KC Concepcion",
      "team": "CLE",
-     "prob": 27.4
+     "prob": 26.8
     },
     {
      "id": "00-0039338",
      "name": "Brock Bowers",
      "team": "LV",
-     "prob": 21.5
+     "prob": 20.7
     },
     {
      "id": "00-0038563",
      "name": "Tre Tucker",
      "team": "LV",
-     "prob": 18.1
+     "prob": 17.5
     },
     {
      "id": "00-0033537",
      "name": "Deshaun Watson",
      "team": "CLE",
-     "prob": 17.8
+     "prob": 17.3
     },
     {
      "id": "00-0040162",
      "name": "Dylan Sampson",
      "team": "CLE",
-     "prob": 17.5
+     "prob": 17.1
     },
     {
      "id": "00-0037291",
      "name": "Jalen Nailor",
      "team": "LV",
-     "prob": 16.7
+     "prob": 16.1
     },
     {
      "id": "00-0040729",
      "name": "Jack Bech",
      "team": "LV",
-     "prob": 14.8
+     "prob": 14.3
     },
     {
      "id": "00-0040878",
      "name": "Mike Washington Jr.",
      "team": "LV",
-     "prob": 13.9
+     "prob": 13.4
     }
    ]
   },
@@ -4491,8 +4499,8 @@
     "price": 1.6,
     "book": "Betclic (FR)"
    },
-   "close_prob": 59.1,
-   "closed_at": "2026-11-25T15:36+00:00",
+   "close_prob": 59.5,
+   "closed_at": "2026-11-26T00:20+00:00",
    "scorers": [
     {
      "id": "00-0036555",
