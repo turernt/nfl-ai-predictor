@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T00:05:19+00:00",
+  "generated_at": "2026-11-27T00:35:37+00:00",
   "season": 2026,
   "week": 12,
   "week_label": "Semaine 12",
@@ -10981,7 +10981,7 @@
       "model_spread": -3.4,
       "model_prob_home": 61.5,
       "vegas_spread": -3.0,
-      "vegas_total": 46.5,
+      "vegas_total": 45.5,
       "odds": {
         "n_books": 29,
         "books": [
@@ -11232,8 +11232,8 @@
         "fair_away": 2.48
       },
       "projected_score": {
-        "home": 25,
-        "away": 22
+        "home": 24,
+        "away": 21
       },
       "confidence_score": "Faible",
       "tier": "Serré",
@@ -11261,7 +11261,7 @@
           "team": "BUF",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/anjbznqb9i21wzcgrtbs",
-          "prob": 48.5,
+          "prob": 47.7,
           "season_tds": 10,
           "status": null,
           "games": 10,
@@ -11328,7 +11328,7 @@
           "team": "KC",
           "position": "RB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/avdz4njz1slqn7ktqcuq",
-          "prob": 40.9,
+          "prob": 40.0,
           "season_tds": 5,
           "status": null,
           "games": 10,
@@ -11395,7 +11395,7 @@
           "team": "BUF",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ynrhq9iv30ysjpwmrfdv",
-          "prob": 33.7,
+          "prob": 33.0,
           "season_tds": 11,
           "status": null,
           "games": 10,
@@ -11462,7 +11462,7 @@
           "team": "BUF",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tmiale9dvql5ol2xmhf1",
-          "prob": 30.6,
+          "prob": 29.9,
           "season_tds": 4,
           "status": null,
           "games": 8,
@@ -11529,7 +11529,7 @@
           "team": "KC",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/u6fmnffwteccoxn3uguq",
-          "prob": 23.0,
+          "prob": 22.4,
           "season_tds": 2,
           "status": null,
           "games": 10,
@@ -11591,79 +11591,12 @@
           "scored_last": 1
         },
         {
-          "player_id": "00-0030506",
-          "name": "Travis Kelce",
-          "team": "KC",
-          "position": "TE",
-          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dpxovcfku6ud2aohgf6a",
-          "prob": 22.5,
-          "season_tds": 5,
-          "status": null,
-          "games": 10,
-          "snap": 64,
-          "xtd": 0.29,
-          "depth": "TE1",
-          "form": [
-            {
-              "week": 7,
-              "opp": "SEA",
-              "car": 0,
-              "tgt": 8,
-              "rec": 4,
-              "yds": 44,
-              "td": 0,
-              "snap": 83
-            },
-            {
-              "week": 8,
-              "opp": "DEN",
-              "car": 0,
-              "tgt": 7,
-              "rec": 5,
-              "yds": 67,
-              "td": 0,
-              "snap": 78
-            },
-            {
-              "week": 9,
-              "opp": "NYJ",
-              "car": 1,
-              "tgt": 6,
-              "rec": 4,
-              "yds": 73,
-              "td": 1,
-              "snap": 70
-            },
-            {
-              "week": 10,
-              "opp": "ATL",
-              "car": 0,
-              "tgt": 2,
-              "rec": 2,
-              "yds": 30,
-              "td": 0,
-              "snap": 31
-            },
-            {
-              "week": 11,
-              "opp": "ARI",
-              "car": 0,
-              "tgt": 7,
-              "rec": 6,
-              "yds": 74,
-              "td": 2,
-              "snap": 72
-            }
-          ],
-          "scored_last": 2
-        },
-        {
           "player_id": "00-0039901",
           "name": "Keon Coleman",
           "team": "BUF",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/garesglkqop2fvgc5bgh",
-          "prob": 22.5,
+          "prob": 21.9,
           "season_tds": 3,
           "status": null,
           "games": 10,
@@ -11725,12 +11658,79 @@
           "scored_last": 1
         },
         {
+          "player_id": "00-0030506",
+          "name": "Travis Kelce",
+          "team": "KC",
+          "position": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dpxovcfku6ud2aohgf6a",
+          "prob": 21.8,
+          "season_tds": 5,
+          "status": null,
+          "games": 10,
+          "snap": 64,
+          "xtd": 0.29,
+          "depth": "TE1",
+          "form": [
+            {
+              "week": 7,
+              "opp": "SEA",
+              "car": 0,
+              "tgt": 8,
+              "rec": 4,
+              "yds": 44,
+              "td": 0,
+              "snap": 83
+            },
+            {
+              "week": 8,
+              "opp": "DEN",
+              "car": 0,
+              "tgt": 7,
+              "rec": 5,
+              "yds": 67,
+              "td": 0,
+              "snap": 78
+            },
+            {
+              "week": 9,
+              "opp": "NYJ",
+              "car": 1,
+              "tgt": 6,
+              "rec": 4,
+              "yds": 73,
+              "td": 1,
+              "snap": 70
+            },
+            {
+              "week": 10,
+              "opp": "ATL",
+              "car": 0,
+              "tgt": 2,
+              "rec": 2,
+              "yds": 30,
+              "td": 0,
+              "snap": 31
+            },
+            {
+              "week": 11,
+              "opp": "ARI",
+              "car": 0,
+              "tgt": 7,
+              "rec": 6,
+              "yds": 74,
+              "td": 2,
+              "snap": 72
+            }
+          ],
+          "scored_last": 2
+        },
+        {
           "player_id": "00-0037261",
           "name": "Khalil Shakir",
           "team": "BUF",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ituuwxmqtheiha2kkrvt",
-          "prob": 20.8,
+          "prob": 20.3,
           "season_tds": 1,
           "status": null,
           "games": 10,
@@ -11797,7 +11797,7 @@
           "team": "BUF",
           "position": "TE",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ihlvyh95aub97tfklmr1",
-          "prob": 18.0,
+          "prob": 17.6,
           "season_tds": 1,
           "status": null,
           "games": 10,
@@ -11864,7 +11864,7 @@
           "team": "KC",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qhkbqrydjeur8zvrrmfl",
-          "prob": 15.7,
+          "prob": 15.2,
           "season_tds": 2,
           "status": null,
           "games": 7,
@@ -11931,7 +11931,7 @@
           "team": "KC",
           "position": "WR",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zniq20yhnxjqajqcgfc5",
-          "prob": 15.5,
+          "prob": 15.1,
           "season_tds": 2,
           "status": null,
           "games": 11,
@@ -11998,7 +11998,7 @@
           "team": "KC",
           "position": "QB",
           "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wdckwtob1lybvkmxnf7p",
-          "prob": 9.7,
+          "prob": 9.4,
           "season_tds": 1,
           "status": null,
           "games": 10,
@@ -28384,83 +28384,6 @@
         }
       },
       {
-        "player_id": "00-0037248",
-        "name": "James Cook",
-        "team": "BUF",
-        "position": "RB",
-        "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/anjbznqb9i21wzcgrtbs",
-        "prob": 48.5,
-        "season_tds": 10,
-        "status": null,
-        "games": 10,
-        "snap": 59,
-        "xtd": 0.82,
-        "depth": "RB1",
-        "form": [
-          {
-            "week": 6,
-            "opp": "LV",
-            "car": 22,
-            "tgt": 3,
-            "rec": 3,
-            "yds": 153,
-            "td": 1,
-            "snap": 66
-          },
-          {
-            "week": 8,
-            "opp": "BAL",
-            "car": 21,
-            "tgt": 3,
-            "rec": 2,
-            "yds": 101,
-            "td": 1,
-            "snap": 54
-          },
-          {
-            "week": 9,
-            "opp": "MIN",
-            "car": 31,
-            "tgt": 1,
-            "rec": 0,
-            "yds": 107,
-            "td": 1,
-            "snap": 64
-          },
-          {
-            "week": 10,
-            "opp": "NYJ",
-            "car": 18,
-            "tgt": 1,
-            "rec": 0,
-            "yds": 157,
-            "td": 1,
-            "snap": 61
-          },
-          {
-            "week": 11,
-            "opp": "MIA",
-            "car": 22,
-            "tgt": 2,
-            "rec": 2,
-            "yds": 92,
-            "td": 1,
-            "snap": 53
-          }
-        ],
-        "scored_last": 5,
-        "game_id": "2026_12_KC_BUF",
-        "opponent": "KC",
-        "fair_odds": 2.06,
-        "hist": {
-          "label": "40 à 50 %",
-          "min": 40,
-          "n": 136,
-          "predicted": 44.6,
-          "actual": 44.1
-        }
-      },
-      {
         "player_id": "00-0036900",
         "name": "Ja'Marr Chase",
         "team": "CIN",
@@ -28529,6 +28452,83 @@
         "game_id": "2026_12_NO_CIN",
         "opponent": "NO",
         "fair_odds": 2.08,
+        "hist": {
+          "label": "40 à 50 %",
+          "min": 40,
+          "n": 136,
+          "predicted": 44.6,
+          "actual": 44.1
+        }
+      },
+      {
+        "player_id": "00-0037248",
+        "name": "James Cook",
+        "team": "BUF",
+        "position": "RB",
+        "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/anjbznqb9i21wzcgrtbs",
+        "prob": 47.7,
+        "season_tds": 10,
+        "status": null,
+        "games": 10,
+        "snap": 59,
+        "xtd": 0.82,
+        "depth": "RB1",
+        "form": [
+          {
+            "week": 6,
+            "opp": "LV",
+            "car": 22,
+            "tgt": 3,
+            "rec": 3,
+            "yds": 153,
+            "td": 1,
+            "snap": 66
+          },
+          {
+            "week": 8,
+            "opp": "BAL",
+            "car": 21,
+            "tgt": 3,
+            "rec": 2,
+            "yds": 101,
+            "td": 1,
+            "snap": 54
+          },
+          {
+            "week": 9,
+            "opp": "MIN",
+            "car": 31,
+            "tgt": 1,
+            "rec": 0,
+            "yds": 107,
+            "td": 1,
+            "snap": 64
+          },
+          {
+            "week": 10,
+            "opp": "NYJ",
+            "car": 18,
+            "tgt": 1,
+            "rec": 0,
+            "yds": 157,
+            "td": 1,
+            "snap": 61
+          },
+          {
+            "week": 11,
+            "opp": "MIA",
+            "car": 22,
+            "tgt": 2,
+            "rec": 2,
+            "yds": 92,
+            "td": 1,
+            "snap": 53
+          }
+        ],
+        "scored_last": 5,
+        "game_id": "2026_12_KC_BUF",
+        "opponent": "KC",
+        "fair_odds": 2.1,
         "hist": {
           "label": "40 à 50 %",
           "min": 40,
@@ -28692,74 +28692,74 @@
         }
       },
       {
-        "player_id": "00-0041013",
-        "name": "Emmett Johnson",
-        "team": "KC",
+        "player_id": "00-0032764",
+        "name": "Derrick Henry",
+        "team": "BAL",
         "position": "RB",
-        "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/avdz4njz1slqn7ktqcuq",
-        "prob": 40.9,
-        "season_tds": 5,
+        "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tm79x0iknqg6hms3ypyt",
+        "prob": 40.5,
+        "season_tds": 12,
         "status": null,
-        "games": 10,
-        "snap": 58,
-        "xtd": 0.35,
-        "depth": "RB2",
+        "games": 11,
+        "snap": 52,
+        "xtd": 0.87,
+        "depth": "RB1",
         "form": [
           {
             "week": 7,
-            "opp": "SEA",
-            "car": 0,
-            "tgt": 3,
-            "rec": 2,
-            "yds": 17,
+            "opp": "CIN",
+            "car": 17,
+            "tgt": 2,
+            "rec": 1,
+            "yds": 49,
             "td": 0,
-            "snap": 26
+            "snap": 51
           },
           {
             "week": 8,
-            "opp": "DEN",
-            "car": 1,
-            "tgt": 5,
-            "rec": 5,
-            "yds": 143,
+            "opp": "BUF",
+            "car": 11,
+            "tgt": 2,
+            "rec": 2,
+            "yds": 60,
             "td": 1,
-            "snap": 19
+            "snap": 45
           },
           {
             "week": 9,
-            "opp": "NYJ",
-            "car": 6,
+            "opp": "JAX",
+            "car": 17,
             "tgt": 0,
             "rec": 0,
-            "yds": 34,
-            "td": 1,
-            "snap": 30
+            "yds": 57,
+            "td": 0,
+            "snap": 50
           },
           {
             "week": 10,
-            "opp": "ATL",
-            "car": 22,
-            "tgt": 7,
-            "rec": 6,
-            "yds": 171,
+            "opp": "LAC",
+            "car": 10,
+            "tgt": 5,
+            "rec": 5,
+            "yds": 20,
             "td": 2,
-            "snap": 88
+            "snap": 55
           },
           {
             "week": 11,
-            "opp": "ARI",
-            "car": 23,
-            "tgt": 4,
+            "opp": "CAR",
+            "car": 13,
+            "tgt": 5,
             "rec": 4,
-            "yds": 143,
+            "yds": 111,
             "td": 1,
-            "snap": 82
+            "snap": 49
           }
         ],
-        "scored_last": 4,
-        "game_id": "2026_12_KC_BUF",
-        "opponent": "BUF",
-        "fair_odds": 2.44,
+        "scored_last": 3,
+        "game_id": "2026_12_BAL_HOU",
+        "opponent": "HOU",
+        "fair_odds": 2.47,
         "hist": {
           "label": "40 à 50 %",
           "min": 40,
@@ -28808,7 +28808,7 @@
     "type": "consensus",
     "games": 13,
     "books": 29,
-    "status": "live",
+    "status": "cache",
     "fetched_at": "2026-11-27T00:05:16+00:00",
     "credits": "374"
   },
@@ -29347,75 +29347,6 @@
       "opponent": "PIT"
     },
     {
-      "player_id": "00-0037248",
-      "name": "James Cook",
-      "team": "BUF",
-      "position": "RB",
-      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/anjbznqb9i21wzcgrtbs",
-      "prob": 48.5,
-      "season_tds": 10,
-      "status": null,
-      "games": 10,
-      "snap": 59,
-      "xtd": 0.82,
-      "depth": "RB1",
-      "form": [
-        {
-          "week": 6,
-          "opp": "LV",
-          "car": 22,
-          "tgt": 3,
-          "rec": 3,
-          "yds": 153,
-          "td": 1,
-          "snap": 66
-        },
-        {
-          "week": 8,
-          "opp": "BAL",
-          "car": 21,
-          "tgt": 3,
-          "rec": 2,
-          "yds": 101,
-          "td": 1,
-          "snap": 54
-        },
-        {
-          "week": 9,
-          "opp": "MIN",
-          "car": 31,
-          "tgt": 1,
-          "rec": 0,
-          "yds": 107,
-          "td": 1,
-          "snap": 64
-        },
-        {
-          "week": 10,
-          "opp": "NYJ",
-          "car": 18,
-          "tgt": 1,
-          "rec": 0,
-          "yds": 157,
-          "td": 1,
-          "snap": 61
-        },
-        {
-          "week": 11,
-          "opp": "MIA",
-          "car": 22,
-          "tgt": 2,
-          "rec": 2,
-          "yds": 92,
-          "td": 1,
-          "snap": 53
-        }
-      ],
-      "scored_last": 5,
-      "game_id": "2026_12_KC_BUF",
-      "opponent": "KC"
-    },
-    {
       "player_id": "00-0036900",
       "name": "Ja'Marr Chase",
       "team": "CIN",
@@ -29483,6 +29414,75 @@
       "scored_last": 3,
       "game_id": "2026_12_NO_CIN",
       "opponent": "NO"
+    },
+    {
+      "player_id": "00-0037248",
+      "name": "James Cook",
+      "team": "BUF",
+      "position": "RB",
+      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/anjbznqb9i21wzcgrtbs",
+      "prob": 47.7,
+      "season_tds": 10,
+      "status": null,
+      "games": 10,
+      "snap": 59,
+      "xtd": 0.82,
+      "depth": "RB1",
+      "form": [
+        {
+          "week": 6,
+          "opp": "LV",
+          "car": 22,
+          "tgt": 3,
+          "rec": 3,
+          "yds": 153,
+          "td": 1,
+          "snap": 66
+        },
+        {
+          "week": 8,
+          "opp": "BAL",
+          "car": 21,
+          "tgt": 3,
+          "rec": 2,
+          "yds": 101,
+          "td": 1,
+          "snap": 54
+        },
+        {
+          "week": 9,
+          "opp": "MIN",
+          "car": 31,
+          "tgt": 1,
+          "rec": 0,
+          "yds": 107,
+          "td": 1,
+          "snap": 64
+        },
+        {
+          "week": 10,
+          "opp": "NYJ",
+          "car": 18,
+          "tgt": 1,
+          "rec": 0,
+          "yds": 157,
+          "td": 1,
+          "snap": 61
+        },
+        {
+          "week": 11,
+          "opp": "MIA",
+          "car": 22,
+          "tgt": 2,
+          "rec": 2,
+          "yds": 92,
+          "td": 1,
+          "snap": 53
+        }
+      ],
+      "scored_last": 5,
+      "game_id": "2026_12_KC_BUF",
+      "opponent": "KC"
     },
     {
       "player_id": "00-0038606",
@@ -29623,73 +29623,73 @@
       "opponent": "NO"
     },
     {
-      "player_id": "00-0041013",
-      "name": "Emmett Johnson",
-      "team": "KC",
+      "player_id": "00-0032764",
+      "name": "Derrick Henry",
+      "team": "BAL",
       "position": "RB",
-      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/avdz4njz1slqn7ktqcuq",
-      "prob": 40.9,
-      "season_tds": 5,
+      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tm79x0iknqg6hms3ypyt",
+      "prob": 40.5,
+      "season_tds": 12,
       "status": null,
-      "games": 10,
-      "snap": 58,
-      "xtd": 0.35,
-      "depth": "RB2",
+      "games": 11,
+      "snap": 52,
+      "xtd": 0.87,
+      "depth": "RB1",
       "form": [
         {
           "week": 7,
-          "opp": "SEA",
-          "car": 0,
-          "tgt": 3,
-          "rec": 2,
-          "yds": 17,
+          "opp": "CIN",
+          "car": 17,
+          "tgt": 2,
+          "rec": 1,
+          "yds": 49,
           "td": 0,
-          "snap": 26
+          "snap": 51
         },
         {
           "week": 8,
-          "opp": "DEN",
-          "car": 1,
-          "tgt": 5,
-          "rec": 5,
-          "yds": 143,
+          "opp": "BUF",
+          "car": 11,
+          "tgt": 2,
+          "rec": 2,
+          "yds": 60,
           "td": 1,
-          "snap": 19
+          "snap": 45
         },
         {
           "week": 9,
-          "opp": "NYJ",
-          "car": 6,
+          "opp": "JAX",
+          "car": 17,
           "tgt": 0,
           "rec": 0,
-          "yds": 34,
-          "td": 1,
-          "snap": 30
+          "yds": 57,
+          "td": 0,
+          "snap": 50
         },
         {
           "week": 10,
-          "opp": "ATL",
-          "car": 22,
-          "tgt": 7,
-          "rec": 6,
-          "yds": 171,
+          "opp": "LAC",
+          "car": 10,
+          "tgt": 5,
+          "rec": 5,
+          "yds": 20,
           "td": 2,
-          "snap": 88
+          "snap": 55
         },
         {
           "week": 11,
-          "opp": "ARI",
-          "car": 23,
-          "tgt": 4,
+          "opp": "CAR",
+          "car": 13,
+          "tgt": 5,
           "rec": 4,
-          "yds": 143,
+          "yds": 111,
           "td": 1,
-          "snap": 82
+          "snap": 49
         }
       ],
-      "scored_last": 4,
-      "game_id": "2026_12_KC_BUF",
-      "opponent": "BUF"
+      "scored_last": 3,
+      "game_id": "2026_12_BAL_HOU",
+      "opponent": "HOU"
     }
   ],
   "scorer_model": {
@@ -38423,7 +38423,7 @@
     }
   ],
   "studies": {
-    "generated_at": "2026-11-27T00:05:19+00:00",
+    "generated_at": "2026-11-27T00:35:37+00:00",
     "spread_sd": {
       "best_sd": 11.0,
       "games": 2915
