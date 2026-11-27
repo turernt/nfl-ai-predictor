@@ -106,7 +106,7 @@
   },
   {
    "date": "2026-11-27",
-   "prob_home": 31.6,
+   "prob_home": 31.1,
    "spread": 4.5,
    "books": 29
   }
@@ -132,7 +132,7 @@
   },
   {
    "date": "2026-11-27",
-   "prob_home": 83.0,
+   "prob_home": 83.3,
    "spread": -10.0,
    "books": 28
   }
@@ -158,7 +158,7 @@
   },
   {
    "date": "2026-11-27",
-   "prob_home": 73.3,
+   "prob_home": 73.7,
    "spread": -6.5,
    "books": 29
   }
@@ -184,7 +184,7 @@
   },
   {
    "date": "2026-11-27",
-   "prob_home": 28.1,
+   "prob_home": 28.6,
    "spread": 6.0,
    "books": 28
   }
@@ -211,7 +211,7 @@
   {
    "date": "2026-11-27",
    "prob_home": 31.4,
-   "spread": 5.0,
+   "spread": 5.5,
    "books": 29
   }
  ],
@@ -262,8 +262,8 @@
   },
   {
    "date": "2026-11-27",
-   "prob_home": 89.8,
-   "spread": -14.5,
+   "prob_home": 89.2,
+   "spread": -14.0,
    "books": 28
   }
  ],
@@ -288,7 +288,7 @@
   },
   {
    "date": "2026-11-27",
-   "prob_home": 44.8,
+   "prob_home": 44.5,
    "spread": 2.0,
    "books": 29
   }
@@ -314,7 +314,7 @@
   },
   {
    "date": "2026-11-27",
-   "prob_home": 25.2,
+   "prob_home": 25.1,
    "spread": 6.5,
    "books": 29
   }
@@ -340,7 +340,7 @@
   },
   {
    "date": "2026-11-27",
-   "prob_home": 57.7,
+   "prob_home": 57.5,
    "spread": -3.0,
    "books": 29
   }
@@ -366,7 +366,7 @@
   },
   {
    "date": "2026-11-27",
-   "prob_home": 68.0,
+   "prob_home": 67.8,
    "spread": -4.5,
    "books": 29
   }
@@ -392,7 +392,7 @@
   },
   {
    "date": "2026-11-27",
-   "prob_home": 59.5,
+   "prob_home": 59.8,
    "spread": -3.0,
    "books": 29
   }
